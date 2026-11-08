@@ -1,0 +1,2 @@
+# Resumable local API state, locks, and in-flight media (never credentials).
+episodes/**/jobs/useapi/

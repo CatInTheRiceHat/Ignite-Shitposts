@@ -1,0 +1,685 @@
+{
+  "git_status": " M .DS_Store\n",
+  "files": [
+    {
+      "path": "zack-d-films-ai-video-generator-main/README.zh.md",
+      "bytes": 3562,
+      "sha256": "166d1ad3092271f76238ad6b4af83eea2a765ec63bbd05f13a32517e3a820016"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/SKILL.zh.md",
+      "bytes": 2292,
+      "sha256": "4d780125b38b7cee17746537475dfc3bc4470b30ea59b312d69121aa7135b069"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/README.md",
+      "bytes": 10579,
+      "sha256": "ccb048e39185880818c2ebb6f906c5dd1e1afc4af11fdb9f6bf256313a231cb3"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/.gitignore",
+      "bytes": 143,
+      "sha256": "f708334a53bca3d04add34c3c49ce5116f66a909baad9a4d837652c631cf0e25"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/package.json",
+      "bytes": 862,
+      "sha256": "17ae4fed9dff1c0a02ff66a6e9563bf274a3653f280b4f425572f4580248e031"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/SKILL.md",
+      "bytes": 5993,
+      "sha256": "c1a45aac610e5fa3da539c5814b379af0587417eb2d45b18921bbed2e4177001"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/AGENTS.md",
+      "bytes": 1245,
+      "sha256": "33dfa9712fcae3bee56074008b0cecf7621061ca698c05471cb2a41fec590aa8"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/references/prompt-guide.md",
+      "bytes": 3147,
+      "sha256": "f5315a939cb3d1eba07f20b41bc2bd1a4b5ba1b7073c9acf70236e021585f7a8"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/references/voices.md",
+      "bytes": 1091,
+      "sha256": "efa758f5b9fd6a9d4fbd915ed10ea6bf16f487da52cbfc13631afe8b945bbf80"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/references/character-sheets.md",
+      "bytes": 2620,
+      "sha256": "c7bd8a17a247be23696586b073c866ece4942d472184a644b5e0632f5c382531"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/references/beat-layer.md",
+      "bytes": 3534,
+      "sha256": "242a4d65ebf648184aefe9ee9f5f3a525e82c0808da6612784c584c5f8d3724d"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/references/models-and-gotchas.md",
+      "bytes": 2844,
+      "sha256": "99234b1baacaeee3d3a0fa6423d9e9cc2f102136ef2f5d1666a6d72f740e6bab"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/examples/mosquito_bite_beats.json",
+      "bytes": 2915,
+      "sha256": "87943904f5d8fe72d8bb681241d72588d42cc7e4d71d4a5446637847f9aeead6"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/examples/swallow_gum_beats.json",
+      "bytes": 2902,
+      "sha256": "59222104e4d0efa750ac82796224e5b6d8c1be725233b20ba24d0fe86dd69d66"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/keyframes.py",
+      "bytes": 2376,
+      "sha256": "a2d441daf94217f9c5dc3d9494ceb48fe8503921ab4800dc3aa9087f2931bf75"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/script_generator.py",
+      "bytes": 5115,
+      "sha256": "d28a3088881c492690c58cedbbef90ceae7249f62c99689ee1b6b6bd5809422f"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/provider.py",
+      "bytes": 8519,
+      "sha256": "e646aff24e7f6b89910c2443b6809c151d3f15bce0e3d6de1e0a59bd185a91a1"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/clips.py",
+      "bytes": 2218,
+      "sha256": "48def3fe4db28dc6763b054f2bede9d37aa71105451f7f3317bc88a64fb3a820"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/calculus_pilot.py",
+      "bytes": 14898,
+      "sha256": "fadc8220ae308fa37ebaa1891860a88a06968f3a6cd84d018a5d1edfb0cd9aef"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/assemble.py",
+      "bytes": 11021,
+      "sha256": "26b6ca200d73123163d4f732e4a771305d0796a495de2b81ae8903dea8c83101"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/character_sheets.py",
+      "bytes": 2256,
+      "sha256": "9bfdc467442b0bf7577363da2c820b4cbacd33b02eb634e615823cd2e6f3712c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/audio.py",
+      "bytes": 2055,
+      "sha256": "2f24d6a83b9bf89aa01f39ddf1a62c68149b5258ede25b952dd934e9b1af9a73"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/calculus_edit.py",
+      "bytes": 24251,
+      "sha256": "be220ada95d41fe1bf58e9010a1e6601c1d4f0dcd79cbd86935a6e6d2ff7ca8c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/muapi_compat.py",
+      "bytes": 391,
+      "sha256": "b6ec642b9d41c082cf60c8609a84fb07218ae4f933745d22338416258fe1adab"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/scripts/trend_research.py",
+      "bytes": 2029,
+      "sha256": "6987a7e03a6649733371d72091ce4c24738e727ae7a56fe39268027a7ec95ed5"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/final.mp4",
+      "bytes": 7861368,
+      "sha256": "ed61af654337e719cc5add566071cc184b33dee9b3a536a7c55ca0b1223d928d"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/beats.json",
+      "bytes": 3084,
+      "sha256": "c868566685fd15c7d758b3a28a5d590d7024a2decd56c97c91ba8c8780387727"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/generated_keyframe.jpg",
+      "bytes": 710284,
+      "sha256": "aaf950db5b4bba495e12bee65aa8ed81e3dba81abd5f8571c53b938b41d43ca1"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/website-status-before.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/source-integrity.json",
+      "bytes": 416,
+      "sha256": "b773f80f5ca816507a4b09643661d650e60c0dd9481fb7fe7000172ddd47ba33"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/website-status-before-v2.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/timeline.resolved.json",
+      "bytes": 1254,
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/captions.srt",
+      "bytes": 281,
+      "sha256": "30c5d85f2a85bcd1554c07c0b09a10187d277d8f8b5097ef9201b21ea3faeace"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/edit.json",
+      "bytes": 1254,
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/asset-manifest.json",
+      "bytes": 645,
+      "sha256": "3587d7739f987bfcf8c0a24a45d2c373ad3318daf939b285b2bac536302509e0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/source-integrity-v2.json",
+      "bytes": 439,
+      "sha256": "7df9a321a65fd72eecf552543cd86bd693ed4d85e095a897d768922a47b13aad"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/README.md",
+      "bytes": 4728,
+      "sha256": "209e15d4d4cff78594e1bc08255dae0e752e2417377825c479561d69e0d4b7f5"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/storyboard.jpg",
+      "bytes": 193834,
+      "sha256": "b2bf50f799ca248068d3232e25e28f4c6ff9c84b624b201b4be982e0d166749a"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/.gitignore",
+      "bytes": 8,
+      "sha256": "70a213afeabe5ac38ae4c88b2c7002ce5068b91a3e57a032245ab809dc6fa460"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/validation.json",
+      "bytes": 635,
+      "sha256": "76f428e00c87f9f97c6292755ba9a39d94bdb3523c4a17078ac63c9f1b5cf1c1"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/decode-check.log",
+      "bytes": 1720,
+      "sha256": "4fc10f8c27d26f49a22c8933c75268107f54da5b37e1c75975ef15d5995507e5"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/animatic.mp4",
+      "bytes": 701387,
+      "sha256": "0a92b2a6d71ed0135ed4c6a925239396b39a3eade27a39a24e53232ae60c00df"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-with-overlays.mp4",
+      "bytes": 491223,
+      "sha256": "4b3669813216205ce5f3a340cfc8b265efd46e0bc9a4de79eb5462db52338d7d"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-clean.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/narration.txt",
+      "bytes": 153,
+      "sha256": "44120924dbf2f0a0c8b144cf954a5cbac9f3ba1e2303aefbc8edccda14e1a44a"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-with-overlays.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-clean.mp4",
+      "bytes": 502742,
+      "sha256": "19dd5f508dc0af846c2cc16c57caf1b050b6568a835c7c4d7ec66d5eaa4c96a0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/layers/tangent.svg",
+      "bytes": 336,
+      "sha256": "5f5013557aeb9c502f4ed0ab9346b24c3727e10c038e2f6da48dfddb636ef709"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/layers/graph.svg",
+      "bytes": 11809,
+      "sha256": "78731a38e42a7c162239867d1bfdcb5298f50463ceff68b9ab11a85a3013a461"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/imports/voiceover-cues.template.json",
+      "bytes": 698,
+      "sha256": "e9f46429ec301be466034e1adfedf2544b54fb7709ed26ddf79031719142ce8b"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/imports/README.md",
+      "bytes": 2974,
+      "sha256": "7ee4c7fe85a328ed45abdee59ad9d646522c3151feb007821520afd8bee912d5"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/hop-temp.aiff",
+      "bytes": 112254,
+      "sha256": "19430b81cf3028ff1a4febf40833bddc697d422c98946c730ee921e7b80c02ec"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/reaction-temp.aiff",
+      "bytes": 115708,
+      "sha256": "7c102c06535c9570b66cabbe59a521267c5b3702380d4a05c5a0141f667f75e9"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/hop-fitted.wav",
+      "bytes": 345678,
+      "sha256": "a6e996cff1a807afc98ab1842c77fcfd6241a4dff7109bc4fa3d3339f3e5f516"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/mix.wav",
+      "bytes": 1440078,
+      "sha256": "471d0ecc83b137184c436a92e3e64c00e0dfaf643244efc9aa55a40c60233b10"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/reaction-temp.wav",
+      "bytes": 243044,
+      "sha256": "7eac62c6533845a2741894675631d07d4fc6c0fa7170931fb65da4741f14e84b"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/lean-fitted.wav",
+      "bytes": 374478,
+      "sha256": "9b85b4f79f26d63d8a58ae305cb24892e5f91aadf8d5cbf32771e14562889bd9"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/graph-temp.aiff",
+      "bytes": 114684,
+      "sha256": "d225c929f1f75ccfdae2b13b98c47519dcc4a6e5d9530b93a5e02625c171a3f0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/graph-fitted.wav",
+      "bytes": 412878,
+      "sha256": "cb20e9fa17ed84a5601ebcee11ca68dbbe17c5560d589ee5c68160eb5234af76"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/reaction-fitted.wav",
+      "bytes": 307278,
+      "sha256": "19824b6581b2904330e938e6ff3e43d0bfe1ddd8a2c0f8553f15c5a68e036661"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/graph-temp.wav",
+      "bytes": 240814,
+      "sha256": "ac98bfe893a6ee49b943a01b51b0fdf03d4b6ef321ea5da6f405fd812f450eaf"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/sfx.wav",
+      "bytes": 1440044,
+      "sha256": "17f1a205c0cb625de07b84e2f15dee85c6d1ac961f6f69e0b583ba15cec05afd"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/lean-temp.aiff",
+      "bytes": 80754,
+      "sha256": "4721104862e9efe9cba96df3f0182a1431a1da7e72dc042530067854b8426e21"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/hop-temp.wav",
+      "bytes": 235524,
+      "sha256": "1e322dfd81cb93f1824a7489d217d5b4c6bf1e24b579ca062fb64d5fce941387"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/narration.wav",
+      "bytes": 1440078,
+      "sha256": "eceb265febfc087099059617bbc230788e8c6b25ecdc69bb03f971fcee1e8528"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/voice-raw.wav",
+      "bytes": 1440044,
+      "sha256": "a80e5f237dd1e2108d7aee55a1c06bb3c7d6d61b6c96bbe2f5910628c23d427b"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/lean-temp.wav",
+      "bytes": 166954,
+      "sha256": "026f806b3bf5521133d4c8c0f30c3d564dbf700574927a158e78849e1a352d68"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_2.png",
+      "bytes": 692205,
+      "sha256": "ea88c3e35ac0d745c1a553f0519793dbe3a6e6d17c79518cded1dd7402a7d5f0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_3.png",
+      "bytes": 675122,
+      "sha256": "b8c5ce72491d52bfcca3bdb5718f69b298a480e43dc98773426b1f413d4356ad"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_1.png",
+      "bytes": 680853,
+      "sha256": "129f88b62a2828659661c15cdfa5c043c1d5e8d611229dbd958a701e0ca80605"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_4.png",
+      "bytes": 39675,
+      "sha256": "fb2a368cb53f1ae6e48ab30723611f49f6f41b26f19c2e1f8e167d022630d7b5"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_5.png",
+      "bytes": 721298,
+      "sha256": "3ccc2c02fece11a3a3fa6efa497e54179549a840aa978c9dfbc1342232302c14"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/sol-full-body.png",
+      "bytes": 540293,
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/calculus-painted-scene.jpg",
+      "bytes": 1621297,
+      "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/02-lean-start.png",
+      "bytes": 757539,
+      "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/01-hop-start.png",
+      "bytes": 764464,
+      "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/03-reaction-start.png",
+      "bytes": 794947,
+      "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/prompts.md",
+      "bytes": 5646,
+      "sha256": "382106899d502aff96474e2bb7c57350fabd1e04a51f835bf0f2ec684be0a4df"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/match-cut-target.png",
+      "bytes": 24528,
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/RammettoOne-Regular.ttf",
+      "bytes": 69392,
+      "sha256": "0063c5480f7868be5dd95dd668575643ff953199541dce65fe5a88310bd7733f"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Nunito-OFL.txt",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/RammettoOne-OFL.txt",
+      "bytes": 4429,
+      "sha256": "88ae96c3cfcaea1d7d573675d7513c25716a048fdfa21f16768142ef235f9136"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Nunito.ttf",
+      "bytes": 276932,
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Poppins-OFL.txt",
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Poppins-SemiBold.ttf",
+      "bytes": 157312,
+      "sha256": "d3bf1bdaf0550e83da9ac0b1d1d9fe6db086835a83aa28578e609a394b9a0286"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/render.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/picture.mp4",
+      "bytes": 430800,
+      "sha256": "e579fb3e6e1b1ddb1b39f9feb90be557fcf68f40bcacbbe6a6d858a0e759f2c4"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/captions.srt",
+      "bytes": 348,
+      "sha256": "8cb66b89eb9bfbac4fc54f83fe020e7c1f268cf8595edad8cf39fdd1b654ce18"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/calculus_pilot.py",
+      "bytes": 14757,
+      "sha256": "bf6f224d4f6aeb0b46753dc227ed352e263556f5fa9a63abc12ae20f413feecf"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/README.md",
+      "bytes": 3212,
+      "sha256": "20c2b9e8bedc5758464064ffd00573f6042c5527da7f919b3078bf16c1a1bbae"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/storyboard.jpg",
+      "bytes": 173987,
+      "sha256": "b725a691bd3b39a0206f1102a8015d5febd232b12ae4887bc7104173b19fdbe3"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/validation.json",
+      "bytes": 537,
+      "sha256": "0a4d9b40ef678dc594ae676dc9579ecea00461fbdcdd0e67140b1b75756c5d03"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/decode-check.log",
+      "bytes": 1717,
+      "sha256": "38334baa151db35a5e30b838b28457bec8f4f310655c887bc869fd9d7aac617c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/final.mp4",
+      "bytes": 649243,
+      "sha256": "7827e5de6c7dd5da5a88917a4930bdad4648d4a68fc94fe94d54eedb7b5c7dbc"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/beats.json",
+      "bytes": 1738,
+      "sha256": "b8130eb3a6c03fda145aaf53e7d48806fb0b2342e39d9ee7dffe117ccbf60dbe"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/narration.txt",
+      "bytes": 184,
+      "sha256": "4e4ecc85f7e311b24a70349db6ed8bde70ae4a71e28afe55783caa03966cc9a5"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_4-raw.wav",
+      "bytes": 150588,
+      "sha256": "3a1867ebe3a2fcbf096757c95745b902ae921777e917e6a28bdfad1aee04cf52"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_4.aiff",
+      "bytes": 73236,
+      "sha256": "b17041a0ecfddbd974796ade56b134b72f3cbe0f9f13e1ca9ead6f2eb5affb12"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/timing.json",
+      "bytes": 510,
+      "sha256": "ba92b2e1004a1b4a0bc79e69607ba3e2aa35e93d50f5d755a22dfb05c2414efe"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_5.aiff",
+      "bytes": 114552,
+      "sha256": "80e8e75e3ce11b5261eb2e50a1eab36347f617a27d53398fb7bab81617612a60"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_5-raw.wav",
+      "bytes": 240528,
+      "sha256": "ca5188507ea12ed0ab75850a42a2c55c59d39f8983258c7636b86ebe0b008add"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_2.aiff",
+      "bytes": 80892,
+      "sha256": "4c98712b8afad84640f85bce2826ebd19474b828c8b69c35c17d0dbeb9e58e7c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_1.wav",
+      "bytes": 288078,
+      "sha256": "1c610bb7d42c4f26e5af1f2c70d5729b503b84aa5cb5361696133dd6868ea6b4"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_3.wav",
+      "bytes": 288078,
+      "sha256": "9e3fc08d82af7536e8c60455cfa49a2b44fbf7a98ea7aec07b352e20c0c86e28"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_2.wav",
+      "bytes": 288078,
+      "sha256": "122208061683e1c1217c8ca9c3182d0c1d1f80e8e3187f511a305e7a377df75f"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_5.wav",
+      "bytes": 288078,
+      "sha256": "a1e3d5908466623b30cf7589a1e2d3a6a1890c418329b044e89df320583666f6"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_4.wav",
+      "bytes": 288078,
+      "sha256": "6a61ee4d77c9a5be636bab420a1590dfe7f7266260c7a44e8ee7efe8c9cc49b0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_3.aiff",
+      "bytes": 84174,
+      "sha256": "d0a84e76d75c829b4185a02a09636dabfbf4bb579b7d16c8c0654e38a9a21a3c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_3-raw.wav",
+      "bytes": 174398,
+      "sha256": "e207638858db6a67698398c177ff248283769f61e84dfa1fa221aa787d0003b9"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_2-raw.wav",
+      "bytes": 167254,
+      "sha256": "55a47a37ee4ded8e76e6700d2550540ef8e4286fbda006550244e8a2f1ed3eca"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_1.aiff",
+      "bytes": 85362,
+      "sha256": "6ff73c487eb78d3448f6dd183aeef1b838d8538b25f3704af7710c007281009c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/narration.wav",
+      "bytes": 1440044,
+      "sha256": "b01a9434acffc846abfbb615e0ffc8f1758500ddb55df5ca05c9cdf7dfdc08c6"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_1-raw.wav",
+      "bytes": 176984,
+      "sha256": "18d2b3b88323ac655dacfe3bbe2fee53cde80c73e57a30daac1b9cc009531be4"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_2.png",
+      "bytes": 73106,
+      "sha256": "e7e33b36d5651ab88c9c2b2eed744ed8f3dd43c7e2d86850029d503a05127202"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_3.png",
+      "bytes": 70622,
+      "sha256": "3728d9d4207332be7018de69bc35ec9daf3c8f1cc2a0911976272edc746cf0ef"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_1.png",
+      "bytes": 245944,
+      "sha256": "52b9b5366069a6e5ee2199f64f7e069f2592ade6d9a0b871adb429782276b132"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_4.png",
+      "bytes": 67740,
+      "sha256": "f687cf5104656570f596be3323a434b6f73c873dc62e7b97ab35849668859483"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_5.png",
+      "bytes": 278474,
+      "sha256": "5b23c59fbffda48b8cd28ec8f6f3551f8fae4009741b9be7f8476dc96d698143"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_3_a.mp4",
+      "bytes": 1948388,
+      "sha256": "5d4a0ecedae7e3e2f9ae5f04cd93927ecb89299377d64e52366ff661839f95b0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_1_b.mp4",
+      "bytes": 3124083,
+      "sha256": "f4f89cd5ae74481d56fa6d1119f1da44be374590b0aae2967e1b7c5414762d18"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_1_a.mp4",
+      "bytes": 2375670,
+      "sha256": "67542e3b3b63b8c732a438ed6b8d2e0240a10fbcca53d1f925a69b04f9572132"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_2_b.mp4",
+      "bytes": 1485688,
+      "sha256": "da66dac55c7debefd8b62dcdc95db2b831fed1f55c3b7d875d153a00cf2b5dc6"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_2_a.mp4",
+      "bytes": 2088263,
+      "sha256": "74d69b7da5f09c7a72fe9c65b731a716e686d5443f999660351fae16e5620435"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_2_a.png",
+      "bytes": 589263,
+      "sha256": "f4fe0cdea1c7318d77a67871bfa8308c9bd53101c789c842e8e5eb126e61c023"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_2_b.png",
+      "bytes": 578167,
+      "sha256": "457132aa53ad5e38a9987e0e6b197f67f3d865ec731a2924e1095384bdab686b"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_1_a.png",
+      "bytes": 645454,
+      "sha256": "8651ef5f8776324e2a99f79f7beed2e83504b597e97da695bc6699ea783494ef"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_3_a.png",
+      "bytes": 595277,
+      "sha256": "18861ef477e22c94200aaec7eaaace60a877635080d119f1bafe931fccc0e7e0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_1_b.png",
+      "bytes": 783180,
+      "sha256": "ce5a6949ae266bc4a6d5a58d4d2ca93c9bc10417ed8d078aec8e5f10ab18ebd4"
+    },
+    {
+      "path": "Music/Hide and Sneak 4.mp3",
+      "bytes": 2847109,
+      "sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23"
+    },
+    {
+      "path": "Music/Pizzicato Comedy 4.mp3",
+      "bytes": 2320499,
+      "sha256": "a3417d5ac02f7569969e978196a5118d602f1bc7cae97fc429d6596bdea35c20"
+    },
+    {
+      "path": "Music/Roblox Break In OST - Larry Stairs Extended.mp3",
+      "bytes": 33370320,
+      "sha256": "00a18ab756e13e51e38f63bb4c67b068c4a84a6e48d32fbf82e8048c946ec379"
+    },
+    {
+      "path": "Music/Lurking Behind 4.mp3",
+      "bytes": 2653501,
+      "sha256": "3fa9d80ec9e5d6a8a797b1e50fbfe6539ba84a5f89c2205654ad24c64604d260"
+    },
+    {
+      "path": "Music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3",
+      "bytes": 3083920,
+      "sha256": "86547df5be914d00059f3cbdcb9bb79fff8e331bec5453aeadd13576930420d1"
+    },
+    {
+      "path": "Music/ignite-sol-shorts-preview.mp4",
+      "bytes": 191641,
+      "sha256": "2dac91645c8ac45a576da4f449b2736ae3c09d6db85a0b638dc3307c2765aa67"
+    },
+    {
+      "path": "Music/Roblox Break In OST - Daytime Extended.mp3",
+      "bytes": 35115909,
+      "sha256": "8a143e0f832734effe1f79e467717f1cfd78a6486c39908e06938f35060c4213"
+    },
+    {
+      "path": "Music/Roblox Break In OST - Nighttime Extended 4.mp3",
+      "bytes": 33482949,
+      "sha256": "be6a6e4d1d439b3610e060d4cafc842110c2f5d1a3560f64afad9d3070abdb8b"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "painted_ignite",
+  "paper": "#FFF8F0",
+  "ink": "#1A1A2E",
+  "orange": "#F07B2A",
+  "teal": "#4F9298",
+  "direction": "Visible painted texture, strong perspective, deliberate stepped poses and reaction holds.",
+  "sol": "Original asymmetrical flame silhouette, layered orange and cream, two dark oval eyes, tiny rounded limbs, no mouth.",
+  "reference": "assets/sol-full-body.png",
+  "painted_scene": "assets/calculus-painted-scene.jpg"
+}

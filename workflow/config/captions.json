@@ -1,0 +1,10 @@
+{
+  "mode": "burn",
+  "font": "Nunito.ttf",
+  "size": 34,
+  "color": "#FFFFFF",
+  "background": "#1A1A2E",
+  "box": [32, 1052, 688, 1196],
+  "anchor": [360, 1124],
+  "max_text_width": 570
+}

@@ -1,0 +1,174 @@
+[
+  {
+    "from": "zack-d-films-ai-video-generator-main",
+    "to": "workflow/vendor/zack-d-films-ai-video-generator"
+  },
+  {
+    "from": "workflow/vendor/zack-d-films-ai-video-generator/scripts/calculus_pilot.py",
+    "to": "workflow/scripts/calculus_pilot.py"
+  },
+  {
+    "from": "workflow/vendor/zack-d-films-ai-video-generator/scripts/calculus_edit.py",
+    "to": "workflow/scripts/calculus_edit.py"
+  },
+  {
+    "from": "workflow/vendor/zack-d-films-ai-video-generator/out/calculus_pilot",
+    "to": "workflow/episodes/calculus_pilot"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/assets",
+    "to": "workflow/assets"
+  },
+  {
+    "from": "Music",
+    "to": "workflow/assets/music"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/generation/prompts.md",
+    "to": "workflow/episodes/calculus_pilot/flow-video-prompts.md"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/generation",
+    "to": "workflow/episodes/calculus_pilot/keyframes/blocking"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/previews",
+    "to": "workflow/episodes/calculus_pilot/renders/previews"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/archive",
+    "to": "workflow/episodes/calculus_pilot/renders/archive"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/timeline.resolved.json",
+    "to": "workflow/episodes/calculus_pilot/renders/timeline.resolved.json"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/storyboard.jpg",
+    "to": "workflow/episodes/calculus_pilot/renders/storyboard.jpg"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/validation.json",
+    "to": "workflow/episodes/calculus_pilot/renders/validation.json"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/decode-check.log",
+    "to": "workflow/episodes/calculus_pilot/renders/decode-check.log"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/animatic.mp4",
+    "to": "workflow/episodes/calculus_pilot/renders/animatic.mp4"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/picture-with-overlays.mp4",
+    "to": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.mp4"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/picture-clean.log",
+    "to": "workflow/episodes/calculus_pilot/renders/picture-clean.log"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/picture-with-overlays.log",
+    "to": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.log"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/picture-clean.mp4",
+    "to": "workflow/episodes/calculus_pilot/renders/picture-clean.mp4"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/audio",
+    "to": "workflow/episodes/calculus_pilot/audio-generated-move"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/audio-generated-move",
+    "to": "workflow/episodes/calculus_pilot/audio/generated"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/imports/voiceover-cues.template.json",
+    "to": "workflow/episodes/calculus_pilot/audio/voiceover-cues.template.json"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/imports/README.md",
+    "to": "workflow/episodes/calculus_pilot/MEDIA.md"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/website-status-before.txt",
+    "to": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before.txt"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/source-integrity.json",
+    "to": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity.json"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/website-status-before-v2.txt",
+    "to": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt"
+  },
+  {
+    "from": "workflow/episodes/calculus_pilot/source-integrity-v2.json",
+    "to": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity-v2.json"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/hop-temp.aiff",
+    "to": "episodes/calculus_pilot/audio/generated/hop-temp.aiff"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/reaction-temp.aiff",
+    "to": "episodes/calculus_pilot/audio/generated/reaction-temp.aiff"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/hop-fitted.wav",
+    "to": "episodes/calculus_pilot/audio/generated/hop-fitted.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/mix.wav",
+    "to": "episodes/calculus_pilot/audio/generated/mix.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/reaction-temp.wav",
+    "to": "episodes/calculus_pilot/audio/generated/reaction-temp.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/lean-fitted.wav",
+    "to": "episodes/calculus_pilot/audio/generated/lean-fitted.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/graph-temp.aiff",
+    "to": "episodes/calculus_pilot/audio/generated/graph-temp.aiff"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/graph-fitted.wav",
+    "to": "episodes/calculus_pilot/audio/generated/graph-fitted.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/reaction-fitted.wav",
+    "to": "episodes/calculus_pilot/audio/generated/reaction-fitted.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/graph-temp.wav",
+    "to": "episodes/calculus_pilot/audio/generated/graph-temp.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/sfx.wav",
+    "to": "episodes/calculus_pilot/audio/generated/sfx.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/lean-temp.aiff",
+    "to": "episodes/calculus_pilot/audio/generated/lean-temp.aiff"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/hop-temp.wav",
+    "to": "episodes/calculus_pilot/audio/generated/hop-temp.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/narration.wav",
+    "to": "episodes/calculus_pilot/audio/generated/narration.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/voice-raw.wav",
+    "to": "episodes/calculus_pilot/audio/generated/voice-raw.wav"
+  },
+  {
+    "from": "episodes/calculus_pilot/audio 2/lean-temp.wav",
+    "to": "episodes/calculus_pilot/audio/generated/lean-temp.wav"
+  }
+]

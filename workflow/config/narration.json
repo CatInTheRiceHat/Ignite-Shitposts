@@ -1,0 +1,9 @@
+{
+  "provider": "MoGoFun",
+  "voice": "Cub (Female)",
+  "role": "off-screen",
+  "voice_lufs": -16,
+  "sfx_peak_dbfs": -30,
+  "temporary_voice": "Samantha",
+  "note": "Local temporary speech is only for a labeled animatic and must never be represented as Cub."
+}
