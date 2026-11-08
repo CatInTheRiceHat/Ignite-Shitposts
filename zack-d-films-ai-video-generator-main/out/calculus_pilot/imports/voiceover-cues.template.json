@@ -1,0 +1,12 @@
+{
+  "confirmed": false,
+  "source_sha256": null,
+  "note": "Placeholder edit times only. When the MoGoFun download exists, use the suggested file's hash and replace these times with measured phrase boundaries. Tangent reveal must match the spoken onset of Tangent.",
+  "cues": [
+    {"id": "hop", "start": 0.0, "end": 3.6, "text": "Sol brought confidence. Not brakes."},
+    {"id": "lean", "start": 3.6, "end": 7.5, "text": "How steep is this curve right here?"},
+    {"id": "graph", "start": 7.5, "end": 11.8, "text": "Tangent line. Its slope is the derivative."},
+    {"id": "reaction", "start": 11.8, "end": 15.0, "text": "Tiny arms. Massive responsibility."}
+  ],
+  "tangent_reveal_sec": 7.5
+}
