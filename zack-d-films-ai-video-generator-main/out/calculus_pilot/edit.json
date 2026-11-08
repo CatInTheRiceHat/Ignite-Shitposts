@@ -1,0 +1,67 @@
+{
+  "duration_sec": 15.0,
+  "captions": "burn",
+  "narrator": {
+    "provider": "MoGoFun",
+    "voice": "Cub (Female)",
+    "role": "off-screen"
+  },
+  "cues": [
+    {
+      "id": "hop",
+      "start": 0.0,
+      "end": 3.6,
+      "text": "Sol brought confidence. Not brakes."
+    },
+    {
+      "id": "lean",
+      "start": 3.6,
+      "end": 7.5,
+      "text": "How steep is this curve right here?"
+    },
+    {
+      "id": "graph",
+      "start": 7.5,
+      "end": 11.8,
+      "text": "Tangent line. Its slope is the derivative."
+    },
+    {
+      "id": "reaction",
+      "start": 11.8,
+      "end": 15.0,
+      "text": "Tiny arms. Massive responsibility."
+    }
+  ],
+  "tangent_reveal_sec": 7.5,
+  "tangent_draw_sec": 0.2,
+  "graph": {
+    "function": "sqrt",
+    "point_x": 1.0,
+    "x_max": 2.35,
+    "point_px": [
+      360,
+      760
+    ],
+    "x_scale": 240,
+    "y_scale": 224
+  },
+  "clips": {
+    "hop": {
+      "file": "01-hop-on.mp4",
+      "in_sec": 0.0,
+      "hold_sec": 0.25
+    },
+    "lean": {
+      "file": "02-low-side-lean.mp4",
+      "in_sec": 0.0,
+      "hold_sec": 0.3
+    },
+    "reaction": {
+      "file": "03-reaction.mp4",
+      "in_sec": 0.0,
+      "hold_sec": 0.4
+    }
+  },
+  "voice_lufs": -16,
+  "sfx_peak_dbfs": -30
+}

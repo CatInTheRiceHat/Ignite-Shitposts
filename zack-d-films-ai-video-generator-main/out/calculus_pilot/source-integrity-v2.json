@@ -1,0 +1,16 @@
+{
+  "website_status_unchanged_during_revision": true,
+  "artwork": [
+    {
+      "source": "/Users/elaine/Documents/Ignite Website/public/mascots/Mascot.png",
+      "source_unchanged": true,
+      "copy_matches": true
+    },
+    {
+      "source": "/Users/elaine/Documents/Ignite Website/public/courses/Differential Calculus.jpg",
+      "source_unchanged": true,
+      "copy_matches": true
+    }
+  ],
+  "sfx_peak_linear": 0.0316162109375
+}

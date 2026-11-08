@@ -1,0 +1,15 @@
+{
+  "website_git_status_unchanged": true,
+  "assets": [
+    {
+      "source": "/Users/elaine/Documents/Ignite Website/public/mascots/Mascot.png",
+      "source_matches_baseline": true,
+      "copy_matches_source": true
+    },
+    {
+      "source": "/Users/elaine/Documents/Ignite Website/public/courses/Differential Calculus.jpg",
+      "source_matches_baseline": true,
+      "copy_matches_source": true
+    }
+  ]
+}
