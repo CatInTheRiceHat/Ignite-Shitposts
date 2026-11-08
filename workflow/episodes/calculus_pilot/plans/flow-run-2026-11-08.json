@@ -1,0 +1,20 @@
+{
+  "project_url": "https://flow.google.com/project/e677829f-cd97-4cd2-ab35-e9d1b498580e",
+  "budget_credits": 50,
+  "credits_submitted": 0,
+  "requests": [
+    {
+      "asset": "A",
+      "type": "image",
+      "outputs": 1,
+      "aspect_ratio": "9:16",
+      "displayed_cost": 0,
+      "status": "UI clicked; no job or result acknowledged"
+    }
+  ],
+  "preserved_existing_C": "keyframes/C.png",
+  "planned_painted_C": "keyframes/flow-C.png",
+  "status": "stopped_browser_submission_not_acknowledged",
+  "paid_video_requests_submitted": 0,
+  "result": "References uploaded and A prompt staged in Flow; no generated media downloaded. Existing episode media untouched."
+}

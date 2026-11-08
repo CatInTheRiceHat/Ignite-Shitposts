@@ -1,0 +1,852 @@
+{
+  "original_files": 136,
+  "all_original_bytes_preserved": true,
+  "collisions_overwritten": 0,
+  "files": [
+    {
+      "original": "zack-d-films-ai-video-generator-main/README.zh.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/README.zh.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/SKILL.zh.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/SKILL.zh.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/README.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/README.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/.gitignore",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/.gitignore"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/package.json",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/package.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/SKILL.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/SKILL.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/AGENTS.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/AGENTS.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/references/prompt-guide.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/references/prompt-guide.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/references/voices.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/references/voices.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/references/character-sheets.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/references/character-sheets.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/references/beat-layer.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/references/beat-layer.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/references/models-and-gotchas.md",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/references/models-and-gotchas.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/examples/mosquito_bite_beats.json",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/examples/mosquito_bite_beats.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/examples/swallow_gum_beats.json",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/examples/swallow_gum_beats.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/keyframes.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/keyframes.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/script_generator.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/script_generator.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/provider.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/provider.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/clips.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/clips.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/calculus_pilot.py",
+      "preserved_at": [
+        "migration/original-text/scripts/calculus_pilot.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/assemble.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/assemble.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/character_sheets.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/character_sheets.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/audio.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/audio.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/calculus_edit.py",
+      "preserved_at": [
+        "migration/original-text/scripts/calculus_edit.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/muapi_compat.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/muapi_compat.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/scripts/trend_research.py",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/scripts/trend_research.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/final.mp4",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/final.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/beats.json",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/beats.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/generated_keyframe.jpg",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/generated_keyframe.jpg"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/website-status-before.txt",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-clean.log",
+        "episodes/calculus_pilot/renders/picture-with-overlays.log",
+        "episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+        "episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+        "episodes/calculus_pilot/renders/archive/v1/render.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/source-integrity.json",
+      "preserved_at": [
+        "episodes/calculus_pilot/plans/provenance/source-integrity.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/website-status-before-v2.txt",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-clean.log",
+        "episodes/calculus_pilot/renders/picture-with-overlays.log",
+        "episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+        "episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+        "episodes/calculus_pilot/renders/archive/v1/render.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/timeline.resolved.json",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/edit.json",
+        "episodes/calculus_pilot/edit.json",
+        "episodes/calculus_pilot/renders/timeline.resolved.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/captions.srt",
+      "preserved_at": [
+        "episodes/calculus_pilot/captions.srt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/edit.json",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/edit.json",
+        "episodes/calculus_pilot/edit.json",
+        "episodes/calculus_pilot/renders/timeline.resolved.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/asset-manifest.json",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/asset-manifest.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/source-integrity-v2.json",
+      "preserved_at": [
+        "episodes/calculus_pilot/plans/provenance/source-integrity-v2.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/README.md",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/README.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/storyboard.jpg",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/storyboard.jpg"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/.gitignore",
+      "preserved_at": [
+        "episodes/calculus_pilot/.gitignore"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/validation.json",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/renders/validation.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/decode-check.log",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/decode-check.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/animatic.mp4",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/animatic.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-with-overlays.mp4",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-with-overlays.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-clean.log",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-clean.log",
+        "episodes/calculus_pilot/renders/picture-with-overlays.log",
+        "episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+        "episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+        "episodes/calculus_pilot/renders/archive/v1/render.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/narration.txt",
+      "preserved_at": [
+        "episodes/calculus_pilot/narration.txt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-with-overlays.log",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-clean.log",
+        "episodes/calculus_pilot/renders/picture-with-overlays.log",
+        "episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+        "episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+        "episodes/calculus_pilot/renders/archive/v1/render.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/picture-clean.mp4",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-clean.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/layers/tangent.svg",
+      "preserved_at": [
+        "episodes/calculus_pilot/layers/tangent.svg"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/layers/graph.svg",
+      "preserved_at": [
+        "episodes/calculus_pilot/layers/graph.svg"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/imports/voiceover-cues.template.json",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/voiceover-cues.template.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/imports/README.md",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/MEDIA.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/hop-temp.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/hop-temp.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/reaction-temp.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/reaction-temp.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/hop-fitted.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/hop-fitted.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/mix.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/mix.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/reaction-temp.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/reaction-temp.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/lean-fitted.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/lean-fitted.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/graph-temp.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/graph-temp.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/graph-fitted.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/graph-fitted.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/reaction-fitted.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/reaction-fitted.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/graph-temp.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/graph-temp.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/sfx.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/sfx.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/lean-temp.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/lean-temp.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/hop-temp.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/hop-temp.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/narration.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/narration.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/voice-raw.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/voice-raw.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/audio/lean-temp.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/audio/generated/lean-temp.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_2.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/previews/beat_2.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_3.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/previews/beat_3.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_1.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/previews/beat_1.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_4.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/previews/beat_4.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/previews/beat_5.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/previews/beat_5.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/sol-full-body.png",
+      "preserved_at": [
+        "assets/sol-full-body.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/calculus-painted-scene.jpg",
+      "preserved_at": [
+        "assets/calculus-painted-scene.jpg"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/02-lean-start.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/keyframes/blocking/02-lean-start.png",
+        "episodes/calculus_pilot/keyframes/blocking/B.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/01-hop-start.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/keyframes/blocking/01-hop-start.png",
+        "episodes/calculus_pilot/keyframes/blocking/A.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/03-reaction-start.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/keyframes/blocking/03-reaction-start.png",
+        "episodes/calculus_pilot/keyframes/blocking/D.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/prompts.md",
+      "preserved_at": [
+        "migration/original-text/episodes/calculus_pilot/flow-video-prompts.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/generation/match-cut-target.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/keyframes/C.png",
+        "episodes/calculus_pilot/keyframes/blocking/C.png",
+        "episodes/calculus_pilot/keyframes/blocking/match-cut-target.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/RammettoOne-Regular.ttf",
+      "preserved_at": [
+        "assets/fonts/RammettoOne-Regular.ttf"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Nunito-OFL.txt",
+      "preserved_at": [
+        "assets/fonts/Nunito-OFL.txt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/RammettoOne-OFL.txt",
+      "preserved_at": [
+        "assets/fonts/RammettoOne-OFL.txt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Nunito.ttf",
+      "preserved_at": [
+        "assets/fonts/Nunito.ttf"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Poppins-OFL.txt",
+      "preserved_at": [
+        "assets/fonts/Poppins-OFL.txt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/assets/fonts/Poppins-SemiBold.ttf",
+      "preserved_at": [
+        "assets/fonts/Poppins-SemiBold.ttf"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/render.log",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/picture-clean.log",
+        "episodes/calculus_pilot/renders/picture-with-overlays.log",
+        "episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+        "episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+        "episodes/calculus_pilot/renders/archive/v1/render.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/picture.mp4",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/picture.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/captions.srt",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/captions.srt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/calculus_pilot.py",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/calculus_pilot.py"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/README.md",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/README.md"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/storyboard.jpg",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/storyboard.jpg"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/validation.json",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/validation.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/decode-check.log",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/decode-check.log"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/final.mp4",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/final.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/beats.json",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/beats.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/narration.txt",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/narration.txt"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_4-raw.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_4-raw.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_4.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_4.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/timing.json",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/timing.json"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_5.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_5.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_5-raw.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_5-raw.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_2.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_2.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_1.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_1.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_3.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_3.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_2.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_2.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_5.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_5.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_4.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_4.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_3.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_3.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_3-raw.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_3-raw.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_2-raw.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_2-raw.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_1.aiff",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_1.aiff"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/narration.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/narration.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/audio/beat_1-raw.wav",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/audio/beat_1-raw.wav"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_2.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/previews/beat_2.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_3.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/previews/beat_3.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_1.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/previews/beat_1.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_4.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/previews/beat_4.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/calculus_pilot/archive/v1/previews/beat_5.png",
+      "preserved_at": [
+        "episodes/calculus_pilot/renders/archive/v1/previews/beat_5.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_3_a.mp4",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_3_a.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_1_b.mp4",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_1_b.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_1_a.mp4",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_1_a.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_2_b.mp4",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_2_b.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/clips/beat_2_a.mp4",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_2_a.mp4"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_2_a.png",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_a.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_2_b.png",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_b.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_1_a.png",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_a.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_3_a.png",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_3_a.png"
+      ]
+    },
+    {
+      "original": "zack-d-films-ai-video-generator-main/out/test_run/keyframes/beat_1_b.png",
+      "preserved_at": [
+        "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_b.png"
+      ]
+    },
+    {
+      "original": "Music/Hide and Sneak 4.mp3",
+      "preserved_at": [
+        "assets/music/Hide and Sneak 4.mp3"
+      ]
+    },
+    {
+      "original": "Music/Pizzicato Comedy 4.mp3",
+      "preserved_at": [
+        "assets/music/Pizzicato Comedy 4.mp3"
+      ]
+    },
+    {
+      "original": "Music/Roblox Break In OST - Larry Stairs Extended.mp3",
+      "preserved_at": [
+        "assets/music/Roblox Break In OST - Larry Stairs Extended.mp3"
+      ]
+    },
+    {
+      "original": "Music/Lurking Behind 4.mp3",
+      "preserved_at": [
+        "assets/music/Lurking Behind 4.mp3"
+      ]
+    },
+    {
+      "original": "Music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3",
+      "preserved_at": [
+        "assets/music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3"
+      ]
+    },
+    {
+      "original": "Music/ignite-sol-shorts-preview.mp4",
+      "preserved_at": [
+        "assets/music/ignite-sol-shorts-preview.mp4"
+      ]
+    },
+    {
+      "original": "Music/Roblox Break In OST - Daytime Extended.mp3",
+      "preserved_at": [
+        "assets/music/Roblox Break In OST - Daytime Extended.mp3"
+      ]
+    },
+    {
+      "original": "Music/Roblox Break In OST - Nighttime Extended 4.mp3",
+      "preserved_at": [
+        "assets/music/Roblox Break In OST - Nighttime Extended 4.mp3"
+      ]
+    }
+  ]
+}

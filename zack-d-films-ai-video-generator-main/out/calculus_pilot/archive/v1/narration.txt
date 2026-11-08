@@ -1,5 +1,0 @@
-How steep is a curve at one point?
-Two points give an average slope.
-Bring those points closer together.
-The line approaches a tangent.
-Its slope is the derivative: change right here.

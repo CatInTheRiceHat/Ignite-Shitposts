@@ -1,0 +1,27 @@
+{
+  "output": "/Users/elaine/Documents/Ignite-Shitposts/workflow/.cache/smoke-calculus/renders/final.mp4",
+  "status": "final",
+  "duration_sec": 15.0,
+  "frames": 450,
+  "canvas": [
+    720,
+    1280
+  ],
+  "fps": 30,
+  "decode": "passed",
+  "missing_clips": [],
+  "requested_voice": "MoGoFun Cub (Female), off-screen",
+  "voice_source": "/Users/elaine/Documents/Ignite-Shitposts/workflow/.cache/smoke-calculus/audio/mogofun-narration.wav",
+  "voice_duration_sec": 15.0,
+  "voice_cues_confirmed": true,
+  "tangent_reveal_sec": 7.5,
+  "graph_slope": 0.5,
+  "caption_mode": "soft",
+  "paid_generation_calls": 0,
+  "fixture_note": "Local bundled videos and temporary narration only; no actual Flow/Cub download was fabricated or added to the pilot.",
+  "ffmpeg_version": "ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "workflow_tests": 7,
+  "upstream_assembler_test_mode": "passed",
+  "syntax_checks": "passed",
+  "legacy_imports": "passed"
+}

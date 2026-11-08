@@ -1,0 +1,55 @@
+{
+  "episode": "calculus_pilot",
+  "sequence": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "frames": [
+    {
+      "frame": "A",
+      "cue": "hop",
+      "start": 0.0,
+      "end": 3.6,
+      "keyframe": "keyframes/A.png",
+      "blocking": "keyframes/blocking/A.png",
+      "narration": "Sol brought confidence. Not brakes.",
+      "source": "Flow",
+      "clip": "clips/01-hop-on.mp4"
+    },
+    {
+      "frame": "B",
+      "cue": "lean",
+      "start": 3.6,
+      "end": 7.5,
+      "keyframe": "keyframes/B.png",
+      "blocking": "keyframes/blocking/B.png",
+      "narration": "How steep is this curve right here?",
+      "source": "Flow",
+      "clip": "clips/02-low-side-lean.mp4"
+    },
+    {
+      "frame": "C",
+      "cue": "graph",
+      "start": 7.5,
+      "end": 11.8,
+      "keyframe": "keyframes/C.png",
+      "blocking": "keyframes/blocking/C.png",
+      "narration": "Tangent line. Its slope is the derivative.",
+      "source": "analytic renderer",
+      "clip": null
+    },
+    {
+      "frame": "D",
+      "cue": "reaction",
+      "start": 11.8,
+      "end": 15.0,
+      "keyframe": "keyframes/D.png",
+      "blocking": "keyframes/blocking/D.png",
+      "narration": "Tiny arms. Massive responsibility.",
+      "source": "Flow",
+      "clip": "clips/03-reaction.mp4"
+    }
+  ]
+}
