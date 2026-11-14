@@ -3,6 +3,7 @@ import hashlib
 import json
 from pathlib import Path
 import sys
+import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -82,6 +83,12 @@ class WorkflowTests(unittest.TestCase):
 
     def test_episode_name_is_resolved_from_workflow(self):
         self.assertEqual(episode_path('calculus_pilot'),WORKFLOW/'episodes/calculus_pilot')
+
+    def test_renderer_cli_starts_before_any_media_processing(self):
+        result=subprocess.run([sys.executable,str(SCRIPTS/'calculus_pilot.py'),'--help'],
+                              capture_output=True,text=True)
+        self.assertEqual(result.returncode,0,result.stderr)
+        self.assertIn('--require-final',result.stdout)
 
 
 if __name__=='__main__':

@@ -1,0 +1,22 @@
+[
+  {
+    "from": "guidlines",
+    "to": "workflow/guidelines"
+  },
+  {
+    "from": "graphics",
+    "to": "workflow/assets/reference-art"
+  },
+  {
+    "from": "music",
+    "to": "workflow/assets/music"
+  },
+  {
+    "from": "ignite-video",
+    "to": "workflow/remotion"
+  },
+  {
+    "from": "zack-d-films-ai-video-generator",
+    "to": "workflow/vendor/zack-d-films-ai-video-generator"
+  }
+]

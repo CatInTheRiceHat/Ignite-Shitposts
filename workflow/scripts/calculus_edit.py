@@ -385,9 +385,9 @@ def main():
     processes=[];logs=[];clips={};frames=round(edit['duration_sec']*FPS)
     with tempfile.TemporaryDirectory(prefix='frames-',dir=p/'.cache') as temp:
         try:
-            for key,settings in edit['clips'].items():
-                path=clip_path(p,settings['file']);cue=next(c for c in edit['cues'] if c['id']==key)
-                if path.is_file():clips[key]=Clip(args.ffmpeg,path,settings,cue['end']-cue['start'],Path(temp))
+            for key,clip_settings in edit['clips'].items():
+                path=clip_path(p,clip_settings['file']);cue=next(c for c in edit['cues'] if c['id']==key)
+                if path.is_file():clips[key]=Clip(args.ffmpeg,path,clip_settings,cue['end']-cue['start'],Path(temp))
             for name in ('picture-clean','picture-with-overlays'):
                 log=(p/'renders'/(name+'.log')).open('w');logs.append(log)
                 command=[args.ffmpeg,'-y','-v','error','-f','rawvideo','-pixel_format','rgb24','-video_size',f'{W}x{H}','-framerate',str(FPS),'-i','-','-an','-c:v','libx264','-preset','fast','-crf','19','-pix_fmt','yuv420p','-movflags','+faststart',str(p/'renders'/(name+'.mp4'))]

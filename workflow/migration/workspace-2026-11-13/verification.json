@@ -1,0 +1,81 @@
+{
+  "inventory_entries": 387,
+  "unchanged_files_and_links": 373,
+  "unchanged_media_and_fonts": 235,
+  "intentional_reference_documentation_and_startup_fixes": [
+    "workflow/README.md",
+    "workflow/episodes/calculus_pilot/MEDIA.md",
+    "workflow/episodes/calculus_pilot/asset-manifest.json",
+    "workflow/episodes/calculus_pilot/flow-image-prompts.md",
+    "workflow/episodes/sol_kling_test/generation-request.json",
+    "workflow/episodes/sol_kling_test/remotion/render.mjs",
+    "workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+    "workflow/guidelines/shot-integration-and-sol.md",
+    "workflow/guidelines/video-script-guide.md",
+    "workflow/guidelines/video-style-guide.md",
+    "workflow/remotion/README.md",
+    "workflow/remotion/scripts/copy-assets.ts",
+    "workflow/scripts/calculus_edit.py",
+    "workflow/tests/test_workflow.py"
+  ],
+  "preservation_issues": [],
+  "broken_symlinks": [],
+  "broken_document_links": [],
+  "legacy_music_link": true,
+  "legacy_generator_link": true,
+  "checks": [
+    {
+      "command": "python3 -m unittest discover -s workflow/tests -q",
+      "result": "passed",
+      "tests": 45
+    },
+    {
+      "command": "npm test",
+      "cwd": "workflow/remotion",
+      "result": "passed",
+      "tests": 5
+    },
+    {
+      "command": "npm run lint",
+      "cwd": "workflow/remotion",
+      "result": "passed"
+    },
+    {
+      "command": "npm run setup-assets",
+      "cwd": "workflow/remotion",
+      "result": "passed; all four existing copies reused"
+    },
+    {
+      "command": "workflow/remotion/node_modules/.bin/tsc -p workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "result": "passed"
+    },
+    {
+      "command": "node workflow/episodes/sol_kling_test/remotion/render.mjs --check-composition",
+      "result": "passed; 1080x1920, 30fps, 120 frames"
+    },
+    {
+      "command": "npm run still -- --frame 270 --output .cache/workspace-organization-2026-11-13.png",
+      "cwd": "workflow/remotion",
+      "result": "passed; rendered from relocated project"
+    },
+    {
+      "command": "python3 zack-d-films-ai-video-generator/scripts/calculus_pilot.py --help",
+      "result": "passed through restored compatibility link"
+    },
+    {
+      "command": "python3 -m compileall -q workflow/scripts workflow/episodes/sol_kling_test/prepare-audio.py",
+      "result": "passed"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "existing_calculus_pilot_pending_inputs": [
+    "clips/02-low-side-lean.mp4",
+    "clips/03-reaction.mp4",
+    "audio/mogofun-narration.mp3 (or actual WAV/M4A download)",
+    "confirmed narration cue timing"
+  ],
+  "generation_jobs_submitted": 0
+}

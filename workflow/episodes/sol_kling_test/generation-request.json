@@ -11,7 +11,7 @@
   "first_frame_status": "uploaded_and_confirmed",
   "first_frame_media_id": "75149cd3-843a-4a62-be50-73c0d75d58d6",
   "first_frame_sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15",
-  "artwork_source": "../../../graphics/Thank You.jpg",
+  "artwork_source": "../../assets/reference-art/Thank You.jpg",
   "artwork_source_sha256": "5721b5b5581b7e05e80a873f5d9f9b6c627e67bd660cc0adce8fe37de8e69143",
   "first_frame_preparation": {
     "source_dimensions": [2752, 1536],
