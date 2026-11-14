@@ -1,8 +1,8 @@
 SCENE 01 — CURRENT FIRST-FRAME CORRECTION
 1. Read the critique checklist and current image/video guides.
-2. Match Mascot.png for original flame layers, cream face and solid dark navy eye ovals (#1C2447). Use Curious.png only for short arm anatomy.
+2. Match Mascot.png for original flame layers, cream face and solid dark navy eye ovals (#1C2447). Use the empty arm in Microphone.png only for short arm anatomy.
 3. Both tiny rounded red foot nubs stand fully on the fixed plate, with a visible gap from the comb. Maintain original compact proportions.
 4. Keep one ordinary straight flight, two opposing rails and the fixed full-width comb.
 5. First: one orange mark on the nearest moving tread. Last: that tread is hidden beneath the comb. Sol's feet stay fixed; remove the former stepping action.
-6. Current first: keyframes/01-first-nano-v3d.png. Matching last remains ungenerated; no video requested by this correction.
+6. Current first: keyframes/01-first-nano-v4.png. Matching last remains ungenerated; no video requested by this correction.
 7. Show both final stills and obtain explicit pair approval before video. Keep every prior take and receipt.

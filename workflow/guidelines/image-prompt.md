@@ -16,14 +16,14 @@ Use the original mascot assets to define every character feature. Mascot.png
 sets the neutral silhouette, proportions and eyes; examples such as Curious.png
 and Celebrate.png show the short arms and stubby feet in different poses.
 Attach a relevant limb example as well as the neutral mascot when needed.
-Example props and accessories are separate from the character design. The
+Compare the entire silhouette, nested flame contours and proportions against the original before passing the design. If a layout reference contains a rejected Sol, use a character-free background for the rebuild. Example props and accessories are separate from the character design. The
 painted references supply surface treatment and light. Pose and perspective
 can change while Sol's anatomy and features stay consistent across scenes.
 
 Include this wording in prompts where Sol is visible:
 
 ```text
-Keep Sol identical to the original mascot assets: the same layered flame silhouette, colors and broad cream inner flame; two small oval eyes completely filled with solid dark navy #1C2447 at the original size, spacing and placement; short rounded red arms; and two tiny rounded red foot nubs directly beneath the flame body. Keep him mouthless. Preserve the source proportions and attachment points through pose changes. Both whole eye ovals stay dark, opaque and uniformly filled like the original artwork, and the feet stay compact and rounded. Apply the painted finish to these same mascot shapes.
+Use the original mascot artwork as the complete character design. Preserve its broad flat flame silhouette, long asymmetric main tip, rounded side lobes and notches, substantial red outer layer, and the original nested orange and cream contour paths with their source widths and positions. Keep the original face proportions, low-set solid dark navy #1C2447 oval eyes, tiny rounded red feet and short source-shaped arms. Scale the character uniformly and retain its original flat illustration and existing smooth gradients with restrained painted grain. Pose changes preserve those same shapes and proportions.
 ```
 
 ## How to fill it in
