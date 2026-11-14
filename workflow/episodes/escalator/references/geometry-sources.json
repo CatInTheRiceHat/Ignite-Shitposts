@@ -1,0 +1,13 @@
+{
+  "geometry_only": {
+    "file": "kone-comb-geometry-photo.jpg",
+    "image_url": "https://www.kone.ca/en/Images/download-ecomod-compressor_tcm92-22881.jpg?v=1",
+    "source_page": "https://www.kone.ca/en/existing-buildings/ecomod/escalator-modernization.aspx",
+    "role": "Comb spans width parallel to tread seams; ignore photographic finish and lower-entrance slope."
+  },
+  "inspection_only": {
+    "file": "upper-landing-geometry-photo.jpg",
+    "source_page": "https://www.wallpaperbetter.com/es/hd-wallpaper-vpaxx",
+    "role": "Inspected stair/rail relationships; not supplied to generation."
+  }
+}

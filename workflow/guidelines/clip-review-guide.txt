@@ -9,7 +9,8 @@ Historical jobs and reference videos retain their actual original metadata.
 MANDATORY ORDER
 1. Generate first and last stills. Prepare the frame packet and show BOTH
    actual images, labeled with scene and version, alongside the original
-   lantern source when comparing Sol. Do not rely on colors alone.
+   mascot examples for identity and the accepted paint source for finish.
+   Read workflow/config/sol-references.json. Do not rely on colors alone.
 2. Wait for the user to approve BOTH images explicitly. Record their actual
    message. A generator's review, reviewer approval, or a request to fix an
    old version is not user approval of a new pair.

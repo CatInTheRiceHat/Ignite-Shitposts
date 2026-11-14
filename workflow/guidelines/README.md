@@ -2,6 +2,11 @@
 
 Read these before writing or generating an episode:
 
+Start with [Elaine's critique checklist](checklist.md), the running record of
+her current feedback. Read it before each prompt or media review and update it
+when she gives new critiques. Her later clarifications take precedence over
+older examples or acting suggestions.
+
 Current video default for all active clients: **Gemini Omni Flash 1.2**
 (`gemini_omni_flash_1_2`), from `../config/generation.json`. Generate first and
 last stills, show BOTH to the user and wait for explicit approval before any
@@ -16,6 +21,10 @@ video must be 3–10 seconds; declare longer scenes as continuing subscenes.
 3. [Shot integration and Sol](shot-integration-and-sol.md): explicit first
    and last frames, varied clip lengths, continuity, character constraints,
    keyframes, animation and assembly.
+4. [Image prompt template](image-prompt.md): clean, accurate scene art,
+   reference roles and compatible first/last frames.
+5. [Video prompt template](video-prompt.md): one clear action, preserved
+   geometry and the established painted finish.
 
 Use the [workflow guide](../README.md) for commands and file locations, the
 [templates](../templates/) for starting files, and the
@@ -50,9 +59,10 @@ exactly **2N image prompts** (first and last frame for each scene) and **N
 video prompts** (the continuous motion between each pair). Use matching
 scene IDs and keep reference inputs and settings outside the copyable text.
 Specify camera height and angle, shot size, composition, subject scale, and
-the start and end of camera moves. Use the existing lantern video as the primary character and motion reference.
-Keep Sol's original small paired oval eyes, painted storybook flame, wispy tip
-and compact limbs. Name gaze targets, restrained body poses and their cues.
+the start and end of camera moves. Use Mascot.png and the supplied mascot examples for Sol's identity; read
+../config/sol-references.json. Keep the accepted painted finish. Use the lantern
+video for gentle movement, and keep the original mascot eyes, flame layers,
+outline and compact nub limbs. Name gaze targets, restrained body poses and their cues.
 Preserve his mouthless face and recognizable flame design.
 When the Narrator addresses Sol on screen, give Sol an upward glance toward
 the voice just above the camera, breaking the fourth wall. Cue that look in

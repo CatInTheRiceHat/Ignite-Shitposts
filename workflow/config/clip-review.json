@@ -3,9 +3,9 @@
   "user_frame_approval_required": true,
   "independent_clip_review_required": true,
   "checks": {
-    "reference_match": "Compare the actual source artwork and reference video. Recognizable colors alone do not establish the same character or painted style.",
+    "reference_match": "Compare the supplied mascot identity examples for actual character design, and the separately accepted painted scene for surface treatment. Do not confuse paint/style acceptance with approval of the character or whole frame pair. Do not impose the lantern pose's occluded face proportions on the mascot.",
     "eyes": "Original small paired navy oval eyes: size, spacing, shape, placement and restrained gaze. A paired natural blink is allowed; unintended asymmetric morphs fail.",
-    "flame_and_limbs": "Reference flame silhouette, irregular painted layers, soft wispy taper, mouthless face and compact limbs. Check for a thick extruded rim, bulbous mask, rigid spear tip, elongated limbs or extra features.",
+    "flame_and_limbs": "Match the source mascot outer flame contour, main tip and side lobes, broad cream inner-flame shape, low-set navy oval eyes, mouthless face and compact nub limbs. Paint those same shapes in the accepted scene finish. Reject a generic droplet/heart/ghost mask, misplaced eyes, changed layer layout, elongated limbs or added features.",
     "framing_and_props": "Both planned start/end crops, full character silhouette, camera stability, required prop count and attachments. For this escalator establish both opposing rails and returns.",
     "contacts_and_action": "Supported feet and hands, correct weight transfer, one planned action per beat, no skating, floating, extra steps, bobbing or repeated gestures.",
     "mechanical_direction": "Inspect consecutive real frames. Confirm the described travel direction and rigid part connections. Do not infer direction from arrows or the prompt.",

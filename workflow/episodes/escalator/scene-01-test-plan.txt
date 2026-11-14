@@ -1,13 +1,11 @@
 SCENE 01 — USER FRAME APPROVAL FIRST
+Current revision: nano-v1; Nano Banana 2.1 stills using guidelines/image-prompt.md. Five-second Omni Flash 1.2 clip is planned only after explicit pair approval.
+1. Review ONE normal straight flight between TWO mall floors; full-width transverse gray comb parallel to tread seams, three distinct flat approach treads, two near upper rail returns and supported soles.
+2. Preserve the accepted painted finish. Mascot.png and supplied examples define Sol's identity. The lantern video guides restrained movement.
+3. Generate first and last stills. Show BOTH with version labels. Wait for explicit approval of that exact pair before preparing or submitting any video.
+4. First: forward foot fixed on the foreground plate, trailing foot on the nearest flat moving tread. Last: forward foot unchanged; both WHOLE soles on the fixed plate clear of the comb.
+5. ONE orange tread mark moves from the nearest tread beneath the gray stationary comb; no other tread marks and no stationary color changes.
+6. Only after user pair approval: approved start_image AND end_image; gemini_omni_flash_1_2; image-to-video; 1080p; 9:16; 5 seconds. Independent reviewer inspects actual generated footage.
+7. Preserve rejected attempts. All old mascot-v1–v5 drafts are unapproved; preserve them and never animate them.
 
-1. Generate the first and last stills using the ORIGINAL lantern character.
-2. Show BOTH to the user, labeled first/last and version. Include the original
-   reference for comparison. WAIT for their explicit approval of BOTH.
-3. Record their actual approval and pass the frame gate. Only then prepare
-   the Omni Flash 1.2 request (gemini_omni_flash_1_2, image-to-video, 1080p,
-   9:16, 5 seconds, approved start_image AND end_image).
-4. A dedicated reviewer inspects actual motion against those approved stills
-   and the lantern reference: face/eyes, painted flame and wispy tip, compact
-   limbs, both rails, foot contacts, direction, unique marker and ending hold.
-5. Failed or uncertain review blocks production. Preserve all takes. Do not
-   submit another video or continue the other scenes without the right approvals.
+Image references: Mascot.png defines identity. The lantern artwork and actual lantern clip define the restrained painted finish. The prior v5 image supplies coherent mechanical composition only. Check the new pair at phone size before asking for user approval.

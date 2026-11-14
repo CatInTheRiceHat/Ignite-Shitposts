@@ -1,0 +1,38 @@
+{
+  "type": "user_frame_feedback",
+  "decision": "changes_requested",
+  "user_message": "i meant its right the hting is sol is not like what it looks like in its mascot. i've also put more examples of what the sol mascot looks like",
+  "clarification": {
+    "paint_treatment": "accepted; keep unchanged",
+    "mascot_identity": "does not match; use supplied mascot examples",
+    "frame_pair_approved": false
+  },
+  "generation_authorized_by_this_record": false,
+  "packet_id": "26afa1b8559aae1632ddcbadf6c41586dce14e51a3567a2452665821ce630104",
+  "binding": {
+    "scene": "01",
+    "stage": "frames",
+    "contract_sha256": "ba25cfcce9a8134c2e1190cdbbf269fb74f1a910eed0207792e3c4b14e1675bc",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
+        "sha256": "8d24e22649d7ef0d5bea47d7b53d70447c21fa7d2cae77fb5341fcc6238efcd1"
+      },
+      "last": {
+        "path": "workflow/episodes/escalator/keyframes/01-last-omni-v1.png",
+        "sha256": "e8cb2077c7e6d35b898aeca8e98633dd41c3d891a40923e02b022efdf3726dd6"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+        "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      }
+    }
+  },
+  "recorded_at": "2026-11-14T07:28:31.010614+00:00"
+}

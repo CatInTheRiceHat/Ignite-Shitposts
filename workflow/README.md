@@ -38,7 +38,8 @@ The shared settings for every active workspace client are in
 `config/generation.json`. Video now uses **Gemini Omni Flash 1.2**
 (`gemini_omni_flash_1_2`), `image-to-video`, 1080p, 9:16, with BOTH approved
 frame inputs. Paired-frame clips are 3–10 whole seconds; declare continuing
-subscenes for a longer shot. Image generation remains a separate image model.
+subscenes for a longer shot. Image generation uses **Nano Banana 2.1**
+(`nano_banana_2_1`), 2k, 9:16, with its separate image settings in the same config.
 
 **Frames first:** generate the first and last stills, show BOTH to the user,
 wait for explicit approval of that exact pair, then generate its Higgsfield

@@ -1,5 +1,5 @@
 {
-  "status": "replacement still pair awaiting user approval; no Omni video submitted",
+  "status": "Scene 01 Nano still pair regenerated, reviewed and ready for user approval; no video submitted",
   "scenes": 7,
   "image_prompts": 14,
   "video_prompts": 7,
@@ -13,28 +13,25 @@
     "remotion_tests": 9,
     "lint_and_typescript": "passed",
     "prompt_consistency": "passed",
-    "lantern_reference_and_prompt_consistency": "passed"
+    "lantern_reference_and_prompt_consistency": "passed",
+    "reference_role_tests": "11 clip-review tests passed, including separate mascot-example and accepted-paint hashing"
   },
   "pending": [
-    "show both new Scene 01 stills for explicit user approval",
-    "generate Omni Flash 1.2 video only after approved pair gate passes",
-    "independent clip review before production use"
+    "match Sol to canonical mascot and new examples while preserving accepted paint finish",
+    "show both replacement stills",
+    "wait for explicit approval before any Omni clip"
   ],
   "visual_reference": {
     "still": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
     "video": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4"
   },
   "rejected_clip": "clips/01-scene.mp4",
-  "feedback": [
-    "Keep eyes at lantern-reference proportions without exaggerated morphing.",
-    "Match painted storybook finish on Sol himself, including the softly wispy flame tip.",
-    "Copy the existing lantern video's overall look and gentle performance."
-  ],
+  "feedback": "['Keep eyes at lantern-reference proportions without exaggerated morphing.', 'Match painted storybook finish on Sol himself, including the softly wispy flame tip.', \"Copy the existing lantern video's overall look and gentle performance.\"] User: the escalator looks funny. Replace the freestanding miniature stairs with a full-size upper exit, flush landing, flattened exit treads and two upper handrail noses. Preserve current Sol and accepted paint.",
   "replacement_generation_submitted": true,
   "replacement_outputs": {
-    "first": "keyframes/01-first-omni-v1.png",
-    "last": "keyframes/01-last-omni-v1.png",
-    "video": "clips/01-scene-omni-v1.mp4"
+    "first": "keyframes/01-first-nano-v1.png",
+    "last": "keyframes/01-last-nano-v1c.png",
+    "video": "clips/01-scene-omni-nano-v1.mp4"
   },
   "rejected_motion_take": "clips/01-scene-lantern-v2-motion-rejected.mp4",
   "replacement_video_model": "gemini_omni_flash_1_2; image-to-video; 1080p; both user-approved endpoint stills",
@@ -44,5 +41,29 @@
   ],
   "replacement_review": "renders/review/01-lantern-v4-review.json",
   "frame_approval": false,
-  "omni_video_jobs_submitted": 0
+  "omni_video_jobs_submitted": 0,
+  "review_system": {
+    "status": "installed and tested",
+    "independent_reviewer": "/root/clip_reviewer",
+    "previous_clip_verdict": "rejected",
+    "frame_gate": "explicit user approval of both exact stills required",
+    "production_gate": "all required clip checks must pass; missing/stale/failed/uncertain blocks",
+    "python_tests": 60,
+    "remotion_tests": 9,
+    "direct_render_gate": "verified blocking",
+    "video_request_gate": "verified blocking"
+  },
+  "current_pair_status": "First nano-v1 and last nano-v1c ready; explicit user pair approval pending",
+  "paint_treatment_accepted": true,
+  "mascot_references_config": "workflow/config/sol-references.json",
+  "mascot_identity_approved": false,
+  "geometry_review_v2": [
+    "Comb seam follows travel instead of crossing the full run.",
+    "One broad gray top surface instead of separated flat approach treads.",
+    "Last trailing sole straddles gray/metal seam.",
+    "Stationary comb changes yellow/orange to gray."
+  ],
+  "geometry_review_v3": "Upper-exit orientation unclear; far rail returns and apparently same-level floor.",
+  "geometry_review_v4": "Multi-floor curved chute; simplify to one normal straight flight.",
+  "image_generation_model": "nano_banana_2_1"
 }

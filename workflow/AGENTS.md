@@ -2,6 +2,16 @@
 
 These requirements record the user's current production instructions.
 
+- Read `guidelines/checklist.md` before drafting prompts, generating media or
+  reviewing takes. This is Elaine's persistent critique list. Update it when
+  she gives new visual feedback; merge repeats, replace superseded directions
+  and distinguish her preferences from reviewer observations. Keep any new
+  critiques she has not yet stated pending. Read the linked image/video prompt
+  guides and apply her latest clarifications over older acting examples.
+- Image generation uses **Nano Banana 2.1** (`nano_banana_2_1`) through
+  Higgsfield, with the 2k, 9:16 settings in `config/generation.json`.
+  Its `thinking_level` is separate from image quality; do not send GPT-specific
+  `quality` or `output_format` options. Changing models does not authorize a job.
 - All active clients use `config/generation.json`: **Gemini Omni Flash 1.2**
   (`gemini_omni_flash_1_2`) for video, mode `image-to-video`, with approved
   `start_image` AND `end_image`. Paired-frame clips are 3–10 seconds.
@@ -23,10 +33,12 @@ These requirements record the user's current production instructions.
   settings and refuses unapproved frame pairs or unsupported durations. Upload
   only the exact files identified by its approved frame hashes. This command
   prepares a request; it does not submit a job or authorize charges.
-- Sol's primary reference is the existing lantern clip and its source frame.
-  Check the actual silhouette, paint treatment, cream mask, eyes, limbs and
-  softly wispy tip. Colors alone do not prove a match. Current escalator v4
-  artwork is unapproved and appearance-rejected by the user.
+- Read `config/sol-references.json`. Mascot.png and the user's additional
+  mascot examples control Sol's actual design. The user ACCEPTED the current
+  paint treatment; keep it unchanged. The lantern clip guides finish/movement,
+  rather than replacing the mascot's geometry. Check the original outer flame,
+  side lobes, broad cream inner flame, low-set oval eyes and compact nub limbs.
+  Style acceptance is not approval of the character or the whole frame pair.
 - After a clip finishes, prepare `shorts.py review-clip <episode> --scene <id>`.
   Use the dedicated clip reviewer requested by the user to inspect the packet,
   reference comparison, chronological sheets and full-size evidence. Inspect
