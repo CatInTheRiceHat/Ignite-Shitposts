@@ -23,9 +23,13 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 - [ ] Sol looks like the actual mascot, including the main flame tip, side
   lobes, layered colors, broad cream inner flame and compact rounded limbs.
   Preserve the cream flame's crown and rounded lower face.
+- [ ] Preserve ALL mascot features across clips. Match the short rounded arms
+  and stubby feet in the asset examples: their length, thickness, shape, color
+  and attachment points stay consistent. A new pose keeps the same anatomy.
 - [ ] His two small navy oval eyes retain the mascot's size, spacing and low
   placement. Avoid exaggerated or mismatched eyes. Convey attention through
-  gaze, a small whole-face turn and body pose.
+  gaze, a small whole-face turn and body pose. Keep their original flat navy
+  appearance; do not add pupils or white highlights absent from the assets.
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
@@ -33,6 +37,12 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 - [ ] Check identity and paint separately. Elaine clarified that the paint
   treatment was right while Sol's design was wrong; do not remove the painted
   finish when the requested correction is to his identity.
+- [ ] Apply the painted aesthetic to the existing mascot shapes. It must not
+  produce a different Sol with longer legs, larger hands, altered eyes or
+  redesigned flame layers. Original assets control identity even when a
+  generated continuity frame differs.
+- [ ] Match the actual result to BOTH its prompt and the source assets,
+  checking arms, feet and eyes at the beginning, middle, end and across cuts.
 
 ## Style and staging
 
@@ -84,7 +94,9 @@ additional aesthetic preferences attributed to Elaine.
 - Latest positive direction: Elaine called the Nano Banana Scene 01
   [first frame](../episodes/escalator/keyframes/01-first-nano-v1.png) and
   [last frame](../episodes/escalator/keyframes/01-last-nano-v1c.png) “much better.”
-  She has further notes to give; this is not recorded as final pair approval.
+  Her next correction is to preserve every mascot feature, explicitly including
+  the arms, stubby feet and eyes, across all clips. Prompts are being revised to
+  match the asset examples; the existing pair is not recorded as finally approved.
 
 ## Keeping this useful
 

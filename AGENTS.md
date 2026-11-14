@@ -50,12 +50,12 @@
   vague shortcuts, forced jokes and slogan endings. Label every spoken turn
   `Sol:` or `Narrator:`. Vary clip lengths around the action; multiple lines
   can share a clip. Set final timing from the normal-rate voice recordings.
-- Push the painted 2D look into strong cartoon acting. Sol stays mouthless;
-  his two existing dark eye shapes may intentionally morph into round,
-  narrowed, asymmetrical or crescent expressions. Specify eye shapes, gaze
-  targets, body poses and the cues for each change. Use anticipation,
-  squash/stretch, quick takes and flame-tip follow-through while preserving
-  his recognizable flame design, colors and stubby limbs.
+- Preserve every original mascot feature across clips, explicitly including
+  Sol's short rounded arms, stubby feet, small navy oval eyes, flame layers,
+  colors and proportions. Keep him mouthless. The painted aesthetic changes
+  surface treatment while preserving the asset design. Use gaze, restrained
+  body poses and gentle flame-tip follow-through for acting; do not redesign
+  the eyes or lengthen limbs. Read the latest critique checklist and guides.
 - Make every shot specific: camera height and angle, shot size, subject
   placement and scale, crop, camera movement, and exact visible first/last
   states. Keep mechanical motion accurate while exaggerating performance

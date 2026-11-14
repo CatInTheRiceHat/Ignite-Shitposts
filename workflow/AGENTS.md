@@ -38,6 +38,10 @@ These requirements record the user's current production instructions.
   paint treatment; keep it unchanged. The lantern clip guides finish/movement,
   rather than replacing the mascot's geometry. Check the original outer flame,
   side lobes, broad cream inner flame, low-set oval eyes and compact nub limbs.
+  Explicitly preserve the source arms AND stubby feet, including their shapes,
+  colors, proportions and attachment points, in every visible shot. Use the
+  supplied limb examples when the neutral asset obscures an arm. Apply paint
+  to the same design; previous generated frames do not override original assets.
   Style acceptance is not approval of the character or the whole frame pair.
 - After a clip finishes, prepare `shorts.py review-clip <episode> --scene <id>`.
   Use the dedicated clip reviewer requested by the user to inspect the packet,

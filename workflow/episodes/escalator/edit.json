@@ -34,7 +34,7 @@
       "duration": 5,
       "scene": {
         "type": "video",
-        "src": "clips/01-scene-omni-nano-v1.mp4",
+        "src": "clips/01-scene-omni-nano-v2.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1

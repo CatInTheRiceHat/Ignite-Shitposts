@@ -6,7 +6,7 @@ explicit approval of both before animation. The mascot design comes from `../con
 and the additional supplied examples. The current paint treatment is accepted,
 but the escalator character/pair is not approved. A dedicated reviewer must inspect actual
 footage after generation; colors or successful technical checks do not prove
-that Sol matches the original lantern source.
+that Sol matches the original mascot assets.
 
 Read this before generating art or editing an Ignite educational short. Pair it with [video-script-guide.md](video-script-guide.md) and [shot-integration-and-sol.md](shot-integration-and-sol.md).
 
@@ -17,6 +17,7 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 - Keep the staging warm, playful, and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the subject and reference art guide the scene palette.
 - Treat the earlier *Arcane* reference as shorthand for visibly painted surfaces and expressive lighting. Use Ignite’s own artwork to set the character design and overall look. Flag glossy 3D shading, a clay-render look, and generic vector art when they break the painted style.
 - Give Sol the same brushwork, perspective, and light as the scene. Use approved Sol art as a character reference for generating the painted keyframe. See the shot guide for the actual generation steps.
+- Preserve every mascot feature across clips. Match the original short rounded arms and stubby feet, including their shapes, colors, lengths and attachment points. Match the original eyes rather than giving them new pupils or white highlights. The painted finish applies to the existing design; it must not create a different mascot. See Elaine's [critique checklist](checklist.md).
 
 ## Voices and performance
 
@@ -25,7 +26,7 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 - Label every spoken turn **Narrator:** or **Sol:** in the review script. Let both voices respond to the scene and to each other. Sol can ask a substantive follow-up; his part is not limited to one-word reactions. Preserve existing episode voice overrides, including earlier single-voice Cub narration.
 - Use connected, conversational sentences with varied lengths. Arthur's dry humor should come from the situation and delivery. Remove forced slogan endings and repeated clipped clauses. Give an explanation enough words to make its cause and effect clear.
 - When the Narrator speaks directly to Sol and Sol is visible, let Sol break the fourth wall: his eyes lead an upward turn toward a fixed point just above the camera, then his flame body and tip follow. Use curious or listening eye shapes and a readable held pose. The Narrator remains off-screen. When a line directs attention to a mechanism, Sol may follow that cue and then look back up for the response. Record those gaze changes explicitly.
-- Stage one clear acknowledgment of Arthur, then let Sol follow the demonstrated object. Add another look upward only when a new spoken exchange requires it. Use eye direction, body lean and held poses for most acting; avoid stacking eye morphs, a double-take, a bounce and a camera move onto one brief reply. The existing eye-shape and squash/stretch permissions below allow accents, not mandatory motion in every beat.
+- Stage one clear acknowledgment of Arthur, then let Sol follow the demonstrated object. Add another look upward only when a new spoken exchange requires it. Use eye direction, body lean and held poses for most acting; avoid stacking eye morphs, a double-take, a bounce and a camera move onto one brief reply. Keep the source mascot's eyes, short arms, stubby feet and proportions consistent through these pose changes.
 
 ## Sol's cartoon expression and movement
 
