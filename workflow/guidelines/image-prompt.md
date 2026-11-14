@@ -23,7 +23,7 @@ can change while Sol's anatomy and features stay consistent across scenes.
 Include this wording in prompts where Sol is visible:
 
 ```text
-Keep Sol identical to the attached mascot assets: the same layered flame silhouette and colors, broad cream inner flame, two small flat navy oval eyes at the original size, spacing and placement, short rounded red-orange arms and stubby nub feet at the source proportions and attachment points. Keep him mouthless, with simple rounded limb ends. Change pose and viewing angle without lengthening limbs or redesigning features. Apply the painted finish to these same shapes; keep the eyes free of new pupils or white highlights.
+Keep Sol identical to the original mascot assets: the same layered flame silhouette, colors and broad cream inner flame; two small oval eyes completely filled with solid dark navy #1C2447 at the original size, spacing and placement; short rounded red arms; and two tiny rounded red foot nubs directly beneath the flame body. Keep him mouthless. Preserve the source proportions and attachment points through pose changes. Both whole eye ovals stay dark, opaque and uniformly filled like the original artwork, and the feet stay compact and rounded. Apply the painted finish to these same mascot shapes.
 ```
 
 ## How to fill it in

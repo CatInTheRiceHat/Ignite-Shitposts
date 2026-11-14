@@ -26,10 +26,13 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 - [ ] Preserve ALL mascot features across clips. Match the short rounded arms
   and stubby feet in the asset examples: their length, thickness, shape, color
   and attachment points stay consistent. A new pose keeps the same anatomy.
+  Feet are tiny rounded red tabs immediately below the flame body, without a
+  lower-leg shaft, ankle or long boot-like toe.
 - [ ] His two small navy oval eyes retain the mascot's size, spacing and low
   placement. Avoid exaggerated or mismatched eyes. Convey attention through
   gaze, a small whole-face turn and body pose. Keep their original flat navy
-  appearance; do not add pupils or white highlights absent from the assets.
+  appearance. Elaine's “dark pupils” mean these existing whole dark ovals: fill
+  them completely with asset navy #1C2447, without eye whites, shine or gray gradients.
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
