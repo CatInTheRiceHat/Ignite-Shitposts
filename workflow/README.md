@@ -22,10 +22,46 @@ depends on the terminal's current directory.
 
 Read the [creative guidelines](guidelines/README.md) before developing an
 episode. Use the [episode index](episodes/README.md) to choose its renderer.
-The commands below are for the Python workflow; the zipper and Sol lantern
-examples have their own Remotion instructions. The shared template currently
-models the calculus sequence, so a different topic needs an adapted script
-and shot plan.
+New episodes use complete generated Higgsfield clips and the shared Remotion
+editor. The calculus pilot retains its older Python renderer and Cub voice.
+
+## Current Higgsfield production workflow
+
+Codex generates the media through the connected Higgsfield tools. The episode's
+`higgsfield-prompts.txt` supplies the reviewed prompts; no manual prompt entry
+or download handoff is required. Generate and inspect Scene 01 first, then use
+approved frames as references for the remaining scenes. Keep the mechanism
+inside the generated footage. Remotion only assembles clips, voices, captions
+and sound.
+
+1. Run `python3 workflow/scripts/shorts.py prepare <episode>`. New skits use
+   full-screen 1080 × 1920 footage, the shared Arthur/Sol cast and editable
+   white captions with orange outlines. Existing scripts and media are preserved.
+2. Review the complete script/storyboard and the separate 2N image / N video
+   prompts. Codex uploads the shared reference art, submits the prompts to
+   Higgsfield, and saves job receipts under the episode's ignored
+   `jobs/higgsfield/`. Resume saved jobs rather than submitting duplicates.
+3. Codex records each spoken turn with its exact saved voice pair at
+   `speech_rate: 0`. Save each take under `audio/<scene>-<turn>-<speaker>.wav`,
+   for example `audio/03-02-narrator.wav`. Source clips live in `clips/`;
+   `public/clips` and `public/audio` link to those originals.
+4. Run `python3 workflow/scripts/shorts.py sync-audio <episode>` to measure the
+   takes at 1x and extend scenes if needed. Its caption boundaries are marked
+   provisional; review actual speech, acting and captions before confirming
+   timing. Generate videos long enough for those measured scene lengths.
+5. Run `python3 workflow/scripts/shorts.py check <episode> --images --probe`.
+   Use `npm --prefix workflow/remotion run dev -- <episode>` for review.
+   Set `edit.json`'s `timing.confirmed` only after reviewing the real takes and
+   caption cues. `python3 workflow/scripts/shorts.py render <episode>` checks
+   media and voice hashes before exporting.
+   `render <episode> --draft` exports actual downloaded media with provisional
+   timing to a clearly named draft MP4; it still requires every clip and take.
+
+Arthur's exact preset ID and Sol's exact custom element ID are verified in
+`config/voices.json`. No Cub substitution or accelerated speech is used in
+new skits. The `generate ... --shot A-B` command below is specifically the
+preserved calculus Flow integration; skit generation uses Codex's Higgsfield
+connection.
 
 New two-voice skits use **Arthur** as the off-screen Narrator and the user's
 **Higgsfield custom voice Sol** for Sol. The [shared voice cast](config/voices.json)
@@ -70,15 +106,18 @@ python workflow/scripts/shorts.py prepare calculus_pilot
 python workflow/scripts/shorts.py prepare my_next_short
 ```
 
-New episodes use the shared **30-second, 720 × 1280, 30 fps** vertical format.
+New skits use a **30-second target, 1080 × 1920, 30 fps** vertical format.
+Scenes with a reviewed shot plan retain their planned timing until voices are
+measured. The Python calculus renderer uses 720 × 1280.
 The existing calculus pilot keeps its explicit **15-second** edit. To create
 another intentional duration, use `prepare name --duration 15` the first time.
 Prepare never replaces an existing script, prompt, edit JSON, image or clip.
 Existing files are reused; it does not reset edits to the template.
 
-Edit `episodes/<name>/narration.txt`, `edit.json`, `shot-plan.json`, and the
-episode's two Flow prompt documents. Keep the cue text in `edit.json` in sync
-with the narration script: the renderer uses those cues for captions.
+For skits, edit `script.txt`, `higgsfield-prompts.txt`, `shot-plan.json` and
+`edit.json` in the episode folder. Keep dialogue, prompt context, separate
+voice scripts and captions in sync. The preserved calculus pilot uses its
+`narration.txt` and two Flow prompt documents described below.
 
 ## A → B → C → D and download locations
 

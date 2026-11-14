@@ -12,6 +12,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseArgs } from "node:util";
 import { spawn, spawnSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { bundle } from "@remotion/bundler";
 import {
   renderMedia,
@@ -38,6 +39,7 @@ const { values, positionals } = parseArgs({
     concurrency: { type: "string", default: "4" },
     frame: { type: "string", default: "270" },
     "no-open": { type: "boolean", default: false },
+    draft: { type: "boolean", default: false },
     "browser-executable": { type: "string" },
   },
 });
@@ -65,7 +67,8 @@ const ffprobe = process.env.FFPROBE_PATH || "ffprobe";
 // The current headless-shell build crashes while loading ICU on this Mac.
 // Prefer the installed desktop Chrome on macOS; other platforms keep Remotion's
 // bundled browser. Both choices still render headlessly in an isolated profile.
-const macChrome = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+const macChrome =
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
 const browserExecutable =
   values["browser-executable"] ??
   process.env.REMOTION_BROWSER_EXECUTABLE ??
@@ -121,10 +124,37 @@ async function checkAssets(episode: Episode) {
         `Shot ${shot.id}: local MP4 is too short after trim/playbackRate (${available.toFixed(2)}s for a ${shot.duration}s shot).`,
       );
   }
+  for (const track of episode.audioTracks) {
+    const info = probe(path.join(publicDir, track.src));
+    if (!info.streams.some((stream) => stream.codec_type === "audio"))
+      throw new Error(`No audio stream in track ${track.id}`);
+    const available = Number(info.format.duration) - track.trimBefore;
+    if (track.duration !== undefined && available + 1 / 30 < track.duration)
+      throw new Error(`Audio track ${track.id} is too short for its edit`);
+    if (
+      episode.timing?.confirmed &&
+      track.source_sha256 !==
+        createHash("sha256")
+          .update(await readFile(path.join(publicDir, track.src)))
+          .digest("hex")
+    )
+      throw new Error(
+        `Confirmed voice take changed or has no source hash: ${track.id}`,
+      );
+  }
 }
 
 async function main() {
   const episode = await readEpisode();
+  if (
+    command === "render" &&
+    episode.layout === "fullscreen" &&
+    (!episode.audioTracks.length ||
+      (!values.draft && !episode.timing?.confirmed))
+  )
+    throw new Error(
+      "Final render requires reviewed voice timing. Preview a still or use Studio while timing is provisional.",
+    );
   await checkAssets(episode);
   const inputProps = { episode };
   console.log(
@@ -181,7 +211,7 @@ async function main() {
     const output = path.resolve(
       episodeDir,
       values.output ??
-        `renders/${episode.id}${command === "still" ? "-preview.png" : ".mp4"}`,
+        `renders/${episode.id}${command === "still" ? "-preview.png" : values.draft ? "-draft.mp4" : ".mp4"}`,
     );
     const temporaryOutput = path.join(
       scratch,
@@ -278,6 +308,8 @@ async function main() {
         frames: composition.durationInFrames,
         duration,
         codec: video.codec_name,
+        status: values.draft ? "draft" : "final",
+        timingConfirmed: episode.timing?.confirmed ?? null,
       };
     }
     await mkdir(path.dirname(output), { recursive: true });

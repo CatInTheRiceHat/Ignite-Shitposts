@@ -1,0 +1,325 @@
+{
+  "id": "escalator",
+  "title": "How does an escalator work?",
+  "hook": "How does an escalator work?",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "layout": "fullscreen",
+  "assets": {
+    "paper": "art/ignite/painted-style-reference.jpg",
+    "font": "fonts/RammettoOne-Regular.ttf"
+  },
+  "palette": {
+    "paper": "#FFF8F0",
+    "ink": "#1A1A2E",
+    "teal": "#4F9298",
+    "orange": "#F07B2A"
+  },
+  "captionStyle": {
+    "fontSize": 56,
+    "fill": "#FFFFFF",
+    "outline": "#F07B2A",
+    "outlineWidth": 6,
+    "leftPercent": 10,
+    "rightPercent": 16,
+    "topPercent": 80
+  },
+  "shots": [
+    {
+      "id": "01",
+      "label": "Scene 01",
+      "duration": 5,
+      "scene": {
+        "type": "video",
+        "src": "clips/01-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    },
+    {
+      "id": "02",
+      "label": "Scene 02",
+      "duration": 7,
+      "scene": {
+        "type": "video",
+        "src": "clips/02-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    },
+    {
+      "id": "03",
+      "label": "Scene 03",
+      "duration": 11,
+      "scene": {
+        "type": "video",
+        "src": "clips/03-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    },
+    {
+      "id": "04",
+      "label": "Scene 04",
+      "duration": 10,
+      "scene": {
+        "type": "video",
+        "src": "clips/04-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    },
+    {
+      "id": "05",
+      "label": "Scene 05",
+      "duration": 10,
+      "scene": {
+        "type": "video",
+        "src": "clips/05-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    },
+    {
+      "id": "06",
+      "label": "Scene 06",
+      "duration": 6,
+      "scene": {
+        "type": "video",
+        "src": "clips/06-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.12,
+      "end": 2.225354,
+      "text": "Wait, where do these steps go"
+    },
+    {
+      "start": 2.225354,
+      "end": 4.330708,
+      "text": "when they disappear into the floor?"
+    },
+    {
+      "start": 5.12,
+      "end": 7.565768,
+      "text": "They turn underneath and ride back"
+    },
+    {
+      "start": 7.565768,
+      "end": 10.011536,
+      "text": "to the bottom. Same steps, one"
+    },
+    {
+      "start": 10.011536,
+      "end": 10.826792,
+      "text": "big loop."
+    },
+    {
+      "start": 12.12,
+      "end": 15.7,
+      "text": "So what's pulling them?"
+    },
+    {
+      "start": 15.86,
+      "end": 18.128445,
+      "text": "An electric motor turns toothed wheels"
+    },
+    {
+      "start": 18.128445,
+      "end": 20.396891,
+      "text": "that pull a chain along each"
+    },
+    {
+      "start": 20.396891,
+      "end": 21.909188,
+      "text": "side of the steps."
+    },
+    {
+      "start": 23.12,
+      "end": 26.12,
+      "text": "Front and back rollers follow separate"
+    },
+    {
+      "start": 26.12,
+      "end": 29.12,
+      "text": "tracks, keeping the surface you stand"
+    },
+    {
+      "start": 29.12,
+      "end": 32.12,
+      "text": "on level as the step climbs."
+    },
+    {
+      "start": 33.12,
+      "end": 35.552012,
+      "text": "Near the top, the tracks bring"
+    },
+    {
+      "start": 35.552012,
+      "end": 37.984024,
+      "text": "neighboring steps to the same height,"
+    },
+    {
+      "start": 37.984024,
+      "end": 40.416036,
+      "text": "forming a flat surface before the"
+    },
+    {
+      "start": 40.416036,
+      "end": 41.632042,
+      "text": "steps turn underneath."
+    },
+    {
+      "start": 43.12,
+      "end": 44.583577,
+      "text": "So the step I just rode"
+    },
+    {
+      "start": 44.583577,
+      "end": 46.047154,
+      "text": "comes back around for the next"
+    },
+    {
+      "start": 46.047154,
+      "end": 46.291083,
+      "text": "person?"
+    },
+    {
+      "start": 46.451083,
+      "end": 48.331083,
+      "text": "Exactly."
+    }
+  ],
+  "voiceover": null,
+  "audioTracks": [
+    {
+      "id": "01-01-sol",
+      "speaker": "Sol",
+      "src": "audio/01-01-sol.wav",
+      "start": 0.12,
+      "duration": 4.210708,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "437dce02bcbc7a92143713a65576733de21ddea449805f03e7f05523dba294ea"
+    },
+    {
+      "id": "02-01-narrator",
+      "speaker": "Narrator",
+      "src": "audio/02-01-narrator.wav",
+      "start": 5.12,
+      "duration": 5.706792,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "e56e3e54cfbee21cdccb828f831ca0a5e57e5b2051e4d8f6593a980ec85d9041"
+    },
+    {
+      "id": "03-01-sol",
+      "speaker": "Sol",
+      "src": "audio/03-01-sol.wav",
+      "start": 12.12,
+      "duration": 3.58,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "2587f35ec8fbb15c8c6033ecfe6e85a2c37c89ba93b379c0ca2ea6765fe96ab7"
+    },
+    {
+      "id": "03-02-narrator",
+      "speaker": "Narrator",
+      "src": "audio/03-02-narrator.wav",
+      "start": 15.86,
+      "duration": 6.049188,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "65ab188abff2277214d7c6f9f3cd4e3968956938ccdc6afa42aa484534905fa4"
+    },
+    {
+      "id": "04-01-narrator",
+      "speaker": "Narrator",
+      "src": "audio/04-01-narrator.wav",
+      "start": 23.12,
+      "duration": 9.0,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "17918ab9f2017f3c6d71a811e9f13536c41ed309b3661487066bb180d06328b5"
+    },
+    {
+      "id": "05-01-narrator",
+      "speaker": "Narrator",
+      "src": "audio/05-01-narrator.wav",
+      "start": 33.12,
+      "duration": 8.512042,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "d2dcdf24fd67d41e848cb4cd4001010ce8002724f40ec13bbf73c20f5da32b1c"
+    },
+    {
+      "id": "06-01-sol",
+      "speaker": "Sol",
+      "src": "audio/06-01-sol.wav",
+      "start": 43.12,
+      "duration": 3.171083,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "dd073ab81798d8ebfdce2c000e1c0a1d29996a6e7b5885dcc381b3946a5ca910"
+    },
+    {
+      "id": "06-02-narrator",
+      "speaker": "Narrator",
+      "src": "audio/06-02-narrator.wav",
+      "start": 46.451083,
+      "duration": 1.88,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "1078c45ce737fefd0e4807da6198415427602e77f05eca62d2ab544aa70eb996"
+    }
+  ],
+  "cast": {
+    "Sol": {
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice": "Sol",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1
+    },
+    "Narrator": {
+      "provider": "Higgsfield",
+      "voice": "Arthur",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+    }
+  },
+  "timing": {
+    "confirmed": false,
+    "note": "Audio durations measured at 1x. Caption phrase times are estimates; review against the actual speech before setting confirmed."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "confirmed": false,
+  "utterances": [
+    {
+      "scene": "01",
+      "speaker": "Sol",
+      "text": "Wait, where do these steps go when they disappear into the floor?",
+      "source_audio": "audio/01-01-sol.wav",
+      "source_sha256": "437dce02bcbc7a92143713a65576733de21ddea449805f03e7f05523dba294ea",
+      "measured_start_sec": 0.12,
+      "measured_end_sec": 4.3307080000000004
+    },
+    {
+      "scene": "02",
+      "speaker": "Narrator",
+      "text": "They turn underneath and ride back to the bottom. Same steps, one big loop.",
+      "source_audio": "audio/02-01-narrator.wav",
+      "source_sha256": "e56e3e54cfbee21cdccb828f831ca0a5e57e5b2051e4d8f6593a980ec85d9041",
+      "measured_start_sec": 5.12,
+      "measured_end_sec": 10.826792000000001
+    },
+    {
+      "scene": "03",
+      "speaker": "Sol",
+      "text": "So what's pulling them?",
+      "source_audio": "audio/03-01-sol.wav",
+      "source_sha256": "2587f35ec8fbb15c8c6033ecfe6e85a2c37c89ba93b379c0ca2ea6765fe96ab7",
+      "measured_start_sec": 12.12,
+      "measured_end_sec": 15.7
+    },
+    {
+      "scene": "03",
+      "speaker": "Narrator",
+      "text": "An electric motor turns toothed wheels that pull a chain along each side of the steps.",
+      "source_audio": "audio/03-02-narrator.wav",
+      "source_sha256": "65ab188abff2277214d7c6f9f3cd4e3968956938ccdc6afa42aa484534905fa4",
+      "measured_start_sec": 15.86,
+      "measured_end_sec": 21.909188
+    },
+    {
+      "scene": "04",
+      "speaker": "Narrator",
+      "text": "Front and back rollers follow separate tracks, keeping the surface you stand on level as the step climbs.",
+      "source_audio": "audio/04-01-narrator.wav",
+      "source_sha256": "17918ab9f2017f3c6d71a811e9f13536c41ed309b3661487066bb180d06328b5",
+      "measured_start_sec": 23.12,
+      "measured_end_sec": 32.120000000000005
+    },
+    {
+      "scene": "05",
+      "speaker": "Narrator",
+      "text": "Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath.",
+      "source_audio": "audio/05-01-narrator.wav",
+      "source_sha256": "d2dcdf24fd67d41e848cb4cd4001010ce8002724f40ec13bbf73c20f5da32b1c",
+      "measured_start_sec": 33.12,
+      "measured_end_sec": 41.632042
+    },
+    {
+      "scene": "06",
+      "speaker": "Sol",
+      "text": "So the step I just rode comes back around for the next person?",
+      "source_audio": "audio/06-01-sol.wav",
+      "source_sha256": "dd073ab81798d8ebfdce2c000e1c0a1d29996a6e7b5885dcc381b3946a5ca910",
+      "measured_start_sec": 43.12,
+      "measured_end_sec": 46.291083
+    },
+    {
+      "scene": "06",
+      "speaker": "Narrator",
+      "text": "Exactly.",
+      "source_audio": "audio/06-02-narrator.wav",
+      "source_sha256": "1078c45ce737fefd0e4807da6198415427602e77f05eca62d2ab544aa70eb996",
+      "measured_start_sec": 46.451083,
+      "measured_end_sec": 48.331083
+    }
+  ],
+  "caption_timing": "estimated phrase boundaries; review needed"
+}

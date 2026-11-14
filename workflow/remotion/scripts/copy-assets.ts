@@ -6,9 +6,14 @@ import { resolveEpisodeConfig } from "./paths";
 const root = fileURLToPath(new URL("../", import.meta.url));
 const [episode, ...extra] = process.argv.slice(2);
 if (!episode || extra.length) {
-  throw new Error("Usage: npm run setup-assets -- <episode-name|edit.json-path>");
+  throw new Error(
+    "Usage: npm run setup-assets -- <episode-name|edit.json-path>",
+  );
 }
-const config = resolveEpisodeConfig(episode, process.env.INIT_CWD || process.cwd());
+const config = resolveEpisodeConfig(
+  episode,
+  process.env.INIT_CWD || process.cwd(),
+);
 await access(config);
 const publicDir = path.join(path.dirname(config), "public");
 const copies = [
@@ -16,6 +21,8 @@ const copies = [
   ["calculus-painted-scene.jpg", "art/ignite/painted-style-reference.jpg"],
   ["fonts/Nunito.ttf", "fonts/Nunito.ttf"],
   ["fonts/Nunito-OFL.txt", "fonts/Nunito-OFL.txt"],
+  ["fonts/RammettoOne-Regular.ttf", "fonts/RammettoOne-Regular.ttf"],
+  ["fonts/RammettoOne-OFL.txt", "fonts/RammettoOne-OFL.txt"],
 ];
 for (const [source, target] of copies) {
   const from = path.resolve(root, "../assets", source);

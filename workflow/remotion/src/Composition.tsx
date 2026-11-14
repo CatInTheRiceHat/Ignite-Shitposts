@@ -179,7 +179,7 @@ export const IgniteShort: React.FC<{ episode: Episode }> = ({ episode }) => {
   let offset = 0;
   return (
     <AbsoluteFill
-      className="ignite-short"
+      className={`ignite-short${episode.layout === "fullscreen" ? " fullscreen" : ""}`}
       style={
         {
           background: episode.palette.paper,
@@ -191,11 +191,17 @@ export const IgniteShort: React.FC<{ episode: Episode }> = ({ episode }) => {
       }
     >
       <style>{`@font-face {font-family: Ignite; src: url("${staticFile(episode.assets.font)}") format("truetype"); font-weight: 100 900;}`}</style>
-      <Img className="paper" src={staticFile(episode.assets.paper)} />
-      <div className="brand">
-        <span className="brand-flame">✦</span> IGNITE{" "}
-        <span className="brand-series">LITTLE THINGS, EXPLAINED.</span>
-      </div>
+      {episode.layout === "cards" && (
+        <Img className="paper" src={staticFile(episode.assets.paper)} />
+      )}
+      {episode.layout === "cards" && (
+        <>
+          <div className="brand">
+            <span className="brand-flame">✦</span> IGNITE{" "}
+            <span className="brand-series">LITTLE THINGS, EXPLAINED.</span>
+          </div>
+        </>
+      )}
       {episode.shots.map((shot, index) => {
         const from = offset;
         const duration = Math.round(shot.duration * fps);
@@ -207,23 +213,66 @@ export const IgniteShort: React.FC<{ episode: Episode }> = ({ episode }) => {
             from={from}
             durationInFrames={duration}
           >
-            <ShotCard shot={shot} index={index} hook={episode.hook} />
+            {episode.layout === "fullscreen" ? (
+              <ShotScene shot={shot} />
+            ) : (
+              <ShotCard shot={shot} index={index} hook={episode.hook} />
+            )}
           </Sequence>
         );
       })}
       {caption && (
-        <div className="caption">
+        <div
+          className="caption"
+          style={
+            episode.layout === "fullscreen"
+              ? {
+                  top: `${episode.captionStyle.topPercent}%`,
+                  bottom: "auto",
+                  left: `${episode.captionStyle.leftPercent}%`,
+                  right: `${episode.captionStyle.rightPercent}%`,
+                  fontSize: episode.captionStyle.fontSize,
+                  color: episode.captionStyle.fill,
+                  WebkitTextStroke: `${episode.captionStyle.outlineWidth}px ${episode.captionStyle.outline}`,
+                  paintOrder: "stroke fill",
+                  lineHeight: 1.15,
+                }
+              : undefined
+          }
+        >
           <span>{caption.text}</span>
         </div>
       )}
-      <div className="footer">
-        <span>{episode.artNote ?? "FIND YOUR FIRE."}</span>
-        <span>{episode.id.toUpperCase()}</span>
-      </div>
-      <div
-        className="progress"
-        style={{ width: `${(100 * (frame + 1)) / durationInFrames}%` }}
-      />
+      {episode.layout === "cards" && (
+        <>
+          <div className="footer">
+            <span>{episode.artNote ?? "FIND YOUR FIRE."}</span>
+            <span>{episode.id.toUpperCase()}</span>
+          </div>
+          <div
+            className="progress"
+            style={{ width: `${(100 * (frame + 1)) / durationInFrames}%` }}
+          />
+        </>
+      )}
+      {episode.audioTracks.map((track) => (
+        <Sequence
+          key={track.id}
+          from={Math.round(track.start * fps)}
+          durationInFrames={
+            track.duration === undefined
+              ? undefined
+              : Math.round(track.duration * fps)
+          }
+        >
+          <Audio
+            src={staticFile(track.src)}
+            trimBefore={Math.round(track.trimBefore * fps)}
+            playbackRate={1}
+            volume={track.volume}
+          />
+        </Sequence>
+      ))}
       {episode.voiceover?.src && (
         <Sequence from={Math.round(episode.voiceover.start * fps)}>
           <Audio
