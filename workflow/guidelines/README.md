@@ -2,6 +2,12 @@
 
 Read these before writing or generating an episode:
 
+Current video default for all active clients: **Gemini Omni Flash 1.2**
+(`gemini_omni_flash_1_2`), from `../config/generation.json`. Generate first and
+last stills, show BOTH to the user and wait for explicit approval before any
+video. Follow [the reviewer workflow](clip-review-guide.txt). Each paired-frame
+video must be 3–10 seconds; declare longer scenes as continuing subscenes.
+
 1. [Script guide](video-script-guide.md): conversational skits, complete
    explanations, Sol/Narrator labels, scene descriptions, dialogue density,
    timing and script review.
@@ -44,10 +50,10 @@ exactly **2N image prompts** (first and last frame for each scene) and **N
 video prompts** (the continuous motion between each pair). Use matching
 scene IDs and keep reference inputs and settings outside the copyable text.
 Specify camera height and angle, shot size, composition, subject scale, and
-the start and end of camera moves. Use emphatic cartoon acting within the
-painted 2D style. Sol's two dark eye shapes may intentionally morph to show
-emotion; name those shapes, gaze targets, body poses, and change cues in the
-plan. Preserve his mouthless face and recognizable flame design.
+the start and end of camera moves. Use the existing lantern video as the primary character and motion reference.
+Keep Sol's original small paired oval eyes, painted storybook flame, wispy tip
+and compact limbs. Name gaze targets, restrained body poses and their cues.
+Preserve his mouthless face and recognizable flame design.
 When the Narrator addresses Sol on screen, give Sol an upward glance toward
 the voice just above the camera, breaking the fourth wall. Cue that look in
 the script, then let him follow the demonstrated object. A new reply may

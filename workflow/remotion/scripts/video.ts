@@ -149,6 +149,27 @@ async function main() {
   if (
     command === "render" &&
     episode.layout === "fullscreen" &&
+    !values.draft
+  ) {
+    const review = spawnSync(
+      process.env.PYTHON || "python3",
+      [
+        path.resolve(root, "../scripts/clip_review.py"),
+        "review-gate",
+        episodeDir,
+        "--edit",
+        episodePath,
+      ],
+      { encoding: "utf8" },
+    );
+    if (review.error || review.status !== 0)
+      throw new Error(
+        `Production review blocked: ${review.stdout || review.stderr || review.error?.message}`,
+      );
+  }
+  if (
+    command === "render" &&
+    episode.layout === "fullscreen" &&
     (!episode.audioTracks.length ||
       (!values.draft && !episode.timing?.confirmed))
   )

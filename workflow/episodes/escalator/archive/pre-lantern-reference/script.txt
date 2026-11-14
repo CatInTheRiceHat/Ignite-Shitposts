@@ -1,0 +1,109 @@
+HOW DOES AN ESCALATOR WORK?
+Complete script and clip plan
+
+12 generated first/last stills -> six complete Higgsfield clips -> simple assembly with separate voices, captions and sound.
+
+Six scenes. 99 spoken words. 49 seconds planned from the actual natural-rate takes plus visual holds; caption phrase timing remains provisional.
+
+CAST
+Narrator: Higgsfield Arthur, off-screen, warm nature-documentary delivery.
+Sol: the Higgsfield custom voice Sol, on a separate dialogue track.
+Sol stays mouthless, with expressive navy eyes, tiny limbs and a recognizable painted flame body.
+
+CONTINUITY
+The same orange-edged tread carries Sol to the exit, disappears under the plate, travels through the return run, and reappears at the bottom.
+Scene 02 follows that tread into the return run. It keeps traveling while Scenes 03–05 show other gray steps and parts of the mechanism.
+Scene 06 finds the orange-edged tread at the lower turn and follows it back to the entrance. Keep the passenger run moving up-right and the hidden return down-left.
+Use the approved generated frames to preserve the same escalator, tread design and Sol appearance across scenes. The identifying orange edge is part of the generated picture. Only the tracked tread has that orange stripe; all other tread edges are plain gray.
+
+SCENE 01 — 5 seconds (actual voices measured)
+
+Framing: Face-height three-quarter view of the upper escalator exit. Full-body Sol fills about half the picture height, moving from left of center toward the open stationary landing at right. Both feet, his exact tread and the fixed exit plate share one clear crop.
+Camera: Locked camera throughout the generated clip.
+
+First frame: Sol is already beginning a grounded step off his original tread: the leading foot reaches the stationary landing while the trailing foot is visibly supported by that tread. His full body is three-quarter toward screen right, neutral navy oval eyes on the exit. The exact tread, fixed exit plate and both feet fit in the same crop.
+
+Sol: “Wait, where do these steps go when they disappear into the floor?”
+
+Action: Sol starts stepping onto the stationary landing immediately. Show the leading foot planting, weight transferring, then the trailing foot clearing the orange-edged tread before that exact tread disappears beneath the fixed plate. Keep both feet and the plate readable in one crop. End with both feet grounded and Sol holding a questioning lean down-left.
+
+Last frame: Both feet are planted on the stationary upper floor. Sol holds a compact 15-degree down-left questioning lean, one eye slightly taller and one flatter. the original orange-edged tread has vanished beneath the fixed exit plate and entered the hidden upper turn. Preserve this eye/body pose into Scene 02.
+Next cut: Cut to the full-loop schematic while preserving Sol's questioning lean and the original orange-edged tread in the hidden upper turn.
+
+SCENE 02 — 7 seconds (actual voices measured)
+
+Framing: Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition.
+Camera: Locked camera throughout the generated clip.
+
+First frame: Full-loop side cutaway. Sol is planted on the upper-right landing in the same down-left questioning lean and eye pose as the previous shot. the original orange-edged tread is in the hidden upper turn, with both the passenger run and return run visible.
+
+Narrator: “They turn underneath and ride back to the bottom. Same steps, one big loop.”
+
+Action: Give Sol one clear upward glance toward Arthur. Then let him follow the same orange-edged tread around the upper turn and into the return run beneath the staircase. Keep the whole loop visible and finish with Sol following the tread down-left; do not add a second glance up.
+
+Last frame: The same side camera shows the entire loop. the original orange-edged tread is early in the return run under the upper portion of the escalator. Sol stays on the upper landing with a small down-left tracking lean and his original navy ovals directed along that tread's path. He is not looking back up at Arthur.
+Next cut: Cut to the drive. the original orange-edged tread continues along the return run, continuing its visible route; keep it the same physical tread.
+
+SCENE 03 — 11 seconds (actual voices measured)
+
+Framing: Close three-quarter cutaway from the near side, looking slightly down into the upper drive. Motor is upper-left; its drive connection reaches the shared shaft and paired sprockets at middle-right. Two separated side chains extend to attached rigid steps toward lower-left. Use a locked source camera that includes all connections.
+Camera: Locked camera throughout the generated clip.
+
+First frame: The generated cutaway shows the motor, drive connection, shared shaft, paired sprockets, two side chains and attached rigid steps in one clear crop. Sol is off-screen.
+
+Sol: “So what's pulling them?”
+Narrator: “An electric motor turns toothed wheels that pull a chain along each side of the steps.”
+
+Action: Show the motor, drive connection, shared shaft and paired sprockets as one connected system. Both side chains move together, carrying the rigid steps uphill. Keep the camera locked so the connections stay readable.
+
+Last frame: The same connected system remains visible. Both chains are engaged and carry the rigid steps uphill, with the locked camera preserving both connections.
+Next cut: Cut to a different example step on the incline. the original orange-edged tread keeps moving off-screen along the return run.
+
+SCENE 04 — 10 seconds (actual voices measured)
+
+Framing: Exact side-profile close-up of one rigid step on the incline. Its horizontal tread occupies the upper-middle of the picture; expose the fixed support and both near-side roller contacts below. Cropped neighboring steps give context. Keep a level side camera with all contacts above the quiet caption area.
+Camera: Smooth side-profile follow at the moving step's speed.
+
+First frame: True side profile of one rigid step on the incline. Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each contacting its own guide track. The matching far-side pair is occluded, giving four total rollers in this depicted assembly. The tread is horizontal.
+
+Narrator: “Front and back rollers follow separate tracks, keeping the surface you stand on level as the step climbs.”
+
+Action: Follow one gray example step uphill in side profile. Show two near-side rollers, with the far-side pair hidden, and keep each visible roller on its own track while the tread stays level. Paint one track cyan and the other purple inside the generated scene so the explanation reads clearly.
+
+Last frame: The gray example step has moved uphill. Both near-side rollers remain on their separate cyan and purple tracks, the far pair stays hidden, and the standing tread stays level.
+Next cut: Cut to neighboring example treads at the upper transition; keep the same four-roller and track geometry. the original orange-edged tread continues off-screen.
+
+SCENE 05 — 10 seconds (actual voices measured)
+
+Framing: Fixed true side close-up of the upper transition, wide enough for three neighboring treads, the stationary exit plate and the start of the hidden return turn. Incoming steps rise from lower-left toward the upper-right floor. Expose both guide paths.
+Camera: Locked camera throughout the generated clip.
+
+First frame: Three neighboring rigid steps approach the upper landing at different heights, each tread already horizontal. The fixed exit plate and the start of the hidden return turn are visible. Preserve the same four-roller assembly and separate near-side guide paths established in the preceding profile.
+
+Narrator: “Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath.”
+
+Action: Show neighboring treads reaching the same height to make the flat exit row. Then the leading gray step passes beneath the stationary plate and begins the return turn. Keep the same roller and colored-track design as Scene 04, with rigid step bodies.
+
+Last frame: Two neighboring treads form a flat row beside the stationary landing. The leading rigid step is beneath the fixed plate at the start of the return turn, still attached to its chains and supported by the same roller/track geometry. Source camera and crop are unchanged.
+Next cut: Cut to the matching return view, finding the original orange-edged tread in the lower turnaround as it approaches the entrance.
+
+SCENE 06 — 6 seconds (actual voices measured)
+
+Framing: Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition.
+Camera: Locked camera throughout the generated clip.
+
+First frame: Sol stands grounded on the upper landing at right foreground, full body and both navy eyes readable. At lower-left, the original orange-edged tread is in the lower turnaround, approaching its return to the entrance. The matching return view uses the same world geometry as the full-loop view.
+
+Sol: “So the step I just rode comes back around for the next person?”
+Narrator: “Exactly.”
+
+Action: Show the original orange-edged tread reappearing at the lower entrance. Sol follows it, looks up toward Arthur on Exactly, then holds a happy crescent-eye pose. Keep the camera locked and both Sol and the tread readable. No bounce is needed.
+
+Last frame: Sol stands grounded at foreground right, face tipped up toward Arthur and navy eyes held as happy crescents. The original orange-edged tread is visible back at the lower entrance. Hold both subjects clearly in the same frame.
+Next cut: Hold the happy ending with the original orange-edged tread readable at the entrance. Set the final hold from actual takes; omit an optional bounce before shortening the hold.
+
+ASSEMBLY
+Join the six generated clips. Add separate Arthur and Sol voices, editable captions, music and sound as needed.
+Captions: Ramento (local font family Rammetto One), white fill and Ignite orange outline, one or two lines.
+Export vertical 1080 × 1920 at 30 fps. Use the generated cartoon acting and mechanism motion already inside each clip.
+Review higgsfield-prompts.txt for the 12 still-image prompts and six video prompts. Scene 01 is the first visual test.

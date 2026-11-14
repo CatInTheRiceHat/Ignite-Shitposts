@@ -1,11 +1,18 @@
 # Ignite video style guide
 
+Use the shared Gemini Omni Flash 1.2 video settings in `../config/generation.json`.
+Generate and show the actual first AND last stills to the user, and obtain
+explicit approval of both before animation. The current escalator artwork is
+not an approved character reference. A dedicated reviewer must inspect actual
+footage after generation; colors or successful technical checks do not prove
+that Sol matches the original lantern source.
+
 Read this before generating art or editing an Ignite educational short. Pair it with [video-script-guide.md](video-script-guide.md) and [shot-integration-and-sol.md](shot-integration-and-sol.md).
 
 ## Art direction
 
 - Use Ignite’s existing **painted 2D** look. Match the approved scene references for brush texture, edge treatment, and lighting. Build depth with overlapping painted layers, value contrast, and gentle parallax.
-- Push the staging and performance into an emphatic **cartoon** style: bold silhouettes, simplified rounded scenery, strong readable poses, elastic character movement, fast takes, and held reactions. Keep the painted surface treatment. The older Arcane shorthand below refers to brushwork; it does not set a realistic performance or cinematic mood.
+- The current visual reference is the [Sol lantern video](../episodes/sol_kling_test/clips/sol-lantern-kling.mp4) and its [source frame](../episodes/sol_kling_test/keyframes/sol-lantern.jpg). Match its hand-painted storybook finish on Sol as well as the scenery, original small oval eyes, compact limbs, softly wispy flame tip, gentle performance and brief held poses. Use this concrete reference when broader cartoon directions conflict.
 - Keep the staging warm, playful, and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the subject and reference art guide the scene palette.
 - Treat the earlier *Arcane* reference as shorthand for visibly painted surfaces and expressive lighting. Use Ignite’s own artwork to set the character design and overall look. Flag glossy 3D shading, a clay-render look, and generic vector art when they break the painted style.
 - Give Sol the same brushwork, perspective, and light as the scene. Use approved Sol art as a character reference for generating the painted keyframe. See the shot guide for the actual generation steps.
@@ -21,29 +28,25 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 
 ## Sol's cartoon expression and movement
 
-Sol is mouthless. His two dark eye shapes are expressive drawing shapes and may morph intentionally. Keep their original dark color, their home positions on the cream face, and their neutral oval design as the reset pose. A planned eye-shape change is an expression, not a character-design error. Do not add white eyeballs, pupils, eyebrows, a mouth, or new facial features to create that expression.
+Sol is mouthless. Keep the lantern reference's two small dark oval eyes at their original size, spacing and facial placement throughout the performance. Convey attention through whole-face turns and small body leans. A natural blink may close both eyes together when cued. The current direction replaces the earlier exaggerated eye-morph vocabulary; do not enlarge one eye, collapse one into a dot or replace the pair with crescents. Preserve the painted orange/cream layers and a softly tapering, wispy flame tip.
 
-| Acting intent | Eye drawing | Supporting pose |
+| Acting intent | Eyes | Supporting pose |
 | --- | --- | --- |
-| Neutral / listening | Original paired dark vertical ovals | Compact upright body |
-| Listening to the Narrator | Dark ovals tilted upward, slightly taller with curiosity | Face and flame body tip up toward the voice just above the camera; hold before looking at a directed detail |
-| Surprise / double-take | Both eyes pop into larger round shapes | Quick backward lean, brief upward stretch, flame tip follows late |
-| Curious / questioning | One eye taller, the other shorter and slightly flatter | Whole body tilts toward the object being examined |
-| Concentrating | Two narrow horizontal shapes | Slight forward lean and short still hold |
-| Following movement | Ovals lean or compress toward the tracked object's side while staying on the face | Body and flame tip turn after the eyes |
-| Understanding / delight | Two upward-arched closed-eye crescents | Anticipation squash, small bounce, then a relaxed settle |
+| Neutral / listening | Original small paired navy ovals | Compact body and a clear hold |
+| Listening to the Narrator | Retain the same oval shapes and proportions | Tip the whole face toward the fixed point just above the camera |
+| Curious / questioning | Retain the same paired ovals | Small lean toward the object, then hold |
+| Following movement | Retain the same paired ovals | Track with a restrained whole-face turn; body follows slightly |
+| Understanding / pleased | Retain the same paired ovals | Relax the body into a quiet, grounded ending pose |
 
-Specify the starting eye shape, the dialogue or visual cue for the change, the target shape, and the ending shape in each character clip. Also name the object or off-screen location Sol is looking toward. “Sol looks curious” alone is insufficient direction.
+Name the gaze target, body pose and cue for each turn. Keep the flame painted in the same storybook finish as the reference, with brushy layered color and a wispy taper at its tip. Let the tip trail gently after a turn and settle. Match the lantern video's small deliberate movements and held poses while retaining compact limbs and recognizable proportions.
 
-Use strong anticipation, squash and stretch, overshoot, follow-through, and short smear poses where they clarify an action. Let Sol's flame body compress and extend expressively while retaining its recognizable layered flame design, colors, and stubby limbs. Use pose changes with a roughly 12 fps feel inside the 30 fps edit. Hold the important expression long enough to read on a phone. Use a single main reaction at a time rather than continuously bouncing every feature.
-
-Apply cartoon exaggeration to performance, camera accents, arrows, and attention effects. Mechanical parts must retain the geometry and motion that make the explanation correct. For example, a spotlight ring may spring into place around a chain wheel while the wheel and attached chain keep their consistent motion.
+Keep technical parts mechanically accurate while matching the lantern artwork's painted finish. Motion should reveal the explanation clearly, with supported feet, engaged chains and readable roller contact.
 
 ## Pacing, motion, and type
 
 - Open on the question or a surprising image. Borrow Zack D. Films’ pacing by using a close-up or camera push to show the detail that answers the question. Hold the reveal long enough to read it.
 - Vary clip lengths around the action and dialogue. Keep several lines in one scene when they share an action; use a shorter reaction or cutaway when it adds something. Establish the exact first and last frames of every planned clip. Use normal voice playback and set final timing from the actual recordings.
-- Export vertical at **1080 × 1920, 30 fps**. For the painted half-frame feel, use stepped character poses with a roughly 12 fps feel where it suits the action. Camera pushes, caption timing, and the final render can stay smooth at 30 fps.
+- Export vertical at **1080 × 1920, 30 fps**. Use the actual lantern video as the reference for the character's movement and held-pose rhythm. Preserve the painted surface and proportions through the motion; changing frame rate alone does not establish that look.
 - Keep technical motion smooth when stepped motion would obscure roller contact, chain engagement, or relative movement. Describe this distinction in the video prompt. Use a clear generated camera view; keep it locked when a push would obscure the explanation. The default deliverable is a complete generated clip, including its painted mechanism and motion.
 - Set all dialogue and narration captions as editable overlays in Remotion. Use **Ramento** with white fill `#FFFFFF` and Ignite orange outline `#F07B2A` around each letter. Use one or two lines above the social controls, with room around Sol, diagrams, and equations. Use Poppins Bold for headings and Nunito for longer non-caption text when needed.
 - Confirm the actual local font family before assembly; a guide's display name can differ from the font filename. Keep per-episode font paths and renderer implementation gaps in the episode handoff. Caption words and timings follow the real voice takes. Keep any optional finishing graphics and sound effects editable; they are not required to explain a mechanism that is already visible in a complete generated clip.

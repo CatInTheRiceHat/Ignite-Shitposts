@@ -34,7 +34,7 @@
       "duration": 5,
       "scene": {
         "type": "video",
-        "src": "clips/01-scene.mp4",
+        "src": "clips/01-scene-omni-v1.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1
@@ -53,12 +53,24 @@
       }
     },
     {
-      "id": "03",
-      "label": "Scene 03",
-      "duration": 11,
+      "id": "03a",
+      "label": "Scene 03a",
+      "duration": 4,
       "scene": {
         "type": "video",
-        "src": "clips/03-scene.mp4",
+        "src": "clips/03a-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    },
+    {
+      "id": "03b",
+      "label": "Scene 03b",
+      "duration": 7,
+      "scene": {
+        "type": "video",
+        "src": "clips/03b-scene.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1
@@ -133,18 +145,18 @@
       "text": "So what's pulling them?"
     },
     {
-      "start": 15.86,
-      "end": 18.128445,
+      "start": 16.12,
+      "end": 18.388445,
       "text": "An electric motor turns toothed wheels"
     },
     {
-      "start": 18.128445,
-      "end": 20.396891,
+      "start": 18.388445,
+      "end": 20.656891,
       "text": "that pull a chain along each"
     },
     {
-      "start": 20.396891,
-      "end": 21.909188,
+      "start": 20.656891,
+      "end": 22.169188,
       "text": "side of the steps."
     },
     {
@@ -228,7 +240,7 @@
       "source_sha256": "e56e3e54cfbee21cdccb828f831ca0a5e57e5b2051e4d8f6593a980ec85d9041"
     },
     {
-      "id": "03-01-sol",
+      "id": "03a-01-sol",
       "speaker": "Sol",
       "src": "audio/03-01-sol.wav",
       "start": 12.12,
@@ -239,10 +251,10 @@
       "source_sha256": "2587f35ec8fbb15c8c6033ecfe6e85a2c37c89ba93b379c0ca2ea6765fe96ab7"
     },
     {
-      "id": "03-02-narrator",
+      "id": "03b-01-narrator",
       "speaker": "Narrator",
       "src": "audio/03-02-narrator.wav",
-      "start": 15.86,
+      "start": 16.12,
       "duration": 6.049188,
       "trimBefore": 0,
       "volume": 1,
@@ -321,5 +333,43 @@
   "timing": {
     "confirmed": false,
     "note": "Audio durations measured at 1x. Caption phrase times are estimates; review against the actual speech before setting confirmed."
+  },
+  "generation": {
+    "schema_version": 1,
+    "provider": "Higgsfield",
+    "image": {
+      "model": "gpt_image_2_6",
+      "quality": "high",
+      "resolution": "2k",
+      "output_format": "png",
+      "aspect_ratio": "9:16",
+      "count": 1
+    },
+    "video": {
+      "model": "gemini_omni_flash_1_2",
+      "display_name": "Gemini Omni Flash 1.2",
+      "mode": "image-to-video",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "required_input_roles": [
+        "start_image",
+        "end_image"
+      ],
+      "paired_frame_duration_sec": {
+        "min": 3,
+        "max": 10
+      },
+      "native_audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+    },
+    "production_order": [
+      "Generate first and last stills for a scene.",
+      "Show BOTH actual stills to the user and obtain explicit approval of that exact pair.",
+      "Pass the frame gate, then animate the approved pair using Gemini Omni Flash 1.2.",
+      "Run independent clip review against the approved pair, scene contract and original lantern reference.",
+      "Use only passing clips in production. Preserve failed and uncertain takes."
+    ],
+    "no_automatic_model_fallback": true,
+    "verification": "Model ID, paired-frame input roles, 3–10 second paired-frame limit and 1080p output verified with Higgsfield models_search."
   }
 }

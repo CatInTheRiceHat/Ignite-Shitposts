@@ -1,5 +1,5 @@
 {
-  "id": "escalator-scene-01-test",
+  "id": "escalator-scene-01-lantern-v4-test",
   "title": "Escalator — Scene 01 test",
   "hook": "How does an escalator work?",
   "format": {
@@ -34,7 +34,7 @@
       "duration": 5,
       "scene": {
         "type": "video",
-        "src": "clips/01-scene.mp4",
+        "src": "clips/01-scene-lantern-v4.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1
@@ -93,6 +93,6 @@
   },
   "timing": {
     "confirmed": false,
-    "note": "Opening test; caption timings are provisional."
+    "note": "Appearance test only; orange tread continuity and caption timing remain unapproved."
   }
 }

@@ -1,0 +1,77 @@
+[
+  {
+    "index": 0,
+    "time_sec": 0.0,
+    "image": "evidence/detail/frame-000001.jpg"
+  },
+  {
+    "index": 3,
+    "time_sec": 0.125,
+    "image": "evidence/detail/frame-000002.jpg"
+  },
+  {
+    "index": 6,
+    "time_sec": 0.25,
+    "image": "evidence/detail/frame-000003.jpg"
+  },
+  {
+    "index": 9,
+    "time_sec": 0.375,
+    "image": "evidence/detail/frame-000004.jpg"
+  },
+  {
+    "index": 12,
+    "time_sec": 0.5,
+    "image": "evidence/detail/frame-000005.jpg"
+  },
+  {
+    "index": 18,
+    "time_sec": 0.75,
+    "image": "evidence/detail/frame-000006.jpg"
+  },
+  {
+    "index": 24,
+    "time_sec": 1.0,
+    "image": "evidence/detail/frame-000007.jpg"
+  },
+  {
+    "index": 36,
+    "time_sec": 1.5,
+    "image": "evidence/detail/frame-000008.jpg"
+  },
+  {
+    "index": 48,
+    "time_sec": 2.0,
+    "image": "evidence/detail/frame-000009.jpg"
+  },
+  {
+    "index": 60,
+    "time_sec": 2.5,
+    "image": "evidence/detail/frame-000010.jpg"
+  },
+  {
+    "index": 72,
+    "time_sec": 3.0,
+    "image": "evidence/detail/frame-000011.jpg"
+  },
+  {
+    "index": 84,
+    "time_sec": 3.5,
+    "image": "evidence/detail/frame-000012.jpg"
+  },
+  {
+    "index": 96,
+    "time_sec": 4.0,
+    "image": "evidence/detail/frame-000013.jpg"
+  },
+  {
+    "index": 108,
+    "time_sec": 4.5,
+    "image": "evidence/detail/frame-000014.jpg"
+  },
+  {
+    "index": 120,
+    "time_sec": 5.0,
+    "image": "evidence/detail/frame-000015.jpg"
+  }
+]

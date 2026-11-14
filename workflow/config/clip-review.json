@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "user_frame_approval_required": true,
+  "independent_clip_review_required": true,
+  "checks": {
+    "reference_match": "Compare the actual source artwork and reference video. Recognizable colors alone do not establish the same character or painted style.",
+    "eyes": "Original small paired navy oval eyes: size, spacing, shape, placement and restrained gaze. A paired natural blink is allowed; unintended asymmetric morphs fail.",
+    "flame_and_limbs": "Reference flame silhouette, irregular painted layers, soft wispy taper, mouthless face and compact limbs. Check for a thick extruded rim, bulbous mask, rigid spear tip, elongated limbs or extra features.",
+    "framing_and_props": "Both planned start/end crops, full character silhouette, camera stability, required prop count and attachments. For this escalator establish both opposing rails and returns.",
+    "contacts_and_action": "Supported feet and hands, correct weight transfer, one planned action per beat, no skating, floating, extra steps, bobbing or repeated gestures.",
+    "mechanical_direction": "Inspect consecutive real frames. Confirm the described travel direction and rigid part connections. Do not infer direction from arrows or the prompt.",
+    "object_continuity": "Track the SAME physical object. Its marker must not jump, multiply, recolor or fade to fake a disappearance.",
+    "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+    "performance_and_timing": "Restrained lantern-reference acting, eye/body cues, Narrator eyeline when applicable, action onset and ending hold. Use real timestamps.",
+    "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints."
+  },
+  "review_rules": [
+    "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+    "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+    "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+    "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+    "Reviewing a clip does not authorize another paid generation. Preserve rejected takes."
+  ]
+}

@@ -1,5 +1,12 @@
 # Ignite shot integration and Sol generation
 
+Current model: Gemini Omni Flash 1.2 (`gemini_omni_flash_1_2`), image-to-video,
+with both user-approved endpoint stills. Read `../config/generation.json`.
+FIRST generate both stills, THEN show both to the user and wait for explicit
+approval of that pair, THEN submit the Higgsfield clip. The model's paired-frame
+limit is 3–10 seconds; split longer scenes into declared continuing subscenes.
+Follow `clip-review-guide.txt` for independent review and production gates.
+
 Develop the shot plan alongside the skit script. Generate Sol **inside the painted keyframes**, then animate those full scenes. The existing Sol image supplies the character design. A production shot should show him interacting with the same space, props, and lighting as everything else.
 
 ## Plan the edit

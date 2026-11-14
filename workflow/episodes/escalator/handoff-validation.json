@@ -1,22 +1,48 @@
 {
-  "status": "workflow repaired; opening video submitted",
-  "scenes": 6,
-  "image_prompts": 12,
-  "video_prompts": 6,
+  "status": "replacement still pair awaiting user approval; no Omni video submitted",
+  "scenes": 7,
+  "image_prompts": 14,
+  "video_prompts": 7,
   "spoken_words": 99,
   "duration_sec": 49,
   "voices_downloaded": 8,
   "Arthur_voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
   "voice_type": "preset",
   "checks": {
-    "python_tests": 50,
+    "python_tests": 60,
     "remotion_tests": 9,
     "lint_and_typescript": "passed",
-    "prompt_consistency": "passed"
+    "prompt_consistency": "passed",
+    "lantern_reference_and_prompt_consistency": "passed"
   },
   "pending": [
-    "generated clip review",
-    "remaining scene generation",
-    "caption phrase timing review"
-  ]
+    "show both new Scene 01 stills for explicit user approval",
+    "generate Omni Flash 1.2 video only after approved pair gate passes",
+    "independent clip review before production use"
+  ],
+  "visual_reference": {
+    "still": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+    "video": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4"
+  },
+  "rejected_clip": "clips/01-scene.mp4",
+  "feedback": [
+    "Keep eyes at lantern-reference proportions without exaggerated morphing.",
+    "Match painted storybook finish on Sol himself, including the softly wispy flame tip.",
+    "Copy the existing lantern video's overall look and gentle performance."
+  ],
+  "replacement_generation_submitted": true,
+  "replacement_outputs": {
+    "first": "keyframes/01-first-omni-v1.png",
+    "last": "keyframes/01-last-omni-v1.png",
+    "video": "clips/01-scene-omni-v1.mp4"
+  },
+  "rejected_motion_take": "clips/01-scene-lantern-v2-motion-rejected.mp4",
+  "replacement_video_model": "gemini_omni_flash_1_2; image-to-video; 1080p; both user-approved endpoint stills",
+  "rejected_motion_takes": [
+    "clips/01-scene-lantern-v2-motion-rejected.mp4",
+    "clips/01-scene-lantern-v3.mp4"
+  ],
+  "replacement_review": "renders/review/01-lantern-v4-review.json",
+  "frame_approval": false,
+  "omni_video_jobs_submitted": 0
 }

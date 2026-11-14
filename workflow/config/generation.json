@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "provider": "Higgsfield",
+  "image": {
+    "model": "gpt_image_2_6",
+    "quality": "high",
+    "resolution": "2k",
+    "output_format": "png",
+    "aspect_ratio": "9:16",
+    "count": 1
+  },
+  "video": {
+    "model": "gemini_omni_flash_1_2",
+    "display_name": "Gemini Omni Flash 1.2",
+    "mode": "image-to-video",
+    "resolution": "1080p",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "required_input_roles": ["start_image", "end_image"],
+    "paired_frame_duration_sec": {"min": 3, "max": 10},
+    "native_audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+  },
+  "production_order": [
+    "Generate first and last stills for a scene.",
+    "Show BOTH actual stills to the user and obtain explicit approval of that exact pair.",
+    "Pass the frame gate, then animate the approved pair using Gemini Omni Flash 1.2.",
+    "Run independent clip review against the approved pair, scene contract and original lantern reference.",
+    "Use only passing clips in production. Preserve failed and uncertain takes."
+  ],
+  "no_automatic_model_fallback": true,
+  "verification": "Model ID, paired-frame input roles, 3–10 second paired-frame limit and 1080p output verified with Higgsfield models_search."
+}
