@@ -23,6 +23,14 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 - [ ] Sol looks like the actual mascot, including the main flame tip, side
   lobes, layered colors, broad cream inner flame and compact rounded limbs.
   Preserve the cream flame's crown and rounded lower face.
+- [ ] Compare the WHOLE design beside the original at a similar size: broad
+  flat silhouette, asymmetric main tip, rounded lobes/notches, substantial red
+  outer layer, original orange/cream contour paths and relative widths, face
+  proportions and low eye placement. Dark eyes and small feet alone do not
+  make a redesigned flame character the Ignite mascot.
+- [ ] Retain the original flat illustration and existing gradients. Paint
+  texture must preserve the original layer boundaries and proportions; avoid
+  an inflated or sculpted body, enlarged face or new shaded lower rim.
 - [ ] Preserve ALL mascot features across clips. Match the short rounded arms
   and stubby feet in the asset examples: their length, thickness, shape, color
   and attachment points stay consistent. A new pose keeps the same anatomy.
@@ -79,6 +87,10 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 These are production checks from inspecting the failed takes, rather than
 additional aesthetic preferences attributed to Elaine.
 
+- [ ] When a generated mascot is wrong, remove it from scene/layout inputs
+  before rebuilding. Use the original mascot as the primary identity image
+  and a character-free scene as the environment reference. A rejected character
+  must not quietly become the starting design for the next correction.
 - [ ] In an exterior escalator view, show both opposing handrails. The flight
   connects two distinct floors with a normal incline and believable landings.
 - [ ] The stationary landing is flush with the floor. The comb crosses the
@@ -100,6 +112,10 @@ additional aesthetic preferences attributed to Elaine.
   Her next correction is to preserve every mascot feature, explicitly including
   the arms, stubby feet and eyes, across all clips. Prompts are being revised to
   match the asset examples; the existing pair is not recorded as finally approved.
+- Elaine subsequently rejected the v3 character as not looking like the Ignite
+  mascot. Correcting isolated traits did not fix its overall design. V2/v3
+  characters are rejected identity references; compare new candidates against
+  the original assets, not against those generated versions.
 
 ## Keeping this useful
 

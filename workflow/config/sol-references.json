@@ -6,13 +6,14 @@
     "workflow/assets/reference-art/Puzzled.png",
     "workflow/assets/reference-art/Artist.png",
     "workflow/assets/reference-art/Celebrate.png",
-    "workflow/assets/reference-art/Lightbulb.png"
+    "workflow/assets/reference-art/Lightbulb.png",
+    "workflow/assets/reference-art/Microphone.png"
   ],
   "paint_finish": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
   "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
   "role_policy": "Use Mascot.png and the supplied mascot examples for Sol's actual design. Keep the paint treatment the user accepted. The lantern video guides finish/movement; it must not replace the mascot's geometry. Props in the examples are not part of the neutral character.",
   "identity_constraints": [
-    "Match the original outer flame silhouette, main tip, side lobes, layered colors and broad cream inner flame with its crown and rounded lower face.",
+    "Preserve the original broad flat silhouette, long asymmetric tip, rounded side lobes/notches, substantial red outer shape and exact nested orange/cream contour paths and relative widths. Retain original face/body proportions and smooth 2D gradients.",
     "Keep both original eye ovals completely filled with solid dark navy #1C2447, at the source size, spacing and low placement. Elaine calls these the dark pupils: preserve the existing whole dark shapes. No eye whites, reflective highlights or internal gray gradients.",
     "Preserve the short rounded red-orange arms shown in the mascot examples, including shape, thickness, length and attachment points. Do not turn them into long arms or large separate hands.",
     "Feet are two tiny rounded red vertical nubs peeking directly below the flame body, at original proportions. No lower-leg shaft, ankle, boot-like toe, shoes or fingers.",
@@ -20,18 +21,20 @@
     "Apply the painted treatment to those same source shapes; do not copy redesigned anatomy from a previously generated frame.",
     "Keep hands empty in the escalator scenes. Example props and accessories are not part of the neutral mascot."
   ],
-  "latest_user_clarification": "2026-11-14: Elaine rejected the boot-like legs and faded/glossy eyes and asked for the original stubby legs and dark pupils. These mean the original red foot nubs and fully dark oval eyes, retaining all mascot features.",
+  "latest_user_clarification": "Elaine rejected v3 as not looking like the Ignite mascot. Whole source design must match; dark eyes and short feet alone are insufficient.",
   "paint_treatment_accepted": true,
   "frame_pair_approved": false,
   "limb_identity_examples": [
     "workflow/assets/reference-art/Curious.png",
     "workflow/assets/reference-art/Celebrate.png"
   ],
-  "identity_priority": "Original mascot assets define all character geometry and features. Painted references supply surface treatment and lighting; previous generated frames supply continuity. Neither overrides the original arms, stubby feet, eyes, flame layers, colors or proportions.",
+  "identity_priority": "Original mascot artwork defines the COMPLETE character, including flat silhouette, all nested contour paths, relative layer widths, proportions, eyes and limbs. Use the original as the primary image. A rejected generated character cannot supply identity, even after isolated eye or foot corrections.",
   "eye_color_rgb": [
     28,
     36,
     71
   ],
-  "eye_color_hex": "#1C2447"
+  "eye_color_hex": "#1C2447",
+  "character_free_scene_reference": "workflow/episodes/escalator/keyframes/01-background-nano-v4.png",
+  "generation_reference_policy": "For identity corrections, use the original mascot first and a character-free layout/background. Avoid retaining a rejected mascot as scene/style reference. Compare the entire original and candidate side by side before passing identity."
 }
