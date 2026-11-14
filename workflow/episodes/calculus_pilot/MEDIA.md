@@ -15,7 +15,7 @@ From the repository root, use these exact paths:
 | Confirmed timing | `workflow/episodes/calculus_pilot/audio/voiceover-cues.json` |
 
 Full audio path:
-`/Users/elaine/Documents/Ignite-Shitposts/workflow/episodes/calculus_pilot/audio/mogofun-narration.mp3`
+`/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/calculus_pilot/audio/mogofun-narration.mp3`
 
 Use the episode's `narration.txt` in MoGoFun, voice **Cub (Female)**, off-screen.
 Keep WAV or M4A downloads in their real format with the same basename; keep

@@ -6,7 +6,7 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const episodeDir = fileURLToPath(new URL("../", import.meta.url));
-const videoProject = path.resolve(episodeDir, "../../../ignite-video");
+const videoProject = path.resolve(episodeDir, "../../remotion");
 const fromVideoProject = createRequire(path.join(videoProject, "package.json"));
 const { bundle } = fromVideoProject("@remotion/bundler");
 const { renderMedia, selectComposition } =

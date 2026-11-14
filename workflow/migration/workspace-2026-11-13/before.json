@@ -1,0 +1,2330 @@
+{
+  "excluded_directories": [
+    ".cache",
+    ".git",
+    ".venv",
+    "__pycache__",
+    "node_modules",
+    "venv"
+  ],
+  "files": [
+    {
+      "path": "guidlines/shot-integration-and-sol.md",
+      "type": "file",
+      "bytes": 4981,
+      "sha256": "3ba3247e608435f8126194192414a5112cb9f9d18810c8cf894d4d5d48c21173"
+    },
+    {
+      "path": "guidlines/video-script-guide.md",
+      "type": "file",
+      "bytes": 3147,
+      "sha256": "ae4d226400df18a882ca856b72f1921432d46f9c91ae97540b40879c02e77146"
+    },
+    {
+      "path": "guidlines/video-style-guide.md",
+      "type": "file",
+      "bytes": 2851,
+      "sha256": "26bc63310db2726c4903672e253368959aa93f13f9c72922ba03fd73c914f96a"
+    },
+    {
+      "path": "graphics/Fall.jpg",
+      "type": "file",
+      "bytes": 609148,
+      "sha256": "0ec361cf735c7ebc97ccf0b929233609778f98327c081684df3d3f872f2e63e9"
+    },
+    {
+      "path": "graphics/Hero 2.jpg",
+      "type": "file",
+      "bytes": 2981152,
+      "sha256": "ba7dbc6285382ed638b464a5d168ea211420821299f2837bbccf44c35e61ab59"
+    },
+    {
+      "path": "graphics/Hero 3.jpg",
+      "type": "file",
+      "bytes": 1620118,
+      "sha256": "a3a5e919b6b1ac579e19a56bf805cd205d169182684714ad579b027677d13c1c"
+    },
+    {
+      "path": "graphics/Hero 4.jpg",
+      "type": "file",
+      "bytes": 2086069,
+      "sha256": "f0898cf4ffb6c626cbb8689921d0a9915d063fb0685b8816620a1e5e6cfc5301"
+    },
+    {
+      "path": "graphics/Hero.jpg",
+      "type": "file",
+      "bytes": 1759665,
+      "sha256": "cada55517a1441c4a12da85a8193f8e2ea4f742fe8400c3e9c06a13c529f4093"
+    },
+    {
+      "path": "graphics/Hiring.jpg",
+      "type": "file",
+      "bytes": 2110485,
+      "sha256": "d8701ccdc9eede294710e487d32c59d37d175ba71334b9f4f996e4d5b862b05a"
+    },
+    {
+      "path": "graphics/Loading Screen Mobile.mp4",
+      "type": "file",
+      "bytes": 1622938,
+      "sha256": "a4e59a0a02c6fbaa0f8ff63d2dc1f1165c536f09792edd4c8e70b03edc5e9bbf"
+    },
+    {
+      "path": "graphics/Loading Screen Mobile.webp",
+      "type": "file",
+      "bytes": 24888,
+      "sha256": "84d8580312003b13217e620004c6f27a5bf005a97a0a9c64b52fcffece81f4d5"
+    },
+    {
+      "path": "graphics/Loading Screen.mp4",
+      "type": "file",
+      "bytes": 2913738,
+      "sha256": "020f91e1e41c38d483fc4815fff95dfdcf4c58263c940d294c8fe6670910b181"
+    },
+    {
+      "path": "graphics/Loading Screen.webp",
+      "type": "file",
+      "bytes": 22910,
+      "sha256": "09af6b4b1e49e0f9f42705fe418e70faf28d5042e1178021c76d17537f0f6cbf"
+    },
+    {
+      "path": "graphics/Mascot.png",
+      "type": "file",
+      "bytes": 540293,
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+    },
+    {
+      "path": "graphics/Matters.jpg",
+      "type": "file",
+      "bytes": 2533319,
+      "sha256": "426bc7223a3f8e27417783a19ac5ef9647568d9d42fe8353a66a8644f3cba976"
+    },
+    {
+      "path": "graphics/Practical Learning.jpg",
+      "type": "file",
+      "bytes": 2966252,
+      "sha256": "0bd1da372877c25822c9a4226e4b1e737fd170f132a98005af0ad6cbcf836406"
+    },
+    {
+      "path": "graphics/Program.jpg",
+      "type": "file",
+      "bytes": 2657176,
+      "sha256": "2545eeeb5a80734ad205ced9c9db9c8fd45c191b097b8d5f367cba904eb542bd"
+    },
+    {
+      "path": "graphics/Spring.jpg",
+      "type": "file",
+      "bytes": 2476780,
+      "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+    },
+    {
+      "path": "graphics/Story.png",
+      "type": "file",
+      "bytes": 529227,
+      "sha256": "6810e912957c328924a5e87983d4cac4b890933579e28011d403b310d2279b3d"
+    },
+    {
+      "path": "graphics/Summer.jpg",
+      "type": "file",
+      "bytes": 591867,
+      "sha256": "4f1141390acb93e5a8109e675397237bcc1d8679ca9f70ee019e53de17adfb19"
+    },
+    {
+      "path": "graphics/Thank You.jpg",
+      "type": "file",
+      "bytes": 310748,
+      "sha256": "5721b5b5581b7e05e80a873f5d9f9b6c627e67bd660cc0adce8fe37de8e69143"
+    },
+    {
+      "path": "graphics/Together.jpg",
+      "type": "file",
+      "bytes": 1676365,
+      "sha256": "b70f3b317b1530659f42a2ddf1eb33ba444a3e1f9a37c7dd31dd2e4a81d17277"
+    },
+    {
+      "path": "graphics/Winter.jpg",
+      "type": "file",
+      "bytes": 2525391,
+      "sha256": "d45accb0f905eaa5d33714493834e81bfaf9c746f0d0d9777675ceea2c794c50"
+    },
+    {
+      "path": "music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3",
+      "type": "file",
+      "bytes": 3083920,
+      "sha256": "86547df5be914d00059f3cbdcb9bb79fff8e331bec5453aeadd13576930420d1"
+    },
+    {
+      "path": "music/Hide and Sneak 4.mp3",
+      "type": "file",
+      "bytes": 2847109,
+      "sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23"
+    },
+    {
+      "path": "music/Lurking Behind 4.mp3",
+      "type": "file",
+      "bytes": 2653501,
+      "sha256": "3fa9d80ec9e5d6a8a797b1e50fbfe6539ba84a5f89c2205654ad24c64604d260"
+    },
+    {
+      "path": "music/Pizzicato Comedy 4.mp3",
+      "type": "file",
+      "bytes": 2320499,
+      "sha256": "a3417d5ac02f7569969e978196a5118d602f1bc7cae97fc429d6596bdea35c20"
+    },
+    {
+      "path": "music/Roblox Break In OST - Daytime Extended.mp3",
+      "type": "file",
+      "bytes": 35115909,
+      "sha256": "8a143e0f832734effe1f79e467717f1cfd78a6486c39908e06938f35060c4213"
+    },
+    {
+      "path": "music/Roblox Break In OST - Larry Stairs Extended.mp3",
+      "type": "file",
+      "bytes": 33370320,
+      "sha256": "00a18ab756e13e51e38f63bb4c67b068c4a84a6e48d32fbf82e8048c946ec379"
+    },
+    {
+      "path": "music/Roblox Break In OST - Nighttime Extended 4.mp3",
+      "type": "file",
+      "bytes": 33482949,
+      "sha256": "be6a6e4d1d439b3610e060d4cafc842110c2f5d1a3560f64afad9d3070abdb8b"
+    },
+    {
+      "path": "music/ignite-sol-shorts-preview.mp4",
+      "type": "file",
+      "bytes": 191641,
+      "sha256": "2dac91645c8ac45a576da4f449b2736ae3c09d6db85a0b638dc3307c2765aa67"
+    },
+    {
+      "path": "ignite-video/.gitignore",
+      "type": "file",
+      "bytes": 213,
+      "sha256": "193b68bcedb9e402bee0d9d4dc76585ce5a578004877dfc26e2c02cb46bbf4b8"
+    },
+    {
+      "path": "ignite-video/.prettierrc",
+      "type": "file",
+      "bytes": 66,
+      "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd"
+    },
+    {
+      "path": "ignite-video/README.md",
+      "type": "file",
+      "bytes": 8319,
+      "sha256": "069cb1414a034a322c95092b428074a009de88dada1a44342dad6debe396f521"
+    },
+    {
+      "path": "ignite-video/eslint.config.mjs",
+      "type": "file",
+      "bytes": 79,
+      "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+    },
+    {
+      "path": "ignite-video/package-lock.json",
+      "type": "file",
+      "bytes": 190524,
+      "sha256": "bae2188058b424fcffbe10cd91d3517dbd06dd83d38e450fc7b58bd488fa0fcb"
+    },
+    {
+      "path": "ignite-video/package.json",
+      "type": "file",
+      "bytes": 1176,
+      "sha256": "07c1ccfa60755f1601b60221a65ca686e02ca7ab25c443ca0d4598fc3cef7a4b"
+    },
+    {
+      "path": "ignite-video/remotion.config.ts",
+      "type": "file",
+      "bytes": 372,
+      "sha256": "045d5032ae727b8425447022cb4e7602214b7d6ac41ab7761034c922c5768af9"
+    },
+    {
+      "path": "ignite-video/tsconfig.json",
+      "type": "file",
+      "bytes": 406,
+      "sha256": "3d025f3e378e2af924afffe6ecdd0f6addbe718a99e0c9902f385a40d71a765e"
+    },
+    {
+      "path": "ignite-video/episodes/zipper.json",
+      "type": "file",
+      "bytes": 12109,
+      "sha256": "73536b052fae9211568168730d0e3997c37176227ef199dc0354b540470c3f8c"
+    },
+    {
+      "path": "ignite-video/out/reveal.png",
+      "type": "file",
+      "bytes": 381148,
+      "sha256": "16e2f549630ee1855b6bbf346420ed1261852f5df3da511bf19a5e44eeada8af"
+    },
+    {
+      "path": "ignite-video/out/sol.png",
+      "type": "file",
+      "bytes": 372738,
+      "sha256": "b4ca6b55ec71c92e0d2e8405c51ae70f88573b30814ef92cb0c7b6d4f65041dc"
+    },
+    {
+      "path": "ignite-video/out/storyboard.jpg",
+      "type": "file",
+      "bytes": 63638,
+      "sha256": "051b44d2d7304b3fbcc81f204afc48bc882d709efab60949e65aaf9772002b2d"
+    },
+    {
+      "path": "ignite-video/out/zipper.mp4",
+      "type": "file",
+      "bytes": 3389236,
+      "sha256": "70c3527c4a5b667d9dc7d14db6e41c2e287021b4ca3571668489181b0170b143"
+    },
+    {
+      "path": "ignite-video/out/zipper.verification.json",
+      "type": "file",
+      "bytes": 142,
+      "sha256": "2581f004eddb7cefec8af5a1289649cdce433f58d67d42be9e8c70a097aca597"
+    },
+    {
+      "path": "ignite-video/public/art/ignite/painted-style-reference.jpg",
+      "type": "file",
+      "bytes": 1621297,
+      "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe"
+    },
+    {
+      "path": "ignite-video/public/art/ignite/sol-full-body.png",
+      "type": "file",
+      "bytes": 540293,
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/catch-ring.svg",
+      "type": "file",
+      "bytes": 488,
+      "sha256": "d0baedc4d4fefe15873c9d68fe126587aa4e7d72fa34dae988062b2e434538be"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/fabric-fold.svg",
+      "type": "file",
+      "bytes": 736,
+      "sha256": "f7a79d1102d7e370ca8300cc8642e06a04f7fb0abde065c641aaa82042315bed"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/inner-channel.svg",
+      "type": "file",
+      "bytes": 542,
+      "sha256": "327f621d023bc05c7982f64d006d82d822c8ae5b43d566c666fd2f40f64ef36c"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/paper.svg",
+      "type": "file",
+      "bytes": 106441,
+      "sha256": "657424f91b8c48d96f661847ee685e02e20d5496f213aa0bfbf128ff0e9c97dc"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/pull-tab.svg",
+      "type": "file",
+      "bytes": 477,
+      "sha256": "a7e8adca6dcc3bb1c655328cd7c603cbac9bc7331a57aa2a211a8d02dda845a1"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/slider-shell.svg",
+      "type": "file",
+      "bytes": 862,
+      "sha256": "b06e96d6fd0fdeca5ab9f3abe6b862682173f2f6e641ddefcffed592cb68e6a9"
+    },
+    {
+      "path": "ignite-video/public/art/zipper/zipper-track.svg",
+      "type": "file",
+      "bytes": 5269,
+      "sha256": "c8382e21643448be5dcf8767f15f25ff6c0efd5123be41cc8fed71e32dea5962"
+    },
+    {
+      "path": "ignite-video/public/fonts/Nunito-OFL.txt",
+      "type": "file",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "path": "ignite-video/public/fonts/Nunito.ttf",
+      "type": "file",
+      "bytes": 276932,
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    {
+      "path": "ignite-video/scripts/copy-assets.ts",
+      "type": "file",
+      "bytes": 1209,
+      "sha256": "cc6118b574b61306cfc1273a4e0b7c711cc08e3f2e6bae85f25d5921763c869a"
+    },
+    {
+      "path": "ignite-video/scripts/video.ts",
+      "type": "file",
+      "bytes": 10005,
+      "sha256": "f853b2c1832e63f857bb4cfde9a804e54ebf56e715e255b384e5e758eb687fea"
+    },
+    {
+      "path": "ignite-video/src/Composition.tsx",
+      "type": "file",
+      "bytes": 6416,
+      "sha256": "f4bc96af094a4a5836fdedc286a69c008f54e78e8e0e6e9e82b367253648a526"
+    },
+    {
+      "path": "ignite-video/src/Root.tsx",
+      "type": "file",
+      "bytes": 752,
+      "sha256": "c282a3609c81c12067a3e2c9887d3bf6005a79dd7c2eb08602a69ac3a54f5a14"
+    },
+    {
+      "path": "ignite-video/src/episode.ts",
+      "type": "file",
+      "bytes": 6460,
+      "sha256": "1e63e35fcbd426d1449c705cca2b3b8068807a680b2c25bf56d02946bc791313"
+    },
+    {
+      "path": "ignite-video/src/index.ts",
+      "type": "file",
+      "bytes": 109,
+      "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+    },
+    {
+      "path": "ignite-video/src/style.css",
+      "type": "file",
+      "bytes": 2343,
+      "sha256": "6c74df52a8adad706dd3fa906a9b86558ff1a5a1d9d1cd11be8159933aff6107"
+    },
+    {
+      "path": "ignite-video/tests/episode.test.ts",
+      "type": "file",
+      "bytes": 2495,
+      "sha256": "b8c9e1b6f844ce9fc2f08859838fcecd5e1d0b42b0464edd227a558937162192"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/.gitignore",
+      "type": "file",
+      "bytes": 143,
+      "sha256": "f708334a53bca3d04add34c3c49ce5116f66a909baad9a4d837652c631cf0e25"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/AGENTS.md",
+      "type": "file",
+      "bytes": 1245,
+      "sha256": "33dfa9712fcae3bee56074008b0cecf7621061ca698c05471cb2a41fec590aa8"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/README.md",
+      "type": "file",
+      "bytes": 10579,
+      "sha256": "ccb048e39185880818c2ebb6f906c5dd1e1afc4af11fdb9f6bf256313a231cb3"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/README.zh.md",
+      "type": "file",
+      "bytes": 3562,
+      "sha256": "166d1ad3092271f76238ad6b4af83eea2a765ec63bbd05f13a32517e3a820016"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/SKILL.md",
+      "type": "file",
+      "bytes": 5993,
+      "sha256": "c1a45aac610e5fa3da539c5814b379af0587417eb2d45b18921bbed2e4177001"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/SKILL.zh.md",
+      "type": "file",
+      "bytes": 2292,
+      "sha256": "4d780125b38b7cee17746537475dfc3bc4470b30ea59b312d69121aa7135b069"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/package.json",
+      "type": "file",
+      "bytes": 862,
+      "sha256": "17ae4fed9dff1c0a02ff66a6e9563bf274a3653f280b4f425572f4580248e031"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/examples/mosquito_bite_beats.json",
+      "type": "file",
+      "bytes": 2915,
+      "sha256": "87943904f5d8fe72d8bb681241d72588d42cc7e4d71d4a5446637847f9aeead6"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/examples/swallow_gum_beats.json",
+      "type": "file",
+      "bytes": 2902,
+      "sha256": "59222104e4d0efa750ac82796224e5b6d8c1be725233b20ba24d0fe86dd69d66"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/calculus_pilot",
+      "type": "symlink",
+      "target": "../../../episodes/calculus_pilot"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/beats.json",
+      "type": "file",
+      "bytes": 3084,
+      "sha256": "c868566685fd15c7d758b3a28a5d590d7024a2decd56c97c91ba8c8780387727"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/final.mp4",
+      "type": "file",
+      "bytes": 7861368,
+      "sha256": "ed61af654337e719cc5add566071cc184b33dee9b3a536a7c55ca0b1223d928d"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/generated_keyframe.jpg",
+      "type": "file",
+      "bytes": 710284,
+      "sha256": "aaf950db5b4bba495e12bee65aa8ed81e3dba81abd5f8571c53b938b41d43ca1"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/clips/beat_1_a.mp4",
+      "type": "file",
+      "bytes": 2375670,
+      "sha256": "67542e3b3b63b8c732a438ed6b8d2e0240a10fbcca53d1f925a69b04f9572132"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/clips/beat_1_b.mp4",
+      "type": "file",
+      "bytes": 3124083,
+      "sha256": "f4f89cd5ae74481d56fa6d1119f1da44be374590b0aae2967e1b7c5414762d18"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/clips/beat_2_a.mp4",
+      "type": "file",
+      "bytes": 2088263,
+      "sha256": "74d69b7da5f09c7a72fe9c65b731a716e686d5443f999660351fae16e5620435"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/clips/beat_2_b.mp4",
+      "type": "file",
+      "bytes": 1485688,
+      "sha256": "da66dac55c7debefd8b62dcdc95db2b831fed1f55c3b7d875d153a00cf2b5dc6"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/clips/beat_3_a.mp4",
+      "type": "file",
+      "bytes": 1948388,
+      "sha256": "5d4a0ecedae7e3e2f9ae5f04cd93927ecb89299377d64e52366ff661839f95b0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_a.png",
+      "type": "file",
+      "bytes": 645454,
+      "sha256": "8651ef5f8776324e2a99f79f7beed2e83504b597e97da695bc6699ea783494ef"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_b.png",
+      "type": "file",
+      "bytes": 783180,
+      "sha256": "ce5a6949ae266bc4a6d5a58d4d2ca93c9bc10417ed8d078aec8e5f10ab18ebd4"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_a.png",
+      "type": "file",
+      "bytes": 589263,
+      "sha256": "f4fe0cdea1c7318d77a67871bfa8308c9bd53101c789c842e8e5eb126e61c023"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_b.png",
+      "type": "file",
+      "bytes": 578167,
+      "sha256": "457132aa53ad5e38a9987e0e6b197f67f3d865ec731a2924e1095384bdab686b"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/out/test_run/keyframes/beat_3_a.png",
+      "type": "file",
+      "bytes": 595277,
+      "sha256": "18861ef477e22c94200aaec7eaaace60a877635080d119f1bafe931fccc0e7e0"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/references/beat-layer.md",
+      "type": "file",
+      "bytes": 3534,
+      "sha256": "242a4d65ebf648184aefe9ee9f5f3a525e82c0808da6612784c584c5f8d3724d"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/references/character-sheets.md",
+      "type": "file",
+      "bytes": 2620,
+      "sha256": "c7bd8a17a247be23696586b073c866ece4942d472184a644b5e0632f5c382531"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/references/models-and-gotchas.md",
+      "type": "file",
+      "bytes": 2844,
+      "sha256": "99234b1baacaeee3d3a0fa6423d9e9cc2f102136ef2f5d1666a6d72f740e6bab"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/references/prompt-guide.md",
+      "type": "file",
+      "bytes": 3147,
+      "sha256": "f5315a939cb3d1eba07f20b41bc2bd1a4b5ba1b7073c9acf70236e021585f7a8"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/references/voices.md",
+      "type": "file",
+      "bytes": 1091,
+      "sha256": "efa758f5b9fd6a9d4fbd915ed10ea6bf16f487da52cbfc13631afe8b945bbf80"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/assemble.py",
+      "type": "file",
+      "bytes": 11021,
+      "sha256": "26b6ca200d73123163d4f732e4a771305d0796a495de2b81ae8903dea8c83101"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/audio.py",
+      "type": "file",
+      "bytes": 2055,
+      "sha256": "2f24d6a83b9bf89aa01f39ddf1a62c68149b5258ede25b952dd934e9b1af9a73"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/calculus_edit.py",
+      "type": "file",
+      "bytes": 380,
+      "sha256": "bcf09497790cb9caf2c2b73ce5d73eaf95c9cc6e5665413e8804e40f9527d378"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/calculus_pilot.py",
+      "type": "file",
+      "bytes": 381,
+      "sha256": "edb5971f06a1d6ab285b8ddfc32ca232e46df2a0f0ace6eac1195ff9bebad1c2"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/character_sheets.py",
+      "type": "file",
+      "bytes": 2256,
+      "sha256": "9bfdc467442b0bf7577363da2c820b4cbacd33b02eb634e615823cd2e6f3712c"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/clips.py",
+      "type": "file",
+      "bytes": 2218,
+      "sha256": "48def3fe4db28dc6763b054f2bede9d37aa71105451f7f3317bc88a64fb3a820"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/keyframes.py",
+      "type": "file",
+      "bytes": 2376,
+      "sha256": "a2d441daf94217f9c5dc3d9494ceb48fe8503921ab4800dc3aa9087f2931bf75"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/muapi_compat.py",
+      "type": "file",
+      "bytes": 391,
+      "sha256": "b6ec642b9d41c082cf60c8609a84fb07218ae4f933745d22338416258fe1adab"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/provider.py",
+      "type": "file",
+      "bytes": 8519,
+      "sha256": "e646aff24e7f6b89910c2443b6809c151d3f15bce0e3d6de1e0a59bd185a91a1"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/script_generator.py",
+      "type": "file",
+      "bytes": 5115,
+      "sha256": "d28a3088881c492690c58cedbbef90ceae7249f62c99689ee1b6b6bd5809422f"
+    },
+    {
+      "path": "zack-d-films-ai-video-generator/scripts/trend_research.py",
+      "type": "file",
+      "bytes": 2029,
+      "sha256": "6987a7e03a6649733371d72091ce4c24738e727ae7a56fe39268027a7ec95ed5"
+    },
+    {
+      "path": "workflow/.gitignore",
+      "type": "file",
+      "bytes": 102,
+      "sha256": "b4fb22c64f20da85b008af29c44bd62d854d947b953c669aef076a336c847490"
+    },
+    {
+      "path": "workflow/README.md",
+      "type": "file",
+      "bytes": 13162,
+      "sha256": "f813f82499e723b040d8ba057a86d44d33af84e28ac559bd7b940830182a8a0b"
+    },
+    {
+      "path": "workflow/requirements.txt",
+      "type": "file",
+      "bytes": 15,
+      "sha256": "1954ca940740c612a12e7abf0a307b7394715964d66dc8037d503fdd5c1b6424"
+    },
+    {
+      "path": "workflow/assets/calculus-painted-scene.jpg",
+      "type": "file",
+      "bytes": 1621297,
+      "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe"
+    },
+    {
+      "path": "workflow/assets/sol-full-body.png",
+      "type": "file",
+      "bytes": 540293,
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+    },
+    {
+      "path": "workflow/assets/fonts/Nunito-OFL.txt",
+      "type": "file",
+      "bytes": 4385,
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+    },
+    {
+      "path": "workflow/assets/fonts/Nunito.ttf",
+      "type": "file",
+      "bytes": 276932,
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    {
+      "path": "workflow/assets/fonts/Poppins-OFL.txt",
+      "type": "file",
+      "bytes": 4385,
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+    },
+    {
+      "path": "workflow/assets/fonts/Poppins-SemiBold.ttf",
+      "type": "file",
+      "bytes": 157312,
+      "sha256": "d3bf1bdaf0550e83da9ac0b1d1d9fe6db086835a83aa28578e609a394b9a0286"
+    },
+    {
+      "path": "workflow/assets/fonts/RammettoOne-OFL.txt",
+      "type": "file",
+      "bytes": 4429,
+      "sha256": "88ae96c3cfcaea1d7d573675d7513c25716a048fdfa21f16768142ef235f9136"
+    },
+    {
+      "path": "workflow/assets/fonts/RammettoOne-Regular.ttf",
+      "type": "file",
+      "bytes": 69392,
+      "sha256": "0063c5480f7868be5dd95dd668575643ff953199541dce65fe5a88310bd7733f"
+    },
+    {
+      "path": "workflow/config/captions.json",
+      "type": "file",
+      "bytes": 190,
+      "sha256": "fb2874ce38ff037c25952bccaf023388edebb65d363971baa384a8dcb89f0ca3"
+    },
+    {
+      "path": "workflow/config/format.json",
+      "type": "file",
+      "bytes": 100,
+      "sha256": "703c8e5f0cfbc7be9faba60f89ead7edca18bfe32cda5b51f82316d41c2b4e8a"
+    },
+    {
+      "path": "workflow/config/narration.json",
+      "type": "file",
+      "bytes": 529,
+      "sha256": "322dfb000a6b8bbda1c2f0b657cbc4533ed9b4d1546528824017768230341cb1"
+    },
+    {
+      "path": "workflow/config/style.json",
+      "type": "file",
+      "bytes": 452,
+      "sha256": "64c25455b15ff2d721a8c15f860842c07c9158b88d14d4cae49092caa89b31d2"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/.gitignore",
+      "type": "file",
+      "bytes": 8,
+      "sha256": "70a213afeabe5ac38ae4c88b2c7002ce5068b91a3e57a032245ab809dc6fa460"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/MEDIA.md",
+      "type": "file",
+      "bytes": 2122,
+      "sha256": "ccf49ff132b55615e1b372d03809190d45d9186cf051eb07e7a9eda520f1ee49"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/README.md",
+      "type": "file",
+      "bytes": 2756,
+      "sha256": "311b37b6b6c15319890a34c4fd0e0eeaaf37f7e26afadf6f0d7353e0d2e4e5b0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/asset-manifest.json",
+      "type": "file",
+      "bytes": 551,
+      "sha256": "5b556be4ebd46fcc100d4c448bfba2ceb0aa4acaacd2c9a9c74a0971a8978d71"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/assets",
+      "type": "symlink",
+      "target": "../../assets"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/captions.srt",
+      "type": "file",
+      "bytes": 281,
+      "sha256": "30c5d85f2a85bcd1554c07c0b09a10187d277d8f8b5097ef9201b21ea3faeace"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/edit.json",
+      "type": "file",
+      "bytes": 1254,
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/flow-image-prompts.md",
+      "type": "file",
+      "bytes": 2522,
+      "sha256": "a0e97ee1cb5d49b592ecb76b9175f45ff8dd179c66fb4f4087e6f810a9499def"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/flow-video-prompts.md",
+      "type": "file",
+      "bytes": 5835,
+      "sha256": "857a20838b8812c7f40332454164a32686d8de2f2623bec01f2bc5875a97099c"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/generation",
+      "type": "symlink",
+      "target": "keyframes/blocking"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/narration.txt",
+      "type": "file",
+      "bytes": 153,
+      "sha256": "44120924dbf2f0a0c8b144cf954a5cbac9f3ba1e2303aefbc8edccda14e1a44a"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/shot-plan.json",
+      "type": "file",
+      "bytes": 1298,
+      "sha256": "d19299f9988eef0127bd7bf3a792954913cd4f0bf5fee8b263c99d6b839b9b9d"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/voiceover-cues.template.json",
+      "type": "file",
+      "bytes": 698,
+      "sha256": "e9f46429ec301be466034e1adfedf2544b54fb7709ed26ddf79031719142ce8b"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/graph-fitted.wav",
+      "type": "file",
+      "bytes": 412878,
+      "sha256": "cb20e9fa17ed84a5601ebcee11ca68dbbe17c5560d589ee5c68160eb5234af76"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/graph-temp.aiff",
+      "type": "file",
+      "bytes": 114684,
+      "sha256": "d225c929f1f75ccfdae2b13b98c47519dcc4a6e5d9530b93a5e02625c171a3f0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/graph-temp.wav",
+      "type": "file",
+      "bytes": 240814,
+      "sha256": "ac98bfe893a6ee49b943a01b51b0fdf03d4b6ef321ea5da6f405fd812f450eaf"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/hop-fitted.wav",
+      "type": "file",
+      "bytes": 345678,
+      "sha256": "a6e996cff1a807afc98ab1842c77fcfd6241a4dff7109bc4fa3d3339f3e5f516"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/hop-temp.aiff",
+      "type": "file",
+      "bytes": 112254,
+      "sha256": "19430b81cf3028ff1a4febf40833bddc697d422c98946c730ee921e7b80c02ec"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/hop-temp.wav",
+      "type": "file",
+      "bytes": 235524,
+      "sha256": "1e322dfd81cb93f1824a7489d217d5b4c6bf1e24b579ca062fb64d5fce941387"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/lean-fitted.wav",
+      "type": "file",
+      "bytes": 374478,
+      "sha256": "9b85b4f79f26d63d8a58ae305cb24892e5f91aadf8d5cbf32771e14562889bd9"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/lean-temp.aiff",
+      "type": "file",
+      "bytes": 80754,
+      "sha256": "4721104862e9efe9cba96df3f0182a1431a1da7e72dc042530067854b8426e21"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/lean-temp.wav",
+      "type": "file",
+      "bytes": 166954,
+      "sha256": "026f806b3bf5521133d4c8c0f30c3d564dbf700574927a158e78849e1a352d68"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/mix.wav",
+      "type": "file",
+      "bytes": 1440078,
+      "sha256": "471d0ecc83b137184c436a92e3e64c00e0dfaf643244efc9aa55a40c60233b10"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/narration.wav",
+      "type": "file",
+      "bytes": 1440078,
+      "sha256": "eceb265febfc087099059617bbc230788e8c6b25ecdc69bb03f971fcee1e8528"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/reaction-fitted.wav",
+      "type": "file",
+      "bytes": 307278,
+      "sha256": "19824b6581b2904330e938e6ff3e43d0bfe1ddd8a2c0f8553f15c5a68e036661"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/reaction-temp.aiff",
+      "type": "file",
+      "bytes": 115708,
+      "sha256": "7c102c06535c9570b66cabbe59a521267c5b3702380d4a05c5a0141f667f75e9"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/reaction-temp.wav",
+      "type": "file",
+      "bytes": 243044,
+      "sha256": "7eac62c6533845a2741894675631d07d4fc6c0fa7170931fb65da4741f14e84b"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/sfx.wav",
+      "type": "file",
+      "bytes": 1440044,
+      "sha256": "17f1a205c0cb625de07b84e2f15dee85c6d1ac961f6f69e0b583ba15cec05afd"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/audio/generated/voice-raw.wav",
+      "type": "file",
+      "bytes": 1440044,
+      "sha256": "a80e5f237dd1e2108d7aee55a1c06bb3c7d6d61b6c96bbe2f5910628c23d427b"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/clips/01-hop-on.mp4",
+      "type": "file",
+      "bytes": 1385010,
+      "sha256": "b34ec65539261c7d999e12f51e6b6e6f07371a68daec5a88820291c60f542841"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/jobs/useapi/A-B.json",
+      "type": "file",
+      "bytes": 9034,
+      "sha256": "23d746e1a197e7fd3206edcac4eeccecd4b0ff4e15ea6cd5ee95b7dcbb16c240"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/jobs/useapi/A-B.lock",
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/A.png",
+      "type": "file",
+      "bytes": 1075364,
+      "sha256": "914225ea3949919a4004ed3cfeb855a360ded419c5a569c6d688142f0b7937fd"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/B.png",
+      "type": "file",
+      "bytes": 1041636,
+      "sha256": "883c9820058dc104d06bddaa4c8eb60d221352deb6550d25c8ce7bf490c4ce66"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/C.png",
+      "type": "file",
+      "bytes": 24528,
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/01-hop-start.png",
+      "type": "file",
+      "bytes": 764464,
+      "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/02-lean-start.png",
+      "type": "file",
+      "bytes": 757539,
+      "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/03-reaction-start.png",
+      "type": "file",
+      "bytes": 794947,
+      "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/A.png",
+      "type": "file",
+      "bytes": 764464,
+      "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/B.png",
+      "type": "file",
+      "bytes": 757539,
+      "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/C.png",
+      "type": "file",
+      "bytes": 24528,
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/D.png",
+      "type": "file",
+      "bytes": 794947,
+      "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/match-cut-target.png",
+      "type": "file",
+      "bytes": 24528,
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/keyframes/blocking/prompts.md",
+      "type": "symlink",
+      "target": "../../flow-video-prompts.md"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/layers/graph.svg",
+      "type": "file",
+      "bytes": 11809,
+      "sha256": "78731a38e42a7c162239867d1bfdcb5298f50463ceff68b9ab11a85a3013a461"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/layers/tangent.svg",
+      "type": "file",
+      "bytes": 336,
+      "sha256": "5f5013557aeb9c502f4ed0ab9346b24c3727e10c038e2f6da48dfddb636ef709"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/plans/flow-run-2026-11-08.json",
+      "type": "file",
+      "bytes": 673,
+      "sha256": "928d2b8b94d85daad593d1485fb37e2381560e57a50e8d16dece9b973376a6c8"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity-v2.json",
+      "type": "file",
+      "bytes": 439,
+      "sha256": "7df9a321a65fd72eecf552543cd86bd693ed4d85e095a897d768922a47b13aad"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity.json",
+      "type": "file",
+      "bytes": 416,
+      "sha256": "b773f80f5ca816507a4b09643661d650e60c0dd9481fb7fe7000172ddd47ba33"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/animatic.mp4",
+      "type": "file",
+      "bytes": 701387,
+      "sha256": "0a92b2a6d71ed0135ed4c6a925239396b39a3eade27a39a24e53232ae60c00df"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/decode-check.log",
+      "type": "file",
+      "bytes": 1720,
+      "sha256": "4fc10f8c27d26f49a22c8933c75268107f54da5b37e1c75975ef15d5995507e5"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/picture-clean.log",
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/picture-clean.mp4",
+      "type": "file",
+      "bytes": 502742,
+      "sha256": "19dd5f508dc0af846c2cc16c57caf1b050b6568a835c7c4d7ec66d5eaa4c96a0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.log",
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.mp4",
+      "type": "file",
+      "bytes": 491223,
+      "sha256": "4b3669813216205ce5f3a340cfc8b265efd46e0bc9a4de79eb5462db52338d7d"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/storyboard.jpg",
+      "type": "file",
+      "bytes": 193834,
+      "sha256": "b2bf50f799ca248068d3232e25e28f4c6ff9c84b624b201b4be982e0d166749a"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/timeline.resolved.json",
+      "type": "file",
+      "bytes": 1254,
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/validation.json",
+      "type": "file",
+      "bytes": 759,
+      "sha256": "547aa13ccc2f26f016ac4e4f40c48afdcc7d5b953f72df10330d8aed2e8656ad"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/README.md",
+      "type": "file",
+      "bytes": 3212,
+      "sha256": "20c2b9e8bedc5758464064ffd00573f6042c5527da7f919b3078bf16c1a1bbae"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/beats.json",
+      "type": "file",
+      "bytes": 1738,
+      "sha256": "b8130eb3a6c03fda145aaf53e7d48806fb0b2342e39d9ee7dffe117ccbf60dbe"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/calculus_pilot.py",
+      "type": "file",
+      "bytes": 14757,
+      "sha256": "bf6f224d4f6aeb0b46753dc227ed352e263556f5fa9a63abc12ae20f413feecf"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/captions.srt",
+      "type": "file",
+      "bytes": 348,
+      "sha256": "8cb66b89eb9bfbac4fc54f83fe020e7c1f268cf8595edad8cf39fdd1b654ce18"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/decode-check.log",
+      "type": "file",
+      "bytes": 1717,
+      "sha256": "38334baa151db35a5e30b838b28457bec8f4f310655c887bc869fd9d7aac617c"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/final.mp4",
+      "type": "file",
+      "bytes": 649243,
+      "sha256": "7827e5de6c7dd5da5a88917a4930bdad4648d4a68fc94fe94d54eedb7b5c7dbc"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/narration.txt",
+      "type": "file",
+      "bytes": 184,
+      "sha256": "4e4ecc85f7e311b24a70349db6ed8bde70ae4a71e28afe55783caa03966cc9a5"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/picture.mp4",
+      "type": "file",
+      "bytes": 430800,
+      "sha256": "e579fb3e6e1b1ddb1b39f9feb90be557fcf68f40bcacbbe6a6d858a0e759f2c4"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/render.log",
+      "type": "file",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/storyboard.jpg",
+      "type": "file",
+      "bytes": 173987,
+      "sha256": "b725a691bd3b39a0206f1102a8015d5febd232b12ae4887bc7104173b19fdbe3"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/validation.json",
+      "type": "file",
+      "bytes": 537,
+      "sha256": "0a4d9b40ef678dc594ae676dc9579ecea00461fbdcdd0e67140b1b75756c5d03"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1-raw.wav",
+      "type": "file",
+      "bytes": 176984,
+      "sha256": "18d2b3b88323ac655dacfe3bbe2fee53cde80c73e57a30daac1b9cc009531be4"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1.aiff",
+      "type": "file",
+      "bytes": 85362,
+      "sha256": "6ff73c487eb78d3448f6dd183aeef1b838d8538b25f3704af7710c007281009c"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1.wav",
+      "type": "file",
+      "bytes": 288078,
+      "sha256": "1c610bb7d42c4f26e5af1f2c70d5729b503b84aa5cb5361696133dd6868ea6b4"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2-raw.wav",
+      "type": "file",
+      "bytes": 167254,
+      "sha256": "55a47a37ee4ded8e76e6700d2550540ef8e4286fbda006550244e8a2f1ed3eca"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2.aiff",
+      "type": "file",
+      "bytes": 80892,
+      "sha256": "4c98712b8afad84640f85bce2826ebd19474b828c8b69c35c17d0dbeb9e58e7c"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2.wav",
+      "type": "file",
+      "bytes": 288078,
+      "sha256": "122208061683e1c1217c8ca9c3182d0c1d1f80e8e3187f511a305e7a377df75f"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3-raw.wav",
+      "type": "file",
+      "bytes": 174398,
+      "sha256": "e207638858db6a67698398c177ff248283769f61e84dfa1fa221aa787d0003b9"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3.aiff",
+      "type": "file",
+      "bytes": 84174,
+      "sha256": "d0a84e76d75c829b4185a02a09636dabfbf4bb579b7d16c8c0654e38a9a21a3c"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3.wav",
+      "type": "file",
+      "bytes": 288078,
+      "sha256": "9e3fc08d82af7536e8c60455cfa49a2b44fbf7a98ea7aec07b352e20c0c86e28"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4-raw.wav",
+      "type": "file",
+      "bytes": 150588,
+      "sha256": "3a1867ebe3a2fcbf096757c95745b902ae921777e917e6a28bdfad1aee04cf52"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4.aiff",
+      "type": "file",
+      "bytes": 73236,
+      "sha256": "b17041a0ecfddbd974796ade56b134b72f3cbe0f9f13e1ca9ead6f2eb5affb12"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4.wav",
+      "type": "file",
+      "bytes": 288078,
+      "sha256": "6a61ee4d77c9a5be636bab420a1590dfe7f7266260c7a44e8ee7efe8c9cc49b0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5-raw.wav",
+      "type": "file",
+      "bytes": 240528,
+      "sha256": "ca5188507ea12ed0ab75850a42a2c55c59d39f8983258c7636b86ebe0b008add"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5.aiff",
+      "type": "file",
+      "bytes": 114552,
+      "sha256": "80e8e75e3ce11b5261eb2e50a1eab36347f617a27d53398fb7bab81617612a60"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5.wav",
+      "type": "file",
+      "bytes": 288078,
+      "sha256": "a1e3d5908466623b30cf7589a1e2d3a6a1890c418329b044e89df320583666f6"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/narration.wav",
+      "type": "file",
+      "bytes": 1440044,
+      "sha256": "b01a9434acffc846abfbb615e0ffc8f1758500ddb55df5ca05c9cdf7dfdc08c6"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/timing.json",
+      "type": "file",
+      "bytes": 510,
+      "sha256": "ba92b2e1004a1b4a0bc79e69607ba3e2aa35e93d50f5d755a22dfb05c2414efe"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_1.png",
+      "type": "file",
+      "bytes": 245944,
+      "sha256": "52b9b5366069a6e5ee2199f64f7e069f2592ade6d9a0b871adb429782276b132"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_2.png",
+      "type": "file",
+      "bytes": 73106,
+      "sha256": "e7e33b36d5651ab88c9c2b2eed744ed8f3dd43c7e2d86850029d503a05127202"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_3.png",
+      "type": "file",
+      "bytes": 70622,
+      "sha256": "3728d9d4207332be7018de69bc35ec9daf3c8f1cc2a0911976272edc746cf0ef"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_4.png",
+      "type": "file",
+      "bytes": 67740,
+      "sha256": "f687cf5104656570f596be3323a434b6f73c873dc62e7b97ab35849668859483"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_5.png",
+      "type": "file",
+      "bytes": 278474,
+      "sha256": "5b23c59fbffda48b8cd28ec8f6f3551f8fae4009741b9be7f8476dc96d698143"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/previews/beat_1.png",
+      "type": "file",
+      "bytes": 680853,
+      "sha256": "129f88b62a2828659661c15cdfa5c043c1d5e8d611229dbd958a701e0ca80605"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/previews/beat_2.png",
+      "type": "file",
+      "bytes": 692205,
+      "sha256": "ea88c3e35ac0d745c1a553f0519793dbe3a6e6d17c79518cded1dd7402a7d5f0"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/previews/beat_3.png",
+      "type": "file",
+      "bytes": 675122,
+      "sha256": "b8c5ce72491d52bfcca3bdb5718f69b298a480e43dc98773426b1f413d4356ad"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/previews/beat_4.png",
+      "type": "file",
+      "bytes": 39675,
+      "sha256": "fb2a368cb53f1ae6e48ab30723611f49f6f41b26f19c2e1f8e167d022630d7b5"
+    },
+    {
+      "path": "workflow/episodes/calculus_pilot/renders/previews/beat_5.png",
+      "type": "file",
+      "bytes": 721298,
+      "sha256": "3ccc2c02fece11a3a3fa6efa497e54179549a840aa978c9dfbc1342232302c14"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/.gitignore",
+      "type": "file",
+      "bytes": 48,
+      "sha256": "50cfeaf555814dc27530f72ac3a5b8a1c9cc96a09ac0bed97ba29e969291bcf8"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio-test.json",
+      "type": "file",
+      "bytes": 1393,
+      "sha256": "f5df8f3e4aeca58e2c427949a1b3e2b3cfca0eb4d0ef887a92f27cecb0186b8b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/generation-request.json",
+      "type": "file",
+      "bytes": 2144,
+      "sha256": "7988fd88eb66e9fe53db251d67d2c1d649be0e88b2b4fc6707997e024bdeb903"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/prepare-audio.py",
+      "type": "file",
+      "bytes": 8162,
+      "sha256": "21aef9c0f549d7ad93aba4a55438f22b7e4cf27d74e85101c2e16abcf935b0cc"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/sol-narration-1x.wav",
+      "type": "file",
+      "bytes": 592708,
+      "sha256": "94acf382774822c01242715222515d9e2aea812fa40e3da335502f8682d0740b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/sol-narration.wav",
+      "type": "file",
+      "bytes": 389652,
+      "sha256": "2414d7502a1f0379253afb04083cecfe78824a3e5e942e4414cd11c764b1db6b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/lantern-rustle.wav",
+      "type": "file",
+      "bytes": 384044,
+      "sha256": "19588e55d09752a84703d96458175b7db5cb72c27942e298f1b8680d864b7463"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/mix-verification.json",
+      "type": "file",
+      "bytes": 808,
+      "sha256": "8f98b8363365afc48f87c73523df64f5830316cd1ca7832f5d7ee4ad5a70eb7b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/music.wav",
+      "type": "file",
+      "bytes": 768218,
+      "sha256": "3fd9579676442a7eb36b5c36198ce496bde8b43d77c9c213e99e8e228ffd856f"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/narration.wav",
+      "type": "file",
+      "bytes": 760526,
+      "sha256": "752bc15e3ef3d0b440e725be5e31f35f41a8d10d63c978c3d5402125111b7052"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/night-ambience.wav",
+      "type": "file",
+      "bytes": 384044,
+      "sha256": "48da87727605a99ba44f61fa587b1cb8dd446f16ef510bfe170fa24b5e45653d"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/sol-lantern-mix.wav",
+      "type": "file",
+      "bytes": 768078,
+      "sha256": "41c448566bac6540445b454aa9015cd03ca3da54106ede9908817d46d07ef676"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/lantern-rustle.wav",
+      "type": "file",
+      "bytes": 384044,
+      "sha256": "19588e55d09752a84703d96458175b7db5cb72c27942e298f1b8680d864b7463"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/mix-verification.json",
+      "type": "file",
+      "bytes": 834,
+      "sha256": "a63f5b321568b87074ca9c60d278024d68620ce7570f7dbe19d32186fc9e1425"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/music.wav",
+      "type": "file",
+      "bytes": 768218,
+      "sha256": "3fd9579676442a7eb36b5c36198ce496bde8b43d77c9c213e99e8e228ffd856f"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/narration.wav",
+      "type": "file",
+      "bytes": 757990,
+      "sha256": "cb2243c6885505e58407ce1fdad950aa8c0be7eccef574bda746c466955a955b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/night-ambience.wav",
+      "type": "file",
+      "bytes": 384044,
+      "sha256": "48da87727605a99ba44f61fa587b1cb8dd446f16ef510bfe170fa24b5e45653d"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/sol-lantern-mix.wav",
+      "type": "file",
+      "bytes": 768078,
+      "sha256": "b581d2e0b2028f7b00c021be41ad48dca01ad9e830e37e11ea54a7d6c958c04c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "type": "file",
+      "bytes": 1769795,
+      "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-completed.json",
+      "type": "file",
+      "bytes": 287,
+      "sha256": "403e11162c133b474abe066af5bdb0d16f3e54f690fd9135acc446b834af4ead"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-submission.json",
+      "type": "file",
+      "bytes": 410,
+      "sha256": "b2ee8bbbe6696a56d9856d79f0a82e06a94c04d4fab0b5ff3307597d76e95703"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-transcript.json",
+      "type": "file",
+      "bytes": 109,
+      "sha256": "8001f33a2f5f0a21a3d2dbcbb3fdd041ccf5e0ef8a0a17efd650fd05408c08c8"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-completed.json",
+      "type": "file",
+      "bytes": 287,
+      "sha256": "eec836758da3797a4e94360e1331ddd46da1746a6300db72adf25572489fa567"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-submission.json",
+      "type": "file",
+      "bytes": 411,
+      "sha256": "f7e9ea257361ce6c36592ebfb57144b982cd872df6d8a7a27e4b3b16ad844e83"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-test-fast.json",
+      "type": "file",
+      "bytes": 1359,
+      "sha256": "4d2a87fe7b5436fcf343dfac75a7bbf2762d14b71c272f1fc88f32b6b3597596"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-transcript.json",
+      "type": "file",
+      "bytes": 1054,
+      "sha256": "1183b329048bcb46a0f250ec1c178c89c4cb342a992baeb070b2fa79dccc2f2b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/combined-preview-delivery.json",
+      "type": "file",
+      "bytes": 502,
+      "sha256": "350893cccbdc0d67869f9af0c615700f3d3df8e54ad659b49042b316c868a22b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/completed.json",
+      "type": "file",
+      "bytes": 292,
+      "sha256": "6e67690cc5464c949139dcd825a9fc4b54340884b9bae1e8622aec6ca0c6a530"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/download-verification.json",
+      "type": "file",
+      "bytes": 4358,
+      "sha256": "855d692fea0fa4fdba7f652844d393f07e97f0d20155bc42d6a3965d2ae166e6"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/normal-speed-preview-delivery.json",
+      "type": "file",
+      "bytes": 464,
+      "sha256": "284ea15d68fa68f711f1c27f15060054ac201a72814ea7b3a7bc6f0e9afa05f1"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/submission.json",
+      "type": "file",
+      "bytes": 1591,
+      "sha256": "400287dee2d1f5c9cb9d2f3fd521ab398e6da3f8ba63b6e4bad1b9f78fcfd2d1"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+      "type": "file",
+      "bytes": 206108,
+      "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/remotion/index.tsx",
+      "type": "file",
+      "bytes": 1257,
+      "sha256": "dc90f0812699a36ced504827cf21726b043e721a8b5fdad76bcefee137880a1d"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "type": "file",
+      "bytes": 9018,
+      "sha256": "b5a6625fe43ad713d8c1d195db8f28f12c420ca6f5687031042210a4b19f8a49"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "type": "file",
+      "bytes": 434,
+      "sha256": "615ca60e5cfd8e9b8f3020609541f966e1f330a4702ce1a0b00566c9d71803ef"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-1x.mp4",
+      "type": "file",
+      "bytes": 2138016,
+      "sha256": "e859619ebe3869888f56c0814ca2b0e475ec32ad29eb61d7b5c6bbdac8137e0a"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-1x.verification.json",
+      "type": "file",
+      "bytes": 667,
+      "sha256": "278ef56ee08ea159c57f6807ba7108f52c9540ae91da7c626391f66ec7404b7b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-preview.mp4",
+      "type": "file",
+      "bytes": 2138122,
+      "sha256": "d6ce8ad064c1d8ede0c42f9bc79dc8cfc692ffc0da40a8125d9e301a55c7abaf"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-preview.verification.json",
+      "type": "file",
+      "bytes": 811,
+      "sha256": "bdc1db13c0ddfb2d50a9b912119f07288ed6fc3b7e525af81288adf5deec9edb"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-preview.mp4",
+      "type": "file",
+      "bytes": 2037774,
+      "sha256": "4676db9065e66bdc8f907383b8faaecdae14f83f74ecbb737eeb92d8509f4ab5"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-preview.verification.json",
+      "type": "file",
+      "bytes": 419,
+      "sha256": "fd5a44a7bffc52b79760dba90a41f9037c394253952d19eb4ce32a649add9f58"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/artwork-contact-sheet.jpg",
+      "type": "file",
+      "bytes": 496081,
+      "sha256": "afd416f46ffea90328a07ad10189a05d8b594e324e7e66849e26bd6c78177512"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/character-contact-sheet.jpg",
+      "type": "file",
+      "bytes": 690296,
+      "sha256": "0b4e6da7aa52298a7bb5249b771eaa341da4c2537525bbb4fe264ce365d1c027"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/preview-01.jpg",
+      "type": "file",
+      "bytes": 55967,
+      "sha256": "50b287eb2b21cb51ed2023c124016579a8886cf520a94205e443c7a78b7d6afc"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/preview-02.jpg",
+      "type": "file",
+      "bytes": 62719,
+      "sha256": "cd74b868290cb6c32ff82814cac3c6131017931634f98a14f7f1cd97fe8e2e29"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/preview-first-last.jpg",
+      "type": "file",
+      "bytes": 95938,
+      "sha256": "55e0734e73840a6d78f17a5a2260f47a0b9214ecbbd75a9afadc223192264e19"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/reference-comparison.jpg",
+      "type": "file",
+      "bytes": 413614,
+      "sha256": "d57173b21014c8aa254a2a0fd8bf6c0a17c26a03f92270eda80ab89ccc6b0a0c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/shot-contact-sheet.jpg",
+      "type": "file",
+      "bytes": 336284,
+      "sha256": "90bdb66a90358a644209376b618f410a1c309158ab9677663ff83c852f36416b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/visual-review.json",
+      "type": "file",
+      "bytes": 2405,
+      "sha256": "e7d196a5223bb6205904e0da63e0f98023ee6d731b8df058547949a31712f42c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/001.png",
+      "type": "file",
+      "bytes": 676858,
+      "sha256": "4a49db76164e221814a3006ec25ee015cac836291025dc9f230ed07a083828d7"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/002.png",
+      "type": "file",
+      "bytes": 644562,
+      "sha256": "140b1793af7c5d4c8cf3ef4ef69624b30c6627ccd52c64f39a3f6ee242af69de"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/003.png",
+      "type": "file",
+      "bytes": 654300,
+      "sha256": "341912d516476d5a01a2be025d8aab73eb7c67f44ee657a6e540196b697b81b0"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/004.png",
+      "type": "file",
+      "bytes": 658121,
+      "sha256": "fbcac58bfa38413ebb7ebfc08ca43152c029c068e53d038a950723cb4f2602f0"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/005.png",
+      "type": "file",
+      "bytes": 659101,
+      "sha256": "77793f3cc757af10f7dafa763b46653b24900de428f4d4a5368c313efd50e1e9"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/006.png",
+      "type": "file",
+      "bytes": 661430,
+      "sha256": "c6fd2ea03f3eafbfe8e89c548a8625e163c113d70aefc415c81a5259203ab316"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/007.png",
+      "type": "file",
+      "bytes": 658788,
+      "sha256": "782c371bfcbb7cf56abe5e2e576f7f46c12f14f6667d4b46f13c8891ffd11b8a"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/008.png",
+      "type": "file",
+      "bytes": 659764,
+      "sha256": "8dfc26a34460ea6e5160f59fd69554f464f6e23281ce944dd5c9b1af1a28170e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/009.png",
+      "type": "file",
+      "bytes": 657440,
+      "sha256": "59012f89853a9ca6025219c1f414df0604122ccb961a9b6bacdbd5dcba880268"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/010.png",
+      "type": "file",
+      "bytes": 656638,
+      "sha256": "89210304a124f638f59c46613907d0b1986dde9ea6f0ba7c56d1832ef01f31f5"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/011.png",
+      "type": "file",
+      "bytes": 654215,
+      "sha256": "5868e29c6b9ede5c7c9800a51a228a873a7d0ae2457003bd51cb7b624f4cca20"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/012.png",
+      "type": "file",
+      "bytes": 656057,
+      "sha256": "38a41c324ae3f1cdbebe0c14cdeca5c4214c8f197a948815e5f05153a3c3b8cd"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/013.png",
+      "type": "file",
+      "bytes": 655078,
+      "sha256": "0368218c2167235c516916b2f2f121627ebe4bebb7a6746b9887df56ec51a4c7"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/014.png",
+      "type": "file",
+      "bytes": 653499,
+      "sha256": "59d1a83deb1185cc2efe6fb035ed2bdd22471f6fe8085a4c48769dab98dd9c6f"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/015.png",
+      "type": "file",
+      "bytes": 653867,
+      "sha256": "46a515567154f32e842b0cc5e60b58ee9efa94bf84bff3326fe0699b216c955b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/016.png",
+      "type": "file",
+      "bytes": 654975,
+      "sha256": "e054a1b04d7fd87d981658dc797ac8e1561f74a60beef103b60cd4e768f54516"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/017.png",
+      "type": "file",
+      "bytes": 654781,
+      "sha256": "2d33659e2706f682eba96c9cf11a76d5dd96cd51a73f3171533ac4422f110c04"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/018.png",
+      "type": "file",
+      "bytes": 654740,
+      "sha256": "5c1fa344e9cad189af69fb63f8eebe8d2d5d76f158291b145a939744115ca480"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/019.png",
+      "type": "file",
+      "bytes": 656226,
+      "sha256": "852e2505f386f7389d7ea478b5d1f4a3ac90c3f13a965d8506c5f773f5512356"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/020.png",
+      "type": "file",
+      "bytes": 656826,
+      "sha256": "a73199a08c476d40e63292eebdebf535bb0319c7c798cee812f7cffdc51ce74c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/021.png",
+      "type": "file",
+      "bytes": 655656,
+      "sha256": "a64c323bba299ae5e6f4f063ce5159e677cddcc4f445eacd4d73461e565f9426"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/022.png",
+      "type": "file",
+      "bytes": 654934,
+      "sha256": "099b7ca991d7caec48a14a8cce82457212d501268e219231ae84efa4468ebe2b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/023.png",
+      "type": "file",
+      "bytes": 655388,
+      "sha256": "69cf9eab7f5f7ad2a26f51f671c28b72129447fd7f3c742a8b563f532cfd63b4"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/024.png",
+      "type": "file",
+      "bytes": 654984,
+      "sha256": "2b647f093e11c53316e15937d81fb3f13159d14e6acebea7a381be8cbe044b6c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/025.png",
+      "type": "file",
+      "bytes": 654470,
+      "sha256": "2bd6ce06f9e41f2214ee8ba4d2d9a584448d27ae2a7c099a5a6e795143508060"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/026.png",
+      "type": "file",
+      "bytes": 656047,
+      "sha256": "702c59b71c373a62cd89f5dbe9623f2de2f164a2b984f4da39df780c582f1587"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/027.png",
+      "type": "file",
+      "bytes": 655073,
+      "sha256": "4d80b7f45828dac131ee9d55f3ee4b18fe3556f57a94bbd253004c4dcdb75e24"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/028.png",
+      "type": "file",
+      "bytes": 654795,
+      "sha256": "aa40af0b7c71c960fdf81b7c168f19fc61716134ede753356e0ae9616cdc74bb"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/029.png",
+      "type": "file",
+      "bytes": 653889,
+      "sha256": "027cc8dff7d6aa3fe2a87109632fe46327283c4042e788eef5460be2fec99256"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/030.png",
+      "type": "file",
+      "bytes": 652300,
+      "sha256": "5571268bf9344dce7a946c8a8f6872780c2476df37bf6860feae9672db18c2f9"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/031.png",
+      "type": "file",
+      "bytes": 650216,
+      "sha256": "03060b5d36a836b746af7b6f3a68e6515b70e4fa2c4a648217f5d40c5a21573c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/032.png",
+      "type": "file",
+      "bytes": 650879,
+      "sha256": "8b4934ac4bd34cafe7aa602869975f17ffc8845c4912aaad96e04aa7bcb5e394"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/033.png",
+      "type": "file",
+      "bytes": 648684,
+      "sha256": "8c1398da31da9d753c0b151fca15472ea6e83b20aee1e613ff338b67e149075e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/034.png",
+      "type": "file",
+      "bytes": 648716,
+      "sha256": "589524539ecbab6c984eb38fd4e83b318c51d0e391467ebbad2c069aadb86214"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/035.png",
+      "type": "file",
+      "bytes": 644894,
+      "sha256": "40d3e23273d14e3225336b614d7375d381b1d12cdb8a8206fa3c21f578350c2a"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/036.png",
+      "type": "file",
+      "bytes": 646192,
+      "sha256": "1897c1974af9f419ed3ebfd5f98c8a218c4a76f7cfd9e0f49bb60bd3ae0c6ebf"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/037.png",
+      "type": "file",
+      "bytes": 646105,
+      "sha256": "f45d2d693fd7e4289327fbc40528287d2830da0db7bd75cd43b4d2035c7945ef"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/038.png",
+      "type": "file",
+      "bytes": 644734,
+      "sha256": "54005aa1b63fefff48c2bca54644ac10896a497c6d263d787747f68df5e5042c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/039.png",
+      "type": "file",
+      "bytes": 643483,
+      "sha256": "e8cae3627415c91732c85e116cc53421fc3dad44f449efdfc3d5ae787b841c63"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/040.png",
+      "type": "file",
+      "bytes": 642992,
+      "sha256": "59c57a7cf305c3058b6bfab50f075499e62e0c21c9deae1ae18b21d0f40996e1"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/041.png",
+      "type": "file",
+      "bytes": 643616,
+      "sha256": "9e465ede79b93339258f5234e70d7a8d1f970cfad33608f20d5171ed6f0f4579"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/042.png",
+      "type": "file",
+      "bytes": 642327,
+      "sha256": "5e67fb0b19c7a45929f75ef8829a15d3fcb58029cf42180bea8fa79d5b5847f0"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/043.png",
+      "type": "file",
+      "bytes": 642405,
+      "sha256": "becfa2e95a935df9e171a185f1fd87ea3ba6906c82fb3b16ca511f81339ee822"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/044.png",
+      "type": "file",
+      "bytes": 642798,
+      "sha256": "528696d44884923b124ea155655168138cdec18c9f0b4df32574edff3f8998b7"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/045.png",
+      "type": "file",
+      "bytes": 641857,
+      "sha256": "6e6e72552a11cf46dc2fcb1568ba260dcfb6ef83406fe52226136ace1e008235"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/046.png",
+      "type": "file",
+      "bytes": 639515,
+      "sha256": "cc174c670188e211296cfc3e2d6ebdd5d898df11bda57a074dbce1afcb1ac57c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/047.png",
+      "type": "file",
+      "bytes": 638722,
+      "sha256": "cdcd7b9e6e9757b23c9d952af68bab329dfdb015f49c913ee55de92a1ab1bed9"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/048.png",
+      "type": "file",
+      "bytes": 639721,
+      "sha256": "b2b174f16e326739040371e636866b7d48464ce6ec831b3780aa44125804a5f0"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/049.png",
+      "type": "file",
+      "bytes": 638519,
+      "sha256": "2fb8e2034311eceee1006ae421cc471a158b0bddec10895be8fc3ebc5eeb39b5"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/050.png",
+      "type": "file",
+      "bytes": 637323,
+      "sha256": "dd4519880b3beb440ae2743050ce39531526dd4413fda10c1cb7e639b7f3bc35"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/051.png",
+      "type": "file",
+      "bytes": 636924,
+      "sha256": "f95baa9c5b73ad517d2e90b0f1669057da53899b532fa52b8dfdb2ed395e6d78"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/052.png",
+      "type": "file",
+      "bytes": 636292,
+      "sha256": "5260fa54933c2cafc8d5a904e1247831f9b888e6bb492aa271a153d7afb1421a"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/053.png",
+      "type": "file",
+      "bytes": 636254,
+      "sha256": "686c8b030052e395d4b78a07ffa0f47244ae631174eadc997f4b0f3f822c2342"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/054.png",
+      "type": "file",
+      "bytes": 635136,
+      "sha256": "d4e737c11d816bcf6f2355a37f72c6d18ed0b5fc02eb3b99c1384b096290fc9e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/055.png",
+      "type": "file",
+      "bytes": 632575,
+      "sha256": "518124489997b6e7140917789d35a53ade27f9a739b16753447127e385403fe9"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/056.png",
+      "type": "file",
+      "bytes": 633615,
+      "sha256": "13c6a90eccee7c1477f19c5abe7bd2160754cea8a2c15d4f0b61e9159e9d34f3"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/057.png",
+      "type": "file",
+      "bytes": 627530,
+      "sha256": "8601bfd9dd0fc01732b2e1b00cc0f69d4e145ba1145f5e109df6f2845052e167"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/058.png",
+      "type": "file",
+      "bytes": 627379,
+      "sha256": "5631b448d48b4a123f33c16d957e58276bc6cdce803244d62e63200f58ad903d"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/059.png",
+      "type": "file",
+      "bytes": 610066,
+      "sha256": "ef00bbb6ff4392df6cc51c9f02b3f34970a70dde4f58865ca6a1d63d168b672e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/060.png",
+      "type": "file",
+      "bytes": 610941,
+      "sha256": "1a45c5b9a9045b424bc74dea4139f30fef139ff70c170327b85cc8d9dac00c5c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/061.png",
+      "type": "file",
+      "bytes": 604609,
+      "sha256": "77e8bb802f2a94edb08f6045bc2a2694b272629e3949f0e2ef90a0d0325eedd8"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/062.png",
+      "type": "file",
+      "bytes": 605266,
+      "sha256": "d5c7e1bb171de216f679c6d57e83568d2271d51ff188f8626b9589cc2e06df8e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/063.png",
+      "type": "file",
+      "bytes": 599458,
+      "sha256": "fc652d82749e6bce5b1f4ed15ac0e9c7a556f32c2342f438d6aa2492cedb855c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/064.png",
+      "type": "file",
+      "bytes": 602654,
+      "sha256": "610663e38085f3a7efdd1973f80dd764edbe19f59cff13b8ac2964c7fc3dfbcd"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/065.png",
+      "type": "file",
+      "bytes": 596702,
+      "sha256": "a3dc3b0ced24c7e815664ea0d9e88296804eceb0d97f63a35646b8bcdd7967d9"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/066.png",
+      "type": "file",
+      "bytes": 598696,
+      "sha256": "68fdb86e1bfdeb4b40c06567b025c0981464d1625147d7f95790424a95256775"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/067.png",
+      "type": "file",
+      "bytes": 598097,
+      "sha256": "f1826b14566537898981fe0d718f1e467e7e84e0f90f74d9ee300fdacb7600fb"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/068.png",
+      "type": "file",
+      "bytes": 599537,
+      "sha256": "9e74ca2c82cc01ceb8589c57093ee24a6a512f7b84f071d23ce0b251485e99a7"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/069.png",
+      "type": "file",
+      "bytes": 601115,
+      "sha256": "28450ab9f78e472dafdc8b774a06b1ec2f3e6166382da1766563076c813e1867"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/070.png",
+      "type": "file",
+      "bytes": 601335,
+      "sha256": "3da4ea54acd17f5958a3b51edc471ac69c065579dd241cfb72c31799e300b94e"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/071.png",
+      "type": "file",
+      "bytes": 603271,
+      "sha256": "658313d5c374b2a37e897bc6fffabcc806d2148e0d12c7757a69f78a0bd2b2c1"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/072.png",
+      "type": "file",
+      "bytes": 604114,
+      "sha256": "335b58fb1232be4906df52511c8cb96c7ba4231132c0e8a7d49b6726e3ba6692"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/073.png",
+      "type": "file",
+      "bytes": 603879,
+      "sha256": "aee71ebc284d792aad8973982eeaf785aa2f8a275337e30aac2ca3a9ba0b819a"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/074.png",
+      "type": "file",
+      "bytes": 605496,
+      "sha256": "643796945bf924db6de6bf69d4acfeec36ae094bb1a88dae519fcff8727bf01f"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/075.png",
+      "type": "file",
+      "bytes": 607121,
+      "sha256": "417a09547fa89355815646e09db454ae1f51c0f52b77408741d1d9370b463925"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/076.png",
+      "type": "file",
+      "bytes": 607279,
+      "sha256": "c9b834ba339a8f6f2730af1ad24c4898e35f74e5c76de65eadb4b87ca126c9d8"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/077.png",
+      "type": "file",
+      "bytes": 607242,
+      "sha256": "1c136eb2d7ab0dedd6e6fe76145c4f03fe3b90e76362506ac4e0c66fab42c64f"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/078.png",
+      "type": "file",
+      "bytes": 607968,
+      "sha256": "b0165818275a9fa7afcd92e7119c37151f58cdb4bb9a43b41b39e1aadc7a52f6"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/079.png",
+      "type": "file",
+      "bytes": 606878,
+      "sha256": "f23ca4281af524a99efa759810518f6a519a5124eefa8a13c883a0c8d1dd1f76"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/080.png",
+      "type": "file",
+      "bytes": 606740,
+      "sha256": "f16c8764d309f3dec3e919148b4717a08752b3b6e128cb06d3f2546d90f21d8a"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/081.png",
+      "type": "file",
+      "bytes": 606792,
+      "sha256": "94d9a8cec8cc075f291d7e872435ad2ceb23fbe439acf0fd3155e72d90930f35"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/082.png",
+      "type": "file",
+      "bytes": 605476,
+      "sha256": "aa3fe5d6b25faae202901fc076df2f1b9c497314bef13be2ebe37ee128dbf73b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/083.png",
+      "type": "file",
+      "bytes": 604185,
+      "sha256": "9af360ba6241ad4e07b3ab45c1353946c1f4da0cee26c33bcb5ed9ac7320fe78"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/084.png",
+      "type": "file",
+      "bytes": 603469,
+      "sha256": "eed542ea16a433eaf3021e838c0f00c5e9866b6ba845f1f8a60f014fd40e444b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/085.png",
+      "type": "file",
+      "bytes": 602723,
+      "sha256": "29e6ea0f9dfc6acf002b6338476d1632ef333a4dfde4685ba3f48604bf71cd56"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/086.png",
+      "type": "file",
+      "bytes": 602205,
+      "sha256": "cb3911b81a14dd42320a53765265cc05d6693a13b6fd33ba2a127897b2d4239c"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/087.png",
+      "type": "file",
+      "bytes": 601467,
+      "sha256": "7714b6e366f9de345e9204d8746f15c4b452d59276da832c8fa78cf4642fda75"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/088.png",
+      "type": "file",
+      "bytes": 601745,
+      "sha256": "53880746515a236ff2532df96c02b0a718de738cffc7696ab98401ddbdbc1385"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/089.png",
+      "type": "file",
+      "bytes": 600420,
+      "sha256": "691e0ffe53137119539458d5dfff0cbdc5bf57f0dd5221bb3ce431a3c7d237e8"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/090.png",
+      "type": "file",
+      "bytes": 598663,
+      "sha256": "79459b710e0e515862bb6b601ee460a85080cbc1220db69b5f0a0b781e44d92d"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/091.png",
+      "type": "file",
+      "bytes": 599092,
+      "sha256": "153a8afd276dc3ddb40297ec57db8f6c2e66a6c6af81edc4a9ef3ddff40504d4"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/092.png",
+      "type": "file",
+      "bytes": 599162,
+      "sha256": "8f504cb4a7382dce5afd4878e20a269acff65f1879dc2cfca86641c02a2888e3"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/093.png",
+      "type": "file",
+      "bytes": 597905,
+      "sha256": "33b750d7fa8bc2af48d956644fe413ffa79f566c8de7ba1a3bdae8084d0107c1"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/094.png",
+      "type": "file",
+      "bytes": 596168,
+      "sha256": "225e7699029e69a5fa585681838022f589e2d20bf70f83a613563115d0f0317b"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/095.png",
+      "type": "file",
+      "bytes": 594985,
+      "sha256": "fd698ec7812a2a6e2c8f71a2f1e1e010044227942af2c162211bfe4fab5e67ba"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/096.png",
+      "type": "file",
+      "bytes": 593286,
+      "sha256": "311a32302cca3833cd37ca2a24958776dfbd502f4a9e114145f931577fc583ca"
+    },
+    {
+      "path": "workflow/episodes/sol_kling_test/renders/review/frames/097.png",
+      "type": "file",
+      "bytes": 591973,
+      "sha256": "873ae2b77d5b901b0d0506731049e8a5b9b5cf917ebbe1f0d2759c9e525e7979"
+    },
+    {
+      "path": "workflow/episodes/zipper_demo/renders/zipper-verified.mp4",
+      "type": "file",
+      "bytes": 4816082,
+      "sha256": "a686a93a84b4c5c44e05be52e1b2d13c32343eff454c11cae82a5a7804ddcf7d"
+    },
+    {
+      "path": "workflow/episodes/zipper_demo/renders/zipper-verified.verification.json",
+      "type": "file",
+      "bytes": 142,
+      "sha256": "2581f004eddb7cefec8af5a1289649cdce433f58d67d42be9e8c70a097aca597"
+    },
+    {
+      "path": "workflow/migration/before.json",
+      "type": "file",
+      "bytes": 28367,
+      "sha256": "2365f33c55a6498082bdda731d8839382eb6a02a28dbd47474424ec4f65c1646"
+    },
+    {
+      "path": "workflow/migration/moves.json",
+      "type": "file",
+      "bytes": 6021,
+      "sha256": "e7f2c38f445121669a34910d5eab5a6d955d317e427fab509122ee6fd28894a1"
+    },
+    {
+      "path": "workflow/migration/preservation.json",
+      "type": "file",
+      "bytes": 30081,
+      "sha256": "0cccf03a83d10c6e3c0aa27561f4ad302b71af3ad3144201ab5d03bff88623d1"
+    },
+    {
+      "path": "workflow/migration/smoke-validation.json",
+      "type": "file",
+      "bytes": 966,
+      "sha256": "e748c70bf5a956a351ec1f8010ab46d864b7c9fb29d6e693811e708341c6ebef"
+    },
+    {
+      "path": "workflow/migration/original-text/episodes/calculus_pilot/MEDIA.md",
+      "type": "file",
+      "bytes": 2974,
+      "sha256": "7ee4c7fe85a328ed45abdee59ad9d646522c3151feb007821520afd8bee912d5"
+    },
+    {
+      "path": "workflow/migration/original-text/episodes/calculus_pilot/README.md",
+      "type": "file",
+      "bytes": 4728,
+      "sha256": "209e15d4d4cff78594e1bc08255dae0e752e2417377825c479561d69e0d4b7f5"
+    },
+    {
+      "path": "workflow/migration/original-text/episodes/calculus_pilot/asset-manifest.json",
+      "type": "file",
+      "bytes": 645,
+      "sha256": "3587d7739f987bfcf8c0a24a45d2c373ad3318daf939b285b2bac536302509e0"
+    },
+    {
+      "path": "workflow/migration/original-text/episodes/calculus_pilot/edit.json",
+      "type": "file",
+      "bytes": 1254,
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+    },
+    {
+      "path": "workflow/migration/original-text/episodes/calculus_pilot/flow-video-prompts.md",
+      "type": "file",
+      "bytes": 5646,
+      "sha256": "382106899d502aff96474e2bb7c57350fabd1e04a51f835bf0f2ec684be0a4df"
+    },
+    {
+      "path": "workflow/migration/original-text/episodes/calculus_pilot/renders/validation.json",
+      "type": "file",
+      "bytes": 635,
+      "sha256": "76f428e00c87f9f97c6292755ba9a39d94bdb3523c4a17078ac63c9f1b5cf1c1"
+    },
+    {
+      "path": "workflow/migration/original-text/scripts/calculus_edit.py",
+      "type": "file",
+      "bytes": 24251,
+      "sha256": "be220ada95d41fe1bf58e9010a1e6601c1d4f0dcd79cbd86935a6e6d2ff7ca8c"
+    },
+    {
+      "path": "workflow/migration/original-text/scripts/calculus_pilot.py",
+      "type": "file",
+      "bytes": 14898,
+      "sha256": "fadc8220ae308fa37ebaa1891860a88a06968f3a6cd84d018a5d1edfb0cd9aef"
+    },
+    {
+      "path": "workflow/scripts/calculus_edit.py",
+      "type": "file",
+      "bytes": 24573,
+      "sha256": "aa7124018fdb1a36610b47d171c383248e0acd8034eab1f8e5c4c952d39a0b0c"
+    },
+    {
+      "path": "workflow/scripts/calculus_pilot.py",
+      "type": "file",
+      "bytes": 14969,
+      "sha256": "27c339385d8d0822b9ef0378c0b1c54d82a095497671d659bdd553643a101ae0"
+    },
+    {
+      "path": "workflow/scripts/google_flow.py",
+      "type": "file",
+      "bytes": 23486,
+      "sha256": "f1716bb9ab3879c7bf6815148561cc697a3eebc3f84091fdb81fffc96f077b58"
+    },
+    {
+      "path": "workflow/scripts/paths.py",
+      "type": "file",
+      "bytes": 2141,
+      "sha256": "b9c011a37650d43674a2cb93fc12efc3dd207bad6c50a370c2489ef4e0634202"
+    },
+    {
+      "path": "workflow/scripts/shorts.py",
+      "type": "file",
+      "bytes": 13743,
+      "sha256": "99cd605d907757bc82eaecee7d4b2759246816f2a94e136df6a881c7983c6455"
+    },
+    {
+      "path": "workflow/templates/episode.json",
+      "type": "file",
+      "bytes": 1255,
+      "sha256": "76fd7233ca63a1298558016fc041e936081a4f00e704bfaddfd66b5f2f7a3b55"
+    },
+    {
+      "path": "workflow/templates/flow-image.md",
+      "type": "file",
+      "bytes": 2042,
+      "sha256": "c6e80b9fa59cc3c52f63c995bc6fe1129eae7cd351ebd8e9a84a7086d125c2c9"
+    },
+    {
+      "path": "workflow/templates/flow-video.md",
+      "type": "file",
+      "bytes": 2092,
+      "sha256": "f2585d843d19103c0c634eb6ba00d5c07ae4f600107a0df5ec90b92629fac418"
+    },
+    {
+      "path": "workflow/tests/test_flow_account_backend.py",
+      "type": "file",
+      "bytes": 1209,
+      "sha256": "b221e35548eb33712537259a0169608c0b418c98ba56019fc94dcd49a1fe6d6d"
+    },
+    {
+      "path": "workflow/tests/test_google_flow.py",
+      "type": "file",
+      "bytes": 24486,
+      "sha256": "37f26b4b47920a8d239348a0a98bd26b9e16ca86e80c5fe27bb378d9e3a1e4b8"
+    },
+    {
+      "path": "workflow/tests/test_workflow.py",
+      "type": "file",
+      "bytes": 4089,
+      "sha256": "10756b7305f68baf0d8f4c4f1296b63d8f6202c337876296a31dede3cca921a4"
+    }
+  ]
+}
