@@ -1,0 +1,155 @@
+{
+  "episode": "escalator",
+  "title": "How does an escalator work?",
+  "status": "script and clip plan draft",
+  "target_duration_sec": 30,
+  "estimated_duration_sec": 43,
+  "timing_note": "Expanded from the initial 30-second target to explain the mechanism in a conversation. All times are provisional edit estimates; use the finished voices at normal generation rate and 1x playback to set final timing.",
+  "format": "9:16 painted 2D",
+  "speakers": {
+    "Sol": {
+      "voice": "Cub (Female)",
+      "performance": "Curious student; mouthless, with eye direction and body movement timed to the dialogue."
+    },
+    "Narrator": {
+      "voice": "Arthur",
+      "performance": "Off-screen; conversational and engaged, responding directly to Sol."
+    }
+  },
+  "staging": "One upward-running mall escalator, lower floor on screen left and upper landing on screen right. The rising steps always travel left to right; the hidden return run travels right to left. Warm painted mall lighting. One step has an orange editorial highlight so the viewer can track it. Sol rides that step at the opening, then stays on the upper landing throughout the explanation. Close-ups of other steps do not inherit the orange highlight.",
+  "production_notes": [
+    "This is a review script and clip plan, not a generation request or a timed production edit.",
+    "Each clip has a separate first-frame composition, action, and last-frame composition. First and last frames describe visible states.",
+    "Use controlled painted diagrams / Remotion animation for the chains, tracks, step orientation, arrows, highlights, and labels. Base step and track geometry on the manufacturer reference. Keep the steps rigid; neighboring steps change relative height, and steps rotate around the return path.",
+    "Treat the cutaway as an editorial diagram. Cut to it already visible; no physical panel removal or machinery transforming around Sol.",
+    "The overview illustrates the route and does not promise real escalator transit speed. Preserve the orange step's route between the overview views; mechanism close-ups show other steps.",
+    "Keep all text, wheel colors, and the orange tracking highlight editable. The finished art must not bake in technical labels.",
+    "Edit durations differ by clip. Check provider durations only when generation is requested; longer diagram scenes can be animated directly in Remotion.",
+    "The narrator audio text is in narration.txt; Sol's audio text is in sol-dialogue.txt. Those files contain only spoken words. Speaker labels and scene directions remain in script.txt and this plan."
+  ],
+  "clips": [
+    {
+      "id": "01",
+      "start_sec": 0,
+      "end_sec": 5,
+      "setting_and_framing": "Medium three-quarter side view of the upper end of the mall escalator. Upper landing is on the right; the top few moving steps fill the left and center.",
+      "first_frame": "Sol stands upright on the orange-highlighted step, one step before the flat exit area, facing screen right. One tiny hand rests on the moving handrail. The stationary upper floor is visible ahead on the right.",
+      "action": "As Sol asks the question, he steps onto the stationary upper floor and turns his head and body back toward the moving steps. The orange-highlighted step follows the flat exit path and disappears beneath the fixed floor plate.",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Wait, where do these steps go when they disappear into the floor?"
+        }
+      ],
+      "last_frame": "Sol stands fully on the stationary upper landing at screen right, facing down-left. The orange-highlighted step is just hidden beneath the exit floor plate; the following step is still visible.",
+      "next_cut": "Cut to an already-visible side cutaway at the same screen orientation. Start the highlighted step immediately below the upper landing, where it disappeared.",
+      "planned_method": "Painted Sol performance clip, with an editable step highlight and controlled step motion."
+    },
+    {
+      "id": "02",
+      "start_sec": 5,
+      "end_sec": 12,
+      "setting_and_framing": "Wide side diagram of the entire escalator, from lower-left entrance to upper-right exit. The enclosure is transparent in the illustration, exposing both the rising steps and the hidden return run.",
+      "first_frame": "The orange-highlighted step is just under the upper landing at the beginning of the turnaround. The return path beneath the staircase is visible. Sol stands on the upper floor at screen right, in the same position as the end of clip 01.",
+      "action": "The orange step follows the upper curve, rotates with the mechanism, and joins the return run beneath the visible staircase. An editable directional arrow traces the hidden route toward the lower landing. The whole route remains in view through both narrator sentences.",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "They turn underneath the escalator and travel back to the bottom. You're watching the same steps go around in a loop."
+        }
+      ],
+      "last_frame": "The orange-highlighted step sits midway along the hidden return run, oriented for that return path and heading toward the lower-left landing. The full loop is visible, with separate arrows for the rising and returning steps.",
+      "next_cut": "Cut closer to the drive at the upper landing. The orange step continues along the return run off-screen during the next mechanism views.",
+      "planned_method": "Controlled painted cutaway animated in Remotion; keep the two sentences in one continuous overview."
+    },
+    {
+      "id": "03",
+      "start_sec": 12,
+      "end_sec": 20,
+      "setting_and_framing": "Close three-quarter cutaway of the drive mechanism under the upper landing. A small side-view continuation at the edge keeps the uphill direction legible. Sol is off-screen during this close-up.",
+      "first_frame": "An electric motor, gearbox, common drive shaft, and two toothed chain wheels are visible. One step chain is present along each side of the attached steps. Both chains are seated on their wheels.",
+      "action": "Sol's follow-up begins over the close-up. During the narrator's answer, highlight the motor, then the rotating shaft and toothed wheels, then the two moving chains. Let the viewer see that the chains pull the steps while the wheels engage the chain links. Hold the same shot for both voices.",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "So what's pulling them?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "An electric motor turns toothed wheels that pull a chain along each side of the steps."
+        }
+      ],
+      "last_frame": "Both chains are visibly attached to the step assembly and seated on the toothed wheels. The nearest step has advanced along the upward route. The full motor-to-chain connection remains inside the crop.",
+      "next_cut": "Cut to the side of a different, unhighlighted step midway up the incline to show how its supporting wheels are guided.",
+      "planned_method": "Controlled painted mechanism animation in Remotion. Render all labels as overlays."
+    },
+    {
+      "id": "04",
+      "start_sec": 20,
+      "end_sec": 29,
+      "setting_and_framing": "Side close-up of an unhighlighted step halfway up the incline, with its rigid support and front and back wheels exposed. Show neighboring steps for context; Sol is outside this crop.",
+      "first_frame": "The step's standing surface is horizontal. Its front and back wheels sit on separate visible guide tracks beneath it. The wheel positions, support shape, and track spacing follow the reference geometry.",
+      "action": "Follow the step uphill with a gentle tracking camera. Color the two wheel paths differently as the narrator names them; show how the tracks constrain the wheels at different heights while the rigid standing surface stays horizontal. Keep a thin horizontal reference line beside the standing surface through the second sentence.",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "Each step has front and back wheels following separate tracks. The tracks guide those wheels at different heights, keeping the surface you stand on horizontal."
+        }
+      ],
+      "last_frame": "The same unhighlighted step is farther up the incline, with its standing surface still horizontal. Both wheels remain on their separate tracks, and the reference line still aligns with the standing surface.",
+      "next_cut": "Cut ahead to a group of unhighlighted steps approaching the upper landing. Preserve the uphill direction and the colors assigned to the two tracks.",
+      "planned_method": "Controlled diagram and tracking camera in Remotion; allow both explanation sentences to play over one continuous action."
+    },
+    {
+      "id": "05",
+      "start_sec": 29,
+      "end_sec": 37,
+      "setting_and_framing": "Fixed side close-up of the upper transition and exit floor plate. Three unhighlighted steps and both guide paths are visible; the stationary upper floor is on the right.",
+      "first_frame": "Three steps are staggered vertically on the incline just before the upper transition. The guide tracks curve toward their landing positions ahead. The standing surface of every step is already horizontal.",
+      "action": "The moving steps follow the transition tracks until their standing surfaces reach the same height, forming a flat row. As the narrator says the steps turn underneath, the leading step passes beneath the stationary exit plate and begins the hidden turn. Reveal that turn in the cutaway without bending, folding, or shrinking the step.",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath."
+        }
+      ],
+      "last_frame": "Two neighboring step surfaces form a flat row beside the upper floor. The leading step is visible below the exit plate at the start of its turn onto the return route. The step bodies remain rigid.",
+      "next_cut": "Return to the full side cutaway with Sol on the same upper landing. Rejoin the original orange-highlighted step near the lower turnaround.",
+      "planned_method": "Controlled painted diagram in Remotion, with a single fixed camera and continuous transition."
+    },
+    {
+      "id": "06",
+      "start_sec": 37,
+      "end_sec": 43,
+      "setting_and_framing": "Wide side cutaway matching clip 02, with a closer crop on Sol at the upper-right landing while retaining the lower-left entrance in view.",
+      "first_frame": "Sol stands on the upper landing looking down-left. The original orange-highlighted step is near the lower turnaround after traveling down the hidden return run. The entrance floor and rising staircase remain visible.",
+      "action": "As Sol checks his understanding, the orange-highlighted step follows the lower curve and reappears at the bottom entrance. Sol follows it with his eyes, then gives a small nod on the narrator's confirmation. End with the reused step visible rather than adding an unrelated joke.",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "So the step I just rode comes back around for the next person?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Exactly."
+        }
+      ],
+      "last_frame": "The original orange-highlighted step has reappeared at the lower entrance, ready to carry another rider. Sol stands relaxed on the upper landing with his gaze directed toward that step. The entire return route is still visible.",
+      "next_cut": "End on this resolved view; leave a short hold if the finished dialogue permits it.",
+      "planned_method": "Painted Sol performance with a controlled cutaway and tracked step overlay."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Transport for NSW — Escalation Sensation, How an Escalator Works, printed pp. 8–9",
+      "url": "https://www.transport.nsw.gov.au/system/files/media/documents/2018/Escalation-Sensation.pdf",
+      "supports": "Motor and step-chain drive, guide rails keeping standing surfaces horizontal, level landing transition, hidden turnaround and return route."
+    },
+    {
+      "title": "Otis Escalator Catalog — track sections, printed p. 153",
+      "url": "https://otiswave.otis.com/Documents/CAT/Otis%20Escalator%20Catalog.pdf",
+      "supports": "Separate step-chain-wheel and step-wheel tracks, landing and incline geometry, return line."
+    }
+  ],
+  "spoken_word_count": 113
+}
