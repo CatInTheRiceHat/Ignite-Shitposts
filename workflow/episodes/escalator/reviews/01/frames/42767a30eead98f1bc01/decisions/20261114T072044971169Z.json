@@ -1,0 +1,38 @@
+{
+  "type": "user_frame_feedback",
+  "decision": "changes_requested",
+  "user_message": "what the fuck why is it smeared look at it urself",
+  "observed": [
+    "Broad streaky/blotchy paint patches are present in the full-resolution originals.",
+    "The lantern source has cleaner color boundaries and more restrained surface grain.",
+    "The cream-face contour and painted interior regions shift between the two candidate stills."
+  ],
+  "generation_authorized": false,
+  "packet_id": "42767a30eead98f1bc0175efcc8ba954e596d18045dcc0cceec4ed08ecad41dc",
+  "binding": {
+    "scene": "01",
+    "stage": "frames",
+    "contract_sha256": "66a8d8cca7118cc4d942c3417b869d06673badad176fbb89d923ffff3caac025",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
+        "sha256": "8d24e22649d7ef0d5bea47d7b53d70447c21fa7d2cae77fb5341fcc6238efcd1"
+      },
+      "last": {
+        "path": "workflow/episodes/escalator/keyframes/01-last-omni-v1.png",
+        "sha256": "e8cb2077c7e6d35b898aeca8e98633dd41c3d891a40923e02b022efdf3726dd6"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+        "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      }
+    }
+  },
+  "recorded_at": "2026-11-14T07:20:44.970722+00:00"
+}

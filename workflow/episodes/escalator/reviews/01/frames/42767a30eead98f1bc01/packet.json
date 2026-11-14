@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "packet_id": "42767a30eead98f1bc0175efcc8ba954e596d18045dcc0cceec4ed08ecad41dc",
+  "binding": {
+    "scene": "01",
+    "stage": "frames",
+    "contract_sha256": "66a8d8cca7118cc4d942c3417b869d06673badad176fbb89d923ffff3caac025",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
+        "sha256": "8d24e22649d7ef0d5bea47d7b53d70447c21fa7d2cae77fb5341fcc6238efcd1"
+      },
+      "last": {
+        "path": "workflow/episodes/escalator/keyframes/01-last-omni-v1.png",
+        "sha256": "e8cb2077c7e6d35b898aeca8e98633dd41c3d891a40923e02b022efdf3726dd6"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+        "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      }
+    }
+  },
+  "created_at": "2026-11-14T07:14:44.160938+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Compare the actual source artwork and reference video. Recognizable colors alone do not establish the same character or painted style.",
+        "eyes": "Original small paired navy oval eyes: size, spacing, shape, placement and restrained gaze. A paired natural blink is allowed; unintended asymmetric morphs fail.",
+        "flame_and_limbs": "Reference flame silhouette, irregular painted layers, soft wispy taper, mouthless face and compact limbs. Check for a thick extruded rim, bulbous mask, rigid spear tip, elongated limbs or extra features.",
+        "framing_and_props": "Both planned start/end crops, full character silhouette, camera stability, required prop count and attachments. For this escalator establish both opposing rails and returns.",
+        "contacts_and_action": "Supported feet and hands, correct weight transfer, one planned action per beat, no skating, floating, extra steps, bobbing or repeated gestures.",
+        "mechanical_direction": "Inspect consecutive real frames. Confirm the described travel direction and rigid part connections. Do not infer direction from arrows or the prompt.",
+        "object_continuity": "Track the SAME physical object. Its marker must not jump, multiply, recolor or fade to fake a disappearance.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Restrained lantern-reference acting, eye/body cues, Narrator eyeline when applicable, action onset and ending hold. Use real timestamps.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes."
+      ]
+    },
+    "scene": {
+      "id": "01",
+      "first_frame": "Sol keeps the original lantern artwork's irregular flat-painted flame, narrow cream contour, small paired oval eyes and tiny nub limbs. His hands are empty. His leading foot is planted on the fixed plate at right; the trailing foot rests on the single tread with a small localized orange mark at its edge. Both soles and both complete handrail returns are visible. All other treads are gray.",
+      "last_frame": "Keep the same camera, scene, Sol scale and both complete handrail returns. Both tiny feet are on the same fixed landing plate; the leading foot has not lifted or shifted. Sol makes a slight whole-face tip toward the boundary while retaining both original oval eyes and flat painted flame shapes. The marked tread is fully hidden beneath the fixed plate, and every visible step is gray.",
+      "action": "Complete one short grounded transfer onto the stationary plate at right while the unique marked tread moves right beneath it. Keep Sol three-quarter to camera with both oval eyes visible. He tips his face slightly toward the boundary and holds. Both opposing rails remain visible.",
+      "framing_prompt": "Use a slightly elevated locked three-quarter SIDE view of an ascending escalator exit: the steps travel from lower-left into the stationary metal exit plate at right. Include BOTH opposing glass balustrades and both complete curved handrail returns inside the frame, with the far rail behind Sol and the near rail following the lower-right edge without hiding his feet. Keep full-body Sol about one third of picture height, fully in frame. ",
+      "camera": {
+        "shot_size": "Medium-wide three-quarter side view, full-body Sol and both handrail returns.",
+        "height_and_angle": "Slightly above Sol face height, outside the near balustrade looking across the exit; the step travel reads left to right, rather than toward the camera.",
+        "composition": "Use a slightly elevated locked three-quarter SIDE view of an ascending escalator exit: the steps travel from lower-left into the stationary metal exit plate at right. Include BOTH opposing glass balustrades and both complete curved handrail returns inside the frame, with the far rail behind Sol and the near rail following the lower-right edge without hiding his feet. Keep full-body Sol about one third of picture height, fully in frame. ",
+        "foreground_background": "The paired handrails frame the staircase at left and right; their fixed supports do not cover Sol or the center tread. Simplified painted mall behind the landing.",
+        "start_view": "Sol keeps the original lantern artwork's irregular flat-painted flame, narrow cream contour, small paired oval eyes and tiny nub limbs. His hands are empty. His leading foot is planted on the fixed plate at right; the trailing foot rests on the single tread with a small localized orange mark at its edge. Both soles and both complete handrail returns are visible. All other treads are gray.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "Keep the same camera, scene, Sol scale and both complete handrail returns. Both tiny feet are on the same fixed landing plate; the leading foot has not lifted or shifted. Sol makes a slight whole-face tip toward the boundary while retaining both original oval eyes and flat painted flame shapes. The marked tread is fully hidden beneath the fixed plate, and every visible step is gray.",
+        "attention": "First read Sol's face, then follow his gaze back down to the disappearing orange tread."
+      },
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Wait, where do these steps go when they disappear into the floor?"
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "Opening transfer",
+          "eye_shape": "neutral",
+          "gaze": "Stationary landing at right.",
+          "body": "Leading foot plants while trailing foot is still supported; complete the transfer before its tread enters the plate."
+        },
+        {
+          "cue": "Original tread disappears",
+          "eye_shape": "questioning",
+          "gaze": "Exact exit-plate point down-left.",
+          "body": "Look back once, lean from planted feet, and hold the questioning pose into the next shot."
+        }
+      ],
+      "sol_visible": true,
+      "image_prompts": {
+        "first": "Edit the supplied original lantern artwork into one complete flat hand-painted storybook scene. Preserve Sol's exact character design from that artwork: the irregular flame silhouette, original narrow cream face contour, small matched navy oval eyes with the original spacing, tiny painted nub limbs, and uneven orange/cream brush layers. Keep these as flat painted patches with visible matte grain, not raised or extruded rims or a rounded cream mask. The flame has the reference's softly tapering wispy tip. Sol stays mouthless. His hands are empty; remove the reference lantern and include no held props. Paint a simplified warm mall in the same illustrated surface treatment. Use a slightly elevated locked three-quarter SIDE view of an ascending escalator exit: the steps travel from lower-left into the stationary metal exit plate at right. Include BOTH opposing glass balustrades and both complete curved handrail returns inside the frame, with the far rail behind Sol and the near rail following the lower-right edge without hiding his feet. Keep full-body Sol about one third of picture height, fully in frame. Sol faces right in three-quarter view with both original oval eyes visible. His leading foot is already planted on the fixed plate at right, while the tiny trailing foot is supported by the marked tread immediately to its left. Show the narrow tread-to-plate boundary clearly. Only that tread has one small localized orange painted mark at its edge; all other steps are plain gray. No text or captions.",
+        "last": "Edit only the final pose in the supplied flat painted storybook escalator still. Preserve the EXACT full composition, camera, Sol scale and position, shop background, five visible steps, both complete balustrades and both full handrail returns. Keep the same irregular painted flame silhouette, narrow cream-face contour, small matched oval eyes, tiny nub limbs and flat matte brushwork. Leave Sol's already planted leading foot exactly fixed on the bolted stationary exit plate. Bring only his trailing foot a short distance right onto that same plate beside it. Tip his whole face just slightly down-left toward the tread-to-plate boundary; keep both original oval eyes visible and unchanged in shape and relative size. His whole body stays in its current area. The one tread with the small localized orange mark is now entirely hidden beneath the stationary plate, leaving every visible step plain gray. No camera shift, zoom, redesign, extra step, prop, text or captions."
+      },
+      "video_prompt": "Animate the supplied painted first frame into the supplied last frame with a locked camera. Keep both opposing balustrades and handrail returns in their fixed positions. The rigid escalator treads travel LEFT TO RIGHT toward the stationary metal exit plate at right. During the first second, Sol moves his trailing foot a short distance right onto the fixed plate beside his planted leading foot. At the same time, that single orange-edged tread continues RIGHT and passes physically beneath the plate until fully hidden. The orange paint stays attached to that one tread. Following treads are plain gray. Sol keeps the same three-quarter face orientation, with both original small oval eyes visible, and makes one slight downward face tilt toward the step-to-plate boundary. Hold this grounded pose for the remaining time while gray steps continue right into the plate. Preserve the lantern reference's matte painted storybook texture, mouthless face, tiny limbs, layered flame and softly wispy tip throughout. Give the tip only gentle follow-through. No camera movement, extra objects, captions or audio.",
+      "start_sec": 0,
+      "end_sec": 5
+    },
+    "style": {
+      "still": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "source_artwork": "workflow/assets/reference-art/Thank You.jpg",
+      "decision": "User requested: basically copy how the lantern video looked. This is the primary appearance and motion reference.",
+      "character": "Painted storybook flame including a wispy tapering tip; original small matched oval eyes and compact limbs.",
+      "motion_direction": "Use the actual lantern clip as the reference for gentle movement and brief holds; no independent eye-shape acting."
+    },
+    "composition_rules": {
+      "coordinates": "Percentages refer to the 9:16 picture, with x measured from the left and y from the top. They are layout guides for stills, not exact animation coordinates.",
+      "captions": "Reserve x=10–84%, y=80–87% as the caption target; keep important action above y=76%. Validate against the actual platform controls at phone size.",
+      "background": "Use the lantern artwork's hand-painted storybook finish and visible grain for a simplified mall in cream and muted teal. Paint Sol with the same surface treatment and lighting as his surroundings.",
+      "continuity": "Follow the same orange-edged tread through the generated scenes. Use previous approved generated frames for consistency; no computed route is required.",
+      "performance": "Match the lantern video's small, deliberate performance and brief held poses. Use whole-face turns and a small body lean to direct attention, retaining both original oval eyes. A cued natural blink closes both eyes together. Keep limbs compact. Let the wispy flame tip trail slightly after a turn, then settle into its reference silhouette. Preserve the painted grain throughout the movement.",
+      "mechanical_readability": "The generated clip must clearly show the narrated movement and correct contacts. Simplify or regenerate a scene if it is unclear.",
+      "narrator_eyeline": "One clear upward glance toward a fixed point just above the camera when Arthur starts an exchange. Then follow the demonstrated object. Do not add repeated up/down looks within a single explanation. On the later Exactly, look up and hold the happy ending.",
+      "escalator_handrails": "One continuous moving handrail on each of the two opposing balustrades. Establish both sides clearly in the exit view; keep each upper return fully visible and attached. Close cutaways may crop the established rail system deliberately."
+    }
+  },
+  "technical": {},
+  "coverage": {},
+  "evidence": [
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/last.jpg",
+    "evidence/reference.jpg"
+  ],
+  "evidence_sha256": {
+    "evidence/first.jpg": "f26a174bcfcef3de2654b9cbbc0628c15b8d7b1fb9bda9287cdca7cde1863b7c",
+    "evidence/frame-comparison.jpg": "378769b87146fb33ccf0bb2c616288838adf23479398c8c78b5bd51414f883a5",
+    "evidence/last.jpg": "88c848f328fff435507bc9ff2479de7b41a136df18df1e78d2d8c28b1cfa6db4",
+    "evidence/reference.jpg": "19189ca4d2be42a36fdcb21d930ea9a8108c994cc535ddc2c7f9ce3da880a77d"
+  },
+  "state": "awaiting user approval of both frames"
+}

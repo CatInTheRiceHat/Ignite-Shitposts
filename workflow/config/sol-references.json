@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "identity_primary": "workflow/assets/reference-art/Mascot.png",
+  "identity_examples": [
+    "workflow/assets/reference-art/Curious.png",
+    "workflow/assets/reference-art/Puzzled.png",
+    "workflow/assets/reference-art/Artist.png",
+    "workflow/assets/reference-art/Celebrate.png",
+    "workflow/assets/reference-art/Lightbulb.png"
+  ],
+  "paint_finish": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
+  "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+  "role_policy": "Use Mascot.png and the supplied mascot examples for Sol's actual design. Keep the paint treatment the user accepted. The lantern video guides finish/movement; it must not replace the mascot's geometry. Props in the examples are not part of the neutral character.",
+  "identity_constraints": [
+    "Match the original outer flame silhouette and arrangement of its main tip and side lobes.",
+    "Retain the mascot's broad cream inner-flame shape, rounded lower face and flame-shaped crown; do not narrow it into a ghost-like droplet or heart mask.",
+    "Keep the original paired navy oval eyes low on the cream face at the source size and spacing.",
+    "Retain the source's compact rounded nub limbs and recognizable layered colors.",
+    "Keep Sol mouthless and the hands empty for this scene. Use the approved pose and camera, rather than copying reference props."
+  ],
+  "latest_user_clarification": "The paint treatment is right; Sol does not match the mascot. More mascot examples were supplied.",
+  "paint_treatment_accepted": true,
+  "frame_pair_approved": false
+}

@@ -10,7 +10,8 @@ Generate first and last stills -> show BOTH to the user -> explicit approval
 of that exact pair -> Higgsfield clip -> independent actual-footage review.
 No current scene pair has user approval. No Omni clip has been submitted.
 
-The original lantern artwork/video is the character and motion reference.
+Mascot.png and the supplied mascot examples define the character; the paint
+treatment is accepted and stays unchanged. The lantern video guides movement.
 The previous escalator stills and video are rejected for character redesign,
 rigid flame tip, repeated orange markers and extra stepping.
 
@@ -22,3 +23,20 @@ Eight downloaded Arthur/Sol takes are preserved and reused.
 Current new Scene 01 output pair: keyframes/01-first-omni-v1.png and
 keyframes/01-last-omni-v1.png. Show both; wait for actual user approval.
 Review and gate commands are documented in workflow/guidelines/clip-review-guide.txt.
+
+LATEST USER CLARIFICATION
+The paint treatment is right. Sol's mascot identity is the problem. Read
+workflow/config/sol-references.json; keep the broad cream inner flame, low-set
+navy oval eyes, original flame lobes and nub limbs from the actual mascot.
+Show both mascot-corrected stills for user approval before any Omni video.
+
+LATEST GEOMETRY CORRECTION — mascot-v2
+User flagged the escalator. Replace the miniature freestanding stair object with a full-size upper exit: continuous upper floor, inset flush landing plate, treads flattening before the comb, two upper rail noses and a long descending run extending out of frame through an atrium. Preserve the current mascot and accepted paint. Generate and show keyframes/01-first-mascot-v2.png and keyframes/01-last-mascot-v2.png. Neither is approved; no Omni video submitted.
+
+V2 failed independent geometry review: wrong comb orientation, unclear flat-tread seams, trailing foot on seam and changing comb color. V3 uses an upper-landing camera along the run, a full-width transverse gray comb, three separate flat approach treads and both whole soles on the stationary landing. Do not animate V2. V3 pair approval is pending.
+
+V3–V4 also rejected for orientation/depth. Current mascot-v5 uses one normal straight flight between exactly two mall levels, retaining the gray transverse comb and foreground foot contacts. Updated storyboard and prompts match this camera; the next side view establishes screen-right travel. Show BOTH v5 stills and wait for explicit approval. No Omni video submitted.
+
+2026-11-14: User rejected v5 as too abstract and offered example Flow prompts. Hold generation until those are reviewed alongside the actual example clips. User selected Nano Banana 2.1 (nano_banana_2_1) for future image generation; verified live, 2k/9:16, medium thinking. Do not send GPT-only quality/output_format parameters. Video remains Omni Flash 1.2. Settings change submitted no generation; all existing media and actual job histories remain preserved.
+
+User authorized regenerating images using the new image-prompt.md. Scene 01 Nano v1 uses Mascot identity, lantern artwork and actual clip for restrained painted finish, and rejected v5 only for coherent mechanical composition. New stills must both be shown and explicitly approved before any Omni video.

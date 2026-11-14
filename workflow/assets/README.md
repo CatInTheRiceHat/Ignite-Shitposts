@@ -15,6 +15,14 @@ Use the [creative guidelines](../guidelines/README.md) when choosing and
 generating art. Preserve originals and flag differing filename collisions.
 The `Ignite Website` repository remains a read-only source.
 
+Sol's reference roles are recorded in `../config/sol-references.json`.
+`reference-art/Mascot.png` defines the neutral design. The newly supplied
+Curious, Puzzled, Artist, Celebrate and Lightbulb examples clarify the same
+character across poses. Preserve the broad cream inner flame, low-set navy
+oval eyes, outer flame lobes and compact nub limbs. Keep the painted treatment
+the user accepted; example props and expression-specific accessories do not
+belong in the neutral escalator shot. The lantern video guides finish/motion.
+
 The zipper episode keeps renderer-ready copies in
 `../episodes/zipper_demo/public/`. From `workflow/remotion/`, run
 `npm run setup-assets -- zipper_demo` to copy the shared Sol,

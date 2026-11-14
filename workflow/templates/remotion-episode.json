@@ -188,10 +188,10 @@
     "schema_version": 1,
     "provider": "Higgsfield",
     "image": {
-      "model": "gpt_image_2_6",
-      "quality": "high",
+      "model": "nano_banana_2_1",
+      "display_name": "Nano Banana 2.1",
       "resolution": "2k",
-      "output_format": "png",
+      "thinking_level": "medium",
       "aspect_ratio": "9:16",
       "count": 1
     },
@@ -220,6 +220,6 @@
       "Use only passing clips in production. Preserve failed and uncertain takes."
     ],
     "no_automatic_model_fallback": true,
-    "verification": "Model ID, paired-frame input roles, 3–10 second paired-frame limit and 1080p output verified with Higgsfield models_search."
+    "verification": "Nano Banana 2.1 image ID, reference inputs, 2k/9:16 and supported settings verified with Higgsfield models_get on 2026-11-14. Omni Flash 1.2 video ID, paired-frame roles, 3–10 second limit and 1080p output verified with Higgsfield models_search."
   }
 }

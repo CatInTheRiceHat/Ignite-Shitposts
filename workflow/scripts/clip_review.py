@@ -82,6 +82,10 @@ def context(episode, scene_id, stage, clip=None, first=None, last=None):
     reference = plan.get('art_direction_reference', {})
     # Require the selected sources; do not quietly substitute the old flat mascot.
     reference_paths = {key: resolve(episode, reference[key]) for key in ('still', 'motion')}
+    if reference.get('paint'):
+        reference_paths['paint'] = resolve(episode, reference['paint'])
+    for index, value in enumerate(reference.get('identity_examples', []), 1):
+        reference_paths[f'identity_example_{index:02d}'] = resolve(episode, value)
     contract = {'policy': policy,
                 'scene': {key: scene[key] for key in SCENE_FIELDS if key in scene},
                 'style': {key: value for key, value in reference.items()
@@ -147,12 +151,15 @@ def prepare(episode, scene_id, stage, clip=None, first=None, last=None):
     directory.mkdir(parents=True, exist_ok=True)
     evidence = directory / 'evidence'
     evidence.mkdir(exist_ok=True)
-    for label, source in {'reference': ctx['reference_paths']['still'],
-                          'first': ctx['sources']['first'], 'last': ctx['sources']['last']}.items():
+    comparisons = {'reference': ctx['reference_paths']['still'],
+                   'first': ctx['sources']['first'], 'last': ctx['sources']['last']}
+    if 'paint' in ctx['reference_paths']:
+        comparisons['paint'] = ctx['reference_paths']['paint']
+    for label, source in comparisons.items():
         picture(source, evidence / (label + '.jpg'), (720, 1280))
     sheet([(evidence / (label + '.jpg'), label.upper())
-           for label in ('reference', 'first', 'last')], evidence / 'frame-comparison.jpg',
-          columns=3, size=(360, 640))
+           for label in comparisons], evidence / 'frame-comparison.jpg',
+          columns=len(comparisons), size=(360, 640))
     coverage = {}
     technical = {}
     if stage == 'clip':
@@ -221,7 +228,10 @@ def prepare(episode, scene_id, stage, clip=None, first=None, last=None):
     write(existing, packet)
     request = '''ROLE: Independent clip reviewer. Do not generate media or approve frames for the user.
 Read packet.json and inspect ACTUAL evidence with image/video tools. Start with
-the original lantern source and frame-comparison.jpg. Open every chronological
+the identity source, supplied mascot examples, separate paint source and
+frame-comparison.jpg. Mascot examples control geometry; the accepted painted
+treatment controls finish. Do not confuse style acceptance with approval of
+the character or the whole frame pair. Open every chronological
 sequence page, then full-resolution detail frames around each action and flaw.
 Use frame-index.json's real timestamps. Inspect the original bound clip and
 reference video when supported. State the method actually used; do not claim

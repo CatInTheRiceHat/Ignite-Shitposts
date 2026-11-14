@@ -4,11 +4,13 @@ Higgsfield prompts — Omni Flash 1.2, frame approval first
 Exactly 14 image prompts and 7 video prompts.
 
 SETTINGS AND REFERENCES — OUTSIDE COPYABLE BLOCKS
-Images: gpt_image_2_6; high; 2k; PNG; 9:16; one output per prompt.
+Images: Nano Banana 2.1; nano_banana_2_1; 2k; thinking_level medium; 9:16; one output per prompt. Do not send GPT-specific quality or output_format settings.
 Videos: Gemini Omni Flash 1.2; gemini_omni_flash_1_2; image-to-video; 1080p; 9:16; approved first still as start_image AND approved last still as end_image.
 Paired-frame duration limit: 3–10 seconds. Scene 03 is declared as continuing 03a and 03b; do not submit an 11-second paired-frame request.
 Native audio: request no speech/music/effects and discard any provider audio during assembly; separate Arthur/Sol takes stay at normal rate.
-Primary appearance reference: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Primary mascot identity: workflow/assets/reference-art/Mascot.png
+Accepted paint finish (preserve unchanged): workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
+Additional identity examples: workflow/assets/reference-art/Curious.png, workflow/assets/reference-art/Puzzled.png, workflow/assets/reference-art/Artist.png, workflow/assets/reference-art/Celebrate.png, workflow/assets/reference-art/Lightbulb.png
 Primary motion reference: workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4
 MANDATORY ORDER: generate BOTH stills; show BOTH to the user; wait for explicit approval of that exact pair; only then generate the clip. No current scene pair is approved.
 Scene 03a end still is reused as Scene 03b first still. This continuity input does not replace approval of either pair.
@@ -16,31 +18,52 @@ Scene 03a end still is reused as Scene 03b first still. This continuity input do
 SCENE 01 — 5 seconds
 Dialogue context:
 Sol: “Wait, where do these steps go when they disappear into the floor?”
-Reference inputs: The lantern source frame and video; the rejected escalator take is not an appearance or motion reference.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Reference inputs: Mascot.png defines identity. Lantern source artwork and actual lantern clip define restrained paint/edge treatment. Rejected v5 supplies mechanical composition only, not appearance. The last still uses the new first still for continuity.
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Paint/motion video input: workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4
+Mechanical composition only: workflow/episodes/escalator/keyframes/01-first-mascot-v5.png
+Prompt guides: workflow/guidelines/image-prompt.md and workflow/guidelines/video-prompt.md
 
-Planned output: keyframes/01-first-omni-v1.png
+Planned output: keyframes/01-first-nano-v1.png
 BEGIN IMAGE PROMPT I01-FIRST
-Edit the supplied original lantern artwork into one complete flat hand-painted storybook scene. Preserve Sol's exact character design from that artwork: the irregular flame silhouette, original narrow cream face contour, small matched navy oval eyes with the original spacing, tiny painted nub limbs, and uneven orange/cream brush layers. Keep these as flat painted patches with visible matte grain, not raised or extruded rims or a rounded cream mask. The flame has the reference's softly tapering wispy tip. Sol stays mouthless. His hands are empty; remove the reference lantern and include no held props. Paint a simplified warm mall in the same illustrated surface treatment. Use a slightly elevated locked three-quarter SIDE view of an ascending escalator exit: the steps travel from lower-left into the stationary metal exit plate at right. Include BOTH opposing glass balustrades and both complete curved handrail returns inside the frame, with the far rail behind Sol and the near rail following the lower-right edge without hiding his feet. Keep full-body Sol about one third of picture height, fully in frame. Sol faces right in three-quarter view with both original oval eyes visible. His leading foot is already planted on the fixed plate at right, while the tiny trailing foot is supported by the marked tread immediately to its left. Show the narrow tread-to-plate boundary clearly. Only that tread has one small localized orange painted mark at its edge; all other steps are plain gray. No text or captions.
+Create a vertical painted 2D storybook image of Sol stepping off a normal mall escalator, using the attached lantern artwork and clip for the established brushwork, soft painted edges and restrained surface texture.
+
+Frame a medium full-body shot from the upper landing, looking slightly down the escalator. Use the attached escalator image only for its coherent two-floor layout, upper exit and supported foot placement. Sol stands near the center foreground, about one third of the picture height, facing the camera in a gentle three-quarter pose. His forward foot is planted on the fixed metal landing plate; his trailing foot rests on the nearest flat moving tread just behind its comb edge. One small orange rectangular paint mark identifies that tread. The gray comb crosses the full stair width, parallel to the tread seams. Three distinct treads are flat before the comb; the remaining straight flight descends away to one lower mall floor. Both opposing glass balustrades and their near rounded upper handrail noses are visible.
+
+Match Sol's actual mascot reference: its outer flame silhouette and side lobes, layered red-orange and yellow shapes, broad cream inner flame with a flame-shaped crown and rounded lower face, two original small navy oval eyes low on the cream face, and tiny rounded nub limbs. Keep him mouthless and empty-handed, with a softly tapering flame tip. He is looking toward the landing with a small curious body lean. Paint him into the scene with the same brush treatment and grounded shadows as his surroundings.
+
+Use soft warm daylight from the upper left, neutral gray ribbed metal treads, charcoal rubber handrails, cream floor tiles and a quiet blue-gray storefront on the lower level. Keep these structures accurate and clean, with crisp readable shapes and only the restrained grain of the painted references. Make Sol and the step-to-floor boundary the clear focus. Keep the lower foreground floor quiet for captions added later. No writing, logos, lantern props or additional characters.
 END IMAGE PROMPT I01-FIRST
 
-Planned output: keyframes/01-last-omni-v1.png
+Planned output: keyframes/01-last-nano-v1c.png
 BEGIN IMAGE PROMPT I01-LAST
-Edit only the final pose in the supplied flat painted storybook escalator still. Preserve the EXACT full composition, camera, Sol scale and position, shop background, five visible steps, both complete balustrades and both full handrail returns. Keep the same irregular painted flame silhouette, narrow cream-face contour, small matched oval eyes, tiny nub limbs and flat matte brushwork. Leave Sol's already planted leading foot exactly fixed on the bolted stationary exit plate. Bring only his trailing foot a short distance right onto that same plate beside it. Tip his whole face just slightly down-left toward the tread-to-plate boundary; keep both original oval eyes visible and unchanged in shape and relative size. His whole body stays in its current area. The one tread with the small localized orange mark is now entirely hidden beneath the stationary plate, leaving every visible step plain gray. No camera shift, zoom, redesign, extra step, prop, text or captions.
+Create the final still for this educational painted 2D cartoon about an escalator. Use the attached starting image as the exact composition and style reference.
+
+Sol, the small fictional flame mascot, has completed his short step and stands quietly on the stationary metal landing plate. His two tiny cartoon feet rest flat on the plate in a balanced standing pose. Keep the forward foot in its original planted position; bring the trailing foot alongside it. Keep his head, arms, flame silhouette, small navy oval eyes and body size as in the starting image.
+
+The orange tread mark has disappeared beneath the fixed gray comb. Preserve the camera, both handrails, gray steps, two-floor mall, warm daylight and restrained painted finish. Keep the scene clean and unchanged apart from this completed step.
 END IMAGE PROMPT I01-LAST
 
 Video inputs: the user-approved first AND last stills for this exact scene version.
 Model: gemini_omni_flash_1_2; image-to-video; 1080p; 9:16; duration 5 seconds.
-Planned output: clips/01-scene-omni-v1.mp4
+Planned output: clips/01-scene-omni-nano-v1.mp4
 BEGIN VIDEO PROMPT V01
-Animate the supplied painted first frame into the supplied last frame with a locked camera. Keep both opposing balustrades and handrail returns in their fixed positions. The rigid escalator treads travel LEFT TO RIGHT toward the stationary metal exit plate at right. During the first second, Sol moves his trailing foot a short distance right onto the fixed plate beside his planted leading foot. At the same time, that single orange-edged tread continues RIGHT and passes physically beneath the plate until fully hidden. The orange paint stays attached to that one tread. Following treads are plain gray. Sol keeps the same three-quarter face orientation, with both original small oval eyes visible, and makes one slight downward face tilt toward the step-to-plate boundary. Hold this grounded pose for the remaining time while gray steps continue right into the plate. Preserve the lantern reference's matte painted storybook texture, mouthless face, tiny limbs, layered flame and softly wispy tip throughout. Give the tip only gentle follow-through. No camera movement, extra objects, captions or audio.
+Keep the camera locked. Begin with Sol's forward foot on the stationary upper landing and his trailing foot on the nearest flat moving tread, as shown in the supplied first frame.
+
+During the first second, Sol brings only his trailing foot forward onto the fixed plate beside the already planted foot. The planted foot stays fixed. The escalator steps advance from the lower background toward the foreground, flatten before the full-width gray comb and pass beneath it. The single orange mark stays attached to its tread and disappears beneath the comb. Following visible treads are gray.
+
+End with both whole soles on the stationary plate, clear of the comb. Sol keeps the first frame's curious whole-face angle toward the boundary at his left and holds the grounded pose for the rest of the shot. Keep both original small navy oval eyes and let his softly tapering flame tip settle gently.
+
+Preserve the mascot silhouette, broad cream inner flame, tiny rounded limbs, mouthless face and restrained painted 2D brushwork from the supplied stills. Keep the two handrails, gray comb, flat approach treads, straight flight, two-floor mall layout and daylight consistent. Only the treads and handrail belts move; the fixed structure keeps its shape. Finish on the supplied last frame. Keep the footage free of speech, writing and added effects.
 END VIDEO PROMPT V01
 
 SCENE 02 — 7 seconds
 Dialogue context:
 Narrator: “They turn underneath and ride back to the bottom. Same steps, one big loop.”
 Reference inputs: Future approved replacement Scene 01 frames for the tread and landing; lantern frame for Sol and painted finish.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
 
 Planned output: keyframes/02-first.png
 BEGIN IMAGE PROMPT I02-FIRST
@@ -63,7 +86,8 @@ SCENE 03a — 4 seconds
 Dialogue context:
 Sol: “So what's pulling them?”
 Reference inputs: Approved Scene 02 frames, retaining the same escalator and step design.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
 
 Planned output: keyframes/03a-first.png
 BEGIN IMAGE PROMPT I03a-FIRST
@@ -86,7 +110,8 @@ SCENE 03b — 7 seconds
 Dialogue context:
 Narrator: “An electric motor turns toothed wheels that pull a chain along each side of the steps.”
 Reference inputs: Scene 03a approved end frame reused as this scene's first frame, plus the lantern artwork for painted finish.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
 
 Planned output: keyframes/03b-first.png
 BEGIN IMAGE PROMPT I03b-FIRST
@@ -109,7 +134,8 @@ SCENE 04 — 10 seconds
 Dialogue context:
 Narrator: “Front and back rollers follow separate tracks, keeping the surface you stand on level as the step climbs.”
 Reference inputs: Approved Scene 02/03 frames, retaining the same visible mechanism.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
 
 Planned output: keyframes/04-first.png
 BEGIN IMAGE PROMPT I04-FIRST
@@ -132,7 +158,8 @@ SCENE 05 — 10 seconds
 Dialogue context:
 Narrator: “Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath.”
 Reference inputs: Approved Scene 04 frame, retaining the same steps, rollers and tracks.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
 
 Planned output: keyframes/05-first.png
 BEGIN IMAGE PROMPT I05-FIRST
@@ -156,7 +183,8 @@ Dialogue context:
 Sol: “So the step I just rode comes back around for the next person?”
 Narrator: “Exactly.”
 Reference inputs: Future approved replacement Scene 02 and Scene 01 frames for continuity; lantern frame for Sol and painted finish.
-Identity/style input: workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Identity input: workflow/assets/reference-art/Mascot.png
+Paint treatment input: workflow/episodes/escalator/keyframes/01-first-mascot-v1.png
 
 Planned output: keyframes/06-first.png
 BEGIN IMAGE PROMPT I06-FIRST

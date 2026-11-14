@@ -2,8 +2,9 @@
 
 Use the shared Gemini Omni Flash 1.2 video settings in `../config/generation.json`.
 Generate and show the actual first AND last stills to the user, and obtain
-explicit approval of both before animation. The current escalator artwork is
-not an approved character reference. A dedicated reviewer must inspect actual
+explicit approval of both before animation. The mascot design comes from `../config/sol-references.json`: use Mascot.png
+and the additional supplied examples. The current paint treatment is accepted,
+but the escalator character/pair is not approved. A dedicated reviewer must inspect actual
 footage after generation; colors or successful technical checks do not prove
 that Sol matches the original lantern source.
 
@@ -12,7 +13,7 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 ## Art direction
 
 - Use Ignite’s existing **painted 2D** look. Match the approved scene references for brush texture, edge treatment, and lighting. Build depth with overlapping painted layers, value contrast, and gentle parallax.
-- The current visual reference is the [Sol lantern video](../episodes/sol_kling_test/clips/sol-lantern-kling.mp4) and its [source frame](../episodes/sol_kling_test/keyframes/sol-lantern.jpg). Match its hand-painted storybook finish on Sol as well as the scenery, original small oval eyes, compact limbs, softly wispy flame tip, gentle performance and brief held poses. Use this concrete reference when broader cartoon directions conflict.
+- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Preserve the paint treatment the user accepted. The lantern video guides finish and gentle movement; use the original mascot outline, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
 - Keep the staging warm, playful, and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the subject and reference art guide the scene palette.
 - Treat the earlier *Arcane* reference as shorthand for visibly painted surfaces and expressive lighting. Use Ignite’s own artwork to set the character design and overall look. Flag glossy 3D shading, a clay-render look, and generic vector art when they break the painted style.
 - Give Sol the same brushwork, perspective, and light as the scene. Use approved Sol art as a character reference for generating the painted keyframe. See the shot guide for the actual generation steps.
@@ -28,7 +29,7 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 
 ## Sol's cartoon expression and movement
 
-Sol is mouthless. Keep the lantern reference's two small dark oval eyes at their original size, spacing and facial placement throughout the performance. Convey attention through whole-face turns and small body leans. A natural blink may close both eyes together when cued. The current direction replaces the earlier exaggerated eye-morph vocabulary; do not enlarge one eye, collapse one into a dot or replace the pair with crescents. Preserve the painted orange/cream layers and a softly tapering, wispy flame tip.
+Sol is mouthless. Keep the original mascot examples' two small dark oval eyes low on the cream face, at the source size and spacing throughout the performance. Convey attention through whole-face turns and small body leans. A natural blink may close both eyes together when cued. The current direction replaces the earlier exaggerated eye-morph vocabulary; do not enlarge one eye, collapse one into a dot or replace the pair with crescents. Preserve the painted orange/cream layers and a softly tapering, wispy flame tip.
 
 | Acting intent | Eyes | Supporting pose |
 | --- | --- | --- |
@@ -38,7 +39,7 @@ Sol is mouthless. Keep the lantern reference's two small dark oval eyes at their
 | Following movement | Retain the same paired ovals | Track with a restrained whole-face turn; body follows slightly |
 | Understanding / pleased | Retain the same paired ovals | Relax the body into a quiet, grounded ending pose |
 
-Name the gaze target, body pose and cue for each turn. Keep the flame painted in the same storybook finish as the reference, with brushy layered color and a wispy taper at its tip. Let the tip trail gently after a turn and settle. Match the lantern video's small deliberate movements and held poses while retaining compact limbs and recognizable proportions.
+Name the gaze target, body pose and cue for each turn. Keep the accepted painted finish on the original mascot's flame outline and layer arrangement, including its gently tapering tip. Let the tip trail gently after a turn and settle. Match the lantern video's small deliberate movements and held poses while retaining compact limbs and recognizable proportions.
 
 Keep technical parts mechanically accurate while matching the lantern artwork's painted finish. Motion should reveal the explanation clearly, with supported feet, engaged chains and readable roller contact.
 

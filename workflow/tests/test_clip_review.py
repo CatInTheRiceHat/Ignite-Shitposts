@@ -94,6 +94,23 @@ class ClipReviewTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Split this scene'):
             review.video_request(self.episode, '01', 'start-id', 'end-id')
 
+    def test_identity_examples_and_separate_paint_source_are_bound_independently(self):
+        example = self.episode / 'keyframes/example.png'
+        paint = self.episode / 'keyframes/paint.png'
+        Image.new('RGB', (64, 112), '#110000').save(example)
+        Image.new('RGB', (64, 112), '#001100').save(paint)
+        self.plan['art_direction_reference'].update({'identity_examples': [str(example)], 'paint': str(paint)})
+        self.save_plan()
+        self.approve()
+        ctx = review.context(self.episode, '01', 'frames')
+        packet = review.read(ctx['directory'] / 'packet.json')
+        self.assertIn('paint', packet['binding']['references'])
+        self.assertIn('identity_example_01', packet['binding']['references'])
+        self.assertIn('evidence/paint.jpg', packet['evidence'])
+        self.assertTrue(review.frame_gate(self.episode, '01')['approved'])
+        Image.new('RGB', (64, 112), '#000011').save(example)
+        self.assertFalse(review.frame_gate(self.episode, '01')['approved'])
+
     def test_evidence_contains_every_source_frame_with_actual_timestamps(self):
         packet, _ = self.packet_and_report()
         self.assertEqual(packet['coverage']['source_frames'], 8)

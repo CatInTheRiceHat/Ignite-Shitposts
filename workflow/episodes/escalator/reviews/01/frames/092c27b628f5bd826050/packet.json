@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "packet_id": "092c27b628f5bd826050f918fef39dc1bb6d82aad7ebf6217adf6aae61bca379",
+  "binding": {
+    "scene": "01",
+    "stage": "frames",
+    "contract_sha256": "6bc8c24c9ab88a6ce83354c7af6c92d704e4d930dd0f980e8c6937982cca1159",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/escalator/keyframes/01-first-mascot-v1.png",
+        "sha256": "8eceae5418c7ff8d9115c3b7944647f3c40da3f7d36b0eb09d6943afb61606a7"
+      },
+      "last": {
+        "path": "workflow/episodes/escalator/keyframes/01-last-mascot-v1.png",
+        "sha256": "d48baa006659d7009f1105ef99e3ac00398060635ad568c902f8c84eaf70f1c7"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
+        "sha256": "8d24e22649d7ef0d5bea47d7b53d70447c21fa7d2cae77fb5341fcc6238efcd1"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Curious.png",
+        "sha256": "802b7ec6a5e00a371345a73ac16f3df1de2d325091049b5db64c9d261c77a285"
+      },
+      "identity_example_02": {
+        "path": "workflow/assets/reference-art/Puzzled.png",
+        "sha256": "5b1de8406febf28a976f7245c9d56205fc0fe262db4ac6772d07a7ec86c02861"
+      },
+      "identity_example_03": {
+        "path": "workflow/assets/reference-art/Artist.png",
+        "sha256": "93d91799877b775ecab62f8052c62c01e8f4330b10a60ef44996a20836e9bfa6"
+      },
+      "identity_example_04": {
+        "path": "workflow/assets/reference-art/Celebrate.png",
+        "sha256": "39ac52407c4d7bc9d5a143771450f139feaf313332ad22cd0b02b4624d3e850a"
+      },
+      "identity_example_05": {
+        "path": "workflow/assets/reference-art/Lightbulb.png",
+        "sha256": "84797c77d8d963e504aaf4326eb253d0676c205da1925b001abf56b11e07c174"
+      }
+    }
+  },
+  "created_at": "2026-11-14T07:32:26.517256+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Compare the supplied mascot identity examples for actual character design, and the separately accepted painted scene for surface treatment. Do not confuse paint/style acceptance with approval of the character or whole frame pair. Do not impose the lantern pose's occluded face proportions on the mascot.",
+        "eyes": "Original small paired navy oval eyes: size, spacing, shape, placement and restrained gaze. A paired natural blink is allowed; unintended asymmetric morphs fail.",
+        "flame_and_limbs": "Match the source mascot outer flame contour, main tip and side lobes, broad cream inner-flame shape, low-set navy oval eyes, mouthless face and compact nub limbs. Paint those same shapes in the accepted scene finish. Reject a generic droplet/heart/ghost mask, misplaced eyes, changed layer layout, elongated limbs or added features.",
+        "framing_and_props": "Both planned start/end crops, full character silhouette, camera stability, required prop count and attachments. For this escalator establish both opposing rails and returns.",
+        "contacts_and_action": "Supported feet and hands, correct weight transfer, one planned action per beat, no skating, floating, extra steps, bobbing or repeated gestures.",
+        "mechanical_direction": "Inspect consecutive real frames. Confirm the described travel direction and rigid part connections. Do not infer direction from arrows or the prompt.",
+        "object_continuity": "Track the SAME physical object. Its marker must not jump, multiply, recolor or fade to fake a disappearance.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Restrained lantern-reference acting, eye/body cues, Narrator eyeline when applicable, action onset and ending hold. Use real timestamps.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes."
+      ]
+    },
+    "scene": {
+      "id": "01",
+      "first_frame": "Sol keeps the original mascot artwork's source mascot flame design in the accepted painted finish, narrow cream contour, small paired oval eyes and tiny nub limbs. His hands are empty. His leading foot is planted on the fixed plate at right; the trailing foot rests on the single tread with a small localized orange mark at its edge. Both soles and both complete handrail returns are visible. All other treads are gray.",
+      "last_frame": "Keep the same camera, scene, Sol scale and both complete handrail returns. Both tiny feet are on the same fixed landing plate; the leading foot has not lifted or shifted. Sol makes a slight whole-face tip toward the boundary while retaining both original oval eyes and flat painted flame shapes. The marked tread is fully hidden beneath the fixed plate, and every visible step is gray.",
+      "action": "Complete one short grounded transfer onto the stationary plate at right while the unique marked tread moves right beneath it. Keep Sol three-quarter to camera with both oval eyes visible. He tips his face slightly toward the boundary and holds. Both opposing rails remain visible.",
+      "framing_prompt": "Use a slightly elevated locked three-quarter SIDE view of an ascending escalator exit: the steps travel from lower-left into the stationary metal exit plate at right. Include BOTH opposing glass balustrades and both complete curved handrail returns inside the frame, with the far rail behind Sol and the near rail following the lower-right edge without hiding his feet. Keep full-body Sol about one third of picture height, fully in frame. ",
+      "camera": {
+        "shot_size": "Medium-wide three-quarter side view, full-body Sol and both handrail returns.",
+        "height_and_angle": "Slightly above Sol face height, outside the near balustrade looking across the exit; the step travel reads left to right, rather than toward the camera.",
+        "composition": "Use a slightly elevated locked three-quarter SIDE view of an ascending escalator exit: the steps travel from lower-left into the stationary metal exit plate at right. Include BOTH opposing glass balustrades and both complete curved handrail returns inside the frame, with the far rail behind Sol and the near rail following the lower-right edge without hiding his feet. Keep full-body Sol about one third of picture height, fully in frame. ",
+        "foreground_background": "The paired handrails frame the staircase at left and right; their fixed supports do not cover Sol or the center tread. Simplified painted mall behind the landing.",
+        "start_view": "Sol keeps the original lantern artwork's source mascot flame design in the accepted painted finish, narrow cream contour, small paired oval eyes and tiny nub limbs. His hands are empty. His leading foot is planted on the fixed plate at right; the trailing foot rests on the single tread with a small localized orange mark at its edge. Both soles and both complete handrail returns are visible. All other treads are gray.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "Keep the same camera, scene, Sol scale and both complete handrail returns. Both tiny feet are on the same fixed landing plate; the leading foot has not lifted or shifted. Sol makes a slight whole-face tip toward the boundary while retaining both original oval eyes and flat painted flame shapes. The marked tread is fully hidden beneath the fixed plate, and every visible step is gray.",
+        "attention": "First read Sol's face, then follow his gaze back down to the disappearing orange tread."
+      },
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Wait, where do these steps go when they disappear into the floor?"
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "Opening transfer",
+          "eye_shape": "neutral",
+          "gaze": "Stationary landing at right.",
+          "body": "Leading foot plants while trailing foot is still supported; complete the transfer before its tread enters the plate."
+        },
+        {
+          "cue": "Original tread disappears",
+          "eye_shape": "questioning",
+          "gaze": "Exact exit-plate point down-left.",
+          "body": "Look back once, lean from planted feet, and hold the questioning pose into the next shot."
+        }
+      ],
+      "sol_visible": true,
+      "image_prompts": {
+        "first": "Edit the first supplied escalator scene. KEEP its existing painted treatment, brush texture, lighting, colors, background, camera, both complete handrails, fixed bolted plate and framing unchanged. Correct ONLY Sol's mascot design using the second supplied image as the exact identity reference. Match that mascot's outer flame contour, main tip and side lobes, layered red/orange/yellow shapes, BROAD cream inner flame with its flame-shaped crown and rounded lower face, and the two original small navy vertical oval eyes set LOW on that cream face with the same spacing and proportions. Do not turn the cream center into a narrow droplet, heart or ghost mask, and do not raise the eyes. His limbs are the source mascot's tiny rounded nubs, not human-like legs. Translate those exact design shapes into the already accepted paint treatment of the scene. Keep Sol in the same place, scale and gentle right-facing three-quarter pose. His leading foot stays on the fixed metal plate and his trailing foot rests on the one tread with the small localized orange mark. His hands are empty. Keep the same brushwork on Sol as the scene; do not replace it with a clean vector finish. No added mouth, eyebrows, pupils, text or reference props.",
+        "last": "Edit the first supplied scene into its matching last still. Preserve its accepted painted finish, camera, architecture, Sol scale and placement, and both complete handrails EXACTLY. Preserve the corrected mascot design visible in this scene, with the second image as the identity reference: the original outer flame and side lobes, broad cream inner flame with a flame-shaped crown and rounded lower face, and two small navy oval eyes low on that cream face at the original spacing. Keep the same tiny rounded nub limbs and hands empty. Do not narrow the cream face or raise/change either eye. Keep the already planted leading foot completely fixed on the bolted stationary plate. Move only the trailing foot a short distance right onto that same plate beside it. Make a slight whole-face tip down-left toward the exit boundary while retaining the same mascot shapes and proportions. The single marked moving tread has passed right underneath the fixed plate and is entirely hidden; all visible steps are plain gray. Keep the paint treatment, grain and lighting unchanged. No camera shift, zoom, extra pose, new props, text or captions."
+      },
+      "video_prompt": "Animate the supplied painted first frame into the supplied last frame with a locked camera. Keep both opposing balustrades and handrail returns in their fixed positions. The rigid escalator treads travel LEFT TO RIGHT toward the stationary metal exit plate at right. During the first second, Sol moves his trailing foot a short distance right onto the fixed plate beside his planted leading foot. At the same time, that single orange-edged tread continues RIGHT and passes physically beneath the plate until fully hidden. The orange paint stays attached to that one tread. Following treads are plain gray. Sol keeps the same three-quarter face orientation, with both original small oval eyes visible, and makes one slight downward face tilt toward the step-to-plate boundary. Hold this grounded pose for the remaining time while gray steps continue right into the plate. Preserve the lantern reference's matte painted storybook texture, mouthless face, tiny limbs, layered flame and softly wispy tip throughout. Give the tip only gentle follow-through. No camera movement, extra objects, captions or audio.",
+      "start_sec": 0,
+      "end_sec": 5
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Curious.png",
+        "workflow/assets/reference-art/Puzzled.png",
+        "workflow/assets/reference-art/Artist.png",
+        "workflow/assets/reference-art/Celebrate.png",
+        "workflow/assets/reference-art/Lightbulb.png"
+      ],
+      "paint": "workflow/episodes/escalator/keyframes/01-first-omni-v1.png",
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "decision": "Latest user clarification: paint treatment is right; mascot identity must match the supplied mascot examples. Do not redesign the paint treatment.",
+      "character": "Match Mascot.png and the supplied example poses: original outer flame and side lobes, broad cream inner flame, low-set navy oval eyes at original spacing, compact nub limbs.",
+      "paint_treatment_accepted": true,
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "coordinates": "Percentages refer to the 9:16 picture, with x measured from the left and y from the top. They are layout guides for stills, not exact animation coordinates.",
+      "captions": "Reserve x=10–84%, y=80–87% as the caption target; keep important action above y=76%. Validate against the actual platform controls at phone size.",
+      "background": "Use the lantern artwork's hand-painted storybook finish and visible grain for a simplified mall in cream and muted teal. Paint Sol with the same surface treatment and lighting as his surroundings.",
+      "continuity": "Follow the same orange-edged tread through the generated scenes. Use previous approved generated frames for consistency; no computed route is required.",
+      "performance": "Match the lantern video's small, deliberate performance and brief held poses. Use whole-face turns and a small body lean to direct attention, retaining both original oval eyes. A cued natural blink closes both eyes together. Keep limbs compact. Let the wispy flame tip trail slightly after a turn, then settle into its reference silhouette. Preserve the painted grain throughout the movement.",
+      "mechanical_readability": "The generated clip must clearly show the narrated movement and correct contacts. Simplify or regenerate a scene if it is unclear.",
+      "narrator_eyeline": "One clear upward glance toward a fixed point just above the camera when Arthur starts an exchange. Then follow the demonstrated object. Do not add repeated up/down looks within a single explanation. On the later Exactly, look up and hold the happy ending.",
+      "escalator_handrails": "One continuous moving handrail on each of the two opposing balustrades. Establish both sides clearly in the exit view; keep each upper return fully visible and attached. Close cutaways may crop the established rail system deliberately."
+    }
+  },
+  "technical": {},
+  "coverage": {},
+  "evidence": [
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg"
+  ],
+  "evidence_sha256": {
+    "evidence/first.jpg": "20955c24ae0c621125a188c136e6353151a1f23e2469751eab56c778fc905d78",
+    "evidence/frame-comparison.jpg": "b7b9277f3e0e7c5adee8255037ba36c0c9fcf73c0d791735aac17e91f5231078",
+    "evidence/last.jpg": "492350e47b2394f745982eea27201befdd9c8b88783fb96b50fded2c277589eb",
+    "evidence/paint.jpg": "f26a174bcfcef3de2654b9cbbc0628c15b8d7b1fb9bda9287cdca7cde1863b7c",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432"
+  },
+  "state": "awaiting user approval of both frames"
+}
