@@ -8,7 +8,7 @@ All production files live in **[workflow/](workflow/README.md)**.
 | Script, visual style, shot planning and Sol rules | [Creative guidelines](workflow/guidelines/README.md) |
 | Existing episodes and their renderers | [Episode index](workflow/episodes/README.md) |
 | Shared artwork, fonts and music | [Asset index](workflow/assets/README.md) |
-| Remotion Studio, editing and rendering | [Remotion project](workflow/remotion/README.md) |
+| Remotion Studio, editing and rendering | [Episode projects and commands](workflow/episodes/README.md) |
 
 From this repository root:
 
@@ -23,4 +23,5 @@ narration. Existing episode overrides are preserved. The root `music/` and
 canonical folders under `workflow/` for new work.
 
 The [workspace move record](workflow/migration/workspace-2026-11-13/README.md)
-lists previous locations and preservation checks.
+lists the initial consolidation. The [Remotion move record](workflow/migration/workspace-2026-11-13-remotion/README.md)
+records the subsequent move into each episode.

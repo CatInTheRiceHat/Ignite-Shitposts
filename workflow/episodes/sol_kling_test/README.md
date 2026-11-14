@@ -26,7 +26,8 @@ python3 workflow/episodes/sol_kling_test/prepare-audio.py
 node workflow/episodes/sol_kling_test/remotion/render.mjs --with-audio
 ```
 
-The renderer uses dependencies installed in `workflow/remotion/`. See the
-[Remotion guide](../../remotion/README.md) for installation. Review the saved
+The composition and renderer are local to this episode's `remotion/` folder.
+They use the shared dependency install in `workflow/episodes/node_modules/`.
+See the [episode index](../README.md) for installation and npm shortcuts. Review the saved
 audio settings before rebuilding a mix; differing existing outputs are
 preserved and reported. These commands do not submit generation jobs.

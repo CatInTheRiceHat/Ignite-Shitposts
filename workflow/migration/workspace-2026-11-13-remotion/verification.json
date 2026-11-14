@@ -1,0 +1,65 @@
+{
+  "inventory_entries": 282,
+  "unchanged_files_and_links": 271,
+  "unchanged_media_and_fonts": 190,
+  "intentional_manifest_reference_and_document_updates": [
+    "workflow/episodes/README.md",
+    "workflow/episodes/package-lock.json",
+    "workflow/episodes/package.json",
+    "workflow/episodes/sol_kling_test/README.md",
+    "workflow/episodes/sol_kling_test/remotion/render.mjs",
+    "workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+    "workflow/episodes/zipper_demo/README.md",
+    "workflow/episodes/zipper_demo/remotion/README.md",
+    "workflow/episodes/zipper_demo/remotion/scripts/copy-assets.ts",
+    "workflow/episodes/zipper_demo/remotion/scripts/video.ts",
+    "workflow/episodes/zipper_demo/remotion/tsconfig.json"
+  ],
+  "preservation_issues": [],
+  "broken_symlinks": [],
+  "broken_document_links": [],
+  "changed_existing_dependency_entries": [],
+  "checks": [
+    {
+      "command": "npm test",
+      "cwd": "workflow/episodes",
+      "tests": 5,
+      "result": "passed"
+    },
+    {
+      "command": "npm run lint",
+      "cwd": "workflow/episodes",
+      "result": "passed for both projects"
+    },
+    {
+      "command": "npm run zipper:setup-assets",
+      "cwd": "workflow/episodes",
+      "result": "passed; existing artwork reused"
+    },
+    {
+      "command": "npm run sol:check",
+      "cwd": "workflow/episodes",
+      "result": "passed; 1080x1920, 30fps, 120 frames"
+    },
+    {
+      "command": "npm run zipper:still -- --frame 270 --output .cache/episode-organization-2026-11-13.png",
+      "cwd": "workflow/episodes",
+      "result": "passed; rendered test frame"
+    },
+    {
+      "command": "npm run zipper:dev -- --no-open",
+      "cwd": "workflow/episodes",
+      "result": "passed; Studio ready, built in 3056ms; stopped after verification"
+    },
+    {
+      "command": "npm ls --depth=0 --offline",
+      "cwd": "workflow/episodes",
+      "result": "passed; both workspaces resolve with shared dependencies"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "generation_jobs_submitted": 0
+}

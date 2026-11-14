@@ -1,0 +1,12 @@
+{
+  "name": "@ignite/sol-lantern",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Episode-local Sol lantern composition",
+  "scripts": {
+    "check": "node render.mjs --check-composition",
+    "render": "node render.mjs --with-audio",
+    "lint": "tsc -p tsconfig.json"
+  }
+}

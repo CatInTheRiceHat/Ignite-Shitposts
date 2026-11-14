@@ -1,0 +1,17 @@
+{
+  "name": "@ignite/zipper-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Episode-local painted zipper composition",
+  "scripts": {
+    "dev": "tsx scripts/video.ts dev",
+    "render": "tsx scripts/video.ts render",
+    "still": "tsx scripts/video.ts still",
+    "setup-assets": "tsx scripts/copy-assets.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src scripts tests && tsc"
+  }
+}
