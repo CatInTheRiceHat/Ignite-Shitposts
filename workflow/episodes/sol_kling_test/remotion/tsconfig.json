@@ -1,0 +1,15 @@
+{
+  "extends": "../../../../ignite-video/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "../../../../ignite-video",
+    "paths": {
+      "react": ["node_modules/@types/react"],
+      "react/*": ["node_modules/@types/react/*"],
+      "remotion": ["node_modules/remotion"]
+    },
+    "typeRoots": ["../../../../ignite-video/node_modules/@types"],
+    "types": ["node", "react"]
+  },
+  "include": ["index.tsx"],
+  "exclude": []
+}

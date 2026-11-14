@@ -1,0 +1,37 @@
+{
+  "purpose": "Custom Sol voice and sound test over the existing four-second lantern animation",
+  "narration": {
+    "text": "How does fire make a paper lantern fly?",
+    "provider": "Higgsfield",
+    "model": "seed_audio",
+    "voice_name": "Sol",
+    "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+    "voice_type": "element",
+    "role": "off-screen",
+    "format": "wav",
+    "sample_rate": 48000,
+    "speech_rate": 0,
+    "playback_rate": 1,
+    "quoted_credits": 0.3,
+    "submission_status": "completed",
+    "job_id": "963f2dfc-20a2-4dab-af58-75d7238b54cb",
+    "source": "audio/sol-narration-1x.wav"
+  },
+  "mix": {
+    "duration_seconds": 4,
+    "voice_target_lufs": -16,
+    "voice_start_seconds": 0.05,
+    "ambience": "quiet night air and soft flame crackle",
+    "lift_sound": "soft paper rustle around 2.45-3.1 seconds",
+    "music": "quiet excerpt from existing local Hide and Sneak track",
+    "output": "audio/generated/normal-speed/sol-lantern-mix.wav",
+    "status": "prepared_and_verified"
+  },
+  "preview": "renders/sol-lantern-audio-1x.mp4",
+  "captions": false,
+  "additional_video_generation": false,
+  "preview_status": "rendered_and_verified",
+  "composition": "SolLanternAudioTest",
+  "render_command": "node workflow/episodes/sol_kling_test/remotion/render.mjs --with-audio",
+  "mix_command": "python3 workflow/episodes/sol_kling_test/prepare-audio.py"
+}

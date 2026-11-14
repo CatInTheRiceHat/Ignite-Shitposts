@@ -194,7 +194,8 @@ def main(argv=None):
         if action=='prepare':command.add_argument('--duration',type=float)
         if action=='generate':
             command.add_argument('--shot',choices=('A-B',),default='A-B',help='First live test: only the pilot A -> B shot')
-            command.add_argument('--email',help='Connected Flow account (otherwise select a healthy account)')
+            command.add_argument('--email',help='Flow account email (default: ignitefindyourfire@gmail.com)')
+            command.add_argument('--dry-run',action='store_true',help='Check inputs/account/credits with GET requests only; no uploads or generation')
             command.add_argument('--ffprobe',help='FFprobe executable, also configurable with FFPROBE_PATH')
             command.add_argument('--poll-interval',type=float,default=10)
             command.add_argument('--wait-timeout',type=float,default=1200,help='Seconds to wait per job; rerun to resume')
@@ -211,7 +212,7 @@ def main(argv=None):
     try:
         if args.command=='generate':
             from google_flow import generate
-            generate(episode,args.shot,args.email,args.ffprobe,args.poll_interval,args.wait_timeout)
+            generate(episode,args.shot,args.email,args.ffprobe,args.poll_interval,args.wait_timeout,dry_run=args.dry_run)
             return 0
         if args.command=='prepare':
             if not episode.exists() and not re.fullmatch(r'[A-Za-z0-9_-]+',Path(args.episode).name):

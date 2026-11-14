@@ -25,3 +25,5 @@ workflow/episodes/**/keyframes/blocking/*.png
 workflow/vendor/**/out/**/*.mp4
 workflow/vendor/**/out/**/*.png
 workflow/vendor/**/out/**/*.jpg
+workflow/episodes/**/jobs/useapi/
+workflow/episodes/**/keyframes/blocking/useapi/
