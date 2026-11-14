@@ -1,0 +1,23 @@
+{
+  "episode": "workflow/.cache/hybrid-neutral-49odmxyq",
+  "config": "workflow/.cache/hybrid-neutral-49odmxyq/edit.json",
+  "preview": "workflow/.cache/hybrid-neutral-49odmxyq/renders/generic-preview.png",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "template": "workflow/templates/remotion-episode.json",
+  "result": "passed; neutral episode rendered through shared engine",
+  "full_export": {
+    "config": "workflow/.cache/hybrid-neutral-49odmxyq/render-smoke.json",
+    "output": "workflow/.cache/hybrid-neutral-49odmxyq/renders/generic-smoke.mp4",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "duration_sec": 2,
+    "frames": 60,
+    "decode": "passed",
+    "result": "passed; generic episode export stayed in its own renders folder"
+  }
+}

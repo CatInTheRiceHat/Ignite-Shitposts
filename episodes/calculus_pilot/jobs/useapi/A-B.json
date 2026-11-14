@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "shot": "A-B",
+  "email": "ignitefindyourfire@gmail.com",
+  "video": {
+    "status": "completed",
+    "request": {
+      "email": "ignitefindyourfire@gmail.com",
+      "model": "veo-3.1-lite",
+      "prompt": "Vertical 9:16, eight-second hand-painted animated shot. Match the attached\nIgnite painted calculus scene: cream paper, visible soft brush grain, teal\ncurving track, warm ochre board, strong foreshortening and a clear diagonal\nfrom lower left toward upper right. Use the attached original Sol reference\nexactly: the same asymmetrical flame silhouette and layered orange/cream\ncolors, two dark oval eyes, tiny rounded limbs, and a completely mouthless\nface. Sol is one character, not fire, smoke, a human or a new mascot design.\n\nOpen with the board beginning to roll and Sol immediately making one small\nconfident hop onto it. Anticipation, airborne pose, then a slightly awkward\nlanding. Use just three or four deliberate stepped character poses with a\nshort held landing; do not turn this into smooth rubbery interpolation.\nThe board keeps moving while Sol tries to look composed. Use a low three-\nquarter tracking camera and preserve perspective and painted texture.\nLeave the bottom fifth clear for captions added later. End with travel\ncontinuing toward screen right and a short usable hold on Sol aboard.\n\nNo mouth, teeth, lips, talking, lip sync, extra eyes, fingers, long arms,\nrealistic flames, smoke, plastic 3D shaders, glossy CGI, morphing character,\nduplicate Sol, text, subtitles, equations, graph axes, tangent graphics,\nlogos or watermarks. No generated audio.\n\nUse the supplied startImage A as the exact opening composition and endImage B as the exact closing composition. Animate one continuous A to B shot: hop onto the moving board, land, and wobble exactly once to catch his balance. One tiny existing arm begins to extend as he settles into the low side angle. Timing: anticipate at 0-0.4 seconds, hop at 0.4-1.2 seconds, land both feet by 1.8 seconds, wobble once at 1.8-2.8 seconds, and reach the B composition by 3 seconds. Hold that composition through the remaining clip, with gentle board motion, so the existing 3.6-second edit retains the full action. Preserve the painted Sol identity, compact flame shape, original eyes, stubby limbs, mouthless face, texture and palette in both frames. No cuts, dissolves, speech or music.",
+      "aspectRatio": "portrait",
+      "resolution": "720p",
+      "duration": 8,
+      "count": 1,
+      "startImage": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:ec074666-0a29-47ad-9d37-4a7d01c2088e",
+      "endImage": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:31c10f43-7b38-4640-acfb-fa0705151f7e",
+      "async": true
+    },
+    "job_id": "j1108094154758750303v-u3484-email:ignitefindyourfire@gmail.com-bot:google-flow"
+  },
+  "uploads": {
+    "reference-sol-full-body": {
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605",
+      "media_id": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:3f99a024-11f6-464a-bcc4-4c94c860db32"
+    },
+    "reference-calculus-painted-scene": {
+      "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe",
+      "media_id": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:dd166ef5-be8c-43a5-80db-61a6664cfa53"
+    },
+    "A": {
+      "sha256": "914225ea3949919a4004ed3cfeb855a360ded419c5a569c6d688142f0b7937fd",
+      "media_id": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:ec074666-0a29-47ad-9d37-4a7d01c2088e"
+    },
+    "B": {
+      "sha256": "883c9820058dc104d06bddaa4c8eb60d221352deb6550d25c8ce7bf490c4ce66",
+      "media_id": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:31c10f43-7b38-4640-acfb-fa0705151f7e"
+    }
+  },
+  "images": {
+    "A": {
+      "status": "completed",
+      "request": {
+        "email": "ignitefindyourfire@gmail.com",
+        "model": "nano-banana-pro",
+        "prompt": "Use the attached original Sol and painted scene references for every image. Keep the original flame outline, layered\norange/cream colors, two dark oval eyes, tiny rounded limbs and mouthless face.\nPreserve visible painted texture and strong perspective. No glossy CGI,\nrealistic fire, new face, lettering, captions, axes, equations or watermarks.\n\n\n\nPaint a vertical 9:16 opening keyframe in the referenced Ignite world. The\nochre board has just begun rolling up the teal curved track. Sol is poised\nbeside and slightly above the board, ready for one confident little hop.\nLow three-quarter camera, strong foreshortening, cream paper and brush grain.\nLeave the bottom fifth uncluttered for editor-added captions. Original Sol\nidentity exactly; no mouth.\nKeep Sol's original compact flame shape, original eyes, stubby rounded limbs and completely mouthless face.",
+        "aspectRatio": "9:16",
+        "count": 1,
+        "reference_1": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:3f99a024-11f6-464a-bcc4-4c94c860db32",
+        "reference_2": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:dd166ef5-be8c-43a5-80db-61a6664cfa53"
+      },
+      "job_id": "j1108093904743772538i-u3484-email:ignitefindyourfire@gmail.com-bot:google-flow",
+      "sha256": "914225ea3949919a4004ed3cfeb855a360ded419c5a569c6d688142f0b7937fd"
+    },
+    "B": {
+      "status": "completed",
+      "request": {
+        "email": "ignitefindyourfire@gmail.com",
+        "model": "nano-banana-pro",
+        "prompt": "Use the attached original Sol and painted scene references for every image. Keep the original flame outline, layered\norange/cream colors, two dark oval eyes, tiny rounded limbs and mouthless face.\nPreserve visible painted texture and strong perspective. No glossy CGI,\nrealistic fire, new face, lettering, captions, axes, equations or watermarks.\n\n\n\nPaint a vertical 9:16 low side view of original Sol riding the ochre board\nalong the same teal curve. Camera near the deck, looking slightly upward.\nSol leans into the bend with one tiny existing arm starting to extend for\nbalance. Keep his body shape, eyes and tiny limbs intact. The board rises\ntoward screen right around 25 degrees; warm cream paper and painted texture.\nLeave space below for captions. No math or text.\nKeep Sol's original compact flame shape, original eyes, stubby rounded limbs and completely mouthless face.",
+        "aspectRatio": "9:16",
+        "count": 1,
+        "reference_1": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:3f99a024-11f6-464a-bcc4-4c94c860db32",
+        "reference_2": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:dd166ef5-be8c-43a5-80db-61a6664cfa53"
+      },
+      "job_id": "j1108094116127632132i-u3484-email:ignitefindyourfire@gmail.com-bot:google-flow",
+      "sha256": "883c9820058dc104d06bddaa4c8eb60d221352deb6550d25c8ce7bf490c4ce66"
+    }
+  },
+  "failed_attempts": [
+    {
+      "stage": "images.B",
+      "job_id": "j1108093928673849179i-u3484-email:ignitefindyourfire@gmail.com-bot:google-flow",
+      "status": "failed",
+      "reason": "PUBLIC_ERROR_UNSAFE_GENERATION",
+      "request": {
+        "email": "ignitefindyourfire@gmail.com",
+        "model": "nano-banana-pro",
+        "prompt": "Use the attached original Sol and painted scene references for every image. Keep the original flame outline, layered\norange/cream colors, two dark oval eyes, tiny rounded limbs and mouthless face.\nPreserve visible painted texture and strong perspective. No glossy CGI,\nrealistic fire, new face, lettering, captions, axes, equations or watermarks.\n\n\n\nPaint a vertical 9:16 low side view of original Sol riding the ochre board\nalong the same teal curve. Camera near the deck, looking slightly upward.\nSol leans into the bend with one tiny existing arm starting to extend for\nbalance. Keep his body shape, eyes and tiny limbs intact. The board rises\ntoward screen right around 25 degrees; warm cream paper and painted texture.\nLeave space below for captions. No math or text.\nKeep Sol's original compact flame shape, original eyes, stubby rounded limbs and completely mouthless face.",
+        "aspectRatio": "9:16",
+        "count": 1,
+        "reference_1": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:3f99a024-11f6-464a-bcc4-4c94c860db32",
+        "reference_2": "user:3484-email:69676e69746566696e64796f75726669726540676d61696c2e636f6d-image:dd166ef5-be8c-43a5-80db-61a6664cfa53"
+      },
+      "review": "Confirmed failed upstream with matching B prompt; one deliberate same-prompt retry."
+    }
+  ],
+  "verification": {
+    "codec": "h264",
+    "width": 720,
+    "height": 1280,
+    "duration_sec": 7.93,
+    "fps": 24.0
+  },
+  "output_sha256": "b34ec65539261c7d999e12f51e6b6e6f07371a68daec5a88820291c60f542841"
+}

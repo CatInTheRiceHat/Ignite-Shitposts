@@ -1,0 +1,150 @@
+[
+  {
+    "from": "workflow/episodes/package-lock.json",
+    "to": "workflow/remotion/package-lock.json"
+  },
+  {
+    "from": "workflow/episodes/package.json",
+    "to": "workflow/remotion/package.json"
+  },
+  {
+    "from": "workflow/episodes/tsconfig.remotion.json",
+    "to": "workflow/remotion/tsconfig.json"
+  },
+  {
+    "from": "workflow/episodes/sol_kling_test/remotion/package.json",
+    "to": "workflow/migration/workspace-2026-11-13-hybrid/retired/sol-package.json"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/.gitignore",
+    "to": "workflow/episodes/zipper_demo/.gitignore"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/.prettierrc",
+    "to": "workflow/remotion/.prettierrc"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/README.md",
+    "to": "workflow/remotion/README.md"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/eslint.config.mjs",
+    "to": "workflow/remotion/eslint.config.mjs"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/package.json",
+    "to": "workflow/migration/workspace-2026-11-13-hybrid/retired/zipper-package.json"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/remotion.config.ts",
+    "to": "workflow/remotion/remotion.config.ts"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/tsconfig.json",
+    "to": "workflow/migration/workspace-2026-11-13-hybrid/retired/zipper-tsconfig.json"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/episodes/zipper.json",
+    "to": "workflow/episodes/zipper_demo/edit.json"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/out/reveal.png",
+    "to": "workflow/episodes/zipper_demo/renders/remotion/reveal.png"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/out/sol.png",
+    "to": "workflow/episodes/zipper_demo/renders/remotion/sol.png"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/out/storyboard.jpg",
+    "to": "workflow/episodes/zipper_demo/renders/remotion/storyboard.jpg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/out/zipper.mp4",
+    "to": "workflow/episodes/zipper_demo/renders/remotion/zipper.mp4"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/out/zipper.verification.json",
+    "to": "workflow/episodes/zipper_demo/renders/remotion/zipper.verification.json"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/ignite/painted-style-reference.jpg",
+    "to": "workflow/episodes/zipper_demo/public/art/ignite/painted-style-reference.jpg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/ignite/sol-full-body.png",
+    "to": "workflow/episodes/zipper_demo/public/art/ignite/sol-full-body.png"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/catch-ring.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/catch-ring.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/fabric-fold.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/fabric-fold.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/inner-channel.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/inner-channel.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/paper.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/paper.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/pull-tab.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/pull-tab.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/slider-shell.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/slider-shell.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/art/zipper/zipper-track.svg",
+    "to": "workflow/episodes/zipper_demo/public/art/zipper/zipper-track.svg"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/fonts/Nunito-OFL.txt",
+    "to": "workflow/episodes/zipper_demo/public/fonts/Nunito-OFL.txt"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/public/fonts/Nunito.ttf",
+    "to": "workflow/episodes/zipper_demo/public/fonts/Nunito.ttf"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/scripts/copy-assets.ts",
+    "to": "workflow/remotion/scripts/copy-assets.ts"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/scripts/video.ts",
+    "to": "workflow/remotion/scripts/video.ts"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/src/Composition.tsx",
+    "to": "workflow/remotion/src/Composition.tsx"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/src/Root.tsx",
+    "to": "workflow/remotion/src/Root.tsx"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/src/episode.ts",
+    "to": "workflow/remotion/src/episode.ts"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/src/index.ts",
+    "to": "workflow/remotion/src/index.ts"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/src/style.css",
+    "to": "workflow/remotion/src/style.css"
+  },
+  {
+    "from": "workflow/episodes/zipper_demo/remotion/tests/episode.test.ts",
+    "to": "workflow/remotion/tests/episode.test.ts"
+  },
+  {
+    "from": "workflow/episodes/node_modules/",
+    "to": "workflow/remotion/node_modules/"
+  }
+]
