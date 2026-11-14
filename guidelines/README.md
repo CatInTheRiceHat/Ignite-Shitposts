@@ -33,7 +33,7 @@ first frame, action, and last frame. Vary clip lengths according to what
 happens; several dialogue lines can share the same clip. Resolve the scene
 through Sol's understanding or action, without adding a slogan ending.
 Deliver the dialogue and shot directions together in one complete episode
-document. Keep subject-specific dialogue, timing, schematics and asset paths
+document. Keep subject-specific dialogue, timing and asset paths
 in that episode folder.
 The default production flow is generated first/last stills, complete
 Higgsfield clips, then simple assembly with voices, captions and sound.
