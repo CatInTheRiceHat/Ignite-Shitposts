@@ -7,9 +7,10 @@ so an episode name never depends on the terminal's current directory.
 
 ## Setup
 
-Use Python 3.10 or newer, Pillow, FFmpeg and ffprobe. Blender and API keys are
-not required. Flow supports the useapi.net pilot test below or manual downloads;
-MoGoFun is used manually. Downloaded media stays local.
+Use Python 3.10 or newer, Pillow, FFmpeg and ffprobe. Blender is not required.
+Offline prepare/check/render need no API key; useapi.net generation requires
+`USEAPI_TOKEN`. Flow can also use manual downloads. MoGoFun is used manually.
+Downloaded media stays local.
 
 ```bash
 python3 -m venv workflow/.venv
@@ -68,6 +69,13 @@ Use **MoGoFun → Cub (Female)** as the off-screen narrator. Paste the episode's
 
 `workflow/episodes/calculus_pilot/audio/mogofun-narration.mp3`
 
+Narration runs at **1× playback**. For Higgsfield voice generation, use
+`speech_rate: 0` for the provider's normal rate. Do not speed speech up to fit
+shot slots. For full videos, time shots to the finished narration and leave
+room for pauses and reveals; extend the edit or revise the script if needed.
+These preferences are saved in `config/narration.json`. The custom Sol voice
+test has its voice ID and episode override in `episodes/sol_kling_test/audio-test.json`.
+
 If the download is WAV or M4A, retain its real format and use the same basename
 with `.wav` or `.m4a`; keep only one version. The recorded pacing is preserved.
 Do not put a new download into `audio/generated/`, which contains temporary
@@ -83,27 +91,45 @@ prompts without displaying the token or putting its value into shell history:
 read -rs 'USEAPI_TOKEN?useapi.net token: '
 export USEAPI_TOKEN
 printf '\n'
-python3 workflow/scripts/shorts.py generate calculus_pilot --shot A-B
+python3 workflow/scripts/shorts.py generate calculus_pilot --shot A-B --email ignitefindyourfire@gmail.com
 ```
 
 This command is deliberately limited to the pilot's **one A → B video**. It
-checks `GET /accounts` for `health: "OK"`, pins that healthy account for all
-uploads and jobs, and checks health again immediately before each generation.
-Use `--email you@example.com` to select a particular connected account; without
-it, the first healthy account in email order is selected and saved for reruns.
-The token is read only from the environment and is never saved or printed.
+defaults to **ignitefindyourfire@gmail.com**, checks `GET /accounts` for
+`health: "OK"`, pins that account for all uploads and jobs, and uses
+`GET /accounts/{email}` to check current health and the Flow credit balance
+before any uploads. The account must use the current `flow` backend. Other
+connected accounts are never selected as a fallback. To check the inputs,
+account and credit budget without uploads, generation or state changes, use:
 
-Existing finished `keyframes/A.png` and `keyframes/B.png` are reused. These are
-the approved download slots; blocking guides are never used as finished art.
-If either slot is empty, only the missing frame is generated with Nano Banana
-Pro using both original `workflow/assets/` references and that frame's editable
-section of `flow-image-prompts.md`. Frames are saved as actual portrait PNGs.
+```bash
+python3 workflow/scripts/shorts.py generate calculus_pilot --shot A-B --email ignitefindyourfire@gmail.com --dry-run
+```
+
+Use the same command on reruns. `--email` can explicitly override the default;
+saved jobs must always be resumed with their original account. One regular Veo
+3.1 Lite video needs **10 Flow credits**, or **5 on Ultra**; the account's reported
+first/last-frame model cost takes precedence when available. Health and the video
+budget are checked again immediately before the video generation. A job
+already submitted can be polled even if its charge depleted the balance. The
+token is read only from the environment and is never saved or printed; account
+cookies returned by the API are also never logged or saved.
+
+Existing finished `keyframes/A.png` and `keyframes/B.png` are required and reused
+without alteration. If either is missing, the command names every missing path
+and stops before contacting the API. It never generates replacement images or
+uses blocking guides as finished art. Both frames must pass the portrait image
+check before uploads. A saved video job can still resume if local frames or
+prompts have since changed or been removed.
 
 The video request uses `startImage` **and** `endImage`, `count: 1`, `async: true`,
-Veo 3.1 Fast, portrait, and **8 seconds**. Eight seconds is supported across paid
+Veo 3.1 Lite (`veo-3.1-lite`), portrait, **720p**, and **8 seconds**. Eight seconds is supported across paid
 Flow tiers; the old manual prompt's five seconds is not a Veo duration. The shot
 1 prompt in `flow-video-prompts.md` is reused with an explicit continuous A → B
-ending and eight-second wording. Episode edits and cue timing are preserved.
+ending and eight-second wording. Sol hops onto the moving board, lands, and
+wobbles exactly once to catch his balance, reaching B by three seconds before
+holding. Prompts preserve the compact flame shape, original eyes, stubby limbs
+and mouthless face. Episode edits and cue timing are preserved.
 
 Job IDs, submitted prompts, uploaded-file hashes, and verification results are
 saved atomically in `episodes/calculus_pilot/jobs/useapi/A-B.json` (Git ignored).
@@ -115,7 +141,7 @@ Keep this state directory until the result is safely downloaded.
 
 If a submission loses its response before a job ID arrives, reruns stop for
 review instead of risking a duplicate charge. Find the job in useapi.net and
-add its ID as `job_id` to the matching `video` or `images.A`/`images.B` entry in
+add its ID as `job_id` to the `video` entry in
 the local state file. A failed or expired job also stops without replacement;
 inspect it before deliberately starting new work. HTTP errors never cause
 automatic generation retries.
@@ -131,9 +157,14 @@ preserved and verified on reruns. Pass `--ffprobe /full/path/to/ffprobe` or set
 open workflow/episodes/calculus_pilot/clips/01-hop-on.mp4
 ```
 
+When that clip already exists, a normal run verifies it locally and exits
+without using the API. `--dry-run` also performs the live account/credit checks
+in that case, but needs `USEAPI_TOKEN`. An output whose hash differs from its
+saved generation state is preserved and reported as a filename collision.
+
 Protocol references: useapi.net's [account health](https://useapi.net/docs/api-google-flow-v1/get-google-flow-accounts),
+[account credits](https://useapi.net/docs/api-google-flow-v1/get-google-flow-accounts-email),
 [raw asset uploads](https://useapi.net/docs/api-google-flow-v1/post-google-flow-assets-email),
-[image generation](https://useapi.net/docs/api-google-flow-v1/post-google-flow-images),
 [start/end-frame video generation](https://useapi.net/docs/api-google-flow-v1/post-google-flow-videos),
 [job polling](https://useapi.net/docs/api-google-flow-v1/get-google-flow-jobs-jobid),
 and [download URL refresh](https://useapi.net/docs/api-google-flow-v1/get-google-flow-assets-mediagenerationid).

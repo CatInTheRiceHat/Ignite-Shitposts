@@ -1,0 +1,537 @@
+{
+  "id": "zipper",
+  "title": "Why does a zipper get stuck?",
+  "hook": "Why does a\nzipper get stuck?",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "artNote": "ZIPPER ART STUDY \u00b7 SWAP LAYERS",
+  "assets": {
+    "paper": "art/zipper/paper.svg",
+    "font": "fonts/Nunito.ttf"
+  },
+  "palette": {
+    "paper": "#fbf3df",
+    "ink": "#203e40",
+    "teal": "#487d77",
+    "orange": "#d8783e"
+  },
+  "shots": [
+    {
+      "id": "jam",
+      "label": "The question",
+      "title": "",
+      "duration": 3,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 540,
+            "y": 650,
+            "scale": 0.91
+          },
+          "to": {
+            "x": 535,
+            "y": 630,
+            "scale": 1
+          },
+          "start": 0,
+          "end": 1.8
+        },
+        "layers": [
+          {
+            "id": "zipper",
+            "src": "art/zipper/zipper-track.svg"
+          },
+          {
+            "id": "channel",
+            "src": "art/zipper/inner-channel.svg"
+          },
+          {
+            "id": "fabric",
+            "src": "art/zipper/fabric-fold.svg",
+            "motion": {
+              "start": 0.3,
+              "end": 2.2,
+              "from": {
+                "x": 0
+              },
+              "to": {
+                "x": 0
+              }
+            }
+          },
+          {
+            "id": "slider",
+            "src": "art/zipper/slider-shell.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            "tug": {
+              "start": 0.3,
+              "end": 2.1,
+              "amount": 13
+            }
+          },
+          {
+            "id": "pull-tab",
+            "src": "art/zipper/pull-tab.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 1
+              }
+            },
+            "tug": {
+              "start": 0.3,
+              "end": 2.1,
+              "amount": 16
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "text": "JAMMED.",
+            "x": 684,
+            "y": 554,
+            "start": 0.45,
+            "end": 2.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "push-in",
+      "label": "Follow the pull",
+      "title": "Look inside\nthe slider.",
+      "duration": 4,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 535,
+            "y": 630,
+            "scale": 1
+          },
+          "to": {
+            "x": 505,
+            "y": 575,
+            "scale": 1.8
+          },
+          "start": 0,
+          "end": 2.6
+        },
+        "layers": [
+          {
+            "id": "zipper",
+            "src": "art/zipper/zipper-track.svg"
+          },
+          {
+            "id": "channel",
+            "src": "art/zipper/inner-channel.svg"
+          },
+          {
+            "id": "fabric",
+            "src": "art/zipper/fabric-fold.svg",
+            "motion": {
+              "start": 0.3,
+              "end": 2.2,
+              "from": {
+                "x": 0
+              },
+              "to": {
+                "x": 0
+              }
+            }
+          },
+          {
+            "id": "slider",
+            "src": "art/zipper/slider-shell.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "id": "pull-tab",
+            "src": "art/zipper/pull-tab.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "annotations": []
+      }
+    },
+    {
+      "id": "catch",
+      "label": "The reveal",
+      "title": "A fold finds\nthe gap.",
+      "duration": 5,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 505,
+            "y": 575,
+            "scale": 1.8
+          },
+          "to": {
+            "x": 505,
+            "y": 575,
+            "scale": 1.8
+          },
+          "start": 0,
+          "end": 1.8
+        },
+        "layers": [
+          {
+            "id": "zipper",
+            "src": "art/zipper/zipper-track.svg"
+          },
+          {
+            "id": "channel",
+            "src": "art/zipper/inner-channel.svg"
+          },
+          {
+            "id": "fabric",
+            "src": "art/zipper/fabric-fold.svg",
+            "motion": {
+              "start": 0.3,
+              "end": 2.2,
+              "from": {
+                "x": 0
+              },
+              "to": {
+                "x": 20
+              }
+            }
+          },
+          {
+            "id": "slider",
+            "src": "art/zipper/slider-shell.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.1,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0.17
+              }
+            }
+          },
+          {
+            "id": "pull-tab",
+            "src": "art/zipper/pull-tab.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.1,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 0.17
+              }
+            }
+          },
+          {
+            "id": "catch",
+            "src": "art/zipper/catch-ring.svg",
+            "motion": {
+              "start": 0.7,
+              "end": 1.2,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "text": "FABRIC",
+            "x": 230,
+            "y": 468,
+            "start": 1.1,
+            "end": 4.9
+          },
+          {
+            "text": "CUTAWAY VIEW",
+            "x": 555,
+            "y": 808,
+            "start": 1.1,
+            "end": 4.9
+          }
+        ]
+      }
+    },
+    {
+      "id": "pinch",
+      "label": "Cause & effect",
+      "title": "More pulling.\nMore pinching.",
+      "duration": 5,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 505,
+            "y": 575,
+            "scale": 1.8
+          },
+          "to": {
+            "x": 505,
+            "y": 585,
+            "scale": 1.65
+          },
+          "start": 0,
+          "end": 3.5
+        },
+        "layers": [
+          {
+            "id": "zipper",
+            "src": "art/zipper/zipper-track.svg"
+          },
+          {
+            "id": "channel",
+            "src": "art/zipper/inner-channel.svg"
+          },
+          {
+            "id": "fabric",
+            "src": "art/zipper/fabric-fold.svg",
+            "motion": {
+              "start": 0.3,
+              "end": 2.2,
+              "from": {
+                "x": 20
+              },
+              "to": {
+                "x": 39
+              }
+            }
+          },
+          {
+            "id": "slider",
+            "src": "art/zipper/slider-shell.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 0.17
+              },
+              "to": {
+                "opacity": 0.17
+              }
+            },
+            "tug": {
+              "start": 0.3,
+              "end": 2.1,
+              "amount": 13
+            }
+          },
+          {
+            "id": "pull-tab",
+            "src": "art/zipper/pull-tab.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 0.17
+              },
+              "to": {
+                "opacity": 0.17
+              }
+            },
+            "tug": {
+              "start": 0.3,
+              "end": 2.1,
+              "amount": 16
+            }
+          },
+          {
+            "id": "catch",
+            "src": "art/zipper/catch-ring.svg",
+            "motion": {
+              "start": 0.7,
+              "end": 1.2,
+              "from": {
+                "opacity": 0
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "text": "PINCHED HERE",
+            "x": 240,
+            "y": 461,
+            "start": 0.5,
+            "end": 4.9
+          }
+        ]
+      }
+    },
+    {
+      "id": "sol",
+      "label": "Mystery solved",
+      "title": "Tiny gap.\nBig problem.",
+      "duration": 3,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 505,
+            "y": 585,
+            "scale": 1.65
+          },
+          "to": {
+            "x": 540,
+            "y": 650,
+            "scale": 0.91
+          },
+          "start": 0,
+          "end": 0.9
+        },
+        "layers": [
+          {
+            "id": "zipper",
+            "src": "art/zipper/zipper-track.svg"
+          },
+          {
+            "id": "channel",
+            "src": "art/zipper/inner-channel.svg"
+          },
+          {
+            "id": "fabric",
+            "src": "art/zipper/fabric-fold.svg",
+            "motion": {
+              "start": 0.3,
+              "end": 2.2,
+              "from": {
+                "x": 39
+              },
+              "to": {
+                "x": 39
+              }
+            }
+          },
+          {
+            "id": "slider",
+            "src": "art/zipper/slider-shell.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "id": "pull-tab",
+            "src": "art/zipper/pull-tab.svg",
+            "motion": {
+              "start": 0.2,
+              "end": 1.2,
+              "from": {
+                "opacity": 1
+              },
+              "to": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "id": "sol",
+            "src": "art/ignite/sol-full-body.png",
+            "x": 675,
+            "y": 752,
+            "width": 370,
+            "height": 420,
+            "motion": {
+              "start": 0.45,
+              "end": 1,
+              "from": {
+                "y": 360,
+                "rotate": -9,
+                "opacity": 0
+              },
+              "to": {
+                "y": 0,
+                "rotate": -5,
+                "opacity": 1
+              }
+            }
+          }
+        ],
+        "annotations": []
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.25,
+      "end": 2.9,
+      "text": "One tug. And\u2026 nothing."
+    },
+    {
+      "start": 3.15,
+      "end": 6.9,
+      "text": "The slider guides two rows of teeth together."
+    },
+    {
+      "start": 7.15,
+      "end": 11.9,
+      "text": "A loose fold of fabric slips into the narrow gap."
+    },
+    {
+      "start": 12.15,
+      "end": 16.9,
+      "text": "Pulling harder wedges it between the slider and the teeth."
+    },
+    {
+      "start": 17.2,
+      "end": 20,
+      "text": "Tiny gap. Big problem."
+    }
+  ],
+  "voiceover": {
+    "src": null,
+    "start": 0,
+    "volume": 1,
+    "script": "Why does a zipper get stuck? The slider guides two rows of teeth together. But a loose fold of fabric can slip into its narrow gap. Pulling harder wedges it between the slider and the teeth. Tiny gap. Big problem."
+  }
+}

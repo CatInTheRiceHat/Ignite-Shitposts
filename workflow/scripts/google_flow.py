@@ -4,7 +4,7 @@ Protocol: https://useapi.net/docs/api-google-flow-v1
 Only the calculus pilot A -> B test is currently enabled. No POST is retried.
 """
 import base64
-from contextlib import contextmanager
+from contextlib import contextmanager, nullcontext
 import fcntl
 import hashlib
 import json
@@ -25,7 +25,8 @@ from PIL import Image
 from paths import WORKFLOW
 
 BASE_URL = 'https://api.useapi.net/v1/google-flow'
-VIDEO_MODEL = 'veo-3.1-fast'
+IGNITE_EMAIL = 'ignitefindyourfire@gmail.com'
+VIDEO_MODEL = 'veo-3.1-lite'
 IMAGE_MODEL = 'nano-banana-pro'
 VIDEO_SECONDS = 8
 
@@ -67,14 +68,52 @@ class FlowClient:
 
     def healthy_account(self, email=None):
         accounts = self.request('GET', '/accounts')
+        if email is None and len(accounts) > 1:
+            raise ValueError('Multiple connected Flow accounts. Specify the Ignite account with '
+                             '--email ADDRESS. Connected accounts: ' + ', '.join(sorted(accounts)))
         if email is None:
             email = next((key for key, value in sorted(accounts.items())
-                          if isinstance(value, dict) and value.get('health') == 'OK'), None)
+                          if isinstance(value, dict) and value.get('health') == 'OK'
+                          and value.get('backend') == 'flow'), None)
         if email is None:
             raise RuntimeError('No healthy connected Google Flow account. Connect or repair the account in useapi.net.')
-        if not isinstance(accounts.get(email), dict) or accounts[email].get('health') != 'OK':
+        if (not isinstance(accounts.get(email), dict) or accounts[email].get('health') != 'OK'
+                or accounts[email].get('backend') != 'flow'):
             raise RuntimeError('Selected Google Flow account is missing or unhealthy. Repair it in useapi.net before submitting jobs.')
         return email
+
+    def check_credits(self, email, submitting=True):
+        # This endpoint includes cookies. Keep its full response only in memory.
+        account = self.request('GET', '/accounts/' + quote(email, safe=''))
+        if account.get('health') != 'OK' or account.get('backend') != 'flow':
+            raise RuntimeError('Selected Google Flow account is unhealthy. Repair it before submitting jobs.')
+        credits = account.get('credits', {})
+        balance = credits.get('credits') if isinstance(credits, dict) else None
+        if type(balance) not in (int, float) or not math.isfinite(balance) or balance < 0:
+            raise RuntimeError('Flow credit balance is unavailable; no jobs submitted.')
+        # Prefer the actual first/last-frame model cost returned by this account.
+        models = account.get('models', {}).get('videoModels', [])
+        matching = [model for model in models if isinstance(model, dict)
+                    and re.fullmatch(r'veo_3_1_interpolation_lite(?:_ultra)?', str(model.get('key', '')))
+                    and model.get('videoLengthSeconds') == VIDEO_SECONDS
+                    and model.get('resolution') == '720p'
+                    and 'VIDEO_ASPECT_RATIO_PORTRAIT' in model.get('supportedAspectRatios', [])]
+        reported = [model.get('creditCost') for model in matching]
+        if reported and any(type(value) not in (int, float) or not math.isfinite(value) or value <= 0
+                            for value in reported):
+            raise RuntimeError('Flow model credit cost is unavailable; no jobs submitted.')
+        # Documented regular Lite fallback: Ultra 5, all other known tiers 10.
+        # Reserve the video budget before uploading the existing keyframes.
+        tier = credits.get('userPaygateTier')
+        costs = {'PAYGATE_TIER_ZERO': 10, 'PAYGATE_TIER_ONE': 10,
+                 'PAYGATE_TIER_TIER1P5': 10, 'PAYGATE_TIER_TWO': 5}
+        if not reported and tier not in costs:
+            raise RuntimeError('Flow plan/credit cost is unavailable; no jobs submitted.')
+        cost = max(reported) if reported else costs[tier]
+        if submitting and balance < cost:
+            raise RuntimeError(f'Insufficient Flow credits: {balance:g} available; '
+                               f'{cost} required for one Veo 3.1 Lite clip. No generation submitted.')
+        return balance, cost
 
     def download(self, url, target):
         if not isinstance(url, str) or urlsplit(url).scheme != 'https':
@@ -132,6 +171,21 @@ def verify_image(path, portrait=False):
         raise ValueError(f'Unusable keyframe/reference image: {path}') from None
     if portrait and (width >= height or abs(width/height - 9/16) > .03):
         raise ValueError(f'Keyframe must be 9:16 portrait: {path}')
+
+
+def approved_keyframes(episode):
+    frames = [episode/f'keyframes/{letter}.png' for letter in ('A', 'B')]
+    missing = [str(frame) for frame in frames if not frame.is_file()]
+    if missing:
+        raise ValueError('Missing required keyframe(s): ' + ', '.join(missing)
+                         + '. Supply the existing finished A/B artwork before generating; '
+                         'no uploads or video job submitted.')
+    guides = {sha256(path) for path in (episode/'keyframes/blocking').glob('*.png')}
+    for frame in frames:
+        verify_image(frame, portrait=True)
+        if sha256(frame) in guides:
+            raise ValueError(f'Blocking guide in approved keyframe slot; supply finished painted artwork: {frame}')
+    return frames
 
 
 def ffprobe_path(explicit=None):
@@ -194,7 +248,9 @@ def image_prompt(episode, letter):
     content = sections[0].split('\n', 1)[-1] + '\n' + section.split('\n', 1)[-1]
     content = re.sub(r'Upload the original Sol reference.*?\nUse those references',
                      'Use the attached original Sol and painted scene references', content, flags=re.S)
-    return re.sub(r'(?:Save the downloaded image as|Save as)[^\n]*', '', content).strip()
+    return (re.sub(r'(?:Save the downloaded image as|Save as)[^\n]*', '', content).strip()
+            + '\nKeep Sol\'s original compact flame shape, original eyes, stubby rounded '
+            'limbs and completely mouthless face.')
 
 
 def video_prompt(episode):
@@ -205,9 +261,15 @@ def video_prompt(episode):
     prompt = section.group(1).strip().replace('five-second', 'eight-second')
     return (prompt + '\n\nUse the supplied startImage A as the exact opening composition and '
             'endImage B as the exact closing composition. Animate one continuous A to B shot: '
-            'hop onto the moving board, land, then settle into the low side angle with the tiny '
-            'balance arm beginning to extend. Arrive at B and hold briefly. Preserve the painted '
-            'Sol identity, texture and palette in both frames. No cuts, dissolves, speech or music.')
+            'hop onto the moving board, land, and wobble exactly once to catch his balance. '
+            'One tiny existing arm begins to extend as he settles into the low side angle. '
+            'Timing: anticipate at 0-0.4 seconds, hop at '
+            '0.4-1.2 seconds, land both feet by 1.8 seconds, wobble once at 1.8-2.8 seconds, '
+            'and reach the B composition by '
+            '3 seconds. Hold that composition through the remaining clip, with gentle board '
+            'motion, so the existing 3.6-second edit retains the full action. Preserve the painted '
+            'Sol identity, compact flame shape, original eyes, stubby limbs, mouthless face, '
+            'texture and palette in both frames. No cuts, dissolves, speech or music.')
 
 
 class Generation:
@@ -239,7 +301,7 @@ class Generation:
                                    'Find the job in useapi.net and set this entry\'s job_id; '
                                    'reruns will not submit a possible duplicate.')
             # Fail closed on missing/unknown health, immediately before every job.
-            self.client.healthy_account(self.state['email'])
+            self.client.check_credits(self.state['email'])
             entry.update(status='submitting', request=request)
             self.save()
             result = self.client.request('POST', endpoint, request)
@@ -298,7 +360,8 @@ class Generation:
             self.client.download(url, target)
 
 
-def generate(episode, shot='A-B', email=None, ffprobe=None, poll_interval=10, wait_timeout=1200):
+def generate(episode, shot='A-B', email=None, ffprobe=None, poll_interval=10, wait_timeout=1200,
+             dry_run=False):
     episode = Path(episode).resolve()
     if not episode.is_relative_to(WORKFLOW) or episode.name != 'calculus_pilot' or shot != 'A-B':
         raise ValueError('This first integration supports only calculus_pilot --shot A-B inside workflow/.')
@@ -309,65 +372,55 @@ def generate(episode, shot='A-B', email=None, ffprobe=None, poll_interval=10, wa
     binary = ffprobe_path(ffprobe)  # Check tools before any paid work.
     folder = episode/'jobs/useapi'
     target = episode/'clips/01-hop-on.mp4'
-    with shot_lock(folder):
+    # A dry run makes only GET requests and does not even create a state/lock file.
+    with nullcontext() if dry_run else shot_lock(folder):
         state_path = folder/'A-B.json'
         state = json.loads(state_path.read_text()) if state_path.exists() else {'version': 1, 'shot': shot}
         if state.get('version') != 1 or state.get('shot') != shot:
             raise ValueError(f'Unrecognized generation state: {state_path}')
         if target.exists():
             probe = verify_mp4(target, binary)
-            state['verification'] = probe
-            save_json(state_path, state)
+            if state.get('output_sha256') and state['output_sha256'] != sha256(target):
+                raise ValueError(f'Differing filename collision with saved output; existing file preserved: {target}')
+            if not dry_run:
+                state['verification'] = probe
+                save_json(state_path, state)
             print(f'EXISTING MP4 VERIFIED: {target} ({probe["width"]}x{probe["height"]}, {probe["duration_sec"]:.2f}s)')
-            return target
+            if not dry_run:
+                return target
+        video_state = state.get('video', {})
+        if video_state.get('job_id') and video_state.get('request', {}).get('model') != VIDEO_MODEL:
+            raise ValueError('Saved video job uses a different model. Inspect that job before starting a Lite test; no replacement submitted.')
+        submitting = not target.exists() and not (video_state.get('job_id') or video_state.get('status'))
+        if submitting:
+            frames = approved_keyframes(episode)
+            motion = video_prompt(episode)
         client = FlowClient()
-        if email and state.get('email') and email != state['email']:
+        selected = client.healthy_account(email or IGNITE_EMAIL)
+        if state.get('email') and selected != state['email']:
             raise ValueError('Saved jobs belong to a different Flow account; resume with the original account.')
-        state['email'] = client.healthy_account(state.get('email') or email)
+        balance, cost = client.check_credits(selected, submitting=submitting)
+        print(f'ACCOUNT CHECK PASSED: {selected}; health OK; {balance:g} Flow credits available; '
+              f'one Lite clip costs {cost}. Scope: calculus_pilot A -> B only.', flush=True)
+        if dry_run:
+            action = ('verify the existing clip' if target.exists() else
+                      f'resume saved job {video_state["job_id"]}' if video_state.get('job_id') else
+                      'stop for submission outcome review' if video_state.get('status') else
+                      'upload A/B and submit one portrait Veo 3.1 Lite video')
+            print(f'DRY RUN: would {action}. No uploads, submissions or state changes.', flush=True)
+            return target
+        state['email'] = selected
         run = Generation(client, state_path, state, poll_interval, wait_timeout)
         run.save()
-        print('Flow account health: OK. Scope: calculus_pilot A -> B, one video.', flush=True)
         with tempfile.TemporaryDirectory(prefix='download-', dir=folder) as temporary:
             scratch = Path(temporary)
             video = state.setdefault('video', {})
             if not video.get('job_id') and not video.get('status'):
-                # Validate all local inputs before the first generation, and never use blocking art.
-                prompts = {letter: image_prompt(episode, letter) for letter in ('A', 'B')}
-                motion = video_prompt(episode)
-                references = [WORKFLOW/'assets/sol-full-body.png', WORKFLOW/'assets/calculus-painted-scene.jpg']
-                for letter in ('A', 'B'):
-                    frame = episode/f'keyframes/{letter}.png'
-                    if frame.exists():
-                        verify_image(frame, portrait=True)
-                        if any(sha256(frame) == sha256(guide) for guide in (episode/'keyframes/blocking').glob('*.png')):
-                            raise ValueError(f'Blocking guide in approved keyframe slot; supply finished painted artwork: {frame}')
-                missing = [letter for letter in ('A', 'B') if not (episode/f'keyframes/{letter}.png').exists()]
-                refs = []
-                if missing:
-                    for path in references:
-                        verify_image(path)
-                    refs = [run.upload('reference-' + path.stem, path) for path in references]
-                for letter in ('A', 'B'):
-                    frame = episode/f'keyframes/{letter}.png'
-                    if not frame.exists():
-                        entry = state.setdefault('images', {}).setdefault(letter, {})
-                        media = run.job(entry, '/images', {
-                            'email': state['email'], 'model': IMAGE_MODEL, 'prompt': prompts[letter],
-                            'aspectRatio': '9:16', 'count': 1, 'reference_1': refs[0], 'reference_2': refs[1]})
-                        download = scratch/f'{letter}.png'
-                        run.download_media(media, 'image', download)
-                        verify_image(download, portrait=True)
-                        # Flow can return JPEG/WebP; canonical .png slots must contain actual PNGs.
-                        with Image.open(download) as image:
-                            image.convert('RGB').save(scratch/f'{letter}-canonical.png', 'PNG')
-                        publish(scratch/f'{letter}-canonical.png', frame)
-                        entry['sha256'] = sha256(frame)
-                        run.save()
-                    else:
-                        print(f'REUSING KEYFRAME: {frame}', flush=True)
-                start, end = [run.upload(letter, episode/f'keyframes/{letter}.png') for letter in ('A', 'B')]
+                for frame in frames:
+                    print(f'REUSING KEYFRAME: {frame}', flush=True)
+                start, end = [run.upload(letter, frame) for letter, frame in zip(('A', 'B'), frames)]
                 request = {'email': state['email'], 'model': VIDEO_MODEL, 'prompt': motion,
-                           'aspectRatio': 'portrait', 'duration': VIDEO_SECONDS, 'count': 1,
+                           'aspectRatio': 'portrait', 'resolution': '720p', 'duration': VIDEO_SECONDS, 'count': 1,
                            'startImage': start, 'endImage': end, 'async': True}
             else:
                 # Resume the submitted request even if prompts or local keyframes were edited.

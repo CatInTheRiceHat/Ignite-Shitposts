@@ -1,0 +1,44 @@
+{
+  "name": "ignite-video",
+  "version": "1.0.0",
+  "description": "Reusable painted Ignite educational shorts, independent of UseAPI",
+  "type": "module",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/bundler": "4.0.542",
+    "@remotion/cli": "4.0.542",
+    "@remotion/renderer": "4.0.542",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.542",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.542",
+    "@types/node": "^26.6.6",
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "tsx scripts/video.ts dev",
+    "render": "tsx scripts/video.ts render",
+    "still": "tsx scripts/video.ts still",
+    "setup-assets": "tsx scripts/copy-assets.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src scripts tests && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}

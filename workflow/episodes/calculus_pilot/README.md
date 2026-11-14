@@ -17,7 +17,7 @@ Read `MEDIA.md` for exact import/timing instructions. No website file is edited.
 
 ```bash
 python3 workflow/scripts/shorts.py prepare calculus_pilot
-python3 workflow/scripts/shorts.py generate calculus_pilot --shot A-B
+python3 workflow/scripts/shorts.py generate calculus_pilot --shot A-B --email ignitefindyourfire@gmail.com
 python3 workflow/scripts/shorts.py check calculus_pilot
 python3 workflow/scripts/shorts.py render calculus_pilot --animatic
 python3 workflow/scripts/shorts.py render calculus_pilot
@@ -28,11 +28,16 @@ Run those commands from the video repository root. `narration.txt` and
 all four frames. The graph is y=sqrt(x), with slope 1/2 at (1,1); the tangent
 reveal is tied to the spoken “Tangent” cue after real voice timing is confirmed.
 
-`generate` needs an exported `USEAPI_TOKEN` and a healthy connected Flow
-account. It generates only A → B with both frames attached, reusing finished
-A/B images or making the missing ones from the original references. Rerun the
+`generate` needs an exported `USEAPI_TOKEN` and the healthy connected Ignite Flow
+account, **ignitefindyourfire@gmail.com**, with enough credits (10 for Lite, or
+5 on Ultra, unless the account reports a different model cost). It generates
+only one portrait 720p Veo 3.1 Lite A → B clip: hop, land, wobble once to balance.
+It attaches the existing finished A/B frames unchanged, stopping with the exact
+missing paths if either is absent. Add `--dry-run` to check the live account and
+budget without uploads or generation. Rerun the
 same command to resume the job saved in `jobs/useapi/A-B.json`. After FFprobe
 verification, open it with `open workflow/episodes/calculus_pilot/clips/01-hop-on.mp4`.
+An existing clip is verified locally without another submission.
 See the workflow README for token setup, API details and recovery behavior.
 
 The previous playable animatic is `renders/animatic.mp4`; old versions remain

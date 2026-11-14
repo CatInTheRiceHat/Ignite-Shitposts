@@ -1,0 +1,135 @@
+.ignite-short {
+  font-family: Ignite, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.paper {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.82;
+}
+.brand {
+  position: absolute;
+  top: 83px;
+  left: 76px;
+  right: 76px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.brand-flame {
+  color: var(--orange);
+  font-size: 51px;
+  line-height: 1;
+}
+.brand-series {
+  margin-left: auto;
+  font-size: 20px;
+  letter-spacing: 2.3px;
+  font-weight: 800;
+  opacity: 0.65;
+}
+.chapter {
+  position: absolute;
+  left: 80px;
+  top: 180px;
+  text-transform: uppercase;
+  font-size: 23px;
+  letter-spacing: 4px;
+  color: var(--teal);
+  font-weight: 900;
+}
+.chapter span {
+  margin: 0 13px;
+  opacity: 0.35;
+}
+.headline {
+  position: absolute;
+  top: 232px;
+  left: 75px;
+  right: 65px;
+  white-space: pre-line;
+  font-size: 92px;
+  line-height: 1.05;
+  letter-spacing: -4px;
+  font-weight: 900;
+}
+.scene {
+  position: absolute;
+  left: 0;
+  top: 415px;
+  width: 1080px;
+  height: 1280px;
+}
+.annotation {
+  position: absolute;
+  white-space: pre-line;
+  background: #fcf4df;
+  color: var(--ink);
+  border-left: 5px solid var(--orange);
+  padding: 10px 16px;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 900;
+  transform: rotate(-3deg);
+  box-shadow: 3px 5px 0 #223a3b18;
+}
+.art-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border: 4px dashed #467977;
+  background: #ece3cb;
+  color: #294e50;
+  font-size: 38px;
+}
+.caption {
+  position: absolute;
+  bottom: 168px;
+  left: 76px;
+  right: 76px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.22;
+  font-weight: 850;
+  letter-spacing: -0.8px;
+}
+.caption span {
+  padding: 23px 32px 26px;
+  background: #fcf5e8f5;
+  border-radius: 7px 18px 7px 15px;
+  box-shadow: 0 5px 0 #26464b0c;
+}
+.footer {
+  position: absolute;
+  bottom: 74px;
+  left: 80px;
+  right: 80px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: var(--ink);
+  opacity: 0.55;
+}
+.progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 10px;
+  background: var(--orange);
+}
