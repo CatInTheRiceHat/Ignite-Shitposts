@@ -23,12 +23,14 @@ Shared production settings live in [config/](../config/).
 | Renderer | Format | Existing episodes |
 | --- | --- | --- |
 | Python/FFmpeg via `scripts/shorts.py` | 720 × 1280, 30 fps | Calculus pilot: 15 seconds |
-| Remotion in `episodes/<name>/remotion/` | 1080 × 1920, 30 fps | Zipper demo: 20 seconds; Sol lantern test: 4 seconds |
+| Shared engine in `remotion/`, with episode-owned edits/assets | 1080 × 1920, 30 fps | Zipper demo: 20 seconds; Sol lantern test: 4 seconds |
 
 Preserve an episode's intentional duration, format, narrator and edit.
 These guides describe the common creative approach; the episode files hold
 its exact settings. The template currently models the calculus sequence,
 so adapt the script and shot plan deliberately for another topic.
+The neutral [Remotion starter](../templates/remotion-episode.json) provides
+hook, setup, reveal and payoff placeholders without zipper or calculus art.
 
 Reference artwork lives in [assets/](../assets/README.md). The upstream
 generator in `vendor/` contains a different 3D style; use these Ignite guides

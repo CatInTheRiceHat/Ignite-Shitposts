@@ -16,8 +16,8 @@ generating art. Preserve originals and flag differing filename collisions.
 The `Ignite Website` repository remains a read-only source.
 
 The zipper episode keeps renderer-ready copies in
-`../episodes/zipper_demo/remotion/public/`. From
-`workflow/episodes/zipper_demo/remotion/`, run `npm run setup-assets` to copy the shared Sol,
+`../episodes/zipper_demo/public/`. From `workflow/remotion/`, run
+`npm run setup-assets -- zipper_demo` to copy the shared Sol,
 painted reference and Nunito font; modified destination artwork is preserved.
 
 Downloaded music stays local and is ignored by Git. The root `music/` path

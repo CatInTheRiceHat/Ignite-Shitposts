@@ -7,9 +7,11 @@
 - Read `workflow/guidelines/README.md` and its script, style and Sol/shot
   guides before writing scripts, generating art or planning shots.
 - Shared artwork and music live in `workflow/assets/`; additional reference
-  artwork is in `workflow/assets/reference-art/`. Each Remotion composition
-  lives in `workflow/episodes/<name>/remotion/`. Share npm dependencies through
-  `workflow/episodes/package.json`; do not duplicate installs per episode.
+  artwork is in `workflow/assets/reference-art/`. Reusable Remotion components,
+  tools and the single npm install live in `workflow/remotion/`. Keep each
+  episode's edit, artwork, media and renders in `workflow/episodes/<name>/`;
+  custom compositions can live in that episode's `remotion/` folder.
+  The generic Remotion starter is `workflow/templates/remotion-episode.json`.
   See `workflow/episodes/README.md` for episode locations and commands.
 - `Ignite Website` is a read-only source. Never write into that repository.
 - Preserve episode edits and downloaded files. Prepare is non-destructive;

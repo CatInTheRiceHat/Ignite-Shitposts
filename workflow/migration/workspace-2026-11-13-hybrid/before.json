@@ -1,0 +1,1724 @@
+[
+  {
+    "path": "workflow/.gitignore",
+    "bytes": 102,
+    "sha256": "b4fb22c64f20da85b008af29c44bd62d854d947b953c669aef076a336c847490"
+  },
+  {
+    "path": "workflow/README.md",
+    "bytes": 15009,
+    "sha256": "ec920d5107ae930079def0614836c2eacb0f628589a0ad2c1cfae81eaab23d19"
+  },
+  {
+    "path": "workflow/requirements.txt",
+    "bytes": 15,
+    "sha256": "1954ca940740c612a12e7abf0a307b7394715964d66dc8037d503fdd5c1b6424"
+  },
+  {
+    "path": "workflow/assets/README.md",
+    "bytes": 1209,
+    "sha256": "ab91f0a6c909c932cb60e3e1d0b11865dfa807b8f0038bd5cdae53e9659fe6c4"
+  },
+  {
+    "path": "workflow/assets/calculus-painted-scene.jpg",
+    "bytes": 1621297,
+    "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe"
+  },
+  {
+    "path": "workflow/assets/sol-full-body.png",
+    "bytes": 540293,
+    "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+  },
+  {
+    "path": "workflow/assets/fonts/Nunito-OFL.txt",
+    "bytes": 4385,
+    "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+  },
+  {
+    "path": "workflow/assets/fonts/Nunito.ttf",
+    "bytes": 276932,
+    "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+  },
+  {
+    "path": "workflow/assets/fonts/Poppins-OFL.txt",
+    "bytes": 4385,
+    "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+  },
+  {
+    "path": "workflow/assets/fonts/Poppins-SemiBold.ttf",
+    "bytes": 157312,
+    "sha256": "d3bf1bdaf0550e83da9ac0b1d1d9fe6db086835a83aa28578e609a394b9a0286"
+  },
+  {
+    "path": "workflow/assets/fonts/RammettoOne-OFL.txt",
+    "bytes": 4429,
+    "sha256": "88ae96c3cfcaea1d7d573675d7513c25716a048fdfa21f16768142ef235f9136"
+  },
+  {
+    "path": "workflow/assets/fonts/RammettoOne-Regular.ttf",
+    "bytes": 69392,
+    "sha256": "0063c5480f7868be5dd95dd668575643ff953199541dce65fe5a88310bd7733f"
+  },
+  {
+    "path": "workflow/assets/music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3",
+    "bytes": 3083920,
+    "sha256": "86547df5be914d00059f3cbdcb9bb79fff8e331bec5453aeadd13576930420d1"
+  },
+  {
+    "path": "workflow/assets/music/Hide and Sneak 4.mp3",
+    "bytes": 2847109,
+    "sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23"
+  },
+  {
+    "path": "workflow/assets/music/Lurking Behind 4.mp3",
+    "bytes": 2653501,
+    "sha256": "3fa9d80ec9e5d6a8a797b1e50fbfe6539ba84a5f89c2205654ad24c64604d260"
+  },
+  {
+    "path": "workflow/assets/music/Pizzicato Comedy 4.mp3",
+    "bytes": 2320499,
+    "sha256": "a3417d5ac02f7569969e978196a5118d602f1bc7cae97fc429d6596bdea35c20"
+  },
+  {
+    "path": "workflow/assets/music/Roblox Break In OST - Daytime Extended.mp3",
+    "bytes": 35115909,
+    "sha256": "8a143e0f832734effe1f79e467717f1cfd78a6486c39908e06938f35060c4213"
+  },
+  {
+    "path": "workflow/assets/music/Roblox Break In OST - Larry Stairs Extended.mp3",
+    "bytes": 33370320,
+    "sha256": "00a18ab756e13e51e38f63bb4c67b068c4a84a6e48d32fbf82e8048c946ec379"
+  },
+  {
+    "path": "workflow/assets/music/Roblox Break In OST - Nighttime Extended 4.mp3",
+    "bytes": 33482949,
+    "sha256": "be6a6e4d1d439b3610e060d4cafc842110c2f5d1a3560f64afad9d3070abdb8b"
+  },
+  {
+    "path": "workflow/assets/music/ignite-sol-shorts-preview.mp4",
+    "bytes": 191641,
+    "sha256": "2dac91645c8ac45a576da4f449b2736ae3c09d6db85a0b638dc3307c2765aa67"
+  },
+  {
+    "path": "workflow/assets/reference-art/Fall.jpg",
+    "bytes": 609148,
+    "sha256": "0ec361cf735c7ebc97ccf0b929233609778f98327c081684df3d3f872f2e63e9"
+  },
+  {
+    "path": "workflow/assets/reference-art/Hero 2.jpg",
+    "bytes": 2981152,
+    "sha256": "ba7dbc6285382ed638b464a5d168ea211420821299f2837bbccf44c35e61ab59"
+  },
+  {
+    "path": "workflow/assets/reference-art/Hero 3.jpg",
+    "bytes": 1620118,
+    "sha256": "a3a5e919b6b1ac579e19a56bf805cd205d169182684714ad579b027677d13c1c"
+  },
+  {
+    "path": "workflow/assets/reference-art/Hero 4.jpg",
+    "bytes": 2086069,
+    "sha256": "f0898cf4ffb6c626cbb8689921d0a9915d063fb0685b8816620a1e5e6cfc5301"
+  },
+  {
+    "path": "workflow/assets/reference-art/Hero.jpg",
+    "bytes": 1759665,
+    "sha256": "cada55517a1441c4a12da85a8193f8e2ea4f742fe8400c3e9c06a13c529f4093"
+  },
+  {
+    "path": "workflow/assets/reference-art/Hiring.jpg",
+    "bytes": 2110485,
+    "sha256": "d8701ccdc9eede294710e487d32c59d37d175ba71334b9f4f996e4d5b862b05a"
+  },
+  {
+    "path": "workflow/assets/reference-art/Loading Screen Mobile.mp4",
+    "bytes": 1622938,
+    "sha256": "a4e59a0a02c6fbaa0f8ff63d2dc1f1165c536f09792edd4c8e70b03edc5e9bbf"
+  },
+  {
+    "path": "workflow/assets/reference-art/Loading Screen Mobile.webp",
+    "bytes": 24888,
+    "sha256": "84d8580312003b13217e620004c6f27a5bf005a97a0a9c64b52fcffece81f4d5"
+  },
+  {
+    "path": "workflow/assets/reference-art/Loading Screen.mp4",
+    "bytes": 2913738,
+    "sha256": "020f91e1e41c38d483fc4815fff95dfdcf4c58263c940d294c8fe6670910b181"
+  },
+  {
+    "path": "workflow/assets/reference-art/Loading Screen.webp",
+    "bytes": 22910,
+    "sha256": "09af6b4b1e49e0f9f42705fe418e70faf28d5042e1178021c76d17537f0f6cbf"
+  },
+  {
+    "path": "workflow/assets/reference-art/Mascot.png",
+    "bytes": 540293,
+    "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+  },
+  {
+    "path": "workflow/assets/reference-art/Matters.jpg",
+    "bytes": 2533319,
+    "sha256": "426bc7223a3f8e27417783a19ac5ef9647568d9d42fe8353a66a8644f3cba976"
+  },
+  {
+    "path": "workflow/assets/reference-art/Practical Learning.jpg",
+    "bytes": 2966252,
+    "sha256": "0bd1da372877c25822c9a4226e4b1e737fd170f132a98005af0ad6cbcf836406"
+  },
+  {
+    "path": "workflow/assets/reference-art/Program.jpg",
+    "bytes": 2657176,
+    "sha256": "2545eeeb5a80734ad205ced9c9db9c8fd45c191b097b8d5f367cba904eb542bd"
+  },
+  {
+    "path": "workflow/assets/reference-art/Spring.jpg",
+    "bytes": 2476780,
+    "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+  },
+  {
+    "path": "workflow/assets/reference-art/Story.png",
+    "bytes": 529227,
+    "sha256": "6810e912957c328924a5e87983d4cac4b890933579e28011d403b310d2279b3d"
+  },
+  {
+    "path": "workflow/assets/reference-art/Summer.jpg",
+    "bytes": 591867,
+    "sha256": "4f1141390acb93e5a8109e675397237bcc1d8679ca9f70ee019e53de17adfb19"
+  },
+  {
+    "path": "workflow/assets/reference-art/Thank You.jpg",
+    "bytes": 310748,
+    "sha256": "5721b5b5581b7e05e80a873f5d9f9b6c627e67bd660cc0adce8fe37de8e69143"
+  },
+  {
+    "path": "workflow/assets/reference-art/Together.jpg",
+    "bytes": 1676365,
+    "sha256": "b70f3b317b1530659f42a2ddf1eb33ba444a3e1f9a37c7dd31dd2e4a81d17277"
+  },
+  {
+    "path": "workflow/assets/reference-art/Winter.jpg",
+    "bytes": 2525391,
+    "sha256": "d45accb0f905eaa5d33714493834e81bfaf9c746f0d0d9777675ceea2c794c50"
+  },
+  {
+    "path": "workflow/config/captions.json",
+    "bytes": 190,
+    "sha256": "fb2874ce38ff037c25952bccaf023388edebb65d363971baa384a8dcb89f0ca3"
+  },
+  {
+    "path": "workflow/config/format.json",
+    "bytes": 100,
+    "sha256": "703c8e5f0cfbc7be9faba60f89ead7edca18bfe32cda5b51f82316d41c2b4e8a"
+  },
+  {
+    "path": "workflow/config/narration.json",
+    "bytes": 529,
+    "sha256": "322dfb000a6b8bbda1c2f0b657cbc4533ed9b4d1546528824017768230341cb1"
+  },
+  {
+    "path": "workflow/config/style.json",
+    "bytes": 452,
+    "sha256": "64c25455b15ff2d721a8c15f860842c07c9158b88d14d4cae49092caa89b31d2"
+  },
+  {
+    "path": "workflow/episodes/.gitignore",
+    "bytes": 83,
+    "sha256": "6b975dd48201a1108b0b5d9cdf72569206147fa656fc28a21cc3424aecfd82b1"
+  },
+  {
+    "path": "workflow/episodes/README.md",
+    "bytes": 3078,
+    "sha256": "55c817c14acf0caea7c0f457610992a52052f73dc97e96ae32735b7a1e7c4972"
+  },
+  {
+    "path": "workflow/episodes/package-lock.json",
+    "bytes": 191051,
+    "sha256": "b5b2396ca8b1ca02f6000a58433b9ac24fa82f5f8aed51466edb71df0e63ada4"
+  },
+  {
+    "path": "workflow/episodes/package.json",
+    "bytes": 1459,
+    "sha256": "906ab990c1ee98c060b436bdf4b1d81377cc0d8557b4d88344e831caa8ad93d2"
+  },
+  {
+    "path": "workflow/episodes/tsconfig.remotion.json",
+    "bytes": 387,
+    "sha256": "cc22012c7aa88eeac84046ec331752ba439f334175c9e33e7ed6c7432e40188e"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/.gitignore",
+    "bytes": 8,
+    "sha256": "70a213afeabe5ac38ae4c88b2c7002ce5068b91a3e57a032245ab809dc6fa460"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/MEDIA.md",
+    "bytes": 2122,
+    "sha256": "42eb8dc145e0e6cfa58d254469a33fceead0ba94bccbcec7b35757b48b15ea0e"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/README.md",
+    "bytes": 2756,
+    "sha256": "311b37b6b6c15319890a34c4fd0e0eeaaf37f7e26afadf6f0d7353e0d2e4e5b0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/asset-manifest.json",
+    "bytes": 551,
+    "sha256": "aa5fabf7d223ca71214976c7541de1c42bf9a908b9e6af59f837e59386869c9b"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/assets",
+    "target": "../../assets"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/captions.srt",
+    "bytes": 281,
+    "sha256": "30c5d85f2a85bcd1554c07c0b09a10187d277d8f8b5097ef9201b21ea3faeace"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/edit.json",
+    "bytes": 1254,
+    "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/flow-image-prompts.md",
+    "bytes": 2522,
+    "sha256": "b541e73ae072ffb4f2b4a96a8f6cd6d98d4e3caff5792fc60173937020a4b0fd"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/flow-video-prompts.md",
+    "bytes": 5835,
+    "sha256": "857a20838b8812c7f40332454164a32686d8de2f2623bec01f2bc5875a97099c"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/generation",
+    "target": "keyframes/blocking"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/narration.txt",
+    "bytes": 153,
+    "sha256": "44120924dbf2f0a0c8b144cf954a5cbac9f3ba1e2303aefbc8edccda14e1a44a"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/shot-plan.json",
+    "bytes": 1298,
+    "sha256": "d19299f9988eef0127bd7bf3a792954913cd4f0bf5fee8b263c99d6b839b9b9d"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/voiceover-cues.template.json",
+    "bytes": 698,
+    "sha256": "e9f46429ec301be466034e1adfedf2544b54fb7709ed26ddf79031719142ce8b"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/graph-fitted.wav",
+    "bytes": 412878,
+    "sha256": "cb20e9fa17ed84a5601ebcee11ca68dbbe17c5560d589ee5c68160eb5234af76"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/graph-temp.aiff",
+    "bytes": 114684,
+    "sha256": "d225c929f1f75ccfdae2b13b98c47519dcc4a6e5d9530b93a5e02625c171a3f0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/graph-temp.wav",
+    "bytes": 240814,
+    "sha256": "ac98bfe893a6ee49b943a01b51b0fdf03d4b6ef321ea5da6f405fd812f450eaf"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/hop-fitted.wav",
+    "bytes": 345678,
+    "sha256": "a6e996cff1a807afc98ab1842c77fcfd6241a4dff7109bc4fa3d3339f3e5f516"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/hop-temp.aiff",
+    "bytes": 112254,
+    "sha256": "19430b81cf3028ff1a4febf40833bddc697d422c98946c730ee921e7b80c02ec"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/hop-temp.wav",
+    "bytes": 235524,
+    "sha256": "1e322dfd81cb93f1824a7489d217d5b4c6bf1e24b579ca062fb64d5fce941387"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/lean-fitted.wav",
+    "bytes": 374478,
+    "sha256": "9b85b4f79f26d63d8a58ae305cb24892e5f91aadf8d5cbf32771e14562889bd9"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/lean-temp.aiff",
+    "bytes": 80754,
+    "sha256": "4721104862e9efe9cba96df3f0182a1431a1da7e72dc042530067854b8426e21"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/lean-temp.wav",
+    "bytes": 166954,
+    "sha256": "026f806b3bf5521133d4c8c0f30c3d564dbf700574927a158e78849e1a352d68"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/mix.wav",
+    "bytes": 1440078,
+    "sha256": "471d0ecc83b137184c436a92e3e64c00e0dfaf643244efc9aa55a40c60233b10"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/narration.wav",
+    "bytes": 1440078,
+    "sha256": "eceb265febfc087099059617bbc230788e8c6b25ecdc69bb03f971fcee1e8528"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/reaction-fitted.wav",
+    "bytes": 307278,
+    "sha256": "19824b6581b2904330e938e6ff3e43d0bfe1ddd8a2c0f8553f15c5a68e036661"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/reaction-temp.aiff",
+    "bytes": 115708,
+    "sha256": "7c102c06535c9570b66cabbe59a521267c5b3702380d4a05c5a0141f667f75e9"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/reaction-temp.wav",
+    "bytes": 243044,
+    "sha256": "7eac62c6533845a2741894675631d07d4fc6c0fa7170931fb65da4741f14e84b"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/sfx.wav",
+    "bytes": 1440044,
+    "sha256": "17f1a205c0cb625de07b84e2f15dee85c6d1ac961f6f69e0b583ba15cec05afd"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/audio/generated/voice-raw.wav",
+    "bytes": 1440044,
+    "sha256": "a80e5f237dd1e2108d7aee55a1c06bb3c7d6d61b6c96bbe2f5910628c23d427b"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/clips/01-hop-on.mp4",
+    "bytes": 1385010,
+    "sha256": "b34ec65539261c7d999e12f51e6b6e6f07371a68daec5a88820291c60f542841"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/jobs/useapi/A-B.json",
+    "bytes": 9034,
+    "sha256": "23d746e1a197e7fd3206edcac4eeccecd4b0ff4e15ea6cd5ee95b7dcbb16c240"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/jobs/useapi/A-B.lock",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/A.png",
+    "bytes": 1075364,
+    "sha256": "914225ea3949919a4004ed3cfeb855a360ded419c5a569c6d688142f0b7937fd"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/B.png",
+    "bytes": 1041636,
+    "sha256": "883c9820058dc104d06bddaa4c8eb60d221352deb6550d25c8ce7bf490c4ce66"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/C.png",
+    "bytes": 24528,
+    "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/01-hop-start.png",
+    "bytes": 764464,
+    "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/02-lean-start.png",
+    "bytes": 757539,
+    "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/03-reaction-start.png",
+    "bytes": 794947,
+    "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/A.png",
+    "bytes": 764464,
+    "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/B.png",
+    "bytes": 757539,
+    "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/C.png",
+    "bytes": 24528,
+    "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/D.png",
+    "bytes": 794947,
+    "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/match-cut-target.png",
+    "bytes": 24528,
+    "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/keyframes/blocking/prompts.md",
+    "target": "../../flow-video-prompts.md"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/layers/graph.svg",
+    "bytes": 11809,
+    "sha256": "78731a38e42a7c162239867d1bfdcb5298f50463ceff68b9ab11a85a3013a461"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/layers/tangent.svg",
+    "bytes": 336,
+    "sha256": "5f5013557aeb9c502f4ed0ab9346b24c3727e10c038e2f6da48dfddb636ef709"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/plans/flow-run-2026-11-08.json",
+    "bytes": 673,
+    "sha256": "928d2b8b94d85daad593d1485fb37e2381560e57a50e8d16dece9b973376a6c8"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity-v2.json",
+    "bytes": 439,
+    "sha256": "7df9a321a65fd72eecf552543cd86bd693ed4d85e095a897d768922a47b13aad"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity.json",
+    "bytes": 416,
+    "sha256": "b773f80f5ca816507a4b09643661d650e60c0dd9481fb7fe7000172ddd47ba33"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/animatic.mp4",
+    "bytes": 701387,
+    "sha256": "0a92b2a6d71ed0135ed4c6a925239396b39a3eade27a39a24e53232ae60c00df"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/decode-check.log",
+    "bytes": 1720,
+    "sha256": "4fc10f8c27d26f49a22c8933c75268107f54da5b37e1c75975ef15d5995507e5"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/picture-clean.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/picture-clean.mp4",
+    "bytes": 502742,
+    "sha256": "19dd5f508dc0af846c2cc16c57caf1b050b6568a835c7c4d7ec66d5eaa4c96a0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.mp4",
+    "bytes": 491223,
+    "sha256": "4b3669813216205ce5f3a340cfc8b265efd46e0bc9a4de79eb5462db52338d7d"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/storyboard.jpg",
+    "bytes": 193834,
+    "sha256": "b2bf50f799ca248068d3232e25e28f4c6ff9c84b624b201b4be982e0d166749a"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/timeline.resolved.json",
+    "bytes": 1254,
+    "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/validation.json",
+    "bytes": 759,
+    "sha256": "547aa13ccc2f26f016ac4e4f40c48afdcc7d5b953f72df10330d8aed2e8656ad"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/README.md",
+    "bytes": 3212,
+    "sha256": "20c2b9e8bedc5758464064ffd00573f6042c5527da7f919b3078bf16c1a1bbae"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/beats.json",
+    "bytes": 1738,
+    "sha256": "b8130eb3a6c03fda145aaf53e7d48806fb0b2342e39d9ee7dffe117ccbf60dbe"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/calculus_pilot.py",
+    "bytes": 14757,
+    "sha256": "bf6f224d4f6aeb0b46753dc227ed352e263556f5fa9a63abc12ae20f413feecf"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/captions.srt",
+    "bytes": 348,
+    "sha256": "8cb66b89eb9bfbac4fc54f83fe020e7c1f268cf8595edad8cf39fdd1b654ce18"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/decode-check.log",
+    "bytes": 1717,
+    "sha256": "38334baa151db35a5e30b838b28457bec8f4f310655c887bc869fd9d7aac617c"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/final.mp4",
+    "bytes": 649243,
+    "sha256": "7827e5de6c7dd5da5a88917a4930bdad4648d4a68fc94fe94d54eedb7b5c7dbc"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/narration.txt",
+    "bytes": 184,
+    "sha256": "4e4ecc85f7e311b24a70349db6ed8bde70ae4a71e28afe55783caa03966cc9a5"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/picture.mp4",
+    "bytes": 430800,
+    "sha256": "e579fb3e6e1b1ddb1b39f9feb90be557fcf68f40bcacbbe6a6d858a0e759f2c4"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/render.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/storyboard.jpg",
+    "bytes": 173987,
+    "sha256": "b725a691bd3b39a0206f1102a8015d5febd232b12ae4887bc7104173b19fdbe3"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/validation.json",
+    "bytes": 537,
+    "sha256": "0a4d9b40ef678dc594ae676dc9579ecea00461fbdcdd0e67140b1b75756c5d03"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1-raw.wav",
+    "bytes": 176984,
+    "sha256": "18d2b3b88323ac655dacfe3bbe2fee53cde80c73e57a30daac1b9cc009531be4"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1.aiff",
+    "bytes": 85362,
+    "sha256": "6ff73c487eb78d3448f6dd183aeef1b838d8538b25f3704af7710c007281009c"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1.wav",
+    "bytes": 288078,
+    "sha256": "1c610bb7d42c4f26e5af1f2c70d5729b503b84aa5cb5361696133dd6868ea6b4"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2-raw.wav",
+    "bytes": 167254,
+    "sha256": "55a47a37ee4ded8e76e6700d2550540ef8e4286fbda006550244e8a2f1ed3eca"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2.aiff",
+    "bytes": 80892,
+    "sha256": "4c98712b8afad84640f85bce2826ebd19474b828c8b69c35c17d0dbeb9e58e7c"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2.wav",
+    "bytes": 288078,
+    "sha256": "122208061683e1c1217c8ca9c3182d0c1d1f80e8e3187f511a305e7a377df75f"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3-raw.wav",
+    "bytes": 174398,
+    "sha256": "e207638858db6a67698398c177ff248283769f61e84dfa1fa221aa787d0003b9"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3.aiff",
+    "bytes": 84174,
+    "sha256": "d0a84e76d75c829b4185a02a09636dabfbf4bb579b7d16c8c0654e38a9a21a3c"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3.wav",
+    "bytes": 288078,
+    "sha256": "9e3fc08d82af7536e8c60455cfa49a2b44fbf7a98ea7aec07b352e20c0c86e28"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4-raw.wav",
+    "bytes": 150588,
+    "sha256": "3a1867ebe3a2fcbf096757c95745b902ae921777e917e6a28bdfad1aee04cf52"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4.aiff",
+    "bytes": 73236,
+    "sha256": "b17041a0ecfddbd974796ade56b134b72f3cbe0f9f13e1ca9ead6f2eb5affb12"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4.wav",
+    "bytes": 288078,
+    "sha256": "6a61ee4d77c9a5be636bab420a1590dfe7f7266260c7a44e8ee7efe8c9cc49b0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5-raw.wav",
+    "bytes": 240528,
+    "sha256": "ca5188507ea12ed0ab75850a42a2c55c59d39f8983258c7636b86ebe0b008add"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5.aiff",
+    "bytes": 114552,
+    "sha256": "80e8e75e3ce11b5261eb2e50a1eab36347f617a27d53398fb7bab81617612a60"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5.wav",
+    "bytes": 288078,
+    "sha256": "a1e3d5908466623b30cf7589a1e2d3a6a1890c418329b044e89df320583666f6"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/narration.wav",
+    "bytes": 1440044,
+    "sha256": "b01a9434acffc846abfbb615e0ffc8f1758500ddb55df5ca05c9cdf7dfdc08c6"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/timing.json",
+    "bytes": 510,
+    "sha256": "ba92b2e1004a1b4a0bc79e69607ba3e2aa35e93d50f5d755a22dfb05c2414efe"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_1.png",
+    "bytes": 245944,
+    "sha256": "52b9b5366069a6e5ee2199f64f7e069f2592ade6d9a0b871adb429782276b132"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_2.png",
+    "bytes": 73106,
+    "sha256": "e7e33b36d5651ab88c9c2b2eed744ed8f3dd43c7e2d86850029d503a05127202"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_3.png",
+    "bytes": 70622,
+    "sha256": "3728d9d4207332be7018de69bc35ec9daf3c8f1cc2a0911976272edc746cf0ef"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_4.png",
+    "bytes": 67740,
+    "sha256": "f687cf5104656570f596be3323a434b6f73c873dc62e7b97ab35849668859483"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_5.png",
+    "bytes": 278474,
+    "sha256": "5b23c59fbffda48b8cd28ec8f6f3551f8fae4009741b9be7f8476dc96d698143"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/previews/beat_1.png",
+    "bytes": 680853,
+    "sha256": "129f88b62a2828659661c15cdfa5c043c1d5e8d611229dbd958a701e0ca80605"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/previews/beat_2.png",
+    "bytes": 692205,
+    "sha256": "ea88c3e35ac0d745c1a553f0519793dbe3a6e6d17c79518cded1dd7402a7d5f0"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/previews/beat_3.png",
+    "bytes": 675122,
+    "sha256": "b8c5ce72491d52bfcca3bdb5718f69b298a480e43dc98773426b1f413d4356ad"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/previews/beat_4.png",
+    "bytes": 39675,
+    "sha256": "fb2a368cb53f1ae6e48ab30723611f49f6f41b26f19c2e1f8e167d022630d7b5"
+  },
+  {
+    "path": "workflow/episodes/calculus_pilot/renders/previews/beat_5.png",
+    "bytes": 721298,
+    "sha256": "3ccc2c02fece11a3a3fa6efa497e54179549a840aa978c9dfbc1342232302c14"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/.gitignore",
+    "bytes": 48,
+    "sha256": "50cfeaf555814dc27530f72ac3a5b8a1c9cc96a09ac0bed97ba29e969291bcf8"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/README.md",
+    "bytes": 1552,
+    "sha256": "d2fd733627b56701d3cd020a833349ffa6e89d1ab1be7b11dbf55bd8cb967332"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio-test.json",
+    "bytes": 1393,
+    "sha256": "f5df8f3e4aeca58e2c427949a1b3e2b3cfca0eb4d0ef887a92f27cecb0186b8b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/generation-request.json",
+    "bytes": 2153,
+    "sha256": "53f96c527c012266aa0535e9b18765f9d9bee8feb9947513602904301da57532"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/prepare-audio.py",
+    "bytes": 8162,
+    "sha256": "21aef9c0f549d7ad93aba4a55438f22b7e4cf27d74e85101c2e16abcf935b0cc"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/sol-narration-1x.wav",
+    "bytes": 592708,
+    "sha256": "94acf382774822c01242715222515d9e2aea812fa40e3da335502f8682d0740b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/sol-narration.wav",
+    "bytes": 389652,
+    "sha256": "2414d7502a1f0379253afb04083cecfe78824a3e5e942e4414cd11c764b1db6b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/lantern-rustle.wav",
+    "bytes": 384044,
+    "sha256": "19588e55d09752a84703d96458175b7db5cb72c27942e298f1b8680d864b7463"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/mix-verification.json",
+    "bytes": 808,
+    "sha256": "8f98b8363365afc48f87c73523df64f5830316cd1ca7832f5d7ee4ad5a70eb7b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/music.wav",
+    "bytes": 768218,
+    "sha256": "3fd9579676442a7eb36b5c36198ce496bde8b43d77c9c213e99e8e228ffd856f"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/narration.wav",
+    "bytes": 760526,
+    "sha256": "752bc15e3ef3d0b440e725be5e31f35f41a8d10d63c978c3d5402125111b7052"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/night-ambience.wav",
+    "bytes": 384044,
+    "sha256": "48da87727605a99ba44f61fa587b1cb8dd446f16ef510bfe170fa24b5e45653d"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/sol-lantern-mix.wav",
+    "bytes": 768078,
+    "sha256": "41c448566bac6540445b454aa9015cd03ca3da54106ede9908817d46d07ef676"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/lantern-rustle.wav",
+    "bytes": 384044,
+    "sha256": "19588e55d09752a84703d96458175b7db5cb72c27942e298f1b8680d864b7463"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/mix-verification.json",
+    "bytes": 834,
+    "sha256": "a63f5b321568b87074ca9c60d278024d68620ce7570f7dbe19d32186fc9e1425"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/music.wav",
+    "bytes": 768218,
+    "sha256": "3fd9579676442a7eb36b5c36198ce496bde8b43d77c9c213e99e8e228ffd856f"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/narration.wav",
+    "bytes": 757990,
+    "sha256": "cb2243c6885505e58407ce1fdad950aa8c0be7eccef574bda746c466955a955b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/night-ambience.wav",
+    "bytes": 384044,
+    "sha256": "48da87727605a99ba44f61fa587b1cb8dd446f16ef510bfe170fa24b5e45653d"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/sol-lantern-mix.wav",
+    "bytes": 768078,
+    "sha256": "b581d2e0b2028f7b00c021be41ad48dca01ad9e830e37e11ea54a7d6c958c04c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+    "bytes": 1769795,
+    "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-completed.json",
+    "bytes": 287,
+    "sha256": "403e11162c133b474abe066af5bdb0d16f3e54f690fd9135acc446b834af4ead"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-submission.json",
+    "bytes": 410,
+    "sha256": "b2ee8bbbe6696a56d9856d79f0a82e06a94c04d4fab0b5ff3307597d76e95703"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-transcript.json",
+    "bytes": 109,
+    "sha256": "8001f33a2f5f0a21a3d2dbcbb3fdd041ccf5e0ef8a0a17efd650fd05408c08c8"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-completed.json",
+    "bytes": 287,
+    "sha256": "eec836758da3797a4e94360e1331ddd46da1746a6300db72adf25572489fa567"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-submission.json",
+    "bytes": 411,
+    "sha256": "f7e9ea257361ce6c36592ebfb57144b982cd872df6d8a7a27e4b3b16ad844e83"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-test-fast.json",
+    "bytes": 1359,
+    "sha256": "4d2a87fe7b5436fcf343dfac75a7bbf2762d14b71c272f1fc88f32b6b3597596"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-transcript.json",
+    "bytes": 1054,
+    "sha256": "1183b329048bcb46a0f250ec1c178c89c4cb342a992baeb070b2fa79dccc2f2b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/combined-preview-delivery.json",
+    "bytes": 502,
+    "sha256": "350893cccbdc0d67869f9af0c615700f3d3df8e54ad659b49042b316c868a22b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/completed.json",
+    "bytes": 292,
+    "sha256": "6e67690cc5464c949139dcd825a9fc4b54340884b9bae1e8622aec6ca0c6a530"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/download-verification.json",
+    "bytes": 4358,
+    "sha256": "855d692fea0fa4fdba7f652844d393f07e97f0d20155bc42d6a3965d2ae166e6"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/normal-speed-preview-delivery.json",
+    "bytes": 464,
+    "sha256": "284ea15d68fa68f711f1c27f15060054ac201a72814ea7b3a7bc6f0e9afa05f1"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/jobs/higgsfield/submission.json",
+    "bytes": 1591,
+    "sha256": "400287dee2d1f5c9cb9d2f3fd521ab398e6da3f8ba63b6e4bad1b9f78fcfd2d1"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+    "bytes": 206108,
+    "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/remotion/index.tsx",
+    "bytes": 1257,
+    "sha256": "dc90f0812699a36ced504827cf21726b043e721a8b5fdad76bcefee137880a1d"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/remotion/package.json",
+    "bytes": 308,
+    "sha256": "998b8324f4418e583ecd5360568406c91e43bdb5db0235f0571d5d1a56f214e4"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/remotion/render.mjs",
+    "bytes": 9055,
+    "sha256": "230c5ea1b3c0f2234ec432065a24e451c06eeb1ad820039f33fa7cfe3f9db69b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+    "bytes": 386,
+    "sha256": "1430ce4e8e65413ec1aa059072be5bc4c6af2d9ae5b8e3cc63462f0297ca9f2a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-1x.mp4",
+    "bytes": 2138016,
+    "sha256": "e859619ebe3869888f56c0814ca2b0e475ec32ad29eb61d7b5c6bbdac8137e0a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-1x.verification.json",
+    "bytes": 667,
+    "sha256": "278ef56ee08ea159c57f6807ba7108f52c9540ae91da7c626391f66ec7404b7b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-preview.mp4",
+    "bytes": 2138122,
+    "sha256": "d6ce8ad064c1d8ede0c42f9bc79dc8cfc692ffc0da40a8125d9e301a55c7abaf"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-preview.verification.json",
+    "bytes": 811,
+    "sha256": "bdc1db13c0ddfb2d50a9b912119f07288ed6fc3b7e525af81288adf5deec9edb"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-preview.mp4",
+    "bytes": 2037774,
+    "sha256": "4676db9065e66bdc8f907383b8faaecdae14f83f74ecbb737eeb92d8509f4ab5"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/sol-lantern-preview.verification.json",
+    "bytes": 419,
+    "sha256": "fd5a44a7bffc52b79760dba90a41f9037c394253952d19eb4ce32a649add9f58"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/artwork-contact-sheet.jpg",
+    "bytes": 496081,
+    "sha256": "afd416f46ffea90328a07ad10189a05d8b594e324e7e66849e26bd6c78177512"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/character-contact-sheet.jpg",
+    "bytes": 690296,
+    "sha256": "0b4e6da7aa52298a7bb5249b771eaa341da4c2537525bbb4fe264ce365d1c027"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/preview-01.jpg",
+    "bytes": 55967,
+    "sha256": "50b287eb2b21cb51ed2023c124016579a8886cf520a94205e443c7a78b7d6afc"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/preview-02.jpg",
+    "bytes": 62719,
+    "sha256": "cd74b868290cb6c32ff82814cac3c6131017931634f98a14f7f1cd97fe8e2e29"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/preview-first-last.jpg",
+    "bytes": 95938,
+    "sha256": "55e0734e73840a6d78f17a5a2260f47a0b9214ecbbd75a9afadc223192264e19"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/reference-comparison.jpg",
+    "bytes": 413614,
+    "sha256": "d57173b21014c8aa254a2a0fd8bf6c0a17c26a03f92270eda80ab89ccc6b0a0c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/shot-contact-sheet.jpg",
+    "bytes": 336284,
+    "sha256": "90bdb66a90358a644209376b618f410a1c309158ab9677663ff83c852f36416b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/visual-review.json",
+    "bytes": 2405,
+    "sha256": "e7d196a5223bb6205904e0da63e0f98023ee6d731b8df058547949a31712f42c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/001.png",
+    "bytes": 676858,
+    "sha256": "4a49db76164e221814a3006ec25ee015cac836291025dc9f230ed07a083828d7"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/002.png",
+    "bytes": 644562,
+    "sha256": "140b1793af7c5d4c8cf3ef4ef69624b30c6627ccd52c64f39a3f6ee242af69de"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/003.png",
+    "bytes": 654300,
+    "sha256": "341912d516476d5a01a2be025d8aab73eb7c67f44ee657a6e540196b697b81b0"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/004.png",
+    "bytes": 658121,
+    "sha256": "fbcac58bfa38413ebb7ebfc08ca43152c029c068e53d038a950723cb4f2602f0"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/005.png",
+    "bytes": 659101,
+    "sha256": "77793f3cc757af10f7dafa763b46653b24900de428f4d4a5368c313efd50e1e9"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/006.png",
+    "bytes": 661430,
+    "sha256": "c6fd2ea03f3eafbfe8e89c548a8625e163c113d70aefc415c81a5259203ab316"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/007.png",
+    "bytes": 658788,
+    "sha256": "782c371bfcbb7cf56abe5e2e576f7f46c12f14f6667d4b46f13c8891ffd11b8a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/008.png",
+    "bytes": 659764,
+    "sha256": "8dfc26a34460ea6e5160f59fd69554f464f6e23281ce944dd5c9b1af1a28170e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/009.png",
+    "bytes": 657440,
+    "sha256": "59012f89853a9ca6025219c1f414df0604122ccb961a9b6bacdbd5dcba880268"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/010.png",
+    "bytes": 656638,
+    "sha256": "89210304a124f638f59c46613907d0b1986dde9ea6f0ba7c56d1832ef01f31f5"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/011.png",
+    "bytes": 654215,
+    "sha256": "5868e29c6b9ede5c7c9800a51a228a873a7d0ae2457003bd51cb7b624f4cca20"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/012.png",
+    "bytes": 656057,
+    "sha256": "38a41c324ae3f1cdbebe0c14cdeca5c4214c8f197a948815e5f05153a3c3b8cd"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/013.png",
+    "bytes": 655078,
+    "sha256": "0368218c2167235c516916b2f2f121627ebe4bebb7a6746b9887df56ec51a4c7"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/014.png",
+    "bytes": 653499,
+    "sha256": "59d1a83deb1185cc2efe6fb035ed2bdd22471f6fe8085a4c48769dab98dd9c6f"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/015.png",
+    "bytes": 653867,
+    "sha256": "46a515567154f32e842b0cc5e60b58ee9efa94bf84bff3326fe0699b216c955b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/016.png",
+    "bytes": 654975,
+    "sha256": "e054a1b04d7fd87d981658dc797ac8e1561f74a60beef103b60cd4e768f54516"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/017.png",
+    "bytes": 654781,
+    "sha256": "2d33659e2706f682eba96c9cf11a76d5dd96cd51a73f3171533ac4422f110c04"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/018.png",
+    "bytes": 654740,
+    "sha256": "5c1fa344e9cad189af69fb63f8eebe8d2d5d76f158291b145a939744115ca480"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/019.png",
+    "bytes": 656226,
+    "sha256": "852e2505f386f7389d7ea478b5d1f4a3ac90c3f13a965d8506c5f773f5512356"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/020.png",
+    "bytes": 656826,
+    "sha256": "a73199a08c476d40e63292eebdebf535bb0319c7c798cee812f7cffdc51ce74c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/021.png",
+    "bytes": 655656,
+    "sha256": "a64c323bba299ae5e6f4f063ce5159e677cddcc4f445eacd4d73461e565f9426"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/022.png",
+    "bytes": 654934,
+    "sha256": "099b7ca991d7caec48a14a8cce82457212d501268e219231ae84efa4468ebe2b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/023.png",
+    "bytes": 655388,
+    "sha256": "69cf9eab7f5f7ad2a26f51f671c28b72129447fd7f3c742a8b563f532cfd63b4"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/024.png",
+    "bytes": 654984,
+    "sha256": "2b647f093e11c53316e15937d81fb3f13159d14e6acebea7a381be8cbe044b6c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/025.png",
+    "bytes": 654470,
+    "sha256": "2bd6ce06f9e41f2214ee8ba4d2d9a584448d27ae2a7c099a5a6e795143508060"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/026.png",
+    "bytes": 656047,
+    "sha256": "702c59b71c373a62cd89f5dbe9623f2de2f164a2b984f4da39df780c582f1587"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/027.png",
+    "bytes": 655073,
+    "sha256": "4d80b7f45828dac131ee9d55f3ee4b18fe3556f57a94bbd253004c4dcdb75e24"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/028.png",
+    "bytes": 654795,
+    "sha256": "aa40af0b7c71c960fdf81b7c168f19fc61716134ede753356e0ae9616cdc74bb"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/029.png",
+    "bytes": 653889,
+    "sha256": "027cc8dff7d6aa3fe2a87109632fe46327283c4042e788eef5460be2fec99256"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/030.png",
+    "bytes": 652300,
+    "sha256": "5571268bf9344dce7a946c8a8f6872780c2476df37bf6860feae9672db18c2f9"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/031.png",
+    "bytes": 650216,
+    "sha256": "03060b5d36a836b746af7b6f3a68e6515b70e4fa2c4a648217f5d40c5a21573c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/032.png",
+    "bytes": 650879,
+    "sha256": "8b4934ac4bd34cafe7aa602869975f17ffc8845c4912aaad96e04aa7bcb5e394"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/033.png",
+    "bytes": 648684,
+    "sha256": "8c1398da31da9d753c0b151fca15472ea6e83b20aee1e613ff338b67e149075e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/034.png",
+    "bytes": 648716,
+    "sha256": "589524539ecbab6c984eb38fd4e83b318c51d0e391467ebbad2c069aadb86214"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/035.png",
+    "bytes": 644894,
+    "sha256": "40d3e23273d14e3225336b614d7375d381b1d12cdb8a8206fa3c21f578350c2a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/036.png",
+    "bytes": 646192,
+    "sha256": "1897c1974af9f419ed3ebfd5f98c8a218c4a76f7cfd9e0f49bb60bd3ae0c6ebf"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/037.png",
+    "bytes": 646105,
+    "sha256": "f45d2d693fd7e4289327fbc40528287d2830da0db7bd75cd43b4d2035c7945ef"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/038.png",
+    "bytes": 644734,
+    "sha256": "54005aa1b63fefff48c2bca54644ac10896a497c6d263d787747f68df5e5042c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/039.png",
+    "bytes": 643483,
+    "sha256": "e8cae3627415c91732c85e116cc53421fc3dad44f449efdfc3d5ae787b841c63"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/040.png",
+    "bytes": 642992,
+    "sha256": "59c57a7cf305c3058b6bfab50f075499e62e0c21c9deae1ae18b21d0f40996e1"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/041.png",
+    "bytes": 643616,
+    "sha256": "9e465ede79b93339258f5234e70d7a8d1f970cfad33608f20d5171ed6f0f4579"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/042.png",
+    "bytes": 642327,
+    "sha256": "5e67fb0b19c7a45929f75ef8829a15d3fcb58029cf42180bea8fa79d5b5847f0"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/043.png",
+    "bytes": 642405,
+    "sha256": "becfa2e95a935df9e171a185f1fd87ea3ba6906c82fb3b16ca511f81339ee822"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/044.png",
+    "bytes": 642798,
+    "sha256": "528696d44884923b124ea155655168138cdec18c9f0b4df32574edff3f8998b7"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/045.png",
+    "bytes": 641857,
+    "sha256": "6e6e72552a11cf46dc2fcb1568ba260dcfb6ef83406fe52226136ace1e008235"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/046.png",
+    "bytes": 639515,
+    "sha256": "cc174c670188e211296cfc3e2d6ebdd5d898df11bda57a074dbce1afcb1ac57c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/047.png",
+    "bytes": 638722,
+    "sha256": "cdcd7b9e6e9757b23c9d952af68bab329dfdb015f49c913ee55de92a1ab1bed9"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/048.png",
+    "bytes": 639721,
+    "sha256": "b2b174f16e326739040371e636866b7d48464ce6ec831b3780aa44125804a5f0"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/049.png",
+    "bytes": 638519,
+    "sha256": "2fb8e2034311eceee1006ae421cc471a158b0bddec10895be8fc3ebc5eeb39b5"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/050.png",
+    "bytes": 637323,
+    "sha256": "dd4519880b3beb440ae2743050ce39531526dd4413fda10c1cb7e639b7f3bc35"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/051.png",
+    "bytes": 636924,
+    "sha256": "f95baa9c5b73ad517d2e90b0f1669057da53899b532fa52b8dfdb2ed395e6d78"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/052.png",
+    "bytes": 636292,
+    "sha256": "5260fa54933c2cafc8d5a904e1247831f9b888e6bb492aa271a153d7afb1421a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/053.png",
+    "bytes": 636254,
+    "sha256": "686c8b030052e395d4b78a07ffa0f47244ae631174eadc997f4b0f3f822c2342"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/054.png",
+    "bytes": 635136,
+    "sha256": "d4e737c11d816bcf6f2355a37f72c6d18ed0b5fc02eb3b99c1384b096290fc9e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/055.png",
+    "bytes": 632575,
+    "sha256": "518124489997b6e7140917789d35a53ade27f9a739b16753447127e385403fe9"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/056.png",
+    "bytes": 633615,
+    "sha256": "13c6a90eccee7c1477f19c5abe7bd2160754cea8a2c15d4f0b61e9159e9d34f3"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/057.png",
+    "bytes": 627530,
+    "sha256": "8601bfd9dd0fc01732b2e1b00cc0f69d4e145ba1145f5e109df6f2845052e167"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/058.png",
+    "bytes": 627379,
+    "sha256": "5631b448d48b4a123f33c16d957e58276bc6cdce803244d62e63200f58ad903d"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/059.png",
+    "bytes": 610066,
+    "sha256": "ef00bbb6ff4392df6cc51c9f02b3f34970a70dde4f58865ca6a1d63d168b672e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/060.png",
+    "bytes": 610941,
+    "sha256": "1a45c5b9a9045b424bc74dea4139f30fef139ff70c170327b85cc8d9dac00c5c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/061.png",
+    "bytes": 604609,
+    "sha256": "77e8bb802f2a94edb08f6045bc2a2694b272629e3949f0e2ef90a0d0325eedd8"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/062.png",
+    "bytes": 605266,
+    "sha256": "d5c7e1bb171de216f679c6d57e83568d2271d51ff188f8626b9589cc2e06df8e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/063.png",
+    "bytes": 599458,
+    "sha256": "fc652d82749e6bce5b1f4ed15ac0e9c7a556f32c2342f438d6aa2492cedb855c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/064.png",
+    "bytes": 602654,
+    "sha256": "610663e38085f3a7efdd1973f80dd764edbe19f59cff13b8ac2964c7fc3dfbcd"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/065.png",
+    "bytes": 596702,
+    "sha256": "a3dc3b0ced24c7e815664ea0d9e88296804eceb0d97f63a35646b8bcdd7967d9"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/066.png",
+    "bytes": 598696,
+    "sha256": "68fdb86e1bfdeb4b40c06567b025c0981464d1625147d7f95790424a95256775"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/067.png",
+    "bytes": 598097,
+    "sha256": "f1826b14566537898981fe0d718f1e467e7e84e0f90f74d9ee300fdacb7600fb"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/068.png",
+    "bytes": 599537,
+    "sha256": "9e74ca2c82cc01ceb8589c57093ee24a6a512f7b84f071d23ce0b251485e99a7"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/069.png",
+    "bytes": 601115,
+    "sha256": "28450ab9f78e472dafdc8b774a06b1ec2f3e6166382da1766563076c813e1867"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/070.png",
+    "bytes": 601335,
+    "sha256": "3da4ea54acd17f5958a3b51edc471ac69c065579dd241cfb72c31799e300b94e"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/071.png",
+    "bytes": 603271,
+    "sha256": "658313d5c374b2a37e897bc6fffabcc806d2148e0d12c7757a69f78a0bd2b2c1"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/072.png",
+    "bytes": 604114,
+    "sha256": "335b58fb1232be4906df52511c8cb96c7ba4231132c0e8a7d49b6726e3ba6692"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/073.png",
+    "bytes": 603879,
+    "sha256": "aee71ebc284d792aad8973982eeaf785aa2f8a275337e30aac2ca3a9ba0b819a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/074.png",
+    "bytes": 605496,
+    "sha256": "643796945bf924db6de6bf69d4acfeec36ae094bb1a88dae519fcff8727bf01f"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/075.png",
+    "bytes": 607121,
+    "sha256": "417a09547fa89355815646e09db454ae1f51c0f52b77408741d1d9370b463925"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/076.png",
+    "bytes": 607279,
+    "sha256": "c9b834ba339a8f6f2730af1ad24c4898e35f74e5c76de65eadb4b87ca126c9d8"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/077.png",
+    "bytes": 607242,
+    "sha256": "1c136eb2d7ab0dedd6e6fe76145c4f03fe3b90e76362506ac4e0c66fab42c64f"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/078.png",
+    "bytes": 607968,
+    "sha256": "b0165818275a9fa7afcd92e7119c37151f58cdb4bb9a43b41b39e1aadc7a52f6"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/079.png",
+    "bytes": 606878,
+    "sha256": "f23ca4281af524a99efa759810518f6a519a5124eefa8a13c883a0c8d1dd1f76"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/080.png",
+    "bytes": 606740,
+    "sha256": "f16c8764d309f3dec3e919148b4717a08752b3b6e128cb06d3f2546d90f21d8a"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/081.png",
+    "bytes": 606792,
+    "sha256": "94d9a8cec8cc075f291d7e872435ad2ceb23fbe439acf0fd3155e72d90930f35"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/082.png",
+    "bytes": 605476,
+    "sha256": "aa3fe5d6b25faae202901fc076df2f1b9c497314bef13be2ebe37ee128dbf73b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/083.png",
+    "bytes": 604185,
+    "sha256": "9af360ba6241ad4e07b3ab45c1353946c1f4da0cee26c33bcb5ed9ac7320fe78"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/084.png",
+    "bytes": 603469,
+    "sha256": "eed542ea16a433eaf3021e838c0f00c5e9866b6ba845f1f8a60f014fd40e444b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/085.png",
+    "bytes": 602723,
+    "sha256": "29e6ea0f9dfc6acf002b6338476d1632ef333a4dfde4685ba3f48604bf71cd56"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/086.png",
+    "bytes": 602205,
+    "sha256": "cb3911b81a14dd42320a53765265cc05d6693a13b6fd33ba2a127897b2d4239c"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/087.png",
+    "bytes": 601467,
+    "sha256": "7714b6e366f9de345e9204d8746f15c4b452d59276da832c8fa78cf4642fda75"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/088.png",
+    "bytes": 601745,
+    "sha256": "53880746515a236ff2532df96c02b0a718de738cffc7696ab98401ddbdbc1385"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/089.png",
+    "bytes": 600420,
+    "sha256": "691e0ffe53137119539458d5dfff0cbdc5bf57f0dd5221bb3ce431a3c7d237e8"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/090.png",
+    "bytes": 598663,
+    "sha256": "79459b710e0e515862bb6b601ee460a85080cbc1220db69b5f0a0b781e44d92d"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/091.png",
+    "bytes": 599092,
+    "sha256": "153a8afd276dc3ddb40297ec57db8f6c2e66a6c6af81edc4a9ef3ddff40504d4"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/092.png",
+    "bytes": 599162,
+    "sha256": "8f504cb4a7382dce5afd4878e20a269acff65f1879dc2cfca86641c02a2888e3"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/093.png",
+    "bytes": 597905,
+    "sha256": "33b750d7fa8bc2af48d956644fe413ffa79f566c8de7ba1a3bdae8084d0107c1"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/094.png",
+    "bytes": 596168,
+    "sha256": "225e7699029e69a5fa585681838022f589e2d20bf70f83a613563115d0f0317b"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/095.png",
+    "bytes": 594985,
+    "sha256": "fd698ec7812a2a6e2c8f71a2f1e1e010044227942af2c162211bfe4fab5e67ba"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/096.png",
+    "bytes": 593286,
+    "sha256": "311a32302cca3833cd37ca2a24958776dfbd502f4a9e114145f931577fc583ca"
+  },
+  {
+    "path": "workflow/episodes/sol_kling_test/renders/review/frames/097.png",
+    "bytes": 591973,
+    "sha256": "873ae2b77d5b901b0d0506731049e8a5b9b5cf917ebbe1f0d2759c9e525e7979"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/README.md",
+    "bytes": 1069,
+    "sha256": "08c08c9365cf2e98e2b6d14c0bf94f475f6a2b5ad95bb8cd61102f3b0cde3552"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/.gitignore",
+    "bytes": 213,
+    "sha256": "193b68bcedb9e402bee0d9d4dc76585ce5a578004877dfc26e2c02cb46bbf4b8"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/.prettierrc",
+    "bytes": 66,
+    "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/README.md",
+    "bytes": 8905,
+    "sha256": "577c4efb0144bfde02242af9463e970a064b5d3a1ba4b33bad4ab518f86da62c"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/eslint.config.mjs",
+    "bytes": 79,
+    "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/package.json",
+    "bytes": 510,
+    "sha256": "35e118f6464ea98437810db88dbe5b30ce1c72cd06c3c804ec4db84997976c69"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/remotion.config.ts",
+    "bytes": 372,
+    "sha256": "045d5032ae727b8425447022cb4e7602214b7d6ac41ab7761034c922c5768af9"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/tsconfig.json",
+    "bytes": 93,
+    "sha256": "64ec5342c507d75b2b0b580339fd2f573fb6290dfbf56d33fff7724361a42bd0"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/episodes/zipper.json",
+    "bytes": 12109,
+    "sha256": "73536b052fae9211568168730d0e3997c37176227ef199dc0354b540470c3f8c"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/out/reveal.png",
+    "bytes": 381148,
+    "sha256": "16e2f549630ee1855b6bbf346420ed1261852f5df3da511bf19a5e44eeada8af"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/out/sol.png",
+    "bytes": 372738,
+    "sha256": "b4ca6b55ec71c92e0d2e8405c51ae70f88573b30814ef92cb0c7b6d4f65041dc"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/out/storyboard.jpg",
+    "bytes": 63638,
+    "sha256": "051b44d2d7304b3fbcc81f204afc48bc882d709efab60949e65aaf9772002b2d"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/out/zipper.mp4",
+    "bytes": 3389236,
+    "sha256": "70c3527c4a5b667d9dc7d14db6e41c2e287021b4ca3571668489181b0170b143"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/out/zipper.verification.json",
+    "bytes": 142,
+    "sha256": "2581f004eddb7cefec8af5a1289649cdce433f58d67d42be9e8c70a097aca597"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/ignite/painted-style-reference.jpg",
+    "bytes": 1621297,
+    "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/ignite/sol-full-body.png",
+    "bytes": 540293,
+    "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/catch-ring.svg",
+    "bytes": 488,
+    "sha256": "d0baedc4d4fefe15873c9d68fe126587aa4e7d72fa34dae988062b2e434538be"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/fabric-fold.svg",
+    "bytes": 736,
+    "sha256": "f7a79d1102d7e370ca8300cc8642e06a04f7fb0abde065c641aaa82042315bed"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/inner-channel.svg",
+    "bytes": 542,
+    "sha256": "327f621d023bc05c7982f64d006d82d822c8ae5b43d566c666fd2f40f64ef36c"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/paper.svg",
+    "bytes": 106441,
+    "sha256": "657424f91b8c48d96f661847ee685e02e20d5496f213aa0bfbf128ff0e9c97dc"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/pull-tab.svg",
+    "bytes": 477,
+    "sha256": "a7e8adca6dcc3bb1c655328cd7c603cbac9bc7331a57aa2a211a8d02dda845a1"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/slider-shell.svg",
+    "bytes": 862,
+    "sha256": "b06e96d6fd0fdeca5ab9f3abe6b862682173f2f6e641ddefcffed592cb68e6a9"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/art/zipper/zipper-track.svg",
+    "bytes": 5269,
+    "sha256": "c8382e21643448be5dcf8767f15f25ff6c0efd5123be41cc8fed71e32dea5962"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/fonts/Nunito-OFL.txt",
+    "bytes": 4385,
+    "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/public/fonts/Nunito.ttf",
+    "bytes": 276932,
+    "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/scripts/copy-assets.ts",
+    "bytes": 1206,
+    "sha256": "4d115e44ecfa4da2ded4b635f378cd90e6006db94044b5e9eea909bb556e1dfe"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/scripts/video.ts",
+    "bytes": 10065,
+    "sha256": "80245b69ef12e7c8ef5f2e43320b7eca95ed8c3b0964d8d61587d5d29d2403f2"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/src/Composition.tsx",
+    "bytes": 6416,
+    "sha256": "f4bc96af094a4a5836fdedc286a69c008f54e78e8e0e6e9e82b367253648a526"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/src/Root.tsx",
+    "bytes": 752,
+    "sha256": "c282a3609c81c12067a3e2c9887d3bf6005a79dd7c2eb08602a69ac3a54f5a14"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/src/episode.ts",
+    "bytes": 6460,
+    "sha256": "1e63e35fcbd426d1449c705cca2b3b8068807a680b2c25bf56d02946bc791313"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/src/index.ts",
+    "bytes": 109,
+    "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/src/style.css",
+    "bytes": 2343,
+    "sha256": "6c74df52a8adad706dd3fa906a9b86558ff1a5a1d9d1cd11be8159933aff6107"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/remotion/tests/episode.test.ts",
+    "bytes": 2495,
+    "sha256": "b8c9e1b6f844ce9fc2f08859838fcecd5e1d0b42b0464edd227a558937162192"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/renders/zipper-verified.mp4",
+    "bytes": 4816082,
+    "sha256": "a686a93a84b4c5c44e05be52e1b2d13c32343eff454c11cae82a5a7804ddcf7d"
+  },
+  {
+    "path": "workflow/episodes/zipper_demo/renders/zipper-verified.verification.json",
+    "bytes": 142,
+    "sha256": "2581f004eddb7cefec8af5a1289649cdce433f58d67d42be9e8c70a097aca597"
+  },
+  {
+    "path": "workflow/guidelines/README.md",
+    "bytes": 1717,
+    "sha256": "3acc751ec324e8c6c2cd50369638cbad94492e14439cf4ed39a8d93b47bd92cb"
+  },
+  {
+    "path": "workflow/guidelines/shot-integration-and-sol.md",
+    "bytes": 5151,
+    "sha256": "c9e3535cc957e7ea785315886a18ac28cbe1d3d4d74f5e78d46f4db28a07950e"
+  },
+  {
+    "path": "workflow/guidelines/video-script-guide.md",
+    "bytes": 3370,
+    "sha256": "49fbe38b88e0bd613788de81cadd9d35e819f404a393fd4ab49eb9b8de4755ff"
+  },
+  {
+    "path": "workflow/guidelines/video-style-guide.md",
+    "bytes": 3184,
+    "sha256": "8dbaeacd561488407e011c4a61896c766623fe4bc3dc71c4c083582d83f5b3c4"
+  },
+  {
+    "path": "workflow/scripts/calculus_edit.py",
+    "bytes": 24588,
+    "sha256": "3371855757a7b4d5c840fd019ad1bdb632a514578f225a4152d3cac7d58da990"
+  },
+  {
+    "path": "workflow/scripts/calculus_pilot.py",
+    "bytes": 14969,
+    "sha256": "27c339385d8d0822b9ef0378c0b1c54d82a095497671d659bdd553643a101ae0"
+  },
+  {
+    "path": "workflow/scripts/google_flow.py",
+    "bytes": 23486,
+    "sha256": "f1716bb9ab3879c7bf6815148561cc697a3eebc3f84091fdb81fffc96f077b58"
+  },
+  {
+    "path": "workflow/scripts/paths.py",
+    "bytes": 2141,
+    "sha256": "b9c011a37650d43674a2cb93fc12efc3dd207bad6c50a370c2489ef4e0634202"
+  },
+  {
+    "path": "workflow/scripts/shorts.py",
+    "bytes": 13743,
+    "sha256": "99cd605d907757bc82eaecee7d4b2759246816f2a94e136df6a881c7983c6455"
+  },
+  {
+    "path": "workflow/templates/episode.json",
+    "bytes": 1255,
+    "sha256": "76fd7233ca63a1298558016fc041e936081a4f00e704bfaddfd66b5f2f7a3b55"
+  },
+  {
+    "path": "workflow/templates/flow-image.md",
+    "bytes": 2042,
+    "sha256": "c6e80b9fa59cc3c52f63c995bc6fe1129eae7cd351ebd8e9a84a7086d125c2c9"
+  },
+  {
+    "path": "workflow/templates/flow-video.md",
+    "bytes": 2092,
+    "sha256": "f2585d843d19103c0c634eb6ba00d5c07ae4f600107a0df5ec90b92629fac418"
+  },
+  {
+    "path": "workflow/tests/test_flow_account_backend.py",
+    "bytes": 1209,
+    "sha256": "b221e35548eb33712537259a0169608c0b418c98ba56019fc94dcd49a1fe6d6d"
+  },
+  {
+    "path": "workflow/tests/test_google_flow.py",
+    "bytes": 24486,
+    "sha256": "37f26b4b47920a8d239348a0a98bd26b9e16ca86e80c5fe27bb378d9e3a1e4b8"
+  },
+  {
+    "path": "workflow/tests/test_workflow.py",
+    "bytes": 4442,
+    "sha256": "03012e21988c3f5f4852e23ea4f4fa380eff06ef6c14adfebd747e54cce5058e"
+  }
+]
