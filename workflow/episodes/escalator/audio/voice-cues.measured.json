@@ -20,7 +20,7 @@
       "measured_end_sec": 10.826792000000001
     },
     {
-      "scene": "03",
+      "scene": "03a",
       "speaker": "Sol",
       "text": "So what's pulling them?",
       "source_audio": "audio/03-01-sol.wav",
@@ -29,13 +29,13 @@
       "measured_end_sec": 15.7
     },
     {
-      "scene": "03",
+      "scene": "03b",
       "speaker": "Narrator",
       "text": "An electric motor turns toothed wheels that pull a chain along each side of the steps.",
       "source_audio": "audio/03-02-narrator.wav",
       "source_sha256": "65ab188abff2277214d7c6f9f3cd4e3968956938ccdc6afa42aa484534905fa4",
-      "measured_start_sec": 15.86,
-      "measured_end_sec": 21.909188
+      "measured_start_sec": 16.12,
+      "measured_end_sec": 22.169188000000002
     },
     {
       "scene": "04",

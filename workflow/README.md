@@ -34,12 +34,31 @@ approved frames as references for the remaining scenes. Keep the mechanism
 inside the generated footage. Remotion only assembles clips, voices, captions
 and sound.
 
+The shared settings for every active workspace client are in
+`config/generation.json`. Video now uses **Gemini Omni Flash 1.2**
+(`gemini_omni_flash_1_2`), `image-to-video`, 1080p, 9:16, with BOTH approved
+frame inputs. Paired-frame clips are 3–10 whole seconds; declare continuing
+subscenes for a longer shot. Image generation remains a separate image model.
+
+**Frames first:** generate the first and last stills, show BOTH to the user,
+wait for explicit approval of that exact pair, then generate its Higgsfield
+clip. A request to fix an old take is not approval of the new stills. Run
+`review-frames`, `approve-frames` (only with the user's actual approval), and
+`video-request` through the canonical CLI. No pair is approved automatically.
+
+After generation, `review-clip` prepares every source frame, actual timestamps,
+full-resolution detail samples and the reference comparison for the dedicated
+reviewer. Failed, uncertain or stale reviews block production, including the
+direct Remotion final command. See
+[the reviewer workflow](guidelines/clip-review-guide.txt). Preparation and a
+successful decode do not themselves establish visual correctness.
+
 1. Run `python3 workflow/scripts/shorts.py prepare <episode>`. New skits use
    full-screen 1080 × 1920 footage, the shared Arthur/Sol cast and editable
    white captions with orange outlines. Existing scripts and media are preserved.
 2. Review the complete script/storyboard and the separate 2N image / N video
-   prompts. Codex uploads the shared reference art, submits the prompts to
-   Higgsfield, and saves job receipts under the episode's ignored
+   prompts. Generate and show both stills; wait for the user's explicit approval
+   before submitting the paired-frame Omni Flash 1.2 video request. Save job receipts under the episode's ignored
    `jobs/higgsfield/`. Resume saved jobs rather than submitting duplicates.
 3. Codex records each spoken turn with its exact saved voice pair at
    `speech_rate: 0`. Save each take under `audio/<scene>-<turn>-<speaker>.wav`,
@@ -49,7 +68,7 @@ and sound.
    takes at 1x and extend scenes if needed. Its caption boundaries are marked
    provisional; review actual speech, acting and captions before confirming
    timing. Generate videos long enough for those measured scene lengths.
-5. Run `python3 workflow/scripts/shorts.py check <episode> --images --probe`.
+5. Run the independent clip review, then `python3 workflow/scripts/shorts.py check <episode> --images --probe`.
    Use `npm --prefix workflow/remotion run dev -- <episode>` for review.
    Set `edit.json`'s `timing.confirmed` only after reviewing the real takes and
    caption cues. `python3 workflow/scripts/shorts.py render <episode>` checks

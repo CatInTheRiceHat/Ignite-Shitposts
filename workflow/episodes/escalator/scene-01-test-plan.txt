@@ -1,17 +1,13 @@
-SCENE 01 — FIRST CLIP TEST
+SCENE 01 — USER FRAME APPROVAL FIRST
 
-Prepared only; no generation jobs submitted.
-
-1. Generate one first-frame image and one matching last-frame image using the
-   Scene 01 prompts and the existing Sol/style artwork. Review them together.
-2. Animate that pair into one five-second silent Higgsfield clip.
-3. Check that the action starts immediately, Sol transfers his weight onto the
-   stationary landing with supported feet, and his exact orange-edged tread
-   disappears beneath the exit plate within the first second.
-4. Check the painted look, eye expression, floor contact and questioning end
-   pose at phone size. Keep the end pose for the start of Scene 02.
-5. If the clip is unclear, revise that shot's prompts and regenerate that shot.
-   Continue with the remaining generated clips after the opening works.
-
-Then join the clips and add the separate voices, captions and sound. Actual
-voice takes determine the final timing; five seconds is a provisional test.
+1. Generate the first and last stills using the ORIGINAL lantern character.
+2. Show BOTH to the user, labeled first/last and version. Include the original
+   reference for comparison. WAIT for their explicit approval of BOTH.
+3. Record their actual approval and pass the frame gate. Only then prepare
+   the Omni Flash 1.2 request (gemini_omni_flash_1_2, image-to-video, 1080p,
+   9:16, 5 seconds, approved start_image AND end_image).
+4. A dedicated reviewer inspects actual motion against those approved stills
+   and the lantern reference: face/eyes, painted flame and wispy tip, compact
+   limbs, both rails, foot contacts, direction, unique marker and ending hold.
+5. Failed or uncertain review blocks production. Preserve all takes. Do not
+   submit another video or continue the other scenes without the right approvals.

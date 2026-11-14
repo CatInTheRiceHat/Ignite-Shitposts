@@ -1,0 +1,261 @@
+{
+  "packet_id": "becb6006de306ef1775fa002b0292ce9393b58da7b68cc95126a5c5f60796937",
+  "reviewer": "/root/clip_reviewer",
+  "method": "Read the updated bound packet and contract. The actual visual inspection opened the original lantern source, frame-comparison.jpg, all seven chronological sequence pages (all 121 source frames with real frame-index timestamps), and full-resolution details at 0.000, 0.125, 0.250, 0.750, 1.000 and 5.000 seconds in predecessor packet b622e3079722d80567b1. I then verified that the updated packet becb6006de306ef1775f has identical clip, first/last and reference bindings, an identical frame index, and byte-identical evidence files for every manifest entry; all inspected visual findings therefore apply to this new packet. The only contract change is the more explicit last-still edit instruction; it does not resolve the observed old-v4 failures. The bound lantern reference video was also compared through prior 4fps frame extraction in this independent-review session. This is frame-based inspection, not video playback; no additional playback is claimed. The bound clip/reference hashes and zero audio streams were independently checked. No generation or user frame approval was performed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "Compared with the original lantern artwork, the bound first/last stills and footage use a rounder volumetric flame body, broad smooth cream mask, thick shaded orange rim and cylindrical leg-like feet. The reference uses flatter irregular painted layers and compact nub ends. The colors and mouthless face remain recognizable, but they do not establish the same character design or surface treatment. Both bound stills are appearance-rejected and have no user approval.",
+      "timestamps_sec": [
+        0.0,
+        0.75,
+        1.0,
+        5.0
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "uncertain",
+      "observed": "Both small navy oval features remain visible through the chronological sequence and no added pupils, white eyeballs, mouth or eyebrows were found. There are two brief paired contractions/blinks at 3.166667–3.291667s and 4.083333–4.125000s, followed by oval recovery. The old unilateral huge-eye/dot failure is not present. Exact original size, spacing and placement cannot be endorsed against a user-approved equivalent pose because the cream-face geometry has been redesigned and this pair was rejected; feature count alone is insufficient for a full eyes/reference pass.",
+      "timestamps_sec": [
+        0.0,
+        3.166667,
+        3.291667,
+        3.333333,
+        4.083333,
+        4.125,
+        4.208333,
+        5.0
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "The candidate has a tall substantial upper flame lobe, thick raised-looking orange rim and a rounded cream-mask treatment; the extremities read as short modeled arms/legs rather than the original painted nubs. The tip mostly follows the body as a shaped mass and does not convincingly establish the requested softly wispy reference treatment. These differences are already in the bound stills and persist during the hold. No mouth or extra limbs were observed. Pose/prop occlusion differs from the lantern source, so no exact limb-length ratio is claimed.",
+      "timestamps_sec": [
+        0.0,
+        0.75,
+        1.0,
+        5.0
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "fail",
+      "observed": "Both complete upper handrail returns and their glass balustrades remain visible and attached, Sol stays fully in frame, the foot/plate boundary is unobscured, and no obvious camera movement or detached rail support appears across the sequence. However, Sol occupies roughly 40 percent of the picture height, rather than the current contract's roughly one-third target. This is a partial framing/prop success, not a complete pass of the current crop/scale requirement.",
+      "timestamps_sec": [
+        0.0,
+        1.0,
+        2.5,
+        5.0
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "The trailing-foot transfer is substantially complete by 0.375–0.500s, after which the originally planted leading foot lifts again around 0.750–1.000s and returns by about 1.250s. This is an extra step/body bob rather than one trailing-foot transfer followed by a planted hold. A supporting foot remains visible in the inspected detail frames; a both-feet-floating failure was not established. The extra leading-foot movement itself violates the required planted-foot constraint.",
+      "timestamps_sec": [
+        0.375,
+        0.5,
+        0.75,
+        1.0,
+        1.25
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/frames/frame-000031.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "fail",
+      "observed": "In the opening consecutive frames, the exposed marked front edge moves down/left away from the stationary plate at right, rather than traveling right beneath that plate. Additional orange-edged treads then recur through the exposed run. This does not demonstrate the required ascending left-to-right route. Duplicate markings prevent reliable continuous physical-object tracking later in the shot, and the largely unmarked handrail belts do not supply independently verifiable speed/direction evidence. The supports and fixed plate look stationary; the described moving-part behavior does not pass.",
+      "timestamps_sec": [
+        0.0,
+        0.125,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        2.0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "The initial broad orange edge is not the current contract's small localized mark. By 0.250s, orange outlines/edges are visible on more than one tread, and this repetition continues through much of the clip. Several markings subsequently disappear toward the gray endpoint. There is no reliable continuous identity for the same unique tread moving into occlusion; a gray final image does not repair the intervening multiplication.",
+      "timestamps_sec": [
+        0.0,
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        4.5,
+        5.0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "fail",
+      "observed": "The first and last footage images are visually close to the OLD bound still pair. At 5.000s both feet are on the fixed plate, the oval eyes are visible and exposed treads are gray. However, that still pair is not user-approved and its redesigned Sol fails the current reference contract. The opening also uses a broad orange edge rather than the required localized mark, and the leading foot did lift during the interval. Matching a rejected endpoint pair cannot satisfy the user-approved-still and resulting-state requirement.",
+      "timestamps_sec": [
+        0.0,
+        0.75,
+        1.0,
+        5.0
+      ],
+      "evidence": [
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "The action begins immediately, but the completed initial transfer is followed by an extra leading-foot lift/body bob around 0.750–1.250s instead of the specified single transfer and quiet ending hold. Sol later makes a restrained downward tilt and two brief paired blinks; those do not fix the extra action or guarantee the intended timing of one identifiable tread disappearing. No Narrator eyeline cue is applicable to this Sol-only spoken turn.",
+      "timestamps_sec": [
+        0.0,
+        0.375,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        3.166667,
+        4.083333,
+        5.0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "Across all seven chronological pages covering all 121 extracted source frames, no unintended writing, logo, held lantern/other extra prop, or on-screen narrator was found. Full-resolution details show no burned-in captions. A fresh FFprobe inspection of the bound clip confirms zero audio streams. The duplicate tread paint and other motion/design failures are explicitly recorded in their dedicated checks; this cleanliness result does not approve those defects or the clip.",
+      "timestamps_sec": [
+        0.0,
+        0.75,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT OLD V4 FOOTAGE bound to current packet becb6006de306ef1775fa002b0292ce9393b58da7b68cc95126a5c5f60796937. The original first/last pair remains unapproved by the user and appearance-rejected. Blocking failures include redesigned Sol/flame/limbs, character scale larger than the current one-third target, an extra leading-foot action, reversed exposed-tread travel, multiplied orange markings and lack of a valid user-approved endpoint pair. The clean-image/no-audio result is not production approval. This report does not review or approve any separately prepared new Omni Flash stills or clip.",
+  "type": "independent_clip_review",
+  "decision": "rejected",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "66a8d8cca7118cc4d942c3417b869d06673badad176fbb89d923ffff3caac025",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/escalator/keyframes/01-first-lantern-v4.png",
+        "sha256": "f4ea9eb9d01137285eadf89654765702b5674359c55f82e0c5722ed783f0b101"
+      },
+      "last": {
+        "path": "workflow/episodes/escalator/keyframes/01-last-lantern-v4.png",
+        "sha256": "90d664e8e4d8dbdd2f8dd7d476b415abbc8861e0f8c3309e5f127bab8d5ae4ee"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+        "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/escalator/clips/01-scene-lantern-v4.mp4",
+      "sha256": "ad0168cd2d06ab4456f816dafcd73b403106182e4429a8fc9408c84316f3d1f3"
+    }
+  },
+  "recorded_at": "2026-11-14T07:13:28.080205+00:00"
+}

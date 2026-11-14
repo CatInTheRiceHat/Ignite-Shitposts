@@ -1,0 +1,66 @@
+IGNITE FRAME APPROVAL AND CLIP REVIEW
+
+Use the canonical shared model settings in workflow/config/generation.json.
+Current video model: Gemini Omni Flash 1.2 (gemini_omni_flash_1_2).
+Paired-frame mode: image-to-video, approved start_image AND end_image, 3–10
+whole seconds. The current 11-second drive scene is split into 03a and 03b.
+Historical jobs and reference videos retain their actual original metadata.
+
+MANDATORY ORDER
+1. Generate first and last stills. Prepare the frame packet and show BOTH
+   actual images, labeled with scene and version, alongside the original
+   lantern source when comparing Sol. Do not rely on colors alone.
+2. Wait for the user to approve BOTH images explicitly. Record their actual
+   message. A generator's review, reviewer approval, or a request to fix an
+   old version is not user approval of a new pair.
+3. Pass the frame gate. Upload the exact approved files. Prepare the video
+   payload with video-request; then use the connected Higgsfield tool.
+4. After generation, prepare an actual-footage packet. A dedicated reviewer
+   inspects the references, all chronological sequence pages and full-size
+   samples. It records timestamped observations for every checklist item.
+5. Fail, uncertain, missing review or changed inputs blocks production. Keep
+   failed takes. Fix prompts/art only within the user's authorized scope.
+
+COMMANDS FROM REPOSITORY ROOT
+python3 workflow/scripts/shorts.py review-frames escalator --scene 01
+python3 workflow/scripts/shorts.py approve-frames escalator --scene 01 --user-approval-text 'ACTUAL USER APPROVAL OF BOTH IMAGES'
+python3 workflow/scripts/shorts.py review-gate escalator --scene 01 --stage frames
+python3 workflow/scripts/shorts.py video-request escalator --scene 01 --start-media-id UUID --end-media-id UUID
+python3 workflow/scripts/shorts.py review-clip escalator --scene 01
+python3 workflow/scripts/shorts.py record-review escalator --scene 01 --report PATH
+python3 workflow/scripts/shorts.py review-gate escalator --scene 01 --stage clip
+
+The approve-frames example is a command shape, not permission to fill it in.
+Never run it until the user actually approves the displayed pair. Changes to
+either still, the references or the shot contract invalidate that approval.
+
+To diagnose an older rejected candidate after the active plan changes, pass
+--clip, --first and --last explicitly to review-clip and record-review. Those
+diagnostic inputs do not approve or replace the active frame pair.
+
+WHAT THE PROGRAM DOES
+It extracts every source frame at phone size, saves actual source timestamps,
+creates chronological sheets, extracts full-resolution action/end samples,
+and binds reports to file hashes, references and requirements. It validates
+review evidence and blocks final rendering when approval/review is missing.
+It does not itself infer eyes, style or physics from metadata. Those visual
+judgments come from actual inspection by the dedicated reviewer. Review
+preparation, a successful decode and an AI pass are not user frame approval.
+
+REPORT FORMAT
+packet_id: value from packet.json
+reviewer: dedicated reviewer identity, not the generator
+method: actual inspection performed; never claim playback from frame samples
+coverage_reviewed: relative evidence/sequence-XX.jpg paths actually opened
+checks: object with EVERY ID in contract.policy.checks; each check contains:
+  verdict: pass, fail, uncertain (not_applicable only for absent-character checks)
+  observed: concrete observation, including expected/observed difference
+  timestamps_sec: actual source timestamps inside the clip
+  evidence: relative evidence paths that exist in the packet manifest
+summary: blocking defects and concrete suggested changes
+
+A rejected review may stop early after confirming a blocker. A passing review
+must cover every chronological page and every required check, with unchanged
+evidence and explicit user approval of both exact stills. The production gate
+is also run by the direct Remotion final-render command; --draft stays clearly
+marked and is available for internal inspection of existing media.

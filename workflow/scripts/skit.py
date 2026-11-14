@@ -57,6 +57,7 @@ def prepare(episode, duration=None):
               'captionStyle':{'fontSize':56,'fill':'#FFFFFF','outline':'#F07B2A','outlineWidth':6,
                               'leftPercent':10,'rightPercent':16,'topPercent':80},
               'shots':shots, 'captions':[], 'voiceover':None, 'audioTracks':[],
+              'generation':json.loads((WORKFLOW/'config/generation.json').read_text()),
               'cast':cast, 'timing':{'confirmed':False,'note':'Record separate normal-rate takes, measure them, then review captions and cuts.'}}
         write_new(episode/'edit.json',edit)
     edit=json.loads((episode/'edit.json').read_text())
@@ -129,7 +130,12 @@ def check(episode, images=False, inspect=False):
     confirmed=edit.get('timing',{}).get('confirmed') is True
     if not confirmed:report['warnings'].append('Voice/caption timing is provisional; final export is blocked.')
     if any(c['end']>total for c in edit['captions']):report['errors'].append('Caption extends past episode')
-    report['final_ready']=not report['missing'] and not report['errors'] and confirmed
+    from clip_review import edit_gate
+    review=edit_gate(episode,edit)
+    report['review']=review
+    if not review['approved']:
+        report['warnings'].extend('REVIEW BLOCKED '+c['scene']+': '+c['reason'] for c in review['scenes'] if not c['approved'])
+    report['final_ready']=not report['missing'] and not report['errors'] and confirmed and review['approved']
     return report
 
 
@@ -141,7 +147,9 @@ def sync_audio(episode):
         local=0.12
         for i,d in enumerate(clip['dialogue']):
             stem=f'{clip["id"]}-{i+1:02d}-{d["speaker"].lower()}'
-            candidates=[p for ext in ('wav','mp3','m4a') if (p:=episode/'audio'/f'{stem}.{ext}').is_file()]
+            candidates=([episode/d['source_audio']] if d.get('source_audio') else
+                        [p for ext in ('wav','mp3','m4a') if (p:=episode/'audio'/f'{stem}.{ext}').is_file()])
+            candidates=[p for p in candidates if p.is_file()]
             if len(candidates)!=1:raise ValueError('Need exactly one recorded take for '+stem)
             path=candidates[0];length=float(probe(path)['format']['duration']); start=cursor+local
             track={'id':stem,'speaker':d['speaker'],'src':'audio/'+path.name,'start':round(start,6),
@@ -158,9 +166,9 @@ def sync_audio(episode):
                              'measured_start_sec':start,'measured_end_sec':start+length})
             local+=length+0.16
         # Preserve planned visual actions/holds, and extend when natural speech needs it.
-        # Kling accepts whole-second generation lengths; retain the complete
+        # The current video model accepts whole-second lengths; retain the complete
         # first-to-last clip and give the natural takes the remaining hold.
-        shot['duration']=math.ceil(max(shot['duration'],local+0.4))
+        shot['duration']=math.ceil(max(shot['duration'],local+clip.get('tail_hold_sec',0.4)))
         cursor+=shot['duration']
     edit['audioTracks']=tracks;edit['captions']=captions
     edit['timing']={'confirmed':False,'note':'Audio durations measured at 1x. Caption phrase times are estimates; review against the actual speech before setting confirmed.'}

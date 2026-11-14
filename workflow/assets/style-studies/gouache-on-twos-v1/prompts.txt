@@ -1,0 +1,95 @@
+GOUACHE / ON-TWOS STYLE STUDY — V1
+
+Purpose: Two matching painted key poses for reviewing the gouache finish and
+clear held-pose staging. This request generates still images only.
+Scene count: 1. Image prompts: 2. Video prompts: 1 (planning only).
+Generator: Built-in image_gen.
+Primary character, paint and scene reference:
+workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg
+Motion reference:
+workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4
+Frame 02 also uses generated Frame 01 as its composition reference.
+Output: Two separate portrait 9:16 stills, opaque backgrounds.
+
+SCENE 01 — LANTERN RELEASE
+Silent visual study. No dialogue or audio.
+Camera: Locked medium-full shot, at seated Sol's eye height with a slight
+downward view of the hillside; original reference's camera side and crop.
+Sol fills roughly the lower half of the frame; full body, feet and flame tip
+remain visible. Lantern-filled navy sky above; same grassy hill and lighting.
+First state: Seated Sol holds the lantern in both short arms near his belly.
+Action: He lifts the lantern once and releases it. His whole face tips upward
+to follow it. The flame tip follows gently. No additional reaction loop.
+Last state: Sol remains seated, arms raised but free of the released lantern,
+which hovers just above his hands. His original paired oval eyes remain intact.
+Transition: Hold the released-lantern pose.
+Future timing: At the existing 30 fps delivery, hold each animated drawing for
+two consecutive frames (15 drawing updates per second). Use deliberate poses
+and crisp transitions, preserving the painted surface. A still image cannot
+establish or verify this cadence. No video generation is included here.
+
+SCENE 01 — FIRST-FRAME IMAGE PROMPT
+BEGIN PROMPT
+Use case: illustration-story.
+Create one portrait 9:16 painted animation keyframe using the supplied Sol
+lantern image as the exact character, composition and setting reference.
+Keep the same night hillside, navy sky, softly glowing floating paper lanterns
+and warm amber light. Locked medium-full shot at seated Sol's eye height,
+slightly looking down at the grassy ground. Preserve the reference crop,
+camera side, subject placement and scale; show Sol's whole seated body, both
+short feet, both short arms and full asymmetrical flame silhouette.
+Sol sits grounded on the hill holding one warm paper lantern at belly level
+with both stubby arms. His two original small dark navy oval eyes retain their
+size, spacing and cream facial placement; his whole face is tipped gently
+toward the lantern. Preserve the original layered red-orange, orange and cream
+flame, compact limbs, mouthless cream mask and softly brushy wispy flame tip.
+Paint Sol, the lantern and the scenery together with opaque matte gouache,
+visible dry-brush edges, fine paper tooth, gently uneven pigment and simple
+painted value shapes. Match the source's warm storybook finish. Use a clear,
+readable held animation pose, crisp unblurred silhouette and grounded contact
+shadow. One still composition; no text, captions, frame numbers, panel borders,
+ghost poses, motion trails, added facial features, glossy shading or 3D finish.
+END PROMPT
+
+SCENE 01 — LAST-FRAME IMAGE PROMPT
+BEGIN PROMPT
+Use case: illustration-story.
+Create one portrait 9:16 painted animation keyframe matching the supplied
+first-frame image. Use the original Sol lantern artwork to preserve character
+identity. Keep the camera completely locked: identical crop, perspective,
+background lantern positions, grassy hill, Sol's seated location, body scale,
+feet and warm night lighting.
+Change the held pose to the end of one gentle lantern release. Sol is still
+seated firmly on the hill; both short arms are lifted in front of his cream
+mask, hands now free. The same paper lantern has risen from his belly and is
+upright just above his open hands, with a narrow visible gap beneath it. It
+does not intersect his body or flame tip. Sol tips his whole face upward toward
+the released lantern while keeping both original small dark navy oval eyes
+visible with unchanged size, spacing and shape. Preserve his asymmetrical
+layered red-orange, orange and cream flame, mouthless cream mask, compact
+stubby limbs and softly brushy wispy tip. Keep his body proportions stable.
+Match Frame 01's opaque matte gouache, fine paper grain, visible dry-brush
+edges, gently uneven pigment, simple painted value shapes and warm storybook
+lighting. This is a distinct readable held pose with a crisp silhouette and
+no motion blur. One still composition; no text, captions, frame numbers,
+panel borders, ghost poses, motion trails, added facial features, glossy
+shading or 3D finish.
+END PROMPT
+
+SCENE 01 — CONTINUOUS VIDEO PROMPT (PLANNING ONLY)
+BEGIN PROMPT
+One continuous locked-camera portrait shot in the approved painted night
+hillside scene. Begin with seated Sol holding the paper lantern at his belly.
+He gently lifts that lantern once, opens his short arms to release it, then
+tips his whole face upward to follow it. Finish with Sol still seated, feet
+grounded, arms lifted, and the upright lantern hovering just above his hands.
+His softly wispy flame tip trails the turn gently and settles. Keep the two
+original small dark oval eyes unchanged; keep Sol mouthless and preserve
+his compact proportions, layered flame colors and cream facial mask.
+Use deliberate hand-drawn animation on twos: each drawing holds for two
+consecutive output frames, producing a slightly choppy, readable pose rhythm.
+Preserve the opaque matte gouache, paper grain, brushy painted edges and warm
+storybook light throughout. Keep the camera and scenery steady and end on
+a clear hold. No interpolated smooth character motion, optical-flow smearing,
+extra gestures, added facial features, text or captions.
+END PROMPT

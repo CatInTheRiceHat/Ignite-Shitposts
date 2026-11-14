@@ -1,5 +1,15 @@
 # Ignite Shorts workspace
 
+- Current video model: **Gemini Omni Flash 1.2** through Higgsfield,
+  exact ID `gemini_omni_flash_1_2`. Shared settings for every active client
+  live in `workflow/config/generation.json`; follow `workflow/AGENTS.md`.
+- Generate each scene's first and last stills, show BOTH to the user, and wait
+  for explicit approval of that exact pair BEFORE generating its Higgsfield
+  clip. Do not treat a request to fix an earlier version as approval of new
+  stills. The current escalator artwork is unapproved. The lantern source
+  frame/video is the character/style reference; retain its original small
+  oval eyes, irregular painted flame, compact limbs and soft wispy tip.
+
 - All new Ignite Shorts code, configuration, prompts, artwork copies, episodes,
   downloads, tests and renders belong under `workflow/`.
 - Start with `workflow/README.md`. The canonical CLI is

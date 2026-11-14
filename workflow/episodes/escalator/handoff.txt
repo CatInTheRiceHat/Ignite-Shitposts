@@ -1,19 +1,24 @@
-ESCALATOR — CLIPS-ONLY HANDOFF
+ESCALATOR — CURRENT PRODUCTION HANDOFF
 
-The plan is 12 generated stills, six complete generated clips, then simple
-assembly with separate voices, captions and sound. The explanation and cartoon
-cutaways belong inside the generated clips.
+Default video model for all active workspace clients: Gemini Omni Flash 1.2,
+ID gemini_omni_flash_1_2; image-to-video; 1080p; 9:16; both approved endpoint
+stills; 3–10 seconds per paired-frame request. Canonical settings are in
+workflow/config/generation.json. Historical jobs keep their actual metadata.
 
-Active review documents: script.txt, shot-plan.json and higgsfield-prompts.txt.
-Separate dialogue text: narration.txt and sol-dialogue.txt.
-First test: scene-01-test-plan.txt.
+MANDATORY ORDER
+Generate first and last stills -> show BOTH to the user -> explicit approval
+of that exact pair -> Higgsfield clip -> independent actual-footage review.
+No current scene pair has user approval. No Omni clip has been submitted.
 
-The old drawing references and custom tools were preserved under
-archive/pre-clips-only/. They are not inputs or requirements for this workflow.
+The original lantern artwork/video is the character and motion reference.
+The previous escalator stills and video are rejected for character redesign,
+rigid flame tip, repeated orange markers and extra stepping.
 
-Six scenes; 99 spoken words; 49 seconds now follows the eight measured natural-rate takes plus visual holds. The
-custom Sol voice is the saved project choice; Arthur is the off-screen narrator.
-Arthur preset 30fc8796-ceb6-4a66-b3a7-4a145ef7f346 was verified through Higgsfield list_voices.
-Codex is generating the actual frames, clips and voices through the connected
-Higgsfield tools from the saved prompts. All eight normal-rate voice takes
-are downloaded. Caption phrase times remain provisional; review before final export.
+Seven declared scenes: 01, 02, 03a, 03b, 04, 05, 06. Scene 03 was split to
+respect Omni paired-frame duration limits. There are exactly 14 image prompts
+and seven video prompts; 99 spoken words and 49 seconds at normal voice rate.
+Eight downloaded Arthur/Sol takes are preserved and reused.
+
+Current new Scene 01 output pair: keyframes/01-first-omni-v1.png and
+keyframes/01-last-omni-v1.png. Show both; wait for actual user approval.
+Review and gate commands are documented in workflow/guidelines/clip-review-guide.txt.

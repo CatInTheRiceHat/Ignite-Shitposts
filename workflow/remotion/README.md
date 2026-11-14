@@ -82,6 +82,13 @@ workflow separately defaults to 720 × 1280 and uses its own edit schema.
 
 ## Generated skits
 
+Shared generation defaults live in `../config/generation.json`: current video
+model is Gemini Omni Flash 1.2. The user must approve BOTH endpoint stills before
+animation, and the dedicated clip reviewer must pass the actual resulting clip
+before production export. The direct final-render command enforces the same
+file-bound review gate as the Python CLI. `--draft` is for clearly marked review
+exports of existing footage and does not imply approval.
+
 Use `python3 workflow/scripts/shorts.py prepare <episode>` to prepare a new
 skit, or create an edit from its reviewed shot plan. Set `layout: "fullscreen"`
 for complete 9:16 footage. This fills the entire 1080 × 1920 picture without
