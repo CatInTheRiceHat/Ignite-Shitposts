@@ -1,13 +1,8 @@
-SCENE 01 — USER FRAME APPROVAL FIRST
-Current revision: nano-v1; Nano Banana 2.1 stills using guidelines/image-prompt.md. Five-second Omni Flash 1.2 clip is planned only after explicit pair approval.
-1. Review ONE normal straight flight between TWO mall floors; full-width transverse gray comb parallel to tread seams, three distinct flat approach treads, two near upper rail returns and supported soles.
-2. Preserve the accepted painted finish. Mascot.png and supplied examples define Sol's identity. The lantern video guides restrained movement.
-3. Generate first and last stills. Show BOTH with version labels. Wait for explicit approval of that exact pair before preparing or submitting any video.
-4. First: forward foot fixed on the foreground plate, trailing foot on the nearest flat moving tread. Last: forward foot unchanged; both WHOLE soles on the fixed plate clear of the comb.
-5. ONE orange tread mark moves from the nearest tread beneath the gray stationary comb; no other tread marks and no stationary color changes.
-6. Only after user pair approval: approved start_image AND end_image; gemini_omni_flash_1_2; image-to-video; 1080p; 9:16; 5 seconds. Independent reviewer inspects actual generated footage.
-7. Preserve rejected attempts. All old mascot-v1–v5 drafts are unapproved; preserve them and never animate them.
-
-Image references: Mascot.png defines identity. The lantern artwork and actual lantern clip define the restrained painted finish. The prior v5 image supplies coherent mechanical composition only. Check the new pair at phone size before asking for user approval.
-
-NEXT PROMPT REVISION: nano-v2, not yet generated. Check exact original mascot arms, stubby feet and flat navy eyes against Mascot.png plus Curious.png/Celebrate.png. Surface paint preserves the source anatomy. Existing Nano v1 files remain unchanged and unapproved.
+SCENE 01 — CURRENT FIRST-FRAME CORRECTION
+1. Read the critique checklist and current image/video guides.
+2. Match Mascot.png for original flame layers, cream face and solid dark navy eye ovals (#1C2447). Use Curious.png only for short arm anatomy.
+3. Both tiny rounded red foot nubs stand fully on the fixed plate, with a visible gap from the comb. Maintain original compact proportions.
+4. Keep one ordinary straight flight, two opposing rails and the fixed full-width comb.
+5. First: one orange mark on the nearest moving tread. Last: that tread is hidden beneath the comb. Sol's feet stay fixed; remove the former stepping action.
+6. Current first: keyframes/01-first-nano-v3d.png. Matching last remains ungenerated; no video requested by this correction.
+7. Show both final stills and obtain explicit pair approval before video. Keep every prior take and receipt.
