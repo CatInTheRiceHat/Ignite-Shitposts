@@ -1,0 +1,130 @@
+ESCALATOR PRODUCTION HANDOFF
+
+Prepared for review and the first test. All generation jobs remain unsubmitted.
+Review source: the existing episode higgsfield-prompts.txt, preserved in
+archive/v6-review/ before this revision. Actual guidelines folder: guidelines/.
+
+Revised episode
+- Six scenes, exactly 12 standalone still-image prompts and six continuous
+  video prompts. Each scene retains one first/last pair and one motion brief.
+- Script is 99 spoken words. The 43-second timeline is explicitly provisional.
+  Separate voice files and the unconfirmed caption/voice cue plan agree.
+- Scene 01 starts its grounded transfer immediately and exposes the exact
+  original tread's disappearance under the fixed plate within the first second.
+- Scene 02 uses one upward acknowledgment of Arthur, then follows that tread
+  into the return run. The last pose is tracking downward, not a second look up.
+- Scene 03 keeps one connected motor/drive/shaft/sprocket/chain system in view.
+- Scene 04 depicts two near-side rollers in profile and four total per step.
+- Scene 05 aligns neighboring treads before the leading rigid step goes under
+  the exit plate and begins its return, using the same roller/track geometry.
+- Scene 06 prioritizes tread return, the upward Exactly acknowledgment and a
+  happy hold. A bounce is optional. Scene 03/06 pushes are Remotion-only.
+
+Shared schematic and object route
+references/mechanism-geometry.json defines one rigid step assembly, the
+front/chain and rear/trailer roller offsets, two side chains sharing one clock,
+and the S17 route ledger. tools/build-schematic.py derives five matching views:
+full loop, drive, near-side roller profile with a far-pair depth inset, upper
+exit and the projected return view. Colored lines and the orange reference
+tread are editable annotations; generation prompts request clean neutral art.
+
+S17 uses a single constant arc-speed phase through the provisional timeline,
+including off-screen Scenes 03–05. The reference demonstrates the whole tread
+under the plate at 0.8s, not merely its front axle crossing the plate edge.
+The turn/track shapes are illustrative kinematics, not dimensional OEM CAD;
+they do not certify collision clearances, manufacturing or maintenance use.
+Use controlled Remotion motion if generated contacts or rigid geometry drift.
+
+Primary mechanism provenance
+The existing Transport for NSW explainer and Otis track catalog remain cited
+in the plan. This revision also checked the primary US2039994A description:
+https://patents.google.com/patent/US2039994A/en
+It describes four rollers per step carriage, two driving chains and rollers
+running on rails. The local schematic is an original simplified construction,
+not a traced manufacturer drawing. The two older PDF endpoints were not
+available to fetch during this pass; their prior project citations are retained.
+
+Voice decision and unresolved items
+- Custom Higgsfield Sol is intentional: a prior explicit user decision changed
+  Sol's voice globally, and workflow/config/voices.json agrees with the
+  completed lantern test. ID 68b3ae01-976b-4d18-995f-3d60c00d0b55; type element.
+- Arthur remains the built-in off-screen narrator with warm nature-documentary
+  delivery. No exact Arthur preset ID was recorded in available project files;
+  its value is explicitly null pending verification before speech submission.
+- There are no escalator voice takes. audio/voice-cues.plan.json has no measured
+  times or audio hashes and is unconfirmed. Record/import separate takes at
+  normal speech rate and 1x, then lock cuts, word captions and reaction holds.
+- Current mascot guidance explicitly permits eye morphs and squash/stretch;
+  this revision mainly uses eye direction, leans and holds to simplify acting.
+- Finished painted-frame readability, real foot contact/shadows, social-control
+  clearance and final caption rendering remain to be inspected on actual media.
+
+Remotion finishing
+Use the existing root remotion/ install; no new npm install was created.
+No escalator edit/composition exists yet. The shared Composition.tsx/style.css
+currently load one generic font and draw cream caption boxes, so assembly must
+explicitly implement this episode's caption treatment without changing unrelated
+episodes: Ramento, local family Rammetto One, source
+assets/fonts/RammettoOne-Regular.ttf; white #FFFFFF, orange #F07B2A glyph stroke,
+one or two editable lines. Export 1080 x 1920 at 30 fps; step Sol poses roughly
+at 12 fps where useful, keeping camera and technical motion smooth for clarity.
+Captions, arrows, track colors, S17 highlight, contact halos and sound effects
+remain editable. Per-scene phone-size targets are recorded in the shot plan.
+
+Scene 01 test
+See scene-01-test-plan.txt for exact inputs, proposed supported settings,
+first-second action targets and phone-size pass/fail criteria. When later
+authorized, review one first/last pair, then one silent continuous candidate.
+Use the prepared mechanism references before expanding into Scene 02.
+
+Verification
+tools/validate-handoff.py checks prompt counts and clean blocks, all dialogue
+exports and word counts, frame-state agreement, one Scene 02 glance, edit-only
+pushes, model input/duration support, monotonic S17 routing, the complete tread
+crossing the plate within one second, and 1,200 samples of rigid roller offsets,
+horizontal passenger treads and derived rail contacts. Results are recorded in
+handoff-validation.json. These planning/analytic checks do not replace inspection
+of generated footage. The five schematic views were rendered locally for review.
+
+EXACT FILE INVENTORY FOR THIS REVISION
+
+Edited existing files:
+workflow/episodes/escalator/script.txt
+workflow/episodes/escalator/shot-plan.json
+workflow/episodes/escalator/higgsfield-prompts.txt
+workflow/episodes/escalator/narration.txt
+workflow/episodes/escalator/sol-dialogue.txt
+workflow/config/voices.json
+guidelines/README.md
+guidelines/video-style-guide.md
+guidelines/video-script-guide.md
+guidelines/shot-integration-and-sol.md
+
+New episode source/verification files:
+workflow/episodes/escalator/.gitignore
+workflow/episodes/escalator/scene-01-test-plan.txt
+workflow/episodes/escalator/audio/voice-cues.plan.json
+workflow/episodes/escalator/tools/build-schematic.py
+workflow/episodes/escalator/tools/rebuild-documents.py
+workflow/episodes/escalator/tools/validate-handoff.py
+workflow/episodes/escalator/references/mechanism-geometry.json
+workflow/episodes/escalator/references/model-capabilities.json
+workflow/episodes/escalator/handoff.txt
+workflow/episodes/escalator/handoff-validation.json
+
+New editable reference views and local raster previews:
+workflow/episodes/escalator/references/mechanism-schematic.svg
+workflow/episodes/escalator/references/mechanism-schematic.png
+workflow/episodes/escalator/references/drive-system.svg
+workflow/episodes/escalator/references/drive-system.png
+workflow/episodes/escalator/references/roller-profile.svg
+workflow/episodes/escalator/references/roller-profile.png
+workflow/episodes/escalator/references/exit-transition.svg
+workflow/episodes/escalator/references/exit-transition.png
+workflow/episodes/escalator/references/return-view.svg
+workflow/episodes/escalator/references/return-view.png
+
+Preserved previous episode files under archive/v6-review/:
+script.txt, shot-plan.json, higgsfield-prompts.txt, narration.txt, sol-dialogue.txt.
+Raster reference previews are locally ignored. No credentials, downloaded
+production media or existing renders were changed or committed.

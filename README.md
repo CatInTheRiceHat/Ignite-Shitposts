@@ -17,8 +17,10 @@ python3 workflow/scripts/shorts.py prepare my_next_short
 python3 workflow/scripts/shorts.py check calculus_pilot
 ```
 
-New episodes default to 30 seconds, painted 9:16 and off-screen Cub (Female)
-narration. Existing episode overrides are preserved. The root `music/` and
+New episodes start with a 30-second target and painted 9:16 visuals. New skits
+use Arthur as the off-screen Narrator and the user's Higgsfield custom voice
+**Sol** for Sol, as recorded in the [shared voice cast](workflow/config/voices.json).
+Existing episode overrides are preserved. The root `music/` and
 `zack-d-films-ai-video-generator/` links keep older paths working; use the
 canonical folders under `workflow/` for new work.
 

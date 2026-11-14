@@ -1,0 +1,29 @@
+{
+  "status": "passed planning and analytic geometry checks",
+  "scenes": 6,
+  "image_prompts": 12,
+  "video_prompts": 6,
+  "spoken_words": 99,
+  "provisional_seconds": 43,
+  "geometry_samples": 1200,
+  "checks": [
+    "matching dialogue and frame states",
+    "clean standalone prompt blocks",
+    "one Scene 02 upward glance",
+    "edit-only camera pushes",
+    "four rollers / two visible",
+    "constant rigid roller offsets and derived rail tangency",
+    "monotonic S17 route, including off-screen cuts",
+    "whole tread under plate within first second",
+    "compatible model inputs and durations",
+    "unconfirmed voice cue map"
+  ],
+  "not_yet_verified": [
+    "generated painted frames at phone size",
+    "actual foot contact and shadows in generated footage",
+    "actual voice timings and caption cues",
+    "Arthur exact preset ID",
+    "final rendered caption treatment and social-control clearance"
+  ],
+  "generation_jobs_submitted": 0
+}

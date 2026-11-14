@@ -1,0 +1,102 @@
+{
+  "total": 2408.74015834365,
+  "upper_end": 858.8090983117739,
+  "step_count": 28,
+  "roller_radius": 10,
+  "turn_radius": 110,
+  "trailer_offset": [
+    -65,
+    65
+  ],
+  "tread": [
+    [
+      -72,
+      -20
+    ],
+    [
+      12,
+      -20
+    ]
+  ],
+  "body": [
+    [
+      -72,
+      -20
+    ],
+    [
+      12,
+      -20
+    ],
+    [
+      12,
+      -12
+    ],
+    [
+      -72,
+      -12
+    ]
+  ],
+  "far_side_depth_offset": [
+    30,
+    -18
+  ],
+  "schema_version": 1,
+  "scope": "Illustrative rigid-body reference; not dimensioned OEM CAD",
+  "loop_definition": "tools/build-schematic.py: make_geometry and pose",
+  "total_rollers": 4,
+  "visible_near_side_rollers": 2,
+  "chain_count": 2,
+  "chain_speed_policy": "Both side chains share one shaft and route clock",
+  "contact_policy": "Guide rails derived from each roller center trajectory plus radius; never independently animate the rollers",
+  "tracked_step_id": "S17",
+  "phase_origin": "0 = lower entrance, increasing toward upper exit, return underneath, lower turn",
+  "ledger": [
+    {
+      "time_sec": 0,
+      "route_phase": 0.357,
+      "event": "Transfer underway; trailing foot on the still-exposed part of S17"
+    },
+    {
+      "time_sec": 0.8,
+      "route_phase": 0.3702577319587629,
+      "event": "Entire S17 tread is under exit plate after feet clear"
+    },
+    {
+      "time_sec": 5,
+      "route_phase": 0.439860824742268,
+      "event": "Scene 02 starts in hidden upper turn"
+    },
+    {
+      "time_sec": 12,
+      "route_phase": 0.5558659793814433,
+      "event": "Scene 02 ends early in return run"
+    },
+    {
+      "time_sec": 20,
+      "route_phase": 0.6884432989690721,
+      "event": "Off-screen during drive close-up; return run"
+    },
+    {
+      "time_sec": 29,
+      "route_phase": 0.8375927835051546,
+      "event": "Off-screen during roller view; later return run"
+    },
+    {
+      "time_sec": 37,
+      "route_phase": 0.9701701030927835,
+      "event": "Scene 06 starts in lower turnaround"
+    },
+    {
+      "time_sec": 38.8,
+      "route_phase": 1.0,
+      "event": "S17 reappears at lower entrance"
+    },
+    {
+      "time_sec": 43,
+      "route_phase": 1.0696030927835052,
+      "event": "S17 continues from the entrance onto the ascending run"
+    }
+  ],
+  "clock_formula": "route_phase = 0.357 + (1 - 0.357) * time_sec / 38.8; one constant arc-speed for both chains and every step",
+  "timing_status": "provisional illustrative clock; remap ledger to actual voice-locked cuts without reversing or resetting S17"
+}

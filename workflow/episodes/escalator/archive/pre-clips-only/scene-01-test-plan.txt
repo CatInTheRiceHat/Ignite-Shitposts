@@ -1,0 +1,61 @@
+SCENE 01 — FIRST GENERATION TEST PLAN
+
+Status: PREPARED ONLY. No image, video or audio job has been submitted.
+
+Purpose
+Prove the painted character identity, grounded foot transfer and disappearance
+of the exact original tread in the first second before extending generation.
+The short test does not lock the episode's final voice timing.
+
+Inputs and proposed settings
+- Existing identity: assets/sol-full-body.png.
+- Existing painted world: assets/calculus-painted-scene.jpg.
+- Copyable text: I01-FIRST, I01-LAST and V01 in higgsfield-prompts.txt.
+- First/last image proposal: gpt_image_2_6, high quality, 2k, PNG, 9:16,
+  one output per image prompt, references in image_references.
+- Continuous video proposal: kling3_0, std, sound off, 9:16, 5 seconds;
+  approved first image as start_image and approved last image as end_image.
+  The connected catalog confirmed both roles and the 3–15 whole-second range.
+- These are proposed settings, not uploaded media IDs or submitted requests.
+
+Later execution order
+1. When generation is separately authorized, create one first-frame candidate.
+2. Review it at full size and 360 × 640. Use that approved frame as the primary
+   reference for one matching last-frame candidate. Review both together.
+3. Confirm Sol's exact floor contact, matching fixed camera, physical tread
+   identity and reachable final lean before submitting one motion candidate.
+4. Inspect the motion frame by frame, then at normal speed and phone size.
+   Retain successful files in keyframes/ and clips/ using the planned names;
+   preserve an existing differing download rather than overwriting it.
+
+Provisional visual timing targets
+- Frame 0: visible transfer has already begun; trailing foot remains on S17.
+- 0.0–0.3 seconds: leading foot plants on the stationary landing.
+- 0.3–0.65 seconds: weight transfers, then the trailing foot clears the tread.
+- 0.65–1.0 seconds: that exact S17 tread crosses beneath the fixed exit plate.
+- Remaining shot: Sol looks back down-left, settles into a questioning lean,
+  and holds it. Carry that pose and eye direction into Scene 02.
+These are action targets; do not accelerate the eventual dialogue to fit them.
+
+Pass criteria
+- Action is visible from the first second; no greeting, static opening hold,
+  introductory camera move or delayed disappearance.
+- Both feet, S17 and the stationary plate are simultaneously readable during
+  transfer. At least one foot has believable support until both reach the floor.
+- No floating foot, foot skating, sinking through metal or switch to a different
+  tread. Contact shadows and handrail contact agree with the painted space.
+- Sol's compact layered flame, tiny limbs, mouthless face and original navy
+  eyes remain recognizable. One simple gaze/lean reaction reads at phone size.
+- Sol occupies about 48% of picture height and the key tread is at least 54px
+  wide in a 360 × 640 review. Plate edge and feet are unobscured.
+- First and last frames share the same camera and structure; the end pose
+  matches Scene 02's beginning. The video has one continuous locked camera.
+- Arrows, captions, highlights, halos and sound effects are separate edit
+  layers. S17's orange highlight follows the same object transform.
+- If generated motion loses tread identity, rigid shape or contact, repair
+  with controlled Remotion animation; do not hide the error with a crop.
+
+Hold before expansion
+After the opening passes, review the prepared shared mechanism schematic and
+return view before generating Scene 02. Record/import actual Arthur and Sol
+takes before locking final scene lengths, caption cues and reaction holds.

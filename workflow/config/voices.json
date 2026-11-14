@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "purpose": "Shared voice cast for new Ignite two-voice skits",
+  "speakers": {
+    "Sol": {
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice": "Sol",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1
+    },
+    "Narrator": {
+      "provider": "Higgsfield",
+      "voice": "Arthur",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": null,
+      "voice_id_status": "Exact Arthur preset ID not recorded in available project files; verify via Higgsfield voice selection before speech submission."
+    }
+  },
+  "sol_voice_reference": "episodes/sol_kling_test/audio-test.json",
+  "timing_policy": "Use the normal generated speech rate and 1x playback. Time the edit to the finished dialogue; revise the script or extend shots when needed.",
+  "selection_policy": "Use the exact saved voice_id and voice_type pair for Sol. Resolve Arthur's exact preset voice_id before generating his speech. Preserve existing episode voice overrides and recorded-media metadata.",
+  "sol_voice_decision": "Explicit project decision from the user: custom Higgsfield Sol replaces Cub for Sol character dialogue. Preserve legacy Cub recordings under their original metadata."
+}

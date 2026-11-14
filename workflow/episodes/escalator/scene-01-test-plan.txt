@@ -1,0 +1,17 @@
+SCENE 01 — FIRST CLIP TEST
+
+Prepared only; no generation jobs submitted.
+
+1. Generate one first-frame image and one matching last-frame image using the
+   Scene 01 prompts and the existing Sol/style artwork. Review them together.
+2. Animate that pair into one five-second silent Higgsfield clip.
+3. Check that the action starts immediately, Sol transfers his weight onto the
+   stationary landing with supported feet, and his exact orange-edged tread
+   disappears beneath the exit plate within the first second.
+4. Check the painted look, eye expression, floor contact and questioning end
+   pose at phone size. Keep the end pose for the start of Scene 02.
+5. If the clip is unclear, revise that shot's prompts and regenerate that shot.
+   Continue with the remaining generated clips after the opening works.
+
+Then join the clips and add the separate voices, captions and sound. Actual
+voice takes determine the final timing; five seconds is a provisional test.

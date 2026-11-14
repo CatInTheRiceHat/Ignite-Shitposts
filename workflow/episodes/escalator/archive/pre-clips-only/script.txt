@@ -1,0 +1,199 @@
+HOW DOES AN ESCALATOR WORK?
+Complete script and storyboard
+
+Revision 6: 99 spoken words; six scenes; exactly 12 image and six video prompts.
+43 seconds is a planning estimate only. Record/import separate natural-rate Arthur and Sol takes at 1x; then set scene boundaries, word cues, reveal holds, reaction holds and the S17 route clock from the actual waveforms. Caption timings are not yet locked.
+
+CAST AND PROJECT DECISIONS
+Sol: Sol / Higgsfield / Separate dialogue track; mouthless Sol, primarily eye direction, body lean and readable held poses. Current mascot guide explicitly permits eye morphs and squash/stretch; use them sparingly.
+Voice identity: 68b3ae01-976b-4d18-995f-3d60c00d0b55; element
+Intentional project-wide choice explicitly requested by the user: use the Higgsfield custom voice named Sol. Exact ID/type match the completed lantern test. Older Cub narration is preserved historical metadata, not this episode default.
+
+Narrator: Arthur / Higgsfield / Built-in Higgsfield Arthur: warm nature-documentary delivery, patient but connected, leaving room for the loop reveal.
+Voice identity: None; preset
+Arthur name verified by project decision; exact preset ID not present in available project records; resolve before audio submission
+
+SETTING
+One upward-running mall escalator, lower floor on screen left and upper landing on screen right. The rising steps always travel left to right; the hidden return run travels right to left. Warm painted mall lighting. One step has an orange editorial highlight so the viewer can track it. Sol rides that step at the opening, then stays on the upper landing throughout the explanation. Close-ups of other steps do not inherit the orange highlight.
+
+NARRATOR EYELINE
+One clear upward glance toward a fixed point just above the camera when Arthur starts an exchange. Then follow the demonstrated object. Do not add repeated up/down looks within a single explanation. On the later Exactly, look up and hold the happy ending.
+
+SCHEMATIC AND ORIGINAL TREAD
+Passenger run goes screen lower-left to upper-right; upper turn -> return right-to-left -> lower turn -> entrance. Scene 02 ends early in the return run, not at the bottom. Technical scenes show other unhighlighted steps. Re-time monotonically after voices are locked.
+The original tread is S17; the reference geometry and route ledger are in references/mechanism-geometry.json.
+
+0s provisional: route phase 0.357; Transfer underway; trailing foot on the still-exposed part of S17.
+0.8s provisional: route phase 0.3702577319587629; Entire S17 tread is under exit plate after feet clear.
+5s provisional: route phase 0.439860824742268; Scene 02 starts in hidden upper turn.
+12s provisional: route phase 0.5558659793814433; Scene 02 ends early in return run.
+20s provisional: route phase 0.6884432989690721; Off-screen during drive close-up; return run.
+29s provisional: route phase 0.8375927835051546; Off-screen during roller view; later return run.
+37s provisional: route phase 0.9701701030927835; Scene 06 starts in lower turnaround.
+38.8s provisional: route phase 1.0; S17 reappears at lower entrance.
+43s provisional: route phase 1.0696030927835052; S17 continues from the entrance onto the ascending run.
+
+SCENE 01 | 0–5 seconds PROVISIONAL
+
+Scene: Medium full shot on the near side of the upper landing. Camera at the height of Sol's cream face, approximately 30 degrees toward the front from a pure side view, so the tread depth and both of Sol's eyes are visible. Sol starts slightly left of center and exits toward screen right.
+Camera: Face height; near-side three-quarter view, 30 degrees off side-on; level horizon.
+Composition: Sol starts centered around x=42%, with his full body between y=26–74% (48% frame height). Leave open landing space to the right. The exit plate and orange-highlighted tread sit beneath him at y=72–77%. The next two rising steps enter from the lower-left.
+Camera movement: Locked camera throughout. Let Sol's moving silhouette and eye change provide the accent; do not add a camera jolt.
+
+FIRST FRAME — FINISHED COMPOSITE
+Sol is already beginning a grounded step off his original tread: the leading foot reaches the stationary landing while the trailing foot is visibly supported by that tread. His full body is three-quarter toward screen right, neutral navy oval eyes on the exit. The exact tread, fixed exit plate and both feet fit in the same crop.
+
+DIALOGUE
+Sol: “Wait, where do these steps go when they disappear into the floor?”
+
+ACTION / SPOKEN BEATS
+Visible transfer starts on the first frame. In the first second, the leading foot plants on the stationary floor, weight transfers, the trailing foot clears, and that exact original tread slides beneath the exit plate. Sol looks back down-left and settles into one questioning lean; avoid an added double-take that delays the disappearance.
+Opening transfer: Leading foot plants while trailing foot is still supported; complete the transfer before its tread enters the plate. Eyes: neutral. Gaze: Stationary landing at right.
+Original tread disappears: Look back once, lean from planted feet, and hold the questioning pose into the next shot. Eyes: questioning. Gaze: Exact exit-plate point down-left.
+
+LAST FRAME — FINISHED COMPOSITE
+Both feet are planted on the stationary upper floor. Sol holds a compact 15-degree down-left questioning lean, one eye slightly taller and one flatter. S17 has vanished beneath the fixed exit plate and entered the hidden upper turn. Preserve this eye/body pose into Scene 02.
+Next cut: Cut to the full-loop schematic while preserving Sol's questioning lean and S17 in the hidden upper turn.
+Prepared technical references: Opening character/landing art; no technical cutaway.
+Phone review target: Sol full body about 48% of picture height; original tread at least 54px wide at phone size; planted feet, fixed plate and original tread simultaneously visible during transfer.
+
+SCENE 02 | 5–12 seconds PROVISIONAL
+
+Scene: Wide, flat side cutaway with no perspective distortion. The full step loop fills the lower two-thirds, and Sol is visibly planted on the upper-right landing. This is an illustrative view of the same escalator, not a panel being physically opened.
+Camera: Orthographic side profile on the same near side as clip 01; level horizon.
+Composition: Escalator diagram spans roughly x=12–82%, y=37–77%. Lower entrance is near x=16%, y=69%; upper exit near x=76%, y=37%. Sol stands above that upper exit, with flame tip around y=14% and feet at y=37%, approximately 23% frame height.
+Camera movement: Locked camera. Animate the orange step and reveal the route arrow in place.
+
+FIRST FRAME — FINISHED COMPOSITE
+Full-loop side cutaway. Sol is planted on the upper-right landing in the same down-left questioning lean and eye pose as the previous shot. S17 is in the hidden upper turn, with both the passenger run and return run visible.
+
+DIALOGUE
+Narrator: “They turn underneath and ride back to the bottom. Same steps, one big loop.”
+
+ACTION / SPOKEN BEATS
+Give Sol one clear upward glance toward Arthur as the answer starts. Then let him follow the original tread around the upper turn into the right-to-left return run. Hold his attention on the moving tread and keep the complete route visible through the end of the line; omit the second upward look and additional eye-state changes.
+Arthur begins the answer: One clear upward acknowledgment, feet planted. Eyes: listening_up. Gaze: Fixed Arthur eyeline just above the camera.
+Arthur explains the route: Return gaze to the tread, follow it down-left and hold there until the cut. Eyes: tracking. Gaze: Follow S17 into the return run.
+
+LAST FRAME — FINISHED COMPOSITE
+The same side camera shows the entire loop. S17 is early in the return run under the upper portion of the escalator. Sol stays on the upper landing with a small down-left tracking lean and his original navy ovals directed along that tread's path. He is not looking back up at Arthur.
+Next cut: Cut to the drive. S17 continues along the return run, following the ledger; do not reset its identity or route clock.
+Prepared technical references: references/mechanism-schematic.png
+Phone review target: Sol about 23% of picture height, eye shapes readable; complete loop fills at least 70% of width; persistent tread about 20px wide and distinguishable against muted context.
+
+SCENE 03 | 12–20 seconds PROVISIONAL
+
+Scene: Large close-up of the drive beneath the upper landing, using a near-side three-quarter cutaway angled downward about 25 degrees. This angle exposes the shared shaft and both side chains at once. Sol's question is heard off-screen.
+Camera: About 25 degrees above the drive assembly, on the same near side. Preserve the chain runs toward lower-left and the uphill direction toward upper-right.
+Composition: Keep motor, gearbox, shaft, both toothed wheels, and the first connected steps within x=12–82%, y=18–77%. Motor is upper-left; gearbox and shaft lead toward the two chain wheels in the middle-right; the two parallel chains extend down-left to the visible steps.
+Camera movement: Locked generated/source camera. Gentle 8% push is an editable Remotion move only; preserve both technical connections or both main subjects.
+
+FIRST FRAME — FINISHED COMPOSITE
+Near-side three-quarter cutaway exposes motor, gearbox/drive connection, shared shaft, paired sprockets, two side chains and attached rigid steps in one crop. Sol is off-screen. No camera push is baked into the source frame.
+
+DIALOGUE
+Sol: “So what's pulling them?”
+Narrator: “An electric motor turns toothed wheels that pull a chain along each side of the steps.”
+
+ACTION / SPOKEN BEATS
+Show one connected power path: motor through drive connection to shared shaft and paired sprockets; both side chains move together and carry the same rigid step assemblies uphill. Keep the clean generated camera locked. Add the gentle 8% inspection push and attention ring in Remotion only, preserving both chain connections in frame.
+
+LAST FRAME — FINISHED COMPOSITE
+Locked source camera, same component geometry and crop. Both side chains remain engaged with their paired sprockets on the shared shaft and attached to the advancing rigid steps. The motor and drive connection remain readable. Any tighter final delivery crop comes from Remotion.
+Next cut: Cut to a different example step on the incline. S17 keeps moving off-screen along the return run.
+Prepared technical references: references/drive-system.png, references/mechanism-schematic.png
+Phone review target: Both chains, paired sprockets and their connection remain in one crop; no edit push may cut one away.
+
+SCENE 04 | 20–29 seconds PROVISIONAL
+
+Scene: Extreme close side profile of one unhighlighted step on the incline. Show the entire standing surface, its rigid support, both support-wheel positions, and both guide tracks. Include cropped neighboring steps so this reads as part of the same staircase.
+Camera: True side profile with an orthographic feel and a level camera; no tilted horizon or perspective that would obscure a horizontal tread.
+Composition: The main standing surface runs across x=25–76% around y=37%. The support and two visible wheel positions occupy y=44–69%, and the distinct tracks extend from x=10–84% below them. Neighboring tread fragments enter at the left and upper-right edges. All contacts remain above y=78%.
+Camera movement: Track uphill at the step's speed, keeping the main tread centered at the same screen height. The surrounding track and neighboring context move through the crop; the subject does not drift behind captions.
+
+FIRST FRAME — FINISHED COMPOSITE
+True side profile of one rigid step on the incline. Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each contacting its own guide track. The matching far-side pair is occluded, giving four total rollers in this depicted assembly. The tread is horizontal.
+
+DIALOGUE
+Narrator: “Front and back rollers follow separate tracks, keeping the surface you stand on level as the step climbs.”
+
+ACTION / SPOKEN BEATS
+Follow that step smoothly uphill. Preserve the same front and rear roller offsets and their individual track contacts. In Remotion, distinguish the two track paths with editable cyan and purple and add a straight level reference line; the tread stays horizontal without bending. This is a different example step, not S17, which continues off-screen along its ledger.
+
+LAST FRAME — FINISHED COMPOSITE
+The same rigid example step has advanced uphill by one step spacing while staying centered in the side-profile crop. Exactly two near rollers remain visible and on their own tracks; the far pair remains occluded. The tread is still horizontal. Track colors and the level line are separate edit layers.
+Next cut: Cut to neighboring example treads at the upper transition; keep the same four-roller and track geometry. S17 continues off-screen.
+Prepared technical references: references/roller-profile.png, references/mechanism-schematic.png
+Phone review target: Two near-side rollers and both contact patches visible; target roller diameter at least 12px at phone size. Four total rollers are established in the reference assembly, with far pair occluded in profile.
+
+SCENE 05 | 29–37 seconds PROVISIONAL
+
+Scene: Fixed true side close-up of the upper transition. Three unhighlighted steps approach from lower-left; the stationary upper floor is at upper-right. The cutaway continues below the exit floor so the first part of the return turn is visible.
+Camera: True side profile on the near side, level horizon. Keep the top floor and step standing surfaces readable as horizontal lines.
+Composition: Inclined steps enter around x=14%, y=66%, rising toward the landing near x=65%, y=35%. The flat exit row spans roughly x=49–79%, y=35%. The beginning of the hidden turn is visible beneath the plate around x=77%, y=48%. Keep both colored track paths and all relevant contacts inside x=10–84%, y=20–77%.
+Camera movement: Locked camera. Let the moving group demonstrate the height change; do not zoom while the comparison needs a stable reference.
+
+FIRST FRAME — FINISHED COMPOSITE
+Three neighboring rigid steps approach the upper landing at different heights, each tread already horizontal. The fixed exit plate and the start of the hidden return turn are visible. Preserve the same four-roller assembly and separate near-side guide paths established in the preceding profile.
+
+DIALOGUE
+Narrator: “Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath.”
+
+ACTION / SPOKEN BEATS
+First show neighboring treads reaching the same height to make a flat exit row. Then show the leading step passing underneath the stationary plate and beginning the upper return turn. Keep the body rigid and preserve the established roller positions and guide contacts. Add the level line, track colors and route arrow in Remotion only.
+
+LAST FRAME — FINISHED COMPOSITE
+Two neighboring treads form a flat row beside the stationary landing. The leading rigid step is beneath the fixed plate at the start of the return turn, still attached to its chains and supported by the same roller/track geometry. Source camera and crop are unchanged.
+Next cut: Cut to the matching return view, finding S17 in the lower turnaround at its ledger position.
+Prepared technical references: references/exit-transition.png, references/roller-profile.png
+Phone review target: Three neighbor treads and the first part of the hidden turn visible; compare height before drawing the level line.
+
+SCENE 06 | 37–43 seconds PROVISIONAL
+
+Scene: Medium wide from the near side of the upper landing, using cartoon foreground/background staging. Sol is large at foreground right, while the illustrated cutaway recedes diagonally toward the lower-left entrance. This is a deliberate angle change from the earlier flat side overview.
+Camera: Camera level with Sol's face, angled three-quarter across the upper landing from the same near side. Both eyes are visible. Preserve screen direction even though depth is reintroduced.
+Composition: Sol is centered around x=68%, with full body from y=20–55% (35% frame height) and feet planted on the stationary upper floor. The highlighted step at the lower turnaround is around x=20%, y=73%. The cutaway links that lower-left point to the landing behind Sol without crossing the caption strip.
+Camera movement: Locked generated/source camera. Gentle 6% push is an editable Remotion move only; preserve both technical connections or both main subjects.
+
+FIRST FRAME — FINISHED COMPOSITE
+Sol stands grounded on the upper landing at right foreground, full body and both navy eyes readable. At lower-left, S17 is in the lower turnaround, approaching its return to the entrance. The matching return view uses the same world geometry as the full-loop view.
+
+DIALOGUE
+Sol: “So the step I just rode comes back around for the next person?”
+Narrator: “Exactly.”
+
+ACTION / SPOKEN BEATS
+Prioritize three beats: S17 reappears at the bottom entrance; Sol looks up toward Arthur on Exactly; Sol settles into a happy held pose. Use eye direction and a small body lift rather than a second large take. A bounce is optional only if the real recording leaves room for the final hold. Keep the generated camera locked; add the gentle 6% push in Remotion with both Sol and the returning tread visible.
+Original tread reappears: One small lean and following eye direction; keep feet grounded. Eyes: tracking. Gaze: S17 at the lower entrance.
+Arthur: Exactly: Eyes lead one clear upward acknowledgment; face follows. Eyes: listening_up. Gaze: Fixed Arthur point just above the camera.
+Final reaction hold: Relax into a held happy pose. Bounce only if the measured take leaves room for the final readable hold. Eyes: delight. Gaze: Face remains oriented toward Arthur.
+
+LAST FRAME — FINISHED COMPOSITE
+Locked clean source composition. Sol is planted on the stationary upper floor at foreground right, his face tipped up toward Arthur and two navy eyes held as happy crescents. S17 is back on the lower entrance run at left. Both subjects remain readable; the optional bounce has settled. The gentle delivery push is edit-only.
+Next cut: Hold the happy ending with S17 readable at the entrance. Set the final hold from actual takes; omit an optional bounce before shortening the hold.
+Prepared technical references: references/return-view.png, references/mechanism-schematic.png
+Phone review target: Sol about 35% of picture height, returning tread at least 24px wide, both retained through edit push; happy final hold target at least 0.75 seconds if actual take allows.
+
+VOICE-FIRST TIMING AND FINISHING
+43 seconds is a planning estimate only. Record/import separate natural-rate Arthur and Sol takes at 1x; then set scene boundaries, word cues, reveal holds, reaction holds and the S17 route clock from the actual waveforms. Caption timings are not yet locked.
+Export 1080 × 1920 at 30 fps. Character poses may use a roughly 12 fps stepped feel; keep technical motion and camera moves smooth.
+Captions: Ramento, local family Rammetto One; white #FFFFFF, Ignite orange glyph outline #F07B2A, one or two editable lines. Font source: assets/fonts/RammettoOne-Regular.ttf
+Reserve x=10–84%, y=80–87% as the caption target; keep important action above y=76%. Validate against the actual platform controls at phone size.
+Keep captions, arrows, track colors, orange S17 highlight, contact halos and sound effects editable. Sol and Arthur remain separate audio tracks.
+Existing Remotion setup: remotion/ (actual current root folder), one existing npm install; no episode composition/edit exists yet
+Assembly gap: Existing Composition.tsx/style.css use a single loaded font and cream caption boxes; episode assembly must explicitly use the specified font, white fill and orange glyph stroke without changing unrelated episodes.
+
+GENERATION ORDER
+Review this revised text and voice decisions; do not submit jobs.
+Use actual separate natural-rate voice takes when available; until then a silent Scene 01 visual test may run after authorization, but it cannot lock final scene lengths or captions.
+Run Scene 01 first: approve first/last stills and test one continuous grounded transfer and tread disappearance; inspect at phone size.
+Review the prepared local schematic and its consistent return view before generating Scene 02.
+Generate remaining first/last pairs in scene order using the approved preceding art plus the corresponding schematic references.
+Submit one continuous motion candidate per scene only after its pair passes review. Use controlled Remotion motion for any failed technical contacts; keep model pushes out of footage.
+Lock voices, scene cuts, captions and the monotonic S17 route clock; add editable overlays, export and inspect.
+
+RELATED EPISODE FILES
+higgsfield-prompts.txt — 12 self-contained still-image blocks and six motion blocks.
+scene-01-test-plan.txt — first test and pass/fail criteria; no jobs submitted.
+references/mechanism-geometry.json and the five matching SVG/PNG views — shared geometry and route clock.
+handoff.txt — assumptions, remaining checks and exact file inventory.

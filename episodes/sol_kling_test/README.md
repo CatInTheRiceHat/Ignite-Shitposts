@@ -3,7 +3,10 @@
 This existing episode is a **4-second** painted lantern shot. Its downloaded
 Kling clip is 720 × 1280; the Remotion preview places it without cropping in
 a 1080 × 1920, 30 fps composition. Preserve the episode's custom Sol voice
-override in `audio-test.json`; the shared default for new shorts remains Cub.
+settings in `audio-test.json`. That saved Higgsfield custom voice **Sol** is
+also the shared Sol character voice for new skits; see the
+[shared voice cast](../../workflow/config/voices.json). Arthur is the
+off-screen Narrator in two-voice skits.
 
 - `generation-request.json`: submitted shot settings, prompt and source art.
 - `keyframes/` and `clips/`: approved first frame and downloaded footage.
