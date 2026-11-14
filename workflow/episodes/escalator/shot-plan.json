@@ -27,8 +27,9 @@
       "role": "off-screen Narrator",
       "speech_rate": 0,
       "playback_rate": 1,
-      "voice_id": null,
-      "voice_id_status": "Arthur name verified by project decision; exact preset ID not present in available project records; resolve before audio submission"
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio"
     }
   },
   "staging": "One upward-running mall escalator, lower floor on screen left and upper landing on screen right. The rising steps always travel left to right; the hidden return run travels right to left. Warm painted mall lighting. One step has an orange painted edge so the viewer can track it. Sol rides that step at the opening, then stays on the upper landing throughout the explanation. Close-ups of other steps do not inherit the orange highlight.",
