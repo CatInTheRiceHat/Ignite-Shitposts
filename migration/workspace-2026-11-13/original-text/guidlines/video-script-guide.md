@@ -1,6 +1,6 @@
 # Ignite video script guide
 
-Use this to write short educational videos for Ignite. Start with the [guidelines index](README.md) for shared defaults and renderer choices. Pair each narration beat with a shot in [shot-integration-and-sol.md](shot-integration-and-sol.md). Use [video-style-guide.md](video-style-guide.md) for pacing and visual review.
+Use this to write short educational videos for Ignite. Pair each narration beat with a shot in [shot-integration-and-sol.md](shot-integration-and-sol.md). Use [video-style-guide.md](video-style-guide.md) for pacing and visual review.
 
 ## Write one answer viewers can see
 
@@ -14,7 +14,7 @@ Write for a curious middle or high school student. Use warm, energetic sentences
 ## Narration and timing
 
 - Use the existing MoGoFun/TikTok voice **Cub (Female)** as the off-screen narrator unless the episode brief specifies a different voice. Sol communicates through body motion and interaction with the scene.
-- New shorts default to **30 seconds**. Preserve intentional episode overrides: the calculus pilot is **15 seconds**, the Remotion zipper demo is **20 seconds**, and the Sol lantern test is **4 seconds**. Check the episode's own edit rather than resetting it to a shared duration.
+- Use about **15 seconds** for the calculus pilot. For a new short, start with roughly 15–20 seconds and trim by listening to the actual take.
 - Write the draft before committing to shot timing. Time the final edit to the downloaded narration, leaving a brief pause where the viewer needs to see the answer. Keep narration, captions, and shot direction in separate fields.
 
 | Beat | What to write | What to plan |

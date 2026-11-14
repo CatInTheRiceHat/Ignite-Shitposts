@@ -69,6 +69,7 @@ npm --prefix workflow/remotion run dev -- my_next_short
 ```
 
 Edit the new JSON's `id`, title, hook, shots, captions, palette and narration.
+The starter uses the shared painted reference as a temporary background.
 Replace draft artwork and caption text before release. `setup-assets` copies
 shared Sol, the painted reference and Nunito into that episode's `public/`;
 modified destination files are preserved and reported. No package manifest or

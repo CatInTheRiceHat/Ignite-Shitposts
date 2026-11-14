@@ -30,7 +30,8 @@ These guides describe the common creative approach; the episode files hold
 its exact settings. The template currently models the calculus sequence,
 so adapt the script and shot plan deliberately for another topic.
 The neutral [Remotion starter](../templates/remotion-episode.json) provides
-hook, setup, reveal and payoff placeholders without zipper or calculus art.
+hook, setup, reveal and payoff placeholders without a topic-specific script
+or shot plan. Replace its shared reference background with episode artwork.
 
 Reference artwork lives in [assets/](../assets/README.md). The upstream
 generator in `vendor/` contains a different 3D style; use these Ignite guides

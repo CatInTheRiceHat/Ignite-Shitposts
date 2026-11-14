@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:03,000
+How steep is a curve at one point?
+
+2
+00:00:03,000 --> 00:00:06,000
+Two points give an average slope.
+
+3
+00:00:06,000 --> 00:00:09,000
+Bring those points closer together.
+
+4
+00:00:09,000 --> 00:00:12,000
+The line approaches a tangent.
+
+5
+00:00:12,000 --> 00:00:15,000
+Its slope is the derivative: change right here.

@@ -1,0 +1,98 @@
+{
+  "inventory_entries": 345,
+  "unchanged_files_and_links": 327,
+  "unchanged_media_and_fonts": 223,
+  "intentional_code_reference_and_document_updates": [
+    "workflow/README.md",
+    "workflow/assets/README.md",
+    "workflow/episodes/README.md",
+    "workflow/episodes/sol_kling_test/README.md",
+    "workflow/episodes/sol_kling_test/remotion/render.mjs",
+    "workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+    "workflow/episodes/zipper_demo/.gitignore",
+    "workflow/episodes/zipper_demo/README.md",
+    "workflow/guidelines/README.md",
+    "workflow/guidelines/shot-integration-and-sol.md",
+    "workflow/remotion/README.md",
+    "workflow/remotion/package-lock.json",
+    "workflow/remotion/package.json",
+    "workflow/remotion/scripts/copy-assets.ts",
+    "workflow/remotion/scripts/video.ts",
+    "workflow/remotion/src/Root.tsx",
+    "workflow/remotion/tests/episode.test.ts",
+    "workflow/remotion/tsconfig.json"
+  ],
+  "preservation_issues": [],
+  "broken_symlinks": [],
+  "broken_document_links": [],
+  "changed_existing_dependency_entries": [],
+  "generation_jobs_submitted": 0,
+  "checks": [
+    {
+      "command": "npm test",
+      "cwd": "workflow/remotion",
+      "tests": 8,
+      "result": "passed"
+    },
+    {
+      "command": "npm run lint",
+      "cwd": "workflow/remotion",
+      "result": "passed; engine and custom Sol composition type-checked"
+    },
+    {
+      "command": "npm run sol:check",
+      "cwd": "workflow/remotion",
+      "result": "passed; 1080x1920, 30fps, 120 frames"
+    },
+    {
+      "command": "npm run still -- zipper_demo --frame 270 --output .cache/hybrid-smoke.png",
+      "cwd": "workflow/remotion",
+      "result": "passed; selected episode assets and output folder"
+    },
+    {
+      "command": "npm run dev -- zipper_demo --no-open",
+      "cwd": "workflow/remotion",
+      "result": "passed; Studio ready and built in 6373ms; stopped after checking"
+    },
+    {
+      "command": "npm ls --depth=0 --offline",
+      "cwd": "workflow/remotion",
+      "result": "passed; one shared install"
+    },
+    {
+      "command": "neutral starter setup-assets and still through an explicit JSON path",
+      "result": "passed; no zipper assets required; see neutral-smoke.json"
+    },
+    {
+      "command": "two-second generic video export, ffprobe and full FFmpeg decode",
+      "result": "passed; 1080x1920, 30fps, 60 frames, H.264, episode-owned output folder"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  ],
+  "neutral_episode_smoke": {
+    "episode": "workflow/.cache/hybrid-neutral-49odmxyq",
+    "config": "workflow/.cache/hybrid-neutral-49odmxyq/edit.json",
+    "preview": "workflow/.cache/hybrid-neutral-49odmxyq/renders/generic-preview.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "template": "workflow/templates/remotion-episode.json",
+    "result": "passed; neutral episode rendered through shared engine",
+    "full_export": {
+      "config": "workflow/.cache/hybrid-neutral-49odmxyq/render-smoke.json",
+      "output": "workflow/.cache/hybrid-neutral-49odmxyq/renders/generic-smoke.mp4",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration_sec": 2,
+      "frames": 60,
+      "decode": "passed",
+      "result": "passed; generic episode export stayed in its own renders folder"
+    }
+  }
+}
