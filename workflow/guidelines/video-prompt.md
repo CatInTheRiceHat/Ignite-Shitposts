@@ -8,6 +8,14 @@ Carry Ignite's established painted 2D look from the approved keyframes through t
 
 Animate only the elements needed for the shot. Keep background movement restrained, maintain breathing room around the subject, and direct attention to one clear action. Use particles, glow, camera shake, and other effects only when the scene brief calls for them. Preserve technical geometry throughout the motion.
 
+When Sol is visible, include the identity wording from
+[image-prompt.md](image-prompt.md#sol-identity-and-continuity). Preserve every
+mascot feature during movement and across cuts, explicitly including the short
+arms, stubby feet and original eyes. Pose changes keep the same anatomy and
+proportions. Painted surface treatment must preserve the asset design. Check
+the source mascot examples alongside the approved frames; earlier generated
+anatomy does not override those originals.
+
 ## How to fill it in
 
 Read the scene brief, approved keyframes, and project style guide. Choose the main action, camera behavior, starting state, and ending state. Replace the bracketed fields and remove optional sentences that do not apply. Use concrete verbs and visible outcomes.
@@ -56,6 +64,7 @@ For Ignite scenes, carry the approved painted 2D treatment through the motion. W
 
 - Play the clip and inspect the beginning, middle, and end for the requested action and timing.
 - Check character identity, prop shape, contact, movement direction, and camera stability.
+- Compare Sol's arms, feet, eyes and flame layers with the source assets through the clip and across scene cuts; reject growth, reshaping or a different mascot design.
 - Check that brushwork and simple shapes stay consistent, and the background retains accurate geometry and scale.
 - Check that motion and effects support the main action and keep the frame easy to read.
 - Verify that a transformation completes in the intended order and ends in the specified state.

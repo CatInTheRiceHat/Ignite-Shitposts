@@ -23,4 +23,6 @@ Run independent actual-footage review before production use. Read
 `workflow/config/sol-references.json`: use Mascot.png and the additional mascot
 examples for Sol's design, retain the paint treatment the user accepted, and
 use the lantern video for finish/movement. The character/pair remain unapproved.
+Keep every mascot feature consistent across clips, including the original
+eyes, short rounded arms and stubby feet; paint must preserve their design.
 Never record frame approval on the user's behalf. Preserve all existing media.

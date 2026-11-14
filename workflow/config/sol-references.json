@@ -12,13 +12,20 @@
   "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
   "role_policy": "Use Mascot.png and the supplied mascot examples for Sol's actual design. Keep the paint treatment the user accepted. The lantern video guides finish/movement; it must not replace the mascot's geometry. Props in the examples are not part of the neutral character.",
   "identity_constraints": [
-    "Match the original outer flame silhouette and arrangement of its main tip and side lobes.",
-    "Retain the mascot's broad cream inner-flame shape, rounded lower face and flame-shaped crown; do not narrow it into a ghost-like droplet or heart mask.",
-    "Keep the original paired navy oval eyes low on the cream face at the source size and spacing.",
-    "Retain the source's compact rounded nub limbs and recognizable layered colors.",
-    "Keep Sol mouthless and the hands empty for this scene. Use the approved pose and camera, rather than copying reference props."
+    "Match the original outer flame silhouette, main tip, side lobes, layered colors and broad cream inner flame with its crown and rounded lower face.",
+    "Keep the original small flat navy oval eyes at the source size, spacing and low placement; do not add pupils or white highlights absent from the assets.",
+    "Preserve the short rounded red-orange arms shown in the mascot examples, including shape, thickness, length and attachment points. Do not turn them into long arms or large separate hands.",
+    "Preserve the stubby rounded red-orange foot nubs and their body-to-foot proportions; do not lengthen legs or add shoes, toes or fingers.",
+    "Keep the same mouthless mascot across every visible scene and throughout motion. Pose and perspective change while character features and anatomy stay consistent.",
+    "Apply the painted treatment to those same source shapes; do not copy redesigned anatomy from a previously generated frame.",
+    "Keep hands empty in the escalator scenes. Example props and accessories are not part of the neutral mascot."
   ],
-  "latest_user_clarification": "The paint treatment is right; Sol does not match the mascot. More mascot examples were supplied.",
+  "latest_user_clarification": "2026-11-14: Keep ALL mascot features, explicitly including arms, stubby feet and eyes, consistent across clips. The painted aesthetic must preserve the design in the prompts and original asset examples.",
   "paint_treatment_accepted": true,
-  "frame_pair_approved": false
+  "frame_pair_approved": false,
+  "limb_identity_examples": [
+    "workflow/assets/reference-art/Curious.png",
+    "workflow/assets/reference-art/Celebrate.png"
+  ],
+  "identity_priority": "Original mascot assets define all character geometry and features. Painted references supply surface treatment and lighting; previous generated frames supply continuity. Neither overrides the original arms, stubby feet, eyes, flame layers, colors or proportions."
 }

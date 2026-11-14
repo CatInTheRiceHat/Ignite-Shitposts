@@ -9,6 +9,10 @@ Narrator: Arthur, off-screen. Sol: the saved Higgsfield custom Sol voice.
 VISUAL AND APPROVAL RULE
 Keep the accepted paint treatment. Match Mascot.png and the supplied mascot examples for Sol's actual design; the lantern video guides movement and finish. Current escalator art is unapproved. Generate first and last stills, show BOTH to the user and wait for explicit approval of the exact pair before any video. Video model: Gemini Omni Flash 1.2.
 
+MASCOT CONTINUITY
+Keep Sol identical to the attached mascot assets: the same layered flame silhouette and colors, broad cream inner flame, two small flat navy oval eyes at the original size, spacing and placement, short rounded red-orange arms and stubby nub feet at the source proportions and attachment points. Keep him mouthless, with simple rounded limb ends. Change pose and viewing angle without lengthening limbs or redesigning features. Apply the painted finish to these same shapes; keep the eyes free of new pupils or white highlights.
+Pose changes preserve the same arms, stubby feet and eyes across every clip. Original assets control identity; prior generated anatomy does not override them.
+
 CONTINUITY
 The same orange-edged tread carries Sol to the exit, disappears under the plate, travels through the return run, and reappears at the bottom.
 Scene 02 follows that tread into the return run. It keeps traveling while Scenes 03–05 show other gray steps and parts of the mechanism.
@@ -22,13 +26,13 @@ SCENE 01 — 5 seconds
 Framing: Locked elevated view from the upper landing looking back down ONE straight full-size escalator connecting TWO mall floors. Fixed upper-floor tiles, a flush metal plate and a gray transverse comb occupy the foreground. The straight flight descends away to ONE lower landing and ONE lower storefront level; the upper-floor slab edges establish the single-storey drop. Both glass balustrades and near upper handrail noses follow the same normal incline, with only short flattening transitions. Three distinct moving treads are flat before the full-width comb. Sol stays full-body near center, about one third of picture height, with both feet and comb unobstructed.
 Camera: Locked medium full-body view; soft daylight from upper-left. Neutral gray steps, charcoal rails, cream floor and a simple blue-gray lower storefront use the restrained painted reference finish.
 
-First frame: Sol retains the accepted painted finish and current mascot design, with a broad cream inner flame, small navy oval eyes low on the face and tiny rounded limbs. He faces camera in a gentle three-quarter pose, empty-handed. His forward foot is on the fixed foreground landing plate; his trailing foot is on the nearest already-flat moving tread behind the gray transverse comb. ONE small orange rectangular mark identifies that tread. All other treads and the stationary comb are gray. Three separate flat treads approach the comb; farther stairs descend away into the atrium. Both upper rail noses and soles remain visible.
+First frame: Sol retains the accepted painted finish and current mascot design, with a broad cream inner flame, small navy oval eyes low on the face and tiny rounded limbs. He faces camera in a gentle three-quarter pose, empty-handed. His forward foot is on the fixed foreground landing plate; his trailing foot is on the nearest already-flat moving tread behind the gray transverse comb. ONE small orange rectangular mark identifies that tread. All other treads and the stationary comb are gray. Three separate flat treads approach the comb; farther stairs descend away into the atrium. Both upper rail noses and soles remain visible. Sol's short rounded arms, stubby feet and small flat navy oval eyes keep the source-asset shapes, colors, proportions and attachment points.
 
 Sol: “Wait, where do these steps go when they disappear into the floor?”
 
 Action: During the opening second, move only the trailing foot toward the foreground camera onto the fixed plate beside the already planted forward foot. Keep the forward foot fixed. The single marked tread advances toward camera and disappears beneath the stationary transverse comb. Sol retains his existing curious face angle toward the comb and holds. Subsequent gray treads ascend from the background, flatten and pass beneath the comb.
 
-Last frame: Identical camera, painted architecture, Sol scale, paired upper rail noses, three separate flat approach treads and gray transverse comb. The forward foot is fixed in the same place. The trailing foot is now beside it on the stationary plate; both WHOLE soles lie clearly in front of the comb with a small visible gap. Sol retains the first frame's curious face angle and gaze at the comb, keeping both original oval eyes. The marked tread is hidden beneath the fixed plate. All visible treads and stationary comb teeth remain gray.
+Last frame: Identical camera, painted architecture, Sol scale, paired upper rail noses, three separate flat approach treads and gray transverse comb. The forward foot is fixed in the same place. The trailing foot is now beside it on the stationary plate; both WHOLE soles lie clearly in front of the comb with a small visible gap. Sol retains the first frame's curious face angle and gaze at the comb, keeping both original oval eyes. The marked tread is hidden beneath the fixed plate. All visible treads and stationary comb teeth remain gray. Sol's short rounded arms, stubby feet and small flat navy oval eyes keep the source-asset shapes, colors, proportions and attachment points.
 Next cut: Cut to a true side overview of the same single-storey escalator loop. Establish uphill screen-right travel in this new view; the opening view looked along the run. Preserve Sol's questioning lean and the unique marked tread beneath the upper comb.
 
 SCENE 02 — 7 seconds
@@ -36,13 +40,13 @@ SCENE 02 — 7 seconds
 Framing: Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition.
 Camera: Locked camera throughout the generated clip.
 
-First frame: Sol holds the previous questioning lean and navy eye pose toward the exit. His original orange-edged tread is in the hidden upper turn. Show the complete passenger run, upper turn, return run and lower turn with consistent rigid steps and separate guide paths. The two guide tracks are painted cyan and purple as part of the scene.
+First frame: Full-loop side cutaway. Sol is planted on the upper-right landing in the same down-left questioning lean and eye pose as the previous shot. the original orange-edged tread is in the hidden upper turn, with both the passenger run and return run visible. Sol's short rounded arms, stubby feet and small flat navy oval eyes keep the source-asset shapes, colors, proportions and attachment points.
 
 Narrator: “They turn underneath and ride back to the bottom. Same steps, one big loop.”
 
 Action: Give Sol one clear upward glance toward Arthur. Then let him follow the same orange-edged tread around the upper turn and into the return run beneath the staircase. Keep the whole loop visible and finish with Sol following the tread down-left; do not add a second glance up.
 
-Last frame: The original orange-edged tread is now early in the return run beneath the upper portion of the escalator. Sol remains planted on the upper landing with a small down-left tracking lean and navy ovals directed along that tread's route. He is following the tread, not looking upward. Preserve the entire loop in the same camera and crop. Keep the same cyan and purple guide tracks painted in the scene.
+Last frame: The same side camera shows the entire loop. the original orange-edged tread is early in the return run under the upper portion of the escalator. Sol stays on the upper landing with a small down-left tracking lean and his original navy ovals directed along that tread's path. He is not looking back up at Arthur. Sol's short rounded arms, stubby feet and small flat navy oval eyes keep the source-asset shapes, colors, proportions and attachment points.
 Next cut: Cut to the drive. the original orange-edged tread continues along the return run, continuing its visible route; keep it the same physical tread.
 
 SCENE 03a — 4 seconds
@@ -106,14 +110,14 @@ SCENE 06 — 6 seconds
 Framing: Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition.
 Camera: Locked camera throughout the generated clip.
 
-First frame: Sol follows the original orange-edged tread with a small down-left lean and recognizable navy oval eyes. His feet are on the stationary upper floor. The tread is in the lower turnaround, approaching its reappearance. Retain the same rigid step and guide geometry throughout the cutaway.
+First frame: Sol stands grounded on the upper landing at right foreground, full body and both navy eyes readable. At lower-left, the original orange-edged tread is in the lower turnaround, approaching its return to the entrance. The matching return view uses the same world geometry as the full-loop view. Sol's short rounded arms, stubby feet and small flat navy oval eyes keep the source-asset shapes, colors, proportions and attachment points.
 
 Sol: “So the step I just rode comes back around for the next person?”
 Narrator: “Exactly.”
 
 Action: Show the original orange-edged tread reappearing at the lower entrance. Sol follows it with a small whole-face turn. On the off-screen confirmation, he tips his face toward the fixed point just above the camera, then holds a relaxed, quietly pleased pose with his original paired oval eyes. Keep his feet grounded and the camera locked.
 
-Last frame: The original orange-edged tread has reappeared on the lower entrance run at left. Sol stands grounded at right, his face tilted up toward a voice point just above the camera and his two navy eyes retaining their original matched oval shapes. His flame body is compact and relaxed; both feet and the returned tread remain readable. Keep the same locked source camera and crop.
+Last frame: Sol stands grounded at foreground right, face tipped up toward Arthur and navy eyes retaining their original matched oval shapes. The original orange-edged tread is visible back at the lower entrance. Hold both subjects clearly in the same frame. Sol's short rounded arms, stubby feet and small flat navy oval eyes keep the source-asset shapes, colors, proportions and attachment points.
 Next cut: Hold the happy ending with the original orange-edged tread readable at the entrance. Set the final hold from actual takes; omit an optional bounce before shortening the hold.
 
 ASSEMBLY

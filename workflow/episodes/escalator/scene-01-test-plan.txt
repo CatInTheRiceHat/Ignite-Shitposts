@@ -9,3 +9,5 @@ Current revision: nano-v1; Nano Banana 2.1 stills using guidelines/image-prompt.
 7. Preserve rejected attempts. All old mascot-v1–v5 drafts are unapproved; preserve them and never animate them.
 
 Image references: Mascot.png defines identity. The lantern artwork and actual lantern clip define the restrained painted finish. The prior v5 image supplies coherent mechanical composition only. Check the new pair at phone size before asking for user approval.
+
+NEXT PROMPT REVISION: nano-v2, not yet generated. Check exact original mascot arms, stubby feet and flat navy eyes against Mascot.png plus Curious.png/Celebrate.png. Surface paint preserves the source anatomy. Existing Nano v1 files remain unchanged and unapproved.

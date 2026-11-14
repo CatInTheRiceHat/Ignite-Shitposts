@@ -10,6 +10,22 @@ Build a clean, accurate background with the environmental details needed to unde
 
 Let one action or teaching point lead the composition. Use background contrast and detail sparingly so the subject reads immediately at phone size. Keep decorative effects restrained and use them only when the scene calls for them.
 
+## Sol identity and continuity
+
+Use the original mascot assets to define every character feature. Mascot.png
+sets the neutral silhouette, proportions and eyes; examples such as Curious.png
+and Celebrate.png show the short arms and stubby feet in different poses.
+Attach a relevant limb example as well as the neutral mascot when needed.
+Example props and accessories are separate from the character design. The
+painted references supply surface treatment and light. Pose and perspective
+can change while Sol's anatomy and features stay consistent across scenes.
+
+Include this wording in prompts where Sol is visible:
+
+```text
+Keep Sol identical to the attached mascot assets: the same layered flame silhouette and colors, broad cream inner flame, two small flat navy oval eyes at the original size, spacing and placement, short rounded red-orange arms and stubby nub feet at the source proportions and attachment points. Keep him mouthless, with simple rounded limb ends. Change pose and viewing angle without lengthening limbs or redesigning features. Apply the painted finish to these same shapes; keep the eyes free of new pupils or white highlights.
+```
+
 ## How to fill it in
 
 Read the scene brief and project style guide. Replace the bracketed fields with concrete visual details and remove optional sentences that do not apply. Describe a single moment that can be seen in one image. Use the approved references to establish character identity and visual style.
@@ -52,6 +68,7 @@ For Ignite scenes, use the approved painted 2D art to set texture and lighting. 
 
 - The image shows the requested moment, pose, and composition clearly.
 - The character design and visual style follow the references.
+- Sol's arms, stubby feet, eyes and flame layers match the original assets and remain the same character across the first/last pair and other clips.
 - The background establishes the setting with accurate perspective, scale, and essential details.
 - The composition has one clear focus, breathing room, and restrained background detail.
 - Props, hands, feet, and surfaces meet where the scene requires contact.

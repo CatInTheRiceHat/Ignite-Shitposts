@@ -1,5 +1,5 @@
 {
-  "status": "Scene 01 Nano still pair regenerated, reviewed and ready for user approval; no video submitted",
+  "status": "Mascot-identity prompt corrections saved; no new generation submitted",
   "scenes": 7,
   "image_prompts": 14,
   "video_prompts": 7,
@@ -29,9 +29,9 @@
   "feedback": "['Keep eyes at lantern-reference proportions without exaggerated morphing.', 'Match painted storybook finish on Sol himself, including the softly wispy flame tip.', \"Copy the existing lantern video's overall look and gentle performance.\"] User: the escalator looks funny. Replace the freestanding miniature stairs with a full-size upper exit, flush landing, flattened exit treads and two upper handrail noses. Preserve current Sol and accepted paint.",
   "replacement_generation_submitted": true,
   "replacement_outputs": {
-    "first": "keyframes/01-first-nano-v1.png",
-    "last": "keyframes/01-last-nano-v1c.png",
-    "video": "clips/01-scene-omni-nano-v1.mp4"
+    "first": "keyframes/01-first-nano-v2.png",
+    "last": "keyframes/01-last-nano-v2.png",
+    "video": "clips/01-scene-omni-nano-v2.mp4"
   },
   "rejected_motion_take": "clips/01-scene-lantern-v2-motion-rejected.mp4",
   "replacement_video_model": "gemini_omni_flash_1_2; image-to-video; 1080p; both user-approved endpoint stills",
@@ -53,7 +53,7 @@
     "direct_render_gate": "verified blocking",
     "video_request_gate": "verified blocking"
   },
-  "current_pair_status": "First nano-v1 and last nano-v1c ready; explicit user pair approval pending",
+  "current_pair_status": "Latest Nano v1 look received positive feedback; all-feature identity correction pending. New v2 frames are ungenerated and unapproved.",
   "paint_treatment_accepted": true,
   "mascot_references_config": "workflow/config/sol-references.json",
   "mascot_identity_approved": false,
@@ -65,5 +65,6 @@
   ],
   "geometry_review_v3": "Upper-exit orientation unclear; far rail returns and apparently same-level floor.",
   "geometry_review_v4": "Multi-floor curved chute; simplify to one normal straight flight.",
-  "image_generation_model": "nano_banana_2_1"
+  "image_generation_model": "nano_banana_2_1",
+  "latest_identity_critique": "2026-11-14: Keep ALL mascot features, explicitly including arms, stubby feet and eyes, consistent across clips. The painted aesthetic must preserve the design in the prompts and original asset examples."
 }
