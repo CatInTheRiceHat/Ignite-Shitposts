@@ -1,0 +1,2883 @@
+{
+  "status": "all moved files verified unchanged",
+  "collisions": [],
+  "files": [
+    {
+      "before": "scripts/shorts.py",
+      "after": "workflow/scripts/shorts.py",
+      "sha256": "99cd605d907757bc82eaecee7d4b2759246816f2a94e136df6a881c7983c6455",
+      "size": 13743
+    },
+    {
+      "before": "scripts/paths.py",
+      "after": "workflow/scripts/paths.py",
+      "sha256": "b9c011a37650d43674a2cb93fc12efc3dd207bad6c50a370c2489ef4e0634202",
+      "size": 2141
+    },
+    {
+      "before": "scripts/calculus_pilot.py",
+      "after": "workflow/scripts/calculus_pilot.py",
+      "sha256": "27c339385d8d0822b9ef0378c0b1c54d82a095497671d659bdd553643a101ae0",
+      "size": 14969
+    },
+    {
+      "before": "scripts/google_flow.py",
+      "after": "workflow/scripts/google_flow.py",
+      "sha256": "f1716bb9ab3879c7bf6815148561cc697a3eebc3f84091fdb81fffc96f077b58",
+      "size": 23486
+    },
+    {
+      "before": "scripts/calculus_edit.py",
+      "after": "workflow/scripts/calculus_edit.py",
+      "sha256": "3371855757a7b4d5c840fd019ad1bdb632a514578f225a4152d3cac7d58da990",
+      "size": 24588
+    },
+    {
+      "before": "assets/sol-full-body.png",
+      "after": "workflow/assets/sol-full-body.png",
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605",
+      "size": 540293
+    },
+    {
+      "before": "assets/.DS_Store",
+      "after": "workflow/assets/.DS_Store",
+      "sha256": "0c41da4aa8abd9cb7e5dd6739e25f6a951a8f0a65f2a879c5519af6e6e3d0d43",
+      "size": 6148
+    },
+    {
+      "before": "assets/README.md",
+      "after": "workflow/assets/README.md",
+      "sha256": "515d5b769030c41b7188584d278f02b47cd221a88b6541fade123a286629bd9a",
+      "size": 1194
+    },
+    {
+      "before": "assets/calculus-painted-scene.jpg",
+      "after": "workflow/assets/calculus-painted-scene.jpg",
+      "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe",
+      "size": 1621297
+    },
+    {
+      "before": "assets/music/Hide and Sneak 4.mp3",
+      "after": "workflow/assets/music/Hide and Sneak 4.mp3",
+      "sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23",
+      "size": 2847109
+    },
+    {
+      "before": "assets/music/Pizzicato Comedy 4.mp3",
+      "after": "workflow/assets/music/Pizzicato Comedy 4.mp3",
+      "sha256": "a3417d5ac02f7569969e978196a5118d602f1bc7cae97fc429d6596bdea35c20",
+      "size": 2320499
+    },
+    {
+      "before": "assets/music/Roblox Break In OST - Larry Stairs Extended.mp3",
+      "after": "workflow/assets/music/Roblox Break In OST - Larry Stairs Extended.mp3",
+      "sha256": "00a18ab756e13e51e38f63bb4c67b068c4a84a6e48d32fbf82e8048c946ec379",
+      "size": 33370320
+    },
+    {
+      "before": "assets/music/Lurking Behind 4.mp3",
+      "after": "workflow/assets/music/Lurking Behind 4.mp3",
+      "sha256": "3fa9d80ec9e5d6a8a797b1e50fbfe6539ba84a5f89c2205654ad24c64604d260",
+      "size": 2653501
+    },
+    {
+      "before": "assets/music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3",
+      "after": "workflow/assets/music/Christoffer Moe Ditlevsen - The King of Thieves (Royalty Free Music) 4.mp3",
+      "sha256": "86547df5be914d00059f3cbdcb9bb79fff8e331bec5453aeadd13576930420d1",
+      "size": 3083920
+    },
+    {
+      "before": "assets/music/ignite-sol-shorts-preview.mp4",
+      "after": "workflow/assets/music/ignite-sol-shorts-preview.mp4",
+      "sha256": "2dac91645c8ac45a576da4f449b2736ae3c09d6db85a0b638dc3307c2765aa67",
+      "size": 191641
+    },
+    {
+      "before": "assets/music/Roblox Break In OST - Daytime Extended.mp3",
+      "after": "workflow/assets/music/Roblox Break In OST - Daytime Extended.mp3",
+      "sha256": "8a143e0f832734effe1f79e467717f1cfd78a6486c39908e06938f35060c4213",
+      "size": 35115909
+    },
+    {
+      "before": "assets/music/Roblox Break In OST - Nighttime Extended 4.mp3",
+      "after": "workflow/assets/music/Roblox Break In OST - Nighttime Extended 4.mp3",
+      "sha256": "be6a6e4d1d439b3610e060d4cafc842110c2f5d1a3560f64afad9d3070abdb8b",
+      "size": 33482949
+    },
+    {
+      "before": "assets/reference-art/Loading Screen.mp4",
+      "after": "workflow/assets/reference-art/Loading Screen.mp4",
+      "sha256": "020f91e1e41c38d483fc4815fff95dfdcf4c58263c940d294c8fe6670910b181",
+      "size": 2913738
+    },
+    {
+      "before": "assets/reference-art/Summer.jpg",
+      "after": "workflow/assets/reference-art/Summer.jpg",
+      "sha256": "4f1141390acb93e5a8109e675397237bcc1d8679ca9f70ee019e53de17adfb19",
+      "size": 591867
+    },
+    {
+      "before": "assets/reference-art/Practical Learning.jpg",
+      "after": "workflow/assets/reference-art/Practical Learning.jpg",
+      "sha256": "0bd1da372877c25822c9a4226e4b1e737fd170f132a98005af0ad6cbcf836406",
+      "size": 2966252
+    },
+    {
+      "before": "assets/reference-art/.DS_Store",
+      "after": "workflow/assets/reference-art/.DS_Store",
+      "sha256": "9214ff9d1b8508fbf986a7e32c8abc305d830cd4b2219b14c0e89f3f8d0feec6",
+      "size": 6148
+    },
+    {
+      "before": "assets/reference-art/Hero.jpg",
+      "after": "workflow/assets/reference-art/Hero.jpg",
+      "sha256": "cada55517a1441c4a12da85a8193f8e2ea4f742fe8400c3e9c06a13c529f4093",
+      "size": 1759665
+    },
+    {
+      "before": "assets/reference-art/Loading Screen Mobile.webp",
+      "after": "workflow/assets/reference-art/Loading Screen Mobile.webp",
+      "sha256": "84d8580312003b13217e620004c6f27a5bf005a97a0a9c64b52fcffece81f4d5",
+      "size": 24888
+    },
+    {
+      "before": "assets/reference-art/Loading Screen.webp",
+      "after": "workflow/assets/reference-art/Loading Screen.webp",
+      "sha256": "09af6b4b1e49e0f9f42705fe418e70faf28d5042e1178021c76d17537f0f6cbf",
+      "size": 22910
+    },
+    {
+      "before": "assets/reference-art/Loading Screen Mobile.mp4",
+      "after": "workflow/assets/reference-art/Loading Screen Mobile.mp4",
+      "sha256": "a4e59a0a02c6fbaa0f8ff63d2dc1f1165c536f09792edd4c8e70b03edc5e9bbf",
+      "size": 1622938
+    },
+    {
+      "before": "assets/reference-art/Fall.jpg",
+      "after": "workflow/assets/reference-art/Fall.jpg",
+      "sha256": "0ec361cf735c7ebc97ccf0b929233609778f98327c081684df3d3f872f2e63e9",
+      "size": 609148
+    },
+    {
+      "before": "assets/reference-art/Matters.jpg",
+      "after": "workflow/assets/reference-art/Matters.jpg",
+      "sha256": "426bc7223a3f8e27417783a19ac5ef9647568d9d42fe8353a66a8644f3cba976",
+      "size": 2533319
+    },
+    {
+      "before": "assets/reference-art/Winter.jpg",
+      "after": "workflow/assets/reference-art/Winter.jpg",
+      "sha256": "d45accb0f905eaa5d33714493834e81bfaf9c746f0d0d9777675ceea2c794c50",
+      "size": 2525391
+    },
+    {
+      "before": "assets/reference-art/Hiring.jpg",
+      "after": "workflow/assets/reference-art/Hiring.jpg",
+      "sha256": "d8701ccdc9eede294710e487d32c59d37d175ba71334b9f4f996e4d5b862b05a",
+      "size": 2110485
+    },
+    {
+      "before": "assets/reference-art/Spring.jpg",
+      "after": "workflow/assets/reference-art/Spring.jpg",
+      "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654",
+      "size": 2476780
+    },
+    {
+      "before": "assets/reference-art/Hero 4.jpg",
+      "after": "workflow/assets/reference-art/Hero 4.jpg",
+      "sha256": "f0898cf4ffb6c626cbb8689921d0a9915d063fb0685b8816620a1e5e6cfc5301",
+      "size": 2086069
+    },
+    {
+      "before": "assets/reference-art/Hero 3.jpg",
+      "after": "workflow/assets/reference-art/Hero 3.jpg",
+      "sha256": "a3a5e919b6b1ac579e19a56bf805cd205d169182684714ad579b027677d13c1c",
+      "size": 1620118
+    },
+    {
+      "before": "assets/reference-art/Hero 2.jpg",
+      "after": "workflow/assets/reference-art/Hero 2.jpg",
+      "sha256": "ba7dbc6285382ed638b464a5d168ea211420821299f2837bbccf44c35e61ab59",
+      "size": 2981152
+    },
+    {
+      "before": "assets/reference-art/Together.jpg",
+      "after": "workflow/assets/reference-art/Together.jpg",
+      "sha256": "b70f3b317b1530659f42a2ddf1eb33ba444a3e1f9a37c7dd31dd2e4a81d17277",
+      "size": 1676365
+    },
+    {
+      "before": "assets/reference-art/Program.jpg",
+      "after": "workflow/assets/reference-art/Program.jpg",
+      "sha256": "2545eeeb5a80734ad205ced9c9db9c8fd45c191b097b8d5f367cba904eb542bd",
+      "size": 2657176
+    },
+    {
+      "before": "assets/reference-art/Mascot.png",
+      "after": "workflow/assets/reference-art/Mascot.png",
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605",
+      "size": 540293
+    },
+    {
+      "before": "assets/reference-art/Thank You.jpg",
+      "after": "workflow/assets/reference-art/Thank You.jpg",
+      "sha256": "5721b5b5581b7e05e80a873f5d9f9b6c627e67bd660cc0adce8fe37de8e69143",
+      "size": 310748
+    },
+    {
+      "before": "assets/reference-art/Story.png",
+      "after": "workflow/assets/reference-art/Story.png",
+      "sha256": "6810e912957c328924a5e87983d4cac4b890933579e28011d403b310d2279b3d",
+      "size": 529227
+    },
+    {
+      "before": "assets/fonts/RammettoOne-Regular.ttf",
+      "after": "workflow/assets/fonts/RammettoOne-Regular.ttf",
+      "sha256": "0063c5480f7868be5dd95dd668575643ff953199541dce65fe5a88310bd7733f",
+      "size": 69392
+    },
+    {
+      "before": "assets/fonts/Nunito-OFL.txt",
+      "after": "workflow/assets/fonts/Nunito-OFL.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "size": 4385
+    },
+    {
+      "before": "assets/fonts/RammettoOne-OFL.txt",
+      "after": "workflow/assets/fonts/RammettoOne-OFL.txt",
+      "sha256": "88ae96c3cfcaea1d7d573675d7513c25716a048fdfa21f16768142ef235f9136",
+      "size": 4429
+    },
+    {
+      "before": "assets/fonts/Nunito.ttf",
+      "after": "workflow/assets/fonts/Nunito.ttf",
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+      "size": 276932
+    },
+    {
+      "before": "assets/fonts/Poppins-OFL.txt",
+      "after": "workflow/assets/fonts/Poppins-OFL.txt",
+      "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573",
+      "size": 4385
+    },
+    {
+      "before": "assets/fonts/Poppins-SemiBold.ttf",
+      "after": "workflow/assets/fonts/Poppins-SemiBold.ttf",
+      "sha256": "d3bf1bdaf0550e83da9ac0b1d1d9fe6db086835a83aa28578e609a394b9a0286",
+      "size": 157312
+    },
+    {
+      "before": "guidelines/video-script-guide.md",
+      "after": "workflow/guidelines/video-script-guide.md",
+      "sha256": "9a80c5a61f8b47eec25a3e630125ca7139592db94db7723c8779a14f70784e0a",
+      "size": 9985
+    },
+    {
+      "before": "guidelines/.DS_Store",
+      "after": "workflow/guidelines/.DS_Store",
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "size": 6148
+    },
+    {
+      "before": "guidelines/video-style-guide.md",
+      "after": "workflow/guidelines/video-style-guide.md",
+      "sha256": "d9b5fcfb982ba38a81ddf041c73e8b49a51fe9a920d6952384f09b0f317c9f58",
+      "size": 10367
+    },
+    {
+      "before": "guidelines/README.md",
+      "after": "workflow/guidelines/README.md",
+      "sha256": "ab94964dc7a56cec0a49c84df6a9f78adce30415022ffbfd2321531aa9c68d04",
+      "size": 4164
+    },
+    {
+      "before": "guidelines/shot-integration-and-sol.md",
+      "after": "workflow/guidelines/shot-integration-and-sol.md",
+      "sha256": "d8880df9d2caf8b8c6cedb97972878d4f8621a8adb500a18d0b3259df1f916bd",
+      "size": 13590
+    },
+    {
+      "before": "remotion/.DS_Store",
+      "after": "workflow/remotion/.DS_Store",
+      "sha256": "f3bb58075c334bf1dd174fbfda1d37c5fb30b8b7fd2dd4ec2e637e6873cbf88d",
+      "size": 6148
+    },
+    {
+      "before": "remotion/README.md",
+      "after": "workflow/remotion/README.md",
+      "sha256": "2ae51810de89f0644e00f7489ae4bbd1d2a3d3f6435966f09aeaee769219fb58",
+      "size": 5197
+    },
+    {
+      "before": "remotion/.gitignore",
+      "after": "workflow/remotion/.gitignore",
+      "sha256": "45e3e96b596a94aed47333f08a020bf0b7db38dc6d547b8564683a9e2b0f8073",
+      "size": 43
+    },
+    {
+      "before": "remotion/package-lock.json",
+      "after": "workflow/remotion/package-lock.json",
+      "sha256": "91d0655a566cbf041e9d483585a2e44a3c8c29955348d12b9b82b5ceab00eddb",
+      "size": 190783
+    },
+    {
+      "before": "remotion/package.json",
+      "after": "workflow/remotion/package.json",
+      "sha256": "2b0f8a6cdbc1b86d2383c786953db8bdc3cae99805db8bfcad6b7c57205b332c",
+      "size": 1583
+    },
+    {
+      "before": "remotion/.prettierrc",
+      "after": "workflow/remotion/.prettierrc",
+      "sha256": "10e86224d2f90945fbe57db21ac109bdb0ce9b5d7470e7b78fa5f8b6d49a1afd",
+      "size": 66
+    },
+    {
+      "before": "remotion/tsconfig.json",
+      "after": "workflow/remotion/tsconfig.json",
+      "sha256": "08638b3f10cc8ba42a7546c24862dd8942eb9f137d4cdc8076ed1f40ffa55c2d",
+      "size": 731
+    },
+    {
+      "before": "remotion/remotion.config.ts",
+      "after": "workflow/remotion/remotion.config.ts",
+      "sha256": "045d5032ae727b8425447022cb4e7602214b7d6ac41ab7761034c922c5768af9",
+      "size": 372
+    },
+    {
+      "before": "remotion/eslint.config.mjs",
+      "after": "workflow/remotion/eslint.config.mjs",
+      "sha256": "7f2ca640409fd597965bedf929073b9a74f143643e1711150c4cac3b6ec5c80d",
+      "size": 79
+    },
+    {
+      "before": "remotion/tests/paths.test.ts",
+      "after": "workflow/remotion/tests/paths.test.ts",
+      "sha256": "d2fca37120ab93de22a4c8c60861750ff58370cfed4d7e94ab2e1dd59fc332b4",
+      "size": 1003
+    },
+    {
+      "before": "remotion/tests/episode.test.ts",
+      "after": "workflow/remotion/tests/episode.test.ts",
+      "sha256": "b05bb6056e6ce926d4ea180e81e3b88dec4c4dda24d22a3838987384dce36b16",
+      "size": 2965
+    },
+    {
+      "before": "remotion/scripts/video.ts",
+      "after": "workflow/remotion/scripts/video.ts",
+      "sha256": "a3d05419abccc175df14f856dca16f2637c8e1725457a0a75171b2eece88106a",
+      "size": 10344
+    },
+    {
+      "before": "remotion/scripts/paths.ts",
+      "after": "workflow/remotion/scripts/paths.ts",
+      "sha256": "5b3bda36fda5eddf87d4b89dcfca87b03201d17cbccf8c72b9ad2c6adba73f8c",
+      "size": 644
+    },
+    {
+      "before": "remotion/scripts/copy-assets.ts",
+      "after": "workflow/remotion/scripts/copy-assets.ts",
+      "sha256": "74e1e5866a01857fa4256cd6c8ee69de2fb0cf9c3c802c8b5e54ddf70589e0a5",
+      "size": 1576
+    },
+    {
+      "before": "remotion/src/Composition.tsx",
+      "after": "workflow/remotion/src/Composition.tsx",
+      "sha256": "f4bc96af094a4a5836fdedc286a69c008f54e78e8e0e6e9e82b367253648a526",
+      "size": 6416
+    },
+    {
+      "before": "remotion/src/Root.tsx",
+      "after": "workflow/remotion/src/Root.tsx",
+      "sha256": "aabffbbe29717bb80cae239d96c7fcce51229bc7c6d79292b1aa6f44f61b69f9",
+      "size": 738
+    },
+    {
+      "before": "remotion/src/style.css",
+      "after": "workflow/remotion/src/style.css",
+      "sha256": "6c74df52a8adad706dd3fa906a9b86558ff1a5a1d9d1cd11be8159933aff6107",
+      "size": 2343
+    },
+    {
+      "before": "remotion/src/episode.ts",
+      "after": "workflow/remotion/src/episode.ts",
+      "sha256": "1e63e35fcbd426d1449c705cca2b3b8068807a680b2c25bf56d02946bc791313",
+      "size": 6460
+    },
+    {
+      "before": "remotion/src/index.ts",
+      "after": "workflow/remotion/src/index.ts",
+      "sha256": "957e481dd33a29b4a55ae0e95dbf763b7e48c37c427ca4bd1275faf34bc07a74",
+      "size": 109
+    },
+    {
+      "before": "templates/remotion-episode.json",
+      "after": "workflow/templates/remotion-episode.json",
+      "sha256": "3d2bc4bd744ab0950b2038c243a5ebccad642d6e580b666aa856b6a8289e82f4",
+      "size": 3939
+    },
+    {
+      "before": "templates/episode.json",
+      "after": "workflow/templates/episode.json",
+      "sha256": "76fd7233ca63a1298558016fc041e936081a4f00e704bfaddfd66b5f2f7a3b55",
+      "size": 1255
+    },
+    {
+      "before": "templates/flow-image.md",
+      "after": "workflow/templates/flow-image.md",
+      "sha256": "c6e80b9fa59cc3c52f63c995bc6fe1129eae7cd351ebd8e9a84a7086d125c2c9",
+      "size": 2042
+    },
+    {
+      "before": "templates/flow-video.md",
+      "after": "workflow/templates/flow-video.md",
+      "sha256": "f2585d843d19103c0c634eb6ba00d5c07ae4f600107a0df5ec90b92629fac418",
+      "size": 2092
+    },
+    {
+      "before": "tests/test_google_flow.py",
+      "after": "workflow/tests/test_google_flow.py",
+      "sha256": "37f26b4b47920a8d239348a0a98bd26b9e16ca86e80c5fe27bb378d9e3a1e4b8",
+      "size": 24486
+    },
+    {
+      "before": "tests/test_flow_account_backend.py",
+      "after": "workflow/tests/test_flow_account_backend.py",
+      "sha256": "b221e35548eb33712537259a0169608c0b418c98ba56019fc94dcd49a1fe6d6d",
+      "size": 1209
+    },
+    {
+      "before": "tests/test_workflow.py",
+      "after": "workflow/tests/test_workflow.py",
+      "sha256": "03012e21988c3f5f4852e23ea4f4fa380eff06ef6c14adfebd747e54cce5058e",
+      "size": 4442
+    },
+    {
+      "before": "vendor/.DS_Store",
+      "after": "workflow/vendor/.DS_Store",
+      "sha256": "a761675bd54b3e2af994c0306e93b91cef7e8c41761aa08ecf4998bfc8dab5b8",
+      "size": 6148
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/README.zh.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/README.zh.md",
+      "sha256": "166d1ad3092271f76238ad6b4af83eea2a765ec63bbd05f13a32517e3a820016",
+      "size": 3562
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/.DS_Store",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/.DS_Store",
+      "sha256": "2de9c600faa9c7841d1a16a960049e519b37a6a146752ab025271aa333846f15",
+      "size": 6148
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/SKILL.zh.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/SKILL.zh.md",
+      "sha256": "4d780125b38b7cee17746537475dfc3bc4470b30ea59b312d69121aa7135b069",
+      "size": 2292
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/README.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/README.md",
+      "sha256": "ccb048e39185880818c2ebb6f906c5dd1e1afc4af11fdb9f6bf256313a231cb3",
+      "size": 10579
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/.gitignore",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/.gitignore",
+      "sha256": "f708334a53bca3d04add34c3c49ce5116f66a909baad9a4d837652c631cf0e25",
+      "size": 143
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/package.json",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/package.json",
+      "sha256": "17ae4fed9dff1c0a02ff66a6e9563bf274a3653f280b4f425572f4580248e031",
+      "size": 862
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/SKILL.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/SKILL.md",
+      "sha256": "c1a45aac610e5fa3da539c5814b379af0587417eb2d45b18921bbed2e4177001",
+      "size": 5993
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/AGENTS.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/AGENTS.md",
+      "sha256": "33dfa9712fcae3bee56074008b0cecf7621061ca698c05471cb2a41fec590aa8",
+      "size": 1245
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/references/prompt-guide.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/references/prompt-guide.md",
+      "sha256": "f5315a939cb3d1eba07f20b41bc2bd1a4b5ba1b7073c9acf70236e021585f7a8",
+      "size": 3147
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/references/voices.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/references/voices.md",
+      "sha256": "efa758f5b9fd6a9d4fbd915ed10ea6bf16f487da52cbfc13631afe8b945bbf80",
+      "size": 1091
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/references/character-sheets.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/references/character-sheets.md",
+      "sha256": "c7bd8a17a247be23696586b073c866ece4942d472184a644b5e0632f5c382531",
+      "size": 2620
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/references/beat-layer.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/references/beat-layer.md",
+      "sha256": "242a4d65ebf648184aefe9ee9f5f3a525e82c0808da6612784c584c5f8d3724d",
+      "size": 3534
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/references/models-and-gotchas.md",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/references/models-and-gotchas.md",
+      "sha256": "99234b1baacaeee3d3a0fa6423d9e9cc2f102136ef2f5d1666a6d72f740e6bab",
+      "size": 2844
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/examples/mosquito_bite_beats.json",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/examples/mosquito_bite_beats.json",
+      "sha256": "87943904f5d8fe72d8bb681241d72588d42cc7e4d71d4a5446637847f9aeead6",
+      "size": 2915
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/examples/swallow_gum_beats.json",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/examples/swallow_gum_beats.json",
+      "sha256": "59222104e4d0efa750ac82796224e5b6d8c1be725233b20ba24d0fe86dd69d66",
+      "size": 2902
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/keyframes.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/keyframes.py",
+      "sha256": "a2d441daf94217f9c5dc3d9494ceb48fe8503921ab4800dc3aa9087f2931bf75",
+      "size": 2376
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/script_generator.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/script_generator.py",
+      "sha256": "d28a3088881c492690c58cedbbef90ceae7249f62c99689ee1b6b6bd5809422f",
+      "size": 5115
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/provider.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/provider.py",
+      "sha256": "e646aff24e7f6b89910c2443b6809c151d3f15bce0e3d6de1e0a59bd185a91a1",
+      "size": 8519
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/clips.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/clips.py",
+      "sha256": "48def3fe4db28dc6763b054f2bede9d37aa71105451f7f3317bc88a64fb3a820",
+      "size": 2218
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/calculus_pilot.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/calculus_pilot.py",
+      "sha256": "edb5971f06a1d6ab285b8ddfc32ca232e46df2a0f0ace6eac1195ff9bebad1c2",
+      "size": 381
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/assemble.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/assemble.py",
+      "sha256": "26b6ca200d73123163d4f732e4a771305d0796a495de2b81ae8903dea8c83101",
+      "size": 11021
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/character_sheets.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/character_sheets.py",
+      "sha256": "9bfdc467442b0bf7577363da2c820b4cbacd33b02eb634e615823cd2e6f3712c",
+      "size": 2256
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/audio.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/audio.py",
+      "sha256": "2f24d6a83b9bf89aa01f39ddf1a62c68149b5258ede25b952dd934e9b1af9a73",
+      "size": 2055
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/calculus_edit.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/calculus_edit.py",
+      "sha256": "bcf09497790cb9caf2c2b73ce5d73eaf95c9cc6e5665413e8804e40f9527d378",
+      "size": 380
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/muapi_compat.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/muapi_compat.py",
+      "sha256": "b6ec642b9d41c082cf60c8609a84fb07218ae4f933745d22338416258fe1adab",
+      "size": 391
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/scripts/trend_research.py",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/scripts/trend_research.py",
+      "sha256": "6987a7e03a6649733371d72091ce4c24738e727ae7a56fe39268027a7ec95ed5",
+      "size": 2029
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/final.mp4",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/final.mp4",
+      "sha256": "ed61af654337e719cc5add566071cc184b33dee9b3a536a7c55ca0b1223d928d",
+      "size": 7861368
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/beats.json",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/beats.json",
+      "sha256": "c868566685fd15c7d758b3a28a5d590d7024a2decd56c97c91ba8c8780387727",
+      "size": 3084
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/generated_keyframe.jpg",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/generated_keyframe.jpg",
+      "sha256": "aaf950db5b4bba495e12bee65aa8ed81e3dba81abd5f8571c53b938b41d43ca1",
+      "size": 710284
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_3_a.mp4",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_3_a.mp4",
+      "sha256": "5d4a0ecedae7e3e2f9ae5f04cd93927ecb89299377d64e52366ff661839f95b0",
+      "size": 1948388
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_1_b.mp4",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_1_b.mp4",
+      "sha256": "f4f89cd5ae74481d56fa6d1119f1da44be374590b0aae2967e1b7c5414762d18",
+      "size": 3124083
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_1_a.mp4",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_1_a.mp4",
+      "sha256": "67542e3b3b63b8c732a438ed6b8d2e0240a10fbcca53d1f925a69b04f9572132",
+      "size": 2375670
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_2_b.mp4",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_2_b.mp4",
+      "sha256": "da66dac55c7debefd8b62dcdc95db2b831fed1f55c3b7d875d153a00cf2b5dc6",
+      "size": 1485688
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_2_a.mp4",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/clips/beat_2_a.mp4",
+      "sha256": "74d69b7da5f09c7a72fe9c65b731a716e686d5443f999660351fae16e5620435",
+      "size": 2088263
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_a.png",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_a.png",
+      "sha256": "f4fe0cdea1c7318d77a67871bfa8308c9bd53101c789c842e8e5eb126e61c023",
+      "size": 589263
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_b.png",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_2_b.png",
+      "sha256": "457132aa53ad5e38a9987e0e6b197f67f3d865ec731a2924e1095384bdab686b",
+      "size": 578167
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_a.png",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_a.png",
+      "sha256": "8651ef5f8776324e2a99f79f7beed2e83504b597e97da695bc6699ea783494ef",
+      "size": 645454
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_3_a.png",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_3_a.png",
+      "sha256": "18861ef477e22c94200aaec7eaaace60a877635080d119f1bafe931fccc0e7e0",
+      "size": 595277
+    },
+    {
+      "before": "vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_b.png",
+      "after": "workflow/vendor/zack-d-films-ai-video-generator/out/test_run/keyframes/beat_1_b.png",
+      "sha256": "ce5a6949ae266bc4a6d5a58d4d2ca93c9bc10417ed8d078aec8e5f10ab18ebd4",
+      "size": 783180
+    },
+    {
+      "before": "migration/before.json",
+      "after": "workflow/migration/before.json",
+      "sha256": "2365f33c55a6498082bdda731d8839382eb6a02a28dbd47474424ec4f65c1646",
+      "size": 28367
+    },
+    {
+      "before": "migration/moves.json",
+      "after": "workflow/migration/moves.json",
+      "sha256": "e7f2c38f445121669a34910d5eab5a6d955d317e427fab509122ee6fd28894a1",
+      "size": 6021
+    },
+    {
+      "before": "migration/.DS_Store",
+      "after": "workflow/migration/.DS_Store",
+      "sha256": "1f8bb4d4a334bfc6e0387fb080fabb7d49ac041c99e46e7a424872583153713d",
+      "size": 8196
+    },
+    {
+      "before": "migration/preservation.json",
+      "after": "workflow/migration/preservation.json",
+      "sha256": "0cccf03a83d10c6e3c0aa27561f4ad302b71af3ad3144201ab5d03bff88623d1",
+      "size": 30081
+    },
+    {
+      "before": "migration/smoke-validation.json",
+      "after": "workflow/migration/smoke-validation.json",
+      "sha256": "e748c70bf5a956a351ec1f8010ab46d864b7c9fb29d6e693811e708341c6ebef",
+      "size": 966
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/before.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/before.json",
+      "sha256": "45eda2cbc8585e56e499fe187674cd812bd5a28abad4f327fceace0790643e6c",
+      "size": 52254
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/moves.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/moves.json",
+      "sha256": "bf260be7261b8d2dc211d595e19d95a969ee634e60d977b613b1aba7e3edc20d",
+      "size": 421
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/README.md",
+      "sha256": "52e7e09d947a29c75b028deb681ec7ededa79e3000c45521bf7b5737bfdd10a8",
+      "size": 1361
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/verification.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/verification.json",
+      "sha256": "e2d0879a257c3d0585ecb8b3c7593ba45484567548cfc27004ad80535b9ce143",
+      "size": 2087
+    },
+    {
+      "before": "migration/original-text/.DS_Store",
+      "after": "workflow/migration/original-text/.DS_Store",
+      "sha256": "414dad2b009f1fc05a3061eb5f83f1eb1ecaf6e47a5fef6347f1c6e0147cf0cf",
+      "size": 6148
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/before.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/before.json",
+      "sha256": "ad05b116455c492115b57c56db74337bffde8316691c970ecff156a465ed8973",
+      "size": 63388
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/moves.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/moves.json",
+      "sha256": "8fa2e004105699737a3d049ea3307818dae8066a093fc6a22e2b1cd691afdba3",
+      "size": 5337
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/.DS_Store",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/.DS_Store",
+      "sha256": "595bb1b32704e2dd0bc89def7ea7331a083ccfbecef780f59fa8227e2e1c210a",
+      "size": 6148
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/README.md",
+      "sha256": "78ea3607e42c4e4279ff153471d8278db79cd891bfffe95d8c1a2aa8e937fbe2",
+      "size": 1492
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/neutral-smoke.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/neutral-smoke.json",
+      "sha256": "99bf6810d768d8df3ceebe3bfbd4a98e2f73bf13007fdb761026b21025d259c4",
+      "size": 755
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/verification.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/verification.json",
+      "sha256": "9b255cdedbb60342beb9ef3fb3b013247c957b1ec394249ac97950372d22452b",
+      "size": 3342
+    },
+    {
+      "before": "migration/workspace-2026-11-13/before.json",
+      "after": "workflow/migration/workspace-2026-11-13/before.json",
+      "sha256": "117cea4ca4e2fc66a036ddfe6a0835aee0ba35fd107a658defce9850b9057b5b",
+      "size": 82284
+    },
+    {
+      "before": "migration/workspace-2026-11-13/moves.json",
+      "after": "workflow/migration/workspace-2026-11-13/moves.json",
+      "sha256": "ee72d667be8fa687c5ad1976b7f43eadeb593a184c461d5fa3c25ea2fc78fdd7",
+      "size": 391
+    },
+    {
+      "before": "migration/workspace-2026-11-13/README.md",
+      "after": "workflow/migration/workspace-2026-11-13/README.md",
+      "sha256": "295444d117385162522ffcbc75f7d028f55a1e571b5a2d55adecb737ec141229",
+      "size": 1801
+    },
+    {
+      "before": "migration/workspace-2026-11-13/verification.json",
+      "after": "workflow/migration/workspace-2026-11-13/verification.json",
+      "sha256": "cf8d7407e95e9c4bb25ef3125e10b14f0ea9122d90f9fa2152111d482e399b62",
+      "size": 2701
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/.gitignore",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/.gitignore",
+      "sha256": "ecf66c62044d8f890723a8ca705b2087546228bfeb3f1a54e5f068952981880a",
+      "size": 729
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/AGENTS.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/AGENTS.md",
+      "sha256": "e41cd893240f248f629e4d1e35d21d6edc991743ba8df4bd1b6ce632cdbfd37c",
+      "size": 878
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/guidlines/video-script-guide.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/guidlines/video-script-guide.md",
+      "sha256": "ae4d226400df18a882ca856b72f1921432d46f9c91ae97540b40879c02e77146",
+      "size": 3147
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/guidlines/video-style-guide.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/guidlines/video-style-guide.md",
+      "sha256": "26bc63310db2726c4903672e253368959aa93f13f9c72922ba03fd73c914f96a",
+      "size": 2851
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/guidlines/shot-integration-and-sol.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/guidlines/shot-integration-and-sol.md",
+      "sha256": "3ba3247e608435f8126194192414a5112cb9f9d18810c8cf894d4d5d48c21173",
+      "size": 4981
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/README.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/README.md",
+      "sha256": "f813f82499e723b040d8ba057a86d44d33af84e28ac559bd7b940830182a8a0b",
+      "size": 13162
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/ignite-video/README.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/ignite-video/README.md",
+      "sha256": "069cb1414a034a322c95092b428074a009de88dada1a44342dad6debe396f521",
+      "size": 8319
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/ignite-video/scripts/copy-assets.ts",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/ignite-video/scripts/copy-assets.ts",
+      "sha256": "cc6118b574b61306cfc1273a4e0b7c711cc08e3f2e6bae85f25d5921763c869a",
+      "size": 1209
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/tests/test_workflow.py",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/tests/test_workflow.py",
+      "sha256": "10756b7305f68baf0d8f4c4f1296b63d8f6202c337876296a31dede3cca921a4",
+      "size": 4089
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/scripts/calculus_edit.py",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/scripts/calculus_edit.py",
+      "sha256": "aa7124018fdb1a36610b47d171c383248e0acd8034eab1f8e5c4c952d39a0b0c",
+      "size": 24573
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/episodes/sol_kling_test/generation-request.json",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/episodes/sol_kling_test/generation-request.json",
+      "sha256": "7988fd88eb66e9fe53db251d67d2c1d649be0e88b2b4fc6707997e024bdeb903",
+      "size": 2144
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/episodes/calculus_pilot/flow-image-prompts.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/episodes/calculus_pilot/flow-image-prompts.md",
+      "sha256": "a0e97ee1cb5d49b592ecb76b9175f45ff8dd179c66fb4f4087e6f810a9499def",
+      "size": 2522
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/episodes/calculus_pilot/asset-manifest.json",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/episodes/calculus_pilot/asset-manifest.json",
+      "sha256": "5b556be4ebd46fcc100d4c448bfba2ceb0aa4acaacd2c9a9c74a0971a8978d71",
+      "size": 551
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/episodes/calculus_pilot/MEDIA.md",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/episodes/calculus_pilot/MEDIA.md",
+      "sha256": "ccf49ff132b55615e1b372d03809190d45d9186cf051eb07e7a9eda520f1ee49",
+      "size": 2122
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "sha256": "b5a6625fe43ad713d8c1d195db8f28f12c420ca6f5687031042210a4b19f8a49",
+      "size": 9018
+    },
+    {
+      "before": "migration/workspace-2026-11-13/original-text/workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "after": "workflow/migration/workspace-2026-11-13/original-text/workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "sha256": "615ca60e5cfd8e9b8f3020609541f966e1f330a4702ce1a0b00566c9d71803ef",
+      "size": 434
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/README.md",
+      "sha256": "b04eab25604e74ce8d14577953f1a02c22a4eda64a5843c34ae62643aa589870",
+      "size": 1269
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/AGENTS.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/AGENTS.md",
+      "sha256": "632cefe425448e64e39b1bfcf28e4d028d6b80fb766342dd61092d870cecc35f",
+      "size": 1510
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/retired/zipper-package.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/retired/zipper-package.json",
+      "sha256": "35e118f6464ea98437810db88dbe5b30ce1c72cd06c3c804ec4db84997976c69",
+      "size": 510
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/retired/sol-package.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/retired/sol-package.json",
+      "sha256": "998b8324f4418e583ecd5360568406c91e43bdb5db0235f0571d5d1a56f214e4",
+      "size": 308
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/retired/zipper-tsconfig.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/retired/zipper-tsconfig.json",
+      "sha256": "64ec5342c507d75b2b0b580339fd2f573fb6290dfbf56d33fff7724361a42bd0",
+      "size": 93
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/README.md",
+      "sha256": "ec920d5107ae930079def0614836c2eacb0f628589a0ad2c1cfae81eaab23d19",
+      "size": 15009
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/tsconfig.remotion.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/tsconfig.remotion.json",
+      "sha256": "cc22012c7aa88eeac84046ec331752ba439f334175c9e33e7ed6c7432e40188e",
+      "size": 387
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/README.md",
+      "sha256": "55c817c14acf0caea7c0f457610992a52052f73dc97e96ae32735b7a1e7c4972",
+      "size": 3078
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/package-lock.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/package-lock.json",
+      "sha256": "b5b2396ca8b1ca02f6000a58433b9ac24fa82f5f8aed51466edb71df0e63ada4",
+      "size": 191051
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/package.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/package.json",
+      "sha256": "906ab990c1ee98c060b436bdf4b1d81377cc0d8557b4d88344e831caa8ad93d2",
+      "size": 1459
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/video-script-guide.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/video-script-guide.md",
+      "sha256": "49fbe38b88e0bd613788de81cadd9d35e819f404a393fd4ab49eb9b8de4755ff",
+      "size": 3370
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/video-style-guide.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/video-style-guide.md",
+      "sha256": "8dbaeacd561488407e011c4a61896c766623fe4bc3dc71c4c083582d83f5b3c4",
+      "size": 3184
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/README.md",
+      "sha256": "3acc751ec324e8c6c2cd50369638cbad94492e14439cf4ed39a8d93b47bd92cb",
+      "size": 1717
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/shot-integration-and-sol.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/guidelines/shot-integration-and-sol.md",
+      "sha256": "c9e3535cc957e7ea785315886a18ac28cbe1d3d4d74f5e78d46f4db28a07950e",
+      "size": 5151
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/assets/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/assets/README.md",
+      "sha256": "ab91f0a6c909c932cb60e3e1d0b11865dfa807b8f0038bd5cdae53e9659fe6c4",
+      "size": 1209
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/README.md",
+      "sha256": "08c08c9365cf2e98e2b6d14c0bf94f475f6a2b5ad95bb8cd61102f3b0cde3552",
+      "size": 1069
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/sol_kling_test/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/sol_kling_test/README.md",
+      "sha256": "d2fd733627b56701d3cd020a833349ffa6e89d1ab1be7b11dbf55bd8cb967332",
+      "size": 1552
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/calculus_pilot/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/calculus_pilot/README.md",
+      "sha256": "311b37b6b6c15319890a34c4fd0e0eeaaf37f7e26afadf6f0d7353e0d2e4e5b0",
+      "size": 2756
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "sha256": "230c5ea1b3c0f2234ec432065a24e451c06eeb1ad820039f33fa7cfe3f9db69b",
+      "size": 9055
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "sha256": "1430ce4e8e65413ec1aa059072be5bc4c6af2d9ae5b8e3cc63462f0297ca9f2a",
+      "size": 386
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/README.md",
+      "sha256": "577c4efb0144bfde02242af9463e970a064b5d3a1ba4b33bad4ab518f86da62c",
+      "size": 8905
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/tests/episode.test.ts",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/tests/episode.test.ts",
+      "sha256": "b8c9e1b6f844ce9fc2f08859838fcecd5e1d0b42b0464edd227a558937162192",
+      "size": 2495
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/scripts/video.ts",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/scripts/video.ts",
+      "sha256": "80245b69ef12e7c8ef5f2e43320b7eca95ed8c3b0964d8d61587d5d29d2403f2",
+      "size": 10065
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/scripts/copy-assets.ts",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/scripts/copy-assets.ts",
+      "sha256": "4d115e44ecfa4da2ded4b635f378cd90e6006db94044b5e9eea909bb556e1dfe",
+      "size": 1206
+    },
+    {
+      "before": "migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/src/Root.tsx",
+      "after": "workflow/migration/workspace-2026-11-13-hybrid/original-text/workflow/episodes/zipper_demo/remotion/src/Root.tsx",
+      "sha256": "c282a3609c81c12067a3e2c9887d3bf6005a79dd7c2eb08602a69ac3a54f5a14",
+      "size": 752
+    },
+    {
+      "before": "migration/original-text/scripts/calculus_pilot.py",
+      "after": "workflow/migration/original-text/scripts/calculus_pilot.py",
+      "sha256": "fadc8220ae308fa37ebaa1891860a88a06968f3a6cd84d018a5d1edfb0cd9aef",
+      "size": 14898
+    },
+    {
+      "before": "migration/original-text/scripts/calculus_edit.py",
+      "after": "workflow/migration/original-text/scripts/calculus_edit.py",
+      "sha256": "be220ada95d41fe1bf58e9010a1e6601c1d4f0dcd79cbd86935a6e6d2ff7ca8c",
+      "size": 24251
+    },
+    {
+      "before": "migration/original-text/episodes/calculus_pilot/edit.json",
+      "after": "workflow/migration/original-text/episodes/calculus_pilot/edit.json",
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278",
+      "size": 1254
+    },
+    {
+      "before": "migration/original-text/episodes/calculus_pilot/asset-manifest.json",
+      "after": "workflow/migration/original-text/episodes/calculus_pilot/asset-manifest.json",
+      "sha256": "3587d7739f987bfcf8c0a24a45d2c373ad3318daf939b285b2bac536302509e0",
+      "size": 645
+    },
+    {
+      "before": "migration/original-text/episodes/calculus_pilot/README.md",
+      "after": "workflow/migration/original-text/episodes/calculus_pilot/README.md",
+      "sha256": "209e15d4d4cff78594e1bc08255dae0e752e2417377825c479561d69e0d4b7f5",
+      "size": 4728
+    },
+    {
+      "before": "migration/original-text/episodes/calculus_pilot/MEDIA.md",
+      "after": "workflow/migration/original-text/episodes/calculus_pilot/MEDIA.md",
+      "sha256": "7ee4c7fe85a328ed45abdee59ad9d646522c3151feb007821520afd8bee912d5",
+      "size": 2974
+    },
+    {
+      "before": "migration/original-text/episodes/calculus_pilot/flow-video-prompts.md",
+      "after": "workflow/migration/original-text/episodes/calculus_pilot/flow-video-prompts.md",
+      "sha256": "382106899d502aff96474e2bb7c57350fabd1e04a51f835bf0f2ec684be0a4df",
+      "size": 5646
+    },
+    {
+      "before": "migration/original-text/episodes/calculus_pilot/renders/validation.json",
+      "after": "workflow/migration/original-text/episodes/calculus_pilot/renders/validation.json",
+      "sha256": "76f428e00c87f9f97c6292755ba9a39d94bdb3523c4a17078ac63c9f1b5cf1c1",
+      "size": 635
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/README.md",
+      "sha256": "9ad0c11c7e9ec246f0f942e37716147ed91dfd8bdf50d35f76cd2316a058809c",
+      "size": 1139
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/AGENTS.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/AGENTS.md",
+      "sha256": "a56e1b5344e82e58b8bf4ee77c41b3c8557cf5f4ca68d64064d42fe7141f5dc7",
+      "size": 1356
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/README.md",
+      "sha256": "9c0a35898426e4b9b41c0c6967b6a0403b14262d5343ee188261d61b1ef7eb5a",
+      "size": 14750
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/README.md",
+      "sha256": "61e2138f485ce55ad6c8934cf18018f10ac5833c1fc5191db4e526cdc4dda524",
+      "size": 1701
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/video-script-guide.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/video-script-guide.md",
+      "sha256": "49fbe38b88e0bd613788de81cadd9d35e819f404a393fd4ab49eb9b8de4755ff",
+      "size": 3370
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/video-style-guide.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/video-style-guide.md",
+      "sha256": "8dbaeacd561488407e011c4a61896c766623fe4bc3dc71c4c083582d83f5b3c4",
+      "size": 3184
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/README.md",
+      "sha256": "75ade1940f153e3013d34cd3d8be25a451ca1cb1b7a5a0824c470dc95b58730a",
+      "size": 1701
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/shot-integration-and-sol.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/guidelines/shot-integration-and-sol.md",
+      "sha256": "c1fc81f7317923309d5cfe6ed85f4cbc9a580a3a7d1c741ade1d592480c5825d",
+      "size": 5118
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/assets/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/assets/README.md",
+      "sha256": "094511572bdaf7ae86f4c28a1f809034b491285cd70bf0d5f74a89fb30d2168c",
+      "size": 1157
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/README.md",
+      "sha256": "c782845f7a1d65f72c85671cc125b888198d2b175e80eea0e01f0c12ffa7841c",
+      "size": 8517
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/package-lock.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/package-lock.json",
+      "sha256": "bae2188058b424fcffbe10cd91d3517dbd06dd83d38e450fc7b58bd488fa0fcb",
+      "size": 190524
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/package.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/package.json",
+      "sha256": "07c1ccfa60755f1601b60221a65ca686e02ca7ab25c443ca0d4598fc3cef7a4b",
+      "size": 1176
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/tsconfig.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/tsconfig.json",
+      "sha256": "3d025f3e378e2af924afffe6ecdd0f6addbe718a99e0c9902f385a40d71a765e",
+      "size": 406
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/scripts/video.ts",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/scripts/video.ts",
+      "sha256": "f853b2c1832e63f857bb4cfde9a804e54ebf56e715e255b384e5e758eb687fea",
+      "size": 10005
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/scripts/copy-assets.ts",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/remotion/scripts/copy-assets.ts",
+      "sha256": "f58b57f06c1c9172817e7a4e37ff659c3bffeda8f298169d5f8286e29129a24e",
+      "size": 1200
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/zipper_demo/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/zipper_demo/README.md",
+      "sha256": "a47e23638e0761837b75fdca662158476ee9ea498c295c21f73947c6460ef71a",
+      "size": 866
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/sol_kling_test/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/sol_kling_test/README.md",
+      "sha256": "36970f67568bf878ee9b86229243d3c9a4fcc1492fb71515bfa853bde8c6ad40",
+      "size": 1459
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/calculus_pilot/README.md",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/calculus_pilot/README.md",
+      "sha256": "311b37b6b6c15319890a34c4fd0e0eeaaf37f7e26afadf6f0d7353e0d2e4e5b0",
+      "size": 2756
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "sha256": "20efe324045767a88462978a43bd6bd8e402a6e19cf5631134521ccf2177ef34",
+      "size": 9011
+    },
+    {
+      "before": "migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "after": "workflow/migration/workspace-2026-11-13-remotion/original-text/workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "sha256": "9694e30a98b71c47e255a6a98d199f4420cf72b8a8de7c9abb5db814eb512271",
+      "size": 413
+    },
+    {
+      "before": "config/captions.json",
+      "after": "workflow/config/captions.json",
+      "sha256": "fb2874ce38ff037c25952bccaf023388edebb65d363971baa384a8dcb89f0ca3",
+      "size": 190
+    },
+    {
+      "before": "config/style.json",
+      "after": "workflow/config/style.json",
+      "sha256": "64c25455b15ff2d721a8c15f860842c07c9158b88d14d4cae49092caa89b31d2",
+      "size": 452
+    },
+    {
+      "before": "config/format.json",
+      "after": "workflow/config/format.json",
+      "sha256": "703c8e5f0cfbc7be9faba60f89ead7edca18bfe32cda5b51f82316d41c2b4e8a",
+      "size": 100
+    },
+    {
+      "before": "config/narration.json",
+      "after": "workflow/config/narration.json",
+      "sha256": "db8fc642a9f486f82ed17998fcb55edabd1846d5056d84b70f13d497ddc70d9e",
+      "size": 836
+    },
+    {
+      "before": "episodes/.DS_Store",
+      "after": "workflow/episodes/.DS_Store",
+      "sha256": "79122212d2a035502f00a454a8ede25148c80fed0c9562ae37a162e178b97215",
+      "size": 6148
+    },
+    {
+      "before": "episodes/README.md",
+      "after": "workflow/episodes/README.md",
+      "sha256": "8c56fa76d09d087bf7a61cb35ff4957c4f1d3dcc66c69693e0c33e1d0d4cf5f1",
+      "size": 2522
+    },
+    {
+      "before": "episodes/.gitignore",
+      "after": "workflow/episodes/.gitignore",
+      "sha256": "6b975dd48201a1108b0b5d9cdf72569206147fa656fc28a21cc3424aecfd82b1",
+      "size": 83
+    },
+    {
+      "before": "episodes/zipper_demo/.DS_Store",
+      "after": "workflow/episodes/zipper_demo/.DS_Store",
+      "sha256": "780a42fe65363fc5572a611f06a7e13ebd71098fa2224a24a4eacbb81f6b3fb7",
+      "size": 6148
+    },
+    {
+      "before": "episodes/zipper_demo/edit.json",
+      "after": "workflow/episodes/zipper_demo/edit.json",
+      "sha256": "73536b052fae9211568168730d0e3997c37176227ef199dc0354b540470c3f8c",
+      "size": 12109
+    },
+    {
+      "before": "episodes/zipper_demo/README.md",
+      "after": "workflow/episodes/zipper_demo/README.md",
+      "sha256": "996d8ea7eaaff9d2318e85dd1964079e0e8ee5b331ea3522819362963200909d",
+      "size": 1394
+    },
+    {
+      "before": "episodes/zipper_demo/.gitignore",
+      "after": "workflow/episodes/zipper_demo/.gitignore",
+      "sha256": "1758d3e535f25afd869750ce0eb8df34f97e67715d3e8377f63e2c5e91bf53ad",
+      "size": 192
+    },
+    {
+      "before": "episodes/sol_kling_test/prepare-audio.py",
+      "after": "workflow/episodes/sol_kling_test/prepare-audio.py",
+      "sha256": "21aef9c0f549d7ad93aba4a55438f22b7e4cf27d74e85101c2e16abcf935b0cc",
+      "size": 8162
+    },
+    {
+      "before": "episodes/sol_kling_test/.DS_Store",
+      "after": "workflow/episodes/sol_kling_test/.DS_Store",
+      "sha256": "1fb12edbc8b423b5861e5560e8533ede83ec12692ed913dad0cb162f49f939cb",
+      "size": 8196
+    },
+    {
+      "before": "episodes/sol_kling_test/audio-test.json",
+      "after": "workflow/episodes/sol_kling_test/audio-test.json",
+      "sha256": "f5df8f3e4aeca58e2c427949a1b3e2b3cfca0eb4d0ef887a92f27cecb0186b8b",
+      "size": 1393
+    },
+    {
+      "before": "episodes/sol_kling_test/README.md",
+      "after": "workflow/episodes/sol_kling_test/README.md",
+      "sha256": "07ad8f3f5c86f4f18563e669afc072af449abee4578dcb7f0e788d4532ddf7e2",
+      "size": 1738
+    },
+    {
+      "before": "episodes/sol_kling_test/generation-request.json",
+      "after": "workflow/episodes/sol_kling_test/generation-request.json",
+      "sha256": "53f96c527c012266aa0535e9b18765f9d9bee8feb9947513602904301da57532",
+      "size": 2153
+    },
+    {
+      "before": "episodes/sol_kling_test/.gitignore",
+      "after": "workflow/episodes/sol_kling_test/.gitignore",
+      "sha256": "50cfeaf555814dc27530f72ac3a5b8a1c9cc96a09ac0bed97ba29e969291bcf8",
+      "size": 48
+    },
+    {
+      "before": "episodes/calculus_pilot/.DS_Store",
+      "after": "workflow/episodes/calculus_pilot/.DS_Store",
+      "sha256": "511f6b36c2bbb58bc951da5fea137ec41322fcf35340b4cf0a9b406157cd8376",
+      "size": 8196
+    },
+    {
+      "before": "episodes/calculus_pilot/flow-image-prompts.md",
+      "after": "workflow/episodes/calculus_pilot/flow-image-prompts.md",
+      "sha256": "b541e73ae072ffb4f2b4a96a8f6cd6d98d4e3caff5792fc60173937020a4b0fd",
+      "size": 2522
+    },
+    {
+      "before": "episodes/calculus_pilot/shot-plan.json",
+      "after": "workflow/episodes/calculus_pilot/shot-plan.json",
+      "sha256": "d19299f9988eef0127bd7bf3a792954913cd4f0bf5fee8b263c99d6b839b9b9d",
+      "size": 1298
+    },
+    {
+      "before": "episodes/calculus_pilot/captions.srt",
+      "after": "workflow/episodes/calculus_pilot/captions.srt",
+      "sha256": "30c5d85f2a85bcd1554c07c0b09a10187d277d8f8b5097ef9201b21ea3faeace",
+      "size": 281
+    },
+    {
+      "before": "episodes/calculus_pilot/edit.json",
+      "after": "workflow/episodes/calculus_pilot/edit.json",
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278",
+      "size": 1254
+    },
+    {
+      "before": "episodes/calculus_pilot/asset-manifest.json",
+      "after": "workflow/episodes/calculus_pilot/asset-manifest.json",
+      "sha256": "aa5fabf7d223ca71214976c7541de1c42bf9a908b9e6af59f837e59386869c9b",
+      "size": 551
+    },
+    {
+      "before": "episodes/calculus_pilot/README.md",
+      "after": "workflow/episodes/calculus_pilot/README.md",
+      "sha256": "311b37b6b6c15319890a34c4fd0e0eeaaf37f7e26afadf6f0d7353e0d2e4e5b0",
+      "size": 2756
+    },
+    {
+      "before": "episodes/calculus_pilot/.gitignore",
+      "after": "workflow/episodes/calculus_pilot/.gitignore",
+      "sha256": "70a213afeabe5ac38ae4c88b2c7002ce5068b91a3e57a032245ab809dc6fa460",
+      "size": 8
+    },
+    {
+      "before": "episodes/calculus_pilot/MEDIA.md",
+      "after": "workflow/episodes/calculus_pilot/MEDIA.md",
+      "sha256": "42eb8dc145e0e6cfa58d254469a33fceead0ba94bccbcec7b35757b48b15ea0e",
+      "size": 2122
+    },
+    {
+      "before": "episodes/calculus_pilot/flow-video-prompts.md",
+      "after": "workflow/episodes/calculus_pilot/flow-video-prompts.md",
+      "sha256": "857a20838b8812c7f40332454164a32686d8de2f2623bec01f2bc5875a97099c",
+      "size": 5835
+    },
+    {
+      "before": "episodes/calculus_pilot/narration.txt",
+      "after": "workflow/episodes/calculus_pilot/narration.txt",
+      "sha256": "44120924dbf2f0a0c8b144cf954a5cbac9f3ba1e2303aefbc8edccda14e1a44a",
+      "size": 153
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/timeline.resolved.json",
+      "after": "workflow/episodes/calculus_pilot/renders/timeline.resolved.json",
+      "sha256": "3a6fa9b71a17dc443226ad32eb81434fbec81b04253a1bac9b226992519ac278",
+      "size": 1254
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/storyboard.jpg",
+      "after": "workflow/episodes/calculus_pilot/renders/storyboard.jpg",
+      "sha256": "b2bf50f799ca248068d3232e25e28f4c6ff9c84b624b201b4be982e0d166749a",
+      "size": 193834
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/validation.json",
+      "after": "workflow/episodes/calculus_pilot/renders/validation.json",
+      "sha256": "547aa13ccc2f26f016ac4e4f40c48afdcc7d5b953f72df10330d8aed2e8656ad",
+      "size": 759
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/decode-check.log",
+      "after": "workflow/episodes/calculus_pilot/renders/decode-check.log",
+      "sha256": "4fc10f8c27d26f49a22c8933c75268107f54da5b37e1c75975ef15d5995507e5",
+      "size": 1720
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/animatic.mp4",
+      "after": "workflow/episodes/calculus_pilot/renders/animatic.mp4",
+      "sha256": "0a92b2a6d71ed0135ed4c6a925239396b39a3eade27a39a24e53232ae60c00df",
+      "size": 701387
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/picture-with-overlays.mp4",
+      "after": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.mp4",
+      "sha256": "4b3669813216205ce5f3a340cfc8b265efd46e0bc9a4de79eb5462db52338d7d",
+      "size": 491223
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/picture-clean.log",
+      "after": "workflow/episodes/calculus_pilot/renders/picture-clean.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/picture-with-overlays.log",
+      "after": "workflow/episodes/calculus_pilot/renders/picture-with-overlays.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/picture-clean.mp4",
+      "after": "workflow/episodes/calculus_pilot/renders/picture-clean.mp4",
+      "sha256": "19dd5f508dc0af846c2cc16c57caf1b050b6568a835c7c4d7ec66d5eaa4c96a0",
+      "size": 502742
+    },
+    {
+      "before": "episodes/calculus_pilot/layers/tangent.svg",
+      "after": "workflow/episodes/calculus_pilot/layers/tangent.svg",
+      "sha256": "5f5013557aeb9c502f4ed0ab9346b24c3727e10c038e2f6da48dfddb636ef709",
+      "size": 336
+    },
+    {
+      "before": "episodes/calculus_pilot/layers/graph.svg",
+      "after": "workflow/episodes/calculus_pilot/layers/graph.svg",
+      "sha256": "78731a38e42a7c162239867d1bfdcb5298f50463ceff68b9ab11a85a3013a461",
+      "size": 11809
+    },
+    {
+      "before": "episodes/calculus_pilot/clips/01-hop-on.mp4",
+      "after": "workflow/episodes/calculus_pilot/clips/01-hop-on.mp4",
+      "sha256": "b34ec65539261c7d999e12f51e6b6e6f07371a68daec5a88820291c60f542841",
+      "size": 1385010
+    },
+    {
+      "before": "episodes/calculus_pilot/plans/flow-run-2026-11-08.json",
+      "after": "workflow/episodes/calculus_pilot/plans/flow-run-2026-11-08.json",
+      "sha256": "928d2b8b94d85daad593d1485fb37e2381560e57a50e8d16dece9b973376a6c8",
+      "size": 673
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/voiceover-cues.template.json",
+      "after": "workflow/episodes/calculus_pilot/audio/voiceover-cues.template.json",
+      "sha256": "e9f46429ec301be466034e1adfedf2544b54fb7709ed26ddf79031719142ce8b",
+      "size": 698
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/B.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/B.png",
+      "sha256": "883c9820058dc104d06bddaa4c8eb60d221352deb6550d25c8ce7bf490c4ce66",
+      "size": 1041636
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/C.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/C.png",
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3",
+      "size": 24528
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/A.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/A.png",
+      "sha256": "914225ea3949919a4004ed3cfeb855a360ded419c5a569c6d688142f0b7937fd",
+      "size": 1075364
+    },
+    {
+      "before": "episodes/calculus_pilot/jobs/useapi/A-B.json",
+      "after": "workflow/episodes/calculus_pilot/jobs/useapi/A-B.json",
+      "sha256": "23d746e1a197e7fd3206edcac4eeccecd4b0ff4e15ea6cd5ee95b7dcbb16c240",
+      "size": 9034
+    },
+    {
+      "before": "episodes/calculus_pilot/jobs/useapi/A-B.lock",
+      "after": "workflow/episodes/calculus_pilot/jobs/useapi/A-B.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/02-lean-start.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/02-lean-start.png",
+      "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0",
+      "size": 757539
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/B.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/B.png",
+      "sha256": "d6bff34cfa465cd13757e1b9c0891731c42a55d5cc82ce9c396e9939214522e0",
+      "size": 757539
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/01-hop-start.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/01-hop-start.png",
+      "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b",
+      "size": 764464
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/C.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/C.png",
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3",
+      "size": 24528
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/03-reaction-start.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/03-reaction-start.png",
+      "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7",
+      "size": 794947
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/A.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/A.png",
+      "sha256": "401fb0a392e86caa7eaafef9c26ab870f2718451e45c5289ac9457789662778b",
+      "size": 764464
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/match-cut-target.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/match-cut-target.png",
+      "sha256": "6e43097e247b52bf3af8c2c073602fe749cc7404dcd09a3ef74278b10a89b7e3",
+      "size": 24528
+    },
+    {
+      "before": "episodes/calculus_pilot/keyframes/blocking/D.png",
+      "after": "workflow/episodes/calculus_pilot/keyframes/blocking/D.png",
+      "sha256": "47aafbfa014b67fa878e466d6443b7bce593808b3e9356575221926bef28cfe7",
+      "size": 794947
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/hop-temp.aiff",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/hop-temp.aiff",
+      "sha256": "19430b81cf3028ff1a4febf40833bddc697d422c98946c730ee921e7b80c02ec",
+      "size": 112254
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/reaction-temp.aiff",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/reaction-temp.aiff",
+      "sha256": "7c102c06535c9570b66cabbe59a521267c5b3702380d4a05c5a0141f667f75e9",
+      "size": 115708
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/hop-fitted.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/hop-fitted.wav",
+      "sha256": "a6e996cff1a807afc98ab1842c77fcfd6241a4dff7109bc4fa3d3339f3e5f516",
+      "size": 345678
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/mix.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/mix.wav",
+      "sha256": "471d0ecc83b137184c436a92e3e64c00e0dfaf643244efc9aa55a40c60233b10",
+      "size": 1440078
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/reaction-temp.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/reaction-temp.wav",
+      "sha256": "7eac62c6533845a2741894675631d07d4fc6c0fa7170931fb65da4741f14e84b",
+      "size": 243044
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/lean-fitted.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/lean-fitted.wav",
+      "sha256": "9b85b4f79f26d63d8a58ae305cb24892e5f91aadf8d5cbf32771e14562889bd9",
+      "size": 374478
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/graph-temp.aiff",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/graph-temp.aiff",
+      "sha256": "d225c929f1f75ccfdae2b13b98c47519dcc4a6e5d9530b93a5e02625c171a3f0",
+      "size": 114684
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/graph-fitted.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/graph-fitted.wav",
+      "sha256": "cb20e9fa17ed84a5601ebcee11ca68dbbe17c5560d589ee5c68160eb5234af76",
+      "size": 412878
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/reaction-fitted.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/reaction-fitted.wav",
+      "sha256": "19824b6581b2904330e938e6ff3e43d0bfe1ddd8a2c0f8553f15c5a68e036661",
+      "size": 307278
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/graph-temp.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/graph-temp.wav",
+      "sha256": "ac98bfe893a6ee49b943a01b51b0fdf03d4b6ef321ea5da6f405fd812f450eaf",
+      "size": 240814
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/sfx.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/sfx.wav",
+      "sha256": "17f1a205c0cb625de07b84e2f15dee85c6d1ac961f6f69e0b583ba15cec05afd",
+      "size": 1440044
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/lean-temp.aiff",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/lean-temp.aiff",
+      "sha256": "4721104862e9efe9cba96df3f0182a1431a1da7e72dc042530067854b8426e21",
+      "size": 80754
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/hop-temp.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/hop-temp.wav",
+      "sha256": "1e322dfd81cb93f1824a7489d217d5b4c6bf1e24b579ca062fb64d5fce941387",
+      "size": 235524
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/narration.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/narration.wav",
+      "sha256": "eceb265febfc087099059617bbc230788e8c6b25ecdc69bb03f971fcee1e8528",
+      "size": 1440078
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/voice-raw.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/voice-raw.wav",
+      "sha256": "a80e5f237dd1e2108d7aee55a1c06bb3c7d6d61b6c96bbe2f5910628c23d427b",
+      "size": 1440044
+    },
+    {
+      "before": "episodes/calculus_pilot/audio/generated/lean-temp.wav",
+      "after": "workflow/episodes/calculus_pilot/audio/generated/lean-temp.wav",
+      "sha256": "026f806b3bf5521133d4c8c0f30c3d564dbf700574927a158e78849e1a352d68",
+      "size": 166954
+    },
+    {
+      "before": "episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+      "after": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "before": "episodes/calculus_pilot/plans/provenance/source-integrity.json",
+      "after": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity.json",
+      "sha256": "b773f80f5ca816507a4b09643661d650e60c0dd9481fb7fe7000172ddd47ba33",
+      "size": 416
+    },
+    {
+      "before": "episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+      "after": "workflow/episodes/calculus_pilot/plans/provenance/website-status-before-v2.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "before": "episodes/calculus_pilot/plans/provenance/source-integrity-v2.json",
+      "after": "workflow/episodes/calculus_pilot/plans/provenance/source-integrity-v2.json",
+      "sha256": "7df9a321a65fd72eecf552543cd86bd693ed4d85e095a897d768922a47b13aad",
+      "size": 439
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/previews/beat_2.png",
+      "after": "workflow/episodes/calculus_pilot/renders/previews/beat_2.png",
+      "sha256": "ea88c3e35ac0d745c1a553f0519793dbe3a6e6d17c79518cded1dd7402a7d5f0",
+      "size": 692205
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/previews/beat_3.png",
+      "after": "workflow/episodes/calculus_pilot/renders/previews/beat_3.png",
+      "sha256": "b8c5ce72491d52bfcca3bdb5718f69b298a480e43dc98773426b1f413d4356ad",
+      "size": 675122
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/previews/beat_1.png",
+      "after": "workflow/episodes/calculus_pilot/renders/previews/beat_1.png",
+      "sha256": "129f88b62a2828659661c15cdfa5c043c1d5e8d611229dbd958a701e0ca80605",
+      "size": 680853
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/previews/beat_4.png",
+      "after": "workflow/episodes/calculus_pilot/renders/previews/beat_4.png",
+      "sha256": "fb2a368cb53f1ae6e48ab30723611f49f6f41b26f19c2e1f8e167d022630d7b5",
+      "size": 39675
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/previews/beat_5.png",
+      "after": "workflow/episodes/calculus_pilot/renders/previews/beat_5.png",
+      "sha256": "3ccc2c02fece11a3a3fa6efa497e54179549a840aa978c9dfbc1342232302c14",
+      "size": 721298
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/render.log",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/render.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/picture.mp4",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/picture.mp4",
+      "sha256": "e579fb3e6e1b1ddb1b39f9feb90be557fcf68f40bcacbbe6a6d858a0e759f2c4",
+      "size": 430800
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/captions.srt",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/captions.srt",
+      "sha256": "8cb66b89eb9bfbac4fc54f83fe020e7c1f268cf8595edad8cf39fdd1b654ce18",
+      "size": 348
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/calculus_pilot.py",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/calculus_pilot.py",
+      "sha256": "bf6f224d4f6aeb0b46753dc227ed352e263556f5fa9a63abc12ae20f413feecf",
+      "size": 14757
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/README.md",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/README.md",
+      "sha256": "20c2b9e8bedc5758464064ffd00573f6042c5527da7f919b3078bf16c1a1bbae",
+      "size": 3212
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/storyboard.jpg",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/storyboard.jpg",
+      "sha256": "b725a691bd3b39a0206f1102a8015d5febd232b12ae4887bc7104173b19fdbe3",
+      "size": 173987
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/validation.json",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/validation.json",
+      "sha256": "0a4d9b40ef678dc594ae676dc9579ecea00461fbdcdd0e67140b1b75756c5d03",
+      "size": 537
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/decode-check.log",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/decode-check.log",
+      "sha256": "38334baa151db35a5e30b838b28457bec8f4f310655c887bc869fd9d7aac617c",
+      "size": 1717
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/final.mp4",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/final.mp4",
+      "sha256": "7827e5de6c7dd5da5a88917a4930bdad4648d4a68fc94fe94d54eedb7b5c7dbc",
+      "size": 649243
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/beats.json",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/beats.json",
+      "sha256": "b8130eb3a6c03fda145aaf53e7d48806fb0b2342e39d9ee7dffe117ccbf60dbe",
+      "size": 1738
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/narration.txt",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/narration.txt",
+      "sha256": "4e4ecc85f7e311b24a70349db6ed8bde70ae4a71e28afe55783caa03966cc9a5",
+      "size": 184
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_4-raw.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4-raw.wav",
+      "sha256": "3a1867ebe3a2fcbf096757c95745b902ae921777e917e6a28bdfad1aee04cf52",
+      "size": 150588
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_4.aiff",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4.aiff",
+      "sha256": "b17041a0ecfddbd974796ade56b134b72f3cbe0f9f13e1ca9ead6f2eb5affb12",
+      "size": 73236
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/timing.json",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/timing.json",
+      "sha256": "ba92b2e1004a1b4a0bc79e69607ba3e2aa35e93d50f5d755a22dfb05c2414efe",
+      "size": 510
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_5.aiff",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5.aiff",
+      "sha256": "80e8e75e3ce11b5261eb2e50a1eab36347f617a27d53398fb7bab81617612a60",
+      "size": 114552
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_5-raw.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5-raw.wav",
+      "sha256": "ca5188507ea12ed0ab75850a42a2c55c59d39f8983258c7636b86ebe0b008add",
+      "size": 240528
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_2.aiff",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2.aiff",
+      "sha256": "4c98712b8afad84640f85bce2826ebd19474b828c8b69c35c17d0dbeb9e58e7c",
+      "size": 80892
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_1.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1.wav",
+      "sha256": "1c610bb7d42c4f26e5af1f2c70d5729b503b84aa5cb5361696133dd6868ea6b4",
+      "size": 288078
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_3.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3.wav",
+      "sha256": "9e3fc08d82af7536e8c60455cfa49a2b44fbf7a98ea7aec07b352e20c0c86e28",
+      "size": 288078
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_2.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2.wav",
+      "sha256": "122208061683e1c1217c8ca9c3182d0c1d1f80e8e3187f511a305e7a377df75f",
+      "size": 288078
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_5.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_5.wav",
+      "sha256": "a1e3d5908466623b30cf7589a1e2d3a6a1890c418329b044e89df320583666f6",
+      "size": 288078
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_4.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_4.wav",
+      "sha256": "6a61ee4d77c9a5be636bab420a1590dfe7f7266260c7a44e8ee7efe8c9cc49b0",
+      "size": 288078
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_3.aiff",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3.aiff",
+      "sha256": "d0a84e76d75c829b4185a02a09636dabfbf4bb579b7d16c8c0654e38a9a21a3c",
+      "size": 84174
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_3-raw.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_3-raw.wav",
+      "sha256": "e207638858db6a67698398c177ff248283769f61e84dfa1fa221aa787d0003b9",
+      "size": 174398
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_2-raw.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_2-raw.wav",
+      "sha256": "55a47a37ee4ded8e76e6700d2550540ef8e4286fbda006550244e8a2f1ed3eca",
+      "size": 167254
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_1.aiff",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1.aiff",
+      "sha256": "6ff73c487eb78d3448f6dd183aeef1b838d8538b25f3704af7710c007281009c",
+      "size": 85362
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/narration.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/narration.wav",
+      "sha256": "b01a9434acffc846abfbb615e0ffc8f1758500ddb55df5ca05c9cdf7dfdc08c6",
+      "size": 1440044
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/audio/beat_1-raw.wav",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/audio/beat_1-raw.wav",
+      "sha256": "18d2b3b88323ac655dacfe3bbe2fee53cde80c73e57a30daac1b9cc009531be4",
+      "size": 176984
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/previews/beat_2.png",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_2.png",
+      "sha256": "e7e33b36d5651ab88c9c2b2eed744ed8f3dd43c7e2d86850029d503a05127202",
+      "size": 73106
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/previews/beat_3.png",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_3.png",
+      "sha256": "3728d9d4207332be7018de69bc35ec9daf3c8f1cc2a0911976272edc746cf0ef",
+      "size": 70622
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/previews/beat_1.png",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_1.png",
+      "sha256": "52b9b5366069a6e5ee2199f64f7e069f2592ade6d9a0b871adb429782276b132",
+      "size": 245944
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/previews/beat_4.png",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_4.png",
+      "sha256": "f687cf5104656570f596be3323a434b6f73c873dc62e7b97ab35849668859483",
+      "size": 67740
+    },
+    {
+      "before": "episodes/calculus_pilot/renders/archive/v1/previews/beat_5.png",
+      "after": "workflow/episodes/calculus_pilot/renders/archive/v1/previews/beat_5.png",
+      "sha256": "5b23c59fbffda48b8cd28ec8f6f3551f8fae4009741b9be7f8476dc96d698143",
+      "size": 278474
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/sol-lantern-audio-preview.mp4",
+      "after": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-preview.mp4",
+      "sha256": "d6ce8ad064c1d8ede0c42f9bc79dc8cfc692ffc0da40a8125d9e301a55c7abaf",
+      "size": 2138122
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/sol-lantern-audio-preview.verification.json",
+      "after": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-preview.verification.json",
+      "sha256": "bdc1db13c0ddfb2d50a9b912119f07288ed6fc3b7e525af81288adf5deec9edb",
+      "size": 811
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/sol-lantern-audio-1x.verification.json",
+      "after": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-1x.verification.json",
+      "sha256": "278ef56ee08ea159c57f6807ba7108f52c9540ae91da7c626391f66ec7404b7b",
+      "size": 667
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/sol-lantern-audio-1x.mp4",
+      "after": "workflow/episodes/sol_kling_test/renders/sol-lantern-audio-1x.mp4",
+      "sha256": "e859619ebe3869888f56c0814ca2b0e475ec32ad29eb61d7b5c6bbdac8137e0a",
+      "size": 2138016
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/sol-lantern-preview.verification.json",
+      "after": "workflow/episodes/sol_kling_test/renders/sol-lantern-preview.verification.json",
+      "sha256": "fd5a44a7bffc52b79760dba90a41f9037c394253952d19eb4ce32a649add9f58",
+      "size": 419
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/sol-lantern-preview.mp4",
+      "after": "workflow/episodes/sol_kling_test/renders/sol-lantern-preview.mp4",
+      "sha256": "4676db9065e66bdc8f907383b8faaecdae14f83f74ecbb737eeb92d8509f4ab5",
+      "size": 2037774
+    },
+    {
+      "before": "episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "after": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e",
+      "size": 1769795
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/sol-narration-1x.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/sol-narration-1x.wav",
+      "sha256": "94acf382774822c01242715222515d9e2aea812fa40e3da335502f8682d0740b",
+      "size": 592708
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/sol-narration.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/sol-narration.wav",
+      "sha256": "2414d7502a1f0379253afb04083cecfe78824a3e5e942e4414cd11c764b1db6b",
+      "size": 389652
+    },
+    {
+      "before": "episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+      "after": "workflow/episodes/sol_kling_test/keyframes/sol-lantern.jpg",
+      "sha256": "37a1ac1d0a8eb9f0eabcffe3549a9226182e0f168634a8f9622c22bb72720a15",
+      "size": 206108
+    },
+    {
+      "before": "episodes/sol_kling_test/remotion/index.tsx",
+      "after": "workflow/episodes/sol_kling_test/remotion/index.tsx",
+      "sha256": "dc90f0812699a36ced504827cf21726b043e721a8b5fdad76bcefee137880a1d",
+      "size": 1257
+    },
+    {
+      "before": "episodes/sol_kling_test/remotion/render.mjs",
+      "after": "workflow/episodes/sol_kling_test/remotion/render.mjs",
+      "sha256": "947806a78739b5cff73200a3d04ae65d61983ce9009f45dc64b94c71f3e3a705",
+      "size": 9048
+    },
+    {
+      "before": "episodes/sol_kling_test/remotion/tsconfig.json",
+      "after": "workflow/episodes/sol_kling_test/remotion/tsconfig.json",
+      "sha256": "49b1ddb428d3f6118be053a58e71019860ce911226dea51505c0057c30e90b9d",
+      "size": 181
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-test-fast.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-test-fast.json",
+      "sha256": "4d2a87fe7b5436fcf343dfac75a7bbf2762d14b71c272f1fc88f32b6b3597596",
+      "size": 1359
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-1x-transcript.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-transcript.json",
+      "sha256": "8001f33a2f5f0a21a3d2dbcbb3fdd041ccf5e0ef8a0a17efd650fd05408c08c8",
+      "size": 109
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/normal-speed-preview-delivery.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/normal-speed-preview-delivery.json",
+      "sha256": "284ea15d68fa68f711f1c27f15060054ac201a72814ea7b3a7bc6f0e9afa05f1",
+      "size": 464
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/combined-preview-delivery.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/combined-preview-delivery.json",
+      "sha256": "350893cccbdc0d67869f9af0c615700f3d3df8e54ad659b49042b316c868a22b",
+      "size": 502
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-1x-submission.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-submission.json",
+      "sha256": "b2ee8bbbe6696a56d9856d79f0a82e06a94c04d4fab0b5ff3307597d76e95703",
+      "size": 410
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-1x-completed.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-1x-completed.json",
+      "sha256": "403e11162c133b474abe066af5bdb0d16f3e54f690fd9135acc446b834af4ead",
+      "size": 287
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/download-verification.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/download-verification.json",
+      "sha256": "855d692fea0fa4fdba7f652844d393f07e97f0d20155bc42d6a3965d2ae166e6",
+      "size": 4358
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/completed.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/completed.json",
+      "sha256": "6e67690cc5464c949139dcd825a9fc4b54340884b9bae1e8622aec6ca0c6a530",
+      "size": 292
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-completed.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-completed.json",
+      "sha256": "eec836758da3797a4e94360e1331ddd46da1746a6300db72adf25572489fa567",
+      "size": 287
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/submission.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/submission.json",
+      "sha256": "400287dee2d1f5c9cb9d2f3fd521ab398e6da3f8ba63b6e4bad1b9f78fcfd2d1",
+      "size": 1591
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-submission.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-submission.json",
+      "sha256": "f7e9ea257361ce6c36592ebfb57144b982cd872df6d8a7a27e4b3b16ad844e83",
+      "size": 411
+    },
+    {
+      "before": "episodes/sol_kling_test/jobs/higgsfield/audio-transcript.json",
+      "after": "workflow/episodes/sol_kling_test/jobs/higgsfield/audio-transcript.json",
+      "sha256": "1183b329048bcb46a0f250ec1c178c89c4cb342a992baeb070b2fa79dccc2f2b",
+      "size": 1054
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/music.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/music.wav",
+      "sha256": "3fd9579676442a7eb36b5c36198ce496bde8b43d77c9c213e99e8e228ffd856f",
+      "size": 768218
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/mix-verification.json",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/mix-verification.json",
+      "sha256": "8f98b8363365afc48f87c73523df64f5830316cd1ca7832f5d7ee4ad5a70eb7b",
+      "size": 808
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/sol-lantern-mix.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/sol-lantern-mix.wav",
+      "sha256": "41c448566bac6540445b454aa9015cd03ca3da54106ede9908817d46d07ef676",
+      "size": 768078
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/lantern-rustle.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/lantern-rustle.wav",
+      "sha256": "19588e55d09752a84703d96458175b7db5cb72c27942e298f1b8680d864b7463",
+      "size": 384044
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/night-ambience.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/night-ambience.wav",
+      "sha256": "48da87727605a99ba44f61fa587b1cb8dd446f16ef510bfe170fa24b5e45653d",
+      "size": 384044
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/narration.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/narration.wav",
+      "sha256": "752bc15e3ef3d0b440e725be5e31f35f41a8d10d63c978c3d5402125111b7052",
+      "size": 760526
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/normal-speed/music.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/music.wav",
+      "sha256": "3fd9579676442a7eb36b5c36198ce496bde8b43d77c9c213e99e8e228ffd856f",
+      "size": 768218
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/normal-speed/mix-verification.json",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/mix-verification.json",
+      "sha256": "a63f5b321568b87074ca9c60d278024d68620ce7570f7dbe19d32186fc9e1425",
+      "size": 834
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/normal-speed/sol-lantern-mix.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/sol-lantern-mix.wav",
+      "sha256": "b581d2e0b2028f7b00c021be41ad48dca01ad9e830e37e11ea54a7d6c958c04c",
+      "size": 768078
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/normal-speed/lantern-rustle.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/lantern-rustle.wav",
+      "sha256": "19588e55d09752a84703d96458175b7db5cb72c27942e298f1b8680d864b7463",
+      "size": 384044
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/normal-speed/night-ambience.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/night-ambience.wav",
+      "sha256": "48da87727605a99ba44f61fa587b1cb8dd446f16ef510bfe170fa24b5e45653d",
+      "size": 384044
+    },
+    {
+      "before": "episodes/sol_kling_test/audio/generated/normal-speed/narration.wav",
+      "after": "workflow/episodes/sol_kling_test/audio/generated/normal-speed/narration.wav",
+      "sha256": "cb2243c6885505e58407ce1fdad950aa8c0be7eccef574bda746c466955a955b",
+      "size": 757990
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/reference-comparison.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/reference-comparison.jpg",
+      "sha256": "d57173b21014c8aa254a2a0fd8bf6c0a17c26a03f92270eda80ab89ccc6b0a0c",
+      "size": 413614
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/artwork-contact-sheet.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/artwork-contact-sheet.jpg",
+      "sha256": "afd416f46ffea90328a07ad10189a05d8b594e324e7e66849e26bd6c78177512",
+      "size": 496081
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/shot-contact-sheet.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/shot-contact-sheet.jpg",
+      "sha256": "90bdb66a90358a644209376b618f410a1c309158ab9677663ff83c852f36416b",
+      "size": 336284
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/visual-review.json",
+      "after": "workflow/episodes/sol_kling_test/renders/review/visual-review.json",
+      "sha256": "e7d196a5223bb6205904e0da63e0f98023ee6d731b8df058547949a31712f42c",
+      "size": 2405
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/preview-02.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/preview-02.jpg",
+      "sha256": "cd74b868290cb6c32ff82814cac3c6131017931634f98a14f7f1cd97fe8e2e29",
+      "size": 62719
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/preview-01.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/preview-01.jpg",
+      "sha256": "50b287eb2b21cb51ed2023c124016579a8886cf520a94205e443c7a78b7d6afc",
+      "size": 55967
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/preview-first-last.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/preview-first-last.jpg",
+      "sha256": "55e0734e73840a6d78f17a5a2260f47a0b9214ecbbd75a9afadc223192264e19",
+      "size": 95938
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/character-contact-sheet.jpg",
+      "after": "workflow/episodes/sol_kling_test/renders/review/character-contact-sheet.jpg",
+      "sha256": "0b4e6da7aa52298a7bb5249b771eaa341da4c2537525bbb4fe264ce365d1c027",
+      "size": 690296
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/002.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/002.png",
+      "sha256": "140b1793af7c5d4c8cf3ef4ef69624b30c6627ccd52c64f39a3f6ee242af69de",
+      "size": 644562
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/016.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/016.png",
+      "sha256": "e054a1b04d7fd87d981658dc797ac8e1561f74a60beef103b60cd4e768f54516",
+      "size": 654975
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/017.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/017.png",
+      "sha256": "2d33659e2706f682eba96c9cf11a76d5dd96cd51a73f3171533ac4422f110c04",
+      "size": 654781
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/003.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/003.png",
+      "sha256": "341912d516476d5a01a2be025d8aab73eb7c67f44ee657a6e540196b697b81b0",
+      "size": 654300
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/029.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/029.png",
+      "sha256": "027cc8dff7d6aa3fe2a87109632fe46327283c4042e788eef5460be2fec99256",
+      "size": 653889
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/015.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/015.png",
+      "sha256": "46a515567154f32e842b0cc5e60b58ee9efa94bf84bff3326fe0699b216c955b",
+      "size": 653867
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/001.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/001.png",
+      "sha256": "4a49db76164e221814a3006ec25ee015cac836291025dc9f230ed07a083828d7",
+      "size": 676858
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/014.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/014.png",
+      "sha256": "59d1a83deb1185cc2efe6fb035ed2bdd22471f6fe8085a4c48769dab98dd9c6f",
+      "size": 653499
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/028.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/028.png",
+      "sha256": "aa40af0b7c71c960fdf81b7c168f19fc61716134ede753356e0ae9616cdc74bb",
+      "size": 654795
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/010.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/010.png",
+      "sha256": "89210304a124f638f59c46613907d0b1986dde9ea6f0ba7c56d1832ef01f31f5",
+      "size": 656638
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/004.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/004.png",
+      "sha256": "fbcac58bfa38413ebb7ebfc08ca43152c029c068e53d038a950723cb4f2602f0",
+      "size": 658121
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/038.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/038.png",
+      "sha256": "54005aa1b63fefff48c2bca54644ac10896a497c6d263d787747f68df5e5042c",
+      "size": 644734
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/039.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/039.png",
+      "sha256": "e8cae3627415c91732c85e116cc53421fc3dad44f449efdfc3d5ae787b841c63",
+      "size": 643483
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/005.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/005.png",
+      "sha256": "77793f3cc757af10f7dafa763b46653b24900de428f4d4a5368c313efd50e1e9",
+      "size": 659101
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/011.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/011.png",
+      "sha256": "5868e29c6b9ede5c7c9800a51a228a873a7d0ae2457003bd51cb7b624f4cca20",
+      "size": 654215
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/007.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/007.png",
+      "sha256": "782c371bfcbb7cf56abe5e2e576f7f46c12f14f6667d4b46f13c8891ffd11b8a",
+      "size": 658788
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/013.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/013.png",
+      "sha256": "0368218c2167235c516916b2f2f121627ebe4bebb7a6746b9887df56ec51a4c7",
+      "size": 655078
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/012.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/012.png",
+      "sha256": "38a41c324ae3f1cdbebe0c14cdeca5c4214c8f197a948815e5f05153a3c3b8cd",
+      "size": 656057
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/006.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/006.png",
+      "sha256": "c6fd2ea03f3eafbfe8e89c548a8625e163c113d70aefc415c81a5259203ab316",
+      "size": 661430
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/049.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/049.png",
+      "sha256": "2fb8e2034311eceee1006ae421cc471a158b0bddec10895be8fc3ebc5eeb39b5",
+      "size": 638519
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/061.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/061.png",
+      "sha256": "77e8bb802f2a94edb08f6045bc2a2694b272629e3949f0e2ef90a0d0325eedd8",
+      "size": 604609
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/075.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/075.png",
+      "sha256": "417a09547fa89355815646e09db454ae1f51c0f52b77408741d1d9370b463925",
+      "size": 607121
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/074.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/074.png",
+      "sha256": "643796945bf924db6de6bf69d4acfeec36ae094bb1a88dae519fcff8727bf01f",
+      "size": 605496
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/060.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/060.png",
+      "sha256": "1a45c5b9a9045b424bc74dea4139f30fef139ff70c170327b85cc8d9dac00c5c",
+      "size": 610941
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/048.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/048.png",
+      "sha256": "b2b174f16e326739040371e636866b7d48464ce6ec831b3780aa44125804a5f0",
+      "size": 639721
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/076.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/076.png",
+      "sha256": "c9b834ba339a8f6f2730af1ad24c4898e35f74e5c76de65eadb4b87ca126c9d8",
+      "size": 607279
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/062.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/062.png",
+      "sha256": "d5c7e1bb171de216f679c6d57e83568d2271d51ff188f8626b9589cc2e06df8e",
+      "size": 605266
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/089.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/089.png",
+      "sha256": "691e0ffe53137119539458d5dfff0cbdc5bf57f0dd5221bb3ce431a3c7d237e8",
+      "size": 600420
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/088.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/088.png",
+      "sha256": "53880746515a236ff2532df96c02b0a718de738cffc7696ab98401ddbdbc1385",
+      "size": 601745
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/063.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/063.png",
+      "sha256": "fc652d82749e6bce5b1f4ed15ac0e9c7a556f32c2342f438d6aa2492cedb855c",
+      "size": 599458
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/077.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/077.png",
+      "sha256": "1c136eb2d7ab0dedd6e6fe76145c4f03fe3b90e76362506ac4e0c66fab42c64f",
+      "size": 607242
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/073.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/073.png",
+      "sha256": "aee71ebc284d792aad8973982eeaf785aa2f8a275337e30aac2ca3a9ba0b819a",
+      "size": 603879
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/067.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/067.png",
+      "sha256": "f1826b14566537898981fe0d718f1e467e7e84e0f90f74d9ee300fdacb7600fb",
+      "size": 598097
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/066.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/066.png",
+      "sha256": "68fdb86e1bfdeb4b40c06567b025c0981464d1625147d7f95790424a95256775",
+      "size": 598696
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/072.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/072.png",
+      "sha256": "335b58fb1232be4906df52511c8cb96c7ba4231132c0e8a7d49b6726e3ba6692",
+      "size": 604114
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/064.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/064.png",
+      "sha256": "610663e38085f3a7efdd1973f80dd764edbe19f59cff13b8ac2964c7fc3dfbcd",
+      "size": 602654
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/070.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/070.png",
+      "sha256": "3da4ea54acd17f5958a3b51edc471ac69c065579dd241cfb72c31799e300b94e",
+      "size": 601335
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/058.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/058.png",
+      "sha256": "5631b448d48b4a123f33c16d957e58276bc6cdce803244d62e63200f58ad903d",
+      "size": 627379
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/059.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/059.png",
+      "sha256": "ef00bbb6ff4392df6cc51c9f02b3f34970a70dde4f58865ca6a1d63d168b672e",
+      "size": 610066
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/071.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/071.png",
+      "sha256": "658313d5c374b2a37e897bc6fffabcc806d2148e0d12c7757a69f78a0bd2b2c1",
+      "size": 603271
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/065.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/065.png",
+      "sha256": "a3dc3b0ced24c7e815664ea0d9e88296804eceb0d97f63a35646b8bcdd7967d9",
+      "size": 596702
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/068.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/068.png",
+      "sha256": "9e74ca2c82cc01ceb8589c57093ee24a6a512f7b84f071d23ce0b251485e99a7",
+      "size": 599537
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/040.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/040.png",
+      "sha256": "59c57a7cf305c3058b6bfab50f075499e62e0c21c9deae1ae18b21d0f40996e1",
+      "size": 642992
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/054.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/054.png",
+      "sha256": "d4e737c11d816bcf6f2355a37f72c6d18ed0b5fc02eb3b99c1384b096290fc9e",
+      "size": 635136
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/083.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/083.png",
+      "sha256": "9af360ba6241ad4e07b3ab45c1353946c1f4da0cee26c33bcb5ed9ac7320fe78",
+      "size": 604185
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/097.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/097.png",
+      "sha256": "873ae2b77d5b901b0d0506731049e8a5b9b5cf917ebbe1f0d2759c9e525e7979",
+      "size": 591973
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/096.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/096.png",
+      "sha256": "311a32302cca3833cd37ca2a24958776dfbd502f4a9e114145f931577fc583ca",
+      "size": 593286
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/082.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/082.png",
+      "sha256": "aa3fe5d6b25faae202901fc076df2f1b9c497314bef13be2ebe37ee128dbf73b",
+      "size": 605476
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/055.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/055.png",
+      "sha256": "518124489997b6e7140917789d35a53ade27f9a739b16753447127e385403fe9",
+      "size": 632575
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/041.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/041.png",
+      "sha256": "9e465ede79b93339258f5234e70d7a8d1f970cfad33608f20d5171ed6f0f4579",
+      "size": 643616
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/069.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/069.png",
+      "sha256": "28450ab9f78e472dafdc8b774a06b1ec2f3e6166382da1766563076c813e1867",
+      "size": 601115
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/057.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/057.png",
+      "sha256": "8601bfd9dd0fc01732b2e1b00cc0f69d4e145ba1145f5e109df6f2845052e167",
+      "size": 627530
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/043.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/043.png",
+      "sha256": "becfa2e95a935df9e171a185f1fd87ea3ba6906c82fb3b16ca511f81339ee822",
+      "size": 642405
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/094.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/094.png",
+      "sha256": "225e7699029e69a5fa585681838022f589e2d20bf70f83a613563115d0f0317b",
+      "size": 596168
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/080.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/080.png",
+      "sha256": "f16c8764d309f3dec3e919148b4717a08752b3b6e128cb06d3f2546d90f21d8a",
+      "size": 606740
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/081.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/081.png",
+      "sha256": "94d9a8cec8cc075f291d7e872435ad2ceb23fbe439acf0fd3155e72d90930f35",
+      "size": 606792
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/095.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/095.png",
+      "sha256": "fd698ec7812a2a6e2c8f71a2f1e1e010044227942af2c162211bfe4fab5e67ba",
+      "size": 594985
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/042.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/042.png",
+      "sha256": "5e67fb0b19c7a45929f75ef8829a15d3fcb58029cf42180bea8fa79d5b5847f0",
+      "size": 642327
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/056.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/056.png",
+      "sha256": "13c6a90eccee7c1477f19c5abe7bd2160754cea8a2c15d4f0b61e9159e9d34f3",
+      "size": 633615
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/052.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/052.png",
+      "sha256": "5260fa54933c2cafc8d5a904e1247831f9b888e6bb492aa271a153d7afb1421a",
+      "size": 636292
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/046.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/046.png",
+      "sha256": "cc174c670188e211296cfc3e2d6ebdd5d898df11bda57a074dbce1afcb1ac57c",
+      "size": 639515
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/091.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/091.png",
+      "sha256": "153a8afd276dc3ddb40297ec57db8f6c2e66a6c6af81edc4a9ef3ddff40504d4",
+      "size": 599092
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/085.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/085.png",
+      "sha256": "29e6ea0f9dfc6acf002b6338476d1632ef333a4dfde4685ba3f48604bf71cd56",
+      "size": 602723
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/084.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/084.png",
+      "sha256": "eed542ea16a433eaf3021e838c0f00c5e9866b6ba845f1f8a60f014fd40e444b",
+      "size": 603469
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/090.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/090.png",
+      "sha256": "79459b710e0e515862bb6b601ee460a85080cbc1220db69b5f0a0b781e44d92d",
+      "size": 598663
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/047.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/047.png",
+      "sha256": "cdcd7b9e6e9757b23c9d952af68bab329dfdb015f49c913ee55de92a1ab1bed9",
+      "size": 638722
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/053.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/053.png",
+      "sha256": "686c8b030052e395d4b78a07ffa0f47244ae631174eadc997f4b0f3f822c2342",
+      "size": 636254
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/045.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/045.png",
+      "sha256": "6e6e72552a11cf46dc2fcb1568ba260dcfb6ef83406fe52226136ace1e008235",
+      "size": 641857
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/051.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/051.png",
+      "sha256": "f95baa9c5b73ad517d2e90b0f1669057da53899b532fa52b8dfdb2ed395e6d78",
+      "size": 636924
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/079.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/079.png",
+      "sha256": "f23ca4281af524a99efa759810518f6a519a5124eefa8a13c883a0c8d1dd1f76",
+      "size": 606878
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/086.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/086.png",
+      "sha256": "cb3911b81a14dd42320a53765265cc05d6693a13b6fd33ba2a127897b2d4239c",
+      "size": 602205
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/092.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/092.png",
+      "sha256": "8f504cb4a7382dce5afd4878e20a269acff65f1879dc2cfca86641c02a2888e3",
+      "size": 599162
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/093.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/093.png",
+      "sha256": "33b750d7fa8bc2af48d956644fe413ffa79f566c8de7ba1a3bdae8084d0107c1",
+      "size": 597905
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/087.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/087.png",
+      "sha256": "7714b6e366f9de345e9204d8746f15c4b452d59276da832c8fa78cf4642fda75",
+      "size": 601467
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/078.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/078.png",
+      "sha256": "b0165818275a9fa7afcd92e7119c37151f58cdb4bb9a43b41b39e1aadc7a52f6",
+      "size": 607968
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/050.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/050.png",
+      "sha256": "dd4519880b3beb440ae2743050ce39531526dd4413fda10c1cb7e639b7f3bc35",
+      "size": 637323
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/044.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/044.png",
+      "sha256": "528696d44884923b124ea155655168138cdec18c9f0b4df32574edff3f8998b7",
+      "size": 642798
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/023.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/023.png",
+      "sha256": "69cf9eab7f5f7ad2a26f51f671c28b72129447fd7f3c742a8b563f532cfd63b4",
+      "size": 655388
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/037.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/037.png",
+      "sha256": "f45d2d693fd7e4289327fbc40528287d2830da0db7bd75cd43b4d2035c7945ef",
+      "size": 646105
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/036.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/036.png",
+      "sha256": "1897c1974af9f419ed3ebfd5f98c8a218c4a76f7cfd9e0f49bb60bd3ae0c6ebf",
+      "size": 646192
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/022.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/022.png",
+      "sha256": "099b7ca991d7caec48a14a8cce82457212d501268e219231ae84efa4468ebe2b",
+      "size": 654934
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/008.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/008.png",
+      "sha256": "8dfc26a34460ea6e5160f59fd69554f464f6e23281ce944dd5c9b1af1a28170e",
+      "size": 659764
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/034.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/034.png",
+      "sha256": "589524539ecbab6c984eb38fd4e83b318c51d0e391467ebbad2c069aadb86214",
+      "size": 648716
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/020.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/020.png",
+      "sha256": "a73199a08c476d40e63292eebdebf535bb0319c7c798cee812f7cffdc51ce74c",
+      "size": 656826
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/021.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/021.png",
+      "sha256": "a64c323bba299ae5e6f4f063ce5159e677cddcc4f445eacd4d73461e565f9426",
+      "size": 655656
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/035.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/035.png",
+      "sha256": "40d3e23273d14e3225336b614d7375d381b1d12cdb8a8206fa3c21f578350c2a",
+      "size": 644894
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/009.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/009.png",
+      "sha256": "59012f89853a9ca6025219c1f414df0604122ccb961a9b6bacdbd5dcba880268",
+      "size": 657440
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/031.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/031.png",
+      "sha256": "03060b5d36a836b746af7b6f3a68e6515b70e4fa2c4a648217f5d40c5a21573c",
+      "size": 650216
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/025.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/025.png",
+      "sha256": "2bd6ce06f9e41f2214ee8ba4d2d9a584448d27ae2a7c099a5a6e795143508060",
+      "size": 654470
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/019.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/019.png",
+      "sha256": "852e2505f386f7389d7ea478b5d1f4a3ac90c3f13a965d8506c5f773f5512356",
+      "size": 656226
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/018.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/018.png",
+      "sha256": "5c1fa344e9cad189af69fb63f8eebe8d2d5d76f158291b145a939744115ca480",
+      "size": 654740
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/024.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/024.png",
+      "sha256": "2b647f093e11c53316e15937d81fb3f13159d14e6acebea7a381be8cbe044b6c",
+      "size": 654984
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/030.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/030.png",
+      "sha256": "5571268bf9344dce7a946c8a8f6872780c2476df37bf6860feae9672db18c2f9",
+      "size": 652300
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/026.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/026.png",
+      "sha256": "702c59b71c373a62cd89f5dbe9623f2de2f164a2b984f4da39df780c582f1587",
+      "size": 656047
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/032.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/032.png",
+      "sha256": "8b4934ac4bd34cafe7aa602869975f17ffc8845c4912aaad96e04aa7bcb5e394",
+      "size": 650879
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/033.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/033.png",
+      "sha256": "8c1398da31da9d753c0b151fca15472ea6e83b20aee1e613ff338b67e149075e",
+      "size": 648684
+    },
+    {
+      "before": "episodes/sol_kling_test/renders/review/frames/027.png",
+      "after": "workflow/episodes/sol_kling_test/renders/review/frames/027.png",
+      "sha256": "4d80b7f45828dac131ee9d55f3ee4b18fe3556f57a94bbd253004c4dcdb75e24",
+      "size": 655073
+    },
+    {
+      "before": "episodes/zipper_demo/renders/zipper-verified.mp4",
+      "after": "workflow/episodes/zipper_demo/renders/zipper-verified.mp4",
+      "sha256": "a686a93a84b4c5c44e05be52e1b2d13c32343eff454c11cae82a5a7804ddcf7d",
+      "size": 4816082
+    },
+    {
+      "before": "episodes/zipper_demo/renders/zipper-verified.verification.json",
+      "after": "workflow/episodes/zipper_demo/renders/zipper-verified.verification.json",
+      "sha256": "2581f004eddb7cefec8af5a1289649cdce433f58d67d42be9e8c70a097aca597",
+      "size": 142
+    },
+    {
+      "before": "episodes/zipper_demo/public/fonts/Nunito-OFL.txt",
+      "after": "workflow/episodes/zipper_demo/public/fonts/Nunito-OFL.txt",
+      "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "size": 4385
+    },
+    {
+      "before": "episodes/zipper_demo/public/fonts/Nunito.ttf",
+      "after": "workflow/episodes/zipper_demo/public/fonts/Nunito.ttf",
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207",
+      "size": 276932
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/ignite/sol-full-body.png",
+      "after": "workflow/episodes/zipper_demo/public/art/ignite/sol-full-body.png",
+      "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605",
+      "size": 540293
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/ignite/painted-style-reference.jpg",
+      "after": "workflow/episodes/zipper_demo/public/art/ignite/painted-style-reference.jpg",
+      "sha256": "84e09899d17f0dc7974973f3a3040f0d880747116e5b88f5e8fcc7d73d41e1fe",
+      "size": 1621297
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/slider-shell.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/slider-shell.svg",
+      "sha256": "b06e96d6fd0fdeca5ab9f3abe6b862682173f2f6e641ddefcffed592cb68e6a9",
+      "size": 862
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/fabric-fold.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/fabric-fold.svg",
+      "sha256": "f7a79d1102d7e370ca8300cc8642e06a04f7fb0abde065c641aaa82042315bed",
+      "size": 736
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/zipper-track.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/zipper-track.svg",
+      "sha256": "c8382e21643448be5dcf8767f15f25ff6c0efd5123be41cc8fed71e32dea5962",
+      "size": 5269
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/paper.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/paper.svg",
+      "sha256": "657424f91b8c48d96f661847ee685e02e20d5496f213aa0bfbf128ff0e9c97dc",
+      "size": 106441
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/catch-ring.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/catch-ring.svg",
+      "sha256": "d0baedc4d4fefe15873c9d68fe126587aa4e7d72fa34dae988062b2e434538be",
+      "size": 488
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/inner-channel.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/inner-channel.svg",
+      "sha256": "327f621d023bc05c7982f64d006d82d822c8ae5b43d566c666fd2f40f64ef36c",
+      "size": 542
+    },
+    {
+      "before": "episodes/zipper_demo/public/art/zipper/pull-tab.svg",
+      "after": "workflow/episodes/zipper_demo/public/art/zipper/pull-tab.svg",
+      "sha256": "a7e8adca6dcc3bb1c655328cd7c603cbac9bc7331a57aa2a211a8d02dda845a1",
+      "size": 477
+    },
+    {
+      "before": "episodes/zipper_demo/renders/remotion/zipper.verification.json",
+      "after": "workflow/episodes/zipper_demo/renders/remotion/zipper.verification.json",
+      "sha256": "2581f004eddb7cefec8af5a1289649cdce433f58d67d42be9e8c70a097aca597",
+      "size": 142
+    },
+    {
+      "before": "episodes/zipper_demo/renders/remotion/sol.png",
+      "after": "workflow/episodes/zipper_demo/renders/remotion/sol.png",
+      "sha256": "b4ca6b55ec71c92e0d2e8405c51ae70f88573b30814ef92cb0c7b6d4f65041dc",
+      "size": 372738
+    },
+    {
+      "before": "episodes/zipper_demo/renders/remotion/storyboard.jpg",
+      "after": "workflow/episodes/zipper_demo/renders/remotion/storyboard.jpg",
+      "sha256": "051b44d2d7304b3fbcc81f204afc48bc882d709efab60949e65aaf9772002b2d",
+      "size": 63638
+    },
+    {
+      "before": "episodes/zipper_demo/renders/remotion/zipper.mp4",
+      "after": "workflow/episodes/zipper_demo/renders/remotion/zipper.mp4",
+      "sha256": "70c3527c4a5b667d9dc7d14db6e41c2e287021b4ca3571668489181b0170b143",
+      "size": 3389236
+    },
+    {
+      "before": "episodes/zipper_demo/renders/remotion/reveal.png",
+      "after": "workflow/episodes/zipper_demo/renders/remotion/reveal.png",
+      "sha256": "16e2f549630ee1855b6bbf346420ed1261852f5df3da511bf19a5e44eeada8af",
+      "size": 381148
+    }
+  ],
+  "compatibility_links": [
+    "scripts",
+    "assets",
+    "guidelines",
+    "remotion",
+    "templates",
+    "tests",
+    "vendor",
+    "migration",
+    "config",
+    "episodes",
+    "requirements.txt",
+    "music",
+    "zack-d-films-ai-video-generator"
+  ]
+}
