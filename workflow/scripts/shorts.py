@@ -46,7 +46,7 @@ def shot_plan(episode, edit):
     return {'episode':episode.name, 'sequence':['A','B','C','D'], 'frames':frames}
 
 
-def prepare(episode, duration=None):
+def prepare_calculus(episode, duration=None):
     if not episode.resolve().is_relative_to(WORKFLOW):
         raise ValueError('New Ignite episodes must live inside '+str(WORKFLOW))
     for directory in ('keyframes/blocking','clips','audio/generated','renders/previews','layers','plans'):
@@ -113,7 +113,27 @@ def prepare(episode, duration=None):
     return edit
 
 
+def is_skit(episode):
+    config=episode/'edit.json'
+    if config.is_file():return 'shots' in json.loads(config.read_text())
+    return episode.name != 'calculus_pilot'
+
+
+def prepare(episode, duration=None):
+    if is_skit(episode):
+        from skit import prepare as prepare_skit
+        return prepare_skit(episode,duration)
+    return prepare_calculus(episode,duration)
+
+
 def check(episode, images=False, probe=False, ffmpeg=None):
+    if is_skit(episode):
+        from skit import check as check_skit
+        return check_skit(episode,images,probe)
+    return check_calculus(episode,images,probe,ffmpeg)
+
+
+def check_calculus(episode, images=False, probe=False, ffmpeg=None):
     report={'episode':str(episode),'missing':[],'errors':[],'warnings':[],'present':[]}
     config=episode/'edit.json'
     if not config.is_file():
@@ -188,7 +208,7 @@ def archive_outputs(episode):
 def main(argv=None):
     parser=argparse.ArgumentParser(description=__doc__)
     sub=parser.add_subparsers(dest='command',required=True)
-    for action in ('prepare','generate','check','render'):
+    for action in ('prepare','generate','check','render','sync-audio'):
         command=sub.add_parser(action)
         command.add_argument('episode',nargs='?',default='calculus_pilot',help='Episode name or full episode folder path')
         if action=='prepare':command.add_argument('--duration',type=float)
@@ -206,13 +226,20 @@ def main(argv=None):
         if action in ('check','render'):command.add_argument('--ffmpeg')
         if action=='render':
             command.add_argument('--animatic',action='store_true',help='Allow marked placeholders and temporary speech')
+            command.add_argument('--draft',action='store_true',help='Export actual skit media with provisional caption timing')
             command.add_argument('--captions',choices=('burn','soft','none'))
     args=parser.parse_args(argv)
     episode=episode_path(args.episode)
     try:
         if args.command=='generate':
+            if is_skit(episode):
+                raise ValueError('Codex generates skit frames, clips and voices through the connected Higgsfield tools using '+str(episode/'higgsfield-prompts.txt')+'. This Flow command is only for the preserved calculus A-B test.')
             from google_flow import generate
             generate(episode,args.shot,args.email,args.ffprobe,args.poll_interval,args.wait_timeout,dry_run=args.dry_run)
+            return 0
+        if args.command=='sync-audio':
+            from skit import sync_audio
+            print(json.dumps(sync_audio(episode),indent=2))
             return 0
         if args.command=='prepare':
             if not episode.exists() and not re.fullmatch(r'[A-Za-z0-9_-]+',Path(args.episode).name):
@@ -229,6 +256,15 @@ def main(argv=None):
                 for warning in report['warnings']:print('NOTE: '+warning)
                 if not report['missing'] and not report['errors']:print('MEDIA PRESENT; '+('FINAL READY' if report['final_ready'] else 'VOICE TIMING PENDING'))
             return 1 if report['missing'] or report['errors'] else 0
+        if is_skit(episode):
+            if args.animatic:
+                raise ValueError('Use Remotion Studio for a skit preview; generated clips and actual voices are required for export.')
+            report=check(episode,probe=True)
+            if report['missing'] or report['errors'] or (not args.draft and not report.get('final_ready')):
+                raise ValueError('Final skit export blocked: '+json.dumps(report))
+            command=['npm','--prefix',str(WORKFLOW/'remotion'),'run','render','--',str(episode/'edit.json')]
+            if args.draft:command.append('--draft')
+            return subprocess.run(command).returncode
         binary=ffmpeg_path(args.ffmpeg)
         if not args.animatic:
             report=check(episode,probe=True,ffmpeg=binary)

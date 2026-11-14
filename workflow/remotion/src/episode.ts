@@ -94,6 +94,29 @@ export const episodeSchema = z
       fps: z.literal(30),
     }),
     artNote: z.string().optional(),
+    layout: z.enum(["cards", "fullscreen"]).default("cards"),
+    captionStyle: z
+      .object({
+        fontSize: z.number().positive().default(56),
+        fill: z.string().default("#FFFFFF"),
+        outline: z.string().default("#F07B2A"),
+        outlineWidth: z.number().nonnegative().default(6),
+        leftPercent: z.number().min(0).max(100).default(10),
+        rightPercent: z.number().min(0).max(100).default(16),
+        topPercent: z.number().min(0).max(100).default(80),
+      })
+      .default({
+        fontSize: 56,
+        fill: "#FFFFFF",
+        outline: "#F07B2A",
+        outlineWidth: 6,
+        leftPercent: 10,
+        rightPercent: 16,
+        topPercent: 80,
+      }),
+    timing: z
+      .object({ confirmed: z.boolean(), note: z.string().optional() })
+      .optional(),
     assets: z.object({ paper: asset, font: asset }),
     palette: z.object({
       paper: z.string(),
@@ -124,6 +147,24 @@ export const episodeSchema = z
       })
       .nullable()
       .default(null),
+    audioTracks: z
+      .array(
+        z.object({
+          id: z.string().min(1),
+          speaker: z.string().min(1),
+          src: asset,
+          start: seconds,
+          trimBefore: seconds.default(0),
+          duration: z.number().positive().finite().optional(),
+          volume: z.number().min(0).max(2).default(1),
+          playbackRate: z.literal(1).default(1),
+          source_sha256: z
+            .string()
+            .regex(/^[a-f0-9]{64}$/)
+            .optional(),
+        }),
+      )
+      .default([]),
   })
   .superRefine((episode, context) => {
     const total = episode.shots.reduce((sum, shot) => sum + shot.duration, 0);
@@ -191,6 +232,23 @@ export const episodeSchema = z
         path: ["voiceover", "start"],
         message: "Voiceover must start inside the episode",
       });
+    const audioIds = new Set<string>();
+    episode.audioTracks.forEach((track, index) => {
+      if (
+        audioIds.has(track.id) ||
+        track.start >= total ||
+        (track.duration !== undefined &&
+          track.start + track.duration > total + 1 / 30)
+      ) {
+        context.addIssue({
+          code: "custom",
+          path: ["audioTracks", index],
+          message:
+            "Audio tracks need unique IDs and must fit inside the episode",
+        });
+      }
+      audioIds.add(track.id);
+    });
   });
 
 export type Episode = z.infer<typeof episodeSchema>;
@@ -210,5 +268,6 @@ export const assetPaths = (episode: Episode): string[] => [
         : shot.scene.layers.flatMap((l) => (l.src ? [l.src] : [])),
     ),
     ...(episode.voiceover?.src ? [episode.voiceover.src] : []),
+    ...episode.audioTracks.map((track) => track.src),
   ]),
 ];

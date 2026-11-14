@@ -1,0 +1,98 @@
+{
+  "id": "escalator-scene-01-test",
+  "title": "Escalator — Scene 01 test",
+  "hook": "How does an escalator work?",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "layout": "fullscreen",
+  "assets": {
+    "paper": "art/ignite/painted-style-reference.jpg",
+    "font": "fonts/RammettoOne-Regular.ttf"
+  },
+  "palette": {
+    "paper": "#FFF8F0",
+    "ink": "#1A1A2E",
+    "teal": "#4F9298",
+    "orange": "#F07B2A"
+  },
+  "captionStyle": {
+    "fontSize": 56,
+    "fill": "#FFFFFF",
+    "outline": "#F07B2A",
+    "outlineWidth": 6,
+    "leftPercent": 10,
+    "rightPercent": 16,
+    "topPercent": 80
+  },
+  "shots": [
+    {
+      "id": "01",
+      "label": "Scene 01",
+      "duration": 5,
+      "scene": {
+        "type": "video",
+        "src": "clips/01-scene.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.12,
+      "end": 2.225354,
+      "text": "Wait, where do these steps go"
+    },
+    {
+      "start": 2.225354,
+      "end": 4.330708,
+      "text": "when they disappear into the floor?"
+    }
+  ],
+  "voiceover": null,
+  "audioTracks": [
+    {
+      "id": "01-01-sol",
+      "speaker": "Sol",
+      "src": "audio/01-01-sol.wav",
+      "start": 0.12,
+      "duration": 4.210708,
+      "trimBefore": 0,
+      "volume": 1,
+      "playbackRate": 1,
+      "source_sha256": "437dce02bcbc7a92143713a65576733de21ddea449805f03e7f05523dba294ea"
+    }
+  ],
+  "cast": {
+    "Sol": {
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice": "Sol",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1
+    },
+    "Narrator": {
+      "provider": "Higgsfield",
+      "voice": "Arthur",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+    }
+  },
+  "timing": {
+    "confirmed": false,
+    "note": "Opening test; caption timings are provisional."
+  }
+}

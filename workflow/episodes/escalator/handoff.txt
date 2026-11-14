@@ -11,8 +11,9 @@ First test: scene-01-test-plan.txt.
 The old drawing references and custom tools were preserved under
 archive/pre-clips-only/. They are not inputs or requirements for this workflow.
 
-Six scenes; 99 spoken words; 43 seconds remains a planning estimate. The
+Six scenes; 99 spoken words; 49 seconds now follows the eight measured natural-rate takes plus visual holds. The
 custom Sol voice is the saved project choice; Arthur is the off-screen narrator.
-Arthur's exact preset ID still needs to be selected before generating speech.
-No generation jobs have been submitted. Actual voices and generated frames
-still need review before final timing and finishing are locked.
+Arthur preset 30fc8796-ceb6-4a66-b3a7-4a145ef7f346 was verified through Higgsfield list_voices.
+Codex is generating the actual frames, clips and voices through the connected
+Higgsfield tools from the saved prompts. All eight normal-rate voice takes
+are downloaded. Caption phrase times remain provisional; review before final export.

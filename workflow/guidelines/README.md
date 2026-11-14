@@ -20,7 +20,7 @@ Use the [workflow guide](../README.md) for commands and file locations, the
 New shorts start with a **30-second target, 9:16, painted 2D**. New skits
 use the style guide's cast: **Narrator / Arthur** off-screen and **Sol /
 Higgsfield custom voice Sol**, with Sol remaining mouthless. Exact voice
-settings live in the [shared voice cast](../workflow/config/voices.json).
+settings live in the [shared voice cast](../config/voices.json).
 Existing single-voice Cub
 episodes and explicit episode overrides retain their assignments.
 Keep speech at its normal generated rate and **1× playback**. Use fuller

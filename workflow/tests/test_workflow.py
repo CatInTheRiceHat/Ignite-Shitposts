@@ -11,7 +11,7 @@ from unittest.mock import patch
 SCRIPTS=Path(__file__).resolve().parents[1]/'scripts'
 sys.path.insert(0,str(SCRIPTS))
 from paths import WORKFLOW, episode_path, clip_path, voice_paths
-from shorts import prepare, check
+from shorts import prepare_calculus as prepare, check_calculus as check
 from calculus_edit import Graph, validate
 
 

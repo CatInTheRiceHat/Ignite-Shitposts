@@ -80,6 +80,28 @@ from its shot lengths. Keep intentional existing overrides: zipper is 20
 seconds and the custom Sol lantern composition is 4 seconds. The Python
 workflow separately defaults to 720 × 1280 and uses its own edit schema.
 
+## Generated skits
+
+Use `python3 workflow/scripts/shorts.py prepare <episode>` to prepare a new
+skit, or create an edit from its reviewed shot plan. Set `layout: "fullscreen"`
+for complete 9:16 footage. This fills the entire 1080 × 1920 picture without
+the older card headers or cropped scene window. Existing edits default to
+the original `cards` layout.
+
+`audioTracks` holds separate timed takes with `id`, `speaker`, `src`, `start`,
+`duration`, `trimBefore`, `volume`, `playbackRate: 1` and `source_sha256`.
+The legacy single `voiceover` remains supported. `captionStyle` controls the
+font size, white fill, orange outline and safe-area position; skits use the
+shared Rammetto One font. Captions remain editable text in the episode JSON.
+
+`python3 workflow/scripts/shorts.py sync-audio <episode>` measures the actual
+downloaded takes and prepares provisional phrase captions. Review them in
+Studio, then set `timing.confirmed: true`. Final full-screen exports require
+confirmed timing, actual audio tracks and matching source hashes.
+Use `npm --prefix workflow/remotion run render -- <episode> --draft` for an
+explicit draft export while caption timing is provisional. Actual clips and
+voice takes are still required; the output is named `<id>-draft.mp4`.
+
 ## Artwork, footage and narration
 
 Layer scenes support independent position, scale, rotation, opacity, tugging,

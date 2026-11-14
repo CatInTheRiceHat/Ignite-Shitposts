@@ -3,7 +3,7 @@ Complete script and clip plan
 
 12 generated first/last stills -> six complete Higgsfield clips -> simple assembly with separate voices, captions and sound.
 
-Six scenes. 99 spoken words. Roughly 43 seconds; final timing follows the actual voices.
+Six scenes. 99 spoken words. 49 seconds planned from the actual natural-rate takes plus visual holds; caption phrase timing remains provisional.
 
 CAST
 Narrator: Higgsfield Arthur, off-screen, warm nature-documentary delivery.
@@ -14,9 +14,9 @@ CONTINUITY
 The same orange-edged tread carries Sol to the exit, disappears under the plate, travels through the return run, and reappears at the bottom.
 Scene 02 follows that tread into the return run. It keeps traveling while Scenes 03–05 show other gray steps and parts of the mechanism.
 Scene 06 finds the orange-edged tread at the lower turn and follows it back to the entrance. Keep the passenger run moving up-right and the hidden return down-left.
-Use the approved generated frames to preserve the same escalator, tread design and Sol appearance across scenes. The identifying orange edge is part of the generated picture.
+Use the approved generated frames to preserve the same escalator, tread design and Sol appearance across scenes. The identifying orange edge is part of the generated picture. Only the tracked tread has that orange stripe; all other tread edges are plain gray.
 
-SCENE 01 — 5 seconds estimated
+SCENE 01 — 5 seconds (actual voices measured)
 
 Framing: Face-height three-quarter view of the upper escalator exit. Full-body Sol fills about half the picture height, moving from left of center toward the open stationary landing at right. Both feet, his exact tread and the fixed exit plate share one clear crop.
 Camera: Locked camera throughout the generated clip.
@@ -30,7 +30,7 @@ Action: Sol starts stepping onto the stationary landing immediately. Show the le
 Last frame: Both feet are planted on the stationary upper floor. Sol holds a compact 15-degree down-left questioning lean, one eye slightly taller and one flatter. the original orange-edged tread has vanished beneath the fixed exit plate and entered the hidden upper turn. Preserve this eye/body pose into Scene 02.
 Next cut: Cut to the full-loop schematic while preserving Sol's questioning lean and the original orange-edged tread in the hidden upper turn.
 
-SCENE 02 — 7 seconds estimated
+SCENE 02 — 7 seconds (actual voices measured)
 
 Framing: Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition.
 Camera: Locked camera throughout the generated clip.
@@ -44,7 +44,7 @@ Action: Give Sol one clear upward glance toward Arthur. Then let him follow the 
 Last frame: The same side camera shows the entire loop. the original orange-edged tread is early in the return run under the upper portion of the escalator. Sol stays on the upper landing with a small down-left tracking lean and his original navy ovals directed along that tread's path. He is not looking back up at Arthur.
 Next cut: Cut to the drive. the original orange-edged tread continues along the return run, continuing its visible route; keep it the same physical tread.
 
-SCENE 03 — 8 seconds estimated
+SCENE 03 — 11 seconds (actual voices measured)
 
 Framing: Close three-quarter cutaway from the near side, looking slightly down into the upper drive. Motor is upper-left; its drive connection reaches the shared shaft and paired sprockets at middle-right. Two separated side chains extend to attached rigid steps toward lower-left. Use a locked source camera that includes all connections.
 Camera: Locked camera throughout the generated clip.
@@ -59,7 +59,7 @@ Action: Show the motor, drive connection, shared shaft and paired sprockets as o
 Last frame: The same connected system remains visible. Both chains are engaged and carry the rigid steps uphill, with the locked camera preserving both connections.
 Next cut: Cut to a different example step on the incline. the original orange-edged tread keeps moving off-screen along the return run.
 
-SCENE 04 — 9 seconds estimated
+SCENE 04 — 10 seconds (actual voices measured)
 
 Framing: Exact side-profile close-up of one rigid step on the incline. Its horizontal tread occupies the upper-middle of the picture; expose the fixed support and both near-side roller contacts below. Cropped neighboring steps give context. Keep a level side camera with all contacts above the quiet caption area.
 Camera: Smooth side-profile follow at the moving step's speed.
@@ -73,7 +73,7 @@ Action: Follow one gray example step uphill in side profile. Show two near-side 
 Last frame: The gray example step has moved uphill. Both near-side rollers remain on their separate cyan and purple tracks, the far pair stays hidden, and the standing tread stays level.
 Next cut: Cut to neighboring example treads at the upper transition; keep the same four-roller and track geometry. the original orange-edged tread continues off-screen.
 
-SCENE 05 — 8 seconds estimated
+SCENE 05 — 10 seconds (actual voices measured)
 
 Framing: Fixed true side close-up of the upper transition, wide enough for three neighboring treads, the stationary exit plate and the start of the hidden return turn. Incoming steps rise from lower-left toward the upper-right floor. Expose both guide paths.
 Camera: Locked camera throughout the generated clip.
@@ -87,7 +87,7 @@ Action: Show neighboring treads reaching the same height to make the flat exit r
 Last frame: Two neighboring treads form a flat row beside the stationary landing. The leading rigid step is beneath the fixed plate at the start of the return turn, still attached to its chains and supported by the same roller/track geometry. Source camera and crop are unchanged.
 Next cut: Cut to the matching return view, finding the original orange-edged tread in the lower turnaround as it approaches the entrance.
 
-SCENE 06 — 6 seconds estimated
+SCENE 06 — 6 seconds (actual voices measured)
 
 Framing: Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition.
 Camera: Locked camera throughout the generated clip.

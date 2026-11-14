@@ -5,12 +5,28 @@ import { assetPaths, durationFrames, parseEpisode } from "../src/episode";
 
 const demo = () =>
   JSON.parse(
-    readFileSync(new URL("../../episodes/zipper_demo/edit.json", import.meta.url), "utf8"),
+    readFileSync(
+      new URL("../../episodes/zipper_demo/edit.json", import.meta.url),
+      "utf8",
+    ),
   );
 test("the neutral starter is valid without any zipper assets", () => {
-  const episode = parseEpisode(JSON.parse(readFileSync(new URL("../../templates/remotion-episode.json", import.meta.url), "utf8")));
+  const episode = parseEpisode(
+    JSON.parse(
+      readFileSync(
+        new URL("../../templates/remotion-episode.json", import.meta.url),
+        "utf8",
+      ),
+    ),
+  );
   assert.equal(durationFrames(episode), 900);
-  assert(episode.shots.every((shot) => shot.scene.type === "layers" && shot.scene.layers.every((layer) => layer.placeholder)));
+  assert(
+    episode.shots.every(
+      (shot) =>
+        shot.scene.type === "layers" &&
+        shot.scene.layers.every((layer) => layer.placeholder),
+    ),
+  );
   assert(assetPaths(episode).every((asset) => !asset.includes("zipper")));
 });
 test("zipper edit is exactly 600 frames with all five story beats and separate painted layers", () => {
@@ -78,4 +94,27 @@ test("media must stay local and inside public, and shot IDs must be unique", () 
   const episode = demo();
   episode.shots[1].id = episode.shots[0].id;
   assert.throws(() => parseEpisode(episode));
+});
+test("fullscreen clips retain separate voice takes at 1x and reject invalid audio timing", () => {
+  const input = demo();
+  input.layout = "fullscreen";
+  input.audioTracks = [
+    { id: "sol", speaker: "Sol", src: "audio/sol.wav", start: 0, duration: 2 },
+    {
+      id: "arthur",
+      speaker: "Narrator",
+      src: "audio/arthur.wav",
+      start: 3,
+      duration: 4,
+    },
+  ];
+  const episode = parseEpisode(input);
+  assert.equal(episode.layout, "fullscreen");
+  assert.equal(episode.audioTracks[0].playbackRate, 1);
+  assert(assetPaths(episode).includes("audio/arthur.wav"));
+  input.audioTracks[1].duration = 30;
+  assert.throws(() => parseEpisode(input));
+  input.audioTracks[1].duration = 4;
+  input.audioTracks[1].playbackRate = 1.2;
+  assert.throws(() => parseEpisode(input));
 });
