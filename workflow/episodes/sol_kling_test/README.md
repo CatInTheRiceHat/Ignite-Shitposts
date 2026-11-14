@@ -27,7 +27,7 @@ node workflow/episodes/sol_kling_test/remotion/render.mjs --with-audio
 ```
 
 The composition and renderer are local to this episode's `remotion/` folder.
-They use the shared dependency install in `workflow/episodes/node_modules/`.
-See the [episode index](../README.md) for installation and npm shortcuts. Review the saved
+They use the shared dependency install in `workflow/remotion/node_modules/`.
+See the [shared engine guide](../../remotion/README.md) for installation and npm shortcuts. Review the saved
 audio settings before rebuilding a mix; differing existing outputs are
 preserved and reported. These commands do not submit generation jobs.

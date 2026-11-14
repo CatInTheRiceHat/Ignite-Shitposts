@@ -1,60 +1,55 @@
 # Episodes
 
-Use this index to find an episode's editable source and completed work.
-New Python episodes are prepared with
-`python3 workflow/scripts/shorts.py prepare <name>` from the repository root.
-Prepare preserves existing edits and downloads.
+Each episode owns its scripts, edit settings, artwork, media and renders.
+Reusable Remotion code and the single npm install live in
+[../remotion/](../remotion/README.md). Custom compositions can stay in an
+episode's own `remotion/` folder.
 
 | Episode | Editable source | Media and renders |
 | --- | --- | --- |
-| [Calculus pilot](calculus_pilot/README.md) | `calculus_pilot/`: narration, `edit.json`, shot plan and Flow prompts | The same folder's `keyframes/`, `clips/`, `audio/` and `renders/` |
-| [Sol lantern / Kling test](sol_kling_test/README.md) | `sol_kling_test/`: generation request, `audio-test.json` and `remotion/` | The same folder's `keyframes/`, `clips/`, `audio/` and `renders/` |
-| [Zipper demo](zipper_demo/README.md) | `zipper_demo/remotion/`: [episode JSON](zipper_demo/remotion/episodes/zipper.json), source and `public/` assets | Working outputs in `zipper_demo/remotion/out/`; the preserved verified delivery is in `zipper_demo/renders/` |
+| [Calculus pilot](calculus_pilot/README.md) | Narration, Python `edit.json`, shot plan and Flow prompts | Its `keyframes/`, `clips/`, `audio/` and `renders/` |
+| [Zipper demo](zipper_demo/README.md) | [edit.json](zipper_demo/edit.json), rendered by the shared engine | Its `public/` assets and `renders/` outputs |
+| [Sol lantern / Kling test](sol_kling_test/README.md) | Generation request, `audio-test.json` and custom `remotion/` composition | Its `keyframes/`, `clips/`, `audio/` and `renders/` |
 
-## Remotion projects
-
-Each Remotion episode owns its composition, configuration and assets in its
-own `remotion/` folder. Dependencies are installed once at the episodes root:
+## Remotion episodes
 
 ```text
-episodes/
-  package.json              Shared npm workspace and dependency versions
-  package-lock.json
-  tsconfig.remotion.json    Shared TypeScript defaults
-  node_modules/             Local shared install; ignored by Git
-  zipper_demo/
-    remotion/               Zipper source, settings, public assets and tools
-    renders/                Preserved delivery
-  sol_kling_test/
-    remotion/               Sol composition and renderer
-    clips/
-    audio/
-    renders/
-  calculus_pilot/            Python/FFmpeg episode
+workflow/
+  remotion/                  Shared renderer, components, tools and dependencies
+  episodes/
+    zipper_demo/
+      edit.json
+      public/
+      renders/
+    sol_kling_test/
+      remotion/              Custom composition and verification
+      clips/
+      audio/
+      renders/
 ```
 
-Install dependencies from the repository root with:
+From the repository root:
 
 ```bash
-npm --prefix workflow/episodes ci
+npm --prefix workflow/remotion ci
+npm --prefix workflow/remotion run dev -- zipper_demo
+npm --prefix workflow/remotion run render -- zipper_demo
+npm --prefix workflow/remotion run sol:check
+npm --prefix workflow/remotion run sol:render
 ```
 
-Then use these commands from the repository root:
+To start another standard Remotion short, copy
+[the neutral starter](../templates/remotion-episode.json) into a new episode's
+`edit.json`, then run `setup-assets` and `dev` for its name. See the
+[shared engine guide](../remotion/README.md) for the complete commands. Every
+standard edit uses its own `public/` and `renders/`; it does not need another
+npm project. The Sol test demonstrates an episode-specific composition.
 
-```bash
-npm --prefix workflow/episodes run zipper:dev
-npm --prefix workflow/episodes run zipper:render
-npm --prefix workflow/episodes run sol:check
-npm --prefix workflow/episodes run sol:render
-```
+## Python episodes
 
-You can also run `npm run dev`, `npm run render`, and the other local scripts
-from `zipper_demo/remotion/`. The Sol project's scripts are `check` and `render`.
-For another Remotion episode, create `episodes/<name>/remotion/` and register
-its package in the root `package.json` workspaces. Share the root dependencies;
-keep the new composition, settings, assets and outputs with its episode.
-
-For a Python episode, the usual structure is:
+Prepare with `python3 workflow/scripts/shorts.py prepare <name>` from the
+repository root. Prepare preserves existing edits and downloads. The typical
+layout is:
 
 ```text
 <episode>/
@@ -71,10 +66,7 @@ For a Python episode, the usual structure is:
   renders/
 ```
 
-Provider job records stay in that episode's ignored `jobs/` directory.
-Keep downloaded audio in its real format. Keep render archives and approved
-media; do not replace a differing existing file to resolve a naming collision.
-
-The zipper project's exact editing instructions are in its
-[Remotion guide](zipper_demo/remotion/README.md). The Python CLI's calculus
-template does not prepare or render the two Remotion examples.
+The Python CLI uses the calculus template and does not prepare or render the
+Remotion examples; their edit schemas differ. Provider job records stay in
+the episode's ignored `jobs/` directory. Keep audio in its real format, preserve
+render archives and approved media, and flag differing filename collisions.

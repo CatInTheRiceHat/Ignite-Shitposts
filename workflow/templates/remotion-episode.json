@@ -1,0 +1,187 @@
+{
+  "id": "new-short",
+  "title": "New Ignite short",
+  "hook": "Write a question about something visible.",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "artNote": "DRAFT \u2014 replace placeholders and time to the actual narration.",
+  "assets": {
+    "paper": "art/ignite/painted-style-reference.jpg",
+    "font": "fonts/Nunito.ttf"
+  },
+  "palette": {
+    "paper": "#FFF8F0",
+    "ink": "#1A1A2E",
+    "teal": "#4F9298",
+    "orange": "#F07B2A"
+  },
+  "shots": [
+    {
+      "id": "hook",
+      "label": "Hook",
+      "title": "Hook",
+      "duration": 7.5,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "to": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "start": 0,
+          "end": 7.5
+        },
+        "layers": [
+          {
+            "id": "hook-art",
+            "placeholder": "DRAFT: opening image",
+            "x": 120,
+            "y": 160,
+            "width": 840,
+            "height": 960
+          }
+        ],
+        "annotations": []
+      }
+    },
+    {
+      "id": "setup",
+      "label": "Setup",
+      "title": "Setup",
+      "duration": 7.5,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "to": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "start": 0,
+          "end": 7.5
+        },
+        "layers": [
+          {
+            "id": "setup-art",
+            "placeholder": "DRAFT: one clear action or comparison",
+            "x": 120,
+            "y": 160,
+            "width": 840,
+            "height": 960
+          }
+        ],
+        "annotations": []
+      }
+    },
+    {
+      "id": "reveal",
+      "label": "Reveal",
+      "title": "Reveal",
+      "duration": 7.5,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "to": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "start": 0,
+          "end": 7.5
+        },
+        "layers": [
+          {
+            "id": "reveal-art",
+            "placeholder": "DRAFT: detail that proves the answer",
+            "x": 120,
+            "y": 160,
+            "width": 840,
+            "height": 960
+          }
+        ],
+        "annotations": []
+      }
+    },
+    {
+      "id": "payoff",
+      "label": "Payoff",
+      "title": "Payoff",
+      "duration": 7.5,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "to": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "start": 0,
+          "end": 7.5
+        },
+        "layers": [
+          {
+            "id": "payoff-art",
+            "placeholder": "DRAFT: final image or purposeful Sol action",
+            "x": 120,
+            "y": 160,
+            "width": 840,
+            "height": 960
+          }
+        ],
+        "annotations": []
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 7.5,
+      "text": "Write a question about something visible."
+    },
+    {
+      "start": 7.5,
+      "end": 15,
+      "text": "Show what changes."
+    },
+    {
+      "start": 15,
+      "end": 22.5,
+      "text": "Explain the mechanism in plain English."
+    },
+    {
+      "start": 22.5,
+      "end": 30,
+      "text": "End with the takeaway."
+    }
+  ],
+  "voiceover": {
+    "src": null,
+    "script": "Write a question about something visible.\n\nShow what changes.\n\nExplain the mechanism in plain English.\n\nEnd with the takeaway.",
+    "start": 0,
+    "volume": 1
+  }
+}

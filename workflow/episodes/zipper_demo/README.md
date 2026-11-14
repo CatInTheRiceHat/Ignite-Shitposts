@@ -1,28 +1,29 @@
 # Zipper demo
 
-The existing **20-second, 1080 × 1920, 30 fps** demo is edited and rendered
-with this episode's [Remotion project](remotion/README.md).
+This existing 20-second, 1080 × 1920, 30 fps edit is one episode rendered by the
+[shared Remotion engine](../../remotion/README.md).
 
-- Edit the [zipper episode JSON](remotion/episodes/zipper.json) for the
-  script, shots, captions, layer paths and optional narration.
-- Editable SVG artwork lives in `remotion/public/art/zipper/`.
-- Working renders and stills live in `remotion/out/`.
-- This episode's `renders/` retains the previously verified delivery and
-  verification record.
+- [edit.json](edit.json): hook, script, shots, captions, artwork paths and optional narration.
+- `public/art/zipper/`: editable SVG study artwork.
+- `public/art/ignite/` and `public/fonts/`: local shared-reference and font copies.
+- `public/clips/` and `public/audio/`: optional imported footage and narration.
+- `renders/`: new exports and the preserved verified delivery.
+- `renders/remotion/`: outputs and stills previously in `remotion/out/`.
 
 From the repository root:
 
 ```bash
-cd workflow/episodes/zipper_demo/remotion
-npm run dev
-# Or render the existing local demo:
-npm run render
+npm --prefix workflow/remotion run dev -- zipper_demo
+npm --prefix workflow/remotion run render -- zipper_demo
+npm --prefix workflow/remotion run still -- zipper_demo --frame 270
 ```
 
-The default demo is silent and its zipper art is labeled study artwork.
-Follow the Remotion guide to replace artwork or import narration and clips.
-Keep the existing 20-second edit unless changing it intentionally.
+Install dependencies once with `npm --prefix workflow/remotion ci`.
+New renders default to `renders/zipper.mp4`; prior outputs are archived before
+replacement. The default edit remains silent, and its zipper art is labeled
+study artwork. Replace that art and time imported narration deliberately.
 
-Dependencies are shared with the other Remotion episodes. Install them once
-with `npm --prefix workflow/episodes ci` from the repository root; see the
-[episode index](../README.md) for workspace commands.
+Asset paths in the JSON are relative to this episode's `public/` folder.
+The shared engine guide documents layer placement, camera motion, imported
+MP4s and optional narration. The zipper JSON and all existing media retain
+their contents; only their file locations have changed.
