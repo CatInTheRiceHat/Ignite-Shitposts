@@ -1,0 +1,18 @@
+ESCALATOR — CLIPS-ONLY HANDOFF
+
+The plan is 12 generated stills, six complete generated clips, then simple
+assembly with separate voices, captions and sound. The explanation and cartoon
+cutaways belong inside the generated clips.
+
+Active review documents: script.txt, shot-plan.json and higgsfield-prompts.txt.
+Separate dialogue text: narration.txt and sol-dialogue.txt.
+First test: scene-01-test-plan.txt.
+
+The old drawing references and custom tools were preserved under
+archive/pre-clips-only/. They are not inputs or requirements for this workflow.
+
+Six scenes; 99 spoken words; 43 seconds remains a planning estimate. The
+custom Sol voice is the saved project choice; Arthur is the off-screen narrator.
+Arthur's exact preset ID still needs to be selected before generating speech.
+No generation jobs have been submitted. Actual voices and generated frames
+still need review before final timing and finishing are locked.

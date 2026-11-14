@@ -9,5 +9,6 @@
   "voice_lufs": -16,
   "sfx_peak_dbfs": -30,
   "temporary_voice": "Samantha",
-  "note": "Local temporary speech is only for a labeled animatic and must never be represented as Cub."
+  "skit_voices_config": "workflow/config/voices.json",
+  "note": "Top-level narrator settings preserve the existing single-voice calculus workflow. New two-voice skits use Arthur for the Narrator and the user's Higgsfield custom voice Sol, with exact settings in workflow/config/voices.json. Local temporary speech is only for a labeled animatic and must never be represented as the selected production voice."
 }

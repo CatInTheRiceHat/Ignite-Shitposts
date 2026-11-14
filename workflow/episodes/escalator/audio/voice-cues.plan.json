@@ -1,0 +1,89 @@
+{
+  "status": "provisional; no actual takes available",
+  "confirmed": false,
+  "playback_rate": 1,
+  "scene_estimates_only": true,
+  "utterances": [
+    {
+      "scene": "01",
+      "speaker": "Sol",
+      "text": "Wait, where do these steps go when they disappear into the floor?",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "02",
+      "speaker": "Narrator",
+      "text": "They turn underneath and ride back to the bottom. Same steps, one big loop.",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "03",
+      "speaker": "Sol",
+      "text": "So what's pulling them?",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "03",
+      "speaker": "Narrator",
+      "text": "An electric motor turns toothed wheels that pull a chain along each side of the steps.",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "04",
+      "speaker": "Narrator",
+      "text": "Front and back rollers follow separate tracks, keeping the surface you stand on level as the step climbs.",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "05",
+      "speaker": "Narrator",
+      "text": "Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath.",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "06",
+      "speaker": "Sol",
+      "text": "So the step I just rode comes back around for the next person?",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    },
+    {
+      "scene": "06",
+      "speaker": "Narrator",
+      "text": "Exactly.",
+      "source_audio": null,
+      "source_sha256": null,
+      "measured_start_sec": null,
+      "measured_end_sec": null,
+      "word_cues": null
+    }
+  ],
+  "policy": "Measure the separate natural-rate voice takes, align captions and clip cuts to them, and preserve a clear reveal and happy final hold. Keep playback at 1x."
+}

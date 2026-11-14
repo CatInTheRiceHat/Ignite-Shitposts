@@ -1,34 +1,44 @@
 {
   "episode": "escalator",
   "title": "How does an escalator work?",
-  "status": "script and clip plan draft",
+  "status": "clips-only review draft; generation unsubmitted",
   "target_duration_sec": 30,
   "estimated_duration_sec": 43,
-  "timing_note": "Expanded from the initial 30-second target to explain the mechanism in a conversation. All times are provisional edit estimates; use the finished voices at normal generation rate and 1x playback to set final timing.",
+  "timing_note": "43 seconds is a planning estimate. Use separate natural-rate Arthur and Sol voice takes at 1x to set the final clip lengths and caption timing. No finished voice takes or clips exist for this episode yet.",
   "format": "9:16 painted 2D",
   "speakers": {
     "Sol": {
-      "voice": "Cub (Female)",
-      "performance": "Exaggerated cartoon student; mouthless, with intentional morphs of the original two navy eye shapes, anticipation, squash/stretch, fast takes, and held reactions."
+      "voice": "Sol",
+      "performance": "Separate dialogue track; mouthless Sol, primarily eye direction, body lean and readable held poses. Current mascot guide explicitly permits eye morphs and squash/stretch; use them sparingly.",
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "decision_note": "Intentional project-wide choice explicitly requested by the user: use the Higgsfield custom voice named Sol. Exact ID/type match the completed lantern test. Older Cub narration is preserved historical metadata, not this episode default."
     },
     "Narrator": {
       "voice": "Arthur",
-      "performance": "Off-screen; conversational and engaged, responding directly to Sol."
+      "performance": "Built-in Higgsfield Arthur: warm nature-documentary delivery, patient but connected, leaving room for the loop reveal.",
+      "provider": "Higgsfield",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": null,
+      "voice_id_status": "Arthur name verified by project decision; exact preset ID not present in available project records; resolve before audio submission"
     }
   },
-  "staging": "One upward-running mall escalator, lower floor on screen left and upper landing on screen right. The rising steps always travel left to right; the hidden return run travels right to left. Warm painted mall lighting. One step has an orange editorial highlight so the viewer can track it. Sol rides that step at the opening, then stays on the upper landing throughout the explanation. Close-ups of other steps do not inherit the orange highlight.",
+  "staging": "One upward-running mall escalator, lower floor on screen left and upper landing on screen right. The rising steps always travel left to right; the hidden return run travels right to left. Warm painted mall lighting. One step has an orange painted edge so the viewer can track it. Sol rides that step at the opening, then stays on the upper landing throughout the explanation. Close-ups of other steps do not inherit the orange highlight.",
   "production_notes": [
-    "This is a review script and clip plan, not a generation request or a timed production edit.",
-    "Each clip has a separate first-frame composition, action, and last-frame composition. First and last frames describe visible states.",
-    "Use controlled painted diagrams / Remotion animation for the chains, tracks, step orientation, arrows, highlights, and labels. Base step and track geometry on the manufacturer reference. Keep the steps rigid; neighboring steps change relative height, and steps rotate around the return path.",
-    "Treat the cutaway as an editorial diagram. Cut to it already visible; no physical panel removal or machinery transforming around Sol.",
-    "The overview illustrates the route and does not promise real escalator transit speed. Preserve the orange step's route between the overview views; mechanism close-ups show other steps.",
-    "Keep all text, wheel colors, and the orange tracking highlight editable. The finished art must not bake in technical labels.",
-    "Edit durations differ by clip. Check provider durations only when generation is requested; longer diagram scenes can be animated directly in Remotion.",
-    "The narrator audio text is in narration.txt; Sol's audio text is in sol-dialogue.txt. Those files contain only spoken words. Speaker labels and scene directions remain in script.txt and this plan.",
-    "Cartoon direction updated Nov. 13, 2026: morph the existing two navy eye shapes intentionally, preserve their home placement and color, and keep the recognizable layered flame design. Each visible character clip specifies first/last expression states and cue-based acting beats.",
-    "Composition percentages are planning guides within the vertical frame. Test the approved still at phone size before generation; keep eye shapes and important mechanism contacts clear of the reserved caption strip.",
-    "Use matching painted first/end expression art for the character clips. Strong cartoon acting is requested; motion accents do not change mechanical geometry or the already-reviewed dialogue."
+    "12 generated first/last stills -> six complete Higgsfield clips -> simple assembly with separate voices, captions and sound.",
+    "Six scenes, exactly two image prompts and one continuous video prompt per scene.",
+    "The mechanism and explanatory cutaways appear inside the generated clips; no separate drawings or mechanism animation are required.",
+    "If a clip shows an incorrect connection or unclear action, revise that scene's prompts and regenerate it.",
+    "Keep editing to clip assembly, separate voices, captions, music/sound and simple transitions.",
+    "43 seconds is a planning estimate. Use separate natural-rate Arthur and Sol voice takes at 1x to set the final clip lengths and caption timing. No finished voice takes or clips exist for this episode yet."
   ],
   "clips": [
     {
@@ -36,114 +46,126 @@
       "start_sec": 0,
       "end_sec": 5,
       "setting_and_framing": "Medium full shot on the near side of the upper landing. Camera at the height of Sol's cream face, approximately 30 degrees toward the front from a pure side view, so the tread depth and both of Sol's eyes are visible. Sol starts slightly left of center and exits toward screen right.",
-      "first_frame": "Sol is fully visible on the orange-highlighted step just before the stationary floor, body centered at x=42% and feet at y=74%. His two eyes are the original neutral navy ovals. His body is upright in three-quarter view, angled toward the exit on screen right; his gaze points ahead to the landing. One stubby arm rests on the handrail.",
-      "action": "Sol steps right onto the landing. As the highlighted tread disappears, his eyes snap back toward it before his flame body turns. On 'disappear,' both eyes pop into round surprised shapes and his body stretches upward for a brief double-take. His flame tip trails the turn, overshoots, and settles. As he finishes 'floor,' he leans back toward the exit edge from his fixed floor position and settles into an asymmetrical questioning eye shape.",
+      "first_frame": "Sol is already beginning a grounded step off his original tread: the leading foot reaches the stationary landing while the trailing foot is visibly supported by that tread. His full body is three-quarter toward screen right, neutral navy oval eyes on the exit. The exact tread, fixed exit plate and both feet fit in the same crop.",
+      "action": "Sol starts stepping onto the stationary landing immediately. Show the leading foot planting, weight transferring, then the trailing foot clearing the orange-edged tread before that exact tread disappears beneath the fixed plate. Keep both feet and the plate readable in one crop. End with both feet grounded and Sol holding a questioning lean down-left.",
       "dialogue": [
         {
           "speaker": "Sol",
           "text": "Wait, where do these steps go when they disappear into the floor?"
         }
       ],
-      "last_frame": "Sol stands fully on the stationary upper floor, centered around x=66%, with both feet at y=74%. He holds a 15-degree down-left lean. His eye nearer the exit is a tall oval, and the other is shorter and flatter; both stay navy and within the cream face. The orange step is hidden beneath the exit plate, and the following unhighlighted tread remains visible below-left.",
-      "next_cut": "Hard cut wider to the flat side cutaway in clip 02. Preserve Sol's questioning expression, feet on the upper landing, down-left gaze, and the orange step's just-hidden position.",
-      "planned_method": "Generate or animate the painted Sol-and-landing scene with explicit expression endpoint art. Control tread travel and the orange highlight separately; add smear/pop accents in the edit.",
+      "last_frame": "Both feet are planted on the stationary upper floor. Sol holds a compact 15-degree down-left questioning lean, one eye slightly taller and one flatter. the original orange-edged tread has vanished beneath the fixed exit plate and entered the hidden upper turn. Preserve this eye/body pose into Scene 02.",
+      "next_cut": "Cut to the full-loop schematic while preserving Sol's questioning lean and the original orange-edged tread in the hidden upper turn.",
+      "planned_method": "Generate the complete painted cartoon scene as a Higgsfield clip; use approved generated frames for consistency.",
       "camera": {
         "shot_size": "Medium full shot; keep Sol's entire flame tip and both feet in frame.",
         "height_and_angle": "Face height; near-side three-quarter view, 30 degrees off side-on; level horizon.",
         "composition": "Sol starts centered around x=42%, with his full body between y=26–74% (48% frame height). Leave open landing space to the right. The exit plate and orange-highlighted tread sit beneath him at y=72–77%. The next two rising steps enter from the lower-left.",
         "foreground_background": "Exit edge and tread grooves are clear in the lower middle. Painted mall columns and a rounded shop opening stay soft and low contrast behind Sol.",
-        "start_view": "Full Sol on the last moving step, highlighted tread below him, stationary exit floor visible to the right.",
-        "movement": "Locked camera throughout. Let Sol's moving silhouette and eye change provide the accent; do not add a camera jolt.",
-        "end_view": "Sol has crossed to about x=66% on the upper floor, still full-body. Keep his backward lean and eyes inside x=84%. The spot where the orange step vanished remains visible below-left.",
+        "start_view": "Sol is already beginning a grounded step off his original tread: the leading foot reaches the stationary landing while the trailing foot is visibly supported by that tread. His full body is three-quarter toward screen right, neutral navy oval eyes on the exit. The exact tread, fixed exit plate and both feet fit in the same crop.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "Both feet are planted on the stationary upper floor. Sol holds a compact 15-degree down-left questioning lean, one eye slightly taller and one flatter. the original orange-edged tread has vanished beneath the fixed exit plate and entered the hidden upper turn. Preserve this eye/body pose into Scene 02.",
         "attention": "First read Sol's face, then follow his gaze back down to the disappearing orange tread."
       },
       "performance_beats": [
         {
-          "cue": "Opening / 'Wait'",
+          "cue": "Opening transfer",
           "eye_shape": "neutral",
-          "gaze": "Exit floor to screen right.",
-          "body": "A short anticipation squash before one oversized, readable step onto the landing; feet stay stubby."
+          "gaze": "Stationary landing at right.",
+          "body": "Leading foot plants while trailing foot is still supported; complete the transfer before its tread enters the plate."
         },
         {
-          "cue": "The orange tread slips under the floor / 'disappear'",
-          "eye_shape": "surprise",
-          "gaze": "Down-left toward the vanished step.",
-          "body": "Eyes lead a sharp whole-body double-take; brief upward stretch around 15–20%, then a backward lean. Hold the surprised eyes for roughly a third of a second."
-        },
-        {
-          "cue": "End of 'floor'",
+          "cue": "Original tread disappears",
           "eye_shape": "questioning",
-          "gaze": "The exit plate below-left.",
-          "body": "Both feet planted on the landing, body tilted about 15 degrees toward the mystery; one stubby arm hovers toward the exit, flame tip finishes its delayed settle."
+          "gaze": "Exact exit-plate point down-left.",
+          "body": "Look back once, lean from planted feet, and hold the questioning pose into the next shot."
         }
       ],
-      "cartoon_accents": [
-        "A two-pose painted smear on the fast body turn.",
-        "A tiny editable pop accent beside the eyes on the double-take; remove it before the held ending pose.",
-        "Optional soft pop on the eye change, beneath the speech."
+      "cartoon_accents": [],
+      "sol_visible": true,
+      "motion_prompt_action": "Sol starts stepping onto the stationary landing immediately. Show the leading foot planting, weight transferring, then the trailing foot clearing the orange-edged tread before that exact tread disappears beneath the fixed plate. Keep both feet and the plate readable in one crop. End with both feet grounded and Sol holding a questioning lean down-left.",
+      "timing_status": "provisional",
+      "reference_views": [],
+      "framing_prompt": "Face-height three-quarter view of the upper escalator exit. Full-body Sol fills about half the picture height, moving from left of center toward the open stationary landing at right. Both feet, his exact tread and the fixed exit plate share one clear crop.",
+      "clean_first_frame": "Sol is already beginning the transfer: his leading foot reaches the stationary floor and his trailing foot is supported by the last orange-edged tread. Both original oval eyes face the landing. Show the next two treads below-left; his flame tip and both feet fit comfortably inside the frame.",
+      "clean_last_frame": "Both feet are now planted on the stationary floor at right. Sol leans down-left toward the exit plate in a questioning pose, one navy eye slightly taller than the other. The exact tread he rode is beneath the plate, with the following gray tread still visible. Keep the same camera, architecture, contact shadows and physical floor height.",
+      "image_prompts": {
+        "first": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Face-height three-quarter view of the upper escalator exit. Full-body Sol fills about half the picture height, moving from left of center toward the open stationary landing at right. Both feet, his exact tread and the fixed exit plate share one clear crop. Sol is already beginning the transfer: his leading foot reaches the stationary floor and his trailing foot is supported by the last orange-edged tread. Both original oval eyes face the landing. Show the next two treads below-left; his flame tip and both feet fit comfortably inside the frame.",
+        "last": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Face-height three-quarter view of the upper escalator exit. Full-body Sol fills about half the picture height, moving from left of center toward the open stationary landing at right. Both feet, his exact tread and the fixed exit plate share one clear crop. Both feet are now planted on the stationary floor at right. Sol leans down-left toward the exit plate in a questioning pose, one navy eye slightly taller than the other. The exact tread he rode is beneath the plate, with the following gray tread still visible. Keep the same camera, architecture, contact shadows and physical floor height."
+      },
+      "video_prompt": "Animate one continuous painted cartoon shot. Keep the brush texture, lighting, character design and scene consistent. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Face-height three-quarter view of the upper escalator exit. Full-body Sol fills about half the picture height, moving from left of center toward the open stationary landing at right. Both feet, his exact tread and the fixed exit plate share one clear crop. Begin with Sol is already beginning the transfer: his leading foot reaches the stationary floor and his trailing foot is supported by the last orange-edged tread. Both original oval eyes face the landing. Show the next two treads below-left; his flame tip and both feet fit comfortably inside the frame. Sol starts stepping onto the stationary landing immediately. Show the leading foot planting, weight transferring, then the trailing foot clearing the orange-edged tread before that exact tread disappears beneath the fixed plate. Keep both feet and the plate readable in one crop. End with both feet grounded and Sol holding a questioning lean down-left. Finish with Both feet are now planted on the stationary floor at right. Sol leans down-left toward the exit plate in a questioning pose, one navy eye slightly taller than the other. The exact tread he rode is beneath the plate, with the following gray tread still visible. Keep the same camera, architecture, contact shadows and physical floor height. Keep the footage silent and free of captions or a visible narrator.",
+      "identity_references": [
+        "assets/sol-full-body.png",
+        "assets/calculus-painted-scene.jpg"
       ],
-      "sol_visible": true
+      "previous_reference": "Existing Sol identity and paint-style artwork."
     },
     {
       "id": "02",
       "start_sec": 5,
       "end_sec": 12,
       "setting_and_framing": "Wide, flat side cutaway with no perspective distortion. The full step loop fills the lower two-thirds, and Sol is visibly planted on the upper-right landing. This is an illustrative view of the same escalator, not a panel being physically opened.",
-      "first_frame": "Full side cutaway, upper landing at screen right and entrance at lower-left. Sol stands at the upper-right floor contact, in the same questioning eye shape and down-left lean as clip 01. The orange step is immediately beneath the upper landing at the start of the return curve. The full loop fits above the caption strip.",
-      "action": "The orange step follows the upper curve onto the return run. On 'underneath,' Sol folds forward slightly from his feet and compresses his eyes into horizontal focus shapes, as if trying to see through the floor. As the arrow traces the return route toward the bottom, his eyes reopen into tilted tracking ovals and his flame tip follows the downward turn. Keep the whole route visible for both sentences.",
+      "first_frame": "Full-loop side cutaway. Sol is planted on the upper-right landing in the same down-left questioning lean and eye pose as the previous shot. the original orange-edged tread is in the hidden upper turn, with both the passenger run and return run visible.",
+      "action": "Give Sol one clear upward glance toward Arthur. Then let him follow the same orange-edged tread around the upper turn and into the return run beneath the staircase. Keep the whole loop visible and finish with Sol following the tread down-left; do not add a second glance up.",
       "dialogue": [
         {
           "speaker": "Narrator",
-          "text": "They turn underneath the escalator and travel back to the bottom. You're watching the same steps go around in a loop."
+          "text": "They turn underneath and ride back to the bottom. Same steps, one big loop."
         }
       ],
-      "last_frame": "The orange step is midway along the hidden return run near x=46%, y=61%, oriented correctly for that route. Both direction arrows and the full loop are visible. Sol's feet remain fixed on the upper landing, his body leans down-left, and his two original-colored eyes hold tilted tracking oval shapes toward the orange step.",
-      "next_cut": "Cut into the upper drive mechanism. Sol stays at the upper landing but is off-screen in clips 03–05. The orange step continues along the return route while those explanatory close-ups play.",
-      "planned_method": "Controlled painted side diagram in Remotion, with an integrated painted Sol performance at the upper landing and editable eyes/effects.",
+      "last_frame": "The same side camera shows the entire loop. the original orange-edged tread is early in the return run under the upper portion of the escalator. Sol stays on the upper landing with a small down-left tracking lean and his original navy ovals directed along that tread's path. He is not looking back up at Arthur.",
+      "next_cut": "Cut to the drive. the original orange-edged tread continues along the return run, continuing its visible route; keep it the same physical tread.",
+      "planned_method": "Generate the complete painted cartoon scene as a Higgsfield clip; use approved generated frames for consistency.",
       "camera": {
         "shot_size": "Wide explanatory side view; entire loop and Sol remain visible.",
         "height_and_angle": "Orthographic side profile on the same near side as clip 01; level horizon.",
         "composition": "Escalator diagram spans roughly x=12–82%, y=37–77%. Lower entrance is near x=16%, y=69%; upper exit near x=76%, y=37%. Sol stands above that upper exit, with flame tip around y=14% and feet at y=37%, approximately 23% frame height.",
         "foreground_background": "Cream negative space behind the dark teal mechanical enclosure. Reduce architecture to a faint painted wash; the return run has clear contrast against the background.",
-        "start_view": "Orange step just under the upper exit; both the rising staircase and hidden return path are visible.",
-        "movement": "Locked camera. Animate the orange step and reveal the route arrow in place.",
-        "end_view": "Same crop. Orange step is halfway down the hidden return run, near x=46%, y=61%; Sol and the complete loop remain visible.",
-        "attention": "Orange step first, then the route underneath. Sol's supporting reaction must not compete with the route reveal."
+        "start_view": "Full-loop side cutaway. Sol is planted on the upper-right landing in the same down-left questioning lean and eye pose as the previous shot. the original orange-edged tread is in the hidden upper turn, with both the passenger run and return run visible.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "The same side camera shows the entire loop. the original orange-edged tread is early in the return run under the upper portion of the escalator. Sol stays on the upper landing with a small down-left tracking lean and his original navy ovals directed along that tread's path. He is not looking back up at Arthur.",
+        "attention": "One upward acknowledgment, then follow S17 into the return run; hold the loop reveal without a second look up."
       },
       "performance_beats": [
         {
-          "cue": "Start of the answer",
-          "eye_shape": "questioning",
-          "gaze": "Orange step at the upper turnaround.",
-          "body": "Continue the previous held lean; do not reset to a neutral stock pose on the cut."
+          "cue": "Arthur begins the answer",
+          "eye_shape": "listening_up",
+          "gaze": "Fixed Arthur eyeline just above the camera.",
+          "body": "One clear upward acknowledgment, feet planted."
         },
         {
-          "cue": "'underneath the escalator'",
-          "eye_shape": "focus",
-          "gaze": "Hidden route directly below the upper landing.",
-          "body": "An exaggerated hinged lean from planted feet, with one stubby arm tucked against the body; hold briefly."
-        },
-        {
-          "cue": "Arrow travels toward the lower-left / 'back to the bottom'",
+          "cue": "Arthur explains the route",
           "eye_shape": "tracking",
-          "gaze": "Follow the orange step down-left.",
-          "body": "Eyes shift first; flame body and tip turn after them, then hold while the narrator completes the loop explanation."
+          "gaze": "Follow S17 into the return run.",
+          "body": "Return gaze to the tread, follow it down-left and hold there until the cut."
         }
       ],
-      "cartoon_accents": [
-        "A thick hand-painted arrow draws along the return route with one small overshoot at its arrowhead.",
-        "A quick focus tick beside Sol's face on the scrutinizing pose; keep it clear of the mechanism.",
-        "The machinery does not squash, wobble, or accelerate with Sol's reaction."
+      "cartoon_accents": [],
+      "sol_visible": true,
+      "motion_prompt_action": "Give Sol one clear upward glance toward Arthur. Then let him follow the same orange-edged tread around the upper turn and into the return run beneath the staircase. Keep the whole loop visible and finish with Sol following the tread down-left; do not add a second glance up.",
+      "timing_status": "provisional",
+      "reference_views": [],
+      "framing_prompt": "Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition.",
+      "clean_first_frame": "Sol holds the previous questioning lean and navy eye pose toward the exit. His original orange-edged tread is in the hidden upper turn. Show the complete passenger run, upper turn, return run and lower turn with consistent rigid steps and separate guide paths. The two guide tracks are painted cyan and purple as part of the scene.",
+      "clean_last_frame": "The original tread is now early in the return run beneath the upper portion of the escalator. Sol remains planted on the upper landing with a small down-left tracking lean and navy ovals directed along that tread's route. He is following the tread, not looking upward. Preserve the entire loop in the same camera and crop. Keep the same cyan and purple guide tracks painted in the scene.",
+      "image_prompts": {
+        "first": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition. Sol holds the previous questioning lean and navy eye pose toward the exit. His original orange-edged tread is in the hidden upper turn. Show the complete passenger run, upper turn, return run and lower turn with consistent rigid steps and separate guide paths. The two guide tracks are painted cyan and purple as part of the scene.",
+        "last": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition. The original tread is now early in the return run beneath the upper portion of the escalator. Sol remains planted on the upper landing with a small down-left tracking lean and navy ovals directed along that tread's route. He is following the tread, not looking upward. Preserve the entire loop in the same camera and crop. Keep the same cyan and purple guide tracks painted in the scene."
+      },
+      "video_prompt": "Animate one continuous painted cartoon shot. Keep the brush texture, lighting, character design and scene consistent. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Wide flat side cutaway: the entire connected loop rises from lower-left to the upper-right exit and returns beneath the staircase toward lower-left. Sol is grounded on the upper-right landing, about a quarter of picture height. Use one locked side composition. Begin with Sol holds the previous questioning lean and navy eye pose toward the exit. His original orange-edged tread is in the hidden upper turn. Show the complete passenger run, upper turn, return run and lower turn with consistent rigid steps and separate guide paths. The two guide tracks are painted cyan and purple as part of the scene. Give Sol one clear upward glance toward Arthur. Then let him follow the same orange-edged tread around the upper turn and into the return run beneath the staircase. Keep the whole loop visible and finish with Sol following the tread down-left; do not add a second glance up. Finish with The original tread is now early in the return run beneath the upper portion of the escalator. Sol remains planted on the upper landing with a small down-left tracking lean and navy ovals directed along that tread's route. He is following the tread, not looking upward. Preserve the entire loop in the same camera and crop. Keep the same cyan and purple guide tracks painted in the scene. Keep the footage silent and free of captions or a visible narrator.",
+      "identity_references": [
+        "assets/sol-full-body.png",
+        "assets/calculus-painted-scene.jpg"
       ],
-      "sol_visible": true
+      "previous_reference": "Approved Scene 01 first and last frames, retaining the same tread and landing."
     },
     {
       "id": "03",
       "start_sec": 12,
       "end_sec": 20,
       "setting_and_framing": "Large close-up of the drive beneath the upper landing, using a near-side three-quarter cutaway angled downward about 25 degrees. This angle exposes the shared shaft and both side chains at once. Sol's question is heard off-screen.",
-      "first_frame": "The motor, gearbox, common shaft, two toothed wheels, and both step chains are visible in the three-quarter cutaway. Each chain sits on its matching toothed wheel and remains attached to its side of the steps. Sol is absent from the image; his line comes from the upper landing off-screen.",
-      "action": "Hold the complete mechanism while Sol asks his follow-up. A painted attention ring springs once around the motor on 'electric motor,' travels to the wheels on 'toothed wheels,' and then resolves into two short directional arrows along the chains on 'each side.' Push in gently while all physical parts maintain their correct connections and steady motion.",
+      "first_frame": "The generated cutaway shows the motor, drive connection, shared shaft, paired sprockets, two side chains and attached rigid steps in one clear crop. Sol is off-screen.",
+      "action": "Show the motor, drive connection, shared shaft and paired sprockets as one connected system. Both side chains move together, carrying the rigid steps uphill. Keep the camera locked so the connections stay readable.",
       "dialogue": [
         {
           "speaker": "Sol",
@@ -154,141 +176,135 @@
           "text": "An electric motor turns toothed wheels that pull a chain along each side of the steps."
         }
       ],
-      "last_frame": "The camera is 8% closer. Both toothed wheels still engage their chains, both chains still connect to the advancing steps, and the motor and gearbox remain visible at upper-left. Attention arrows point along the two chains toward the attached steps. Sol remains off-screen.",
-      "next_cut": "Hard cut to a true side profile of a different, unhighlighted step on the incline. The drive wheels from this clip are distinct from the smaller support wheels introduced next.",
-      "planned_method": "Controlled painted mechanism animation and camera push in Remotion. Keep chains, gear engagement, and attention graphics separately editable.",
+      "last_frame": "The same connected system remains visible. Both chains are engaged and carry the rigid steps uphill, with the locked camera preserving both connections.",
+      "next_cut": "Cut to a different example step on the incline. the original orange-edged tread keeps moving off-screen along the return run.",
+      "planned_method": "Generate the complete painted cartoon scene as a Higgsfield clip; use approved generated frames for consistency.",
       "camera": {
         "shot_size": "Mechanism close-up; the motor-to-step connection fills most of the picture.",
         "height_and_angle": "About 25 degrees above the drive assembly, on the same near side. Preserve the chain runs toward lower-left and the uphill direction toward upper-right.",
         "composition": "Keep motor, gearbox, shaft, both toothed wheels, and the first connected steps within x=12–82%, y=18–77%. Motor is upper-left; gearbox and shaft lead toward the two chain wheels in the middle-right; the two parallel chains extend down-left to the visible steps.",
         "foreground_background": "Near chain and wheel are large in the lower-middle foreground. Far chain remains visibly separated behind them. Enclosure walls are simplified and low contrast.",
-        "start_view": "All linked components are already visible; highlight none until Sol asks his question.",
-        "movement": "One slow 8% push toward the shaft and chain wheels over the narrator's line. Preserve the motor at upper-left and both step-chain connections within the ending crop.",
-        "end_view": "Slightly tighter on both toothed wheels and the chains still visibly attached to the steps; motor and gearbox remain legible at the edge of the same shot.",
+        "start_view": "The generated cutaway shows the motor, drive connection, shared shaft, paired sprockets, two side chains and attached rigid steps in one clear crop. Sol is off-screen.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "The same connected system remains visible. Both chains are engaged and carry the rigid steps uphill, with the locked camera preserving both connections.",
         "attention": "Use the narrator's words to lead motor → shaft/wheels → chains → steps."
       },
-      "performance_beats": [
-        {
-          "cue": "Sol's question",
-          "eye_shape": "off-screen",
-          "gaze": "Not shown; Sol remains on the upper landing.",
-          "body": "No character drawing in this clip; retain attention on the mechanism."
-        },
-        {
-          "cue": "Narrator's component names",
-          "eye_shape": "off-screen",
-          "gaze": "Viewer attention follows the named component.",
-          "body": "Use the ring and arrows as the cartoon performance accent; do not invent faces on mechanical parts."
-        }
+      "performance_beats": [],
+      "cartoon_accents": [],
+      "sol_visible": false,
+      "motion_prompt_action": "Show the motor, drive connection, shared shaft and paired sprockets as one connected system. Both side chains move together, carrying the rigid steps uphill. Keep the camera locked so the connections stay readable.",
+      "timing_status": "provisional",
+      "reference_views": [],
+      "framing_prompt": "Close three-quarter cutaway from the near side, looking slightly down into the upper drive. Motor is upper-left; its drive connection reaches the shared shaft and paired sprockets at middle-right. Two separated side chains extend to attached rigid steps toward lower-left. Use a locked source camera that includes all connections.",
+      "clean_first_frame": "Show the motor, gearbox or equivalent drive connection, shared shaft, paired sprockets and both engaged side chains as one connected system. The chains attach to opposite sides of the same step assemblies. The near and far chain are visibly separated. Sol is off-screen.",
+      "clean_last_frame": "Show a later phase of the same connected drive, with the two side chains still engaged on the paired sprockets and the attached rigid steps advanced uphill. The motor and full drive connection remain visible. Keep the identical locked camera, crop and component geometry; Sol remains off-screen.",
+      "image_prompts": {
+        "first": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Close three-quarter cutaway from the near side, looking slightly down into the upper drive. Motor is upper-left; its drive connection reaches the shared shaft and paired sprockets at middle-right. Two separated side chains extend to attached rigid steps toward lower-left. Use a locked source camera that includes all connections. Show the motor, gearbox or equivalent drive connection, shared shaft, paired sprockets and both engaged side chains as one connected system. The chains attach to opposite sides of the same step assemblies. The near and far chain are visibly separated. Sol is off-screen.",
+        "last": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Close three-quarter cutaway from the near side, looking slightly down into the upper drive. Motor is upper-left; its drive connection reaches the shared shaft and paired sprockets at middle-right. Two separated side chains extend to attached rigid steps toward lower-left. Use a locked source camera that includes all connections. Show a later phase of the same connected drive, with the two side chains still engaged on the paired sprockets and the attached rigid steps advanced uphill. The motor and full drive connection remain visible. Keep the identical locked camera, crop and component geometry; Sol remains off-screen."
+      },
+      "video_prompt": "Animate one continuous painted cartoon shot. Keep the brush texture, lighting, character design and scene consistent. Close three-quarter cutaway from the near side, looking slightly down into the upper drive. Motor is upper-left; its drive connection reaches the shared shaft and paired sprockets at middle-right. Two separated side chains extend to attached rigid steps toward lower-left. Use a locked source camera that includes all connections. Begin with Show the motor, gearbox or equivalent drive connection, shared shaft, paired sprockets and both engaged side chains as one connected system. The chains attach to opposite sides of the same step assemblies. The near and far chain are visibly separated. Sol is off-screen. Show the motor, drive connection, shared shaft and paired sprockets as one connected system. Both side chains move together, carrying the rigid steps uphill. Keep the camera locked so the connections stay readable. Finish with Show a later phase of the same connected drive, with the two side chains still engaged on the paired sprockets and the attached rigid steps advanced uphill. The motor and full drive connection remain visible. Keep the identical locked camera, crop and component geometry; Sol remains off-screen. Keep the footage silent and free of captions or a visible narrator.",
+      "identity_references": [
+        "assets/calculus-painted-scene.jpg"
       ],
-      "cartoon_accents": [
-        "The editable attention ring has one elastic overshoot before settling around each named part.",
-        "Use bold simplified component silhouettes with painted texture, retaining actual contact points.",
-        "Optional quiet swish as the attention ring changes target; no music or effects competing with the explanation."
-      ],
-      "sol_visible": false
+      "previous_reference": "Approved Scene 02 frames, retaining the same escalator and step design."
     },
     {
       "id": "04",
       "start_sec": 20,
       "end_sec": 29,
       "setting_and_framing": "Extreme close side profile of one unhighlighted step on the incline. Show the entire standing surface, its rigid support, both support-wheel positions, and both guide tracks. Include cropped neighboring steps so this reads as part of the same staircase.",
-      "first_frame": "A complete unhighlighted step is centered in true side profile, its standing surface horizontal near y=37%. Its rigid support and both supporting wheel positions are exposed below. Each wheel rests on its separate guide track; geometry follows the existing manufacturer reference. Sol is off-screen.",
-      "action": "Follow the step uphill. As the narrator names the front and back wheels, color their separate guide paths cyan and purple without changing their geometry. On 'different heights,' briefly emphasize the two wheel-to-track contacts. On 'horizontal,' draw a straight cream reference line beside the standing surface and hold it as the step continues moving.",
+      "first_frame": "True side profile of one rigid step on the incline. Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each contacting its own guide track. The matching far-side pair is occluded, giving four total rollers in this depicted assembly. The tread is horizontal.",
+      "action": "Follow one gray example step uphill in side profile. Show two near-side rollers, with the far-side pair hidden, and keep each visible roller on its own track while the tread stays level. Paint one track cyan and the other purple inside the generated scene so the explanation reads clearly.",
       "dialogue": [
         {
           "speaker": "Narrator",
-          "text": "Each step has front and back wheels following separate tracks. The tracks guide those wheels at different heights, keeping the surface you stand on horizontal."
+          "text": "Front and back rollers follow separate tracks, keeping the surface you stand on level as the step climbs."
         }
       ],
-      "last_frame": "The same step has advanced uphill while staying at the center of the tracking crop. Its standing surface remains horizontal and aligned with the straight cream line. Both support wheels remain visibly on their assigned colored tracks; Sol is still off-screen.",
-      "next_cut": "Cut ahead to the upper transition with the same cyan and purple track colors. Keep uphill movement left-to-right and distinguish these unhighlighted example steps from Sol's orange tracked step.",
-      "planned_method": "Controlled side-profile diagram with a tracking camera, editable track colors, contact halos, and reference line in Remotion.",
+      "last_frame": "The gray example step has moved uphill. Both near-side rollers remain on their separate cyan and purple tracks, the far pair stays hidden, and the standing tread stays level.",
+      "next_cut": "Cut to neighboring example treads at the upper transition; keep the same four-roller and track geometry. the original orange-edged tread continues off-screen.",
+      "planned_method": "Generate the complete painted cartoon scene as a Higgsfield clip; use approved generated frames for consistency.",
       "camera": {
         "shot_size": "Extreme mechanism close-up; one step and its supports are the clear subject.",
         "height_and_angle": "True side profile with an orthographic feel and a level camera; no tilted horizon or perspective that would obscure a horizontal tread.",
         "composition": "The main standing surface runs across x=25–76% around y=37%. The support and two visible wheel positions occupy y=44–69%, and the distinct tracks extend from x=10–84% below them. Neighboring tread fragments enter at the left and upper-right edges. All contacts remain above y=78%.",
         "foreground_background": "Dark navy wheel shapes contrast with cyan and purple track overlays. Keep the enclosure and adjacent steps muted behind the main rigid step.",
-        "start_view": "Complete side silhouette of the rigid tread/support and both support wheels; no labels or reference line yet.",
-        "movement": "Track uphill at the step's speed, keeping the main tread centered at the same screen height. The surrounding track and neighboring context move through the crop; the subject does not drift behind captions.",
-        "end_view": "Same tread-centered crop after advancing one step spacing in world position. Both wheel contacts and the horizontal reference line are still visible.",
+        "start_view": "True side profile of one rigid step on the incline. Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each contacting its own guide track. The matching far-side pair is occluded, giving four total rollers in this depicted assembly. The tread is horizontal.",
+        "movement": "Smooth side-profile follow at the moving step's speed.",
+        "end_view": "The gray example step has moved uphill. Both near-side rollers remain on their separate cyan and purple tracks, the far pair stays hidden, and the standing tread stays level.",
         "attention": "Front/back support wheels first; colored tracks second; the unchanged level standing surface last."
       },
-      "performance_beats": [
-        {
-          "cue": "'front and back wheels'",
-          "eye_shape": "off-screen",
-          "gaze": "Viewer attention moves between the two visible support-wheel contacts.",
-          "body": "Sol is not visible; support wheels roll without detaching from their tracks."
-        },
-        {
-          "cue": "'keeping the surface you stand on horizontal'",
-          "eye_shape": "off-screen",
-          "gaze": "The standing surface and matching straight reference line.",
-          "body": "Hold the clear mechanical proof; reserve cartoon motion for the reference-line reveal."
-        }
+      "performance_beats": [],
+      "cartoon_accents": [],
+      "sol_visible": false,
+      "motion_prompt_action": "Follow one gray example step uphill in side profile. Show two near-side rollers, with the far-side pair hidden, and keep each visible roller on its own track while the tread stays level. Paint one track cyan and the other purple inside the generated scene so the explanation reads clearly.",
+      "timing_status": "provisional",
+      "reference_views": [],
+      "framing_prompt": "Exact side-profile close-up of one rigid step on the incline. Its horizontal tread occupies the upper-middle of the picture; expose the fixed support and both near-side roller contacts below. Cropped neighboring steps give context. Keep a level side camera with all contacts above the quiet caption area.",
+      "clean_first_frame": "Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each touching its own separate track. The matching two rollers on the far side are hidden in profile, giving four total in the assembly. The standing surface is horizontal and the tracks are neutral gray. The two guide tracks are painted cyan and purple as part of the scene.",
+      "clean_last_frame": "The same example step has advanced uphill by one spacing while remaining centered in the side-profile composition. Exactly two near-side rollers remain visible and on their own tracks; the matching far pair is still occluded. The fixed support has not deformed and the standing surface remains horizontal. Sol is off-screen. Keep the same cyan and purple guide tracks painted in the scene.",
+      "image_prompts": {
+        "first": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Exact side-profile close-up of one rigid step on the incline. Its horizontal tread occupies the upper-middle of the picture; expose the fixed support and both near-side roller contacts below. Cropped neighboring steps give context. Keep a level side camera with all contacts above the quiet caption area. Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each touching its own separate track. The matching two rollers on the far side are hidden in profile, giving four total in the assembly. The standing surface is horizontal and the tracks are neutral gray. The two guide tracks are painted cyan and purple as part of the scene.",
+        "last": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Exact side-profile close-up of one rigid step on the incline. Its horizontal tread occupies the upper-middle of the picture; expose the fixed support and both near-side roller contacts below. Cropped neighboring steps give context. Keep a level side camera with all contacts above the quiet caption area. The same example step has advanced uphill by one spacing while remaining centered in the side-profile composition. Exactly two near-side rollers remain visible and on their own tracks; the matching far pair is still occluded. The fixed support has not deformed and the standing surface remains horizontal. Sol is off-screen. Keep the same cyan and purple guide tracks painted in the scene."
+      },
+      "video_prompt": "Animate one continuous painted cartoon shot. Keep the brush texture, lighting, character design and scene consistent. Exact side-profile close-up of one rigid step on the incline. Its horizontal tread occupies the upper-middle of the picture; expose the fixed support and both near-side roller contacts below. Cropped neighboring steps give context. Keep a level side camera with all contacts above the quiet caption area. Begin with Exactly two rollers are visible on the near side: one front/chain roller and one rear/trailer roller, each touching its own separate track. The matching two rollers on the far side are hidden in profile, giving four total in the assembly. The standing surface is horizontal and the tracks are neutral gray. The two guide tracks are painted cyan and purple as part of the scene. Follow one gray example step uphill in side profile. Show two near-side rollers, with the far-side pair hidden, and keep each visible roller on its own track while the tread stays level. Paint one track cyan and the other purple inside the generated scene so the explanation reads clearly. Finish with The same example step has advanced uphill by one spacing while remaining centered in the side-profile composition. Exactly two near-side rollers remain visible and on their own tracks; the matching far pair is still occluded. The fixed support has not deformed and the standing surface remains horizontal. Sol is off-screen. Keep the same cyan and purple guide tracks painted in the scene. Keep the footage silent and free of captions or a visible narrator.",
+      "identity_references": [
+        "assets/calculus-painted-scene.jpg"
       ],
-      "cartoon_accents": [
-        "Two short painted contact halos pop once around the named support wheels.",
-        "The straight reference line draws with a quick cartoon flourish and then stays completely straight.",
-        "Make wheel and track shapes large and readable; keep the rigid step itself free of squash/stretch."
-      ],
-      "sol_visible": false
+      "previous_reference": "Approved Scene 02/03 frames, retaining the same visible mechanism."
     },
     {
       "id": "05",
       "start_sec": 29,
       "end_sec": 37,
       "setting_and_framing": "Fixed true side close-up of the upper transition. Three unhighlighted steps approach from lower-left; the stationary upper floor is at upper-right. The cutaway continues below the exit floor so the first part of the return turn is visible.",
-      "first_frame": "Three unhighlighted rigid steps are staggered along the incline, each standing surface already horizontal. Both colored guide tracks curve toward the upper landing. The stationary floor is visible at upper-right, and the cutaway exposes empty space for the hidden turnaround below it. Sol is outside the crop.",
-      "action": "Show the steps following the two transition tracks until adjacent standing surfaces meet at the same height. On 'same height,' extend a straight cream line across the newly flat row. On 'turn underneath,' trace the leading step beneath the exit plate and partway around the return curve. Keep step bodies rigid and wheel contacts legible throughout.",
+      "first_frame": "Three neighboring rigid steps approach the upper landing at different heights, each tread already horizontal. The fixed exit plate and the start of the hidden return turn are visible. Preserve the same four-roller assembly and separate near-side guide paths established in the preceding profile.",
+      "action": "Show neighboring treads reaching the same height to make the flat exit row. Then the leading gray step passes beneath the stationary plate and begins the return turn. Keep the same roller and colored-track design as Scene 04, with rigid step bodies.",
       "dialogue": [
         {
           "speaker": "Narrator",
           "text": "Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath."
         }
       ],
-      "last_frame": "Two neighboring step surfaces form a flat row aligned with the cream reference line near the upper floor. The leading rigid step sits below the exit plate, partway into the return turn, with its support still attached. The two guide tracks remain visible. Sol is off-screen.",
-      "next_cut": "Cut back to Sol at the upper landing from a closer near-side three-quarter angle. The lower entrance and original orange step must also remain visible in the background of that new composition.",
-      "planned_method": "Fixed-camera painted diagram in Remotion, with a continuous upper transition and separately editable attention effects.",
+      "last_frame": "Two neighboring treads form a flat row beside the stationary landing. The leading rigid step is beneath the fixed plate at the start of the return turn, still attached to its chains and supported by the same roller/track geometry. Source camera and crop are unchanged.",
+      "next_cut": "Cut to the matching return view, finding the original orange-edged tread in the lower turnaround as it approaches the entrance.",
+      "planned_method": "Generate the complete painted cartoon scene as a Higgsfield clip; use approved generated frames for consistency.",
       "camera": {
         "shot_size": "Mechanism close-up wide enough to show three consecutive steps and the hidden upper turn.",
         "height_and_angle": "True side profile on the near side, level horizon. Keep the top floor and step standing surfaces readable as horizontal lines.",
         "composition": "Inclined steps enter around x=14%, y=66%, rising toward the landing near x=65%, y=35%. The flat exit row spans roughly x=49–79%, y=35%. The beginning of the hidden turn is visible beneath the plate around x=77%, y=48%. Keep both colored track paths and all relevant contacts inside x=10–84%, y=20–77%.",
         "foreground_background": "Exit plate is a distinct muted teal slab above the return turn. Main step edges are dark and crisp; surrounding support structure stays subdued.",
-        "start_view": "Three staggered rigid steps before the upper transition, with the two track paths already visible.",
-        "movement": "Locked camera. Let the moving group demonstrate the height change; do not zoom while the comparison needs a stable reference.",
-        "end_view": "Two standing surfaces share one height at the exit, while the leading step is visible below the plate, entering the return curve.",
+        "start_view": "Three neighboring rigid steps approach the upper landing at different heights, each tread already horizontal. The fixed exit plate and the start of the hidden return turn are visible. Preserve the same four-roller assembly and separate near-side guide paths established in the preceding profile.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "Two neighboring treads form a flat row beside the stationary landing. The leading rigid step is beneath the fixed plate at the start of the return turn, still attached to its chains and supported by the same roller/track geometry. Source camera and crop are unchanged.",
         "attention": "Relative height of adjacent step surfaces, followed by the leading step's route beneath the floor."
       },
-      "performance_beats": [
-        {
-          "cue": "'same height'",
-          "eye_shape": "off-screen",
-          "gaze": "The two neighboring standing surfaces aligning with one reference line.",
-          "body": "No Sol drawing; the continuous mechanical movement supplies the main action."
-        },
-        {
-          "cue": "'turn underneath'",
-          "eye_shape": "off-screen",
-          "gaze": "Leading step under the upper floor plate.",
-          "body": "The explanatory route arrow changes emphasis from the flat row to the hidden curve."
-        }
+      "performance_beats": [],
+      "cartoon_accents": [],
+      "sol_visible": false,
+      "motion_prompt_action": "Show neighboring treads reaching the same height to make the flat exit row. Then the leading gray step passes beneath the stationary plate and begins the return turn. Keep the same roller and colored-track design as Scene 04, with rigid step bodies.",
+      "timing_status": "provisional",
+      "reference_views": [],
+      "framing_prompt": "Fixed true side close-up of the upper transition, wide enough for three neighboring treads, the stationary exit plate and the start of the hidden return turn. Incoming steps rise from lower-left toward the upper-right floor. Expose both guide paths.",
+      "clean_first_frame": "Three neighboring rigid steps approach at different heights, each individual tread already horizontal. Preserve the established four-roller step assembly, with two near-side rollers visible when exposed in profile and the matching far pair hidden. The guide paths lead smoothly toward the exit. The two guide tracks are painted cyan and purple as part of the scene.",
+      "clean_last_frame": "Two neighboring treads now form a flat row at the same height beside the stationary upper floor. The leading rigid step has passed beneath the fixed plate and is starting the return turn. Its roller offsets, guide contacts and chain attachments remain intact. Keep the same camera, crop and step geometry; Sol is off-screen. Keep the same cyan and purple guide tracks painted in the scene.",
+      "image_prompts": {
+        "first": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Fixed true side close-up of the upper transition, wide enough for three neighboring treads, the stationary exit plate and the start of the hidden return turn. Incoming steps rise from lower-left toward the upper-right floor. Expose both guide paths. Three neighboring rigid steps approach at different heights, each individual tread already horizontal. Preserve the established four-roller step assembly, with two near-side rollers visible when exposed in profile and the matching far pair hidden. The guide paths lead smoothly toward the exit. The two guide tracks are painted cyan and purple as part of the scene.",
+        "last": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Fixed true side close-up of the upper transition, wide enough for three neighboring treads, the stationary exit plate and the start of the hidden return turn. Incoming steps rise from lower-left toward the upper-right floor. Expose both guide paths. Two neighboring treads now form a flat row at the same height beside the stationary upper floor. The leading rigid step has passed beneath the fixed plate and is starting the return turn. Its roller offsets, guide contacts and chain attachments remain intact. Keep the same camera, crop and step geometry; Sol is off-screen. Keep the same cyan and purple guide tracks painted in the scene."
+      },
+      "video_prompt": "Animate one continuous painted cartoon shot. Keep the brush texture, lighting, character design and scene consistent. Fixed true side close-up of the upper transition, wide enough for three neighboring treads, the stationary exit plate and the start of the hidden return turn. Incoming steps rise from lower-left toward the upper-right floor. Expose both guide paths. Begin with Three neighboring rigid steps approach at different heights, each individual tread already horizontal. Preserve the established four-roller step assembly, with two near-side rollers visible when exposed in profile and the matching far pair hidden. The guide paths lead smoothly toward the exit. The two guide tracks are painted cyan and purple as part of the scene. Show neighboring treads reaching the same height to make the flat exit row. Then the leading gray step passes beneath the stationary plate and begins the return turn. Keep the same roller and colored-track design as Scene 04, with rigid step bodies. Finish with Two neighboring treads now form a flat row at the same height beside the stationary upper floor. The leading rigid step has passed beneath the fixed plate and is starting the return turn. Its roller offsets, guide contacts and chain attachments remain intact. Keep the same camera, crop and step geometry; Sol is off-screen. Keep the same cyan and purple guide tracks painted in the scene. Keep the footage silent and free of captions or a visible narrator.",
+      "identity_references": [
+        "assets/calculus-painted-scene.jpg"
       ],
-      "cartoon_accents": [
-        "A thick hand-painted route arrow curls under the floor as the leading step turns.",
-        "A small elastic attention ring lands on the new flat row, then clears before the turn is highlighted.",
-        "Keep all cartoon effects outside the critical wheel/track contacts."
-      ],
-      "sol_visible": false
+      "previous_reference": "Approved Scene 04 frame, retaining the same steps, rollers and tracks."
     },
     {
       "id": "06",
       "start_sec": 37,
       "end_sec": 43,
       "setting_and_framing": "Medium wide from the near side of the upper landing, using cartoon foreground/background staging. Sol is large at foreground right, while the illustrated cutaway recedes diagonally toward the lower-left entrance. This is a deliberate angle change from the earlier flat side overview.",
-      "first_frame": "Sol stands on the stationary upper landing in the right foreground, full body visible from y=20–55%. He holds an asymmetrical questioning eye shape and a slight down-left lean toward the lower entrance. His near stubby arm angles down-left. The original orange-highlighted step is near the lower turnaround, visible in the cutaway at lower-left.",
-      "action": "As Sol says 'the step I just rode,' he points his stubby arm down-left and follows the orange step with his face. On 'comes back around,' his eyes round in recognition as the step reappears at the entrance. On 'Exactly,' his eyes morph into happy upward-arched crescents; he compresses into a small anticipation squash, makes one springy bounce on the stationary floor, and lands in a relaxed, proud pose. His flame tip finishes a delayed wobble after his feet settle.",
+      "first_frame": "Sol stands grounded on the upper landing at right foreground, full body and both navy eyes readable. At lower-left, the original orange-edged tread is in the lower turnaround, approaching its return to the entrance. The matching return view uses the same world geometry as the full-loop view.",
+      "action": "Show the original orange-edged tread reappearing at the lower entrance. Sol follows it, looks up toward Arthur on Exactly, then holds a happy crescent-eye pose. Keep the camera locked and both Sol and the tread readable. No bounce is needed.",
       "dialogue": [
         {
           "speaker": "Sol",
@@ -299,45 +315,51 @@
           "text": "Exactly."
         }
       ],
-      "last_frame": "Sol is fully settled on the stationary upper floor at foreground right, upright with stubby arms slightly out and both eyes held as navy upward-arched crescents. His layered flame body has returned to its compact resting proportions. The original orange-highlighted step is back at the lower entrance, ready for another rider. Both Sol and the returned step remain visible in the gently tighter ending crop.",
-      "next_cut": "End on this held resolved composition. Let the final voice recording determine the available hold after the bounce; do not speed the dialogue to create one.",
-      "planned_method": "Painted Sol performance and landing scene with a controlled illustrated escalator cutaway, planned eye shapes, and separate cartoon accents in the edit.",
+      "last_frame": "Sol stands grounded at foreground right, face tipped up toward Arthur and navy eyes held as happy crescents. The original orange-edged tread is visible back at the lower entrance. Hold both subjects clearly in the same frame.",
+      "next_cut": "Hold the happy ending with the original orange-edged tread readable at the entrance. Set the final hold from actual takes; omit an optional bounce before shortening the hold.",
+      "planned_method": "Generate the complete painted cartoon scene as a Higgsfield clip; use approved generated frames for consistency.",
       "camera": {
         "shot_size": "Medium wide with full-body Sol in the foreground and the bottom turnaround still readable in the left background.",
         "height_and_angle": "Camera level with Sol's face, angled three-quarter across the upper landing from the same near side. Both eyes are visible. Preserve screen direction even though depth is reintroduced.",
         "composition": "Sol is centered around x=68%, with full body from y=20–55% (35% frame height) and feet planted on the stationary upper floor. The highlighted step at the lower turnaround is around x=20%, y=73%. The cutaway links that lower-left point to the landing behind Sol without crossing the caption strip.",
         "foreground_background": "Sol is warm and high contrast in the foreground. The diagram is slightly quieter behind him except for the orange step. No other characters or shop details compete for attention.",
-        "start_view": "Sol holds a questioning pose at upper-right, and the orange step is near the bottom turnaround at lower-left.",
-        "movement": "Keep the view fixed while Sol asks his question. On the confirmation, add one gentle 6% push toward the shared center between Sol and the orange step; both remain completely in frame.",
-        "end_view": "Sol is approximately 37% frame height and fully visible. The orange step has reappeared at the bottom entrance, still above y=79%, with enough surrounding route to see what happened.",
-        "attention": "Follow Sol's pointed gaze to the returning orange step, then back to his happy eye change on the confirmation."
+        "start_view": "Sol stands grounded on the upper landing at right foreground, full body and both navy eyes readable. At lower-left, the original orange-edged tread is in the lower turnaround, approaching its return to the entrance. The matching return view uses the same world geometry as the full-loop view.",
+        "movement": "Locked camera throughout the generated clip.",
+        "end_view": "Sol stands grounded at foreground right, face tipped up toward Arthur and navy eyes held as happy crescents. The original orange-edged tread is visible back at the lower entrance. Hold both subjects clearly in the same frame.",
+        "attention": "Follow Sol's gaze to the returning step, then his upward look toward the Narrator on the confirmation, ending on the happy crescent eyes."
       },
       "performance_beats": [
         {
-          "cue": "'the step I just rode'",
-          "eye_shape": "questioning",
-          "gaze": "Original orange step at the lower turnaround, down-left.",
-          "body": "Lean toward the cutaway with both feet planted; point with a whole stubby arm, without adding fingers."
+          "cue": "Original tread reappears",
+          "eye_shape": "tracking",
+          "gaze": "S17 at the lower entrance.",
+          "body": "One small lean and following eye direction; keep feet grounded."
         },
         {
-          "cue": "'comes back around for the next person?'",
-          "eye_shape": "surprise",
-          "gaze": "The highlighted tread emerging at the bottom entrance.",
-          "body": "Quick recognition take: body lifts upright and the flame tip lags, then hold to let the route read."
-        },
-        {
-          "cue": "Narrator: 'Exactly.'",
-          "eye_shape": "delight",
-          "gaze": "Head orientation stays toward the returned step; eyes close into upward-arched crescents.",
-          "body": "Squash about 15%, one short springy bounce on the upper floor, then a compact relaxed landing with both arms slightly out and flame tip settling. Hold the happy ending."
+          "cue": "Arthur: Exactly",
+          "eye_shape": "listening_up",
+          "gaze": "Fixed Arthur point just above the camera.",
+          "body": "Eyes lead one clear upward acknowledgment; face follows."
         }
       ],
-      "cartoon_accents": [
-        "A soft optional 'ding' lands under the confirmation and happy eye change.",
-        "A tiny painted floor puff appears at Sol's bounce landing and clears immediately.",
-        "Use one short smear pose on the bounce, then hold; the orange step keeps following its actual route."
+      "cartoon_accents": [],
+      "sol_visible": true,
+      "motion_prompt_action": "Show the original orange-edged tread reappearing at the lower entrance. Sol follows it, looks up toward Arthur on Exactly, then holds a happy crescent-eye pose. Keep the camera locked and both Sol and the tread readable. No bounce is needed.",
+      "timing_status": "provisional",
+      "reference_views": [],
+      "framing_prompt": "Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition.",
+      "clean_first_frame": "Sol follows the original orange-edged tread with a small down-left lean and recognizable navy oval eyes. His feet are on the stationary upper floor. The tread is in the lower turnaround, approaching its reappearance. Retain the same rigid step and guide geometry throughout the cutaway.",
+      "clean_last_frame": "The original tread has reappeared on the lower entrance run at left. Sol stands grounded at right, his face tilted up toward a voice point just above the camera and his two navy eyes held as happy crescents. His flame body is compact and relaxed; both feet and the returned tread remain readable. Keep the same locked source camera and crop.",
+      "image_prompts": {
+        "first": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition. Sol follows the original orange-edged tread with a small down-left lean and recognizable navy oval eyes. His feet are on the stationary upper floor. The tread is in the lower turnaround, approaching its reappearance. Retain the same rigid step and guide geometry throughout the cutaway.",
+        "last": "Paint one complete animation keyframe in a warm painted cartoon world. Use visible brush texture, rounded forms, clear silhouettes, cream and muted teal surroundings, navy details and warm orange accents. Keep the lower caption area quiet. Show one still pose with no writing, labels or captions. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition. The original tread has reappeared on the lower entrance run at left. Sol stands grounded at right, his face tilted up toward a voice point just above the camera and his two navy eyes held as happy crescents. His flame body is compact and relaxed; both feet and the returned tread remain readable. Keep the same locked source camera and crop."
+      },
+      "video_prompt": "Animate one continuous painted cartoon shot. Keep the brush texture, lighting, character design and scene consistent. Sol is a compact layered orange-and-cream flame with tiny rounded limbs, a mouthless cream face and two recognizable navy eye shapes. Paint him into the scene with matching light, perspective, brushwork and contact shadows. His eyes may change shape for expression; keep the same two eyes and no added facial features. Medium-wide three-quarter view from the near side of the upper landing. Grounded Sol fills roughly a third of picture height at right foreground. The matching loop cutaway recedes toward the lower-left entrance, where the returning tread remains large enough to read. Keep both subjects above the caption area in one locked source composition. Begin with Sol follows the original orange-edged tread with a small down-left lean and recognizable navy oval eyes. His feet are on the stationary upper floor. The tread is in the lower turnaround, approaching its reappearance. Retain the same rigid step and guide geometry throughout the cutaway. Show the original orange-edged tread reappearing at the lower entrance. Sol follows it, looks up toward Arthur on Exactly, then holds a happy crescent-eye pose. Keep the camera locked and both Sol and the tread readable. No bounce is needed. Finish with The original tread has reappeared on the lower entrance run at left. Sol stands grounded at right, his face tilted up toward a voice point just above the camera and his two navy eyes held as happy crescents. His flame body is compact and relaxed; both feet and the returned tread remain readable. Keep the same locked source camera and crop. Keep the footage silent and free of captions or a visible narrator.",
+      "identity_references": [
+        "assets/sol-full-body.png",
+        "assets/calculus-painted-scene.jpg"
       ],
-      "sol_visible": true
+      "previous_reference": "Approved Scene 02 last frame plus Scene 01 last frame for Sol and the landing."
     }
   ],
   "sources": [
@@ -350,18 +372,23 @@
       "title": "Otis Escalator Catalog — track sections, printed p. 153",
       "url": "https://otiswave.otis.com/Documents/CAT/Otis%20Escalator%20Catalog.pdf",
       "supports": "Separate step-chain-wheel and step-wheel tracks, landing and incline geometry, return line."
+    },
+    {
+      "title": "Primary patent US2039994A — Escalator, definitions and step carriage",
+      "url": "https://patents.google.com/patent/US2039994A/en",
+      "supports": "Four rollers per step carriage; two driving chains; front roller spindles attached to chains; rollers running on rails."
     }
   ],
-  "spoken_word_count": 113,
-  "revision": 3,
-  "direction_note": "Push the painted 2D staging and acting as far into cartoon performance as possible. Sol's two existing dark eye shapes intentionally morph to express thoughts; his mouthless layered flame design stays recognizable. Dialogue and the provisional 43-second edit remain unchanged.",
+  "spoken_word_count": 99,
+  "revision": 7,
   "composition_rules": {
     "coordinates": "Percentages refer to the 9:16 picture, with x measured from the left and y from the top. They are layout guides for stills, not exact animation coordinates.",
-    "captions": "Reserve x=10–84%, y=83–92% for editable captions. Keep all eyes, tracked step positions, guide-wheel contacts, and important mechanism connections above y=79%.",
+    "captions": "Reserve x=10–84%, y=80–87% as the caption target; keep important action above y=76%. Validate against the actual platform controls at phone size.",
     "background": "Simplified rounded mall architecture in soft cream and muted teal, broad painted shadows, warm orange accents. Reduce background contrast around Sol's face and each mechanism detail. Keep the texture visibly painted.",
-    "continuity": "Stay on the near side of the escalator. The rising run goes lower-left to upper-right; the hidden return goes back toward lower-left. Sol remains physically on the upper landing after clip 01. Camera changes are cuts with their new angle stated explicitly.",
-    "performance": "Use exaggerated anticipation, squash/stretch, fast eye changes, whole-body takes, flame-tip follow-through, and short held poses. Expressions carry the performance without a mouth.",
-    "mechanical_readability": "Use oversized, simplified diagram details and cartoon attention effects. The drive chain remains connected, the step bodies remain rigid, and supporting wheels stay on their assigned guide paths."
+    "continuity": "Follow the same orange-edged tread through the generated scenes. Use previous approved generated frames for consistency; no computed route is required.",
+    "performance": "Primarily eye direction, lean and clear held poses; one primary action per spoken beat. Stronger morphs are allowed by the current mascot guide but optional.",
+    "mechanical_readability": "The generated clip must clearly show the narrated movement and correct contacts. Simplify or regenerate a scene if it is unclear.",
+    "narrator_eyeline": "One clear upward glance toward a fixed point just above the camera when Arthur starts an exchange. Then follow the demonstrated object. Do not add repeated up/down looks within a single explanation. On the later Exactly, look up and hold the happy ending."
   },
   "eye_shapes": {
     "neutral": "The two original navy vertical ovals at their original home positions on the cream face; no separate pupils.",
@@ -369,6 +396,68 @@
     "questioning": "The eye nearer the gaze target is a tall oval; the other eye is shorter and flatter. Body lean establishes the gaze direction.",
     "focus": "Both eyes compress into short horizontal navy shapes for a held scrutinizing look.",
     "tracking": "The original ovals lean and compress toward the moving object's side, staying near their home positions; body rotation follows the eye change.",
-    "delight": "Two thick upward-arched navy crescents, like closed smiling eyes. These are the existing eyes changing shape, not added eyebrows."
-  }
+    "delight": "Two thick upward-arched navy crescents, like closed smiling eyes. These are the existing eyes changing shape, not added eyebrows.",
+    "listening_up": "Two original-colored navy ovals, slightly taller and angled upward on the cream face, paired with the face and whole flame body tipping up toward the Narrator just above the camera. No separate pupils or added facial features."
+  },
+  "voice_config": "workflow/config/voices.json",
+  "prompt_document": "higgsfield-prompts.txt",
+  "prompt_counts": {
+    "scenes": 6,
+    "images": 12,
+    "videos": 6
+  },
+  "timing_status": "provisional — no episode voice takes or confirmed caption cue map",
+  "render_format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "character_pose_feel_fps": 12,
+    "technical_and_camera_motion": "smooth when needed for clarity"
+  },
+  "voice_decision": {
+    "status": "resolved by explicit user decision and current shared cast",
+    "source": "workflow/config/voices.json plus the user instruction to replace Sol's Cub voice with the custom Higgsfield Sol voice",
+    "legacy_config": "config/narration.json top-level Cub settings are for the preserved single-voice calculus workflow"
+  },
+  "finishing": {
+    "caption_display_name": "Ramento",
+    "font_family": "Rammetto One",
+    "font_source": "assets/fonts/RammettoOne-Regular.ttf",
+    "fill": "#FFFFFF",
+    "outline": "#F07B2A",
+    "outline_px_at_1080": 6,
+    "caption_lines": [
+      1,
+      2
+    ],
+    "caption_box_percent": [
+      10,
+      80,
+      84,
+      87
+    ],
+    "caption_timing_status": "provisional; align words to separate actual voice takes",
+    "editable_layers": [
+      "captions",
+      "separate voice tracks",
+      "music and sound effects"
+    ],
+    "existing_remotion": "remotion/ (actual current root folder), one existing npm install; no episode composition/edit exists yet",
+    "assembly": "Use the existing editor/Remotion install to trim and join complete clips, add voices, captions and sound, and export. No custom visual animation is required."
+  },
+  "generation_order": [
+    "Review script and prompts.",
+    "Generate Scene 01 first and last stills; review the grounded transfer and disappearing tread.",
+    "Animate that pair into the first test clip and inspect at phone size.",
+    "Generate remaining first/last pairs using approved previous frames, then generate one complete clip per scene.",
+    "Join the six clips, add the separate voice tracks, captions and sound, and export."
+  ],
+  "source_review_draft": "archive/v6-review/higgsfield-prompts.txt (preserved local copy of the review draft)",
+  "workflow": "12 generated first/last stills -> six complete Higgsfield clips -> simple assembly with separate voices, captions and sound.",
+  "continuity_notes": [
+    "The same orange-edged tread carries Sol to the exit, disappears under the plate, travels through the return run, and reappears at the bottom.",
+    "Scene 02 follows that tread into the return run. It keeps traveling while Scenes 03–05 show other gray steps and parts of the mechanism.",
+    "Scene 06 finds the orange-edged tread at the lower turn and follows it back to the entrance. Keep the passenger run moving up-right and the hidden return down-left.",
+    "Use the approved generated frames to preserve the same escalator, tread design and Sol appearance across scenes. The identifying orange edge is part of the generated picture."
+  ]
 }

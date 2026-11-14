@@ -1,0 +1,15 @@
+{
+  "status": "script/prompt consistency checked",
+  "scenes": 6,
+  "image_prompts": 12,
+  "video_prompts": 6,
+  "spoken_words": 99,
+  "timing": "43 seconds provisional",
+  "workflow": "complete generated clips, then simple assembly",
+  "generation_jobs_submitted": 0,
+  "pending": [
+    "actual clip and voice review",
+    "Arthur exact preset ID",
+    "final timing"
+  ]
+}

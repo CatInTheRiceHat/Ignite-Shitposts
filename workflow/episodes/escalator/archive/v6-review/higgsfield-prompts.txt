@@ -1,0 +1,235 @@
+HOW DOES AN ESCALATOR WORK?
+Higgsfield image and video prompt document
+
+Review draft: 6 scenes, exactly 12 image prompts and 6 video prompts.
+Each scene has one first-frame image prompt, one last-frame image prompt and one continuous first-to-last video prompt. The copyable prompt blocks below contain the complete prompt text.
+
+SOURCE AND TIMING
+Script: workflow/episodes/escalator/script.txt
+Detailed shot plan: workflow/episodes/escalator/shot-plan.json, revision 4
+Estimated edit: 43 seconds, with scene lengths 5, 7, 8, 9, 8 and 6 seconds. Dialogue remains 113 spoken words. Final timings follow the actual recordings at normal speech rate and 1x playback.
+
+PROPOSED MODEL SETTINGS — OUTSIDE THE PROMPT TEXT
+Images: Higgsfield GPT Image 2.6, model_id gpt_image_2_6; aspect_ratio 9:16; quality high; resolution 2k; output_format png; one output per prompt. Upload confirmed references in the image_references role.
+Videos: Higgsfield Kling v3.0, model_id kling3_0; aspect_ratio 9:16; mode std; sound off; duration equal to the scene seconds below. Attach its approved first image as start_image and its approved last image as end_image.
+The connected model catalog was checked on Nov. 13, 2026: this video model accepts both frame roles and whole-second durations from 3 to 15. Settings are a proposed generation plan; no jobs have been submitted.
+
+REFERENCE INPUTS AND GENERATION ORDER
+Sol identity: assets/sol-full-body.png (existing local source).
+Painted style: assets/calculus-painted-scene.jpg (existing local source).
+The numbered scene first/last images below are planned outputs, not existing generated assets or uploaded media IDs. Approve scene 01 first as the mall/Sol look reference, then create and review its last frame using that first frame as the primary composition reference. Work forward through scenes in order, carrying approved references into later views.
+For scene references marked approved technical geometry guide, prepare a local schematic based on the mechanism references listed at the end before generating the close-ups. This is a factual geometry guide, not an additional AI image prompt. Use the same step, support, chain and track geometry across the cutaways.
+At generation, upload the actual local references and use their returned media IDs. A filename in this review document is not a Higgsfield media ID.
+
+CLEAN ART AND EDITABLE OVERLAYS
+The script describes the finished composite. These image prompts request clean art: neutral gray steps and tracks, without orange tracking highlights, cyan/purple track colors, arrows, contact halos, horizontal reference lines, caption text or sound-effect graphics. Add those elements as editable Remotion layers so their timing and placement can follow the explanation. Their planned positions are noted under each scene.
+Check the generated chain/track motion against the geometry guide. Use controlled Remotion motion or corrections for any mechanism detail that needs exact geometry. Each scene still has one reviewable Higgsfield video prompt below.
+
+AUDIO AND ACTING
+The visual prompts request silent footage. Sol uses the Higgsfield custom voice Sol with voice_id 68b3ae01-976b-4d18-995f-3d60c00d0b55 and voice_type element. Narrator uses Arthur off-screen; resolve his exact preset voice ID before speech generation. Shared settings: workflow/config/voices.json. Separate clean scripts: sol-dialogue.txt and narration.txt.
+When visible Sol is addressed by the Narrator, his eyes lead an upward turn toward a fixed point just above the camera. Scenes 02 and 06 explicitly include that fourth-wall acknowledgment. A directed look at the mechanism can interrupt the listening pose, followed by a return look upward.
+The brief timings inside motion prompts guide performance order. Align expression cues and overlays to the finished dialogue before the final edit.
+
+PROMPT INDEX
+Scene 01: I01-FIRST → keyframes/01-first.png; I01-LAST → keyframes/01-last.png; V01 → clips/01-scene.mp4 (5 seconds).
+Scene 02: I02-FIRST → keyframes/02-first.png; I02-LAST → keyframes/02-last.png; V02 → clips/02-scene.mp4 (7 seconds).
+Scene 03: I03-FIRST → keyframes/03-first.png; I03-LAST → keyframes/03-last.png; V03 → clips/03-scene.mp4 (8 seconds).
+Scene 04: I04-FIRST → keyframes/04-first.png; I04-LAST → keyframes/04-last.png; V04 → clips/04-scene.mp4 (9 seconds).
+Scene 05: I05-FIRST → keyframes/05-first.png; I05-LAST → keyframes/05-last.png; V05 → clips/05-scene.mp4 (8 seconds).
+Scene 06: I06-FIRST → keyframes/06-first.png; I06-LAST → keyframes/06-last.png; V06 → clips/06-scene.mp4 (6 seconds).
+
+SCENE 01 — SOL NOTICES THE DISAPPEARING STEP
+Edit position: 0–5 seconds. Proposed video duration: 5 seconds.
+
+Dialogue context for timing; do not paste these lines into image/video prompts:
+Sol: “Wait, where do these steps go when they disappear into the floor?”
+
+First-frame inputs: Sol identity; Painted style.
+Planned output: keyframes/01-first.png
+
+BEGIN IMAGE PROMPT I01-FIRST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use the supplied Sol identity reference for his recognizable asymmetrical layered orange-and-cream flame body, tiny rounded limbs and mouthless cream face. Paint him into the same scene with matching brushwork, light and a grounded contact shadow. His same two navy eye shapes may intentionally morph into the specified expression while staying separated, inside the cream face and close to their original home positions. Do not add a mouth, eyebrows, nose, white eyeballs, separate pupils, fingers, longer limbs or a visible Narrator. A single still at the upper escalator exit. Sol stands fully visible on the last moving tread, just before the stationary upper floor, facing the exit on screen right in three-quarter view. His body center is about 42% of the picture width; his full flame body spans roughly 26–74% of the picture height. His eyes are the original paired dark vertical ovals, calmly directed toward the exit floor. One tiny rounded arm rests on the handrail; both stubby feet contact the same tread. Show the neutral gray tread beneath his feet, the fixed floor plate ahead at right, and the next two steps entering from lower-left. Use a face-height camera about 30 degrees from a pure side view so both eyes and the tread depth are visible. The picture captures this starting pose only.
+END IMAGE PROMPT I01-FIRST
+
+Last-frame inputs: Scene 01 approved first frame; Sol identity; Painted style.
+Planned output: keyframes/01-last.png
+
+BEGIN IMAGE PROMPT I01-LAST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use the supplied Sol identity reference for his recognizable asymmetrical layered orange-and-cream flame body, tiny rounded limbs and mouthless cream face. Paint him into the same scene with matching brushwork, light and a grounded contact shadow. His same two navy eye shapes may intentionally morph into the specified expression while staying separated, inside the cream face and close to their original home positions. Do not add a mouth, eyebrows, nose, white eyeballs, separate pupils, fingers, longer limbs or a visible Narrator. Use this scene's approved first frame as the primary composition reference. Keep the same locked camera, mall architecture, handrail, lighting, floor height, colors and Sol design. Sol is now fully on the stationary upper floor at screen right, centered near 66% of picture width with both feet planted at the same floor height. His whole body leans about 15 degrees down-left toward the exit plate. The eye nearer the exit is a tall navy oval; the other is shorter and flatter, making a questioning expression. One stubby arm hovers toward the exit. His original tread is now hidden beneath the fixed floor plate; the next neutral gray tread is visible below-left. Keep his flame tip, both feet and the eye shapes fully in frame. Depict the settled questioning pose, with no speed lines or second pose.
+END IMAGE PROMPT I01-LAST
+
+Video inputs: start_image = the approved 01-first.png; end_image = the approved 01-last.png. Duration 5 seconds, mode std, sound off, aspect ratio 9:16.
+Planned output: clips/01-scene.mp4
+
+BEGIN VIDEO PROMPT V01
+Use the supplied approved images as the actual start_image and end_image, preserving their composition and character identity. Keep the output a silent vertical 9:16 painted 2D cartoon with the same brush texture, palette and lighting. Use snappy posed character motion and readable holds with smooth stable mechanical motion. Keep the image free of spoken audio, lip sync, captions, words, labels, watermarks and edit-only attention graphics. Sol remains mouthless with tiny stubby limbs and his recognizable layered flame design. Intentionally morph only the same two navy eye shapes into the expressions described; do not add new facial features. Animate the supplied first frame into the supplied last frame in one continuous 5-second painted cartoon shot with a locked camera. During roughly the first two seconds, Sol briefly squashes in anticipation, then takes one oversized but grounded step right onto the stationary upper landing. As his original tread slides beneath the floor plate, his eyes snap down-left before his whole flame body turns. Around the middle of the shot, the two navy ovals pop into large round surprised shapes and the flame body stretches upward about 15–20% for one sharp double-take; the flame tip follows late and overshoots once. During the final two seconds, settle into the supplied last frame: both feet planted on the floor, a 15-degree down-left lean, one eye tall and the other flatter. Hold that questioning pose at the end. Keep Sol's contact shadow attached to the correct surface. The escalator runs steadily uphill throughout; the metal steps stay rigid. Do not add a cut or camera shake.
+END VIDEO PROMPT V01
+
+Edit overlays and timing: Track the tread Sol stood on with an editable orange highlight. Add any eye-pop tick or turn smear as separate edit accents. Keep the floor plate visible during the vanish.
+Transition / continuity: Hard cut wider to the flat side cutaway in clip 02. Preserve Sol's questioning expression, feet on the upper landing, down-left gaze, and the orange step's just-hidden position.
+
+SCENE 02 — THE HIDDEN RETURN LOOP AND SOL'S NARRATOR GLANCE
+Edit position: 5–12 seconds. Proposed video duration: 7 seconds.
+
+Dialogue context for timing; do not paste these lines into image/video prompts:
+Narrator: “They turn underneath the escalator and travel back to the bottom. You're watching the same steps go around in a loop.”
+
+First-frame inputs: Scene 01 approved last frame; Sol identity; Painted style.
+Planned output: keyframes/02-first.png
+
+BEGIN IMAGE PROMPT I02-FIRST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use the supplied Sol identity reference for his recognizable asymmetrical layered orange-and-cream flame body, tiny rounded limbs and mouthless cream face. Paint him into the same scene with matching brushwork, light and a grounded contact shadow. His same two navy eye shapes may intentionally morph into the specified expression while staying separated, inside the cream face and close to their original home positions. Do not add a mouth, eyebrows, nose, white eyeballs, separate pupils, fingers, longer limbs or a visible Narrator. A single wide, true side-profile cutaway of the same upward-running escalator, presented as a clean painted cartoon diagram. Show the entire connected step loop within roughly 12–82% of the picture width and 37–77% of its height: rising steps from lower-left to upper-right, an upper turnaround beneath the exit floor, and a return run underneath toward the lower-left entrance. Sol stands physically on the upper-right stationary landing with a grounded contact shadow, feet near 37% of picture height and flame tip near 14%. Carry over scene 01's ending pose: a questioning eye pair, one tall and one flatter, with his body leaning down-left toward the upper turnaround. The tread he rode has just entered that upper turn. Render every step neutral gray; leave arrows, color highlights and labels for the edit. Include no physical opening panel, extra person or visible Narrator.
+END IMAGE PROMPT I02-FIRST
+
+Last-frame inputs: Scene 02 approved first frame; Sol identity; Painted style.
+Planned output: keyframes/02-last.png
+
+BEGIN IMAGE PROMPT I02-LAST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use the supplied Sol identity reference for his recognizable asymmetrical layered orange-and-cream flame body, tiny rounded limbs and mouthless cream face. Paint him into the same scene with matching brushwork, light and a grounded contact shadow. His same two navy eye shapes may intentionally morph into the specified expression while staying separated, inside the cream face and close to their original home positions. Do not add a mouth, eyebrows, nose, white eyeballs, separate pupils, fingers, longer limbs or a visible Narrator. Use this scene's approved first frame as the primary composition reference. Keep the identical flat side camera, complete loop, upper-right landing and Sol's foot placement. The tread tracked from the upper turn is now midway down the hidden return run, near the picture position 46% across and 61% down; all steps remain neutral gray and correctly oriented along their paths. Sol has straightened from the downward lean. His cream face and whole flame body tip up toward a fixed point just above the camera, deliberately acknowledging the off-screen Narrator. His eyes are two slightly taller upward-angled navy ovals, separated and contained within the cream face. Keep the complete loop and both return turns visible, with Sol's feet still grounded on the same upper landing.
+END IMAGE PROMPT I02-LAST
+
+Video inputs: start_image = the approved 02-first.png; end_image = the approved 02-last.png. Duration 7 seconds, mode std, sound off, aspect ratio 9:16.
+Planned output: clips/02-scene.mp4
+
+BEGIN VIDEO PROMPT V02
+Use the supplied approved images as the actual start_image and end_image, preserving their composition and character identity. Keep the output a silent vertical 9:16 painted 2D cartoon with the same brush texture, palette and lighting. Use snappy posed character motion and readable holds with smooth stable mechanical motion. Keep the image free of spoken audio, lip sync, captions, words, labels, watermarks and edit-only attention graphics. Sol remains mouthless with tiny stubby limbs and his recognizable layered flame design. Intentionally morph only the same two navy eye shapes into the expressions described; do not add new facial features. Animate the supplied first frame into the supplied last frame in one continuous 7-second painted cartoon side-view shot. Lock the camera and preserve the entire loop geometry. In the opening half-second, Sol's eyes lead an upward take toward a fixed point just above the camera, followed by his flame body and tip, as if listening to someone outside the scene. Next, he turns down toward the exposed upper turnaround and squeezes his eyes into short horizontal focus shapes. While the linked steps travel around the upper turn onto the hidden return run, his eyes reopen into tilted tracking ovals and follow the movement down-left. In the final second, straighten Sol from the lean and turn his face back up toward the same Narrator point; finish with the taller upward-angled listening eyes shown in the supplied last frame. Keep both feet planted throughout. Steps move around a continuous loop, rotating correctly at the turn; chains remain connected and steps do not fold or change shape. End with the tracked tread midway down the return path and a clear held upward-listening pose.
+END VIDEO PROMPT V02
+
+Edit overlays and timing: Add route arrows and the orange tracked-step highlight in Remotion. Keep the route visible while Sol acknowledges the Narrator. The final composite has arrows, while the generated clean frames do not.
+Transition / continuity: Cut into the upper drive mechanism. Sol stays at the upper landing but is off-screen in clips 03–05. The orange step continues along the return route while those explanatory close-ups play.
+
+SCENE 03 — THE MOTOR AND TWO SIDE CHAINS
+Edit position: 12–20 seconds. Proposed video duration: 8 seconds.
+
+Dialogue context for timing; do not paste these lines into image/video prompts:
+Sol: “So what's pulling them?”
+Narrator: “An electric motor turns toothed wheels that pull a chain along each side of the steps.”
+
+First-frame inputs: Scene 02 approved first frame for the same escalator; Painted style; Approved technical geometry guide.
+Planned output: keyframes/03-first.png
+
+BEGIN IMAGE PROMPT I03-FIRST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. A single clean painted cartoon mechanism close-up beneath the escalator's upper landing. Look down about 25 degrees from the same near side, revealing depth between the two side chains. Fit the motor, gearbox, common drive shaft, two toothed chain wheels and the attached steps within roughly 12–82% of picture width and 18–77% of its height. Place the motor toward upper-left; the gearbox and shaft lead toward the wheels in middle-right; the two parallel chain runs extend toward the steps at lower-left. The near chain and its wheel are clearly separated from the far chain and wheel. Chain links engage the toothed wheels, and both side chains remain attached to the corresponding sides of the same step assembly. Use the approved cutaway's component geometry. Show no character, human operator, attention ring, arrows, labels or detached parts.
+END IMAGE PROMPT I03-FIRST
+
+Last-frame inputs: Scene 03 approved first frame; Painted style.
+Planned output: keyframes/03-last.png
+
+BEGIN IMAGE PROMPT I03-LAST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use this scene's approved first frame as the primary layout and geometry reference. The camera is now approximately 8% closer, centered toward the shaft and two toothed wheels, while the motor and gearbox remain visible at upper-left and both chains' connections to the advancing step assembly remain in frame. Show a later consistent phase of the same linked mechanical system: both chains are seated on their matching toothed wheels, the rigid steps have advanced along the uphill route, and the near and far chains remain visibly separated. Maintain the painted surface texture, colors, lighting and relative component sizes. No character or attention graphics are present in this clean still.
+END IMAGE PROMPT I03-LAST
+
+Video inputs: start_image = the approved 03-first.png; end_image = the approved 03-last.png. Duration 8 seconds, mode std, sound off, aspect ratio 9:16.
+Planned output: clips/03-scene.mp4
+
+BEGIN VIDEO PROMPT V03
+Use the supplied approved images as the actual start_image and end_image, preserving their composition and character identity. Keep the output a silent vertical 9:16 painted 2D cartoon with the same brush texture, palette and lighting. Use snappy posed character motion and readable holds with smooth stable mechanical motion. Keep the image free of spoken audio, lip sync, captions, words, labels, watermarks and edit-only attention graphics. Animate the supplied first frame into the supplied last frame as one continuous 8-second painted cartoon close-up of the drive mechanism. Keep the motor, gearbox and drive shaft physically connected. Rotate the shared drive shaft and both toothed wheels so their engaged chains pull the attached rigid steps steadily toward the upper landing. The two side chains move together at matching speed. Keep the complete connection visible for the opening question, then make one slow smooth camera push of about 8% toward the shaft and chain wheels over the rest of the shot. Finish exactly on the supplied tighter composition, retaining the motor, gearbox and both chain-to-step connections. Keep all metal components rigid, chain links consistently engaged, and the two chain runs separate. Use visibly painted simplified shapes with hand-drawn animation timing. Sol remains off-screen throughout. Do not add faces to machinery, attention rings, text, arrows, cuts or explosive disassembly.
+END VIDEO PROMPT V03
+
+Edit overlays and timing: Animate an editable attention ring motor → shaft/wheels → side chains → steps, timed to the Narrator. Keep the ring out of the generated picture. Verify the drive linkage before using the motion.
+Transition / continuity: Hard cut to a true side profile of a different, unhighlighted step on the incline. The drive wheels from this clip are distinct from the smaller support wheels introduced next.
+
+SCENE 04 — THE SUPPORT WHEELS AND SEPARATE GUIDE TRACKS
+Edit position: 20–29 seconds. Proposed video duration: 9 seconds.
+
+Dialogue context for timing; do not paste these lines into image/video prompts:
+Narrator: “Each step has front and back wheels following separate tracks. The tracks guide those wheels at different heights, keeping the surface you stand on horizontal.”
+
+First-frame inputs: Scene 03 approved first frame for matching step design; Scene 02 approved first frame; Painted style; Approved technical geometry guide.
+Planned output: keyframes/04-first.png
+
+BEGIN IMAGE PROMPT I04-FIRST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. A single extreme close-up in exact side profile of one rigid escalator step halfway up the same incline. Use a level camera with no perspective tilt so the standing surface is visibly horizontal. Show the entire tread across roughly 25–76% of picture width near 37% of picture height, its rigid support beneath it, the front and back supporting wheel positions, and both separate guide paths extending across the lower part of the crop. Each supporting wheel must visibly contact its own guide path. The two wheel positions are supported at the different heights set by the approved step-support geometry, leaving the tread horizontal. Include cropped neighboring steps entering at left and upper-right for context. Keep all critical contacts above 78% of picture height. Use neutral gray tracks and wheels, no character, no colored contact halos, no text and no reference line.
+END IMAGE PROMPT I04-FIRST
+
+Last-frame inputs: Scene 04 approved first frame; Painted style.
+Planned output: keyframes/04-last.png
+
+BEGIN IMAGE PROMPT I04-LAST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use this scene's approved first frame as the exact side-profile geometry and styling reference. Depict the same rigid step after advancing one step spacing uphill, with the tracking camera keeping its tread centered at the same screen position and size. Its standing surface is still horizontal. The surrounding track and neighboring-step context have advanced relative to the crop, and both support wheels remain on their assigned guide paths. Preserve the tread shape, fixed support geometry, wheel dimensions and spacing; do not level the tread by bending or stretching its body. Both wheel-to-track contacts remain visible above the caption area. Keep this clean still neutral gray, without colored tracks, halos, text or a horizontal overlay.
+END IMAGE PROMPT I04-LAST
+
+Video inputs: start_image = the approved 04-first.png; end_image = the approved 04-last.png. Duration 9 seconds, mode std, sound off, aspect ratio 9:16.
+Planned output: clips/04-scene.mp4
+
+BEGIN VIDEO PROMPT V04
+Use the supplied approved images as the actual start_image and end_image, preserving their composition and character identity. Keep the output a silent vertical 9:16 painted 2D cartoon with the same brush texture, palette and lighting. Use snappy posed character motion and readable holds with smooth stable mechanical motion. Keep the image free of spoken audio, lip sync, captions, words, labels, watermarks and edit-only attention graphics. Animate the supplied first frame into the supplied last frame as one continuous 9-second painted cartoon side-profile shot. Follow the same rigid step uphill at its travel speed, keeping the tread centered at the same height and size in the frame. Its two visible support-wheel positions roll along their separate guide paths; maintain the exact wheel-to-track contacts and the support geometry shown by the supplied frames. The standing surface stays horizontal throughout the movement while surrounding track and neighboring-step context pass through the crop. Keep the camera level and exactly side-on, with no roll, orbit or zoom. Use large clear painted shapes and a stable uncluttered composition so the wheel contacts can be inspected. Finish in the supplied last-frame state after the step advances one spacing. Sol is off-screen. No colored guide overlays, labels, halos, extra wheels, bending steps or perspective morphing.
+END VIDEO PROMPT V04
+
+Edit overlays and timing: Color the two guide paths cyan and purple as editable overlays. Add contact halos and a straight cream horizontal reference line in the edit, timed to the explanation. Preserve the same track colors in scene 05.
+Transition / continuity: Cut ahead to the upper transition with the same cyan and purple track colors. Keep uphill movement left-to-right and distinguish these unhighlighted example steps from Sol's orange tracked step.
+
+SCENE 05 — THE STEPS REACH THE SAME HEIGHT AT THE LANDING
+Edit position: 29–37 seconds. Proposed video duration: 8 seconds.
+
+Dialogue context for timing; do not paste these lines into image/video prompts:
+Narrator: “Near the top, the tracks bring neighboring steps to the same height, forming a flat surface before the steps turn underneath.”
+
+First-frame inputs: Scene 04 approved first frame; Scene 02 approved first frame; Painted style; Approved technical geometry guide.
+Planned output: keyframes/05-first.png
+
+BEGIN IMAGE PROMPT I05-FIRST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. A single fixed true side-profile close-up of the upper landing transition in the same painted cartoon escalator. Three rigid neutral gray steps approach from lower-left at different heights, each individual standing surface already horizontal. The incline enters near 14% across and 66% down, rising toward the landing around 65% across and 35% down. The stationary upper floor and exit plate sit at upper-right. Show both neutral guide paths curving into their landing positions, plus enough cutaway space under the exit floor to expose the start of the upper return turn. Keep relevant step edges and wheel contacts within 10–84% of picture width and above 77% of picture height. Use the same step-support geometry as scene 04. Include no Sol, colored track overlays, route arrows, labels or reference lines.
+END IMAGE PROMPT I05-FIRST
+
+Last-frame inputs: Scene 05 approved first frame; Painted style.
+Planned output: keyframes/05-last.png
+
+BEGIN IMAGE PROMPT I05-LAST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use this scene's approved first frame as the exact camera, structure and styling reference. The camera remains locked. Two neighboring rigid step surfaces now form a flat row at the same height beside the stationary upper floor, roughly across the upper-middle of the crop. The leading step is visible beneath the exit plate, partway into the curved return path, correctly rotated with its supporting assembly still connected. The other steps remain rigid, and their support wheels stay on the two guide paths. Maintain the existing enclosure, track layout, step spacing, palette and lighting. Show the aligned surfaces and the hidden turn simultaneously. Keep this clean keyframe free of colored track overlays, arrows, attention rings, text and reference lines.
+END IMAGE PROMPT I05-LAST
+
+Video inputs: start_image = the approved 05-first.png; end_image = the approved 05-last.png. Duration 8 seconds, mode std, sound off, aspect ratio 9:16.
+Planned output: clips/05-scene.mp4
+
+BEGIN VIDEO PROMPT V05
+Use the supplied approved images as the actual start_image and end_image, preserving their composition and character identity. Keep the output a silent vertical 9:16 painted 2D cartoon with the same brush texture, palette and lighting. Use snappy posed character motion and readable holds with smooth stable mechanical motion. Keep the image free of spoken audio, lip sync, captions, words, labels, watermarks and edit-only attention graphics. Animate the supplied first frame into the supplied last frame in one continuous 8-second painted cartoon side-profile shot with a locked level camera. Move the three rigid steps steadily up the incline and through the approved upper transition. Their support wheels follow the two guide paths so neighboring standing surfaces reach the same height, forming the flat exit row. Then let the leading step pass under the stationary floor plate and begin the upper turnaround onto the hidden return route. Keep the standing surfaces horizontal along the passenger-facing run and the step bodies rigid; the step rotates only as its connected support follows the hidden return turn. Preserve step spacing and wheel contacts throughout. Finish with two adjacent level surfaces beside the upper floor and the leading step visible beneath the plate, matching the supplied last frame. Sol stays off-screen. Do not introduce a camera move, cut, folding step, colored overlay, arrow or text.
+END VIDEO PROMPT V05
+
+Edit overlays and timing: Continue the editable cyan/purple tracks from scene 04. Add the cream line across the flat row on 'same height,' then the curling route arrow on 'turn underneath.' Validate the transition geometry before using the clip.
+Transition / continuity: Cut back to Sol at the upper landing from a closer near-side three-quarter angle. The lower entrance and original orange step must also remain visible in the background of that new composition.
+
+SCENE 06 — SOL LOOKS UP TO THE NARRATOR AND UNDERSTANDS
+Edit position: 37–43 seconds. Proposed video duration: 6 seconds.
+
+Dialogue context for timing; do not paste these lines into image/video prompts:
+Sol: “So the step I just rode comes back around for the next person?”
+Narrator: “Exactly.”
+
+First-frame inputs: Scene 02 approved first frame for the full cutaway; Scene 01 approved last frame for Sol and the landing; Sol identity; Painted style.
+Planned output: keyframes/06-first.png
+
+BEGIN IMAGE PROMPT I06-FIRST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use the supplied Sol identity reference for his recognizable asymmetrical layered orange-and-cream flame body, tiny rounded limbs and mouthless cream face. Paint him into the same scene with matching brushwork, light and a grounded contact shadow. His same two navy eye shapes may intentionally morph into the specified expression while staying separated, inside the cream face and close to their original home positions. Do not add a mouth, eyebrows, nose, white eyeballs, separate pupils, fingers, longer limbs or a visible Narrator. A single medium-wide painted cartoon view from the near side of the upper landing, at the height of Sol's face and angled three-quarter across the scene. Place full-body Sol large in the right foreground, centered around 68% of picture width and spanning roughly 20–55% of picture height. His feet are planted on the stationary upper floor. His body leans slightly down-left and one stubby arm points toward the lower entrance. His eyes are questioning: one navy oval tall and the other shorter and flatter, with his face aimed toward the returning tread at lower-left. Behind him, the illustrated escalator cutaway recedes diagonally to the lower-left entrance near 20% across and 73% down. The original tread is approaching the lower turnaround. Keep the neutral gray step loop readable and all important geometry above 79% of picture height. Both eye shapes, his flame tip and both feet must be fully visible.
+END IMAGE PROMPT I06-FIRST
+
+Last-frame inputs: Scene 06 approved first frame; Sol identity; Painted style.
+Planned output: keyframes/06-last.png
+
+BEGIN IMAGE PROMPT I06-LAST
+Create exactly one vertical 9:16 painted 2D cartoon animation keyframe. Use visible brush texture, bold readable silhouettes, simplified rounded forms and warm matte painted lighting. Match the supplied Ignite paint reference, with cream #FFF8F0, navy #1A1A2E, muted teal #4F9298 and warm orange #F07B2A. Keep the bottom 17% of the picture quiet for later editable captions, with every face, important contact and mechanism detail above it. Render one still pose in one picture, not a sequence, collage or contact sheet. Keep the image free of writing, labels, captions, logos, watermarks and editorial attention graphics. Use the supplied Sol identity reference for his recognizable asymmetrical layered orange-and-cream flame body, tiny rounded limbs and mouthless cream face. Paint him into the same scene with matching brushwork, light and a grounded contact shadow. His same two navy eye shapes may intentionally morph into the specified expression while staying separated, inside the cream face and close to their original home positions. Do not add a mouth, eyebrows, nose, white eyeballs, separate pupils, fingers, longer limbs or a visible Narrator. Use this scene's approved first frame as the primary scene and Sol identity reference. Apply a gentle 6% tighter crop toward the shared center between Sol and the lower entrance, preserving both subjects in frame. Sol is settled on the stationary upper floor at foreground right after his reaction, with compact resting flame proportions, both feet grounded and stubby arms slightly spread. His cream face is tipped up toward the fixed Narrator point just above the camera. His two navy eyes are thick upward-arched crescents, like happy closed eyes, still at their normal facial positions. The original neutral gray tread has rounded the bottom turn and reappeared at the lower entrance, above the reserved caption strip. Keep the same mall, cutaway structure, warm lighting, brush texture and physical floor contact. This still shows the held happy ending, not an airborne bounce.
+END IMAGE PROMPT I06-LAST
+
+Video inputs: start_image = the approved 06-first.png; end_image = the approved 06-last.png. Duration 6 seconds, mode std, sound off, aspect ratio 9:16.
+Planned output: clips/06-scene.mp4
+
+BEGIN VIDEO PROMPT V06
+Use the supplied approved images as the actual start_image and end_image, preserving their composition and character identity. Keep the output a silent vertical 9:16 painted 2D cartoon with the same brush texture, palette and lighting. Use snappy posed character motion and readable holds with smooth stable mechanical motion. Keep the image free of spoken audio, lip sync, captions, words, labels, watermarks and edit-only attention graphics. Sol remains mouthless with tiny stubby limbs and his recognizable layered flame design. Intentionally morph only the same two navy eye shapes into the expressions described; do not add new facial features. Animate the supplied first frame into the supplied last frame as one continuous 6-second painted cartoon shot. Keep the opening view steady while Sol points his whole stubby arm down-left and watches his original tread approach the lower turn. As the tread reappears at the entrance, his questioning eyes pop into round recognition shapes and his body lifts upright with a delayed flame-tip follow-through. In the latter part of the shot, as if the off-screen Narrator has just answered him, his eyes lead a clear upward look toward a fixed point just above the camera; his cream face and flame body follow, deliberately breaking the fourth wall. Hold that upward acknowledgment briefly, then morph the same two navy eye shapes into happy upward-arched crescents. Give him one short 15% anticipation squash and one springy bounce on the stationary floor; land with tiny arms slightly out, let the flame tip finish wobbling, and hold the supplied happy ending. During the confirmation add one gentle 6% push toward the shared center between Sol and the returned tread, keeping both visible. Keep his step following the lower return curve onto the entrance run and all mechanical parts rigid. No cut or visible Narrator.
+END VIDEO PROMPT V06
+
+Edit overlays and timing: Track the original returned tread with the editable orange highlight. Add any landing puff and a quiet confirmation ding separately. Time the upward glance to Narrator: 'Exactly.' Keep the eye acknowledgment readable before the crescent-eye bounce.
+Transition / continuity: End on this held resolved composition. Let the final voice recording determine the available hold after the bounce; do not speed the dialogue to create one.
+
+MECHANISM REFERENCES
+
+Transport for NSW — Escalation Sensation, How an Escalator Works, printed pp. 8–9
+https://www.transport.nsw.gov.au/system/files/media/documents/2018/Escalation-Sensation.pdf
+Motor and step-chain drive, guide rails keeping standing surfaces horizontal, level landing transition, hidden turnaround and return route.
+
+Otis Escalator Catalog — track sections, printed p. 153
+https://otiswave.otis.com/Documents/CAT/Otis%20Escalator%20Catalog.pdf
+Separate step-chain-wheel and step-wheel tracks, landing and incline geometry, return line.
+
+REVIEW CHECK
+
+Confirm every first/last pair shows the same design and compatible framing, with the requested change in pose or mechanism state. Sol expressions must use the original two navy shapes and remain readable at phone size. Upward Narrator glances must occur in the two visible Narrator exchanges. Preserve camera side and uphill screen direction. Verify wheel contacts, chain engagement and rigid steps in the technical views. Leave overlay graphics and captions editable.

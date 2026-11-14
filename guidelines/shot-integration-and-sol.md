@@ -10,11 +10,21 @@ Make framing specific: shot size; camera height relative to Sol or the mechanism
 
 For every visible character, specify eye shape, gaze target, whole-body pose, and the change that occurs on a named spoken or visual cue. Use the style guide's eye-shape vocabulary and cartoon movement. Record expression and body states separately for the first and last frames. If Sol is off-screen during a line, state that explicitly instead of inventing an invisible pose.
 
+For a Narrator-to-Sol exchange with Sol visible, establish a fixed Arthur eyeline just above the camera. Stage one readable upward acknowledgment, then direct Sol toward the demonstrated object. Preserve the target within the shot; add a later look up only for a new reply or confirmation. Keep enough headroom and both eye shapes visible. Use one primary action per spoken beat and simplify optional accents before sacrificing a reveal or final hold.
+
 Plan different clip lengths around the dialogue and physical action. A single clip can carry two lines, several sentences, or a short exchange. Cut when the viewpoint or action needs to change; a sentence ending alone does not require a new clip.
 
 For adjacent clips, note what carries across the cut: Sol's pose and location, the tracked object's position, direction of travel, camera side, and lighting. If the next view changes scale, shows a diagram, or skips time, state that explicitly. Keep screen direction consistent unless the transition clearly establishes a new view.
 
 Use the existing calculus pilot as the continuity example. Its painted A → B → C → D progression is **crouch beside the board → land on it → lean into the curve as it wobbles → recover balance**. Reuse the end of one beat as the next starting point when the camera and framing carry through. For a cut to a new angle, match the action and position across the two views.
+
+## Complete generated clips and continuity
+
+Use generated stills and complete Higgsfield clips for the visual production. A cutaway is a painted cartoon scene generated and animated like any other scene. Keep the explanation inside the clip. Do not create SVGs, custom diagrams, geometry tools or separately animated mechanism layers unless the user explicitly asks for them.
+
+Use the approved character/style artwork and previous generated frames as visual references. Carry the same design, direction and identifiable object across cuts. Record continuity in plain scene directions, including where an object goes while off-screen; no mathematical route model is required. A distinctive painted edge or color can identify a recurring object inside the generated footage.
+
+Check generated clips for correct contacts, connections, proportions and clear action. If a scene fails, simplify its framing or action, revise that scene's prompts and regenerate only that scene. Do not automatically replace it with a separate animation pipeline.
 
 ## Specify the first and last frames
 
@@ -26,7 +36,7 @@ The **last frame** is another still composition: state what has moved, where it 
 
 For a continuing clip, reuse the last frame as the next first frame. For a cut to another angle, match the relevant object state and say which spatial details stay consistent. Plan editorial reveals, overlays, and cutaways separately from physical movement so generation does not have to invent a mechanism changing shape.
 
-For a technical explanation, identify what must stay rigid, what rotates or slides, and what causes that movement. Keep labels and measured overlays editable. Use a controlled diagram or Remotion animation when free-form video generation would obscure or distort the explanation.
+For a technical explanation, describe which parts stay rigid and which rotate or slide directly in the generated scene. Keep its camera and main action simple enough to read. Review the resulting clip before assembly and revise that scene if the motion is inaccurate.
 
 ## Edit duration and generation duration
 
@@ -34,12 +44,22 @@ Record the desired **edit duration** before choosing a provider. Check supported
 
 Use the finished speech at 1× playback to set final clip lengths. Trim a generated hold or extend a scene with a planned continuation when necessary. Do not stretch footage containing mechanical motion or speed up speech to hide a timing mismatch.
 
+## Prompt document standard
+
+Save a separate plain-text prompt document alongside the complete episode script. For **N scenes**, include exactly **2N image prompts** and **N video prompts**. Give each scene one labeled first-frame image prompt, one last-frame image prompt, and one continuous first-to-last video prompt. Use the same scene IDs in both documents. If a scene needs separate generated segments, declare them as subscenes and update the count explicitly before generation.
+
+Make every copyable image prompt self-contained: painted cartoon style, required character identity, precise framing, static eye/body state, mechanism state and clean composition. Generate the last frame using its approved first frame as the composition reference; specify what changes and what stays spatially consistent. Describe one still in each image prompt, not an action sequence or a contact sheet.
+
+Make every video prompt self-contained: describe the starting and ending states, one continuous shot, one primary action per beat, exact gaze targets, one camera instruction and the ending hold. Put the actual first/end media roles, reference-image inputs, model names and settings, duration fields, paths, dialogue and Remotion edit notes outside all copyable blocks. Use explicit silent-video settings outside the block when supported. Keep footage clean for editable overlays. Check current model capabilities before promising input roles or duration. A prompt draft is not a submitted generation.
+
+For example, a six-scene episode needs **12 image prompts and 6 video prompts**. Last-frame composition and pose must be reachable from the first frame without a hidden cut, an unrequested new camera angle, or incompatible character placement. Choose one camera instruction that the generated clip can carry clearly. Reference lists distinguish existing character/style art from planned generated frames; do not require separate schematic assets. Test the opening action first before extending the run to later scenes.
+
 ## Generate Sol as part of the scene
 
 1. **Choose two references.** Use approved Sol artwork for identity and an approved Ignite scene or frame for paint treatment. Keep Sol mouthless, with his recognizable layered flame design, colors, and tiny stubby limbs. His original dark oval eyes are the neutral pose; intentionally morph those same two shapes into the planned cartoon expressions. Squash and stretch the flame body for acting, then settle into the intended held pose. Flag unplanned facial changes, added mouths, noses, eyebrows, pupils, fingers, or longer limbs. Preserve explicitly locked designs in older approved shots unless a revision is requested.
 2. **Generate the whole keyframe.** Describe the location, camera angle, and Sol’s exact pose relative to the prop. Ask for matching brushwork, perspective, scene lighting, and a grounded contact shadow where Sol touches the board or floor. Approve the still at phone size before using it for video. A flat Sol PNG sitting over the scene is a draft placeholder.
 3. **Generate the motion.** Feed the approved painted scene to Flow as the start frame. Every clip needs an explicit planned last frame, even when the provider takes only a start image. Supply an approved end image when the chosen mode supports it and the ending state matters. Prompt one main action and one camera instruction at a time. Let that action support multiple dialogue lines when appropriate. For a cut where Sol turns or moves away, make a matching painted pose frame first if the model drifts. If a shot needs a correction, rerender that shot and keep the surrounding approved clips.
-4. **Assemble in Remotion.** Import the generated MP4 as the shot’s primary footage, then add the timed voiceover, captions, and sound cues. Use layered artwork in Remotion for diagrams, camera pushes, or simple cutaways. Keep captions and branding editable. Use the project’s existing shot IDs and episode files so regenerated clips can be swapped in. Flow/UseAPI can generate clips when configured, and Remotion can also work from local MP4s.
+4. **Assemble in Remotion.** Import the generated MP4 as the shot’s primary footage, then add the timed voiceover, captions, and sound cues. The generated clips include the cutaways and explanatory motion. Use Remotion for simple clip assembly, voices, captions, sound and basic transitions. Keep captions and branding editable. Use the project’s existing shot IDs and episode files so regenerated clips can be swapped in. Flow/UseAPI can generate clips when configured, and Remotion can also work from local MP4s.
 
 ## Prompt examples for the calculus pilot
 
