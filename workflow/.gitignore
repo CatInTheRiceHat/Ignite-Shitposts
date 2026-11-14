@@ -1,2 +1,7 @@
 # Resumable local API state, locks, and in-flight media (never credentials).
 episodes/**/jobs/useapi/
+
+# Higgsfield job receipts and generated media stay local.
+episodes/**/jobs/higgsfield/
+episodes/**/public/clips/
+episodes/**/public/audio/

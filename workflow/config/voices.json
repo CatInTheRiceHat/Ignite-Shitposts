@@ -19,12 +19,14 @@
       "role": "off-screen Narrator",
       "speech_rate": 0,
       "playback_rate": 1,
-      "voice_id": null,
-      "voice_id_status": "Exact Arthur preset ID not recorded in available project files; verify via Higgsfield voice selection before speech submission."
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
     }
   },
-  "sol_voice_reference": "episodes/sol_kling_test/audio-test.json",
+  "sol_voice_reference": "workflow/episodes/sol_kling_test/audio-test.json",
   "timing_policy": "Use the normal generated speech rate and 1x playback. Time the edit to the finished dialogue; revise the script or extend shots when needed.",
-  "selection_policy": "Use the exact saved voice_id and voice_type pair for Sol. Resolve Arthur's exact preset voice_id before generating his speech. Preserve existing episode voice overrides and recorded-media metadata.",
+  "selection_policy": "Use these exact verified voice_id and voice_type pairs. Preserve existing episode overrides and recorded-media metadata.",
   "sol_voice_decision": "Explicit project decision from the user: custom Higgsfield Sol replaces Cub for Sol character dialogue. Preserve legacy Cub recordings under their original metadata."
 }
