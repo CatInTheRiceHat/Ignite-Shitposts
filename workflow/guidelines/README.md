@@ -23,7 +23,7 @@ Shared production settings live in [config/](../config/).
 | Renderer | Format | Existing episodes |
 | --- | --- | --- |
 | Python/FFmpeg via `scripts/shorts.py` | 720 × 1280, 30 fps | Calculus pilot: 15 seconds |
-| Remotion in `remotion/` | 1080 × 1920, 30 fps | Zipper demo: 20 seconds; Sol lantern test: 4 seconds |
+| Remotion in `episodes/<name>/remotion/` | 1080 × 1920, 30 fps | Zipper demo: 20 seconds; Sol lantern test: 4 seconds |
 
 Preserve an episode's intentional duration, format, narrator and edit.
 These guides describe the common creative approach; the episode files hold

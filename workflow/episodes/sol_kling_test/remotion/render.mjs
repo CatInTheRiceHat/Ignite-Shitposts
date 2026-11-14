@@ -6,7 +6,8 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const episodeDir = fileURLToPath(new URL("../", import.meta.url));
-const videoProject = path.resolve(episodeDir, "../../remotion");
+const videoProject = fileURLToPath(new URL("./", import.meta.url));
+const sharedModules = path.resolve(episodeDir, "../node_modules");
 const fromVideoProject = createRequire(path.join(videoProject, "package.json"));
 const { bundle } = fromVideoProject("@remotion/bundler");
 const { renderMedia, selectComposition } =
@@ -120,7 +121,7 @@ async function main() {
         resolve: {
           ...config.resolve,
           modules: [
-            path.join(videoProject, "node_modules"),
+            sharedModules,
             ...(config.resolve?.modules || ["node_modules"]),
           ],
         },

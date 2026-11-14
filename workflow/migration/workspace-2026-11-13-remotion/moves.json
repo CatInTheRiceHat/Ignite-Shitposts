@@ -1,0 +1,18 @@
+[
+  {
+    "from": "workflow/remotion/package.json",
+    "to": "workflow/episodes/package.json"
+  },
+  {
+    "from": "workflow/remotion/package-lock.json",
+    "to": "workflow/episodes/package-lock.json"
+  },
+  {
+    "from": "workflow/remotion/node_modules",
+    "to": "workflow/episodes/node_modules"
+  },
+  {
+    "from": "workflow/remotion (remaining contents)",
+    "to": "workflow/episodes/zipper_demo/remotion"
+  }
+]

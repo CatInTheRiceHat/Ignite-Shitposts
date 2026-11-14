@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.remotion.json",
+  "exclude": [
+    "remotion.config.ts"
+  ]
+}
