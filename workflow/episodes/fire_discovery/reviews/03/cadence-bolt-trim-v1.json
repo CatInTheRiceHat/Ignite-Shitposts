@@ -1,0 +1,84 @@
+{
+  "source": "clips/03-scene-omni-v1-twos.mp4",
+  "output": "clips/03-scene-omni-v1-bolt-trim.mp4",
+  "cadence_fps": 30,
+  "frames": 210,
+  "pair_count": 105,
+  "decoded_pair_mismatches": [],
+  "speed": 1,
+  "method": "Keep source frames0\u201345; remove excess bolt frames46\u201359; play source60\u2013209 at1x; append14 frames from final complete pair208\u2013209. No new painted states, compositing, interpolation or speed change.",
+  "mapping": [
+    {
+      "destination": [
+        0,
+        45
+      ],
+      "source": [
+        0,
+        45
+      ]
+    },
+    {
+      "destination": [
+        46,
+        195
+      ],
+      "source": [
+        60,
+        209
+      ]
+    },
+    {
+      "destination": [
+        196,
+        209
+      ],
+      "source_loop": [
+        208,
+        209
+      ]
+    }
+  ],
+  "expected_bolt_frames": [
+    44,
+    45
+  ],
+  "expected_fire_start_frame": 46,
+  "originals_preserved": true,
+  "sha256": "fa3c496d70b15d858990b91cf35cea8d822693929b553288d241d64547fe774b",
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-nostdin",
+    "-i",
+    "workflow/episodes/fire_discovery/clips/03-scene-omni-v1-twos.mp4",
+    "-filter_complex",
+    "[0:v]split=3[pre][post][hold];[pre]trim=start_frame=0:end_frame=46,setpts=PTS-STARTPTS[lead];[post]trim=start_frame=60:end_frame=210,setpts=PTS-STARTPTS[tail];[hold]trim=start_frame=208:end_frame=210,setpts=PTS-STARTPTS,loop=loop=6:size=2:start=0,trim=end_frame=14,setpts=N/(30*TB)[end];[lead][tail][end]concat=n=3:v=1:a=0[v]",
+    "-map",
+    "[v]",
+    "-an",
+    "-r",
+    "30",
+    "-frames:v",
+    "210",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-qp",
+    "18",
+    "-g",
+    "1",
+    "-bf",
+    "0",
+    "-x264-params",
+    "aq-mode=0:mbtree=0:scenecut=0",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "workflow/episodes/fire_discovery/clips/03-scene-omni-v1-bolt-trim.mp4"
+  ],
+  "visual_review": "pending"
+}

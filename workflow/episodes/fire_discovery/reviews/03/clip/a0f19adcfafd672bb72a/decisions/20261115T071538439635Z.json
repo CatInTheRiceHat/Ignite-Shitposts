@@ -1,0 +1,226 @@
+{
+  "packet_id": "a0f19adcfafd672bb72aa3a9dce3318e79e9aa3e2cdc31e8afaedbf6c43cd764",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_only",
+  "method": "Independent frame-based bounded rejection, not playback. Read current packet/action and supplied cadence proof. Opened approved-pair/reference frame comparison, chronological pages01-04 covering frames0-79, native detail at1.5 s (bolt) and2.0 s (first inspected fully bolt-free fire). No remaining chronological pages/end were inspected. No media edit/generation, prompt change or frame approval.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "uncertain",
+      "observed": "This bounded rejection inspected the opening, strike and immediate ignition interval through 2.633333 s, not the remaining clip/end; no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent in this tree/lightning cutaway; no mascot anatomy or eyes are required.",
+      "timestamps_sec": [
+        0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent in this tree/lightning cutaway; no mascot anatomy or eyes are required.",
+      "timestamps_sec": [
+        0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "uncertain",
+      "observed": "This bounded rejection inspected the opening, strike and immediate ignition interval through 2.633333 s, not the remaining clip/end; no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "Opening is unlit and cool. A complete bolt first appears at frames 44-45 (1.466667-1.500000 s), but remains across frames 46-59 through 1.966667 s, fading near the end. The contract requires exactly one complete pair, then complete disappearance. Fire becomes visible while that excess bolt remains. First clearly bolt-free inspected pair is 60-61 (2.000000-2.033333 s), with a rooted branch flame.",
+      "timestamps_sec": [
+        1.433333,
+        1.466667,
+        1.5,
+        1.733333,
+        1.933333,
+        1.966667,
+        2,
+        2.033333
+      ],
+      "evidence": [
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "fail",
+      "observed": "The strike reaches the planned lower branch and the fire is rooted there, but the transient event lasts eight pairs rather than one. The light/bolt visibly fades while ignition is already present instead of the specified single-pair bolt followed by a bolt-free fire state.",
+      "timestamps_sec": [
+        1.466667,
+        1.5,
+        1.733333,
+        1.933333,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "No extra tree or character appears in the inspected interval and the branch stays visually attached. However the transient bolt does not disappear after its prescribed complete pair: it persists and fades through frame59. The first fully absent inspected state is frame60.",
+      "timestamps_sec": [
+        1.466667,
+        1.933333,
+        1.966667,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "uncertain",
+      "observed": "This bounded rejection inspected the opening, strike and immediate ignition interval through 2.633333 s, not the remaining clip/end; no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "The supplied proof verifies 105 exact decoded frame pairs at 30 fps with normal seven-second duration. That cadence does not enforce the requested event timing: bolt visibility occupies frames44-59 (16 frames, about0.533333 s), rather than two frames. Final voice alignment/playback and editorial push remain provisional and were not reviewed.",
+      "timestamps_sec": [
+        1.466667,
+        1.966667,
+        2
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "uncertain",
+      "observed": "This bounded rejection inspected the opening, strike and immediate ignition interval through 2.633333 s, not the remaining clip/end; no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "uncertain",
+      "observed": "The inspected full native strike/ignition samples retain matte layered clouds, bark, foliage and ground, with some etched edge/pigment texture like the selected Omni look. No full-clip style pass is claimed after the concrete timing blocker; the uninspected tail remains unresolved.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT current source for excess bolt duration/fade. Exactly inspected: frames0-43 have no bolt; 44-59 show bolt, with fading residue late;60-61 are fully bolt-free and already have rooted fire. Potential reversible complete-pair temporal repair, NOT performed: keep source44-45 as the single strike pair; remove excess source46-59; next play source60 onward at1x; append14 frames using complete pairs of the final quiet state to preserve7 s duration. This would remove the lingering bolt and avoid an in-scene frozen-fire patch while advancing ignition about0.466667 s; verify the candidate boundary/branch/lighting and all remaining pages under a fresh packet before passing. Do not infer that repair already passes. Voices and editorial100%-110% push remain deferred; no paid regeneration is requested.",
+  "type": "independent_clip_review",
+  "decision": "rejected",
+  "binding": {
+    "scene": "03",
+    "stage": "clip",
+    "contract_sha256": "6f0f5531bff97259ca07451f8675a3745fe985991978a2c812dde952993322c0",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-first.png",
+        "sha256": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-last.png",
+        "sha256": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/03-scene.mp4",
+      "sha256": "9f1b232d91d0e7189bb1bcf037c7d3de69f89afee8d2e9c50838f3a0c0c6624e"
+    }
+  },
+  "recorded_at": "2026-11-15T07:15:38.439127+00:00"
+}
