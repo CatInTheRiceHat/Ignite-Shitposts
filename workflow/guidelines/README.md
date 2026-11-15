@@ -8,27 +8,34 @@ when she gives new critiques. Her later clarifications take precedence over
 older examples or acting suggestions.
 
 Current video default for all active clients: **Gemini Omni Flash 1.2**
-(`gemini_omni_flash_1_2`), from `../config/generation.json`. Generate first and
-last stills, show BOTH to the user and wait for explicit approval before any
-video. Follow [the reviewer workflow](clip-review-guide.txt). Each paired-frame
+(`gemini_omni_flash_1_2`), from `../config/generation.json`. Prepare first and
+last stills by generating or reusing the specified assets. Show BOTH to the
+user and wait for explicit approval before any video. Follow
+[the reviewer workflow](clip-review-guide.txt). Each paired-frame
 video must be 3–10 seconds; declare longer scenes as continuing subscenes.
 
-1. [Script guide](video-script-guide.md): conversational skits, complete
-   explanations, Sol/Narrator labels, scene descriptions, dialogue density,
-   timing and script review.
-2. [Style guide](video-style-guide.md): painted art direction, colors,
-   pacing, motion, type and visual review.
-3. [Shot integration and Sol](shot-integration-and-sol.md): explicit first
-   and last frames, varied clip lengths, continuity, character constraints,
-   keyframes, animation and assembly.
-4. [Image prompt template](image-prompt.md): clean, accurate scene art,
-   reference roles and compatible first/last frames.
-5. [Video prompt template](video-prompt.md): one clear action, preserved
-   geometry and the established painted finish.
+1. [Script guide](video-script-guide.md): connected dialogue, distinct visual
+   teaching beats, provisional timing and timing to recorded voices.
+2. [Style guide](video-style-guide.md): shared matte paint treatment, overall
+   motion style, generation requests versus editing cadence, voices and type.
+3. [Shot integration and Sol](shot-integration-and-sol.md): character identity,
+   purposeful acting, prop contact, exact frame reuse and clip assembly.
+4. [Image prompt template](image-prompt.md): visual simplicity, painted depth,
+   supplied reference roles and matching-endpoint construction.
+5. [Video prompt template](video-prompt.md): action clarity, intentional camera
+   choices, stepped movement, continuity and removal of irrelevant boilerplate.
 
 Use the [workflow guide](../README.md) for commands and file locations, the
 [templates](../templates/) for starting files, and the
 [episode index](../episodes/README.md) for an existing edit's source.
+
+## Scope and rule owners
+
+The guides above own their respective rules; link to the owner instead of copying the full policy into every document. Finished prompts still need concise style and applicable identity instructions, since the generator does not read local guides. Use the shared [final prompt review](checklist.md#final-prompt-review) before generation.
+
+The revised [fire episode](../episodes/fire_discovery/higgsfield-prompts.txt) is an example of applying these principles. Its setting, lighting states, gestures, camera percentages, character counts and durations are not educational-video defaults. Requirements from a separate loading animation, including rotation counts, directions, loops or timing, remain scoped to that animation's brief; do not import them into educational shots.
+
+Read current model settings from [generation.json](../config/generation.json) and exact speaker identities from [voices.json](../config/voices.json). Historical episode settings and template examples do not replace newer configuration or the current caption styling in the style guide. Writing or reviewing prompts does not authorize image, video or audio generation.
 
 ## Defaults and episode overrides
 
@@ -50,26 +57,20 @@ through Sol's understanding or action, without adding a slogan ending.
 Deliver the dialogue and shot directions together in one complete episode
 document. Keep subject-specific dialogue, timing and asset paths
 in that episode folder.
-The default production flow is generated first/last stills, complete
+The default production flow is prepared first/last endpoints, complete
 Higgsfield clips, then simple assembly with voices, captions and sound.
 Cutaways are generated cartoon scenes too. Do not add SVGs, custom diagrams
 or separate mechanism animation unless the user explicitly requests them.
 Save a separate prompt text file alongside it. For **N scenes**, provide
-exactly **2N image prompts** (first and last frame for each scene) and **N
+exactly **2N image endpoint entries** (first and last frame for each scene) and **N
 video prompts** (the continuous motion between each pair). Use matching
 scene IDs and keep reference inputs and settings outside the copyable text.
-Specify camera height and angle, shot size, composition, subject scale, and
-the start and end of camera moves. Use Mascot.png and the supplied mascot examples for Sol's identity; read
-../config/sol-references.json. Preserve the v4 identity direction while applying
-visible gouache brushwork, layered color and paper texture to Sol and the scene.
-Use the supplied graphics for finish and the lantern video for gentle movement.
-Keep the original eyes unchanged and open, along with the mascot flame layers,
-outline and compact nub limbs. Name gaze targets, restrained body poses and their cues.
-Preserve his mouthless face and recognizable flame design.
-When the Narrator addresses Sol on screen, give Sol an upward glance toward
-the voice just above the camera, breaking the fourth wall. Cue that look in
-the script, then let him follow the demonstrated object. A new reply may
-cue a new glance; avoid repeated reaction loops within one answer.
+Label exact endpoint reuse instead of requiring duplicate image generations.
+Use the [shot guide](shot-integration-and-sol.md) for camera, identity, acting,
+Narrator eyeline and continuity; the [image guide](image-prompt.md) for actual
+supplied references; and the [style guide](video-style-guide.md) for paint and
+motion. The critique checklist retains frame-specific acceptance history;
+it does not turn a previous episode's staging into a shared default.
 
 | Renderer | Format | Existing episodes |
 | --- | --- | --- |

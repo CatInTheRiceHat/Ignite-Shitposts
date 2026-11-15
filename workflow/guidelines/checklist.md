@@ -5,6 +5,20 @@ feedback. Read it before writing prompts, generating frames or reviewing clips.
 Update it when Elaine gives new critiques, following the maintenance rules below.
 Unchecked boxes are reusable review questions, not claims about a particular take.
 
+## Final prompt review
+
+Run this short review on the complete prompt set before generation. Follow the linked rule owners for details; keep shot-specific fixes scoped to their episode or animation.
+
+- [ ] Does the scene match Ignite's approved [matte painted style](video-style-guide.md#painterly-surface-treatment)?
+- [ ] Are shapes simple and readable, with believable [painted depth](image-prompt.md#painted-depth-and-form)?
+- [ ] Is Sol's [identity preserved](shot-integration-and-sol.md#sol-identity) while his [action remains expressive](shot-integration-and-sol.md#purposeful-performance-and-prop-contact), where he is visible?
+- [ ] Does each shot contribute a [distinct teaching beat](video-script-guide.md#distinct-visual-beats)?
+- [ ] Are camera behavior, generation/editing responsibility and [motion quality](video-prompt.md#motion-and-continuity) intentional, with exact cadence to be checked in playback?
+- [ ] Are there contradictory lighting instructions or [leftover objects and boilerplate](video-prompt.md#remove-boilerplate-and-contradictions)?
+- [ ] Can matching frames connect naturally, and can an approved [endpoint be reused](shot-integration-and-sol.md#specify-the-first-and-last-frames) unchanged?
+- [ ] Are durations explicitly provisional or grounded in [actual normal-rate voice tracks](video-script-guide.md#dialogue-density-and-timing)?
+- [ ] Are captions and precise graphics assigned to editable overlays, preserving the [current caption treatment](video-style-guide.md#pacing-motion-and-type)?
+
 ## References and prompts
 
 - [ ] Inspect the actual example clips as well as their stills. Compare the
@@ -17,6 +31,7 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
   movement. A rejected draft can supply useful geometry without defining style.
 - [ ] Describe the visible first state, last state and the movement connecting
   them. Keep settings and attached-file details outside copyable prompt blocks.
+- [ ] Record identity, style, composition and continuity [reference roles](image-prompt.md#reference-roles-and-supplied-assets). Every path maps to an actual supplied input; label future assets as planned until they exist and are approved.
 
 ## Sol
 
@@ -43,7 +58,13 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
   appearance. Elaine's “dark pupils” mean these existing whole dark ovals: fill
   them completely with asset navy #1C2447, without eye whites, shine or gray gradients.
   Keep the eyes unchanged and open: no squinting, widening, reshaping, closed-eye
-  curves or added eyebrows. Express action through posture and gestures.
+  curves or added eyebrows. Preserve their face-relative placement with coherent
+  perspective during turns. Express action through posture and gestures.
+- [ ] Keep the paired eyes close enough together to match the original mascot.
+  Elaine accepted the fire Scene 01 direction but said its eyes were too far
+  apart. Compare the gap relative to eye width, rather than spreading the eyes
+  across the cream face. Correct spacing by moving the existing ovals inward;
+  preserve their size, shape, dark fill, low height and the accepted painting.
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
@@ -84,9 +105,11 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 - [ ] Transfer the art-direction language from Elaine's office, beach and spring
   examples. Keep the episode's own setting, palette, framing, character count
   and aspect ratio; those example scene details are not shared defaults.
-- [ ] Match the lantern video's painted look and restrained movement with
-  readable held poses. Avoid replacing that direction with generic glossy
-  character rendering or excessive acting.
+- [ ] Use the lantern video's painted movement and readable held-pose rhythm
+  alongside the [current motion style](video-style-guide.md#motion-style). Let
+  each scene choose purposeful gestures, orientation or weight shifts rather
+  than copying its small movements into every shot. Preserve anatomy and avoid
+  stacking unrelated reactions.
 - [ ] The setting reads as a real, understandable place. Elaine rejected the
   earlier escalator pictures as too abstract; simplified shapes still need
   believable scale, perspective, structure and contact.
@@ -129,6 +152,9 @@ additional aesthetic preferences attributed to Elaine.
 
 ## Current visual anchors
 
+- Current fire episode feedback: Elaine likes Scene 01's painted direction and
+  staging, but its v1 eyes are too far apart. Preserve that painting while
+  correcting eye spacing. This is not approval of the replacement frame pair.
 - Identity: [Mascot.png](../assets/reference-art/Mascot.png) and the additional
   examples listed in [sol-references.json](../config/sol-references.json).
 - Painted finish and movement: [lantern artwork](../episodes/sol_kling_test/keyframes/sol-lantern.jpg)
