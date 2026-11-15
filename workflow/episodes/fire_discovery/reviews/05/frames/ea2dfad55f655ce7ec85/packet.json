@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "packet_id": "ea2dfad55f655ce7ec851f99355b780f2baa53c4dcb7ad2a99f31c8655e5d0a6",
+  "binding": {
+    "scene": "05",
+    "stage": "frames",
+    "contract_sha256": "a3b31aa34137fda601d16b28d82bd6544f0f0d3bf69774acdffd36498f47f34a",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/05-first.png",
+        "sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/05-last.png",
+        "sha256": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    }
+  },
+  "created_at": "2026-11-15T06:06:31.650632+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Where Sol is visible, compare the COMPLETE original mascot at a similar size: silhouette, tip/lobes, red/orange/cream contour paths and widths, face/eye proportions and limbs. Do not pass a generic flame character. Where Sol is off-screen, compare the planned setting/props and approved frame pair without requiring him. Keep user design approval separate.",
+        "eyes": "Both eye ovals stay uniformly navy #1C2447, unchanged in reference shape, size, spacing and placement. No highlights, whites, extra pupils, blinking, reshaping or facial-feature drift. Facial markings remain anchored to the body; no independent slide/rotation, neck or body reshaping to fake a head turn.",
+        "flame_and_limbs": "Match the original flat whole silhouette and all nested contour paths, layer widths and proportions. Retain source red foot nubs and short arm shapes. Reject sculpted/inflated volume, a widened or raised cream mask, a new shaded lower rim, or remodeled hand/foot shapes. Painted texture cannot redesign the source geometry.",
+        "framing_and_props": "Match the active scene first/last crops, camera, required character/prop counts and physical attachments. Apply only episode-specific requirements; an earlier episode does not supply mandatory props for a new story.",
+        "contacts_and_action": "One specified direct action, short path, original limb lengths/attachment points and clean stop. No unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera movement. For placement, keep grip stable while lowering; support before release; prop stationary afterward as the hand withdraws along one clear path. Inspect actual consecutive frames for contact and support.",
+        "mechanical_direction": "Inspect consecutive real frames for the planned direction, rigid connections when present, and causal order of physical events. Do not infer correct movement or causality from a prompt, label, endpoint or successful decode.",
+        "object_continuity": "Maintain the identity and count of planned objects. A tracking mark, when present, stays attached to the same object and cannot jump, multiply or fade to fake movement. Fire may flicker or fuel may glow only as the approved action requires. Anchor actual fire to its ignition/fuel contact; any animated local lighting follows the two-frame cadence without unplanned whole-scene brightness pulsing. A transient painted effect must disappear completely when the shot requires it.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Inspect actual source-frame pairs on final 30 fps timeline: each pose/painted state unchanged for two frames, 15 pose updates per second at normal speed; longer holds use complete pairs. Apply to Sol, visible human hands, moving props, flames and animated local lighting. Background and painted surface texture stay stable. Reject interpolation, blending, optical-flow smoothing and motion blur concealing steps. Check source cadence before smooth editorial transforms, then final playback/crops. Verify planned action and ending hold against actual voice timestamps; no default Narrator face turn. Sol may be absent.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints.",
+        "painted_art_style": "Visible soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes cover Sol, props and environment consistently. Forms use light/color without inked outlines. Compare the selected graphic references. A smooth logo-like mascot with only a grain overlay fails even if its geometry is correct. Preserve the source character and clear mechanical contacts through the paint."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes.",
+        "Character geometry and painted art style must each pass. Approval of one does not establish the other or approve the complete frame pair.",
+        "Record frame-index/timestamp evidence for exact two-frame cadence, facial anchoring and hand-prop contact. Prompt wording or 30 fps metadata alone does not prove these checks passed."
+      ]
+    },
+    "scene": {
+      "id": "05",
+      "first_frame": "Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.",
+      "last_frame": "Sol holds both short arms slightly open in the approved small low gesture of understanding. Both arms retain their lengths and attachment points. His body orientation toward the fire, facial markings, eye positions, silhouette, flame layers and planted feet are identical to the first frame; no turn, body rise or bounce. The tended wood, added twig, separate small flame, crop and lighting are unchanged.",
+      "action": "Sol opens both short arms once into a small, low gesture of understanding. Move both arms from beside his flanks to the approved open position, preserving their original lengths and attachment points.\n\nStop both arms cleanly and hold the final pose through Arthur’s “Right.” Keep Sol’s body orientation, facial markings, and planted feet unchanged. No additional turn, body rise, recoil, or bounce.",
+      "framing_prompt": "Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.",
+      "camera": {
+        "shot_size": "Medium full-body concluding reaction with the tended fire at right.",
+        "height_and_angle": "Sol face height, slight downward angle; same side as Scene 04.",
+        "movement": "Generation: stable camera after the wider cut.",
+        "editing": "No additional camera move; retain a brief final reaction hold.",
+        "start_view": "Sol x=32%, height 42%, feet y=75%; same tended wood at right.",
+        "end_view": "Same crop; both short arms low and open, body orientation and facial markings unchanged from the first frame."
+      },
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "So finding fire wasn't the same as making it."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Right."
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "Sol's concluding sentence cues both arms opening once through a small low range; stop together and hold through Arthur's “Right,” without a face turn or body lift.",
+          "eye_shape": "Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.",
+          "gaze": "Unchanged from the first frame; facial markings fixed to the body.",
+          "body": "Sol opens both short arms once into a small, low gesture of understanding. Move both arms from beside his flanks to the approved open position, preserving their original lengths and attachment points.\n\nStop both arms cleanly and hold the final pose through Arthur’s “Right.” Keep Sol’s body orientation, facial markings, and planted feet unchanged. No additional turn, body rise, recoil, or bounce."
+        }
+      ],
+      "sol_visible": true,
+      "image_prompts": {
+        "first": "Create a wider view from the same camera side as the approved ember close-up, at Sol's face height and angled slightly down. Place full-body Sol at x=32%, 42% of frame height, feet at y=75%; retain the same tended bough, added twig and small faceless flame at right near x=74%, y=67%, with coherent wider-view scale. Sol's short arms rest close to his outer flanks; he faces the fire in shallow three-quarter view with both original eyes visible. Preserve a clear physical gap. Use cool diffuse shade and restrained amber light from the wood on his fire-facing side. Keep the lower fifth quiet.\n\nMatch the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without stretching his body. Actual wood fire stays separate from Sol.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
+        "last": "Use the approved starting still as the composition and identity-continuity reference. Change only the two short arm positions into the approved small, low open gesture of understanding, retaining their original lengths and attachment points. Keep body orientation toward the fire, facial markings, exact eye shape/size/spacing, silhouette, flame layers, planted feet, body height and contact shadows unchanged. No face turn, body rise or stretching. Preserve the camera crop, tended bough and twig arrangement, separate small flame, cool ambient shade and localized warmth; keep the lower fifth quiet.\n\nMatch the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without stretching his body. Actual wood fire stays separate from Sol.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
+      },
+      "video_prompt": "Sol opens both short arms once into a small, low gesture of understanding. Move both arms from beside his flanks to the approved open position, preserving their original lengths and attachment points.\n\nStop both arms cleanly and hold the final pose through Arthur’s “Right.” Keep Sol’s body orientation, facial markings, and planted feet unchanged. No additional turn, body rise, recoil, or bounce.\n\nUse the stable medium full-body source camera. Preserve the tended bough, added twig and separate faceless flame at right, cool shade and restrained local firelight. Its flame base stays anchored while only small upper shapes change.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.\n\nApply this cadence to Sol, the separate wood flame and animated local reflected lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.\n\nUse short, controlled movements with clear starting and ending positions. Move directly through the specified action and stop cleanly. Add no unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying, or camera movement.\n\nMatch the original Sol artwork: compact proportions, asymmetric flame silhouette, original red/orange/cream colors and layer widths, short rounded arms and tiny stubby feet. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Keep actual wood fire separate from his solid body.\n\nPreserve Sol’s silhouette, proportions, flame layers, and limb lengths throughout. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn.\n\nKeep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nGeneration should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.\n\nNo added text or generated dialogue.",
+      "start_sec": 23,
+      "end_sec": 29
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "paint": "workflow/assets/reference-art/Spring.jpg",
+      "paint_examples": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "captions": "Important action stays above y=76%; lower foreground near y=80–90% stays quiet for editable captions.",
+      "character_count": "One Sol where specified; no Sol in Scenes 03/04.",
+      "eyes": "Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.",
+      "narrator_eyeline": "Arthur's answer is acknowledged through the specified arm change or listening hold. Body orientation, facial markings and planted feet stay unchanged in the arm-only scenes; no above-camera look or face turn.",
+      "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+    }
+  },
+  "technical": {},
+  "coverage": {},
+  "evidence": [
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg"
+  ],
+  "evidence_sha256": {
+    "evidence/first.jpg": "daf1b17dec490c7a2a2b3b6f5e549d3663ae4d3e176107de08c696d0408e6858",
+    "evidence/frame-comparison.jpg": "a752bda6bcb87429f555680e9133d6d8e22924e3aff77a54a3f2493f7800ac98",
+    "evidence/last.jpg": "197a143838488e00086a92f4f326bf6a0ff90da663c803b4f93b1f3617c8a141",
+    "evidence/paint.jpg": "7df5af3ac758a9a2a751be5efe5bb3c3d419cba2170c6b19bd375b2d9916e187",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432"
+  },
+  "state": "awaiting user approval of both frames"
+}
