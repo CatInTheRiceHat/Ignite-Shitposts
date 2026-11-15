@@ -1,6 +1,6 @@
 # Video prompt
 
-Reusable template for animating approved images in Flow or another video generator. Place this file in the project's guidelines folder. Prepare keyframes with [image-prompt.md](image-prompt.md).
+Reusable template for animating approved endpoint images through Higgsfield. Use the current model and input roles in [generation.json](../config/generation.json); historical Flow examples do not replace that configuration. Prepare keyframes with [image-prompt.md](image-prompt.md).
 
 ## Consistent art direction
 
@@ -8,19 +8,11 @@ Carry Ignite's established painted 2D look from the approved keyframes through t
 
 Animate only the elements needed for the shot. Keep background movement restrained, maintain breathing room around the subject, and direct attention to one clear action. Use particles, glow, camera shake, and other effects only when the scene brief calls for them. Preserve technical geometry throughout the motion.
 
-When Sol is visible, include the identity wording from
-[image-prompt.md](image-prompt.md#sol-identity-and-continuity). Preserve every
-mascot feature during movement and across cuts, explicitly including the short
-arms, stubby feet and original eyes. Pose changes keep the same anatomy and
-proportions. Painted surface treatment must preserve the asset design. Check
-the source mascot examples alongside the approved frames; earlier generated
-anatomy does not override those originals.
+When Sol is visible, include the essential [identity constraints](shot-integration-and-sol.md#sol-identity) and write his [performance direction](shot-integration-and-sol.md#purposeful-performance-and-prop-contact) separately. Preserve anatomy through purposeful gestures and interactions. Omit character boilerplate in a cutaway without him.
 
 ## Reusable painted art direction
 
-```text
-Use soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes. Define forms through light and color, with no outlines, black strokes or inked edges. Paint every visible subject, prop and part of the environment with the same brushwork and surface texture. Keep clear spacing, gentle light and accurate, readable forms.
-```
+Use the [style guide's shared paint treatment](video-style-guide.md#painterly-surface-treatment). Include its concise essentials in each finished video prompt rather than expecting the generator to read a local guide.
 
 Carry that finish from the approved first frame through the whole clip,
 including Sol's colored layers and all visible props. Keep the brushwork stable
@@ -30,20 +22,20 @@ The scene determines format, palette and subject count.
 
 ## How to fill it in
 
-Read the scene brief, approved keyframes, and project style guide. Choose the main action, camera behavior, starting state, and ending state. Replace the bracketed fields and remove optional sentences that do not apply. Use concrete verbs and visible outcomes.
+Read the scene brief, approved keyframes and project style guide. Put the scene, subject and main visible action or result first, then its connected stages, camera, movement quality, concise style and identity, and essential constraints. Use concrete verbs and visible outcomes. Each prompt must work independently with its declared endpoints and inputs.
 
-Record the selected model, aspect ratio, duration, resolution, audio setting, and actual reference files alongside the prompt. Use the project's selected Omni Flash model for Flow work and the controls available in that generation mode. Set clip length from the action and edit timing.
+Record model, aspect ratio, duration, resolution, audio policy and actual reference files outside the copyable prompt, using the current generation configuration. Record [reference roles and supplied assets](image-prompt.md#reference-roles-and-supplied-assets); paths must map to inputs actually supplied. Keep dialogue, caption content and editing-only moves outside the visual-generation block. Prompt writing does not authorize a media job.
 
 ## Main template
 
 ```text
-[Camera instruction]. Begin with [subject] in [starting pose or state], as shown in the attached starting frame.
+[In this scene, subject] [one main action], ending with [visible result]. Begin in [starting pose or state] from the approved first frame.
 
-[Subject] [one main action] toward [direction or destination], with [speed and movement quality]. [Describe essential contact, weight, or interaction with the prop or surface].
+[Describe the closely connected stages in physical order, including direction, support, grip or release where relevant]. End on [exact pose, contact and object state] from the approved last frame. [Include a brief hold only when it serves the beat].
 
-End with [subject] in [ending pose or state]. [Finish on the attached end frame, when supplied]. [Hold the final pose for a duration suited to the edit, if needed].
+[One camera choice, with starting and ending view if it moves]. Use [movement quality appropriate to the subject and action].
 
-Preserve [important identity features], the established painted 2D brushwork, and [scene details essential to continuity] from the references. Keep the composition clean and the background geometry, scale, and lighting consistent throughout the motion.
+[Concise approved matte paint treatment and applicable identity constraints]. Preserve [essential geometry, lighting and spatial relationships]. [Only necessary shot-specific exclusions].
 ```
 
 ## Short version
@@ -51,7 +43,7 @@ Preserve [important identity features], the established painted 2D brushwork, an
 Use this when the starting image already establishes the scene clearly.
 
 ```text
-[Camera instruction]. [Subject] [specific action and direction]. [Describe the essential contact or movement quality]. End [exact visible result]. Preserve [key features], the established painted 2D style, and the clean, accurate background from the reference.
+[Subject in the scene] [specific action and direction], from [starting state] to [exact visible result]. [One camera choice]. [Essential contact and movement quality]. Preserve [applicable identity constraints], [concise matte paint treatment] and [essential geometry and light].
 ```
 
 ## Optional transformation or reveal
@@ -59,28 +51,37 @@ Use this when the starting image already establishes the scene clearly.
 Use this structure when the scene depends on a change of state. Identify what changes, where it happens, and what completes before the next movement begins.
 
 ```text
-[Camera instruction]. Begin with [initial state]. [Element] changes into [final state] through [specific visible transition]. As this happens, [describe the required relationship between the elements]. Once [completion condition], [next movement or final hold]. Finish in [final composition].
+[Element in the scene] changes from [initial state] into [final state] through [specific visible transition]. [One camera choice]. Show [required contact or cause] before [result]. Once [completion condition], [connected stage or brief hold]. Finish in [final composition]. Preserve [concise paint treatment, applicable identity, geometry and lighting conditions].
 ```
 
 ## Motion and continuity
 
-Give each clip one main action. Closely connected stages can share a shot when their order is clear. For a complicated sequence, create compatible intermediate frames or divide it into readable beats.
+Give each clip one teaching purpose and one main visible action. Closely connected stages can form that action when their order is clear, such as approach, contact, release and settle. For a complicated sequence, simplify it or declare continuing subscenes and endpoints in the shot plan. Sol's appearance should contribute to the beat; a mechanism-focused cutaway can omit him.
 
-Specify movement quality precisely, such as a single quick movement, a slow lean, a controlled rotation, or a glide that settles. Describe the intended direction and stopping point. For a prop interaction, state where contact occurs and how the prop responds.
+Specify movement quality directly: stepped hand-animated poses, a quick decisive gesture, a measured weight shift, or a controlled glide where appropriate. Use deliberate preparation and brief held poses when they support the painted style. Describe direction, stopping point and prop contact. The [motion style](video-style-guide.md#motion-style) distinguishes this generation request from exact exposure/frame cadence established and enforced during editing. Verify both motion and cadence in playback; do not claim a requested cadence has been achieved from the prompt alone.
 
-Choose one camera instruction that supports the action. Match the ending pose and direction to the next shot. If the art calls for stepped animation, request that quality for the relevant movement and check the result in playback. Set exact frame cadence in the edit when needed.
+Choose the camera for the teaching purpose: a close-up for a critical contact, a controlled push for a reveal, or a stable view for listening, anticipation or payoff. Specify size, height, angle, side and crop; a generated move needs explicit start and end views. Record whether each move belongs in generation or editing. For an editorial push, generate a stable source and put the crop instructions outside the copyable block; avoid performing the same push twice.
+
+Match the ending pose, prop state, screen direction and light to the next shot. Reuse an approved ending asset unchanged when the next starting state is exact, following the [endpoint rules](shot-integration-and-sol.md#specify-the-first-and-last-frames). Keep lighting causal: an unlit starting object cannot already cast light from its later ignition.
 
 For Ignite scenes, carry the approved painted 2D treatment through the motion. When Sol appears, preserve his reference features and mouthless face, using body language and eye direction to convey his reaction. Follow the current voice configuration when adding dialogue in the edit.
+
+## Remove boilerplate and contradictions
+
+Check every sentence against what is actually visible. Remove references to absent hands, characters, tools, fire, mechanisms or scenery; correct object counts and the initial lighting state. Keep optional glow, particles and movement only when the shot needs them. Keep essential identity and style instructions concise instead of repeating unrelated template restrictions. Timing follows the [recorded-dialogue policy](video-script-guide.md#dialogue-density-and-timing); trim unnecessary holds and repeated reactions while preserving readable actions.
+
+Run the shared [final prompt review](checklist.md#final-prompt-review) before using the prompt. Loading-animation loop or rotation requirements remain scoped as described in the [guideline scope](README.md#scope-and-rule-owners).
 
 ## Review and revise
 
 - Play the clip and inspect the beginning, middle, and end for the requested action and timing.
-- Check character identity, prop shape, contact, movement direction, and camera stability.
+- Check character identity, prop shape, contact, movement direction and the intended stable or moving camera behavior.
 - Compare Sol's arms, feet, eyes and flame layers with the source assets through the clip and across scene cuts; reject growth, reshaping or a different mascot design.
 - Check visible gouache brushwork, layered color and paper texture on Sol as well as the props and environment; reject a smooth logo-like character on a painted background.
 - Keep the original eye shapes unchanged through the clip, with no closing or expressive reshaping.
 - Check that painted shapes stay consistent and the background retains accurate geometry and scale.
 - Check that motion and effects support the main action and keep the frame easy to read.
+- Verify stepped poses, useful holds and the editing cadence in playback; check that camera movement and technical contacts remain readable.
 - Verify that a transformation completes in the intended order and ends in the specified state.
 - Check that the next shot continues naturally from the final pose.
 

@@ -1,7 +1,5 @@
-Active topic: How Fire Was Discovered. Prompt revision only; no media generated.
+Active topic: How Fire Was Discovered.
 
-Read script.txt, higgsfield-prompts.txt and shot-plan.json. Five scenes; ten endpoint entries and five video prompts; nine unique still generations. Scene 02 first reuses the approved Scene 01 ending image unchanged at its existing output slot. Obtain explicit approval of each exact endpoint pair before video.
+Scene 01's replacement endpoint pair has closer eye spacing. Canonical files: keyframes/01-first.png and keyframes/01-last.png. Versioned candidates: keyframes/01-first-nano-v2b.png and keyframes/01-last-nano-v2b.png. The previous pair and intermediate eye edit are preserved. User likes the v1 direction except the eye gap; neither that feedback nor this correction approves the replacement pair.
 
-Distinct Sol gestures, strict source identity and matte gouache depth apply. Scene 02's 100%-to-120% digital push belongs in editing; generate its source camera stable. Scene 03's small push belongs in generation. Establish and inspect exact character exposure cadence during editing at 30 fps delivery. These are planned instructions only.
-
-Lengths 3/4/7/9/6 seconds are provisional (29s estimate, 30s target). Spoken dialogue, model/voice configurations, scene IDs and all output paths are preserved. Arthur/custom Sol takes are unavailable; final timing requires actual normal-rate recordings at 1x. Earlier escalator files remain untouched by this revision.
+Show BOTH replacements and wait for explicit approval of that exact pair before any video. No video or audio has been generated. Nano Banana 2.1, model settings and voice cast are preserved. Actual requests, job IDs, file hashes and the connector mask limitation are recorded in jobs/higgsfield/scene-01-images-nano-v2.json. Other scenes remain planned only.

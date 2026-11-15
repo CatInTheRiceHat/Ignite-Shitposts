@@ -1,7 +1,7 @@
 # Ignite video style guide
 
 Use the shared Gemini Omni Flash 1.2 video settings in `../config/generation.json`.
-Generate and show the actual first AND last stills to the user, and obtain
+Prepare and show the actual first AND last stills to the user, and obtain
 explicit approval of both before animation. The mascot design comes from `../config/sol-references.json`: use Mascot.png
 and the additional supplied examples. Elaine accepts the v4 mascot-design
 direction, but its painted finish still needs work; the frame pair is not approved. A dedicated reviewer must inspect actual
@@ -12,50 +12,48 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 
 ## Art direction
 
-- Use Ignite’s existing **painted 2D** look. Match the approved scene references for brush texture, edge treatment, and lighting. Build depth with overlapping painted layers, value contrast, and gentle parallax.
-- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Use the provided graphics and gouache prompt language for painted finish. The lantern video guides gentle movement; use the original mascot outline, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
-- Keep the staging warm, playful, and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the subject and reference art guide the scene palette.
+- Use Ignite’s existing **soft, matte painted 2D** look, established by the approved scene artwork. Keep broad simplified shapes, restrained detail, subtle texture and softened painted edges. Build depth through overlapping layers, gentle shading, coherent perspective and contact shadows; parallax is optional when the chosen camera move calls for it.
+- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Use the provided graphics and gouache prompt language for painted finish. The lantern video guides gentle movement; use the original mascot silhouette, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
+- Keep the staging welcoming, playful and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the actual setting, time and light sources determine the scene palette; warmth is not an instruction to add firelight to an unlit scene.
 - Treat the earlier *Arcane* reference as shorthand for visibly painted surfaces and expressive lighting. Use Ignite’s own artwork to set the character design and overall look. Flag glossy 3D shading, a clay-render look, and generic vector art when they break the painted style.
-- Give Sol the same brushwork, perspective, and light as the scene. Use approved Sol art as a character reference for generating the painted keyframe. See the shot guide for the actual generation steps.
-- Preserve every mascot feature across clips. Match the original short rounded arms and stubby feet, including their shapes, colors, lengths and attachment points. Match the original eyes rather than giving them new pupils or white highlights. The painted finish applies to the existing design; it must not create a different mascot. See Elaine's [critique checklist](checklist.md).
+- Paint Sol, props and surroundings together with the same brushwork, perspective and coherent light. Shading should communicate the reference form and volume while preserving its proportions. Avoid inflated anatomy, glossy or clay-like rendering, generic vector shapes, heavy grain and excessive decoration.
+- Keep identity and performance separate. The [shot guide](shot-integration-and-sol.md#sol-identity) owns character constraints and [purposeful acting](shot-integration-and-sol.md#purposeful-performance-and-prop-contact); the [image guide](image-prompt.md#painted-depth-and-form) explains painted depth and [reference roles](image-prompt.md#reference-roles-and-supplied-assets).
 
 ### Painterly surface treatment
 
-Use soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes. Define forms through light and color, with no outlines, black strokes or inked edges. Paint every visible subject, prop and part of the environment with the same brushwork and surface texture. Keep clear spacing, gentle light and accurate, readable forms.
+This is the shared paint description for image and video prompt authors. Include its concise essentials in independently usable prompts:
+
+```text
+Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint subjects, props and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows while preserving the reference proportions and volume. Define forms through light and color, without outlines, black strokes or inked edges. Avoid glossy rendering, generic vector shapes, heavy grain and decorative clutter.
+```
 
 Preserve Sol's exact geometry while painting the colored surfaces. The red outer flame is a filled layer, not inked linework. Keep navy eyes solid and unchanged. Palette, format and scene contents follow the episode; the supplied seasonal/office prompts establish art direction only.
 
 ## Voices and performance
 
 - **Arthur** is the default off-screen narrator. Use Higgsfield’s built-in Arthur voice with a warm nature-documentary delivery, patient pauses, and dry humor.
-- **Sol** is the curious student and uses the user's **Higgsfield custom voice named Sol**. Use the exact voice ID and `voice_type: element` in [the shared voice cast](../config/voices.json). Keep Sol mouthless. Time his eye shapes and body language to the dialogue in the edit.
+- **Sol** is the curious student and uses the user's **Higgsfield custom voice named Sol**. Use the exact voice ID and `voice_type: element` in [the shared voice cast](../config/voices.json). Keep Sol mouthless. Time gestures and whole-face orientation to dialogue while preserving his original eye design.
 - Label every spoken turn **Narrator:** or **Sol:** in the review script. Let both voices respond to the scene and to each other. Sol can ask a substantive follow-up; his part is not limited to one-word reactions. Preserve existing episode voice overrides, including earlier single-voice Cub narration.
 - Use connected, conversational sentences with varied lengths. Arthur's dry humor should come from the situation and delivery. Remove forced slogan endings and repeated clipped clauses. Give an explanation enough words to make its cause and effect clear.
-- When the Narrator speaks directly to Sol and Sol is visible, let Sol break the fourth wall: his eyes lead an upward turn toward a fixed point just above the camera, then his flame body and tip follow. Keep the original eye shapes unchanged and convey listening through the whole-face turn and a held body pose. The Narrator remains off-screen. When a line directs attention to a mechanism, Sol may follow that cue and then look back up for the response. Record those gaze changes explicitly.
-- Stage one clear acknowledgment of Arthur, then let Sol follow the demonstrated object. Add another look upward only when a new spoken exchange requires it. Use eye direction, body lean and held poses for most acting; avoid stacking eye morphs, a double-take, a bounce and a camera move onto one brief reply. Keep the source mascot's eyes, short arms, stubby feet and proportions consistent through these pose changes.
+- When Arthur addresses visible Sol, use the [shot guide's Narrator eyeline and acting cues](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Let each scene choose an expressive gesture, orientation, weight shift or purposeful interaction rather than repeating one listening pose. Keep the narrator off-screen and avoid redundant reaction loops.
 
 ## Sol's cartoon expression and movement
 
-Sol is mouthless. Keep the original mascot examples' two small dark oval eyes low on the cream face, at the source size and spacing throughout the performance. Convey attention through whole-face turns and small body leans. Keep the original eyes unchanged and open: no blinking, closed-eye curves, squinting or widening. The current direction replaces the earlier exaggerated eye-morph vocabulary; do not enlarge one eye, collapse one into a dot or replace the pair with crescents. Preserve the painted orange/cream layers and a softly tapering, wispy flame tip.
+Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity) for Sol. Original open oval eyes remain consistent relative to his face with coherent perspective during turns; personality comes from the action and its timing. Anatomy preservation allows expressive staging. The current identity rules supersede the historical eye-morph and squash/stretch examples in earlier discussions.
 
-| Acting intent | Eyes | Supporting pose |
-| --- | --- | --- |
-| Neutral / listening | Original small paired navy ovals | Compact body and a clear hold |
-| Listening to the Narrator | Retain the same oval shapes and proportions | Tip the whole face toward the fixed point just above the camera |
-| Curious / questioning | Retain the same paired ovals | Small lean toward the object, then hold |
-| Following movement | Retain the same paired ovals | Track with a restrained whole-face turn; body follows slightly |
-| Understanding / pleased | Retain the same paired ovals | Relax the body into a quiet, grounded ending pose |
+## Motion style
 
-Name the gaze target, body pose and cue for each turn. Apply the desired gouache finish to the original mascot's flame outline and layer arrangement, including its gently tapering tip. Let the tip trail gently after a turn and settle. Match the lantern video's small deliberate movements and held poses while retaining compact limbs and recognizable proportions.
+Specify the movement quality directly. Use stepped, hand-animated pose-to-pose character movement with deliberate silhouettes, connected preparation and action, and brief holds when they clarify the beat. Quieter listening, anticipation and payoff poses are useful choices alongside expressive gestures; no single reaction is the default for every scene. Use the actual lantern video for painted movement and held-pose rhythm, without inheriting its eye changes or imposing its exact action on other episodes.
 
-Keep technical parts mechanically accurate while matching the lantern artwork's painted finish. Motion should reveal the explanation clearly, with supported feet, engaged chains and readable roller contact.
+Requesting a stepped look in generation does not establish exact exposure/frame cadence. Record the stylistic request separately from the editing plan; establish and enforce the exact cadence during editing at **30 fps delivery**, then verify it in playback with the actual voices. Preserve paint and identity between poses. Avoid texture crawl, smeared transitions and blanket frame holds that obscure camera movement or physical contact.
+
+Keep technical movement smooth when stepping would hide contact, engagement or relative motion. Choose camera behavior for the explanation and say whether a push belongs in generation or editing; the [video prompt guide](video-prompt.md#motion-and-continuity) owns those shot instructions. Check the result rather than assuming frame-rate conversion alone produces the desired style.
 
 ## Pacing, motion, and type
 
-- Open on the question or a surprising image. Borrow Zack D. Films’ pacing by using a close-up or camera push to show the detail that answers the question. Hold the reveal long enough to read it.
+- Open on the question or a surprising image. Use a close-up or controlled camera push when it reveals an important detail, and a stable view when it serves listening, anticipation or a readable payoff. Hold the reveal long enough to read it.
 - Vary clip lengths around the action and dialogue. Keep several lines in one scene when they share an action; use a shorter reaction or cutaway when it adds something. Establish the exact first and last frames of every planned clip. Use normal voice playback and set final timing from the actual recordings.
-- Export vertical at **1080 × 1920, 30 fps**. Use the actual lantern video as the reference for the character's movement and held-pose rhythm. Preserve the painted surface and proportions through the motion; changing frame rate alone does not establish that look.
-- Keep technical motion smooth when stepped motion would obscure roller contact, chain engagement, or relative movement. Describe this distinction in the video prompt. Use a clear generated camera view; keep it locked when a push would obscure the explanation. The default deliverable is a complete generated clip, including its painted mechanism and motion.
+- Export vertical at **1080 × 1920, 30 fps**. Keep draft durations provisional; the [script guide](video-script-guide.md#dialogue-density-and-timing) owns timing to real normal-rate recordings and removal of unnecessary holds or repeated reactions. The default deliverable remains complete generated clips, including the painted mechanism and motion.
 - Set all dialogue and narration captions as editable overlays in Remotion. Use **Ramento** with white fill `#FFFFFF` and Ignite orange outline `#F07B2A` around each letter. Use one or two lines above the social controls, with room around Sol, diagrams, and equations. Use Poppins Bold for headings and Nunito for longer non-caption text when needed.
 - Confirm the actual local font family before assembly; a guide's display name can differ from the font filename. Keep per-episode font paths and renderer implementation gaps in the episode handoff. Caption words and timings follow the real voice takes. Keep any optional finishing graphics and sound effects editable; they are not required to explain a mechanism that is already visible in a complete generated clip.
 - Keep assembly simple: arrange the complete clips, add separate voices, captions and sound, and export. Make explanatory colors or identifying details part of the generated scene where useful. Do not create SVGs, custom diagrams or separate mechanism animation unless explicitly requested. Additional visual overlays are optional, not a required production stage.
@@ -70,13 +68,15 @@ Keep technical parts mechanically accurate while matching the lantern artwork's 
 - [ ] Arthur and Sol are distinct in the mix. Captions use the approved Ramento treatment, are timed to both voices, and sit clear of the subject. Replace any visible draft placeholders before release.
 - [ ] Dialogue flows like a conversation, explains unfamiliar mechanisms clearly, and resolves the scene without a forced punchline.
 - [ ] The clip durations support the performances and visible actions, with continuity between planned first and last frames.
-- [ ] Cartoon poses and eye shapes read at phone size; each reaction has a clear cue, target, and held result.
+- [ ] Expressive poses and original eye designs read at phone size; each reaction has a clear purpose, cue, target and result. Stepped movement and exact editing cadence have been checked in playback.
 - [ ] When the Narrator addresses visible Sol, Sol acknowledges the voice above the camera and the plan explicitly cues any return look at the mechanism.
 - [ ] Review the real frames at about 360 × 640 as well as full resolution. The first action, gaze, object identity, contact points and final reaction remain legible, and one or two caption lines clear the platform controls. Planned bounding boxes alone do not establish that finished footage passes this check.
+
+Before generation, also run the shared [final prompt review](checklist.md#final-prompt-review). Keep the caption treatment above and current voice selections; older episode examples and legacy configuration do not replace them.
 
 ## References
 
 - *Automate Ignite Videos* chat, Nov. 8, 2026. Painted 2D look, half-frame motion, and the calculus pilot reference frames.
 - *Remotion setup and workflow checklist* discussion, Nov. 10, 2026. Painted Ignite art, Zack D. Films pacing, vertical export, and render review.
-- *Escalator cartoon direction*, Nov. 13, 2026. Specific camera framing, intentional eye-shape morphs for a mouthless Sol, and strongly exaggerated cartoon performance.
+- *Escalator cartoon direction*, Nov. 13, 2026. Historical camera and acting discussion; its eye morphs and anatomy-changing exaggerations are superseded by the current identity rules.
 - [Ignite Program Style Guide.pdf](https://chatgpt.com/library?file_id=libfile_02e662ff436881919a34e6913e985727&account_id=personal)

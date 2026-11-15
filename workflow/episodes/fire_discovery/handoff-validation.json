@@ -1,6 +1,6 @@
 {
   "episode": "fire_discovery",
-  "status": "Prompt revision complete; structural and preservation checks passed; no media generated.",
+  "status": "Scene 01 eye-spacing replacement pair ready for user review.",
   "scenes": 5,
   "image_prompts": 10,
   "video_prompts": 5,
@@ -8,7 +8,7 @@
   "target_duration_sec": 30,
   "estimated_duration_sec": 29,
   "timing_confirmed": false,
-  "images_generated": 0,
+  "images_generated": 5,
   "videos_generated": 0,
   "audio_generated": 0,
   "frame_approval": false,
@@ -20,11 +20,11 @@
     "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
   "pending": [
-    "Review script/storyboard and prompts.",
-    "Generate first/last pair only when requested.",
-    "Explicit pair approval before video.",
+    "User review of both closer-eye-spacing replacement frames.",
+    "Explicit approval of that exact pair before any video.",
+    "Other scenes only when requested.",
     "Normal-rate voices and final timing.",
-    "Independent actual-footage review."
+    "Independent actual-clip review after generation."
   ],
   "checks": {
     "ten_endpoints_and_five_video_prompts": true,
@@ -38,7 +38,7 @@
     "cadence_and_voice_timing_unconfirmed": true,
     "gouache_depth_and_identity_rules": true,
     "previous_episode_preserved": true,
-    "no_media_generation": true
+    "only_requested_scene_01_stills_generated": true
   },
   "endpoint_entries": 10,
   "unique_image_generations": 9,
@@ -52,5 +52,9 @@
     "workflow/episodes/escalator/script.txt": "c8f19c099e6e51b84a12d3e51cb236768573f137c672c2baaeeedd7add43179c",
     "workflow/episodes/escalator/shot-plan.json": "b4f336e299c9ed098c232b491c4fc23be1543f12be596f63303eb1cbaa7514ef",
     "workflow/episodes/escalator/higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
+  },
+  "scene_01_candidate_sha256": {
+    "first": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+    "last": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
   }
 }
