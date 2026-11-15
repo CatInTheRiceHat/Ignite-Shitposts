@@ -87,15 +87,17 @@ New two-voice skits use **Arthur** as the off-screen Narrator and the user's
 **Higgsfield custom voice Sol** for Sol. The [shared voice cast](config/voices.json)
 stores the exact custom voice ID and `voice_type: element`. Use that saved
 pair for Sol's dialogue. Keep speech at the provider's normal rate and 1x
-playback. A scripted direct gesture or listening hold can acknowledge the
-Narrator; do not automatically add a face turn or upward look. Follow the
-[exact on-twos motion policy](guidelines/video-style-guide.md#motion-style):
-two-frame source poses at 30 fps, 15 updates per second and normal-speed action,
-enforced and verified during editing.
-Sol’s intentional movements now have a small bouncy flame-like wobble and soft
-tip/lobe follow-through, settling at the endpoint. Keep the original eyes,
-coherent layers, compact identity, stubby limbs and supported feet. This replaces
-the earlier rigid-body/no-bounce default; hands and mechanisms keep their own physics.
+playback. Whenever Narrator speaks with Sol visible, establish Sol's gaze UP
+to the fixed voice above camera before the first word and maintain it with
+gentle listening idle throughout. Read the [Narrator attention rules](guidelines/shot-integration-and-sol.md#narrator-attention-and-listening-idle).
+A short silent gaze transition may precede voice onset when exact continuity
+starts with Sol looking elsewhere. Intentional paired gaze shifts and brief
+natural blinks preserve the normal original navy oval design.
+Follow the [on-twos policy](guidelines/video-style-guide.md#motion-style):
+unchanged two-frame source states at 30 fps, 15 updates/second, normal speed.
+Every actual-clip review binds the complete script and available voice cues/
+recordings and compares speaker turns with gaze, idle and the visible action.
+Actual voice alignment remains provisional until normal-rate recordings exist.
 
 Reusable Remotion code and dependencies live in `remotion/`. Episodes own
 their edit JSON, public assets and renders; a custom composition can live in

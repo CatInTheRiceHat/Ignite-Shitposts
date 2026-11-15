@@ -60,11 +60,11 @@ Give each clip one teaching purpose and one main visible action. Closely connect
 
 Use the exact [shared motion rules](video-style-guide.md#motion-style): animate on twos, holding each pose or painted state unchanged for two consecutive frames of the final 30 fps timeline (15 pose updates per second). Longer holds use complete pairs; action and playback remain normal speed. Apply this to every visible animated subject, including hands, moving props, flames and animated local lighting. Keep background and painted texture stable, without interpolation, blending, optical-flow smoothing or concealing motion blur. Include applicable subjects in each independently usable prompt.
 
-Specify short direct gesture paths, original attachment points and constant limb lengths. Give Sol’s intentional movements a small bouncy body/flame wobble and soft tip/lobe follow-through, then damp and settle at the approved endpoint. Treat this as connected performance within one main action. Do not add unrelated windups, repeated nodding, hops, endless idle sway or camera movement. Hands, held props and mechanisms retain their planned physical motion; Sol’s performance style is not a blanket instruction to bounce every object. Keep Sol’s face anchored to his body and both eye ovals uniformly navy #1C2447, with a brief natural blink allowed and no highlights, whites, extra pupils, winks or drift. Aim for this during generation; enforce and verify exact two-frame cadence during editing.
+Specify short direct gesture paths, original attachment points and constant limb lengths. Give Sol’s intentional movements a small bouncy body/flame wobble and soft tip/lobe follow-through, then damp and settle at the approved endpoint. Treat this as connected performance within one main action. During visible Narrator turns, Sol looks up to the fixed above-camera voice before the first word and keeps gentle listening idle throughout. Avoid unrelated windups, repeated arm gestures, large bounce loops, extra hops or camera movement. Hands, held props and mechanisms retain their planned physical motion; Sol’s performance style is not a blanket instruction to bounce every object. Keep Sol’s face anchored to his body and both eye ovals uniformly navy #1C2447, with a brief natural blink allowed and no highlights, whites, extra pupils, winks or drift. Aim for this during generation; enforce and verify exact two-frame cadence during editing.
 
 Choose the camera for the teaching purpose: a close-up for a critical contact, a controlled push for a reveal, or a stable view for listening, anticipation or payoff. Specify size, height, angle, side and crop; a generated move needs explicit start and end views. Record whether each move belongs in generation or editing. For an editorial push, generate a stable source and put crop instructions outside the copyable block. A smooth digital move may follow cadence enforcement on the source footage; check crops throughout the move. Do not perform the push twice.
 
-Match the ending pose, prop state, screen direction and light to the next shot. Reuse an approved ending asset unchanged when the next starting state is exact, following the [endpoint rules](shot-integration-and-sol.md#specify-the-first-and-last-frames). Keep lighting causal: an unlit starting object cannot already cast light from its later ignition.
+Match the ending pose, prop state, screen direction and light to the next shot. Include the [mandatory Narrator attention cue](shot-integration-and-sol.md#narrator-attention-and-listening-idle) when Sol is visible; use a short silent gaze-ready lead-in if continuity begins with another gaze. Reuse an approved ending asset unchanged when the next starting state is exact, following the [endpoint rules](shot-integration-and-sol.md#specify-the-first-and-last-frames). Keep lighting causal: an unlit starting object cannot already cast light from its later ignition.
 
 For Ignite scenes, carry the approved painted 2D treatment through the motion. When Sol appears, preserve his reference features and mouthless face, using the scripted gesture or listening hold to convey his reaction without independent face or eye movement. Follow the current voice configuration when adding dialogue in the edit.
 
@@ -76,7 +76,7 @@ Run the shared [final prompt review](checklist.md#final-prompt-review) before us
 
 ## Review and revise
 
-- Play the clip and inspect the beginning, middle, and end for the requested action and timing.
+- Read the actual script/storyboard first, then inspect the entire clip against each spoken turn, visual cue and planned/recorded speaker window.
 - Check character identity, prop shape, contact, movement direction and the intended stable or moving camera behavior.
 - Compare Sol's arms, feet, eyes and flame layers with the source assets through the clip and across scene cuts; reject growth, reshaping or a different mascot design.
 - Check visible gouache brushwork, layered color and paper texture on Sol as well as the props and environment; reject a smooth logo-like character on a painted background.
@@ -85,7 +85,7 @@ Run the shared [final prompt review](checklist.md#final-prompt-review) before us
 - Check that motion and effects support the main action and keep the frame easy to read.
 - Verify unchanged source poses in exact consecutive two-frame pairs on the final 30 fps timeline, with normal-speed action and complete-pair longer holds. Inspect every animated subject, facial markings and physical contacts; inspect source cadence before any smooth editorial camera transform and check final crops in playback.
 - Verify that a transformation completes in the intended order and ends in the specified state.
-- Check that the next shot continues naturally from the final pose.
+- Check that the next shot continues naturally from the final pose. Verify upward gaze and gentle idle during every visible Narrator turn, including the transitions into and out of speech; an up-looking last frame alone is insufficient.
 
 If a take fails, identify the visible error and change the relevant prompt sentence or reference frame. Simplify competing actions, clarify direction or contact, and use closer start/end poses when needed. Compare the revised take against the same intended result.
 

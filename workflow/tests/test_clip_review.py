@@ -35,8 +35,12 @@ class ClipReviewTests(unittest.TestCase):
             'clips': [{'id': '01', 'start_sec': 0, 'end_sec': 3, 'sol_visible': True,
                        'first_frame': 'One planted pose.', 'last_frame': 'Same pose.',
                        'action': 'A test hold.', 'video_prompt': 'Test footage.',
+                       'dialogue': [{'speaker': 'Narrator', 'text': 'A test instruction.'}],
                        'planned_outputs': {'first': 'keyframes/first.png', 'last': 'keyframes/last.png',
                                            'video': 'clips/01.mp4'}}]}
+        (self.episode / 'script.txt').write_text(
+            'SCENE 01\nNarrator: A test instruction.\n'
+            'Sol looks up toward the Narrator and idles while listening.\n')
         self.save_plan()
 
     def tearDown(self):
@@ -58,7 +62,73 @@ class ClipReviewTests(unittest.TestCase):
                   'checks': {name: {'verdict': 'pass', 'observed': 'Synthetic fixture inspection.',
                                    'timestamps_sec': [0], 'evidence': ['evidence/frame-comparison.jpg']}
                              for name in packet['contract']['policy']['checks']}}
+        report['checks']['script_and_narrator_attention']['evidence'] = [
+            'evidence/script-storyboard.txt', 'evidence/script-context.json',
+            packet['coverage']['sequence_pages'][0]]
         return packet, report
+
+    def test_review_binds_actual_script_and_supplies_speaker_attention(self):
+        packet, _ = self.packet_and_report()
+        self.assertEqual(packet['binding']['script']['sha256'],
+                         review.file_hash(self.episode / 'script.txt'))
+        ctx = review.context(self.episode, '01', 'clip')
+        scripted = review.read(ctx['directory'] / 'evidence/script-context.json')
+        self.assertEqual(scripted['dialogue'][0]['text'], 'A test instruction.')
+        self.assertTrue(scripted['narrator_attention']['required'])
+        self.assertIn('throughout', scripted['narrator_attention']['coverage'])
+        self.assertFalse(scripted['timing']['alignment_verifiable'])
+        self.assertEqual((ctx['directory'] / 'evidence/script-storyboard.txt').read_text(),
+                         (self.episode / 'script.txt').read_text())
+
+    def test_missing_script_or_unsynchronized_dialogue_blocks_review(self):
+        self.plan['clips'][0]['dialogue'][0]['text'] = 'A different spoken line.'
+        self.save_plan()
+        with self.assertRaisesRegex(ValueError, 'missing from the actual script'):
+            review.prepare(self.episode, '01', 'clip')
+        (self.episode / 'script.txt').unlink()
+        with self.assertRaisesRegex(ValueError, 'Missing script'):
+            review.prepare(self.episode, '01', 'frames')
+
+    def test_dialogue_in_another_scene_does_not_satisfy_script_alignment(self):
+        (self.episode / 'script.txt').write_text(
+            'SCENE 01\nNarrator: A different line.\n'
+            'SCENE 02\nNarrator: A test instruction.\n')
+        with self.assertRaisesRegex(ValueError, 'missing from the actual script'):
+            review.prepare(self.episode, '01', 'clip')
+
+    def test_script_change_invalidates_both_frame_and_clip_decisions(self):
+        self.approve()
+        _, report = self.packet_and_report()
+        review.record_review(self.episode, '01', report)
+        self.assertTrue(review.clip_gate(self.episode, '01')['approved'])
+        path = self.episode / 'script.txt'
+        path.write_text(path.read_text() + '\nChanged performance direction.\n')
+        self.assertFalse(review.frame_gate(self.episode, '01')['approved'])
+        self.assertFalse(review.clip_gate(self.episode, '01')['approved'])
+
+    def test_script_check_requires_script_and_actual_timeline_evidence(self):
+        self.approve()
+        _, original = self.packet_and_report()
+        for evidence in (
+                ['evidence/frame-comparison.jpg'],
+                ['evidence/script-storyboard.txt', 'evidence/script-context.json']):
+            report = copy.deepcopy(original)
+            report['checks']['script_and_narrator_attention']['evidence'] = evidence
+            with self.assertRaisesRegex(ValueError, 'Script-aligned review'):
+                review.record_review(self.episode, '01', report)
+
+    def test_changed_voice_cues_invalidate_review_without_claiming_audio_alignment(self):
+        audio = self.episode / 'audio'
+        audio.mkdir()
+        cues = audio / 'voice-cues.plan.json'
+        cues.write_text(json.dumps({'confirmed': False, 'utterances': []}))
+        self.approve()
+        _, report = self.packet_and_report()
+        review.record_review(self.episode, '01', report)
+        self.assertTrue(review.clip_gate(self.episode, '01')['approved'])
+        cues.write_text(json.dumps({'confirmed': False, 'utterances': [],
+                                    'status': 'revised speaker windows'}))
+        self.assertFalse(review.clip_gate(self.episode, '01')['approved'])
 
     def test_preparing_images_never_approves_them_or_allows_video_request(self):
         review.prepare(self.episode, '01', 'frames')

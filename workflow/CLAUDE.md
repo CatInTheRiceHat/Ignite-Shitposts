@@ -48,8 +48,13 @@ supersedes earlier rigid-body/no-bounce defaults. Keep layers and face coherent,
 eyes unchanged, limbs stubby and feet supported. Add no unrelated windup,
 repeated nodding, endless idle sway, extra hops or camera movement.
 Keep Sol's facial markings anchored to his body and eyes uniformly navy #1C2447;
-no independent face turn, neck, highlights or drift. A brief natural blink is allowed. A gesture change
-or listening hold can acknowledge Arthur without an automatic upward look.
+no separate head/neck or unmotivated facial drift. A brief natural blink is allowed.
+Whenever Narrator speaks with Sol visible, establish his upward gaze to the fixed
+above-camera voice before the first word and maintain it with gentle listening
+idle for the whole turn. Intentional paired gaze shifts are allowed. Review the
+actual script, speaker cues and footage together; final timing uses real voices.
 Enforce and verify cadence during editing; prompts alone do not prove it.
 Smooth planned editorial pushes may follow stepped footage; check all crops.
 Preserve current models, voice selections, caption styling and frame approvals.
+
+Mandatory script review: read the actual script/storyboard and per-scene speaker cues with every clip. Narrator speech plus visible Sol requires upward gaze and gentle listening idle throughout. New endpoint directions require review of the changed actual frame pairs before animation; preserve exact frame reuse where applicable.

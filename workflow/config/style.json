@@ -31,6 +31,7 @@
     "owner": "workflow/guidelines/video-style-guide.md#motion-style",
     "sol_performance": "Small movement-triggered bounce, flame-tip/lobe follow-through and damped wobble, settling at approved endpoints; face/layers coherent, eye design unchanged, limbs stubby, feet supported.",
     "scope": "This bounce is Sol performance, not a blanket effect for hands, props, mechanisms or cameras.",
-    "sol_blink": "A brief natural blink is allowed, returning promptly to the original open navy oval design; no unrelated eye morphs, highlights or facial drift."
+    "sol_blink": "A brief natural blink is allowed, returning promptly to the original open navy oval design; no unrelated eye morphs, highlights or facial drift.",
+    "narrator_attention": "Mandatory whenever Narrator speaks with Sol visible: gaze UP to fixed above-camera voice before first word, maintained with gentle body/tip/lobe listening idle throughout. Review against script and actual voice cues when available."
   }
 }

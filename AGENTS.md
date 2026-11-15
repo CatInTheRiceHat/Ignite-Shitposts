@@ -75,12 +75,15 @@
   complete-pair longer holds. Apply to every animated subject, prop, flame and
   local light; keep background/texture stable and avoid interpolation, blending,
   optical flow or concealing blur. Enforce and verify during editing.
-- A scripted gesture change or listening hold can acknowledge Arthur. Do not
-  automatically add a face turn, upward look, nod or windup. Sol’s intentional
-  movement now includes small bouncy body/flame follow-through that damps and
-  settles; this supersedes earlier rigid-body/no-bounce defaults. Keep his
-  recognizable compact identity, coherent layers, unchanged eyes and stubby limbs.
-  Smooth editorial pushes may follow stepped source footage; check crops throughout.
+- Whenever Narrator speaks and Sol is visible, Sol looks UP to the fixed voice
+  above camera before the first word and maintains the gaze with gentle
+  body/flame listening idle throughout the spoken turn. A short silent gaze
+  transition can precede voice onset when continuity starts with another gaze.
+  Intentional paired eye-gaze shifts are allowed; preserve normal eye design,
+  mouthless face, connected flame layers, stubby limbs and supported feet.
+- Review every clip WITH its actual script/storyboard and speaker cues. Record
+  actual frame evidence for gaze/idle through Narrator turns. Use real normal-rate
+  voices for final synchronization; unrecorded timing remains provisional.
 - Shared artwork and music live in `workflow/assets/`; additional reference
   artwork is in `workflow/assets/reference-art/`. Reusable Remotion components,
   tools and the single npm install live in `workflow/remotion/`. Keep each

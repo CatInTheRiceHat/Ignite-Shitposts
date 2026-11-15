@@ -22,7 +22,8 @@ ROOT = WORKFLOW.parent
 POLICY = WORKFLOW / 'config/clip-review.json'
 SCENE_FIELDS = ('id', 'first_frame', 'last_frame', 'action', 'framing_prompt',
                 'camera', 'dialogue', 'performance_beats', 'sol_visible',
-                'image_prompts', 'video_prompt', 'start_sec', 'end_sec')
+                'image_prompts', 'video_prompt', 'start_sec', 'end_sec',
+                'narrator_attention', 'timing_status')
 
 
 def read(path):
@@ -66,6 +67,75 @@ def entry(path):
     return {'path': str(path.relative_to(ROOT)), 'sha256': file_hash(path)}
 
 
+def script_context(episode, scene):
+    """Bind the real script and available voice cues without inventing speech times."""
+    script = next((episode / name for name in ('script.txt', 'narration.txt')
+                   if (episode / name).is_file()), None)
+    if script is None:
+        raise ValueError('Missing script/storyboard for script-aligned review')
+    normalize = lambda value: ' '.join(value.translate(
+        str.maketrans({'’': "'", '‘': "'", '“': '"', '”': '"'})).split())
+    script_text = script.read_text()
+    headings = list(re.finditer(r'(?im)^(?:scene|clip)\s+([0-9]+[a-z]?)\b[^\n]*$', script_text))
+    scene_key = str(scene['id']).lower().lstrip('0') or '0'
+    excerpt = script_text
+    if headings:
+        position = next((i for i, heading in enumerate(headings)
+                         if (heading.group(1).lower().lstrip('0') or '0') == scene_key), None)
+        if position is None:
+            raise ValueError('Scene is missing from the actual script: ' + str(scene['id']))
+        start = headings[position].start()
+        end = headings[position + 1].start() if position + 1 < len(headings) else len(script_text)
+        excerpt = script_text[start:end]
+    spoken_script = normalize(excerpt)
+    dialogue = scene.get('dialogue', [])
+    for turn in dialogue:
+        if turn.get('text') and normalize(turn['text']) not in spoken_script:
+            raise ValueError('Scene dialogue is missing from the actual script: ' + turn['text'])
+    attention = dict(scene.get('narrator_attention', {}))
+    attention['required'] = bool(scene.get('sol_visible', True)
+                                 and any(t.get('speaker') == 'Narrator' for t in dialogue))
+    if attention['required']:
+        attention.setdefault('gaze_target', 'Off-screen Narrator at a fixed point just above camera')
+        attention.setdefault('coverage', 'Gaze up before the first word and throughout each Narrator turn')
+        attention.setdefault('idle', 'Gentle connected flame/body idle while listening; no repeated arm gesture')
+    else:
+        attention.setdefault('coverage', 'Compare the visible action with the script; no visible Sol attention cue required')
+    timing_path = next((episode / name for name in
+                        ('audio/voice-cues.json', 'audio/voice-cues.plan.json')
+                        if (episode / name).is_file()), None)
+    timing = read(timing_path) if timing_path else {}
+    audio = {}
+
+    def bind_audio(value):
+        if isinstance(value, dict):
+            for item in value.values():
+                bind_audio(item)
+        elif isinstance(value, list):
+            for item in value:
+                bind_audio(item)
+        elif isinstance(value, str) and Path(value).suffix.lower() in (
+                '.wav', '.mp3', '.m4a', '.aac', '.flac', '.ogg'):
+            try:
+                path = resolve(episode, value)
+            except ValueError:
+                if timing.get('confirmed'):
+                    raise ValueError('Confirmed voice cue audio is missing: ' + value)
+                return
+            audio[str(path.relative_to(ROOT))] = entry(path)
+
+    bind_audio(timing)
+    details = {'source': entry(script), 'scene_script_excerpt': excerpt, 'dialogue': dialogue,
+               'narrator_attention': attention,
+               'timing': {'source': entry(timing_path) if timing_path else None,
+                          'cues_confirmed': bool(timing.get('confirmed')),
+                          'alignment_verifiable': bool(timing.get('confirmed') and audio),
+                          'basis': 'confirmed cues and recordings' if timing.get('confirmed') and audio
+                          else 'provisional script or voice plan; actual speech alignment unverified'},
+               'audio_sources': audio}
+    return script, timing_path, timing, details
+
+
 def context(episode, scene_id, stage, clip=None, first=None, last=None):
     episode = Path(episode).resolve()
     if not re.fullmatch(r'[A-Za-z0-9_-]+', str(scene_id)):
@@ -75,6 +145,7 @@ def context(episode, scene_id, stage, clip=None, first=None, last=None):
     scene = next((c for c in plan['clips'] if c['id'] == scene_id), None)
     if scene is None:
         raise ValueError('Scene not found: ' + scene_id)
+    script_path, timing_path, timing, scripted = script_context(episode, scene)
     outputs = scene.get('planned_outputs', {})
     overrides = {'first': first, 'last': last}
     sources = {key: resolve(episode, overrides[key] or outputs.get(key, f'keyframes/{scene_id}-{key}.png'))
@@ -90,10 +161,16 @@ def context(episode, scene_id, stage, clip=None, first=None, last=None):
                 'scene': {key: scene[key] for key in SCENE_FIELDS if key in scene},
                 'style': {key: value for key, value in reference.items()
                           if key not in ('generation_status',)},
-                'composition_rules': plan.get('composition_rules', {})}
+                'composition_rules': plan.get('composition_rules', {}),
+                'script': scripted}
     binding = {'scene': scene_id, 'stage': stage, 'contract_sha256': digest(contract),
                'frames': {key: entry(path) for key, path in sources.items()},
-               'references': {key: entry(path) for key, path in reference_paths.items()}}
+               'references': {key: entry(path) for key, path in reference_paths.items()},
+               'script': scripted['source']}
+    if timing_path:
+        binding['voice_cues'] = entry(timing_path)
+    if scripted['audio_sources']:
+        binding['audio_sources'] = scripted['audio_sources']
     if stage == 'clip':
         sources['clip'] = resolve(episode, clip or outputs.get('video', f'clips/{scene_id}-scene.mp4'))
         binding['clip'] = entry(sources['clip'])
@@ -101,7 +178,8 @@ def context(episode, scene_id, stage, clip=None, first=None, last=None):
     directory = episode / 'reviews' / scene_id / stage / packet_id[:20]
     return {'episode': episode, 'scene': scene, 'policy': policy, 'contract': contract,
             'binding': binding, 'packet_id': packet_id, 'directory': directory,
-            'sources': sources, 'reference_paths': reference_paths}
+            'sources': sources, 'reference_paths': reference_paths,
+            'script_path': script_path, 'timing_path': timing_path, 'timing': timing}
 
 
 def tool(name):
@@ -151,6 +229,16 @@ def prepare(episode, scene_id, stage, clip=None, first=None, last=None):
     directory.mkdir(parents=True, exist_ok=True)
     evidence = directory / 'evidence'
     evidence.mkdir(exist_ok=True)
+    shutil.copyfile(ctx['script_path'], evidence / 'script-storyboard.txt')
+    write(evidence / 'script-context.json',
+          dict(ctx['contract']['script'],
+               scene_id=scene_id,
+               first_frame=ctx['scene'].get('first_frame'),
+               action=ctx['scene'].get('action'),
+               last_frame=ctx['scene'].get('last_frame'),
+               performance_beats=ctx['scene'].get('performance_beats', [])))
+    if ctx['timing_path']:
+        shutil.copyfile(ctx['timing_path'], evidence / 'voice-cues.json')
     comparisons = {'reference': ctx['reference_paths']['still'],
                    'first': ctx['sources']['first'], 'last': ctx['sources']['last']}
     if 'paint' in ctx['reference_paths']:
@@ -227,6 +315,14 @@ def prepare(episode, scene_id, stage, clip=None, first=None, last=None):
               'state': 'awaiting user approval of both frames' if stage == 'frames' else 'awaiting independent visual review'}
     write(existing, packet)
     request = '''ROLE: Independent clip reviewer. Do not generate media or approve frames for the user.
+Read evidence/script-storyboard.txt and evidence/script-context.json FIRST.
+Compare every spoken turn with the actual scene and chronological footage.
+When the Narrator speaks while Sol is visible, verify an upward glance to the
+fixed above-camera voice BEFORE the first word, maintained through the turn,
+with gentle listening idle. Check transitions, not just the final pose.
+Use bound voice cues/recordings when available; otherwise explicitly separate
+provisional scripted windows from unverified final speech alignment. Do not
+claim exact voice synchronization from a silent clip or a prompt.
 Read packet.json and inspect ACTUAL evidence with image/video tools. Start with
 the identity source, supplied mascot examples, separate paint source and
 frame-comparison.jpg. Mascot examples control geometry; the accepted painted
@@ -322,6 +418,13 @@ def validate_report(ctx, packet, report):
         if not times or any(not isinstance(t, (int, float)) or not math.isfinite(t)
                             or t < 0 or t > packet['technical']['duration_sec'] for t in times):
             raise ValueError('Actual timestamps inside this clip are required: ' + name)
+    script_check = checks.get('script_and_narrator_attention', {})
+    script_evidence = set(script_check.get('evidence', []))
+    if not {'evidence/script-storyboard.txt', 'evidence/script-context.json'}.issubset(script_evidence):
+        raise ValueError('Script-aligned review requires the actual script and speaker/attention context evidence')
+    if not any(value.startswith(('evidence/sequence-', 'evidence/frames/', 'evidence/detail/'))
+               for value in script_evidence):
+        raise ValueError('Script-aligned review requires actual timeline frame evidence')
     pages = set(packet['coverage']['sequence_pages'])
     passed = all(c['verdict'] in ('pass', 'not_applicable') for c in checks.values())
     reviewed = set(report.get('coverage_reviewed', []))

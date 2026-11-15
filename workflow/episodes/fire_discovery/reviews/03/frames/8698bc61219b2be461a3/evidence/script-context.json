@@ -1,0 +1,47 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b"
+  },
+  "scene_script_excerpt": "SCENE 03 — 7 seconds (provisional)\nSetting and framing: Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.\nLighting: At the start use cool diffuse storm daylight only: slate blue-gray clouds, desaturated teal distance and cool brown wood. No fire or warm firelight exists before ignition. After ignition retain the cool ambient light with only a tiny warm reflection at the burning patch.\nCamera in generation: Generation: stable low three-quarter medium-wide camera for the strike and ignition.\nEditing: Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.\nFirst frame: The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.\n\nSol: “Like when lightning hits a tree?”\nNarrator: “Yes. Lightning's heat can set dry wood alight.”\n\nAction: One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.\nNarrator attention: {\"required\": false, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"reason\": \"Sol is off-screen during Narrator speech.\"}\nLast frame: The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.\nNext cut: Cut to a separate time/place for ember tending in Scene 04; do not imply that this particular branch or fire is tracked across the cut.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "Like when lightning hits a tree?"
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Yes. Lightning's heat can set dry wood alight."
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": "Fixed off-screen Narrator point just above camera",
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "reason": "Sol is off-screen during Narrator speech.",
+    "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "03",
+  "first_frame": "The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.",
+  "action": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.",
+  "last_frame": "The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.",
+  "performance_beats": [
+    {
+      "cue": "Both voices stay off-screen. Arthur's explanation of lightning's heat cues the brief fixed-shape bolt, its complete disappearance and localized ignition.",
+      "eye_shape": "No visible character.",
+      "gaze": "No visible character.",
+      "body": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing."
+    }
+  ]
+}

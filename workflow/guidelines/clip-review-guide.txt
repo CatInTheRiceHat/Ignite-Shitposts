@@ -16,9 +16,10 @@ MANDATORY ORDER
    old version is not user approval of a new pair.
 3. Pass the frame gate. Upload the exact approved files. Prepare the video
    payload with video-request; then use the connected Higgsfield tool.
-4. After generation, prepare an actual-footage packet. A dedicated reviewer
-   inspects the references, all chronological sequence pages and full-size
-   samples. It records timestamped observations for every checklist item.
+4. After generation, prepare an actual-footage packet. The dedicated reviewer
+   first reads the actual script/storyboard and speaker/attention context, then
+   inspects references, all chronological pages and full-size samples. It checks
+   Narrator gaze/idle through the scripted turn and records real frame evidence.
 5. Fail, uncertain, missing review or changed inputs blocks production. Keep
    failed takes. Fix prompts/art only within the user's authorized scope.
 
@@ -101,3 +102,20 @@ Do not reject a short close/reopen sequence by applying the superseded always-op
 rule. Keep original navy ovals at rest, normal spacing/placement, attached facial
 markings and no highlights/whites/extra pupils. Retain historical reports under
 their original contracts; record fresh reviews under the updated requirements.
+
+
+SCRIPT-ALIGNED NARRATOR ATTENTION — REQUIRED
+Open evidence/script-storyboard.txt and evidence/script-context.json before
+judging footage. Match each spoken turn with the actual visual beat. When
+Narrator speaks and Sol is visible, verify gaze up to the fixed above-camera
+voice before the first word and throughout the turn, with gentle listening idle.
+Check transitions, not only endpoints. Scripted paired gaze movement is allowed;
+eye redesign, detached facial patches and unmotivated drift remain failures.
+A brief natural blink returns to the listening gaze. Sol-off-screen cutaways
+still need script/mechanism alignment, without an invented invisible gaze.
+
+The mandatory script_and_narrator_attention report check must cite BOTH script
+evidence files and actual chronological/detail frames. Packets bind the actual
+script, available voice cues and referenced local recordings by hash; changes
+invalidate old decisions. With no actual recordings, mark speech timing
+provisional. Preparation/metadata do not prove gaze or exact synchronization.

@@ -7,6 +7,8 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 
 ## Final prompt review
 
+- [ ] Review the actual complete script and speaker turns alongside the footage. Whenever Narrator speaks and Sol is visible, is the upward glance established before the first word and maintained with gentle listening idle throughout? Check transition frames and real voice cues when available; label unrecorded timing provisional.
+
 Run this short review on the complete prompt set before generation. Follow the linked rule owners for details; keep shot-specific fixes scoped to their episode or animation.
 
 - [ ] Does the scene match Ignite's approved [matte painted style](video-style-guide.md#painterly-surface-treatment)?
@@ -163,6 +165,8 @@ additional aesthetic preferences attributed to Elaine.
 
 ## Current visual anchors
 
+- Latest mandatory direction: whenever Narrator is speaking with Sol visible, Sol looks UP toward the fixed voice above camera and keeps gentle listening idle. Review the actual clip WITH the script and speaker cues. This supersedes the earlier optional/no-upward-glance and no-listening-idle defaults. Intentional coherent paired eye-gaze shifts are allowed; normal eye design, brief natural blinks, mouthless face, connected flame layers and stubby limbs remain.
+
 - Latest explicit preference: “i like omni flash” after viewing the Omni Flash 1.2 and Kling 3.0 Pro comparisons. Keep Omni Flash 1.2 for this episode. Elaine also said “Allow a brief natural blink.” Preserve the normal navy oval eye design and face attachment; brief closing/reopening is permitted, while unrelated eye morphs, highlights, added pupils and facial drift remain excluded.
 
 - Latest motion clarification: Elaine likes bouncy animation and wants Sol to wobble when he moves, because he is flame-like. This replaces the earlier rigid-body/no-bounce default. Use a small coordinated body/tip/lobe wobble connected to each intentional action, then settle; preserve original eyes and recognizable compact anatomy. This permission is for Sol’s performance, not bouncing hands, mechanisms or cameras.
@@ -175,8 +179,8 @@ additional aesthetic preferences attributed to Elaine.
 - Painted finish and movement: [lantern artwork](../episodes/sol_kling_test/keyframes/sol-lantern.jpg)
   and the [actual lantern clip](../episodes/sol_kling_test/clips/sol-lantern-kling.mp4).
 - Latest positive direction: Elaine called the Nano Banana Scene 01
-  [first frame](../episodes/escalator/keyframes/01-first-nano-v1.png) and
-  [last frame](../episodes/escalator/keyframes/01-last-nano-v1c.png) “much better.”
+  `01-first-nano-v1.png` first frame and
+  `01-last-nano-v1c.png` last frame “much better.”
   Her next correction is to preserve every mascot feature, explicitly including
   the arms, stubby feet and eyes, across all clips. Prompts are being revised to
   match the asset examples; the existing pair is not recorded as finally approved.

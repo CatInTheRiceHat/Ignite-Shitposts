@@ -39,6 +39,8 @@ Read current model settings from [generation.json](../config/generation.json) an
 
 ## Defaults and episode overrides
 
+[Narrator attention](shot-integration-and-sol.md#narrator-attention-and-listening-idle) is mandatory: visible Sol looks up before each Narrator turn and maintains the gaze with gentle idle while the voice speaks. Every review includes the actual script and speaker cues; final speech alignment uses real normal-rate recordings.
+
 The [motion style owner](video-style-guide.md#motion-style) specifies animation on twos: each source pose/state held for two consecutive frames at final 30 fps, 15 updates per second and normal playback. Elaine’s latest preference adds small bouncy flame-like body/tip follow-through to Sol’s intentional movements, settling at each endpoint; it supersedes the earlier rigid-body/no-bounce defaults. A brief natural blink is now allowed, returning to the original open navy ovals. Exact cadence, normal eye design and the ban on independent face turns remain. Smooth editorial digital pushes may follow stepped source footage, with crop checks throughout. Exact cadence must be enforced and verified on actual footage during editing.
 
 New shorts start with a **30-second target, 9:16, painted 2D**. New skits
