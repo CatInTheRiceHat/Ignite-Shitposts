@@ -14,7 +14,7 @@ Develop the shot plan alongside the skit script. When Sol appears, generate him 
 
 Use the original mascot artwork and relevant examples in [sol-references.json](../config/sol-references.json) for the complete design. Preserve compact height-to-width proportions and reference volume, the asymmetric flame silhouette and side lobes, nested red/orange/cream contours and layer widths, original colors, and tiny rounded arms and stubby feet at their original lengths and attachment points. Preserve the broad cream inner flame and softly tapering wispy tip. Paint the existing form using the [style treatment](video-style-guide.md#painterly-surface-treatment).
 
-Keep the two original solid navy oval eyes open, without eye whites, highlights, squinting, widening, blinking or expressive reshaping. Their design, size, low placement and spacing stay consistent relative to the face; coherent perspective can alter their projection during a turn. Sol is completely mouthless, with the area beneath the eyes blank. Exclude noses, eyebrows, other added facial features, fingers, elongated limbs, ankles, shoes and a separate humanoid torso. The filled flame body remains intact; do not apply realistic fire effects to it.
+Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking, squinting, widening or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Only an explicitly scripted whole-body change may alter the coherent projection of the unchanged design. Sol is completely mouthless, with the area beneath the eyes blank. Exclude noses, eyebrows, other added facial features, fingers, elongated limbs, ankles, shoes and a separate humanoid torso. The filled flame body remains intact; do not apply realistic fire effects to it.
 
 Keep these identity constraints separate from the shot's performance direction.
 
@@ -23,18 +23,18 @@ Check the space between the eyes relative to their width against the original ma
 Include concise identity wording in each independently usable prompt where Sol appears:
 
 ```text
-Match the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep the original solid navy oval eyes open and unchanged in design, size, spacing and low face-relative placement, with coherent perspective during turns. Keep him completely mouthless and blank beneath the eyes. No nose, eyebrows, added facial features, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without inflating or stretching his body.
+Match the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep both original eye ovals uniformly navy #1C2447 and unchanged in shape, size, spacing and low placement. No highlights, whites, extra pupils, blinking or drift. His face is part of his body: do not slide or rotate facial markings independently, add a neck or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes. No nose, eyebrows, added facial features, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without inflating or stretching his body.
 ```
 
 ## Purposeful performance and prop contact
 
 Choose a readable action that explains why Sol is in this shot. Anatomy preservation allows expressive gestures, body orientation, weight shifts, steps and purposeful interactions within his actual limb range. Do not make "feet planted, arms at sides, small lean, look upward, hold" the default for every scene. A quiet listening or payoff pose is useful when it contributes to the explanation; it should be a deliberate choice.
 
-Name the initial pose, gaze target, main action, ending pose and spoken or visual cue. Closely connected stages can form one action. Examples include a curious presenting gesture, gathering a gesture into an attentive turn, or opening the arms in understanding; these are options rather than a required sequence. Keep the original eye design and proportions throughout. Gentle tip follow-through can support a turn without changing the recognizable flame design.
+Name the initial pose, gaze target, main action, ending pose and spoken or visual cue. Closely connected stages can form one action. Examples include a small direct single-arm lift, lowering a presenting arm once to listen, or opening both arms once into a low gesture of understanding; these are options rather than a required sequence. Preserve original arm lengths and attachment points. Move directly between clear positions and stop cleanly. No unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or tip follow-through. Follow the exact [on-twos motion policy](video-style-guide.md#motion-style).
 
-When Arthur addresses visible Sol, cue one acknowledgment toward a fixed point just above the camera. Integrate the whole-face turn into the main gesture or interaction, then let Sol follow a directed object when relevant. Add a new acknowledgment only for a new reply or confirmation; do not repeat the reaction within the same answer. Sol may be absent from a mechanism-focused cutaway, and no invisible pose needs to be specified.
+When Arthur addresses visible Sol, a purposeful gesture change or listening hold can acknowledge the voice. Do not add an automatic upward look, face turn or nod. For an arm-only action, keep body orientation, facial markings, the uninvolved arm and planted feet unchanged. Specify a whole-body turn only when the shot explicitly needs one; the face never moves independently. Sol may be absent from a mechanism-focused cutaway, and no invisible pose needs to be specified.
 
-Describe prop support and contact explicitly: what is held, where contact occurs, what stays rigid, when release happens and what supports the object afterward. A planted foot stays supported until a planned step; a weight shift or step needs coherent ground contact and shadows. A hand gesture must fit Sol's short rounded limbs without fingers or extra reach. Keep props distinct from his anatomy, including any actual fire shown beside the flame-shaped mascot. Example accessories appear only when the shot calls for them.
+Describe prop support and contact explicitly: what is held, where contact occurs, what stays rigid, when release happens and what supports the object afterward. For placement, keep the grip stable during lowering, establish support before release, then keep the released prop stationary as the hand withdraws along one clear path. Placement, release and withdrawal must be sequential. A planted foot stays supported until a planned step; a weight shift or step needs coherent ground contact and shadows. A hand gesture must fit Sol's short rounded limbs without fingers or extra reach. Keep props distinct from his anatomy, including any actual fire shown beside the flame-shaped mascot. Example accessories appear only when the shot calls for them.
 
 ## Plan the edit
 
@@ -42,7 +42,7 @@ For each clip, record its ID, teaching purpose, provisional edit duration, setti
 
 Make framing specific: shot size; camera height relative to Sol or the mechanism; viewing angle and camera side; subject placement; approximate subject size within the vertical frame; foreground, background, and crop boundaries; and the exact starting and ending view for any camera move. Identify the feature that should attract attention first. Keep expression shots large enough for Sol's eye shapes to read, and reserve a stated caption area that does not cover his face or the mechanism.
 
-Choose an intentional camera for each teaching purpose. Vary shot size and composition when it improves clarity; use a close-up or controlled push to reveal a detail, and quieter framing for anticipation, listening or payoff. Record whether each camera move belongs in generation or editing, including its starting and ending crop, so it is not performed twice. Follow the [video prompt camera guidance](video-prompt.md#motion-and-continuity).
+Choose an intentional camera for each teaching purpose. Vary shot size and composition when it improves clarity; use a close-up or controlled push to reveal a detail, and quieter framing for listening or payoff. Record whether each camera move belongs in generation or editing, including its starting and ending crop, so it is not performed twice. Follow the [video prompt camera guidance](video-prompt.md#motion-and-continuity).
 
 For every visible Sol, record the original eye design, gaze target and body states at both endpoints using the identity and performance sections above. Keep the face and relevant contacts readable; do not replace his eyes to create an expression. State explicitly when he is off-screen.
 
@@ -53,6 +53,8 @@ For adjacent clips, note what carries across the cut: Sol's pose and location, t
 Use the existing calculus pilot as the continuity example. Its painted A → B → C → D progression is **crouch beside the board → land on it → lean into the curve as it wobbles → recover balance**. Reuse the end of one beat as the next starting point when the camera and framing carry through. For a cut to a new angle, match the action and position across the two views.
 
 ## Complete generated clips and continuity
+
+Enforce the [two-frame source-pose cadence](video-style-guide.md#motion-style) at 30 fps during editing, preserving normal-speed action. Inspect source pairs before any smooth editorial camera move, then check final playback, crops, facial anchoring and prop contact. This is required editing and review work, not a claim that prompt wording implements it.
 
 Use generated stills and complete Higgsfield clips for the visual production. A cutaway is a painted cartoon scene generated and animated like any other scene. Keep the explanation inside the clip. Do not create SVGs, custom diagrams, geometry tools or separately animated mechanism layers unless the user explicitly asks for them.
 
@@ -78,7 +80,7 @@ For a technical explanation, describe which parts stay rigid and which rotate or
 
 Record the desired **edit duration** before choosing a provider. Check supported generation lengths when generation is requested. A planned 11-second scene may use two continuing generated segments; it does not imply that a provider accepts an 11-second request. Name each segment's first frame, last frame, and continuity requirements before submitting it.
 
-Use the finished speech at 1× playback to set final clip lengths, following the [recorded-dialogue timing rules](video-script-guide.md#dialogue-density-and-timing). Keep estimates provisional until then. Trim unnecessary holds or repeated reactions, or extend a scene with a planned continuation when necessary. Do not stretch footage containing mechanical motion or speed up speech to hide a timing mismatch. Record the requested movement quality separately from the exact cadence established and checked during editing under the [motion style](video-style-guide.md#motion-style).
+Use the finished speech at 1× playback to set final clip lengths, following the [recorded-dialogue timing rules](video-script-guide.md#dialogue-density-and-timing). Keep estimates provisional until then. Trim unnecessary holds or repeated reactions, or extend a scene with a planned continuation when necessary. Do not stretch footage containing mechanical motion or speed up speech to hide a timing mismatch. Request the exact two-frame cadence in generation, then enforce and verify it during editing under the [motion style](video-style-guide.md#motion-style); it remains unconfirmed until actual footage passes.
 
 ## Prompt document standard
 
@@ -95,9 +97,11 @@ For example, a six-scene episode needs **12 image endpoint entries and 6 video p
 1. **Choose references by role.** Supply original Sol artwork for identity and approved Ignite artwork for paint treatment, plus composition or continuity inputs when needed. Apply the identity rules above; prior generated anatomy does not override original assets. Preserve explicitly locked designs in older approved shots unless a revision is requested.
 2. **Prepare the whole keyframe.** Generate or exactly reuse the planned still. Describe the location, camera and Sol's pose relative to the prop, with shared brushwork, perspective, light and contact shadows. Inspect it at phone size and show both endpoints for explicit user approval. A flat Sol PNG over a painted scene is a draft placeholder.
 3. **Generate the motion after approval.** Use both approved endpoint images with the configured Higgsfield paired-frame model and production gate. Follow the [video prompt guide](video-prompt.md), including one main action and intentional camera behavior. For a turn or move, plan compatible endpoint poses; revise only the affected shot if it fails, preserving surrounding approved clips and rejected takes. Do not replace current settings with older Flow/UseAPI examples.
-4. **Assemble in Remotion.** Import the complete generated MP4 as the primary footage; add separate voices, editable captions, sound and basic transitions. Apply any declared editorial crop and establish the editing cadence, then verify playback. Keep existing shot IDs and episode paths so clips can be replaced. Historical episode integrations retain their own settings.
+4. **Assemble in Remotion.** Import the complete generated MP4 as the primary footage; add separate voices, editable captions, sound and basic transitions. Enforce the exact two-frame source cadence first, then apply any declared smooth editorial crop and verify source frames and final playback. Keep existing shot IDs and episode paths so clips can be replaced. Historical episode integrations retain their own settings.
 
 ## Prompt examples for the calculus pilot
+
+The hop and board response below belong to that pilot. They do not authorize unrequested preparation, bounce or extra prop movement in other shots.
 
 **Painted still**
 
@@ -105,7 +109,7 @@ For example, a six-scene episode needs **12 image endpoint entries and 6 video p
 
 **Animate the approved A → B frames**
 
-> Match the approved painted start and landing frames. Sol crouches, makes one short hop onto the board, and lands with a small bend. The board dips slightly under his weight. Hold the camera steady and keep the original painted texture, light, and character design through the whole shot. End on the landing pose so the next shot can continue the motion. Use stepped character motion and let the off-screen narration carry the explanation.
+> Match the approved painted start and landing frames. Sol crouches, makes one short hop onto the board, and lands with a small bend. The board dips slightly under his weight. Hold the camera steady and keep the original painted texture, light, and character design through the whole shot. End on the landing pose so the next shot can continue the motion. Animate on twos: each source pose/state held unchanged for two consecutive frames at final 30 fps, at normal speed; enforce and verify cadence during editing. Let the off-screen narration carry the explanation.
 
 ## Check each shot in the edit
 

@@ -1,0 +1,145 @@
+{
+  "version": 1,
+  "packet_id": "0511b4e420a80d8aff962043ec8e7d936d021da7d3f042ba29025fdc91e50ba8",
+  "binding": {
+    "scene": "03",
+    "stage": "frames",
+    "contract_sha256": "fc3f626090f588de843dfa11737e6a5d7256914f6b187cc84f131c5c2afe3c41",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-first.png",
+        "sha256": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-last.png",
+        "sha256": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    }
+  },
+  "created_at": "2026-11-15T04:25:59.896765+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Where Sol is visible, compare the COMPLETE original mascot at a similar size: silhouette, tip/lobes, red/orange/cream contour paths and widths, face/eye proportions and limbs. Do not pass a generic flame character. Where Sol is off-screen, compare the planned setting/props and approved frame pair without requiring him. Keep user design approval separate.",
+        "eyes": "Both original oval eyes stay identical and open throughout: same dark navy, shape, size, spacing and placement. No expressive morphs, squinting, widening, closing, eye whites, highlights or added eyebrows. Judge performance through body pose and gestures.",
+        "flame_and_limbs": "Match the original flat whole silhouette and all nested contour paths, layer widths and proportions. Retain source red foot nubs and short arm shapes. Reject sculpted/inflated volume, a widened or raised cream mask, a new shaded lower rim, or remodeled hand/foot shapes. Painted texture cannot redesign the source geometry.",
+        "framing_and_props": "Match the active scene first/last crops, camera, required character/prop counts and physical attachments. Apply only episode-specific requirements; an earlier episode does not supply mandatory props for a new story.",
+        "contacts_and_action": "Supported feet and hands, correct weight transfer, one planned action per beat, no skating, floating, extra steps, bobbing or repeated gestures.",
+        "mechanical_direction": "Inspect consecutive real frames for the planned direction, rigid connections when present, and causal order of physical events. Do not infer correct movement or causality from a prompt, label, endpoint or successful decode.",
+        "object_continuity": "Maintain the identity and count of planned objects. A tracking mark, when present, stays attached to the same object and cannot jump, multiply or fade to fake movement. Fire may flicker or fuel may glow only as the approved action requires.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Source-faithful pose/gesture performance, unchanged eyes and proportions, Narrator eyeline when Sol is visible, and planned physical action/ending holds at actual timestamps. Sol can be off-screen where planned.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints.",
+        "painted_art_style": "Visible soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes cover Sol, props and environment consistently. Forms use light/color without inked outlines. Compare the selected graphic references. A smooth logo-like mascot with only a grain overlay fails even if its geometry is correct. Preserve the source character and clear mechanical contacts through the paint."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes.",
+        "Character geometry and painted art style must each pass. Approval of one does not establish the other or approve the complete frame pair."
+      ]
+    },
+    "scene": {
+      "id": "03",
+      "first_frame": "The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.",
+      "last_frame": "The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame.",
+      "action": "With a stable generated camera, show one brief painted lightning strike reaching the dry lower branch, followed by localized ignition. Let the bolt disappear before the final hold. Apply the declared small push only during editing.",
+      "framing_prompt": "Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.",
+      "camera": {
+        "shot_size": "Stable medium-wide source; closer presentation through editorial push.",
+        "height_and_angle": "Low three-quarter side view, unchanged axis.",
+        "movement": "Generation: stable low three-quarter medium-wide camera for the strike and ignition.",
+        "editing": "Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped.",
+        "start_view": "Trunk x=52%; dry branch/strike point near x=65%, y=62%; sky visible.",
+        "end_view": "Same generated source crop; edited presentation ends at 110%."
+      },
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Like when lightning hits a tree?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Yes. Lightning's heat can set dry wood alight."
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "Sol's question is off-screen. Arthur's explanation of lightning's heat cues the strike and localized ignition; both speakers remain off-screen.",
+          "eye_shape": "Sol is off-screen.",
+          "gaze": "No visible Sol.",
+          "body": "A small controlled push establishes the dry branch, then settles before one brief painted lightning strike reaches it. A localized flame catches at the contact point; the bolt disappears before the final hold."
+        }
+      ],
+      "sol_visible": false,
+      "image_prompts": {
+        "first": "Create a low three-quarter medium-wide view of one dry dead tree under broad blue-gray storm clouds. Place the trunk near x=52% and its unlit dry lower branch near x=65%, y=62%; leave sky above for a later strike. Separate the tree, ground and distant muted teal woodland with painted overlap and perspective. Use cool diffuse storm daylight only. Show no lightning, flame, embers or warm firelight. The woodland is empty of characters; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
+        "last": "Use the attached starting still for tree structure, composition and style. Keep the same source camera view and branch geometry. A small faceless painted flame now burns at a darkened patch on the dry lower branch at right; the lightning is gone. Preserve the rigid trunk, branch attachments, woodland layout and cool storm light. Add only a faint local warm reflection beside the burning patch; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
+      },
+      "video_prompt": "Show one lightning-caused ignition with a stable low three-quarter medium-wide camera. Begin with the completely unlit dry tree under cool storm daylight. One brief painted lightning strike meets the dry lower branch; a small localized flame catches there. The bolt disappears completely. End in the same source framing with the flame rooted on the same branch. Keep the trunk and branch attachments rigid and the woodland empty. Warm reflected light appears only locally after ignition. Use simple stepped painted flame shapes and a brief readable ending hold, without a particle spectacle.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo added text or generated dialogue.",
+      "start_sec": 7,
+      "end_sec": 14
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "paint": "workflow/assets/reference-art/Spring.jpg",
+      "paint_examples": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "captions": "Important action stays above y=76%; lower foreground near y=80–90% stays quiet for editable captions.",
+      "character_count": "One Sol where specified; no Sol in Scenes 03/04.",
+      "eyes": "Original open solid navy oval design, low face-relative placement and spacing; allow coherent perspective in shallow whole-face turns.",
+      "narrator_eyeline": "When Arthur addresses visible Sol, cue one acknowledgment to a fixed point just above camera.",
+      "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+    }
+  },
+  "technical": {},
+  "coverage": {},
+  "evidence": [
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg"
+  ],
+  "evidence_sha256": {
+    "evidence/first.jpg": "7eee88bed12fc217348cae80a2a8c52558eef690a51d4471a17acb3369689a78",
+    "evidence/frame-comparison.jpg": "3f85cf241d0f09f19cd353b04e69705a309afb53582133ceeff97f23a4fa8375",
+    "evidence/last.jpg": "6ed51ef03bb2947b69be50fff8e193356e5f018dd7904b4b0ea1680d539b933a",
+    "evidence/paint.jpg": "7df5af3ac758a9a2a751be5efe5bb3c3d419cba2170c6b19bd375b2d9916e187",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432"
+  },
+  "state": "awaiting user approval of both frames"
+}

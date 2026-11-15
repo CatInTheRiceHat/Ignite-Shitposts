@@ -87,9 +87,11 @@ New two-voice skits use **Arthur** as the off-screen Narrator and the user's
 **Higgsfield custom voice Sol** for Sol. The [shared voice cast](config/voices.json)
 stores the exact custom voice ID and `voice_type: element`. Use that saved
 pair for Sol's dialogue. Keep speech at the provider's normal rate and 1x
-playback. When the Narrator addresses Sol on screen, cue Sol looking upward
-toward the voice just above the camera, breaking the fourth wall; he can
-look back at the mechanism when the explanation directs him there.
+playback. A scripted direct gesture or listening hold can acknowledge the
+Narrator; do not automatically add a face turn or upward look. Follow the
+[exact on-twos motion policy](guidelines/video-style-guide.md#motion-style):
+two-frame source poses at 30 fps, 15 updates per second and normal-speed action,
+enforced and verified during editing.
 
 Reusable Remotion code and dependencies live in `remotion/`. Episodes own
 their edit JSON, public assets and renders; a custom composition can live in

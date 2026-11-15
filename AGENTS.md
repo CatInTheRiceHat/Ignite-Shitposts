@@ -58,9 +58,9 @@
 - Preserve every original mascot feature across clips, explicitly including
   Sol's short rounded arms, stubby feet, small navy oval eyes, flame layers,
   colors and proportions. Keep him mouthless. The painted aesthetic changes
-  surface treatment while preserving the asset design. Use gaze, restrained
-  body poses and gentle flame-tip follow-through for acting; do not redesign
-  the eyes or lengthen limbs. Read the latest critique checklist and guides.
+  surface treatment while preserving the asset design. Use purposeful direct gestures and scripted
+  body poses for acting; keep facial markings anchored, with no independent
+  face turn, default preparation or tip sway. Do not redesign eyes or lengthen limbs. Read the latest critique checklist and guides.
 - Use soft gouache brushwork, layered color and subtle paper texture on Sol,
   props and surroundings alike. Define forms through light and color without
   inked outlines. Keep the original eyes unchanged and open; body poses carry
@@ -69,11 +69,15 @@
   placement and scale, crop, camera movement, and exact visible first/last
   states. Keep mechanical motion accurate while exaggerating performance
   and cartoon attention effects.
-- When the Narrator addresses Sol while he is visible, Sol acknowledges the
-  voice with an upward glance toward a fixed point just above the camera,
-  breaking the fourth wall. Specify that eye/body turn and its spoken cue.
-  He can follow a directed look at the mechanism, then return his attention
-  to the Narrator as the exchange continues.
+- Follow the exact motion policy in workflow/guidelines/video-style-guide.md:
+  animate on twos at final 30 fps, each source pose/state unchanged for two
+  consecutive frames (15 updates per second), with normal-speed action and
+  complete-pair longer holds. Apply to every animated subject, prop, flame and
+  local light; keep background/texture stable and avoid interpolation, blending,
+  optical flow or concealing blur. Enforce and verify during editing.
+- A scripted gesture change or listening hold can acknowledge Arthur. Do not
+  automatically add a face turn, upward look, nod, preparation, recoil or bounce.
+  Smooth editorial pushes may follow stepped source footage; check crops throughout.
 - Shared artwork and music live in `workflow/assets/`; additional reference
   artwork is in `workflow/assets/reference-art/`. Reusable Remotion components,
   tools and the single npm install live in `workflow/remotion/`. Keep each

@@ -13,7 +13,7 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Are shapes simple and readable, with believable [painted depth](image-prompt.md#painted-depth-and-form)?
 - [ ] Is Sol's [identity preserved](shot-integration-and-sol.md#sol-identity) while his [action remains expressive](shot-integration-and-sol.md#purposeful-performance-and-prop-contact), where he is visible?
 - [ ] Does each shot contribute a [distinct teaching beat](video-script-guide.md#distinct-visual-beats)?
-- [ ] Are camera behavior, generation/editing responsibility and [motion quality](video-prompt.md#motion-and-continuity) intentional, with exact cadence to be checked in playback?
+- [ ] Are camera behavior, generation/editing responsibility and [motion quality](video-prompt.md#motion-and-continuity) intentional, with exact two-frame source holds at 30 fps and normal-speed action to be verified during editing?
 - [ ] Are there contradictory lighting instructions or [leftover objects and boilerplate](video-prompt.md#remove-boilerplate-and-contradictions)?
 - [ ] Can matching frames connect naturally, and can an approved [endpoint be reused](shot-integration-and-sol.md#specify-the-first-and-last-frames) unchanged?
 - [ ] Are durations explicitly provisional or grounded in [actual normal-rate voice tracks](video-script-guide.md#dialogue-density-and-timing)?
@@ -54,12 +54,13 @@ Run this short review on the complete prompt set before generation. Follow the l
   lower-leg shaft, ankle or long boot-like toe.
 - [ ] His two small navy oval eyes retain the mascot's size, spacing and low
   placement. Avoid exaggerated or mismatched eyes. Convey attention through
-  gaze, a small whole-face turn and body pose. Keep their original flat navy
+  purposeful direct gestures and body poses, with facial markings fixed to his body. Keep their original flat navy
   appearance. Elaine's “dark pupils” mean these existing whole dark ovals: fill
   them completely with asset navy #1C2447, without eye whites, shine or gray gradients.
   Keep the eyes unchanged and open: no squinting, widening, reshaping, closed-eye
-  curves or added eyebrows. Preserve their face-relative placement with coherent
-  perspective during turns. Express action through posture and gestures.
+  curves or added eyebrows. Never slide or rotate facial markings independently,
+  add a neck or reshape the body to simulate a head turn. Express action through
+  posture and gestures; arm-only actions keep body orientation and face unchanged.
 - [ ] Keep the paired eyes close enough together to match the original mascot.
   Elaine accepted the fire Scene 01 direction but said its eyes were too far
   apart. Compare the gap relative to eye width, rather than spreading the eyes
@@ -68,7 +69,7 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
-  Keep the top softly tapering and wispy, with gentle follow-through in motion.
+  Keep the top softly tapering and wispy as a shape; add no automatic tip sway or follow-through.
 - [ ] Check identity and paint separately. Elaine clarified that the paint
   treatment was right while Sol's design was wrong; do not remove the painted
   finish when the requested correction is to his identity.
@@ -91,12 +92,16 @@ Run this short review on the complete prompt set before generation. Follow the l
   painted layers, gentle shading, coherent perspective and contact shadows.
   Do not flatten the scene or invent inflated/sculpted mascot anatomy.
 - [ ] Give each Sol scene a distinct readable action. Use one primary gesture
-  with connected preparation, movement and hold; expressive acting preserves
-  the reference anatomy. Original eye design and face-relative placement remain
-  consistent while shallow turns use coherent perspective.
-- [ ] Request stepped, hand-animated character movement with deliberate poses
-  and brief holds. Establish and check exact exposure/frame cadence during
-  editing; delivery frame rate alone does not establish the motion style.
+  with a short direct path, clean stop and purposeful hold; expressive acting
+  preserves reference anatomy and facial anchoring. Add no unrequested windup,
+  recoil, overshoot, bounce, repeated nodding, idle swaying or camera movement.
+- [ ] Request animation on twos: every animated source pose or painted state stays
+  unchanged for two consecutive frames at final 30 fps (15 updates per second),
+  with normal-speed action and complete-pair longer holds. Apply it to Sol,
+  visible hands, moving props, flames and animated local lighting. Keep the
+  background and painted texture stable; no interpolation, frame blending,
+  optical-flow smoothing or concealing motion blur. Enforce and inspect source
+  pairs during editing, then check final playback and smooth editorial crops.
 - [ ] Choose the camera per shot and state whether a move belongs in generation
   or editing. Continuing clips reuse the approved preceding ending asset as
   the next starting asset unchanged; label the reuse instead of regenerating.
@@ -117,6 +122,8 @@ Run this short review on the complete prompt set before generation. Follow the l
   room around Sol and the mechanism, with clear space for editable captions.
 - [ ] Review at phone size and full resolution. Sol, the important contact
   points and the action should be legible in both.
+
+- [ ] For prop placement, stable grip and lowering precede support, support precedes release, and the released prop stays stationary during one clear hand-withdrawal path. Inspect contact in actual consecutive frames.
 
 ## Frames and clips
 

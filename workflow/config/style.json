@@ -4,8 +4,30 @@
   "ink": "#1A1A2E",
   "orange": "#F07B2A",
   "teal": "#4F9298",
-  "direction": "Visible painted texture, strong perspective, deliberate stepped poses and reaction holds.",
-  "sol": "Original asymmetrical flame silhouette, layered orange and cream, two dark oval eyes, tiny rounded limbs, no mouth.",
+  "direction": "Soft matte gouache, broad simplified shapes, painted depth and stable texture. Animate on twos at final 30 fps: unchanged two-frame poses, 15 updates per second, normal-speed action; enforce and verify during editing.",
+  "sol": "Original compact asymmetric flame silhouette and red/orange/cream layers, uniformly navy #1C2447 oval eyes fixed to the body, tiny rounded limbs, no mouth. No independent facial movement or anatomy changes.",
   "reference": "assets/sol-full-body.png",
-  "painted_scene": "assets/calculus-painted-scene.jpg"
+  "painted_scene": "assets/calculus-painted-scene.jpg",
+  "animation": {
+    "delivery_fps": 30,
+    "pose_hold_frames": 2,
+    "pose_updates_per_second": 15,
+    "playback_rate": 1,
+    "longer_holds": "Complete two-frame pairs",
+    "interpolation": false,
+    "frame_blending": false,
+    "optical_flow": false,
+    "concealing_motion_blur": false,
+    "applies_to": [
+      "Sol",
+      "human hand",
+      "moving props",
+      "flames",
+      "animated local lighting"
+    ],
+    "background_and_paint_texture": "Stable",
+    "editorial_camera": "Smooth transforms may follow stepped source; check crops throughout.",
+    "implementation_status": "Required generation target and editing/verification policy; not evidence of implemented or verified footage.",
+    "owner": "workflow/guidelines/video-style-guide.md#motion-style"
+  }
 }

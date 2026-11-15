@@ -40,7 +40,7 @@ Verify that every reference path exists and maps to a file or media input actual
 
 ## Sol identity and continuity
 
-The [shot guide](shot-integration-and-sol.md#sol-identity) owns Sol's identity constraints and reusable identity wording. Include the essential constraints when he is visible, then write the shot's pose separately using its [performance guidance](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Original assets define anatomy; pose and coherent perspective can change. Omit character instructions when the shot has no Sol.
+The [shot guide](shot-integration-and-sol.md#sol-identity) owns Sol's identity constraints and reusable identity wording. Include the essential constraints when he is visible, then write the shot's pose separately using its [performance guidance](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Original assets define anatomy. For an arm-only gesture, hold body orientation, facial markings, feet, silhouette and colored layers fixed; change only the specified arm positions with their original lengths and attachment points. A whole-body orientation change belongs only in an explicitly scripted action, never in an independent face turn. Both eye ovals remain uniformly navy #1C2447 with their reference shape, size and spacing; no highlights, whites or extra pupils. Omit character instructions when the shot has no Sol.
 
 ## How to fill it in
 
@@ -64,7 +64,7 @@ Make [one focal point] immediately readable, with simple secondary shapes and br
 
 ## End-frame template
 
-Attach the approved starting image as the composition reference. Describe the intended change first, then state what stays consistent: composition, geometry, identity and lighting. Name any planned camera or lighting change explicitly, including the ending crop or new light source. Choose a final state reachable through the planned action without a hidden cut.
+Attach the approved starting image as the composition reference. Describe the intended change first, then state what stays consistent: composition, geometry, identity and lighting. Name any planned camera or lighting change explicitly, including the ending crop or new light source. Choose a final state reachable through the planned action without a hidden cut. If an old endpoint includes an unrequested face turn or body change, replace it or reuse a matching existing asset before animation; do not ask the video prompt to ignore a conflicting supplied image.
 
 ```text
 Use the attached starting image as the composition and style reference. Create the final moment after [action].
@@ -76,7 +76,7 @@ Preserve [composition and crop], [character identity], [scene geometry and conta
 
 ## Continuity across images
 
-Track the subject's size, facing direction, limb placement, prop positions, camera height, and light source. For a new camera angle, keep the scene's spatial relationships coherent. For a continuous shot, make the start and end frames visually compatible with the intended movement.
+Track the subject's size, facing direction, facial markings, limb placement, prop positions, camera height, and light source. For a new camera angle, keep the scene's spatial relationships coherent. For a continuous shot, make the start and end frames visually compatible with the intended movement.
 
 When continuity is exact, reuse the approved last image as the next starting asset unchanged; do not regenerate a lookalike. Keep both endpoint entries, label the reuse, and record the source and destination paths as described in the [shot guide](shot-integration-and-sol.md#specify-the-first-and-last-frames). A new angle uses the earlier endpoint as a continuity reference rather than claiming an exact asset reuse.
 

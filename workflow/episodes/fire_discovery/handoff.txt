@@ -1,5 +1,12 @@
 Active topic: How Fire Was Discovered.
 
-Scene 01's replacement endpoint pair has closer eye spacing. Canonical files: keyframes/01-first.png and keyframes/01-last.png. Versioned candidates: keyframes/01-first-nano-v2b.png and keyframes/01-last-nano-v2b.png. The previous pair and intermediate eye edit are preserved. User likes the v1 direction except the eye gap; neither that feedback nor this correction approves the replacement pair.
+All ten endpoint slots are still candidates; exact current pairs await user approval. Scene 02 first is Scene 01 last byte-for-byte; Scene 02 last is Scene 01 first byte-for-byte. Eight unique active still assets serve ten endpoint entries. Scene 05 last now uses the arms-only nano-v3 candidate. Prior versions and receipts are preserved; see jobs/higgsfield/twos-endpoints-v1.json. No video or audio generated.
 
-Show BOTH replacements and wait for explicit approval of that exact pair before any video. No video or audio has been generated. Nano Banana 2.1, model settings and voice cast are preserved. Actual requests, job IDs, file hashes and the connector mask limitation are recorded in jobs/higgsfield/scene-01-images-nano-v2.json. Other scenes remain planned only.
+All five video prompts specify animation on twos: unchanged source poses/painted states for two final 30 fps frames (15 updates per second), normal-speed action and complete-pair longer holds. Every animated subject, hand, prop, flame and local light follows this policy; background/paint texture stays stable. Generation targets this quality. Exact cadence must be enforced and verified during editing; it has not been implemented or verified.
+
+Scenes 01/02/05 use short arm-only gestures with fixed body orientation/facial markings/feet. Scene 03 uses a briefly appearing fixed painted bolt that disappears completely, a rigid branch and anchored flame. Scene 04 sequences stable grip/lowering, support, release and one-path withdrawal, leaving the released twig stationary. Inspect actual footage for drift and contact.
+
+Scenes 02/03 retain editing-only smooth pushes over stepped source footage, with crop checks throughout. Current models, voice IDs, 1x playback, caption treatment, original dialogue, paths and provisional durations are preserved. Final timing depends on actual voice tracks. Show BOTH current endpoints and obtain explicit approval before any clip.
+
+SCENE 05 ENDPOINT REVIEW NOTE
+The selected arms-only nano-v3 ending candidate retains a slight eye shape/angle mismatch from its starting frame. It is not approved or ready for animation. Nano-v4 also failed that check; a masked repair was rejected by the Higgsfield connector before submission. Prior versions are preserved. The corrected prompt requires fixed original eyes; resolve the asset mismatch before video.

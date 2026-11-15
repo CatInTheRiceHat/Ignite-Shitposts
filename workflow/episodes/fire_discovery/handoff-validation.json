@@ -1,6 +1,6 @@
 {
   "episode": "fire_discovery",
-  "status": "Scene 01 eye-spacing replacement pair ready for user review.",
+  "status": "Guidelines and prompts revised; Scene 02 reuse corrected, Scene 05 eye drift unresolved. Exact pairs unapproved; no video/audio.",
   "scenes": 5,
   "image_prompts": 10,
   "video_prompts": 5,
@@ -8,7 +8,7 @@
   "target_duration_sec": 30,
   "estimated_duration_sec": 29,
   "timing_confirmed": false,
-  "images_generated": 5,
+  "images_generated": 17,
   "videos_generated": 0,
   "audio_generated": 0,
   "frame_approval": false,
@@ -20,15 +20,15 @@
     "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
   "pending": [
-    "User review of both closer-eye-spacing replacement frames.",
-    "Explicit approval of that exact pair before any video.",
-    "Other scenes only when requested.",
-    "Normal-rate voices and final timing.",
-    "Independent actual-clip review after generation."
+    "User review of each exact endpoint pair.",
+    "Explicit pair approval before any video.",
+    "Actual normal-rate voice tracks and final timing.",
+    "Independent review of actual clips after generation.",
+    "Enforce and inspect exact two-frame source cadence during editing, plus facial anchoring and hand\u2013twig contact in actual clips.",
+    "Resolve slight eye shape/angle drift in the Scene 05 ending candidate before video."
   ],
   "checks": {
     "ten_endpoints_and_five_video_prompts": true,
-    "one_reused_endpoint_nine_planned_still_generations": true,
     "prompt_blocks_match_plan": true,
     "complete_spoken_script_unchanged": true,
     "model_voice_ids_paths_preserved": true,
@@ -38,13 +38,37 @@
     "cadence_and_voice_timing_unconfirmed": true,
     "gouache_depth_and_identity_rules": true,
     "previous_episode_preserved": true,
-    "only_requested_scene_01_stills_generated": true
+    "only_requested_still_images_generated": true,
+    "all_ten_endpoint_files_present": true,
+    "scene_02_first_exactly_reuses_scene_01_last": true,
+    "previous_endpoint_versions_preserved": true,
+    "two_reused_endpoints_eight_unique_active_stills": true,
+    "scene_02_last_exactly_reuses_scene_01_first": true,
+    "all_five_video_prompts_target_exact_twos": true,
+    "face_turn_endpoints_replaced": true,
+    "cadence_not_yet_implemented_or_verified": true,
+    "scene05_fixed_identity_endpoint_passed": false,
+    "scene_05_ready_for_animation": false
   },
   "endpoint_entries": 10,
-  "unique_image_generations": 9,
-  "reused_endpoint_entries": 1,
+  "unique_image_generations": 8,
+  "reused_endpoint_entries": 2,
   "exact_frame_cadence_confirmed": false,
-  "revision_protected_sha256": {
+  "scene_01_candidate_sha256": {
+    "first": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+    "last": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+  },
+  "active_endpoint_entries": 10,
+  "unique_active_image_jobs": 8,
+  "motion_policy": {
+    "delivery_fps": 30,
+    "pose_hold_frames": 2,
+    "pose_updates_per_second": 15,
+    "playback_rate": 1,
+    "confirmed": false
+  },
+  "twos_endpoint_receipt": "jobs/higgsfield/twos-endpoints-v1.json",
+  "prior_revision_baseline_sha256": {
     "workflow/config/generation.json": "2d8aab66e0045ca491e271ad14a82c6f854886b72328e3153574f0efb3233f16",
     "workflow/config/voices.json": "e887ef98ec089d9c3856ff98084ee0f44006d53cc29d5db66a36d252d75daf4d",
     "workflow/config/sol-references.json": "14e0f6a6be72b249b434960a2c6a641bfc1273a8e51bf333ce911f162901900e",
@@ -53,8 +77,5 @@
     "workflow/episodes/escalator/shot-plan.json": "b4f336e299c9ed098c232b491c4fc23be1543f12be596f63303eb1cbaa7514ef",
     "workflow/episodes/escalator/higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
-  "scene_01_candidate_sha256": {
-    "first": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
-    "last": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
-  }
+  "scene05_endpoint_issue": "Both arms-only correction attempts retained eye drift; native mask editing rejected by connector role enum without generating a job."
 }
