@@ -1,0 +1,219 @@
+{
+  "packet_id": "a4b8f3f089405c9a97e539a938e1870dc75aa71709e0358059425745b9a55635",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_only",
+  "method": "Independent frame-based bounded review, not playback. Read packet/action and supplied cadence proof; opened approved pair/reference comparison, chronological pages01-04 covering frames0-79, and native character/arm/eye/feet samples at1,1.5,2 and2.5 s. Applied latest coherent-bounce/brief-blink rules and chosen-Omni paint calibration. Stopped after confirmed red silhouette fragmentation; remaining pages/end were not inspected. No generation, media edit, prompt change or still approval.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "The source compact red/orange/cream Sol is recognizable, but the outer tip/side lobes split into separate red pieces during the action. The original asset and approved endpoints have an intact filled silhouette. This is a whole-design continuity issue rather than merely altered color or the allowed coordinated wobble.",
+      "timestamps_sec": [
+        1.5,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "uncertain",
+      "observed": "The inspected opening through2.633333 s shows the normal low navy ovals attached to the face, without visible blinking, added pupil/white/shine patches or an independent face turn. The tail was not inspected; a full-clip eye pass is therefore unresolved. Brief natural blinks are permitted and are not the rejection reason.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "Full-resolution2.0 s sample shows both red side-lobe/tip pieces detached above the remaining flame, with interrupted outer contour; the2.5 s sample retains floating red droplets. Small coherent flex is allowed, but the filled mascot separating into pieces is not coherent layer follow-through. Short red nubs/arms otherwise remain recognizable; no separate boots or long leg shafts were observed in this interval.",
+      "timestamps_sec": [
+        1.733333,
+        2,
+        2.5,
+        2.633333
+      ],
+      "evidence": [
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "uncertain",
+      "observed": "Bounded rejection stopped after a confirmed blocker in frames0-79 (through2.633333 s); remaining pages/final state were not inspected, so no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "Instead of both short arms simply opening low from the outer flanks, the viewer-left arm first sweeps inward across the lower cream face/body around1.0-1.5 s, then opens out by2.0 s. This is an extra inward preparation path relative to the specified one direct low opening. The motion also sheds detached red lobe pieces. Feet appear supported in the inspected interval and no hop is claimed; full ending settle was not reviewed after the blocker.",
+      "timestamps_sec": [
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "uncertain",
+      "observed": "Bounded rejection stopped after a confirmed blocker in frames0-79 (through2.633333 s); remaining pages/final state were not inspected, so no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "Unplanned red pieces separate from the mascot lobes, clearly visible at2.0 and2.5 s and through the end of the inspected page2.633333 s. They are not the separate wood-fire flicker and are absent in the approved pair. Wood/fire placement remains plausible in the inspected interval; no full-tail continuity pass is claimed.",
+      "timestamps_sec": [
+        2,
+        2.5,
+        2.633333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "uncertain",
+      "observed": "Bounded rejection stopped after a confirmed blocker in frames0-79 (through2.633333 s); remaining pages/final state were not inspected, so no full-duration pass is inferred.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "The supplied proof verifies90 exact decoded pairs at normal6 s duration and30 fps, but source states contain an extra inward arm preparation and mascot fragmentation rather than only the planned direct low opening with coherent wobble. The allowed bounce itself is not rejected. Full final settle, real-time playback, voice/caption timing and editorial assembly remain unreviewed/provisional.",
+      "timestamps_sec": [
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "Detached red mascot fragments are visible unintended generation effects at2.0-2.633333 s. No text, watermark, human hand, on-screen Narrator or mouth is visible in the inspected interval; the cross-face red shape is a connected arm, not asserted to be a mouth. Tail cleanliness is unreviewed.",
+      "timestamps_sec": [
+        1,
+        2,
+        2.5,
+        2.633333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "uncertain",
+      "observed": "The inspected native samples retain the chosen Omni matte layered paint/paper treatment, with some etched edge enhancement compared with the approved PNGs. The clear failure is separated mascot geometry, not a rejection of the user-preferred paint/bouncy direction. Tail style was not inspected after the blocker, so no whole-clip style pass is claimed.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT Scene05. Actual red side lobes/tip detach into floating fragments around2.0-2.633333 s instead of coherent filled flame flex; native2.0/2.5 s samples confirm. An additional staging difference is the viewer-left arm sweeping inward across the lower face/body at1.0-1.5 s before opening, rather than one direct low opening from the flank. The face remains mouthless; the cross-face red part is an arm, not a claimed mouth. No simple temporal-only fix is established because these defects overlap the main action. Other uninspected full-tail checks remain uncertain. No paid regeneration is requested; final playback, voices, captions and assembly remain provisional."
+}

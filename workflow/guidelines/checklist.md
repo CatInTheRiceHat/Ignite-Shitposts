@@ -141,10 +141,12 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Keep failed takes and current episode edits. Use versioned replacements
   and the selected models in [generation.json](../config/generation.json).
 
-## Technical checks learned during escalator review
+## Technical checks learned during clip review
 
 These are production checks from inspecting the failed takes, rather than
 additional aesthetic preferences attributed to Elaine.
+
+- [ ] Bouncy Sol remains one continuous filled painted shape. Check for detached red droplets, torn lobes, holes or separating color layers; wobble does not authorize fragmentation.
 
 - [ ] When a generated mascot is wrong, remove it from scene/layout inputs
   before rebuilding. Use the original mascot as the primary identity image
