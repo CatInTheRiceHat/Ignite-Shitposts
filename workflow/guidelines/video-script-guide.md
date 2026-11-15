@@ -37,7 +37,8 @@ Choose shot size, composition and camera behavior to reveal the explanation. A c
 - Arthur is the built-in Higgsfield preset, delivered warmly like a nature documentary, with space for the visual reveal. Use his saved verified ID from the shared cast; keep Sol on a separate dialogue track. The custom Sol voice is an explicit project decision saved in the shared cast; Cub references belong to preserved legacy episodes. Record any intentional episode override, its exact provider/voice identity, and the supporting decision in that episode's shot plan. If evidence conflicts and no explicit decision resolves it, flag the mismatch and retain the documented shared default.
 - The review script must include the setting, characters' positions, visible action and dialogue for every clip. Describe the mechanism during explanation scenes, camera height and angle, shot size, subject placement and scale, and the intended camera behavior. For Sol, record the original eye design, gaze target, body poses and cue for each performance change using the [identity and acting rules](shot-integration-and-sol.md#sol-identity). Use the [style guide](video-style-guide.md#motion-style) for painted movement; preserve the normal original oval eye design. A brief natural blink may support a beat and return promptly to those ovals; it is optional, not a repeated default gesture.
 - Keep dialogue, scene direction, and captions in separate fields. Do not send speaker labels or production directions to text-to-speech as spoken words. Export separate clean text for each voice when audio is requested.
-- When Arthur addresses visible Sol, specify the gesture change or listening hold that acknowledges him. Add no automatic face turn, upward glance, nod or preparatory movement. Keep the facing direction and eye design stable through an arm-led action’s small connected body/flame wobble.
+- Whenever the Narrator speaks with Sol visible, cue Sol's upward glance to the fixed above-camera voice BEFORE the first word, maintained through the whole turn with gentle body/flame listening idle. Record the gaze-ready cue, Narrator window and next speaker change. Sol's own lines can use a different gaze; transition up before Arthur's reply. A short silent lead-in can preserve an exact reused starting image. Follow the [Narrator attention owner](shot-integration-and-sol.md#narrator-attention-and-listening-idle).
+- Review the actual generated footage side by side with this complete script and the per-scene speaker cues, not the visual prompt alone. Use recorded normal-rate voices for final alignment; planned timings remain explicitly provisional until then.
 
 Use this review format for each clip:
 
@@ -47,7 +48,8 @@ Teaching purpose: what this beat contributes to the explanation.
 Setting and framing: location, shot size, camera height/angle, subject placement/scale, crop, and camera move.
 Camera responsibility: generated movement or editing-only crop, with starting and ending views.
 First frame: original eye design, gaze target, body pose, object positions, and mechanism state; name an exact reused asset when applicable.
-Action: one main visible action, its connected stages in physical order and dialogue or visual cue; specify a short direct gesture path, connected small bouncy follow-through and a settled ending pose.
+Action: one main visible action, its connected stages in physical order and dialogue/visual cue; specify the gesture, bouncy follow-through and ending pose.
+Speaker attention: Narrator turn, gaze-ready cue before the first word, above-camera gaze and gentle idle through the turn; label timing planned or grounded in actual recordings.
 Motion: on twos at final 30 fps, each source pose/state held unchanged for two consecutive frames, normal-speed action; exact cadence enforced and verified during editing.
 Sol: "Spoken line, when Sol speaks."
 Narrator: "Spoken line, when the narrator speaks."

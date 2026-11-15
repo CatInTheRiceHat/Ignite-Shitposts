@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "packet_id": "8698bc61219b2be461a3027db121b319d45256860f094d8809f3408e11702b55",
+  "binding": {
+    "scene": "03",
+    "stage": "frames",
+    "contract_sha256": "88a4aa9634217c4421ee3726f244aa05e1e72a2209e53f8790a78a1965ba36a4",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-first.png",
+        "sha256": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-last.png",
+        "sha256": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    }
+  },
+  "created_at": "2026-11-15T07:54:41.640046+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Where Sol is visible, compare the COMPLETE original mascot at a similar size: silhouette, tip/lobes, red/orange/cream contour paths and widths, face/eye proportions and limbs. Do not pass a generic flame character. Where Sol is off-screen, compare the planned setting/props and approved frame pair without requiring him. Keep user design approval separate. Allow the latest requested small action-driven body/flame wobble; judge identity by recognizable compact design, coherent colored layers and settled endpoints, rather than requiring a rigid silhouette at every intermediate pose.",
+        "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. Intentional scripted gaze shifts may move the original ovals coherently as a pair inside the face; preserve their normal design, size and spacing. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift. No independent face slide/rotation, neck or body reshaping to fake a separate head turn.",
+        "flame_and_limbs": "Preserve the recognizable original flame design, red/orange/cream layer relationships, reference compact form and stubby limb lengths/attachment points. Allow small coordinated body/tip/lobe flex and soft follow-through tied to the main action, settling to reference endpoint proportions. Do not reject that requested bounce as a deformation by itself. Reject inflated or remodeled anatomy, independent layer slippage, uncontrolled stretching, new limbs or a different mascot. Keep feet supported unless a step/hop is scripted.",
+        "framing_and_props": "Match the active scene first/last crops, camera, required character/prop counts and physical attachments. Apply only episode-specific requirements; an earlier episode does not supply mandatory props for a new story.",
+        "contacts_and_action": "One main action with a short direct gesture path and the requested small coordinated bouncy flame-like follow-through, then a damped settle. Keep facial markings attached, eye ovals unchanged and limbs stubby. No unrelated windup, repeated nodding, endless idle sway, extra hops, skating or camera bounce. For human prop placement, maintain stable grip while lowering, support before release, stationary released prop and one clear withdrawal path; do not add mascot-style bounce to hands or mechanical props.",
+        "mechanical_direction": "Inspect consecutive real frames for the planned direction, rigid connections when present, and causal order of physical events. Do not infer correct movement or causality from a prompt, label, endpoint or successful decode.",
+        "object_continuity": "Maintain the identity and count of planned objects. A tracking mark, when present, stays attached to the same object and cannot jump, multiply or fade to fake movement. Fire may flicker or fuel may glow only as the approved action requires. Anchor actual fire to its ignition/fuel contact; any animated local lighting follows the two-frame cadence without unplanned whole-scene brightness pulsing. A transient painted effect must disappear completely when the shot requires it.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Inspect actual source-frame pairs on final 30 fps timeline: each pose/painted state unchanged for two frames, 15 pose updates per second at normal speed; longer holds use complete pairs. Apply to Sol, visible human hands, moving props, flames and animated local lighting. Background and painted surface texture stay stable. Reject interpolation, blending, optical-flow smoothing and motion blur concealing steps. Check source cadence before smooth editorial transforms, then final playback/crops. Verify planned action and ending hold against actual voice timestamps; no default Narrator face turn. Sol may be absent. Judge small bouncy body/flame follow-through as intended Sol performance under the latest user clarification. It must be connected to the action, readable on twos and settled at the approved end; a brief natural blink is permitted; unrelated eye morphs, prolonged squinting and facial sliding remain failures. During visible Narrator turns, maintain above-camera gaze and gentle listening idle throughout; that requested idle is intentional, not an unrequested sway.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints.",
+        "painted_art_style": "Visible soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes cover Sol, props and environment consistently. Forms use light/color without inked outlines. Compare the selected graphic references. A smooth logo-like mascot with only a grain overlay fails even if its geometry is correct. Preserve the source character and clear mechanical contacts through the paint.",
+        "script_and_narrator_attention": "Read the actual complete script/storyboard and the bound per-scene dialogue/attention context, not only the video prompt. Match every spoken turn to the visible beat. Whenever Narrator speaks and Sol is visible, establish his gaze UP to the fixed above-camera voice before the first word and maintain it through the whole turn, with gentle coherent flame/body listening idle and no repeated arm gestures. Intentional paired eye-gaze adjustment is allowed while preserving the normal oval design, size, navy fill and spacing; no unmotivated feature drift or separate head. Compare actual voice cues/recordings when bound; otherwise label speech timing provisional and do not claim final synchronization. For Sol-off-screen cutaways, verify the mechanism follows the scripted explanation without inventing an invisible gaze. Evidence must include the actual script, script-context JSON and chronological/detail frames at relevant times."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes.",
+        "Character geometry and painted art style must each pass. Approval of one does not establish the other or approve the complete frame pair.",
+        "Record frame-index/timestamp evidence for exact two-frame cadence, facial anchoring and hand-prop contact. Prompt wording or 30 fps metadata alone does not prove these checks passed.",
+        "Latest user direction supersedes the earlier rigid-body/no-bounce default: allow small coherent movement-triggered Sol wobble, but preserve original eyes, stubby anatomy, settled endpoints and approved soft paint. Historical rejections retain their original contracts.",
+        "Latest user clarification: allow a brief natural blink that returns to the original open navy oval design. Model preference is Omni Flash 1.2 after the comparison. Preserve material observations, but do not apply the superseded blanket no-blink rule.",
+        "Every review must bind the actual script/storyboard and available voice-cue/audio sources. A pass requires script plus actual timeline evidence for script_and_narrator_attention; a changed script, cue file or recording invalidates prior decisions. Never infer speech timing from silent media."
+      ],
+      "script_review_required": true
+    },
+    "scene": {
+      "id": "03",
+      "first_frame": "The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.",
+      "last_frame": "The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.",
+      "action": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.",
+      "framing_prompt": "Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.",
+      "camera": {
+        "shot_size": "Stable medium-wide source; closer presentation through editorial push.",
+        "height_and_angle": "Low three-quarter side view, unchanged axis.",
+        "movement": "Generation: stable low three-quarter medium-wide camera for the strike and ignition.",
+        "editing": "Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.",
+        "start_view": "Trunk x=52%; dry branch/strike point near x=65%, y=62%; sky visible.",
+        "end_view": "Same generated source crop; edited presentation ends at 110%."
+      },
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Like when lightning hits a tree?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Yes. Lightning's heat can set dry wood alight."
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "Both voices stay off-screen. Arthur's explanation of lightning's heat cues the brief fixed-shape bolt, its complete disappearance and localized ignition.",
+          "eye_shape": "No visible character.",
+          "gaze": "No visible character.",
+          "body": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing."
+        }
+      ],
+      "sol_visible": false,
+      "image_prompts": {
+        "first": "Create a low three-quarter medium-wide view of one dry dead tree under broad blue-gray storm clouds. Place the trunk near x=52% and its unlit dry lower branch near x=65%, y=62%; leave sky above for a later strike. Separate the tree, ground and distant muted teal woodland with painted overlap and perspective. Use cool diffuse storm daylight only. Show no lightning, flame, embers or warm firelight. The woodland is empty of characters; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
+        "last": "Use the attached starting still for tree structure, composition and style. Keep the same source camera view and branch geometry. A small faceless painted flame now burns at a darkened patch on the dry lower branch at right; the lightning is completely absent. Its flame base is anchored to that ignition patch; keep the branch rigid. Preserve the rigid trunk, branch attachments, woodland layout and cool storm light. Add only a faint local warm reflection beside the burning patch; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
+      },
+      "video_prompt": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.\n\nUse a stable low three-quarter medium-wide source camera. Begin with the entirely unlit dry tree under cool storm daylight and end with the localized flame; keep the same source crop, rigid attachments and woodland geometry.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.\n\nApply this cadence to the painted lightning state, flame upper shapes and animated local reflected lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.\n\nUse short controlled movements in the specified physical sequence, with clear starting and ending positions and clean stops. Do not add unrequested windup, recoil, repeated motion, bouncing props or camera movement.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nGeneration should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.\n\nNo added text or generated dialogue.",
+      "start_sec": 7,
+      "end_sec": 14,
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": "Fixed off-screen Narrator point just above camera",
+        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "final_voice_alignment_verified": false,
+        "reason": "Sol is off-screen during Narrator speech."
+      },
+      "timing_status": "Provisional; finalize from normal-rate voices at 1x."
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "paint": "workflow/assets/reference-art/Spring.jpg",
+      "paint_examples": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "captions": "Important action stays above y=76%; lower foreground near y=80–90% stays quiet for editable captions.",
+      "character_count": "One Sol where specified; no Sol in Scenes 03/04.",
+      "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift.",
+      "narrator_eyeline": "MANDATORY whenever Narrator speaks with Sol visible: gaze UP to the fixed voice just above camera before the first word and throughout the turn, with gentle listening idle. A short silent gaze transition may precede voice onset; final windows follow real normal-rate recordings.",
+      "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+    },
+    "script": {
+      "source": {
+        "path": "workflow/episodes/fire_discovery/script.txt",
+        "sha256": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b"
+      },
+      "scene_script_excerpt": "SCENE 03 — 7 seconds (provisional)\nSetting and framing: Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.\nLighting: At the start use cool diffuse storm daylight only: slate blue-gray clouds, desaturated teal distance and cool brown wood. No fire or warm firelight exists before ignition. After ignition retain the cool ambient light with only a tiny warm reflection at the burning patch.\nCamera in generation: Generation: stable low three-quarter medium-wide camera for the strike and ignition.\nEditing: Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.\nFirst frame: The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.\n\nSol: “Like when lightning hits a tree?”\nNarrator: “Yes. Lightning's heat can set dry wood alight.”\n\nAction: One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.\nNarrator attention: {\"required\": false, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"reason\": \"Sol is off-screen during Narrator speech.\"}\nLast frame: The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.\nNext cut: Cut to a separate time/place for ember tending in Scene 04; do not imply that this particular branch or fire is tracked across the cut.\n\n",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Like when lightning hits a tree?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Yes. Lightning's heat can set dry wood alight."
+        }
+      ],
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": "Fixed off-screen Narrator point just above camera",
+        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "final_voice_alignment_verified": false,
+        "reason": "Sol is off-screen during Narrator speech.",
+        "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+      },
+      "timing": {
+        "source": {
+          "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+          "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+        },
+        "cues_confirmed": false,
+        "alignment_verifiable": false,
+        "basis": "provisional script or voice plan; actual speech alignment unverified"
+      },
+      "audio_sources": {}
+    }
+  },
+  "technical": {},
+  "coverage": {},
+  "evidence": [
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg",
+    "evidence/script-context.json",
+    "evidence/script-storyboard.txt",
+    "evidence/voice-cues.json"
+  ],
+  "evidence_sha256": {
+    "evidence/first.jpg": "7eee88bed12fc217348cae80a2a8c52558eef690a51d4471a17acb3369689a78",
+    "evidence/frame-comparison.jpg": "3f85cf241d0f09f19cd353b04e69705a309afb53582133ceeff97f23a4fa8375",
+    "evidence/last.jpg": "6ed51ef03bb2947b69be50fff8e193356e5f018dd7904b4b0ea1680d539b933a",
+    "evidence/paint.jpg": "7df5af3ac758a9a2a751be5efe5bb3c3d419cba2170c6b19bd375b2d9916e187",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432",
+    "evidence/script-context.json": "400add4de0510b2171febd7fb1919a20f2021259d74fa59391645c394ae6d3b6",
+    "evidence/script-storyboard.txt": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b",
+    "evidence/voice-cues.json": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+  },
+  "state": "awaiting user approval of both frames"
+}
