@@ -1,0 +1,160 @@
+{
+  "packet_id": "0d43a83bcc49afa9d580342ed07210fb1c25aefa1bb6ce0477edf44ec98a8bcc",
+  "reviewer": "/root/clip_reviewer",
+  "method": "Independent frame-based early rejection of the same-model video-edit take, not playback. Applied the latest bouncy-motion policy already read for take 3 and read this fresh packet contract plus cadence-conform-v4 proof. Opened this packet chronological sequence-02 covering zero-based frames 20-39 (0.666667-1.300000 s), full-resolution detail/frame-000006.jpg at 0.733333 s, frame-comparison.jpg and paint.jpg. Compared approved first PNG and actual full-resolution detail after scaling both to a common 1080x1920 coordinate grid with Lanczos resampling; inspected complete character, layer boundaries, eyes and nearby foliage, distinguishing the filled red outer shape from extra edge treatment. Did not inspect the remaining chronological pages or actual footage endpoints, and did not independently repeat the full-pair decode for this bounded rejection. No media generation, prompt change, still approval or playback claim.",
+  "coverage_reviewed": [
+    "evidence/sequence-02.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "uncertain",
+      "observed": "The inspected interval retains a recognizable compact Sol with a filled red outer flame and coherent red/orange/cream layers. The main tip and body flex visibly. Such coordinated action-driven wobble is now intended, and is NOT recorded as an identity failure by itself. Whole-clip identity and return to approved settled endpoint proportions remain unreviewed after the confirmed eye/paint blockers.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "The video edit retains the source blink: both eyes flatten at zero-based frames 20-21 (0.666667-0.700000 s), become closed short navy curves at 22-25 (0.733333-0.833333 s), then reopen by frames 26-27 (0.866667-0.900000 s). The full-resolution 0.733333 s image and common-scale approved-PNG comparison confirm a material shape change, not an antialiasing or compressed-RGB difference. Coordinated body/flame bounce is permitted, but unchanged open ovals remain required. Full eye onset outside this page was not inspected.",
+      "timestamps_sec": [
+        0.666667,
+        0.7,
+        0.733333,
+        0.8,
+        0.833333,
+        0.866667,
+        0.9
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "uncertain",
+      "observed": "Small body/tip/lobe flex accompanies the gesture in the inspected interval and the colored layers move together; that is allowed by the latest user direction, not a rigid-body defect. Compact red arm/foot nubs remain visible and no new boots, long limbs or extra appendages are apparent in the sample. Full-clip coherence, supported contacts and the final damped settle remain unreviewed after the eye/paint rejection.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "uncertain",
+      "observed": "The inspected interval preserves full-body Sol on the left, the separate bough/fire on the right, the visible gap and quiet foreground. The other chronological pages and actual endpoint crops were not inspected for this rejected take, so full-duration framing/camera/prop-count stability is unresolved.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "uncertain",
+      "observed": "The designated bough-side arm begins lifting, while the body/tip flex with the action and both red foot nubs remain near their ground shadows in the inspected interval. The coordinated wobble is permitted. The complete main gesture, foot support through its whole duration, lack of unrelated loops and final damped settle were not certified because review stopped at the eye/paint blockers.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        0.933333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "uncertain",
+      "observed": "The inspected portion shows the intended arm lifting outward/upward and the fire remaining above the wood. Its complete trajectory, clean stop and full-duration physical continuity were not reviewed; no inference is made from the prompt or endpoint alone.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "uncertain",
+      "observed": "The bough, fire root, smaller fuel pieces and one Sol stay in their expected positions on the inspected page. The other pages were not opened, so no full-duration object/lighting/paint stability verdict is available.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "uncertain",
+      "observed": "The bound approved still pair was reopened in the frame comparison, but the actual first and final decoded footage frames were not inspected in this early-stopped take. The correct ending state cannot be certified from the prompt or the approved stills alone.",
+      "timestamps_sec": [
+        0.733333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "uncertain",
+      "observed": "The supplied cadence-conform-v4 report binds this edit clip hash and reports 45 identical decoded frame pairs at final 30 fps with normal three-second duration. This technical proof is acknowledged without claiming an independent full decode in this early-stopped review. The requested small coherent bounce is permitted, but the retained closed-eye curves are not. Complete action/settle timing, background/paint stability and normal-speed playback were not reviewed after the blocker. Voice timing remains provisional; no audio was requested or generated.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "uncertain",
+      "observed": "No text, watermark, extra character, mouth, nose or held prop is visible in the inspected interval; packet technical data reports no audio streams. Remaining chronological pages were not reviewed, so no full-clip cleanliness pass is claimed.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "fail",
+      "observed": "The substantial red outer flame is still a filled color layer; it is not being mistaken for an ink stroke. Separately, common-scale comparison with the approved PNG shows added bright rim lines and dark contour enhancement along Sol silhouette/layer edges, closed eyes, foliage and tree/wood, with etched/high-contrast texture around ground patches. These coherent visible edge bands give the edit a harder embossed treatment rather than the approved soft matte gouache transitions. Both images were inspected at the same target scale, so this judgment is not based on unequal magnification or exact RGB differences; the precise processing origin of the enhancement is not determined. The unwanted eye closure independently suffices to reject even if fine boundary artifacts are disputed.",
+      "timestamps_sec": [
+        0.733333
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT edit take 4; the first-clip visual check does not allow the remaining generation batch to proceed. The same-model edit did not remove the visible blink: flattened eyes at frames 20-21, closed curves at 22-25 (0.733333-0.833333 s), reopened by 26-27. Added pale rims/dark contour enhancement also leave a harder etched finish than the approved source. The filled red outer layer remains valid; it is distinct from those added edge bands. The permitted coordinated bouncy body/flame movement is not a rejection reason. This bounded review stops at confirmed blockers, leaving uninspected full-clip checks uncertain. Preserve the historical failed takes. Any future candidate still needs actual all-frame eye/design and paint inspection; a successful edit job/cadence conform is insufficient. No generation, prompt changes or approvals were performed. Voice timing/playback remain provisional."
+}

@@ -40,7 +40,7 @@ Verify that every reference path exists and maps to a file or media input actual
 
 ## Sol identity and continuity
 
-The [shot guide](shot-integration-and-sol.md#sol-identity) owns Sol's identity constraints and reusable identity wording. Include the essential constraints when he is visible, then write the shot's pose separately using its [performance guidance](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Original assets define anatomy. For an arm-only gesture, hold body orientation, facial markings, feet, silhouette and colored layers fixed; change only the specified arm positions with their original lengths and attachment points. A whole-body orientation change belongs only in an explicitly scripted action, never in an independent face turn. Both eye ovals remain uniformly navy #1C2447 with their reference shape, size and spacing; no highlights, whites or extra pupils. Omit character instructions when the shot has no Sol.
+The [shot guide](shot-integration-and-sol.md#sol-identity) owns Sol's identity constraints and reusable identity wording. Include the essential constraints when he is visible, then write the shot's pose separately using its [performance guidance](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Original assets define anatomy. For settled endpoints of an arm-led gesture, keep the same facing direction, face/eye design, ground contacts and reference proportions; change the specified arm positions with their original lengths and attachment points. The connecting video may have the small coordinated bouncy body/flame wobble specified in the [motion style](video-style-guide.md#motion-style), settling back into this endpoint. Do not make an intermediate elastic pose the default final pose. A change of facing direction belongs only in an explicitly scripted action; wobble does not create an independent face turn. Both eye ovals remain uniformly navy #1C2447 with their reference shape, size and spacing; no highlights, whites or extra pupils. Omit character instructions when the shot has no Sol.
 
 ## How to fill it in
 
@@ -64,7 +64,7 @@ Make [one focal point] immediately readable, with simple secondary shapes and br
 
 ## End-frame template
 
-Attach the approved starting image as the composition reference. Describe the intended change first, then state what stays consistent: composition, geometry, identity and lighting. Name any planned camera or lighting change explicitly, including the ending crop or new light source. Choose a final state reachable through the planned action without a hidden cut. If an old endpoint includes an unrequested face turn or body change, replace it or reuse a matching existing asset before animation; do not ask the video prompt to ignore a conflicting supplied image.
+Attach the approved starting image as the composition reference. Describe the intended change first, then state what stays consistent: composition, geometry, identity and lighting. Name any planned camera or lighting change explicitly, including the ending crop or new light source. Choose a final state reachable through the planned action without a hidden cut. If an old endpoint includes an unrequested face turn or a redesigned settled body, replace it or reuse a matching existing asset before animation; do not ask the video prompt to ignore a conflicting supplied image.
 
 ```text
 Use the attached starting image as the composition and style reference. Create the final moment after [action].
@@ -85,7 +85,7 @@ When continuity is exact, reuse the approved last image as the next starting ass
 - The image shows the requested moment, pose, and composition clearly.
 - Mascot geometry and painted style are checked independently against their respective references.
 - Visible gouache brushwork covers Sol, props and surroundings; there are no inked outlines or realistic fire effects.
-- Original eyes stay unchanged and open; the area beneath them remains blank.
+- First/last stills keep the original oval eyes open and unchanged, with the area beneath them blank. The connecting video may use a brief natural blink under the [motion style](video-style-guide.md#motion-style).
 - Sol's arms, stubby feet, eyes and flame layers match the original assets and remain the same character across the first/last pair and other clips.
 - Simple painted layers establish the setting with believable depth, gentle shading, accurate perspective, scale and essential details.
 - The composition has one clear focus, breathing room, and restrained background detail.

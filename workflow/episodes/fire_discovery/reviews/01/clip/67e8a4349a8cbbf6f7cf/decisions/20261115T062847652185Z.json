@@ -1,0 +1,200 @@
+{
+  "packet_id": "67e8a4349a8cbbf6f7cf6bd6af3f72114df532e4371fcca80f3b16889e94dc09",
+  "reviewer": "/root/clip_reviewer",
+  "method": "Independent frame-based early rejection, not playback. Read the newly updated checklist, video style guide, Sol reference configuration and clip-review guide, then the take-3 packet contract and cadence-conform-v3 report. Applied the latest permitted small action-driven coordinated body/tip/lobe wobble, rather than the historical rigid-contour policy. Opened this packet frame comparison and paint reference, chronological sequence-02 covering zero-based frames 20-39 (0.666667-1.300000 s), and full-resolution detail/frame-000006.jpg at 0.733333 s. Confirmed prohibited eye closure and harder contour treatment against the bound approved still/paint comparison. Did not inspect remaining sequence pages or actual video endpoints and did not independently repeat the full pair decode for this early-stopped rejected take. No generation, prompt changes or user approvals.",
+  "coverage_reviewed": [
+    "evidence/sequence-02.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "uncertain",
+      "observed": "The inspected interval retains a recognizable compact Sol with a filled red outer flame and coherent red/orange/cream layers. The main tip and body flex visibly. Such coordinated action-driven wobble is now intended, and is NOT recorded as an identity failure by itself. Whole-clip identity and return to approved settled endpoint proportions remain unreviewed after the confirmed eye/paint blockers.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "Both eyes are flattened at zero-based frames 20-21 (0.666667-0.700000 s), become closed short navy curves in frames 22-25 (0.733333-0.833333 s), and reopen by frames 26-27 (0.866667-0.900000 s). The full-resolution frame at 0.733333 s confirms both closures. The latest bounce permission expressly preserves unchanged open oval eye shapes; it does not permit this blink. This verdict concerns visible design/shape, not exact RGB equality at compressed pixels. The full onset interval outside this page was not inspected.",
+      "timestamps_sec": [
+        0.666667,
+        0.7,
+        0.733333,
+        0.8,
+        0.833333,
+        0.866667,
+        0.9
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "uncertain",
+      "observed": "Small body/tip/lobe flex accompanies the gesture in the inspected interval and the colored layers move together; that is allowed by the latest user direction, not a rigid-body defect. Compact red arm/foot nubs remain visible and no new boots, long limbs or extra appendages are apparent in the sample. Full-clip coherence, supported contacts and the final damped settle remain unreviewed after the eye/paint rejection.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "uncertain",
+      "observed": "The inspected interval preserves full-body Sol on the left, the separate bough/fire on the right, the visible gap and quiet foreground. The other chronological pages and actual endpoint crops were not inspected for this rejected take, so full-duration framing/camera/prop-count stability is unresolved.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "uncertain",
+      "observed": "The designated bough-side arm begins lifting, while the body/tip flex with the action and both red foot nubs remain near their ground shadows in the inspected interval. The coordinated wobble is permitted. The complete main gesture, foot support through its whole duration, lack of unrelated loops and final damped settle were not certified because review stopped at the eye/paint blockers.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        0.933333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "uncertain",
+      "observed": "The inspected portion shows the intended arm lifting outward/upward and the fire remaining above the wood. Its complete trajectory, clean stop and full-duration physical continuity were not reviewed; no inference is made from the prompt or endpoint alone.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "uncertain",
+      "observed": "The bough, fire root, smaller fuel pieces and one Sol stay in their expected positions on the inspected page. The other pages were not opened, so no full-duration object/lighting/paint stability verdict is available.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "uncertain",
+      "observed": "The bound approved still pair was reopened in the frame comparison, but the actual first and final decoded footage frames were not inspected in this early-stopped take. The correct ending state cannot be certified from the prompt or the approved stills alone.",
+      "timestamps_sec": [
+        0.733333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "uncertain",
+      "observed": "The supplied cadence-conform-v3 report binds this clip hash and reports 45 identical decoded frame pairs at final 30 fps, preserving normal three-second duration. This is acknowledged without claiming an independent full decode in this bounded review. Small coherent bounce/follow-through is intended under the new policy, but the actual closed-eye curves remain prohibited. Full action/settle timing, stable background/paint and normal-speed playback were not fully reviewed after the blocker. Voice timing remains provisional; no audio was requested or generated.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "uncertain",
+      "observed": "No text, watermark, extra character, mouth, nose or held prop is visible in the inspected interval; packet technical data reports no audio streams. Remaining chronological pages were not reviewed, so no full-clip cleanliness pass is claimed.",
+      "timestamps_sec": [
+        0.666667,
+        0.733333,
+        1.3
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "fail",
+      "observed": "The full-resolution 0.733333 s sample retains the sharper contour treatment: narrow dark/light lines trace the red silhouette and nested orange/cream boundaries, while foliage, tree and wood edges look etched. Against the approved frame/paint comparison, these hard traced boundaries replace the softer color-defined matte gouache transitions. The red outer flame remains a filled layer; the failure is added edge treatment, not missing red fill or the permitted flame wobble. Layered color and paper texture alone do not remove the visible contour treatment.",
+      "timestamps_sec": [
+        0.733333
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT bouncy take 3; remaining batch must stay paused. Confirmed blockers are an unwanted eye closure and continued sharper/drawn contour treatment, not the newly requested body/flame bounce. Eyes flatten at frames 20-21 and close at frames 22-25 (0.733333-0.833333 s), reopening by frames 26-27. The action-driven coordinated body/tip/lobe wobble is intended under the latest user policy; this bounded review does not reject it or certify its full endpoint settle. Preserve that permitted movement while restoring unchanged open original navy ovals and the approved soft matte gouache treatment. Any same-model video edit remains a candidate needing fresh evidence-bound review; this rejection does not establish that an edit will preserve the source movement or fix every frame. Uninspected whole-clip checks remain uncertain. The supplied exact-pair cadence proof is separate from visual compliance. Voice timing/playback remain provisional; no generation or prompt changes were performed.",
+  "type": "independent_clip_review",
+  "decision": "rejected",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "c58fec9365e1ec4023657c863bac23c73534bfa6f5937d39404344bb38731443",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-first.png",
+        "sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-last.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/01-scene.mp4",
+      "sha256": "64f0590cf711838c549a409aa9283d72c7c31f5c404209cba50f4c84bacf3191"
+    }
+  },
+  "recorded_at": "2026-11-15T06:28:47.651450+00:00"
+}

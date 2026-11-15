@@ -1,5 +1,5 @@
 HOW FIRE WAS DISCOVERED
-Production status: ten endpoint slots, eight unique active still assets. Exact current pairs await review. No video or audio generated.
+Production status: ten endpoint slots, eight unique active still assets. Exact current pairs approved; new bouncy motion test under review. No video or audio generated.
 Complete script and storyboard — animation-on-twos directions revised
 
 5 scenes; 54 spoken words; 30-second target; 29-second provisional estimate. Final timing follows normal-rate voice takes.
@@ -8,15 +8,15 @@ CAST
 Sol: saved Higgsfield custom Sol voice (element). Narrator: Arthur, off-screen. Exact voice IDs unchanged. Normal generated rate and 1x playback.
 
 VISUAL DIRECTION
-Match the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without stretching his body. Actual wood fire stays separate from Sol.
+Match the original Sol artwork: recognizable compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream layer relationships, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both original eye ovals uniformly navy #1C2447, with the normal open design unchanged in shape, size, low placement and close spacing, without highlights, whites, extra pupils or drift. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Keep the face attached to the body with no independent facial turn or neck. Settled endpoints retain the reference body form; small coordinated bouncy flame-like flex during the action preserves his recognizable design. Actual wood fire remains separate.
 Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
 
 MOTION AND EDITING
 Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.
 Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.
-Use short, controlled movements with clear starting and ending positions. Move directly through the specified action and stop cleanly. Add no unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying, or camera movement.
-Preserve Sol’s silhouette, proportions, flame layers, and limb lengths throughout. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn.
-Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.
+Use short, controlled movements with clear starting and ending positions. Give Sol’s intentional movements a small, bouncy flame-like wobble and soft follow-through, then let the motion damp and settle into the ending pose. Treat the wobble as part of the main action, not an extra gesture or perpetual idle loop. Add no unrequested windup, repeated nodding, hops, skating, or camera movement.
+Preserve Sol’s recognizable compact flame design, original red/orange/cream layers, and stubby limb lengths. Allow small coordinated flex of the flame tip, lobes, and body during the bounce; colored layers and face travel together coherently and return to reference proportions at the settled endpoints. His face remains part of his body: never slide or rotate facial markings independently, introduce a neck, or reshape the body to simulate a separate head turn. Preserve the normal open-eye oval design, size and spacing; a brief natural blink may close and reopen the eyes.
+Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift.
 Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.
 Enforce exact source-state pairs before any smooth editorial camera transform; check final playback and crops throughout. Cadence remains unverified until actual footage is edited. Align source trims and longer holds to complete pairs; retain normal action and 1x voices.
 
@@ -34,8 +34,8 @@ First frame: Sol faces the bough in a shallow three-quarter orientation, both ti
 
 Sol: “Who actually discovered fire?”
 
-Action: Sol makes one small, direct lift of the short arm nearest the burning bough, moving from its existing attachment point to the approved presenting position. Preserve its original length. Stop cleanly and hold; keep his other arm, body orientation, facial markings and planted feet unchanged. No preparatory movement or extra gesture.
-Acting cue (not spoken): Sol's opening question cues the one small direct arm lift, followed by a clean hold that carries into Scene 02.
+Action: Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold.
+Acting cue (not spoken): Sol's opening question cues one arm lift with a small connected bouncy flame-like follow-through; settle and hold the ending pose into Scene 02.
 Last frame: Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.
 Next cut: Continue from the exact approved ending asset into Scene 02. Its generated source framing begins unchanged.
 
@@ -49,10 +49,8 @@ First frame: Reuse Scene 01's approved last image unchanged: Sol holds one short
 
 Narrator: “We don't know. Natural fires existed long before people.”
 
-Action: Begin in the exact approved ending pose from Scene 01. Sol lowers the presenting arm once along a short, direct path until it rests beside his flank, then holds still to listen to Arthur.
-
-Keep his body orientation, facial markings, other arm, and planted feet unchanged. Preserve the arm’s original length and attachment point. No face turn, nod, preparatory movement, or settling bounce.
-Acting cue (not spoken): Arthur's opening answer cues one lowering of the presenting arm; the unchanged body and face hold the listening pose.
+Action: Begin in the exact approved ending pose from Scene 01. Sol lowers the presenting arm once along a short direct path to his flank. Let the movement create a small, quiet body/flame wobble with soft tip follow-through, then damp and settle into the approved arms-down listening pose. Keep the same facing direction, original arm length and attachment point, supported feet and the normal original eye ovals attached to the face, with a brief natural blink allowed. No additional face turn, nod, windup or repeated gesture.
+Acting cue (not spoken): Arthur's opening answer cues one arm lowering with a quiet soft wobble, then a settled listening hold.
 Last frame: Reuse keyframes/01-first.png unchanged at keyframes/02-last.png: both short arms rest beside Sol's flanks. Body orientation toward the bough, facial markings, other arm, feet, silhouette and flame layers are unchanged from the source pair. Camera, wood, separate fire, clearing and overcast lighting retain the original view. No face turn.
 Next cut: Cut to Scene 03's separate storm example. Sol remains off-screen during the next exchange.
 
@@ -98,11 +96,9 @@ First frame: Sol stands grounded with both short arms gathered close to his oute
 Sol: “So finding fire wasn't the same as making it.”
 Narrator: “Right.”
 
-Action: Sol opens both short arms once into a small, low gesture of understanding. Move both arms from beside his flanks to the approved open position, preserving their original lengths and attachment points.
-
-Stop both arms cleanly and hold the final pose through Arthur’s “Right.” Keep Sol’s body orientation, facial markings, and planted feet unchanged. No additional turn, body rise, recoil, or bounce.
-Acting cue (not spoken): Sol's concluding sentence cues both arms opening once through a small low range; stop together and hold through Arthur's “Right,” without a face turn or body lift.
-Last frame: Sol holds both short arms slightly open in the approved small low gesture of understanding. Both arms retain their lengths and attachment points. His body orientation toward the fire, facial markings, eye positions, silhouette, flame layers and planted feet are identical to the first frame; no turn, body rise or bounce. The tended wood, added twig, separate small flame, crop and lighting are unchanged.
+Action: Sol opens both short arms once into the approved small low gesture of understanding, retaining their original lengths and attachment points. Add a small bouncy body/flame wobble connected to that movement: tip, lobes, nested color layers and face follow coherently, then damp and settle together. Hold the settled open-armed pose through Arthur’s “Right.” Keep the same facing direction, supported feet and original normal oval eye design, with a brief natural blink allowed; no independent face turn, added hop or repeated gesture.
+Acting cue (not spoken): Sol's conclusion cues both arms opening once with a small connected bouncy wobble; settle and hold through Arthur's “Right.”
+Last frame: Sol holds both short arms slightly open in the approved small low gesture of understanding. Both arms retain their lengths and attachment points. His body orientation toward the fire, facial markings, eye positions, silhouette, flame layers and planted feet are identical to the first frame; the small wobble has fully settled, with no additional turn or hop. The tended wood, added twig, separate small flame, crop and lighting are unchanged.
 Next cut: Hold the concluding pose long enough to read, then end. Final hold depends on the normal-rate voice tracks.
 
 ASSEMBLY AND APPROVAL
@@ -123,4 +119,4 @@ https://www.pnas.org/content/pnas/109/20/E1215.full.pdf
 Burned bone and plant ash document burning in an archaeological context around one million years ago. This does not identify a person or establish the first ignition method.
 
 CURRENT GENERATION STATUS
-Scene 01 has one raw Omni Flash 1.2 clip and a silent normal-speed 30 fps/15-update cadence version. All 45 decoded frame pairs match; independent review found an unwanted blink, so this take is not approved and the remaining batch is paused for correction/review. Scene 05 now uses the nano-v5 arms-only endpoint corrected with the original face crop; its newly displayed pair awaits explicit approval before video. Earlier failed candidates are preserved. No audio has been generated.
+All current exact endpoint pairs are user-approved. Elaine requested small bouncy flame-like Sol movement, saved in the shared rules and Sol scenes 01/02/05. Four Omni first-clip takes are preserved with rejected reviews. The single authorized Kling 3.0 Pro comparison is complete at clips/tests/01-kling3pro-v1-twos.mp4: soft paint and open eyes improve, but the eye ovals squash during the bounce. Its 30 fps normal-speed cadence has 45 exactly matching decoded frame pairs. Await the user’s choice on a local eye cleanup, draft acceptance or further Higgsfield correction before the remaining batch. Shared model/voice/caption defaults and all endpoint bytes remain unchanged. No voice/audio tracks generated; timing remains provisional.

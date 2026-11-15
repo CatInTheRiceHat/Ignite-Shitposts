@@ -27,7 +27,7 @@ This is the shared paint description for image and video prompt authors. Include
 Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint subjects, props and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows while preserving the reference proportions and volume. Define forms through light and color, without outlines, black strokes or inked edges. Avoid glossy rendering, generic vector shapes, heavy grain and decorative clutter.
 ```
 
-Preserve Sol's exact geometry while painting the colored surfaces. The red outer flame is a filled layer, not inked linework. Keep navy eyes solid and unchanged. Palette, format and scene contents follow the episode; the supplied seasonal/office prompts establish art direction only.
+Preserve Sol's reference design and settled endpoint proportions while painting the colored surfaces. Small coordinated action-driven flex follows the movement policy below. The red outer flame is a filled layer, not inked linework. Keep navy eyes solid and unchanged. Palette, format and scene contents follow the episode; the supplied seasonal/office prompts establish art direction only.
 
 ## Voices and performance
 
@@ -39,7 +39,11 @@ Preserve Sol's exact geometry while painting the colored surfaces. The red outer
 
 ## Sol's cartoon expression and movement
 
-Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity). Personality comes from purposeful gestures and timing. Preserve the body silhouette, flame layers and limb lengths; facial markings never move independently or simulate a head turn. No automatic anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or tip follow-through. Explicitly scripted whole-body movement must retain the reference form. These current rules supersede older eye-morph, squash/stretch and mandatory upward-look examples.
+Elaine's latest direction is **bouncy, flame-like movement**. Sol is an expressive painted flame mascot, not a rigid cutout. An intentional gesture can cause a small body bounce, tip/lobe follow-through and one soft damped wobble before settling. Keep it connected to the action; a quiet listening hold need not become an endless idle sway.
+
+Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity). Preserve the recognizable compact design and coherent nested color layers through the flex. The face travels with the body; the normal navy oval eye design stays unchanged in shape, size and spacing, with a brief natural blink allowed. Tiny limbs retain their lengths and attachment points. Keep supported feet grounded unless a hop or step is explicitly scripted.
+
+This supersedes the earlier blanket “no bounce,” rigid-body and no-tip-follow-through defaults. A brief natural blink is now allowed. It does not authorize unrelated expressive eye morphs, facial sliding, unrelated head turns, exaggerated body stretching, automatic windups or camera bounce. The precise on-twos cadence below remains in force.
 
 ## Motion style
 
@@ -50,11 +54,11 @@ Animate on twos: hold each animated pose or painted state unchanged for two cons
 
 Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.
 
-Use short, controlled movements with clear starting and ending positions. Move directly through the specified action and stop cleanly. Add no unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying, or camera movement.
+Use short, controlled movements with clear starting and ending positions. Give Sol’s intentional movements a small, bouncy flame-like wobble and soft follow-through, then let the motion damp and settle into the ending pose. Treat the wobble as part of the main action, not an extra gesture or perpetual idle loop. Add no unrequested windup, repeated nodding, hops, skating, or camera movement.
 
-Preserve Sol’s silhouette, proportions, flame layers, and limb lengths throughout. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn.
+Preserve Sol’s recognizable compact flame design, original red/orange/cream layers, and stubby limb lengths. Allow small coordinated flex of the flame tip, lobes, and body during the bounce; colored layers and face travel together coherently and return to reference proportions at the settled endpoints. His face remains part of his body: never slide or rotate facial markings independently, introduce a neck, or reshape the body to simulate a separate head turn. Preserve the normal open-eye oval design, size and spacing; a brief natural blink may close and reopen the eyes.
 
-Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.
+Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift.
 
 Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.
 ```
@@ -78,7 +82,7 @@ A purposeful digital push or crop can remain smooth over the stepped footage whe
 
 - [ ] The opening reads immediately at phone size.
 - [ ] Art texture and lighting feel consistent across adjacent shots.
-- [ ] Sol's eyes remain identical to the reference throughout; body poses carry the performance without stretching the mascot. His exact flame layers and proportions stay intact.
+- [ ] Sol's normal open-eye design matches the reference; brief natural blinks return to it promptly; body poses carry the performance, with the requested small bouncy wobble and coherent layer follow-through. The recognizable compact design and settled endpoint proportions stay intact.
 - [ ] Sol, props and background all show the same visible gouache brushwork, layered color and paper texture, with no inked outlines.
 - [ ] Motion and transitions draw attention to the explanation. The reveal remains visible long enough to understand.
 - [ ] Arthur and Sol are distinct in the mix. Captions use the approved Ramento treatment, are timed to both voices, and sit clear of the subject. Replace any visible draft placeholders before release.

@@ -1,0 +1,272 @@
+{
+  "packet_id": "a4436ebc95acce45f78ca45734a0a24689513e82e44ba121b1faf07ad0c77cd9",
+  "reviewer": "/root/clip_reviewer",
+  "method": "Independent frame-based review, not video playback. Read current checklist, video style guide, clip review guide, workflow/AGENTS.md and Sol reference configuration. Opened bound mascot/paint evidence and frame comparison, actual Microphone identity asset and full Spring graphic. Inspected every chronological page covering all 90 decoded final-timeline frames, all 11 full-resolution detail samples via character/action/feet crops, full-resolution blink evidence, fixed-background crops and endpoint comparisons to the bound still PNGs. Extracted/inspected lantern reference video frames at 0, 1, 2, 3 and 4 seconds, subordinate to current eye/cadence rules. Independently decoded the bound final clip to RGB to verify all 45 complete two-frame pairs and to inspect magnified real-frame eye states. File timestamps come from the packet indices and zero-based final frame number divided by 30. No media generation, still approval, prompt change or playback claim.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "The whole source mascot was compared with the approved pair and actual footage, not judged from its colors or eyes alone. The broad red/orange/cream design remains recognizable and the small red feet are retained, but the actual solid flame does not remain the approved fixed design: the main tip dips/bends, the side notches/lobes change, and the nested orange/cream crown and lower face reshape during the blink/recovery. The arm-only contract requires those contours and proportions to stay fixed.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "Both original eye ovals must remain unchanged and open. Actual eyes start compressing around frames 16-18, become short closed curves in zero-based frames 22-25 (0.733333-0.833333 s), remain flattened in 26-27 (0.866667-0.900000 s), and recover through frames 28-35 before the baseline open geometry returns at frame 36. The conservative onset/recovery interval is frames 16-35 inclusive. Magnified decoded frames also show thin pale edging around the navy ovals, unlike the plain flat asset eyes. Dark interiors do not establish unchanged eye geometry or exact RGB after lossy video coding.",
+      "timestamps_sec": [
+        0,
+        0.533333,
+        0.6,
+        0.666667,
+        0.733333,
+        0.8,
+        0.866667,
+        0.933333,
+        1.0,
+        1.133333,
+        1.2
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/frames/frame-000015.jpg",
+        "evidence/frames/frame-000017.jpg",
+        "evidence/frames/frame-000019.jpg",
+        "evidence/frames/frame-000023.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000027.jpg",
+        "evidence/frames/frame-000029.jpg",
+        "evidence/frames/frame-000035.jpg",
+        "evidence/frames/frame-000037.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "Short paddle arms and tiny red downward foot nubs remain; no long lower legs, boots, fingers or mouth were observed. Nevertheless the fixed main flame, side lobes and nested painted layers deform during the blink/dip, and the non-gesturing arm changes angle with that deformation. The actual action must rotate only the specified short arm while preserving all other silhouette/layer geometry. Smaller tip/lobe changes remain visible later rather than a perfectly fixed mascot hold.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "All 90 chronological frames retain one full-body Sol on the left and the separate burning fallen bough on the right, with a visible gap, the same clearing/tree composition and a quiet lower foreground. Neither subject is cropped. No material camera translation, scale move or new prop/character was visible. This evaluates the crop actually approved in the bound pair; it is not a new still approval.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "The arm nearest the bough lifts from lowered to the presenting pose and then remains raised; no material arm reversal or extra step was established. Both small feet retain their ground positions and contact shadows; no material foot lift was observed. However, the lift is accompanied by an unrequested blink and body/flame dip/recovery, with the other arm also changing angle. That violates the specified single direct arm-only action and fixed body/facial markings, even though the main gesture direction is correct.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The applicable direction is the presenting arm rotation, not escalator mechanics from the earlier episode. Consecutive frames show the bough-side arm moving from down through outward to upward presenting, followed by a raised hold. The separate wood flame continues upward from the same wood contact area. No reversed mechanism, changed wood connection or unplanned ignition/placement causal sequence was observed. The extra body deformation is rejected separately under action and identity.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        0.933333,
+        1.0,
+        1.333333,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "The fallen bough, smaller fuel pieces, stones and single Sol retain their identities and placements throughout all pages. The faceless fire flickers in upper tongues/small detached painted tips while its main base remains attached to the same wood; it does not migrate onto Sol or become a second character. Local warm ground light stays around the fire without an obvious whole-scene brightness pulse. No tracking marker is part of this episode.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Compared the actual first decoded frame and actual final decoded frame against both bound approved stills at a common display size. The opening has both arms lowered; the ending has only the bough-side arm in the raised presenting state. Both endpoints have open navy ovals, small planted feet, the same placements/crop and a separate rooted wood fire. The gross endpoint states match; this does not excuse the rejected intermediate blink/body deformation or the footage paint re-rendering noted separately.",
+      "timestamps_sec": [
+        0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "The cadence portion is independently verified: decoded the bound 1080x1920 clip to RGB and found exactly 90 frames and zero unequal adjacent pairs across all 45 pairs. The three-second duration is preserved; no playback-rate change, interpolation or blending was used by the supplied conform command. This exact cadence does not fix the unrequested blink/body dip or guarantee stable source poses. Compositionally the background is stationary; small decoded fixed-region pixel differences were found, but frame inspection did not establish a material camera move or distinguish every fine paint change from codec variation. Normal-speed final playback and dialogue alignment were not reviewed: no voice tracks exist yet and timing remains provisional. Actual source-frame inspection therefore rejects the action and cannot certify final voice/crop timing.",
+      "timestamps_sec": [
+        0,
+        0.533333,
+        0.733333,
+        1.0,
+        1.5,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "Inspected all chronological pages and full-resolution character/action/end samples. No generated captions, logos, watermarks, extra held props, on-screen Narrator, mouth/nose or other unintended character was visible. The bound clip contains zero audio streams, consistent with the planned silent scene layer. The blink, geometry changes and drawn edging are recorded under the relevant visual checks rather than hidden by this narrow cleanliness pass.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "fail",
+      "observed": "Compared the actual full-resolution samples with the Spring gouache reference and approved still pair, separately from identity. The woodland retains layered painted color and textured ground, but the video re-renders Sol and many prop/background edges into crisp contour bands with thin dark edging and light rims, including pale outlines around the eyes. The smooth nested flame bands and etched/stippled surface treatment are harder and more outlined than the soft color-defined gouache of the approved stills/reference. The requirement is shared soft painted brushwork without inked edges, not merely a textured background behind a sharply outlined mascot.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT current take; pause the remaining batch. Blocking defects: prohibited eye closure/reshaping, coupled unrequested solid-flame/body and other-arm deformation during an arm-only gesture, and hard outlined re-rendering of the approved painted finish. Exact on-twos cadence passes its decoded-pair verification, but cannot repair those source-state errors. Both feet remain supported; no material arm reversal or large camera drift was established. Keep the approved identity, contours/layers, all facial markings and non-gesturing limbs fixed while moving only the designated short arm, and preserve soft gouache surfaces without drawn edge halos. Do not regenerate without separate user authorization. A reversible complete-pair hold patch is diagnostic only: zero-based frames 16-35 (0.533333-1.166667 s) cover eye onset/recovery, with closed curves at 22-25 (0.733333-0.833333 s); preceding intact open-eye pair 14-15 (0.466667-0.500000 s) is the nearest pre-blink candidate. Replacing that interval alone would jump into the later raised-arm action and leave other silhouette/paint defects, so it is not a complete production repair. Voice timing and final playback remain unverified because no voice tracks were generated."
+}

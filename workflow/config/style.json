@@ -4,8 +4,8 @@
   "ink": "#1A1A2E",
   "orange": "#F07B2A",
   "teal": "#4F9298",
-  "direction": "Soft matte gouache, broad simplified shapes, painted depth and stable texture. Animate on twos at final 30 fps: unchanged two-frame poses, 15 updates per second, normal-speed action; enforce and verify during editing.",
-  "sol": "Original compact asymmetric flame silhouette and red/orange/cream layers, uniformly navy #1C2447 oval eyes fixed to the body, tiny rounded limbs, no mouth. No independent facial movement or anatomy changes.",
+  "direction": "Soft matte gouache, broad simplified shapes, painted depth and stable texture. Sol moves with small bouncy flame-like body/tip follow-through that damps and settles. Animate on twos at final 30 fps, 15 updates per second, normal speed; enforce and verify during editing.",
+  "sol": "Original compact asymmetric flame design and red/orange/cream layers; original uniformly navy #1C2447 open eye ovals attached to the face, tiny rounded limbs, no mouth. Small coherent action-driven body/flame flex is allowed; no independent facial movement or redesigned anatomy. A brief natural blink is allowed.",
   "reference": "assets/sol-full-body.png",
   "painted_scene": "assets/calculus-painted-scene.jpg",
   "animation": {
@@ -28,6 +28,9 @@
     "background_and_paint_texture": "Stable",
     "editorial_camera": "Smooth transforms may follow stepped source; check crops throughout.",
     "implementation_status": "Required generation target and editing/verification policy; not evidence of implemented or verified footage.",
-    "owner": "workflow/guidelines/video-style-guide.md#motion-style"
+    "owner": "workflow/guidelines/video-style-guide.md#motion-style",
+    "sol_performance": "Small movement-triggered bounce, flame-tip/lobe follow-through and damped wobble, settling at approved endpoints; face/layers coherent, eye design unchanged, limbs stubby, feet supported.",
+    "scope": "This bounce is Sol performance, not a blanket effect for hands, props, mechanisms or cameras.",
+    "sol_blink": "A brief natural blink is allowed, returning promptly to the original open navy oval design; no unrelated eye morphs, highlights or facial drift."
   }
 }

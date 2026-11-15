@@ -42,7 +42,7 @@ forward, while its scene layout and mechanical props do not.
   the geometry base but says its painted finish is missing. Use her graphic
   examples and gouache prompt wording for visible brushwork, layered color
   and paper texture on both Sol and the scene, with no inked outlines. Keep
-  the original eyes unchanged and open. The lantern clip is a painted movement reference;
+  the normal original oval eye design unchanged, with a brief natural blink allowed. The lantern clip is a painted movement reference;
   it does not override these eye rules or the mascot geometry. Check the outer flame,
   side lobes, broad cream inner flame, low-set oval eyes and compact nub limbs.
   Explicitly preserve the source arms AND stubby feet, including their shapes,
@@ -73,10 +73,13 @@ unchanged for two consecutive frames (15 updates per second) at normal speed.
 Longer holds use complete pairs. Apply this to Sol, visible human hands, moving
 props, flames and animated local lighting; keep background/texture stable.
 No interpolation, blending, optical flow or motion blur concealing the steps.
-Use short direct actions with clean stops, without unrequested preparation,
-windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera moves.
+Use short direct gestures with a small bouncy flame-like body/tip/lobe wobble
+and soft follow-through that damps and settles. This latest user preference
+supersedes earlier rigid-body/no-bounce defaults. Keep layers and face coherent,
+eyes unchanged, limbs stubby and feet supported. Add no unrelated windup,
+repeated nodding, endless idle sway, extra hops or camera movement.
 Keep Sol's facial markings anchored to his body and eyes uniformly navy #1C2447;
-no independent face turn, neck, blinking, highlights or drift. A gesture change
+no independent face turn, neck, highlights or drift. A brief natural blink is allowed. A gesture change
 or listening hold can acknowledge Arthur without an automatic upward look.
 Enforce and verify cadence during editing; prompts alone do not prove it.
 Smooth planned editorial pushes may follow stepped footage; check all crops.

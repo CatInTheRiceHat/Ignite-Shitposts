@@ -1,0 +1,303 @@
+{
+  "packet_id": "48068ddfc564581cb9c88a927f5a474e15378e3d57ad57522199749d21e980c9",
+  "reviewer": "/root/clip_reviewer",
+  "method": "Independent frame-based full visual generation review, not playback. Read the comparison packet/contract and cadence-kling3pro-v1 report under the latest bouncy-motion rules. Opened all five chronological sequence pages covering every final frame, the approved-frame/original-mascot comparison, and Spring paint reference. Inspected all 11 full-resolution samples via native-resolution character/limb/contact crops, the full 0.733333 s scene sample, endpoint comparisons and magnified eyes. Scaled approved PNGs to the same native 1076x1928 grid using Lanczos for direct comparisons; did not misclassify native aspect as a failure. Independently decoded the tests/ MP4 to RGB to verify all 45 frame pairs and measure approximate eye dark-region bounds, corroborated visually in the 2.0 s full-resolution sample. Timestamps use real packet indices and zero-based final frame/30. Original identity, limb and paint assets/reference video were also inspected during prior reviews and retain the same packet-bound hashes. No generation, prompt change, user still approval or playback claim.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "The broad compact red flame, asymmetric tip/lobes, nested orange/cream paths, low face and small red limb nubs remain source-faithful, and the actual settled endpoints are close to the approved PNGs. Small coherent body/layer wobble is permitted and not treated as a rigid-contour failure. However, the eye ovals visibly change aspect/size during that wobble; those original features are part of the complete identity and are required to remain unchanged.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.066667,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/frames/frame-000063.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "No blink, closed curves, eye whites, independent pupil or added eyebrow was visible across the 90 chronological frames. Navy fill remains visually plain. Nonetheless both ovals squash into shorter/rounder marks during the bounce, notably around 1.533333 s and 2.000000-2.200000 s. Approximate dark-region bounds from native decoded pixels change from about 32x56 and 30x52 at opening to 30x38 and 28x36 at frame 62 (2.066667 s), recovering by about 2.333333 s. The full-resolution 2.0 s sample and common-scale eye comparison visibly corroborate the shortening. This is substantial eye-design compression, not a demand for exact compressed RGB or ordinary one-pixel edge matching. Permitted coherent body flex does not permit changing eye shape/size.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        1.533333,
+        2.0,
+        2.066667,
+        2.133333,
+        2.2,
+        2.333333,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/frames/frame-000047.jpg",
+        "evidence/frames/frame-000063.jpg",
+        "evidence/frames/frame-000065.jpg",
+        "evidence/frames/frame-000071.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "Apart from the separately failed eye marks, the mascot retains a filled substantial red outer layer, coherent nested orange/cream shapes and compact red arm/foot nubs. The tip/body/lobes flex together with the arm movement and recover toward the reference ending proportions. No independent layer slippage, new neck/torso, long lower-leg shaft, boot-like toes, fingers, extra limb or inflated remodeled anatomy was observed. This passes the latest permitted bouncy-flame geometry policy rather than the obsolete rigid-body rule.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Every chronological page keeps one full-body Sol on the left and the separate burning bough on the right with a clear gap, the same woodland clearing/tree composition and quiet lower foreground. No subject crop, large camera move or new prop/character was visible. Native 1076x1928 dimensions follow the source image aspect; that is a final resizing/crop task, not a generation-quality defect. The final 1080x1920 treatment still needs an editing crop check.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "The designated short arm lifts once, the body/tip follow through coherently, and the action settles into a raised-arm hold. Both foot nubs retain support/shadows with no visible step, hop, skating or lifted-foot kick; the other arm has no separate gesture. Those movement/contact portions meet the bouncy policy. However, the performance also compresses both eye ovals during the body bounce, violating this check requirement to keep the eye marks unchanged. The coordinated body wobble itself is not the failure.",
+      "timestamps_sec": [
+        0,
+        1.0,
+        1.5,
+        1.533333,
+        2.0,
+        2.066667,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Consecutive real frames show the bough-side arm proceeding from lowered through outward/upward to the supplied presenting direction, with bouncy follow-through and a settled ending hold rather than an unrelated second action. The actual fire extends upward from the same wood contact area. No reversed mechanism, detached wood connection or false ignition/placement causal sequence was observed; this scene has no escalator mechanism.",
+      "timestamps_sec": [
+        0,
+        0.933333,
+        1.333333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "The fallen bough, fuel fragments, stones and single Sol retain their identities and placements across all pages. The faceless wood flame changes upper shapes while its main base stays on the same fuel, clearly separate from Sol. Local warmth remains around the fire; no obvious whole-scene brightness pulse or migrating/duplicated prop was seen. There is no tracking marker in this scene.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Compared approved first/last PNGs with actual decoded first/final samples at common native 1076x1928 scale. Opening lowered arms, ending raised bough-side arm, full body size/placement, plain open eyes at the endpoints, small supported feet and separate rooted wood fire match the supplied endpoint states. Fine compression/softness differences do not establish a new design. This endpoint pass does not excuse the intervening eye squash.",
+      "timestamps_sec": [
+        0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "Independently decoded the bound comparison to RGB: 90 final frames and all 45 adjacent frame pairs are exactly identical, consistent with the supplied normal-speed 15-update/30-fps conform proof. The three-second action has finite coherent bouncy follow-through and a raised ending hold; no material camera bounce or endless idle loop was observed in the inspected source frames. The eye shape/size changes during the bounce still violate the unchanged-eye performance rule. Review is frame-based, not normal-speed playback. Final voice alignment remains provisional because no voices were requested/generated; that missing later-phase audio is not itself a reason to reject this visual comparison. Final native-to-1080x1920 crop/playback remains to be checked in editing.",
+      "timestamps_sec": [
+        0,
+        1.533333,
+        2.0,
+        2.066667,
+        2.333333,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/frames/frame-000063.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All five chronological pages and the full-resolution samples show no generated captions, logo/watermark, extra character, on-screen Narrator, example accessory, mouth/nose or unintended held prop. The bound comparison has no audio stream, consistent with the silent scene-layer request. The eye-design issue is recorded separately rather than hidden by this cleanliness pass.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "At common scale against the approved PNGs, this Kling comparison retains the soft matte color-defined red/orange/cream surfaces, layered painted woodland/wood/earth and subtle paper/brush texture. The filled red outer flame remains a color shape. The conspicuous etched dark/light contour bands and pale eye rims from Omni takes are not materially present here. Some fine brush detail is softened by video compression/resampling, but no separate glossy, inked, embossed or smooth-vector redesign was established. The source-faithful painted treatment is materially closer and passes this comparison independently of the failed eye-shape motion.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT visual generation comparison under the current unchanged-eye rule. Kling materially improves source-faithful matte painting and avoids the Omni blink, but squashes the eyes during the allowed body bounce: a first compression around 1.533333 s and stronger shortening around 2.000000-2.200000 s, reaching roughly one-third loss of vertical eye height at 2.066667 s before recovery. Preserve the original oval eye geometry while allowing the coherent body/tip/layer movement. Paint, compact non-eye anatomy, planted support, object counts/attachments, framing and gross endpoints pass the inspected visual checks. Exact normal-speed on-twos holds independently pass all 45 decoded pairs. No more generation is authorized by this review. This is one isolated user-authorized Kling 3.0 Pro comparison; it does not change shared Omni defaults. Material later-phase limitations: native 1076x1928 needs final 1080x1920 resize/crop checking, final normal-speed playback was not inspected, and voice alignment remains provisional with no voice/audio generation requested. Those later tasks are separate from the actual eye-design blocker.",
+  "type": "independent_clip_review",
+  "decision": "rejected",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "c58fec9365e1ec4023657c863bac23c73534bfa6f5937d39404344bb38731443",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-first.png",
+        "sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-last.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/tests/01-kling3pro-v1-twos.mp4",
+      "sha256": "876035fdb8573734133e80ad6c07cadd2fad9c09585f8e7bb988ca0993419257"
+    }
+  },
+  "recorded_at": "2026-11-15T06:43:16.205105+00:00"
+}

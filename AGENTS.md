@@ -59,11 +59,11 @@
   Sol's short rounded arms, stubby feet, small navy oval eyes, flame layers,
   colors and proportions. Keep him mouthless. The painted aesthetic changes
   surface treatment while preserving the asset design. Use purposeful direct gestures and scripted
-  body poses for acting; keep facial markings anchored, with no independent
-  face turn, default preparation or tip sway. Do not redesign eyes or lengthen limbs. Read the latest critique checklist and guides.
+  body poses with small bouncy flame-like wobble and soft tip/lobe follow-through;
+  keep facial markings anchored, with no independent face turn or default windup. Do not redesign eyes or lengthen limbs. Read the latest critique checklist and guides.
 - Use soft gouache brushwork, layered color and subtle paper texture on Sol,
   props and surroundings alike. Define forms through light and color without
-  inked outlines. Keep the original eyes unchanged and open; body poses carry
+  inked outlines. Keep the normal oval eye design unchanged, with a brief natural blink allowed; body poses carry
   expression. Apply this art direction to the episode's own setting and format.
 - Make every shot specific: camera height and angle, shot size, subject
   placement and scale, crop, camera movement, and exact visible first/last
@@ -76,7 +76,10 @@
   local light; keep background/texture stable and avoid interpolation, blending,
   optical flow or concealing blur. Enforce and verify during editing.
 - A scripted gesture change or listening hold can acknowledge Arthur. Do not
-  automatically add a face turn, upward look, nod, preparation, recoil or bounce.
+  automatically add a face turn, upward look, nod or windup. Sol’s intentional
+  movement now includes small bouncy body/flame follow-through that damps and
+  settles; this supersedes earlier rigid-body/no-bounce defaults. Keep his
+  recognizable compact identity, coherent layers, unchanged eyes and stubby limbs.
   Smooth editorial pushes may follow stepped source footage; check crops throughout.
 - Shared artwork and music live in `workflow/assets/`; additional reference
   artwork is in `workflow/assets/reference-art/`. Reusable Remotion components,

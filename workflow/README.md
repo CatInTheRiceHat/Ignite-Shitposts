@@ -92,6 +92,10 @@ Narrator; do not automatically add a face turn or upward look. Follow the
 [exact on-twos motion policy](guidelines/video-style-guide.md#motion-style):
 two-frame source poses at 30 fps, 15 updates per second and normal-speed action,
 enforced and verified during editing.
+Sol’s intentional movements now have a small bouncy flame-like wobble and soft
+tip/lobe follow-through, settling at the endpoint. Keep the original eyes,
+coherent layers, compact identity, stubby limbs and supported feet. This replaces
+the earlier rigid-body/no-bounce default; hands and mechanisms keep their own physics.
 
 Reusable Remotion code and dependencies live in `remotion/`. Episodes own
 their edit JSON, public assets and renders; a custom composition can live in

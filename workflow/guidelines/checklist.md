@@ -57,10 +57,11 @@ Run this short review on the complete prompt set before generation. Follow the l
   purposeful direct gestures and body poses, with facial markings fixed to his body. Keep their original flat navy
   appearance. Elaine's “dark pupils” mean these existing whole dark ovals: fill
   them completely with asset navy #1C2447, without eye whites, shine or gray gradients.
-  Keep the eyes unchanged and open: no squinting, widening, reshaping, closed-eye
-  curves or added eyebrows. Never slide or rotate facial markings independently,
+  Keep the normal open oval design unchanged. A brief natural blink may close
+  and reopen both eyes, returning promptly to those ovals. No prolonged squint,
+  unrelated expressive reshaping, winks or added eyebrows. Never slide or rotate facial markings independently,
   add a neck or reshape the body to simulate a head turn. Express action through
-  posture and gestures; arm-only actions keep body orientation and face unchanged.
+  posture, gestures and coordinated body/flame wobble; the face travels with the body and the normal oval eye design is preserved outside a brief natural blink.
 - [ ] Keep the paired eyes close enough together to match the original mascot.
   Elaine accepted the fire Scene 01 direction but said its eyes were too far
   apart. Compare the gap relative to eye width, rather than spreading the eyes
@@ -69,7 +70,7 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
-  Keep the top softly tapering and wispy as a shape; add no automatic tip sway or follow-through.
+  Keep the top softly tapering and wispy. Give intentional movements the requested small bouncy wobble and soft tip/lobe follow-through, settling between actions.
 - [ ] Check identity and paint separately. Elaine clarified that the paint
   treatment was right while Sol's design was wrong; do not remove the painted
   finish when the requested correction is to his identity.
@@ -92,9 +93,10 @@ Run this short review on the complete prompt set before generation. Follow the l
   painted layers, gentle shading, coherent perspective and contact shadows.
   Do not flatten the scene or invent inflated/sculpted mascot anatomy.
 - [ ] Give each Sol scene a distinct readable action. Use one primary gesture
-  with a short direct path, clean stop and purposeful hold; expressive acting
-  preserves reference anatomy and facial anchoring. Add no unrequested windup,
-  recoil, overshoot, bounce, repeated nodding, idle swaying or camera movement.
+  with a short direct gesture path, small bouncy flame-like follow-through and
+  a settled hold. Keep layers and face coherent, eyes unchanged, limbs stubby
+  and feet supported. Avoid unrelated windup, repeated nodding, endless idle
+  sway, extra hops or camera movement.
 - [ ] Request animation on twos: every animated source pose or painted state stays
   unchanged for two consecutive frames at final 30 fps (15 updates per second),
   with normal-speed action and complete-pair longer holds. Apply it to Sol,
@@ -158,6 +160,10 @@ additional aesthetic preferences attributed to Elaine.
   fixed comb. Stationary parts keep their geometry and colors across the pair.
 
 ## Current visual anchors
+
+- Latest explicit preference: “i like omni flash” after viewing the Omni Flash 1.2 and Kling 3.0 Pro comparisons. Keep Omni Flash 1.2 for this episode. Elaine also said “Allow a brief natural blink.” Preserve the normal navy oval eye design and face attachment; brief closing/reopening is permitted, while unrelated eye morphs, highlights, added pupils and facial drift remain excluded.
+
+- Latest motion clarification: Elaine likes bouncy animation and wants Sol to wobble when he moves, because he is flame-like. This replaces the earlier rigid-body/no-bounce default. Use a small coordinated body/tip/lobe wobble connected to each intentional action, then settle; preserve original eyes and recognizable compact anatomy. This permission is for Sol’s performance, not bouncing hands, mechanisms or cameras.
 
 - Current fire episode feedback: Elaine likes Scene 01's painted direction and
   staging, but its v1 eyes are too far apart. Preserve that painting while

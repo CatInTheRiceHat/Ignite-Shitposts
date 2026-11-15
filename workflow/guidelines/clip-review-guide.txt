@@ -43,8 +43,8 @@ INDEPENDENT VISUAL CHECKS
 Match the whole mascot design AND the painted finish. painted_art_style is a
 required check: compare visible gouache brushwork, layered color and paper
 texture on Sol, props and surroundings with the selected graphic references.
-Reject a smooth logo-like mascot over a painted background. Eyes remain
-unchanged and open. The original red outer flame stays a filled layer.
+Reject a smooth logo-like mascot over a painted background. The normal eye design remains unchanged;
+a brief natural blink may close/reopen both eyes and return to the original ovals. The original red outer flame stays a filled layer.
 
 WHAT THE PROGRAM DOES
 It extracts every source frame at phone size, saves actual source timestamps,
@@ -84,3 +84,20 @@ and concealing blur. Check final playback and camera crops throughout.
 Record frame-index/timestamp evidence for fixed facial markings, unchanged solid
 navy #1C2447 eyes and sequential placement/support/release/withdrawal contacts.
 A prompt or 30 fps technical probe does not establish these checks passed.
+
+BOUNCY SOL PERFORMANCE — LATEST CLARIFICATION
+Sol’s intentional movements may include a small coordinated body/flame wobble,
+soft tip/lobe follow-through and a damped settle. Do not fail a clip merely for
+that requested motion. Check recognizable compact identity, coherent color
+layers, the original navy oval eye design attached to the face (a brief natural blink is allowed), stubby limbs and
+supported feet. Reject independent facial drift, unrelated repeated gestures,
+large stretching or endless idle bounce. Paint must still match the approved
+soft matte gouache treatment. Earlier rigid-body/no-bounce defaults are superseded;
+exact on-twos cadence and physical hand/prop contact requirements are unchanged.
+
+LATEST BLINK CLARIFICATION
+Elaine explicitly allowed a brief natural blink after choosing Omni Flash 1.2.
+Do not reject a short close/reopen sequence by applying the superseded always-open
+rule. Keep original navy ovals at rest, normal spacing/placement, attached facial
+markings and no highlights/whites/extra pupils. Retain historical reports under
+their original contracts; record fresh reviews under the updated requirements.
