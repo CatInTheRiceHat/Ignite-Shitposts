@@ -1,5 +1,6 @@
 HOW FIRE WAS DISCOVERED
-Complete script and storyboard — visual directions revised
+Production status: ten endpoint slots, eight unique active still assets. Exact current pairs await review. No video or audio generated.
+Complete script and storyboard — animation-on-twos directions revised
 
 5 scenes; 54 spoken words; 30-second target; 29-second provisional estimate. Final timing follows normal-rate voice takes.
 
@@ -7,18 +8,24 @@ CAST
 Sol: saved Higgsfield custom Sol voice (element). Narrator: Arthur, off-screen. Exact voice IDs unchanged. Normal generated rate and 1x playback.
 
 VISUAL DIRECTION
-Match the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep the original solid navy oval eyes open and unchanged in design, size, spacing and low face-relative placement; shallow turns use coherent perspective. Keep the eyes close together at the original mascot's spacing; do not spread them toward the edges of the cream face. Completely mouthless, with a blank area beneath the eyes; no nose, eyebrows, fingers, elongated limbs or humanoid torso. Preserve the softly tapering wispy tip and filled flame layers without inflating or stretching his body. Keep Sol separate from the actual wood fire.
+Match the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without stretching his body. Actual wood fire stays separate from Sol.
 Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
 
 MOTION AND EDITING
-Use stepped, hand-animated pose-to-pose character movement, with a brief preparation, a decisive gesture and a readable final hold. Keep the brushwork stable between poses.
-Establish and check exact exposure/frame cadence during editing at 30 fps delivery. No cadence is confirmed yet. Keep camera motion and physical contacts readable. The prompt document records generation and editorial camera roles separately.
+Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.
+Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.
+Use short, controlled movements with clear starting and ending positions. Move directly through the specified action and stop cleanly. Add no unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying, or camera movement.
+Preserve Sol’s silhouette, proportions, flame layers, and limb lengths throughout. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn.
+Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.
+Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.
+Enforce exact source-state pairs before any smooth editorial camera transform; check final playback and crops throughout. Cadence remains unverified until actual footage is edited. Align source trims and longer holds to complete pairs; retain normal action and 1x voices.
 
 HISTORY AND CONTINUITY
 The first discoverer is unknown. These scenes illustrate general processes, not the first actual event. Sol is a curious presenter. Using natural fire is distinct from deliberately making it.
-Scenes 01/02 share the exact endpoint asset and clearing. Scene 03 is a separate storm ignition example; Scene 04 changes time/place. Scene 05 continues Scene 04's wood state in a wider view.
+Scene 02 first reuses Scene 01 last; Scene 02 last reuses Scene 01 first. Scene 03 is a separate storm ignition example; Scene 04 changes time/place. Scene 05 continues the tended wood state in a wider view.
 
 SCENE 01 — 3 seconds (provisional)
+Teaching purpose: Ask the opening question with a curious presenting gesture.
 Setting and framing: Medium-wide full-body view at Sol's face height, angled slightly down onto a simple woodland clearing. Sol occupies 36% of frame height at x=28%, with feet at y=74%; a small burning fallen bough is at x=74%, y=67%. Separate foreground earth, a middle-ground charred trunk and distant sage foliage into overlapping painted layers. Keep the lower fifth quiet.
 Lighting: Soft overcast daylight from upper-left; cream earth, muted sage and teal distance, honey-brown wood. The existing wood fire adds only a faint localized warm tint.
 Camera in generation: Generation: stable camera.
@@ -27,55 +34,61 @@ First frame: Sol faces the bough in a shallow three-quarter orientation, both ti
 
 Sol: “Who actually discovered fire?”
 
-Action: Sol raises the short arm nearest the burning bough into a curious presenting gesture, then holds it, as if asking about the fire in front of him. His feet remain planted.
-Acting cue (not spoken): Sol's opening question cues the single presenting gesture toward the bough; the held pose carries into Scene 02.
-Last frame: Sol's short arm nearest the bough is raised into a small outward presenting gesture, with no finger or extra reach. His other arm stays lowered, his face remains directed toward the bough and both feet stay planted. The wood fire remains separate and localized.
+Action: Sol makes one small, direct lift of the short arm nearest the burning bough, moving from its existing attachment point to the approved presenting position. Preserve its original length. Stop cleanly and hold; keep his other arm, body orientation, facial markings and planted feet unchanged. No preparatory movement or extra gesture.
+Acting cue (not spoken): Sol's opening question cues the one small direct arm lift, followed by a clean hold that carries into Scene 02.
+Last frame: Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.
 Next cut: Continue from the exact approved ending asset into Scene 02. Its generated source framing begins unchanged.
 
 SCENE 02 — 4 seconds (provisional)
+Teaching purpose: Shift once from presenting to listening to the explanation.
 Setting and framing: Continue the exact Scene 01 source view, with the same Sol, bough, clearing and lighting. Generate at the original medium-wide framing. The tighter response view is an editing-only digital push; endpoint assets remain uncropped.
 Lighting: Keep Scene 01's soft overcast upper-left light and faint warmth immediately around the existing bough fire.
 Camera in generation: Generation: stable camera, no zoom or crop change.
-Editing note: After the brief matching opening, apply one controlled digital push from 100% to 120%, anchored at x=50%, y=56%, then hold. Keep the full flame tip, feet and bough visible; do not ask generation to duplicate this move.
+Editing note: After the brief matching opening, apply one controlled digital push from 100% to 120%, anchored at x=50%, y=56%, then hold. Keep the full flame tip, feet and bough visible; do not ask generation to duplicate this move. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.
 First frame: Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.
 
 Narrator: “We don't know. Natural fires existed long before people.”
 
-Action: Sol makes one attentive reorientation: as he turns his whole face toward Arthur above the camera, he gathers the presenting arm back against his outer flank and settles into a compact listening pose.
-Acting cue (not spoken): Arthur's opening answer cues one upward acknowledgment, connected to the withdrawal of the presenting arm. Avoid repeated upward glances.
-Last frame: Sol faces the fixed Arthur point just above the camera in a shallow upward orientation. The previously raised arm rests back against his outer flank, outside the cream face; the other arm remains lowered. Both eyes stay visible, unchanged in design and positioned coherently on the turned face. Feet, bough and background are unchanged.
+Action: Begin in the exact approved ending pose from Scene 01. Sol lowers the presenting arm once along a short, direct path until it rests beside his flank, then holds still to listen to Arthur.
+
+Keep his body orientation, facial markings, other arm, and planted feet unchanged. Preserve the arm’s original length and attachment point. No face turn, nod, preparatory movement, or settling bounce.
+Acting cue (not spoken): Arthur's opening answer cues one lowering of the presenting arm; the unchanged body and face hold the listening pose.
+Last frame: Reuse keyframes/01-first.png unchanged at keyframes/02-last.png: both short arms rest beside Sol's flanks. Body orientation toward the bough, facial markings, other arm, feet, silhouette and flame layers are unchanged from the source pair. Camera, wood, separate fire, clearing and overcast lighting retain the original view. No face turn.
 Next cut: Cut to Scene 03's separate storm example. Sol remains off-screen during the next exchange.
 
 SCENE 03 — 7 seconds (provisional)
-Setting and framing: Low three-quarter medium-wide view of a dry dead tree beneath broad storm-cloud shapes. The trunk is near x=52%; the dry lower branch and future strike point are near x=65%, y=62%. Include sky for the strike path. During generation, make a controlled straight push to an ending view about 10% closer, keeping the ignition point near right-center and the relevant branch visible.
+Teaching purpose: Show lightning heat igniting dry wood.
+Setting and framing: Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.
 Lighting: At the start use cool diffuse storm daylight only: slate blue-gray clouds, desaturated teal distance and cool brown wood. No fire or warm firelight exists before ignition. After ignition retain the cool ambient light with only a tiny warm reflection at the burning patch.
-Camera in generation: Generation: controlled straight push to about 10% closer; settle before the strike.
-Editing note: No additional camera move.
+Camera in generation: Generation: stable low three-quarter medium-wide camera for the strike and ignition.
+Editing note: Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.
 First frame: The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.
 
 Sol: “Like when lightning hits a tree?”
 Narrator: “Yes. Lightning's heat can set dry wood alight.”
 
-Action: A small controlled push establishes the dry branch, then settles before one brief painted lightning strike reaches it. A localized flame catches at the contact point; the bolt disappears before the final hold.
-Acting cue (not spoken): Sol's question is off-screen. Arthur's explanation of lightning's heat cues the strike and localized ignition; both speakers remain off-screen.
-Last frame: The same branch is about 10% larger in the closer ending crop. A small faceless painted flame is rooted at a newly darkened patch on the branch. The lightning has disappeared. The trunk and background geometry are unchanged; cool storm light continues with a faint local warm reflection only beside the flame.
+Action: One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.
+Acting cue (not spoken): Both voices stay off-screen. Arthur's explanation of lightning's heat cues the brief fixed-shape bolt, its complete disappearance and localized ignition.
+Last frame: The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.
 Next cut: Cut to a separate time/place for ember tending in Scene 04; do not imply that this particular branch or fire is tracked across the cut.
 
 SCENE 04 — 9 seconds (provisional)
+Teaching purpose: Show existing embers maintained by supported fuel placement.
 Setting and framing: Stable close-up from a gently elevated three-quarter angle. A charred bough and ember bed fill the middle half of the frame, with the contact point near x=58%, y=60%. One cropped anonymous human hand enters upper-right, gripping the far end of a single dry twig. Keep the twig tip, coals and supporting surfaces clear; background detail falls into broad cool earth shapes. Keep the lower fifth quiet.
 Lighting: Cool diffuse shade over ash-gray soil and charcoal wood, with small ember-orange accents. Existing embers cast a weak local warm tint on the twig underside and nearby palm. The caught flame strengthens only the local warmth at the end.
 Camera in generation: Generation: stable camera for the contact sequence.
 Editing note: No camera move; time the final hold to Arthur's take.
-First frame: One cropped human hand holds a single rigid dry twig with its tip just above the existing glowing embers. The hand grips the far end; the twig has not touched the ember bed. No mascot or human face is visible.
+First frame: One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.
 
 Narrator: “Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill.”
 
-Action: Place the single twig onto the existing ember bed, release it only after it is supported, and withdraw the one hand. A small flame catches at the contact point as one connected tending action.
-Acting cue (not spoken): Arthur's phrase about feeding the embers wood cues placement and release. Hold the caught flame while he distinguishes making fire from maintaining it.
-Last frame: The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement.
+Action: Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.
+Acting cue (not spoken): Arthur's phrase about feeding embers wood cues stable-grip placement, support, release and one-path withdrawal in sequence. Hold the supported twig and small contact flame while he distinguishes making fire from tending it.
+Last frame: The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement. The released twig is stationary and securely supported; the flame base is anchored at the twig–ember contact.
 Next cut: Cut wider from the same camera side for Scene 05, retaining the bough, added twig, ember arrangement and localized lighting. The human hand stays off-screen; Sol appears as presenter.
 
 SCENE 05 — 6 seconds (provisional)
+Teaching purpose: Show understanding of finding fire versus making it.
 Setting and framing: Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.
 Lighting: Use the same cool diffuse clearing shade and localized amber light as Scene 04's ending. Illuminate Sol coherently with that ambient light and only a restrained warm tint on his fire-facing side.
 Camera in generation: Generation: stable camera after the wider cut.
@@ -85,14 +98,16 @@ First frame: Sol stands grounded with both short arms gathered close to his oute
 Sol: “So finding fire wasn't the same as making it.”
 Narrator: “Right.”
 
-Action: Sol opens both short arms into a low 'I understand' presenting pose, then settles into its hold. Arthur's final confirmation cues the connected whole-face turn toward the fixed point above camera.
-Acting cue (not spoken): Sol's concluding sentence cues the open-armed gesture; Arthur's 'Right' cues the one final above-camera acknowledgment while holding it.
-Last frame: Sol holds both short arms slightly open in a clear, low, welcoming gesture of understanding. On Arthur's confirmation his whole face has turned toward the fixed point just above camera, with both original eyes visible and coherently placed. His feet remain planted. The tended wood and separate flame retain their arrangement.
+Action: Sol opens both short arms once into a small, low gesture of understanding. Move both arms from beside his flanks to the approved open position, preserving their original lengths and attachment points.
+
+Stop both arms cleanly and hold the final pose through Arthur’s “Right.” Keep Sol’s body orientation, facial markings, and planted feet unchanged. No additional turn, body rise, recoil, or bounce.
+Acting cue (not spoken): Sol's concluding sentence cues both arms opening once through a small low range; stop together and hold through Arthur's “Right,” without a face turn or body lift.
+Last frame: Sol holds both short arms slightly open in the approved small low gesture of understanding. Both arms retain their lengths and attachment points. His body orientation toward the fire, facial markings, eye positions, silhouette, flame layers and planted feet are identical to the first frame; no turn, body rise or bounce. The tended wood, added twig, separate small flame, crop and lighting are unchanged.
 Next cut: Hold the concluding pose long enough to read, then end. Final hold depends on the normal-rate voice tracks.
 
 ASSEMBLY AND APPROVAL
-Prompt revision only; no media generation. Show BOTH actual endpoints and obtain explicit approval before video. Scene 02 first reuses approved Scene 01 last unchanged; do not generate another image for that slot. Review actual clips for identity, painted depth, cadence, contacts and continuity.
-Use normal-rate voices at 1x. Editable captions and final timing follow actual takes. Camera/edit instructions here are planned, not implemented.
+Show BOTH actual endpoints and obtain explicit approval of each exact pair before video. The Scene 02 source/end exact reuse avoids duplicate generations. Review actual clips for identity, painted depth, exact on-twos cadence, facial drift, contacts and continuity.
+Use normal-rate voices at 1x. Editable captions and final timing follow actual takes. Editorial cameras and cadence enforcement are planned, not implemented.
 
 RESEARCH REFERENCES
 Fire 400 ka — Pathways to Ancient Britain
@@ -106,3 +121,6 @@ The study reports evidence interpreted as deliberate fire-making at Barnham arou
 Berna et al. — Fire evidence at Wonderwerk Cave
 https://www.pnas.org/content/pnas/109/20/E1215.full.pdf
 Burned bone and plant ash document burning in an archaeological context around one million years ago. This does not identify a person or establish the first ignition method.
+
+SCENE 05 ENDPOINT REVIEW NOTE
+The selected arms-only nano-v3 ending candidate retains a slight eye shape/angle mismatch from its starting frame. It is not approved or ready for animation. Nano-v4 also failed that check; a masked repair was rejected by the Higgsfield connector before submission. Prior versions are preserved. The corrected prompt requires fixed original eyes; resolve the asset mismatch before video.

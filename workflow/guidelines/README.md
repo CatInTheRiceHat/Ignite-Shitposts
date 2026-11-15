@@ -17,13 +17,13 @@ video must be 3–10 seconds; declare longer scenes as continuing subscenes.
 1. [Script guide](video-script-guide.md): connected dialogue, distinct visual
    teaching beats, provisional timing and timing to recorded voices.
 2. [Style guide](video-style-guide.md): shared matte paint treatment, overall
-   motion style, generation requests versus editing cadence, voices and type.
+   motion style, exact on-twos generation targets and editing verification, voices and type.
 3. [Shot integration and Sol](shot-integration-and-sol.md): character identity,
    purposeful acting, prop contact, exact frame reuse and clip assembly.
 4. [Image prompt template](image-prompt.md): visual simplicity, painted depth,
    supplied reference roles and matching-endpoint construction.
 5. [Video prompt template](video-prompt.md): action clarity, intentional camera
-   choices, stepped movement, continuity and removal of irrelevant boilerplate.
+   choices, two-frame motion cadence, continuity and removal of irrelevant boilerplate.
 
 Use the [workflow guide](../README.md) for commands and file locations, the
 [templates](../templates/) for starting files, and the
@@ -38,6 +38,8 @@ The revised [fire episode](../episodes/fire_discovery/higgsfield-prompts.txt) is
 Read current model settings from [generation.json](../config/generation.json) and exact speaker identities from [voices.json](../config/voices.json). Historical episode settings and template examples do not replace newer configuration or the current caption styling in the style guide. Writing or reviewing prompts does not authorize image, video or audio generation.
 
 ## Defaults and episode overrides
+
+The [motion style owner](video-style-guide.md#motion-style) specifies animation on twos: each source pose/state held for two consecutive frames at final 30 fps, 15 updates per second and normal playback. This supersedes vague “stepped poses,” default preparatory motion and mandatory face turns. Smooth editorial digital pushes may follow stepped source footage, with crop checks throughout. Exact cadence must be enforced and verified on actual footage during editing.
 
 New shorts start with a **30-second target, 9:16, painted 2D**. New skits
 use the style guide's cast: **Narrator / Arthur** off-screen and **Sol /
@@ -67,7 +69,7 @@ video prompts** (the continuous motion between each pair). Use matching
 scene IDs and keep reference inputs and settings outside the copyable text.
 Label exact endpoint reuse instead of requiring duplicate image generations.
 Use the [shot guide](shot-integration-and-sol.md) for camera, identity, acting,
-Narrator eyeline and continuity; the [image guide](image-prompt.md) for actual
+scripted acknowledgment and continuity; the [image guide](image-prompt.md) for actual
 supplied references; and the [style guide](video-style-guide.md) for paint and
 motion. The critique checklist retains frame-specific acceptance history;
 it does not turn a previous episode's staging into a shared default.

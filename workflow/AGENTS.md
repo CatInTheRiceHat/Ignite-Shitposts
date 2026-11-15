@@ -42,7 +42,7 @@ forward, while its scene layout and mechanical props do not.
   the geometry base but says its painted finish is missing. Use her graphic
   examples and gouache prompt wording for visible brushwork, layered color
   and paper texture on both Sol and the scene, with no inked outlines. Keep
-  the original eyes unchanged and open. The lantern clip guides gentle motion;
+  the original eyes unchanged and open. The lantern clip is a painted movement reference;
   it does not override these eye rules or the mascot geometry. Check the outer flame,
   side lobes, broad cream inner flame, low-set oval eyes and compact nub limbs.
   Explicitly preserve the source arms AND stubby feet, including their shapes,
@@ -63,3 +63,21 @@ forward, while its scene layout and mechanical props do not.
 
 Canonical commands run from the repository root as
 `python3 workflow/scripts/shorts.py ...`. See `guidelines/clip-review-guide.txt`.
+
+
+## Exact motion policy
+
+Follow workflow/guidelines/video-style-guide.md#motion-style from the repository
+root: animate on twos at final 30 fps, holding every source pose/painted state
+unchanged for two consecutive frames (15 updates per second) at normal speed.
+Longer holds use complete pairs. Apply this to Sol, visible human hands, moving
+props, flames and animated local lighting; keep background/texture stable.
+No interpolation, blending, optical flow or motion blur concealing the steps.
+Use short direct actions with clean stops, without unrequested preparation,
+windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera moves.
+Keep Sol's facial markings anchored to his body and eyes uniformly navy #1C2447;
+no independent face turn, neck, blinking, highlights or drift. A gesture change
+or listening hold can acknowledge Arthur without an automatic upward look.
+Enforce and verify cadence during editing; prompts alone do not prove it.
+Smooth planned editorial pushes may follow stepped footage; check all crops.
+Preserve current models, voice selections, caption styling and frame approvals.

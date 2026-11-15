@@ -72,3 +72,15 @@ must cover every chronological page and every required check, with unchanged
 evidence and explicit user approval of both exact stills. The production gate
 is also run by the direct Remotion final-render command; --draft stays clearly
 marked and is available for internal inspection of existing media.
+
+
+ON-TWOS AND CONTACT REVIEW
+Follow video-style-guide.md#motion-style. Inspect source-state pairs on the final
+30 fps timeline before any smooth editorial camera transform: unchanged two-frame
+poses, 15 updates per second, normal speed and complete-pair longer holds.
+Include visible hands, props, fire and animated local lighting, with background
+and paint texture stable. Reject interpolation, blending, optical-flow smoothing
+and concealing blur. Check final playback and camera crops throughout.
+Record frame-index/timestamp evidence for fixed facial markings, unchanged solid
+navy #1C2447 eyes and sequential placement/support/release/withdrawal contacts.
+A prompt or 30 fps technical probe does not establish these checks passed.

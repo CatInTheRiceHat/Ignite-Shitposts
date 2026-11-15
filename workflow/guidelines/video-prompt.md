@@ -56,15 +56,17 @@ Use this structure when the scene depends on a change of state. Identify what ch
 
 ## Motion and continuity
 
-Give each clip one teaching purpose and one main visible action. Closely connected stages can form that action when their order is clear, such as approach, contact, release and settle. For a complicated sequence, simplify it or declare continuing subscenes and endpoints in the shot plan. Sol's appearance should contribute to the beat; a mechanism-focused cutaway can omit him.
+Give each clip one teaching purpose and one main visible action. Closely connected stages can form that action when their order is clear, such as placement, support, release and withdrawal. For a complicated sequence, simplify it or declare continuing subscenes and endpoints in the shot plan. Sol's appearance should contribute to the beat; a mechanism-focused cutaway can omit him.
 
-Specify movement quality directly: stepped hand-animated poses, a quick decisive gesture, a measured weight shift, or a controlled glide where appropriate. Use deliberate preparation and brief held poses when they support the painted style. Describe direction, stopping point and prop contact. The [motion style](video-style-guide.md#motion-style) distinguishes this generation request from exact exposure/frame cadence established and enforced during editing. Verify both motion and cadence in playback; do not claim a requested cadence has been achieved from the prompt alone.
+Use the exact [shared motion rules](video-style-guide.md#motion-style): animate on twos, holding each pose or painted state unchanged for two consecutive frames of the final 30 fps timeline (15 pose updates per second). Longer holds use complete pairs; action and playback remain normal speed. Apply this to every visible animated subject, including hands, moving props, flames and animated local lighting. Keep background and painted texture stable, without interpolation, blending, optical-flow smoothing or concealing motion blur. Include applicable subjects in each independently usable prompt.
 
-Choose the camera for the teaching purpose: a close-up for a critical contact, a controlled push for a reveal, or a stable view for listening, anticipation or payoff. Specify size, height, angle, side and crop; a generated move needs explicit start and end views. Record whether each move belongs in generation or editing. For an editorial push, generate a stable source and put the crop instructions outside the copyable block; avoid performing the same push twice.
+Specify short, direct paths, original attachment points, constant limb lengths and clean stops. Add no unrequested preparation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera movement. Keep Sol’s face anchored to his body and both eye ovals uniformly navy #1C2447, with no highlights, whites, extra pupils, blinking or drift. Aim for this during generation; enforce and verify exact two-frame cadence during editing.
+
+Choose the camera for the teaching purpose: a close-up for a critical contact, a controlled push for a reveal, or a stable view for listening, anticipation or payoff. Specify size, height, angle, side and crop; a generated move needs explicit start and end views. Record whether each move belongs in generation or editing. For an editorial push, generate a stable source and put crop instructions outside the copyable block. A smooth digital move may follow cadence enforcement on the source footage; check crops throughout the move. Do not perform the push twice.
 
 Match the ending pose, prop state, screen direction and light to the next shot. Reuse an approved ending asset unchanged when the next starting state is exact, following the [endpoint rules](shot-integration-and-sol.md#specify-the-first-and-last-frames). Keep lighting causal: an unlit starting object cannot already cast light from its later ignition.
 
-For Ignite scenes, carry the approved painted 2D treatment through the motion. When Sol appears, preserve his reference features and mouthless face, using body language and eye direction to convey his reaction. Follow the current voice configuration when adding dialogue in the edit.
+For Ignite scenes, carry the approved painted 2D treatment through the motion. When Sol appears, preserve his reference features and mouthless face, using the scripted gesture or listening hold to convey his reaction without independent face or eye movement. Follow the current voice configuration when adding dialogue in the edit.
 
 ## Remove boilerplate and contradictions
 
@@ -81,7 +83,7 @@ Run the shared [final prompt review](checklist.md#final-prompt-review) before us
 - Keep the original eye shapes unchanged through the clip, with no closing or expressive reshaping.
 - Check that painted shapes stay consistent and the background retains accurate geometry and scale.
 - Check that motion and effects support the main action and keep the frame easy to read.
-- Verify stepped poses, useful holds and the editing cadence in playback; check that camera movement and technical contacts remain readable.
+- Verify unchanged source poses in exact consecutive two-frame pairs on the final 30 fps timeline, with normal-speed action and complete-pair longer holds. Inspect every animated subject, facial markings and physical contacts; inspect source cadence before any smooth editorial camera transform and check final crops in playback.
 - Verify that a transformation completes in the intended order and ends in the specified state.
 - Check that the next shot continues naturally from the final pose.
 

@@ -1,0 +1,142 @@
+{
+  "version": 1,
+  "packet_id": "085dfe65159253e4d552c684e44f7222f462ced4445040d3c374ac3a0f93d4fe",
+  "binding": {
+    "scene": "02",
+    "stage": "frames",
+    "contract_sha256": "b3bfc41013df094d8b30575408c1bd1fdeb583887fd37a50a4d1f8d6b8e208b6",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/02-first.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/02-last.png",
+        "sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    }
+  },
+  "created_at": "2026-11-15T05:44:58.949779+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Where Sol is visible, compare the COMPLETE original mascot at a similar size: silhouette, tip/lobes, red/orange/cream contour paths and widths, face/eye proportions and limbs. Do not pass a generic flame character. Where Sol is off-screen, compare the planned setting/props and approved frame pair without requiring him. Keep user design approval separate.",
+        "eyes": "Both eye ovals stay uniformly navy #1C2447, unchanged in reference shape, size, spacing and placement. No highlights, whites, extra pupils, blinking, reshaping or facial-feature drift. Facial markings remain anchored to the body; no independent slide/rotation, neck or body reshaping to fake a head turn.",
+        "flame_and_limbs": "Match the original flat whole silhouette and all nested contour paths, layer widths and proportions. Retain source red foot nubs and short arm shapes. Reject sculpted/inflated volume, a widened or raised cream mask, a new shaded lower rim, or remodeled hand/foot shapes. Painted texture cannot redesign the source geometry.",
+        "framing_and_props": "Match the active scene first/last crops, camera, required character/prop counts and physical attachments. Apply only episode-specific requirements; an earlier episode does not supply mandatory props for a new story.",
+        "contacts_and_action": "One specified direct action, short path, original limb lengths/attachment points and clean stop. No unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera movement. For placement, keep grip stable while lowering; support before release; prop stationary afterward as the hand withdraws along one clear path. Inspect actual consecutive frames for contact and support.",
+        "mechanical_direction": "Inspect consecutive real frames for the planned direction, rigid connections when present, and causal order of physical events. Do not infer correct movement or causality from a prompt, label, endpoint or successful decode.",
+        "object_continuity": "Maintain the identity and count of planned objects. A tracking mark, when present, stays attached to the same object and cannot jump, multiply or fade to fake movement. Fire may flicker or fuel may glow only as the approved action requires. Anchor actual fire to its ignition/fuel contact; any animated local lighting follows the two-frame cadence without unplanned whole-scene brightness pulsing. A transient painted effect must disappear completely when the shot requires it.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Inspect actual source-frame pairs on final 30 fps timeline: each pose/painted state unchanged for two frames, 15 pose updates per second at normal speed; longer holds use complete pairs. Apply to Sol, visible human hands, moving props, flames and animated local lighting. Background and painted surface texture stay stable. Reject interpolation, blending, optical-flow smoothing and motion blur concealing steps. Check source cadence before smooth editorial transforms, then final playback/crops. Verify planned action and ending hold against actual voice timestamps; no default Narrator face turn. Sol may be absent.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints.",
+        "painted_art_style": "Visible soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes cover Sol, props and environment consistently. Forms use light/color without inked outlines. Compare the selected graphic references. A smooth logo-like mascot with only a grain overlay fails even if its geometry is correct. Preserve the source character and clear mechanical contacts through the paint."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes.",
+        "Character geometry and painted art style must each pass. Approval of one does not establish the other or approve the complete frame pair.",
+        "Record frame-index/timestamp evidence for exact two-frame cadence, facial anchoring and hand-prop contact. Prompt wording or 30 fps metadata alone does not prove these checks passed."
+      ]
+    },
+    "scene": {
+      "id": "02",
+      "first_frame": "Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.",
+      "last_frame": "Reuse keyframes/01-first.png unchanged at keyframes/02-last.png: both short arms rest beside Sol's flanks. Body orientation toward the bough, facial markings, other arm, feet, silhouette and flame layers are unchanged from the source pair. Camera, wood, separate fire, clearing and overcast lighting retain the original view. No face turn.",
+      "action": "Begin in the exact approved ending pose from Scene 01. Sol lowers the presenting arm once along a short, direct path until it rests beside his flank, then holds still to listen to Arthur.\n\nKeep his body orientation, facial markings, other arm, and planted feet unchanged. Preserve the arm’s original length and attachment point. No face turn, nod, preparatory movement, or settling bounce.",
+      "framing_prompt": "Continue the exact Scene 01 source view, with the same Sol, bough, clearing and lighting. Generate at the original medium-wide framing. The tighter response view is an editing-only digital push; endpoint assets remain uncropped.",
+      "camera": {
+        "shot_size": "Same medium-wide source view; tighter response view in editing.",
+        "height_and_angle": "Same camera height and side as Scene 01.",
+        "movement": "Generation: stable camera, no zoom or crop change.",
+        "editing": "After the brief matching opening, apply one controlled digital push from 100% to 120%, anchored at x=50%, y=56%, then hold. Keep the full flame tip, feet and bough visible; do not ask generation to duplicate this move. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.",
+        "start_view": "Uncropped source is pixel-identical to approved Scene 01 last.",
+        "end_view": "Generated source retains the original crop; edited presentation ends at 120%."
+      },
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "We don't know. Natural fires existed long before people."
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "Arthur's opening answer cues one lowering of the presenting arm; the unchanged body and face hold the listening pose.",
+          "eye_shape": "Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.",
+          "gaze": "Unchanged from the first frame; facial markings fixed to the body.",
+          "body": "Begin in the exact approved ending pose from Scene 01. Sol lowers the presenting arm once along a short, direct path until it rests beside his flank, then holds still to listen to Arthur.\n\nKeep his body orientation, facial markings, other arm, and planted feet unchanged. Preserve the arm’s original length and attachment point. No face turn, nod, preparatory movement, or settling bounce."
+        }
+      ],
+      "sol_visible": true,
+      "image_prompts": {
+        "first": "REUSE ENTRY: use the approved Scene 01 ending image unchanged. Required state: Sol holds his short arm nearest the bough in an outward presenting gesture; his other arm is lowered, both feet are planted and his face is directed toward the wood. Preserve the original medium-wide composition, clear gap to the faceless bough fire, layered clearing, soft overcast light and faint local fire warmth. This endpoint is the same source image, with no newly generated variation.\n\nMatch the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without stretching his body. Actual wood fire stays separate from Sol.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
+        "last": "REUSE ENTRY: reuse the accepted Scene 01 starting asset keyframes/01-first.png unchanged at keyframes/02-last.png; do not generate a variation. It supplies the arms-down ending after the presenting arm has lowered once. Keep Sol's body orientation toward the bough, facial markings, other arm, planted feet, silhouette, flame layers, camera crop, wood, fire and lighting unchanged. No face turn.\n\nMatch the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. No highlights, whites, extra pupils, blinking or facial-feature drift. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and filled flame layers without stretching his body. Actual wood fire stays separate from Sol.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
+      },
+      "video_prompt": "Begin in the exact approved ending pose from Scene 01. Sol lowers the presenting arm once along a short, direct path until it rests beside his flank, then holds still to listen to Arthur.\n\nKeep his body orientation, facial markings, other arm, and planted feet unchanged. Preserve the arm’s original length and attachment point. No face turn, nod, preparatory movement, or settling bounce.\n\nUse the unchanged stable medium-wide source view from Scene 01, with no generated zoom. Preserve the bough, clearing and overcast light. The separate wood flame stays anchored; only its small upper shapes and local reflected light change.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.\n\nApply this cadence to Sol, the separate wood flame and animated local reflected lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.\n\nUse short, controlled movements with clear starting and ending positions. Move directly through the specified action and stop cleanly. Add no unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying, or camera movement.\n\nMatch the original Sol artwork: compact proportions, asymmetric flame silhouette, original red/orange/cream colors and layer widths, short rounded arms and tiny stubby feet. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Keep actual wood fire separate from his solid body.\n\nPreserve Sol’s silhouette, proportions, flame layers, and limb lengths throughout. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn.\n\nKeep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nGeneration should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.\n\nNo added text or generated dialogue.",
+      "start_sec": 3,
+      "end_sec": 7
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "paint": "workflow/assets/reference-art/Spring.jpg",
+      "paint_examples": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "captions": "Important action stays above y=76%; lower foreground near y=80–90% stays quiet for editable captions.",
+      "character_count": "One Sol where specified; no Sol in Scenes 03/04.",
+      "eyes": "Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.",
+      "narrator_eyeline": "Arthur's answer is acknowledged through the specified arm change or listening hold. Body orientation, facial markings and planted feet stay unchanged in the arm-only scenes; no above-camera look or face turn.",
+      "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+    }
+  },
+  "technical": {},
+  "coverage": {},
+  "evidence": [
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg"
+  ],
+  "evidence_sha256": {
+    "evidence/first.jpg": "73b94d9903dda22c6bbdde6461bb73565fe6b101adbb20aebfca45708c6630e1",
+    "evidence/frame-comparison.jpg": "b8a858acba9a8ba3c87f94b2dc2d8a3a936c7b64dab5437019122a1ae0051afb",
+    "evidence/last.jpg": "95bcc39e03bf2efe027dbaade78e026bfcc0f01ccadc20e84a0c2d62a52931fe",
+    "evidence/paint.jpg": "7df5af3ac758a9a2a751be5efe5bb3c3d419cba2170c6b19bd375b2d9916e187",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432"
+  },
+  "state": "awaiting user approval of both frames"
+}

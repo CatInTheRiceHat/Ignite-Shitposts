@@ -13,7 +13,7 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 ## Art direction
 
 - Use Ignite’s existing **soft, matte painted 2D** look, established by the approved scene artwork. Keep broad simplified shapes, restrained detail, subtle texture and softened painted edges. Build depth through overlapping layers, gentle shading, coherent perspective and contact shadows; parallax is optional when the chosen camera move calls for it.
-- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Use the provided graphics and gouache prompt language for painted finish. The lantern video guides gentle movement; use the original mascot silhouette, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
+- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Use the provided graphics and gouache prompt language for painted finish. The lantern video is a painted movement reference subordinate to the current on-twos policy; use the original mascot silhouette, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
 - Keep the staging welcoming, playful and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the actual setting, time and light sources determine the scene palette; warmth is not an instruction to add firelight to an unlit scene.
 - Treat the earlier *Arcane* reference as shorthand for visibly painted surfaces and expressive lighting. Use Ignite’s own artwork to set the character design and overall look. Flag glossy 3D shading, a clay-render look, and generic vector art when they break the painted style.
 - Paint Sol, props and surroundings together with the same brushwork, perspective and coherent light. Shading should communicate the reference form and volume while preserving its proportions. Avoid inflated anatomy, glossy or clay-like rendering, generic vector shapes, heavy grain and excessive decoration.
@@ -32,22 +32,38 @@ Preserve Sol's exact geometry while painting the colored surfaces. The red outer
 ## Voices and performance
 
 - **Arthur** is the default off-screen narrator. Use Higgsfield’s built-in Arthur voice with a warm nature-documentary delivery, patient pauses, and dry humor.
-- **Sol** is the curious student and uses the user's **Higgsfield custom voice named Sol**. Use the exact voice ID and `voice_type: element` in [the shared voice cast](../config/voices.json). Keep Sol mouthless. Time gestures and whole-face orientation to dialogue while preserving his original eye design.
+- **Sol** is the curious student and uses the user's **Higgsfield custom voice named Sol**. Use the exact voice ID and `voice_type: element` in [the shared voice cast](../config/voices.json). Keep Sol mouthless. Time direct gestures and intentional listening holds to dialogue while keeping his facial markings anchored to his body.
 - Label every spoken turn **Narrator:** or **Sol:** in the review script. Let both voices respond to the scene and to each other. Sol can ask a substantive follow-up; his part is not limited to one-word reactions. Preserve existing episode voice overrides, including earlier single-voice Cub narration.
 - Use connected, conversational sentences with varied lengths. Arthur's dry humor should come from the situation and delivery. Remove forced slogan endings and repeated clipped clauses. Give an explanation enough words to make its cause and effect clear.
-- When Arthur addresses visible Sol, use the [shot guide's Narrator eyeline and acting cues](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Let each scene choose an expressive gesture, orientation, weight shift or purposeful interaction rather than repeating one listening pose. Keep the narrator off-screen and avoid redundant reaction loops.
+- When Arthur addresses visible Sol, use the [shot guide's listening and acting cues](shot-integration-and-sol.md#purposeful-performance-and-prop-contact). Let each scene choose an expressive gesture, orientation, weight shift or purposeful interaction rather than repeating one listening pose. Keep the narrator off-screen and avoid redundant reaction loops.
 
 ## Sol's cartoon expression and movement
 
-Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity) for Sol. Original open oval eyes remain consistent relative to his face with coherent perspective during turns; personality comes from the action and its timing. Anatomy preservation allows expressive staging. The current identity rules supersede the historical eye-morph and squash/stretch examples in earlier discussions.
+Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity). Personality comes from purposeful gestures and timing. Preserve the body silhouette, flame layers and limb lengths; facial markings never move independently or simulate a head turn. No automatic anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or tip follow-through. Explicitly scripted whole-body movement must retain the reference form. These current rules supersede older eye-morph, squash/stretch and mandatory upward-look examples.
 
 ## Motion style
 
-Specify the movement quality directly. Use stepped, hand-animated pose-to-pose character movement with deliberate silhouettes, connected preparation and action, and brief holds when they clarify the beat. Quieter listening, anticipation and payoff poses are useful choices alongside expressive gestures; no single reaction is the default for every scene. Use the actual lantern video for painted movement and held-pose rhythm, without inheriting its eye changes or imposing its exact action on other episodes.
+At the existing **30 fps export**, animation on twos means **15 pose updates per second**, with normal-speed playback. Use this shared motion block in generation prompts, tailoring the named subjects to what is visible:
 
-Requesting a stepped look in generation does not establish exact exposure/frame cadence. Record the stylistic request separately from the editing plan; establish and enforce the exact cadence during editing at **30 fps delivery**, then verify it in playback with the actual voices. Preserve paint and identity between poses. Avoid texture crawl, smeared transitions and blanket frame holds that obscure camera movement or physical contact.
+```text
+Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.
 
-Keep technical movement smooth when stepping would hide contact, engagement or relative motion. Choose camera behavior for the explanation and say whether a push belongs in generation or editing; the [video prompt guide](video-prompt.md#motion-and-continuity) owns those shot instructions. Check the result rather than assuming frame-rate conversion alone produces the desired style.
+Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.
+
+Use short, controlled movements with clear starting and ending positions. Move directly through the specified action and stop cleanly. Add no unrequested anticipation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying, or camera movement.
+
+Preserve Sol’s silhouette, proportions, flame layers, and limb lengths throughout. His face is part of his body: never slide or rotate the facial markings independently, introduce a neck, or reshape the body to simulate a head turn.
+
+Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, and spacing. No highlights, whites, extra pupils, blinking, or facial-feature drift.
+
+Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.
+```
+
+Omit Sol's identity paragraphs when he is absent. Do not replace this cadence with the ambiguous phrase “stepped poses.” A prompt is a generation target, not evidence of compliance.
+
+During editing, enforce two-frame source-pose holds on the final 30 fps timeline before applying any editorial camera transform. Align longer holds, action trims and source-state changes to complete two-frame pairs. Preserve natural action timing and 1x voice playback; inspect consecutive source frames and final playback for facial drift and prop contact. Do not use optical flow, frame blending or concealed interpolation as a cadence conversion.
+
+A purposeful digital push or crop can remain smooth over the stepped footage when the shot plan explicitly assigns it to editing. Check the crop throughout the move, keeping the face, limbs and important contacts visible. Do not apply the same move during generation. Record exact cadence as unverified until actual footage has been edited and checked.
 
 ## Pacing, motion, and type
 
@@ -68,8 +84,8 @@ Keep technical movement smooth when stepping would hide contact, engagement or r
 - [ ] Arthur and Sol are distinct in the mix. Captions use the approved Ramento treatment, are timed to both voices, and sit clear of the subject. Replace any visible draft placeholders before release.
 - [ ] Dialogue flows like a conversation, explains unfamiliar mechanisms clearly, and resolves the scene without a forced punchline.
 - [ ] The clip durations support the performances and visible actions, with continuity between planned first and last frames.
-- [ ] Expressive poses and original eye designs read at phone size; each reaction has a clear purpose, cue, target and result. Stepped movement and exact editing cadence have been checked in playback.
-- [ ] When the Narrator addresses visible Sol, Sol acknowledges the voice above the camera and the plan explicitly cues any return look at the mechanism.
+- [ ] Expressive poses and original eye designs read at phone size; each reaction has a clear purpose, cue, target and result. Two-frame source-pose holds at 30 fps (15 updates per second), normal-speed action, stable texture and the absence of interpolation have been checked in consecutive frames and playback. Check smooth editorial camera crops separately.
+- [ ] When the Narrator addresses visible Sol, the scripted gesture change or listening hold acknowledges the voice without an automatic face turn or nod.
 - [ ] Review the real frames at about 360 × 640 as well as full resolution. The first action, gaze, object identity, contact points and final reaction remain legible, and one or two caption lines clear the platform controls. Planned bounding boxes alone do not establish that finished footage passes this check.
 
 Before generation, also run the shared [final prompt review](checklist.md#final-prompt-review). Keep the caption treatment above and current voice selections; older episode examples and legacy configuration do not replace them.
