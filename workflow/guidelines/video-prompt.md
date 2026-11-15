@@ -16,6 +16,18 @@ proportions. Painted surface treatment must preserve the asset design. Check
 the source mascot examples alongside the approved frames; earlier generated
 anatomy does not override those originals.
 
+## Reusable painted art direction
+
+```text
+Use soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes. Define forms through light and color, with no outlines, black strokes or inked edges. Paint every visible subject, prop and part of the environment with the same brushwork and surface texture. Keep clear spacing, gentle light and accurate, readable forms.
+```
+
+Carry that finish from the approved first frame through the whole clip,
+including Sol's colored layers and all visible props. Keep the brushwork stable
+over time and preserve source contours, proportions and material contacts.
+The original eyes remain unchanged; perform through posture and gesture.
+The scene determines format, palette and subject count.
+
 ## How to fill it in
 
 Read the scene brief, approved keyframes, and project style guide. Choose the main action, camera behavior, starting state, and ending state. Replace the bracketed fields and remove optional sentences that do not apply. Use concrete verbs and visible outcomes.
@@ -65,7 +77,9 @@ For Ignite scenes, carry the approved painted 2D treatment through the motion. W
 - Play the clip and inspect the beginning, middle, and end for the requested action and timing.
 - Check character identity, prop shape, contact, movement direction, and camera stability.
 - Compare Sol's arms, feet, eyes and flame layers with the source assets through the clip and across scene cuts; reject growth, reshaping or a different mascot design.
-- Check that brushwork and simple shapes stay consistent, and the background retains accurate geometry and scale.
+- Check visible gouache brushwork, layered color and paper texture on Sol as well as the props and environment; reject a smooth logo-like character on a painted background.
+- Keep the original eye shapes unchanged through the clip, with no closing or expressive reshaping.
+- Check that painted shapes stay consistent and the background retains accurate geometry and scale.
 - Check that motion and effects support the main action and keep the frame easy to read.
 - Verify that a transformation completes in the intended order and ends in the specified state.
 - Check that the next shot continues naturally from the final pose.

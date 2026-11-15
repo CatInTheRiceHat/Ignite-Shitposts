@@ -1,5 +1,8 @@
 # Ignite production instructions for Claude
 
+Current episode: **How Fire Was Discovered**, workflow/episodes/fire_discovery/.
+The user changed the story topic; preserve the earlier escalator episode.
+
 Read `workflow/AGENTS.md`, `workflow/README.md` and the linked creative guides
 from the repository root. All new work belongs under `workflow/`.
 
@@ -21,8 +24,11 @@ The order is mandatory: generate both stills; show BOTH to the user; wait for
 explicit approval of that exact pair; then generate the Higgsfield clip.
 Run independent actual-footage review before production use. Read
 `workflow/config/sol-references.json`: use Mascot.png and the additional mascot
-examples for Sol's design, retain the paint treatment the user accepted, and
-use the lantern video for finish/movement. The character/pair remain unapproved.
+examples for Sol's design. V4 establishes the accepted identity direction;
+its surface still needs visible gouache brushwork, layered color and paper
+texture on both Sol and the scene, with no inked outlines. Use the supplied
+graphic examples for finish and the lantern video for gentle movement. Keep
+the original eyes unchanged and open. The frame pair remains unapproved.
 Keep every mascot feature consistent across clips, including the original
 eyes, short rounded arms and stubby feet; paint must preserve their design.
 Never record frame approval on the user's behalf. Preserve all existing media.

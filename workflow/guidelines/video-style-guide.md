@@ -3,8 +3,8 @@
 Use the shared Gemini Omni Flash 1.2 video settings in `../config/generation.json`.
 Generate and show the actual first AND last stills to the user, and obtain
 explicit approval of both before animation. The mascot design comes from `../config/sol-references.json`: use Mascot.png
-and the additional supplied examples. The current paint treatment is accepted,
-but the escalator character/pair is not approved. A dedicated reviewer must inspect actual
+and the additional supplied examples. Elaine accepts the v4 mascot-design
+direction, but its painted finish still needs work; the frame pair is not approved. A dedicated reviewer must inspect actual
 footage after generation; colors or successful technical checks do not prove
 that Sol matches the original mascot assets.
 
@@ -13,11 +13,17 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 ## Art direction
 
 - Use Ignite’s existing **painted 2D** look. Match the approved scene references for brush texture, edge treatment, and lighting. Build depth with overlapping painted layers, value contrast, and gentle parallax.
-- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Preserve the paint treatment the user accepted. The lantern video guides finish and gentle movement; use the original mascot outline, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
+- Follow `../config/sol-references.json`: Mascot.png and the additional mascot examples define the character. Use the provided graphics and gouache prompt language for painted finish. The lantern video guides gentle movement; use the original mascot outline, broad cream inner flame, low-set oval eyes and compact nub limbs when translating it into paint.
 - Keep the staging warm, playful, and easy to read on a phone. Use Ignite cream `#FFF8F0`, orange `#F07B2A`, and dark orange `#D46A20` for titles, accents, or overlays where they fit. Let the subject and reference art guide the scene palette.
 - Treat the earlier *Arcane* reference as shorthand for visibly painted surfaces and expressive lighting. Use Ignite’s own artwork to set the character design and overall look. Flag glossy 3D shading, a clay-render look, and generic vector art when they break the painted style.
 - Give Sol the same brushwork, perspective, and light as the scene. Use approved Sol art as a character reference for generating the painted keyframe. See the shot guide for the actual generation steps.
 - Preserve every mascot feature across clips. Match the original short rounded arms and stubby feet, including their shapes, colors, lengths and attachment points. Match the original eyes rather than giving them new pupils or white highlights. The painted finish applies to the existing design; it must not create a different mascot. See Elaine's [critique checklist](checklist.md).
+
+### Painterly surface treatment
+
+Use soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes. Define forms through light and color, with no outlines, black strokes or inked edges. Paint every visible subject, prop and part of the environment with the same brushwork and surface texture. Keep clear spacing, gentle light and accurate, readable forms.
+
+Preserve Sol's exact geometry while painting the colored surfaces. The red outer flame is a filled layer, not inked linework. Keep navy eyes solid and unchanged. Palette, format and scene contents follow the episode; the supplied seasonal/office prompts establish art direction only.
 
 ## Voices and performance
 
@@ -25,12 +31,12 @@ Read this before generating art or editing an Ignite educational short. Pair it 
 - **Sol** is the curious student and uses the user's **Higgsfield custom voice named Sol**. Use the exact voice ID and `voice_type: element` in [the shared voice cast](../config/voices.json). Keep Sol mouthless. Time his eye shapes and body language to the dialogue in the edit.
 - Label every spoken turn **Narrator:** or **Sol:** in the review script. Let both voices respond to the scene and to each other. Sol can ask a substantive follow-up; his part is not limited to one-word reactions. Preserve existing episode voice overrides, including earlier single-voice Cub narration.
 - Use connected, conversational sentences with varied lengths. Arthur's dry humor should come from the situation and delivery. Remove forced slogan endings and repeated clipped clauses. Give an explanation enough words to make its cause and effect clear.
-- When the Narrator speaks directly to Sol and Sol is visible, let Sol break the fourth wall: his eyes lead an upward turn toward a fixed point just above the camera, then his flame body and tip follow. Use curious or listening eye shapes and a readable held pose. The Narrator remains off-screen. When a line directs attention to a mechanism, Sol may follow that cue and then look back up for the response. Record those gaze changes explicitly.
+- When the Narrator speaks directly to Sol and Sol is visible, let Sol break the fourth wall: his eyes lead an upward turn toward a fixed point just above the camera, then his flame body and tip follow. Keep the original eye shapes unchanged and convey listening through the whole-face turn and a held body pose. The Narrator remains off-screen. When a line directs attention to a mechanism, Sol may follow that cue and then look back up for the response. Record those gaze changes explicitly.
 - Stage one clear acknowledgment of Arthur, then let Sol follow the demonstrated object. Add another look upward only when a new spoken exchange requires it. Use eye direction, body lean and held poses for most acting; avoid stacking eye morphs, a double-take, a bounce and a camera move onto one brief reply. Keep the source mascot's eyes, short arms, stubby feet and proportions consistent through these pose changes.
 
 ## Sol's cartoon expression and movement
 
-Sol is mouthless. Keep the original mascot examples' two small dark oval eyes low on the cream face, at the source size and spacing throughout the performance. Convey attention through whole-face turns and small body leans. A natural blink may close both eyes together when cued. The current direction replaces the earlier exaggerated eye-morph vocabulary; do not enlarge one eye, collapse one into a dot or replace the pair with crescents. Preserve the painted orange/cream layers and a softly tapering, wispy flame tip.
+Sol is mouthless. Keep the original mascot examples' two small dark oval eyes low on the cream face, at the source size and spacing throughout the performance. Convey attention through whole-face turns and small body leans. Keep the original eyes unchanged and open: no blinking, closed-eye curves, squinting or widening. The current direction replaces the earlier exaggerated eye-morph vocabulary; do not enlarge one eye, collapse one into a dot or replace the pair with crescents. Preserve the painted orange/cream layers and a softly tapering, wispy flame tip.
 
 | Acting intent | Eyes | Supporting pose |
 | --- | --- | --- |
@@ -40,7 +46,7 @@ Sol is mouthless. Keep the original mascot examples' two small dark oval eyes lo
 | Following movement | Retain the same paired ovals | Track with a restrained whole-face turn; body follows slightly |
 | Understanding / pleased | Retain the same paired ovals | Relax the body into a quiet, grounded ending pose |
 
-Name the gaze target, body pose and cue for each turn. Keep the accepted painted finish on the original mascot's flame outline and layer arrangement, including its gently tapering tip. Let the tip trail gently after a turn and settle. Match the lantern video's small deliberate movements and held poses while retaining compact limbs and recognizable proportions.
+Name the gaze target, body pose and cue for each turn. Apply the desired gouache finish to the original mascot's flame outline and layer arrangement, including its gently tapering tip. Let the tip trail gently after a turn and settle. Match the lantern video's small deliberate movements and held poses while retaining compact limbs and recognizable proportions.
 
 Keep technical parts mechanically accurate while matching the lantern artwork's painted finish. Motion should reveal the explanation clearly, with supported feet, engaged chains and readable roller contact.
 
@@ -58,7 +64,8 @@ Keep technical parts mechanically accurate while matching the lantern artwork's 
 
 - [ ] The opening reads immediately at phone size.
 - [ ] Art texture and lighting feel consistent across adjacent shots.
-- [ ] Sol's eye changes match the planned expressions, retain the original color and facial placement, and return to the intended ending pose. His flame design and colors stay recognizable through squash and stretch. He belongs in the same painted space as the props.
+- [ ] Sol's eyes remain identical to the reference throughout; body poses carry the performance without stretching the mascot. His exact flame layers and proportions stay intact.
+- [ ] Sol, props and background all show the same visible gouache brushwork, layered color and paper texture, with no inked outlines.
 - [ ] Motion and transitions draw attention to the explanation. The reveal remains visible long enough to understand.
 - [ ] Arthur and Sol are distinct in the mix. Captions use the approved Ramento treatment, are timed to both voices, and sit clear of the subject. Replace any visible draft placeholders before release.
 - [ ] Dialogue flows like a conversation, explains unfamiliar mechanisms clearly, and resolves the scene without a forced punchline.
