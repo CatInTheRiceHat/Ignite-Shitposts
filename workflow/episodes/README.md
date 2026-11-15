@@ -7,6 +7,7 @@ episode's own `remotion/` folder.
 
 | Episode | Editable source | Media and renders |
 | --- | --- | --- |
+| [How Fire Was Discovered](fire_discovery/script.txt) — current draft | Complete Sol/Arthur storyboard, 10 image / 5 video prompts, provisional edit | Planned keyframes/, clips/, audio/ and renders/; no media generated |
 | [Escalator](escalator/script.txt) | Complete skit/storyboard, Higgsfield prompts, shot plan and full-screen `edit.json` | `keyframes/`, `clips/`, separate `audio/` takes and `renders/` |
 | [Calculus pilot](calculus_pilot/README.md) | Narration, Python `edit.json`, shot plan and Flow prompts | Its `keyframes/`, `clips/`, `audio/` and `renders/` |
 | [Zipper demo](zipper_demo/README.md) | [edit.json](zipper_demo/edit.json), rendered by the shared engine | Its `public/` assets and `renders/` outputs |

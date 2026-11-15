@@ -1,5 +1,9 @@
 # Ignite Shorts workspace
 
+- Current episode: **How Fire Was Discovered**, in workflow/episodes/fire_discovery/.
+  The user switched from the escalator topic. Preserve that earlier draft and
+  use the new episode script and prompts for current work.
+
 - Read `workflow/guidelines/checklist.md` before prompts, generation and media
   review. Keep this running record updated with Elaine's critiques, preserving
   their scope and latest clarifications. Follow `workflow/AGENTS.md` for details.
@@ -12,7 +16,8 @@
 - Generate each scene's first and last stills, show BOTH to the user, and wait
   for explicit approval of that exact pair BEFORE generating its Higgsfield
   clip. Do not treat a request to fix an earlier version as approval of new
-  stills. The current escalator character is unapproved. Read
+  stills. Elaine accepts the v4 mascot-design direction, but it needs the
+  gouache finish from her graphic examples; the frame pair is unapproved. Read
   `workflow/config/sol-references.json`: Mascot.png and the new mascot examples
   control design; retain the paint treatment the user accepted. The lantern
   video guides finish/motion. Do not replace the mascot's broad cream inner
@@ -56,6 +61,10 @@
   surface treatment while preserving the asset design. Use gaze, restrained
   body poses and gentle flame-tip follow-through for acting; do not redesign
   the eyes or lengthen limbs. Read the latest critique checklist and guides.
+- Use soft gouache brushwork, layered color and subtle paper texture on Sol,
+  props and surroundings alike. Define forms through light and color without
+  inked outlines. Keep the original eyes unchanged and open; body poses carry
+  expression. Apply this art direction to the episode's own setting and format.
 - Make every shot specific: camera height and angle, shot size, subject
   placement and scale, crop, camera movement, and exact visible first/last
   states. Keep mechanical motion accurate while exaggerating performance

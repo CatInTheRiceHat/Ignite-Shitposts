@@ -10,6 +10,24 @@ Build a clean, accurate background with the environmental details needed to unde
 
 Let one action or teaching point lead the composition. Use background contrast and detail sparingly so the subject reads immediately at phone size. Keep decorative effects restrained and use them only when the scene calls for them.
 
+## Reusable painted art direction
+
+Elaine's office, beach and spring examples establish the rendering language.
+Carry this treatment into the episode's own setting, palette, lighting and
+format. Their character counts, landscape layouts and seasonal props are
+specific to those examples.
+
+```text
+Use soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes. Define forms through light and color, with no outlines, black strokes or inked edges. Paint every visible subject, prop and part of the environment with the same brushwork and surface texture. Keep clear spacing, gentle light and accurate, readable forms.
+```
+
+Sol must have visible gouache brushwork on the original colored flame shapes,
+rather than retaining a smooth logo finish over a painted background. Keep the
+original silhouette, proportions and layer layout while painting those surfaces.
+The red outer flame is a filled character layer, not an outline to remove.
+Solid navy eyes and charcoal rubber rails are filled shapes/materials; the
+linework restriction does not erase their original dark colors.
+
 ## Sol identity and continuity
 
 Use the original mascot assets to define every character feature. Mascot.png
@@ -17,13 +35,13 @@ sets the neutral silhouette, proportions and eyes; examples such as Curious.png
 and Celebrate.png show the short arms and stubby feet in different poses.
 Attach a relevant limb example as well as the neutral mascot when needed.
 Compare the entire silhouette, nested flame contours and proportions against the original before passing the design. If a layout reference contains a rejected Sol, use a character-free background for the rebuild. Example props and accessories are separate from the character design. The
-painted references supply surface treatment and light. Pose and perspective
+painted references supply gouache brushwork, layered color, paper texture and light. Pose and perspective
 can change while Sol's anatomy and features stay consistent across scenes.
 
 Include this wording in prompts where Sol is visible:
 
 ```text
-Use the original mascot artwork as the complete character design. Preserve its broad flat flame silhouette, long asymmetric main tip, rounded side lobes and notches, substantial red outer layer, and the original nested orange and cream contour paths with their source widths and positions. Keep the original face proportions, low-set solid dark navy #1C2447 oval eyes, tiny rounded red feet and short source-shaped arms. Scale the character uniformly and retain its original flat illustration and existing smooth gradients with restrained painted grain. Pose changes preserve those same shapes and proportions.
+Use the attached mascot artwork as a strict character model. Preserve Sol's exact height-to-width ratio, flame silhouette, nested red/orange/cream layer shapes and widths, original colors, tiny stubby hands and feet. Scale the whole character uniformly; keep these proportions in every pose. Keep the original dark navy oval eyes identical in shape, size, spacing and placement throughout: no reshaping, squinting, widening, closed-eye curves or added eyebrows. Sol is completely mouthless; leave the area beneath the eyes blank, with no nose or extra facial marks. Express action through posture and gestures while keeping the original compact anatomy. Keep the flame shapes solid and intact, without realistic fire effects.
 ```
 
 ## How to fill it in
@@ -67,7 +85,9 @@ For Ignite scenes, use the approved painted 2D art to set texture and lighting. 
 ## Review
 
 - The image shows the requested moment, pose, and composition clearly.
-- The character design and visual style follow the references.
+- Mascot geometry and painted style are checked independently against their respective references.
+- Visible gouache brushwork covers Sol, props and surroundings; there are no inked outlines or realistic fire effects.
+- Original eyes stay unchanged and open; the area beneath them remains blank.
 - Sol's arms, stubby feet, eyes and flame layers match the original assets and remain the same character across the first/last pair and other clips.
 - The background establishes the setting with accurate perspective, scale, and essential details.
 - The composition has one clear focus, breathing room, and restrained background detail.

@@ -39,6 +39,13 @@ To diagnose an older rejected candidate after the active plan changes, pass
 --clip, --first and --last explicitly to review-clip and record-review. Those
 diagnostic inputs do not approve or replace the active frame pair.
 
+INDEPENDENT VISUAL CHECKS
+Match the whole mascot design AND the painted finish. painted_art_style is a
+required check: compare visible gouache brushwork, layered color and paper
+texture on Sol, props and surroundings with the selected graphic references.
+Reject a smooth logo-like mascot over a painted background. Eyes remain
+unchanged and open. The original red outer flame stays a filled layer.
+
 WHAT THE PROGRAM DOES
 It extracts every source frame at phone size, saves actual source timestamps,
 creates chronological sheets, extracts full-resolution action/end samples,

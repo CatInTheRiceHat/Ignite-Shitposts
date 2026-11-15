@@ -28,9 +28,10 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
   outer layer, original orange/cream contour paths and relative widths, face
   proportions and low eye placement. Dark eyes and small feet alone do not
   make a redesigned flame character the Ignite mascot.
-- [ ] Retain the original flat illustration and existing gradients. Paint
-  texture must preserve the original layer boundaries and proportions; avoid
-  an inflated or sculpted body, enlarged face or new shaded lower rim.
+- [ ] Preserve the original 2D geometry while painting its surfaces with visible
+  gouache brushwork, layered color and paper texture. Sol, props and surroundings
+  share that treatment. A smooth logo finish with only a grain overlay does not
+  meet the requested painted look. Avoid inflated or sculpted anatomy.
 - [ ] Preserve ALL mascot features across clips. Match the short rounded arms
   and stubby feet in the asset examples: their length, thickness, shape, color
   and attachment points stay consistent. A new pose keeps the same anatomy.
@@ -41,6 +42,8 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
   gaze, a small whole-face turn and body pose. Keep their original flat navy
   appearance. Elaine's “dark pupils” mean these existing whole dark ovals: fill
   them completely with asset navy #1C2447, without eye whites, shine or gray gradients.
+  Keep the eyes unchanged and open: no squinting, widening, reshaping, closed-eye
+  curves or added eyebrows. Express action through posture and gestures.
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
@@ -57,6 +60,30 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 
 ## Style and staging
 
+- [ ] Match the approved Ignite scenes with soft, matte gouache-like brushwork,
+  broad simplified shapes, restrained detail, softened painted edges, layered
+  color and subtle paper texture across Sol, props and surroundings. Define
+  forms with light and color; no glossy rendering, generic vector shapes, inked
+  outlines, heavy grain or decorative clutter. Preserve the red outer flame as
+  a filled shape and the original solid dark eyes.
+- [ ] Preserve depth and the mascot's reference volume through overlapping
+  painted layers, gentle shading, coherent perspective and contact shadows.
+  Do not flatten the scene or invent inflated/sculpted mascot anatomy.
+- [ ] Give each Sol scene a distinct readable action. Use one primary gesture
+  with connected preparation, movement and hold; expressive acting preserves
+  the reference anatomy. Original eye design and face-relative placement remain
+  consistent while shallow turns use coherent perspective.
+- [ ] Request stepped, hand-animated character movement with deliberate poses
+  and brief holds. Establish and check exact exposure/frame cadence during
+  editing; delivery frame rate alone does not establish the motion style.
+- [ ] Choose the camera per shot and state whether a move belongs in generation
+  or editing. Continuing clips reuse the approved preceding ending asset as
+  the next starting asset unchanged; label the reuse instead of regenerating.
+- [ ] Keep the area beneath the eyes blank: no mouth, nose or added facial marks.
+  Keep flame shapes solid and intact, without realistic fire effects.
+- [ ] Transfer the art-direction language from Elaine's office, beach and spring
+  examples. Keep the episode's own setting, palette, framing, character count
+  and aspect ratio; those example scene details are not shared defaults.
 - [ ] Match the lantern video's painted look and restrained movement with
   readable held poses. Avoid replacing that direction with generic glossy
   character rendering or excessive acting.
@@ -116,6 +143,10 @@ additional aesthetic preferences attributed to Elaine.
   mascot. Correcting isolated traits did not fix its overall design. V2/v3
   characters are rejected identity references; compare new candidates against
   the original assets, not against those generated versions.
+
+- Latest clarification: Elaine accepts the v4 mascot-design direction but says
+  its surface lacks the painted look. Preserve v4 geometry and use the supplied
+  gouache art direction on Sol and the surroundings. The frame pair is not approved.
 
 ## Keeping this useful
 

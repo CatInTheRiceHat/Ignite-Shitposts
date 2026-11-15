@@ -2,6 +2,10 @@
 
 These requirements record the user's current production instructions.
 
+Current episode: **How Fire Was Discovered**, episodes/fire_discovery/.
+The earlier escalator draft remains preserved; shared Sol/gouache rules carry
+forward, while its scene layout and mechanical props do not.
+
 - Read `guidelines/checklist.md` before drafting prompts, generating media or
   reviewing takes. This is Elaine's persistent critique list. Update it when
   she gives new visual feedback; merge repeats, replace superseded directions
@@ -34,9 +38,12 @@ These requirements record the user's current production instructions.
   only the exact files identified by its approved frame hashes. This command
   prepares a request; it does not submit a job or authorize charges.
 - Read `config/sol-references.json`. Mascot.png and the user's additional
-  mascot examples control Sol's actual design. The user ACCEPTED the current
-  paint treatment; keep it unchanged. The lantern clip guides finish/movement,
-  rather than replacing the mascot's geometry. Check the original outer flame,
+  mascot examples control Sol's actual design. Elaine accepts v4's design as
+  the geometry base but says its painted finish is missing. Use her graphic
+  examples and gouache prompt wording for visible brushwork, layered color
+  and paper texture on both Sol and the scene, with no inked outlines. Keep
+  the original eyes unchanged and open. The lantern clip guides gentle motion;
+  it does not override these eye rules or the mascot geometry. Check the outer flame,
   side lobes, broad cream inner flame, low-set oval eyes and compact nub limbs.
   Explicitly preserve the source arms AND stubby feet, including their shapes,
   colors, proportions and attachment points, in every visible shot. Use the

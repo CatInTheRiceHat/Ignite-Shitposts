@@ -1,0 +1,56 @@
+{
+  "episode": "fire_discovery",
+  "status": "Prompt revision complete; structural and preservation checks passed; no media generated.",
+  "scenes": 5,
+  "image_prompts": 10,
+  "video_prompts": 5,
+  "spoken_words": 54,
+  "target_duration_sec": 30,
+  "estimated_duration_sec": 29,
+  "timing_confirmed": false,
+  "images_generated": 0,
+  "videos_generated": 0,
+  "audio_generated": 0,
+  "frame_approval": false,
+  "final_ready": false,
+  "previous_episode": "escalator",
+  "previous_episode_preserved_sha256": {
+    "script.txt": "c8f19c099e6e51b84a12d3e51cb236768573f137c672c2baaeeedd7add43179c",
+    "shot-plan.json": "b4f336e299c9ed098c232b491c4fc23be1543f12be596f63303eb1cbaa7514ef",
+    "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
+  },
+  "pending": [
+    "Review script/storyboard and prompts.",
+    "Generate first/last pair only when requested.",
+    "Explicit pair approval before video.",
+    "Normal-rate voices and final timing.",
+    "Independent actual-footage review."
+  ],
+  "checks": {
+    "ten_endpoints_and_five_video_prompts": true,
+    "one_reused_endpoint_nine_planned_still_generations": true,
+    "prompt_blocks_match_plan": true,
+    "complete_spoken_script_unchanged": true,
+    "model_voice_ids_paths_preserved": true,
+    "moment_specific_lighting": true,
+    "no_hand_elements_in_scene_03": true,
+    "generated_and_editorial_cameras_separate": true,
+    "cadence_and_voice_timing_unconfirmed": true,
+    "gouache_depth_and_identity_rules": true,
+    "previous_episode_preserved": true,
+    "no_media_generation": true
+  },
+  "endpoint_entries": 10,
+  "unique_image_generations": 9,
+  "reused_endpoint_entries": 1,
+  "exact_frame_cadence_confirmed": false,
+  "revision_protected_sha256": {
+    "workflow/config/generation.json": "2d8aab66e0045ca491e271ad14a82c6f854886b72328e3153574f0efb3233f16",
+    "workflow/config/voices.json": "e887ef98ec089d9c3856ff98084ee0f44006d53cc29d5db66a36d252d75daf4d",
+    "workflow/config/sol-references.json": "14e0f6a6be72b249b434960a2c6a641bfc1273a8e51bf333ce911f162901900e",
+    "workflow/episodes/fire_discovery/audio/voice-cues.plan.json": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116",
+    "workflow/episodes/escalator/script.txt": "c8f19c099e6e51b84a12d3e51cb236768573f137c672c2baaeeedd7add43179c",
+    "workflow/episodes/escalator/shot-plan.json": "b4f336e299c9ed098c232b491c4fc23be1543f12be596f63303eb1cbaa7514ef",
+    "workflow/episodes/escalator/higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
+  }
+}

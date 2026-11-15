@@ -6,3 +6,5 @@ SCENE 01 — CURRENT FIRST-FRAME CORRECTION
 5. First: one orange mark on the nearest moving tread. Last: that tread is hidden beneath the comb. Sol's feet stay fixed; remove the former stepping action.
 6. Current first: keyframes/01-first-nano-v4.png. Matching last remains ungenerated; no video requested by this correction.
 7. Show both final stills and obtain explicit pair approval before video. Keep every prior take and receipt.
+
+LATEST PAINT DIRECTION: preserve v4 mascot geometry; next v5 prompts apply visible gouache brushwork, layered color and paper texture to both Sol and the scene, without inked outlines. Eyes stay unchanged/open. V5 media are not generated.

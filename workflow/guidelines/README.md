@@ -60,8 +60,10 @@ video prompts** (the continuous motion between each pair). Use matching
 scene IDs and keep reference inputs and settings outside the copyable text.
 Specify camera height and angle, shot size, composition, subject scale, and
 the start and end of camera moves. Use Mascot.png and the supplied mascot examples for Sol's identity; read
-../config/sol-references.json. Keep the accepted painted finish. Use the lantern
-video for gentle movement, and keep the original mascot eyes, flame layers,
+../config/sol-references.json. Preserve the v4 identity direction while applying
+visible gouache brushwork, layered color and paper texture to Sol and the scene.
+Use the supplied graphics for finish and the lantern video for gentle movement.
+Keep the original eyes unchanged and open, along with the mascot flame layers,
 outline and compact nub limbs. Name gaze targets, restrained body poses and their cues.
 Preserve his mouthless face and recognizable flame design.
 When the Narrator addresses Sol on screen, give Sol an upward glance toward
