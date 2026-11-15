@@ -122,5 +122,5 @@ Berna et al. — Fire evidence at Wonderwerk Cave
 https://www.pnas.org/content/pnas/109/20/E1215.full.pdf
 Burned bone and plant ash document burning in an archaeological context around one million years ago. This does not identify a person or establish the first ignition method.
 
-SCENE 05 ENDPOINT REVIEW NOTE
-The selected arms-only nano-v3 ending candidate retains a slight eye shape/angle mismatch from its starting frame. It is not approved or ready for animation. Nano-v4 also failed that check; a masked repair was rejected by the Higgsfield connector before submission. Prior versions are preserved. The corrected prompt requires fixed original eyes; resolve the asset mismatch before video.
+CURRENT GENERATION STATUS
+Scene 01 has one raw Omni Flash 1.2 clip and a silent normal-speed 30 fps/15-update cadence version. All 45 decoded frame pairs match; independent review found an unwanted blink, so this take is not approved and the remaining batch is paused for correction/review. Scene 05 now uses the nano-v5 arms-only endpoint corrected with the original face crop; its newly displayed pair awaits explicit approval before video. Earlier failed candidates are preserved. No audio has been generated.
