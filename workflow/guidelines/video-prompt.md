@@ -17,7 +17,7 @@ Use the [style guide's shared paint treatment](video-style-guide.md#painterly-su
 Carry that finish from the approved first frame through the whole clip,
 including Sol's colored layers and all visible props. Keep the brushwork stable
 over time and preserve source contours, proportions and material contacts.
-The original eyes remain unchanged; perform through posture and gesture.
+The original eyes remain unchanged; perform through posture, gesture and the requested coordinated bouncy flame-like follow-through.
 The scene determines format, palette and subject count.
 
 ## How to fill it in
@@ -60,7 +60,7 @@ Give each clip one teaching purpose and one main visible action. Closely connect
 
 Use the exact [shared motion rules](video-style-guide.md#motion-style): animate on twos, holding each pose or painted state unchanged for two consecutive frames of the final 30 fps timeline (15 pose updates per second). Longer holds use complete pairs; action and playback remain normal speed. Apply this to every visible animated subject, including hands, moving props, flames and animated local lighting. Keep background and painted texture stable, without interpolation, blending, optical-flow smoothing or concealing motion blur. Include applicable subjects in each independently usable prompt.
 
-Specify short, direct paths, original attachment points, constant limb lengths and clean stops. Add no unrequested preparation, windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera movement. Keep Sol’s face anchored to his body and both eye ovals uniformly navy #1C2447, with no highlights, whites, extra pupils, blinking or drift. Aim for this during generation; enforce and verify exact two-frame cadence during editing.
+Specify short direct gesture paths, original attachment points and constant limb lengths. Give Sol’s intentional movements a small bouncy body/flame wobble and soft tip/lobe follow-through, then damp and settle at the approved endpoint. Treat this as connected performance within one main action. Do not add unrelated windups, repeated nodding, hops, endless idle sway or camera movement. Hands, held props and mechanisms retain their planned physical motion; Sol’s performance style is not a blanket instruction to bounce every object. Keep Sol’s face anchored to his body and both eye ovals uniformly navy #1C2447, with a brief natural blink allowed and no highlights, whites, extra pupils, winks or drift. Aim for this during generation; enforce and verify exact two-frame cadence during editing.
 
 Choose the camera for the teaching purpose: a close-up for a critical contact, a controlled push for a reveal, or a stable view for listening, anticipation or payoff. Specify size, height, angle, side and crop; a generated move needs explicit start and end views. Record whether each move belongs in generation or editing. For an editorial push, generate a stable source and put crop instructions outside the copyable block. A smooth digital move may follow cadence enforcement on the source footage; check crops throughout the move. Do not perform the push twice.
 
@@ -80,7 +80,7 @@ Run the shared [final prompt review](checklist.md#final-prompt-review) before us
 - Check character identity, prop shape, contact, movement direction and the intended stable or moving camera behavior.
 - Compare Sol's arms, feet, eyes and flame layers with the source assets through the clip and across scene cuts; reject growth, reshaping or a different mascot design.
 - Check visible gouache brushwork, layered color and paper texture on Sol as well as the props and environment; reject a smooth logo-like character on a painted background.
-- Keep the original eye shapes unchanged through the clip, with no closing or expressive reshaping.
+- Keep the original open oval design through the clip; a brief natural blink may close and reopen both eyes and return promptly to those ovals. Reject unrelated expressive eye reshaping, prolonged squinting or repeated blinking loops.
 - Check that painted shapes stay consistent and the background retains accurate geometry and scale.
 - Check that motion and effects support the main action and keep the frame easy to read.
 - Verify unchanged source poses in exact consecutive two-frame pairs on the final 30 fps timeline, with normal-speed action and complete-pair longer holds. Inspect every animated subject, facial markings and physical contacts; inspect source cadence before any smooth editorial camera transform and check final crops in playback.

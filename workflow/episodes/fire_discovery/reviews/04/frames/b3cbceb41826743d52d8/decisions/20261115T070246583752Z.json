@@ -1,0 +1,40 @@
+{
+  "type": "user_frame_approval",
+  "decision": "approved",
+  "user_message": "ok can we generate the higgsfield videos now",
+  "packet_id": "b3cbceb41826743d52d8efa10872262631e52d367141004d777fc3df6d0ca877",
+  "binding": {
+    "scene": "04",
+    "stage": "frames",
+    "contract_sha256": "8a6ebe15d8643baeb0276fff7d67f15ee646e7012facc6391338973fed2d4b3c",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/04-first.png",
+        "sha256": "f2ee1c98492db252f44d3c3ed770f644fce7b81e6e7b6021f698f71543953e5a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/04-last.png",
+        "sha256": "0992a807d4e40b1a0179de978fd0a3e2ca89cad128e518157d2638fa99ba79c4"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    }
+  },
+  "recorded_at": "2026-11-15T07:02:46.583378+00:00"
+}

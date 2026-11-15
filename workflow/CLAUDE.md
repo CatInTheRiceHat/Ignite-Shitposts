@@ -28,7 +28,7 @@ examples for Sol's design. V4 establishes the accepted identity direction;
 its surface still needs visible gouache brushwork, layered color and paper
 texture on both Sol and the scene, with no inked outlines. Use the supplied
 graphic examples for finish and the lantern video as a painted movement reference subordinate to the current cadence. Keep
-the original eyes unchanged and open. The frame pair remains unapproved.
+the normal original oval eye design unchanged, with a brief natural blink allowed. The frame pair remains unapproved.
 Keep every mascot feature consistent across clips, including the original
 eyes, short rounded arms and stubby feet; paint must preserve their design.
 Never record frame approval on the user's behalf. Preserve all existing media.
@@ -42,10 +42,13 @@ unchanged for two consecutive frames (15 updates per second) at normal speed.
 Longer holds use complete pairs. Apply this to Sol, visible human hands, moving
 props, flames and animated local lighting; keep background/texture stable.
 No interpolation, blending, optical flow or motion blur concealing the steps.
-Use short direct actions with clean stops, without unrequested preparation,
-windup, recoil, overshoot, bounce, repeated nodding, idle swaying or camera moves.
+Use short direct gestures with a small bouncy flame-like body/tip/lobe wobble
+and soft follow-through that damps and settles. This latest user preference
+supersedes earlier rigid-body/no-bounce defaults. Keep layers and face coherent,
+eyes unchanged, limbs stubby and feet supported. Add no unrelated windup,
+repeated nodding, endless idle sway, extra hops or camera movement.
 Keep Sol's facial markings anchored to his body and eyes uniformly navy #1C2447;
-no independent face turn, neck, blinking, highlights or drift. A gesture change
+no independent face turn, neck, highlights or drift. A brief natural blink is allowed. A gesture change
 or listening hold can acknowledge Arthur without an automatic upward look.
 Enforce and verify cadence during editing; prompts alone do not prove it.
 Smooth planned editorial pushes may follow stepped footage; check all crops.
