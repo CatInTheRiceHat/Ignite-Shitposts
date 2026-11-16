@@ -1,0 +1,381 @@
+{
+  "packet_id": "3b58909adeb97d3dec56c5f25586e09c68bf87e5644b9121c621c3227a415298",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_and_provisional_script_alignment",
+  "deferred_final_checks": [
+    "Final synchronization with actual normal-rate Sol/Arthur voice recordings and measured cues",
+    "Real-time final playback, captions and sound mix",
+    "Final editorial crops, pushes, transitions and ending hold against actual speech"
+  ],
+  "method": "CURRENT BOUNCE-TRIGGERED TINY-FLICK POLICY REFRESH; no new playback or unchanged-pixel reinspection. Freshly read the current complete script/storyboard, this scene's script-context, provisional speaker cues, and updated checklist/style/review rules. Reused /root/clip_reviewer's prior actual complete chronological/native visual inspection carried by workflow/episodes/fire_discovery/reviews/01/independent-review-final-binding-v1.json; all 114 unchanged evidence files, including every covered sequence page, were rehashed in both prior/current packets and matched their manifests. Verified actual clip bytes, reference bytes, exact first/last bytes and cue bytes against both bindings; no mismatches. The only changed evidence is the complete script and script-context. For this scene the context is identical except its source-script hash; dialogue, action, camera, endpoints, attention requirements and provisional/no-audio status are unchanged. The shared delta permits tiny sparse bounce-timed secondary accents without damaging the primary mascot; it does not require adding an accent. Scene01 adds only a conditional accent paragraph to its video prompt; Scene03/04 contain no visible Sol. Retain the earlier concrete paint and prop limitations and independent cadence findings. This is a source-visual/script-binding refresh, not new still approval, final real-time playback, or recorded-voice synchronization.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Compared the complete original mascot and approved shallow-three-quarter pair with the actual sequence. Sol retains the broad compact filled-red flame, asymmetric main tip/rounded side lobes, coherent nested orange/cream paths, broad low cream face, navy eye marks and short red limb nubs. The flame tip/body/layers flex together during the requested wobble and recover toward the approved endpoint proportions; this is not a generic replacement flame or independent layer redesign. The current natural-blink permission is applied rather than the historical always-open rule.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "One short paired blink appears: narrowing around 0.666667 s, closed navy curves in frames 22-25 (0.733333-0.833333 s), and original open ovals restored by frames 26-27 (0.866667-0.900000 s). The eyes then remain the normal low navy oval design through the remaining sequence, without a wink, prolonged squint, extra pupils, internal white/shine patches or independent facial sliding. Fine pale edge enhancement is visible at native scale and is preserved as a style caveat, rather than misidentified as a new internal eye-white design. Exact compressed RGB equality is not required.",
+      "timestamps_sec": [
+        0,
+        0.666667,
+        0.733333,
+        0.8,
+        0.833333,
+        0.866667,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "The filled red/orange/cream shape relationships travel coherently through the action-driven body/tip/lobe flex. The recognizable compact anatomy remains, without a neck, separate torso, boots, long leg shafts, fingers, extra limbs or independent color-layer slippage. Both feet stay small rounded red tabs and the arms stay short paddle nubs. Tip motion is larger than a rigid cutout would allow, but is the requested flame-like wobble; it returns to a quiet reference-shaped endpoint rather than changing mascot identity. CURRENT TINY-FLICK RULE: this is the same already-inspected intact Sol source, with one presenting pose-bounce and a settled ending. The new prompt permits an optional tiny accent only near its bounce peak/follow-through and ending as the gesture settles; it does not require one. Prior full-sequence/native findings identify coherent connected lobes/layers and no persistent Sol-owned spray or core damage. Continuously changing detached upper tongues described in object_continuity belong to the separate rooted wood fire, not to Sol. Only Sol speaks in01; no Narrator-listening interval is introduced by the changed02/05 directions.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "All 90 chronological frames keep one full-body Sol on the left and the separate burning fallen bough on the right, with the same clearing/tree layout, visible character/fire gap and quiet lower foreground. No subject crop, large camera translation/zoom/bounce, new prop or extra character was observed. Native output already uses 1080x1920; final caption/cut crop checks belong to editing.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "The bough-side short arm lifts once into the supplied presenting direction. Body/tip/lobe flex accompanies that action, the layers/face move together, and the wobble settles by roughly 2.266667 s into the raised ending hold. The other arm does not perform a separate gesture. Both foot nubs remain supported at their ground/shadow positions; no extra step, hop, skating or kicked/lifted heel was observed. The one brief natural blink is now explicitly permitted. No human-hand placement sequence is part of this shot. CURRENT FLOW RULE: this already-inspected single pose transition has visible body spring, overlapping attached tip/lobe follow-through and a controlled back-and-forth rebound, settling by about2.266667 s into the presenting hold. It is not a rigid arm-only interpolation and no stronger new motion is being asserted. Both nubs stay supported, normal eyes return after the brief allowed blink and the filled layers remain connected. Only Sol speaks, so continuous Narrator-listening idle/up-gaze is not required inside01.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.266667,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Actual consecutive frames show the designated arm moving from lowered through outward/upward into the presenting pose, followed by flame-like follow-through and a settled ending. The separate fire grows upward from the same wood fuel contact. No reversed physical connection, unplanned ignition/placement sequence or disconnected mechanism was visible. The earlier escalator requirements are not imposed on this woodland scene.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.0,
+        1.333333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "The bough, small fuel pieces, stones and one Sol preserve identity/count and placement. Actual fire remains faceless and anchored to the same fuel, with changing upper tongues/small detached painted tips; it never transfers onto Sol or becomes another character. Local reflected warmth stays near the wood without an obvious whole-scene brightness pulse. Background landmarks remain compositionally stationary; no tracking mark belongs to this scene. CURRENT TINY-FLICK RULE: this is the same already-inspected intact Sol source, with one presenting pose-bounce and a settled ending. The new prompt permits an optional tiny accent only near its bounce peak/follow-through and ending as the gesture settles; it does not require one. Prior full-sequence/native findings identify coherent connected lobes/layers and no persistent Sol-owned spray or core damage. Continuously changing detached upper tongues described in object_continuity belong to the separate rooted wood fire, not to Sol. Only Sol speaks in01; no Narrator-listening interval is introduced by the changed02/05 directions.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "At common 1080x1920 scale, the actual first and final decoded samples match the approved pair gross states: lowered arms at opening, bough-side arm raised at the ending, open normal navy ovals at both endpoints, compact feet/body and the same placements/camera/wood-fire separation. The approved painting is re-rendered with some sharper edge/texture treatment, documented separately; the comparison is not claimed pixel-identical.",
+      "timestamps_sec": [
+        0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "SOURCE-VISUAL PHASE ONLY: independently decoded the bound 1080x1920 selected v3 clip to RGB and verified exactly 90 frames with zero unequal adjacent pairs across all 45 pairs. The supplied conform proof preserves normal three-second duration at 30 fps/15 updates without interpolation or speed change. The brief blink and finite coherent wobble meet the current policy; normal open eyes recover promptly, the tip/body settle around 2.266667 s and the ending hold occupies complete pairs. No concealing motion blur, material camera movement or endless idle loop was observed in the source-frame sequence. This does not certify final real-time playback, dialogue alignment or editorial crops: voice tracks have not been requested/generated and their timing remains explicitly provisional. Those later-phase checks are deferred, not fabricated passes. CURRENT FLOW RULE: this already-inspected single pose transition has visible body spring, overlapping attached tip/lobe follow-through and a controlled back-and-forth rebound, settling by about2.266667 s into the presenting hold. It is not a rigid arm-only interpolation and no stronger new motion is being asserted. Both nubs stay supported, normal eyes return after the brief allowed blink and the filled layers remain connected. Only Sol speaks, so continuous Narrator-listening idle/up-gaze is not required inside01. Actual voice-cue plan remains unconfirmed with no audio sources; final speech synchronization, real-time playback and editorial crops remain deferred. CURRENT TINY-FLICK RULE: this is the same already-inspected intact Sol source, with one presenting pose-bounce and a settled ending. The new prompt permits an optional tiny accent only near its bounce peak/follow-through and ending as the gesture settles; it does not require one. Prior full-sequence/native findings identify coherent connected lobes/layers and no persistent Sol-owned spray or core damage. Continuously changing detached upper tongues described in object_continuity belong to the separate rooted wood fire, not to Sol. Only Sol speaks in01; no Narrator-listening interval is introduced by the changed02/05 directions.",
+      "timestamps_sec": [
+        0,
+        0.666667,
+        0.733333,
+        0.866667,
+        1.5,
+        2.0,
+        2.266667,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "Across every chronological page and the full-resolution samples, no generated captions, logo/watermark, on-screen Narrator, extra character/accessory, held prop, mouth/nose or added facial marks were visible. The bound source has zero audio streams, matching its silent scene-layer role; no audio generation was performed. CURRENT TINY-FLICK RULE: this is the same already-inspected intact Sol source, with one presenting pose-bounce and a settled ending. The new prompt permits an optional tiny accent only near its bounce peak/follow-through and ending as the gesture settles; it does not require one. Prior full-sequence/native findings identify coherent connected lobes/layers and no persistent Sol-owned spray or core damage. Continuously changing detached upper tongues described in object_continuity belong to the separate rooted wood fire, not to Sol. Only Sol speaks in01; no Narrator-listening interval is introduced by the changed02/05 directions.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Compared both approved PNGs and the Spring reference at common scale, plus native details and the complete phone-size sequence. The dominant actual treatment remains matte painted 2D across Sol, wood, foliage, earth and sky: layered color, broad brush-shaped regions and paper/pigment texture, with no glossy/clay anatomy or a smooth vector character pasted onto the scene. Concrete differences persist: thin dark/light edge enhancement and pale rims around some contours, plus more etched/stippled ground/tree texture than the softer PNGs. These are retained limitations, not claimed absent or pixel-identical. On full-sequence phone/native inspection calibrated to the animation the user explicitly chose, they do not materially replace the painted scene with an inked/glossy redesign. The substantial red outer flame itself is a filled color layer, not an outline. This is an independent source-visual judgment; model preference alone is not treated as blanket production approval.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Freshly read the actual current complete script and Scene01 context/cues. Sol alone asks, “Who actually discovered fire?”; the unchanged inspected source shows his one small bough-side presenting lift, connected spring/follow-through/rebound, brief natural blink and raised ending hold by about2.266667 s. The scene action/dialogue/attention context is byte-for-byte equivalent after excluding the script hash. The new optional tiny-accent wording does not alter the gesture or require added emissions. No Narrator speaks in01, so no above-camera listening gaze/idle is required inside it; that begins in02. Available voice cues remain unconfirmed with no audio sources, so this passes source semantic/visual alignment only, not final synchronization.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1,
+        1.5,
+        2.266667,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    }
+  },
+  "summary": "PASS SOURCE-VISUAL / PROVISIONAL SCRIPT REFRESH under current bounce-triggered tiny-flick policy for Scene01. Clip, exact endpoints, references, cue plan and all prior covered visual evidence verified unchanged. The current scene dialogue/action/attention is unchanged; the optional mascot accent clarification creates no new visible defect in this previously inspected source. Existing paint/prop caveats remain in the check observations. Actual normal-rate voices are absent: final speech synchronization, real-time playback, captions/mix and editorial crop/transition checks remain deferred. This report creates no user frame approval and authorizes no generation; no02/05 files were touched.",
+  "inspection_reuse": {
+    "prior_report": "workflow/episodes/fire_discovery/reviews/01/independent-review-final-binding-v1.json",
+    "prior_report_sha256": "bb9bb14589cb85f80adb907847dd77301a34e03b58241b8a9ddd410c12c5bdbc",
+    "prior_packet_id": "be2a211e99b3eca18a88914e6ef68baaee2c7c1a5752e069c6dd9f4719c7cce5",
+    "original_visual_reviewer": "/root/clip_reviewer",
+    "all_prior_chronological_coverage_reused": true,
+    "verified_unchanged_evidence_files": 114,
+    "verified_unchanged_image_files": 111,
+    "actual_clip_references_endpoints_cues_unchanged": true,
+    "hash_mismatches": [],
+    "new_visual_inspection_performed": false,
+    "playback_performed": false
+  },
+  "binding_refresh": {
+    "type": "current_bounce_triggered_tiny_flick_policy_and_full_script_binding",
+    "old_script_sha256": "ecd052045e1af68bd6b852f7b310f4f9246da3c81fc707ca26bcabf5e526da95",
+    "new_script_sha256": "d5524d68ce375279e273cb05b55b662c273a1ce575b6b216a9323c4bc6d87005",
+    "changed_evidence": [
+      "evidence/script-context.json",
+      "evidence/script-storyboard.txt"
+    ],
+    "scene_context_equal_except_source_script_hash": true,
+    "policy_delta": "Optional sparse tiny matte flick near an intentional pose-bounce peak/follow-through, fading as the pose settles; no ongoing emissions during quiet listening and no main-body/lobe damage.",
+    "applicability": "Optional conditional accent permission; existing single gesture remains"
+  },
+  "type": "independent_clip_review",
+  "decision": "passed",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "507469e545a66262cd3e55b81ced70d104de275a65ab5e9e3c49784c54dcaa27",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-first.png",
+        "sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-last.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "d5524d68ce375279e273cb05b55b662c273a1ce575b6b216a9323c4bc6d87005"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/01-scene.mp4",
+      "sha256": "64f0590cf711838c549a409aa9283d72c7c31f5c404209cba50f4c84bacf3191"
+    }
+  },
+  "recorded_at": "2026-11-16T03:37:25.264261+00:00"
+}

@@ -54,7 +54,7 @@ def prepare(episode, duration=None):
               'format':{'width':1080,'height':1920,'fps':30}, 'layout':'fullscreen',
               'assets':{'paper':'art/ignite/painted-style-reference.jpg','font':'fonts/RammettoOne-Regular.ttf'},
               'palette':{'paper':'#FFF8F0','ink':'#1A1A2E','teal':'#4F9298','orange':'#F07B2A'},
-              'captionStyle':{'fontSize':56,'fill':'#FFFFFF','outline':'#F07B2A','outlineWidth':6,
+              'captionStyle':{'fontSize':56,'fill':'#FFFFFF','outline':'#F07B2A','outlineWidth':12,
                               'leftPercent':10,'rightPercent':16,'topPercent':80},
               'shots':shots, 'captions':[], 'voiceover':None, 'audioTracks':[],
               'generation':json.loads((WORKFLOW/'config/generation.json').read_text()),

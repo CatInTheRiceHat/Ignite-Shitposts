@@ -1,0 +1,77 @@
+[
+  {
+    "scene": "01",
+    "prior_decision": "workflow/episodes/fire_discovery/reviews/01/frames/f7fc800573d40838430b/decisions/20261116T032008695707Z.json",
+    "quote": "ok can we generate the higgsfield videos now",
+    "exact_frames": {
+      "first": {
+        "path": "keyframes/01-first.png",
+        "sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a"
+      },
+      "last": {
+        "path": "keyframes/01-last.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      }
+    }
+  },
+  {
+    "scene": "02",
+    "prior_decision": "workflow/episodes/fire_discovery/reviews/02/frames/d5dd734af3b359a105e3/decisions/20261116T031503563481Z.json",
+    "quote": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+    "exact_frames": {
+      "first": {
+        "path": "keyframes/02-first.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      },
+      "last": {
+        "path": "keyframes/02-last.png",
+        "sha256": "c459e869e0987d5c21501af1d4015077126c61a5b7f1267c32e273db7b599fc8"
+      }
+    }
+  },
+  {
+    "scene": "03",
+    "prior_decision": "workflow/episodes/fire_discovery/reviews/03/frames/512e540a802eddf2a4c8/decisions/20261116T032014663849Z.json",
+    "quote": "ok can we generate the higgsfield videos now",
+    "exact_frames": {
+      "first": {
+        "path": "keyframes/03-first.png",
+        "sha256": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1"
+      },
+      "last": {
+        "path": "keyframes/03-last.png",
+        "sha256": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20"
+      }
+    }
+  },
+  {
+    "scene": "04",
+    "prior_decision": "workflow/episodes/fire_discovery/reviews/04/frames/c559fc8c17b59505cb95/decisions/20261116T032027299373Z.json",
+    "quote": "ok can we generate the higgsfield videos now",
+    "exact_frames": {
+      "first": {
+        "path": "keyframes/04-first.png",
+        "sha256": "f2ee1c98492db252f44d3c3ed770f644fce7b81e6e7b6021f698f71543953e5a"
+      },
+      "last": {
+        "path": "keyframes/04-last.png",
+        "sha256": "0992a807d4e40b1a0179de978fd0a3e2ca89cad128e518157d2638fa99ba79c4"
+      }
+    }
+  },
+  {
+    "scene": "05",
+    "prior_decision": "workflow/episodes/fire_discovery/reviews/05/frames/d9ee186173ee7c77755b/decisions/20261116T031504309559Z.json",
+    "quote": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+    "exact_frames": {
+      "first": {
+        "path": "keyframes/05-first.png",
+        "sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c"
+      },
+      "last": {
+        "path": "keyframes/05-last.png",
+        "sha256": "e76e5413c32d90f99e9fec4c1009cf46baa776636596941516dbcb1b018963de"
+      }
+    }
+  }
+]

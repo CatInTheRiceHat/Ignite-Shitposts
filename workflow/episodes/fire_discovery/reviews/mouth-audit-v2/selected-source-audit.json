@@ -1,0 +1,10 @@
+{
+  "scope": "Actual selected sources01Omniv3,02Omniv6,05Omniv6; rejected01v5 is separate and excluded.",
+  "inspection": "Root opened contact sheets of every held face state (45+90+90) and native corrected02/05 samples. Blank face below eye pair throughout selected source states; permitted brief paired eye blinks. No mouth found in these selected clips. All particle repair masks protect face/body; encoded output and final trimmed cut still require native inspection.",
+  "evidence": [
+    "01-all-face-states.jpg",
+    "02-all-face-states.jpg",
+    "05-all-face-states.jpg"
+  ],
+  "review_type": "specific mouth audit, not full production approval"
+}

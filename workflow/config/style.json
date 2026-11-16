@@ -4,7 +4,7 @@
   "ink": "#1A1A2E",
   "orange": "#F07B2A",
   "teal": "#4F9298",
-  "direction": "Soft matte gouache, broad simplified shapes, painted depth and stable texture. Sol springs fluidly into every new pose with overlapping body/tip/lobe follow-through and a brief controlled rebound, then settles. Animate on twos at final 30 fps, 15 updates per second, normal speed; enforce and verify during editing.",
+  "direction": "Soft matte gouache, broad simple shapes, painted depth and stable texture. Sol uses gentle connected body/tip wiggle, with supported feet and no emitted particles. Animate on twos at final30fps,15 pose updates/sec,normal speed; enforce and verify during editing.",
   "sol": "Original compact asymmetric flame design and red/orange/cream layers; original uniformly navy #1C2447 open eye ovals attached to the face, tiny rounded limbs, no mouth. Small coherent action-driven body/flame flex is allowed; no independent facial movement or redesigned anatomy. A brief natural blink is allowed.",
   "reference": "assets/sol-full-body.png",
   "painted_scene": "assets/calculus-painted-scene.jpg",
@@ -29,14 +29,14 @@
     "editorial_camera": "Smooth transforms may follow stepped source; check crops throughout.",
     "implementation_status": "Required generation target and editing/verification policy; not evidence of implemented or verified footage.",
     "owner": "workflow/guidelines/video-style-guide.md#motion-style",
-    "sol_performance": "Give every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with compact proportions and normal eyes intact. Face and filled flame layers move together. Establish attention to the fixed above-camera Narrator before his first word, then maintain it with gentle body/tip/lobe listening idle throughout the turn. No unrelated windup, repeated arm gestures, large bounce loops, unplanned hops or camera movement.",
-    "scope": "This bounce is Sol performance, not a blanket effect for hands, props, mechanisms or cameras.",
+    "sol_performance": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
+    "scope": "Gentle connected wiggle belongs to Sol; hands, props, mechanisms and cameras follow their own planned motion.",
     "sol_blink": "A brief natural blink is allowed, returning promptly to the original open navy oval design; no unrelated eye morphs, highlights or facial drift.",
     "narrator_attention": "Mandatory whenever Narrator speaks with Sol visible: gaze UP to fixed above-camera voice before first word, maintained with gentle body/tip/lobe listening idle throughout. Review against script and actual voice cues when available.",
     "flame_accents": {
-      "direction": "Allow tiny, sparse, brief matte painted flame flicks as secondary accents near Sol. Keep them much smaller than the eyes and subordinate to the pose. Reduce eye-sized droplets, bulbous orange-centered flares and frequent paired sprays. Preserve the main filled mascot, original lobes and coherent color layers; no holes, major lobe loss or realistic glowing fire effects.",
-      "owner": "workflow/guidelines/video-style-guide.md#small-flame-accents",
-      "timing": "At each intentional pose-bounce peak, allow just one tiny matte red/orange brush-flick beside the flame tip, roughly one-quarter of an eye's height or smaller. Keep it close to the tip and let it fade within a few held poses as the bounce settles. This accent is caused by the bounce and its follow-through. During quiet listening idle, the attached tip can gently waver but emits no new flecks. Keep the main filled mascot and original lobes intact. No eye-sized drops, bulbous glowing flares or repeated paired sprays. The separate wood fire alone flickers continuously."
+      "enabled": false,
+      "direction": "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+      "owner": "workflow/guidelines/video-style-guide.md#particle-free-sol-movement"
     }
   }
 }

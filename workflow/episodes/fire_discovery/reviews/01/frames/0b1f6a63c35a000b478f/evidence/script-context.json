@@ -1,0 +1,71 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "ade449d6cee904b7f0bf647a1e7886c9ece632911564f28b3b56216fead1705a"
+  },
+  "scene_script_excerpt": "SCENE 01 — A curious presenting gesture — 3 seconds\nSetting and framing: Medium-wide full-body view at Sol's face height, angled slightly down onto a simple woodland clearing. Sol occupies 36% of frame height at x=28%, with feet at y=74%; a small burning fallen bough is at x=74%, y=67%. Separate foreground earth, a middle-ground charred trunk and distant sage foliage into overlapping painted layers. Keep the lower fifth quiet.\nLighting: Soft overcast daylight from upper-left; cream earth, muted sage and teal distance, honey-brown wood. The existing wood fire adds only a faint localized warm tint.\nCamera: shot_size: Medium-wide, full body and separate burning bough.; height_and_angle: Sol face height, slight downward angle.; movement: Generation: stable camera.; editing: No camera move planned.; start_view: Full body at x=28%, height 36%, feet y=74%; bough x=74%, y=67%.; end_view: Same crop, scale, camera side and placements.\nFirst frame: Sol faces the bough in a shallow three-quarter orientation, both tiny feet planted and short arms lowered. Both original eyes are visible. A clear gap separates his body from the small faceless painted flame rooted on the wood.\n\nSol: “Who actually discovered fire?”\n\nAction: Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.\nNarrator attention: {\"required\": false, \"gaze_target\": null, \"timing_status\": \"Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.\", \"final_voice_alignment_verified\": false, \"reason\": \"Only Sol speaks in this clip; Narrator attention starts in the next scene.\"}\nLast frame: Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.\nNext cut: Continue from the exact approved ending asset into Scene 02. Its generated source framing begins unchanged.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "Who actually discovered fire?"
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": null,
+    "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
+    "final_voice_alignment_verified": false,
+    "reason": "Only Sol speaks in this clip; Narrator attention starts in the next scene.",
+    "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "5950bf993b4e8f49a0010eec450d7854ce82727ebe5a8a2f070cc7b0222eced1"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "01",
+  "first_frame": "Sol faces the bough in a shallow three-quarter orientation, both tiny feet planted and short arms lowered. Both original eyes are visible. A clear gap separates his body from the small faceless painted flame rooted on the wood.",
+  "action": "Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.",
+  "last_frame": "Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.",
+  "performance_beats": [
+    {
+      "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+      "body": "Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.",
+      "gaze": "UP to fixed above-camera Narrator whenever he speaks and Sol is visible"
+    }
+  ]
+}

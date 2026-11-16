@@ -1,0 +1,71 @@
+{
+  "request": "generate videos again and then make the fulll video with sound",
+  "latest_sol_direction": "Particle-free gentle connected wiggle, no detached flames.",
+  "generated_scenes": [
+    {
+      "scene": "01",
+      "take": 5
+    },
+    {
+      "scene": "02",
+      "take": 6
+    },
+    {
+      "scene": "03",
+      "take": 2
+    },
+    {
+      "scene": "04",
+      "take": 2
+    },
+    {
+      "scene": "05",
+      "take": 6
+    }
+  ],
+  "render_status": "Complete33.003s sound review draft finished, normalized and fully decoded. Opened in default player.",
+  "sources": [
+    {
+      "scene": "01",
+      "src": "clips/01-scene-omni-v3-twos.mp4"
+    },
+    {
+      "scene": "02",
+      "src": "clips/02-scene.mp4"
+    },
+    {
+      "scene": "03",
+      "src": "clips/03-scene-omni-v2-bolt-trim.mp4"
+    },
+    {
+      "scene": "04",
+      "src": "clips/04-scene.mp4"
+    },
+    {
+      "scene": "05",
+      "src": "clips/05-scene.mp4"
+    }
+  ],
+  "opening_choice": "Earlier user-preferred Omni v3 retained for review; new01v5 rejected for mouth and particles. Current-context independent review pending.",
+  "lightning_edit": "Normal editorial selection from new03v2; retain one complete bolt pair at3.8s, extend existing quiet holds, preserve9s duration and normal speed.",
+  "voices": "All7 actual seed_audio WAVs downloaded using exact saved Arthur preset and custom Sol element; normal-rate,1x.",
+  "captions": "15 editable cues aligned to actual word timestamps; original white/orange font styling.",
+  "music": "Quiet excerpt of saved Hide and Sneak4 with fades; voice levels balanced.",
+  "review_status": "Independent reviews in progress; no production approval claimed.",
+  "expected_output": "renders/fire-discovery-with-sound-draft.mp4",
+  "output": "renders/fire-discovery-with-sound-draft.mp4",
+  "output_sha256": "6c7e92398c0463949e784d092877a74dfbbf658feb7acec2aa8842b109e26ef4",
+  "duration_sec": 33.002667,
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "measured_lufs": "-16.01",
+    "true_peak_dbtp": "-3.92",
+    "dialogue_playback_rate": 1,
+    "exact_voice_config": "workflow/config/voices.json",
+    "voice_takes": 7,
+    "music": "Hide and Sneak 4.mp3",
+    "source_audio_hashes_preserved": true
+  },
+  "release_status": "Review draft only: no production approval; Sol artifacts/attention issues remain in02/05."
+}

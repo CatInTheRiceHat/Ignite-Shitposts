@@ -1,0 +1,43 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "d5524d68ce375279e273cb05b55b662c273a1ce575b6b216a9323c4bc6d87005"
+  },
+  "scene_script_excerpt": "SCENE 04 — Tending existing embers — 9 seconds (provisional)\nSetting and framing: Stable close-up from a gently elevated three-quarter angle. A charred bough and ember bed fill the middle half of the frame, with the contact point near x=58%, y=60%. One cropped anonymous human hand enters upper-right, gripping the far end of a single dry twig. Keep the twig tip, coals and supporting surfaces clear; background detail falls into broad cool earth shapes. Keep the lower fifth quiet.\nLighting: Cool diffuse shade over ash-gray soil and charcoal wood, with small ember-orange accents. Existing embers cast a weak local warm tint on the twig underside and nearby palm. The caught flame strengthens only the local warmth at the end.\nCamera: shot_size: Close-up of embers, twig and contact point.; height_and_angle: Gently elevated three-quarter view.; movement: Generation: stable camera for the contact sequence.; editing: No camera move; time the final hold to Arthur's take.; start_view: Single twig tip above coals; one hand upper-right; contact point near x=58%, y=60%.; end_view: Same crop; supported twig at the coals, hand out of frame, small caught flame.\nFirst frame: One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.\n\nNarrator: “Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill.”\n\nAction: Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.\nNarrator attention: {\"required\": false, \"gaze_target\": null, \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"reason\": \"Sol is off-screen during Narrator speech.\"}\nLast frame: The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement. The released twig is stationary and securely supported; the flame base is anchored at the twig–ember contact.\nNext cut: Cut wider from the same camera side for Scene 05, retaining the bough, added twig, ember arrangement and localized lighting. The human hand stays off-screen; Sol appears as presenter.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill."
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": null,
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "reason": "Sol is off-screen during Narrator speech.",
+    "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "04",
+  "first_frame": "One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.",
+  "action": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.",
+  "last_frame": "The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement. The released twig is stationary and securely supported; the flame base is anchored at the twig–ember contact.",
+  "performance_beats": [
+    {
+      "cue": "Arthur's phrase about feeding embers wood cues stable-grip placement, support, release and one-path withdrawal in sequence. Hold the supported twig and small contact flame while he distinguishes making fire from tending it.",
+      "eye_shape": "No visible character.",
+      "gaze": "No visible character.",
+      "body": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool."
+    }
+  ]
+}

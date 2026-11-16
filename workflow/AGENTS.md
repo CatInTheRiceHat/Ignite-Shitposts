@@ -73,8 +73,7 @@ unchanged for two consecutive frames (15 updates per second) at normal speed.
 Longer holds use complete pairs. Apply this to Sol, visible human hands, moving
 props, flames and animated local lighting; keep background/texture stable.
 No interpolation, blending, optical flow or motion blur concealing the steps.
-Use short direct gestures with a small bouncy flame-like body/tip/lobe wobble
-and soft follow-through that damps and settles. This latest user preference
+Use short direct gestures with gentle attached body/tip wiggle and soft follow-through that settles. Sol emits no particles, sparks, flecks, droplets or detached flame accents; feet remain supported. This latest user preference
 supersedes earlier rigid-body/no-bounce defaults. Keep layers and face coherent,
 eyes unchanged, limbs stubby and feet supported. Add no unrelated windup,
 repeated nodding, endless idle sway, extra hops or camera movement.

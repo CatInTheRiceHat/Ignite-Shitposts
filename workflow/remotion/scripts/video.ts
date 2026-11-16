@@ -291,6 +291,10 @@ async function main() {
         pixelFormat: "yuv420p",
         outputLocation: temporaryOutput,
         concurrency,
+        // Keep native video decoding bounded on the shared desktop host.
+        offthreadVideoCacheSizeInBytes: 128 * 1024 * 1024,
+        offthreadVideoThreads: 1,
+        timeoutInMilliseconds: 90000,
         imageFormat: "jpeg",
         jpegQuality: 95,
         browserExecutable,

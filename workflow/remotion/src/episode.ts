@@ -81,6 +81,15 @@ const scene = z.discriminatedUnion("type", [
     muted: z.boolean().default(true),
     fit: z.enum(["cover", "contain"]).default("cover"),
     playbackRate: z.number().positive().default(1),
+    editorialPush: z.object({
+      start: seconds,
+      end: seconds,
+      fromScale: z.number().min(1).default(1),
+      toScale: z.number().min(1),
+      anchorXPercent: z.number().min(0).max(100),
+      anchorYPercent: z.number().min(0).max(100),
+    }).refine((push) => push.end > push.start,
+      "Editorial push end must follow its start").optional(),
   }),
 ]);
 export const episodeSchema = z

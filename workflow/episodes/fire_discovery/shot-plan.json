@@ -1,11 +1,11 @@
 {
   "episode": "fire_discovery",
   "title": "How Fire Was Discovered",
-  "status": "New explicit video-generation request: tiny flicks coupled to flowing pose bounce. Same approved endpoints and Omni Flash model.",
+  "status": "Corrected particle-free source footage selected, mouth-bearing01v5 excluded; normal-rate voices and visual tails tightened, orangecaptionoutline12px. Generation footage lengths remain3/6/9/9/6s; final cut23.6s.",
   "target_duration_sec": 30,
-  "estimated_duration_sec": 29,
+  "estimated_duration_sec": 33,
   "spoken_word_count": 54,
-  "timing_status": "29-second provisional estimate against 30-second target; finalize from actual normal-rate voices at 1x.",
+  "timing_status": "Normal-rate actual voice takes measured; visual review pending.",
   "format": {
     "width": 1080,
     "height": 1920,
@@ -92,7 +92,8 @@
     "Latest user clarification: Sol should wobble with bouncy flame-like follow-through whenever he makes an intentional movement. Keep his face/layers coherent, eye ovals unchanged, stubby limbs and supported feet, and settle into the same approved endpoints. Hands/mechanisms do not inherit mascot bounce.",
     "User explicitly authorized one three-second Kling 3.0 Pro comparison at an estimated 5.25 credits after repeated Omni eye/paint failures. This is a single test; shared model defaults remain Omni Flash 1.2 and the remaining batch is not switched.",
     "After viewing the Omni/Kling comparison, user selected Omni Flash 1.2 and explicitly allowed a brief natural blink. Continue the already requested draft clip generation in Omni; keep historical paint observations and obtain fresh reviews under the revised blink rule. No local eye cleanup or Omni Pro generation authorized.",
-    "Latest mandatory direction: review actual clips WITH the complete script and speaker cues. Whenever Narrator speaks and Sol is visible, gaze is UP to the fixed above-camera voice before onset and throughout the turn, with gentle listening idle. Scene02/05 ending frames changed; approval of those exact new pairs is pending. Scene01 and Sol-off-screen Scene03/04 footage can remain."
+    "Latest mandatory direction: review actual clips WITH the complete script and speaker cues. Whenever Narrator speaks and Sol is visible, gaze is UP to the fixed above-camera voice before onset and throughout the turn, with gentle listening idle. Scene02/05 ending frames changed; approval of those exact new pairs is pending. Scene01 and Sol-off-screen Scene03/04 footage can remain.",
+    "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact."
   ],
   "sources": [
     {
@@ -119,7 +120,7 @@
       "id": "01",
       "sol_visible": true,
       "title": "A curious presenting gesture",
-      "action": "Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold.",
+      "action": "Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.",
       "dialogue": [
         {
           "speaker": "Sol",
@@ -132,13 +133,12 @@
       "setting_and_framing": "Medium-wide full-body view at Sol's face height, angled slightly down onto a simple woodland clearing. Sol occupies 36% of frame height at x=28%, with feet at y=74%; a small burning fallen bough is at x=74%, y=67%. Separate foreground earth, a middle-ground charred trunk and distant sage foliage into overlapping painted layers. Keep the lower fifth quiet.",
       "first_frame": "Sol faces the bough in a shallow three-quarter orientation, both tiny feet planted and short arms lowered. Both original eyes are visible. A clear gap separates his body from the small faceless painted flame rooted on the wood.",
       "last_frame": "Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.",
-      "motion_prompt_action": "Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold.",
+      "motion_prompt_action": "Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.",
       "performance_beats": [
         {
-          "cue": "Sol's opening question cues one arm lift with a small connected bouncy flame-like follow-through; settle and hold the ending pose into Scene 02.",
-          "eye_shape": "Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift.",
-          "gaze": "Same facing direction; eye ovals stay attached to the coherent face through the small body wobble.",
-          "body": "Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold."
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.",
+          "gaze": "UP to fixed above-camera Narrator whenever he speaks and Sol is visible"
         }
       ],
       "camera": {
@@ -185,7 +185,7 @@
         "approval_status": "Exact unchanged endpoint pair approved by user. User selected Omni Flash 1.2 and explicitly permits brief natural blinks with bouncy motion; draft generation continues.",
         "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
       },
-      "timing_status": "Provisional; finalize from normal-rate voices at 1x.",
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
       "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
       "reference_views": [],
       "cartoon_accents": [],
@@ -193,10 +193,10 @@
         "first": "Create a medium-wide painted still at Sol's face height, angled slightly down. In a simple woodland clearing, place full-body Sol at x=28%, 36% of frame height, feet at y=74%; a small burning bough sits at x=74%, y=67%. Sol faces it in shallow three-quarter view, both feet planted and both short arms lowered. Keep both eyes visible and a clear gap between him and the faceless wood flame. Layer pale foreground earth, one charred trunk and distant sage foliage; keep the lower fifth quiet. Soft overcast daylight enters upper-left; the existing fire adds only faint local warmth.\n\nMatch the original Sol artwork exactly in this settled still: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep both eye ovals uniformly navy #1C2447, open and unchanged in shape, size, low placement and close spacing; no highlights, whites, extra pupils or facial drift. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs, neck or separate humanoid torso. Keep facial markings attached to the body. Preserve the softly tapering tip and filled flame layers. Actual wood fire stays separate.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
         "last": "Use the approved starting still as the composition reference. Change only Sol's arm nearest the bough: it is now raised into a small outward presenting gesture. Preserve that arm's original length and attachment point. The other arm stays lowered; body orientation, facial markings, eye positions, silhouette, flame layers, planted feet, body size, camera, wood position and overcast lighting remain unchanged. The small faceless painted flame remains rooted on the bough, visibly separate from Sol. Keep the lower fifth quiet.\n\nMatch the original Sol artwork exactly in this settled still: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep both eye ovals uniformly navy #1C2447, open and unchanged in shape, size, low placement and close spacing; no highlights, whites, extra pupils or facial drift. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs, neck or separate humanoid torso. Keep facial markings attached to the body. Preserve the softly tapering tip and filled flame layers. Actual wood fire stays separate.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
       },
-      "video_prompt": "Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold.\n\nUse the same stable medium-wide camera and woodland layout as the supplied images. The small wood flame is separate from Sol and rooted on the bough, with only its upper shapes and local reflected warmth changing.\n\nAnimate the supplied soft matte gouache painting while preserving its broad brushwork, simple color shapes, subtle paper texture and softened painted edges on Sol and the entire environment. Color and gentle shading define form and depth. The red outer flame is a filled painted color layer. Keep the navy eye ovals plain filled paint. Preserve the source paint without tracing, sharpening, dark contour strokes, pale eye rims, embossed edges or glossy/vector re-rendering. Keep the forms readable; do not use optical blur to simulate paint.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.\n\nApply the two-frame cadence to Sol's gesture and bouncy body/flame follow-through, the separate wood flame and animated local reflected light. Keep the woodland background and painted surface texture stable. No interpolation, frame blending, optical-flow smoothing or motion blur concealing the held poses.\n\nPreserve Sol’s recognizable compact flame design, coherent red/orange/cream layers and stubby limb lengths. Allow small connected body/tip/lobe flex, with every colored part attached to the main body. The face remains part of the body. Intentional gaze shifts may move the existing eye ovals coherently as a pair inside the face while preserving their normal shape, size and gap. Do not detach or rotate the face as a separate head, introduce a neck, or allow unmotivated feature drift.\n\nKeep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.\n\nPreserve the mouthless compact Sol design, original red/orange/cream layer relationships and tiny stubby limbs. No nose, eyebrows, fingers, elongated limbs, neck or humanoid torso. Keep actual wood fire separate from Sol. No unrelated windup, extra steps, repeated nodding, endless idle sway or camera bounce.\n\nGeneration should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.\n\nNo added text or generated dialogue.\n\nGive every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with compact proportions and normal eyes intact. Face and filled flame layers move together. Establish attention to the fixed above-camera Narrator before his first word, then maintain it with gentle body/tip/lobe listening idle throughout the turn. No unrelated windup, repeated arm gestures, large bounce loops, unplanned hops or camera movement.",
+      "video_prompt": "Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nMove Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.\n\nSol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve Sol's compact reference proportions, original flame silhouette and color-layer relationships, tiny stubby arms and feet, original limb lengths and attachment points. Keep his face attached to the body and both normal-height oval eyes uniformly navy #1C2447 with original size and close spacing. No eye squish, whites, highlights, extra pupils, eyebrows, mouth, nose, fingers, neck or humanoid torso. A brief natural blink returns to the same original ovals.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
       "lighting": "Soft overcast daylight from upper-left; cream earth, muted sage and teal distance, honey-brown wood. The existing wood fire adds only a faint localized warm tint.",
       "motion_cadence": {
-        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect. Use short, controlled movements with clear starting and ending positions. Give Sol’s intentional movements a small, bouncy flame-like wobble and soft follow-through, then let the motion damp and settle into the ending pose. Treat the wobble as part of the main action, not an extra gesture or perpetual idle loop. Add no unrequested windup, repeated nodding, hops, skating, or camera movement.",
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
         "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
         "delivery_fps": 30,
         "pose_hold_frames": 2,
@@ -262,16 +262,36 @@
       "narrator_attention": {
         "required": false,
         "gaze_target": null,
-        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
         "final_voice_alignment_verified": false,
         "reason": "Only Sol speaks in this clip; Narrator attention starts in the next scene."
+      },
+      "final_edit": {
+        "start_sec": 0,
+        "end_sec": 2.3333333333333335,
+        "duration_sec": 2.3333333333333335,
+        "source": "clips/edit-v2/01-tight.mp4",
+        "source_trim": {
+          "scene": "01",
+          "source": "clips/01-scene-omni-v3-twos.mp4",
+          "source_sha256": "64f0590cf711838c549a409aa9283d72c7c31f5c404209cba50f4c84bacf3191",
+          "source_first_frame": 0,
+          "frames": 70,
+          "duration": 2.3333333333333335,
+          "output": "clips/edit-v2/01-tight.mp4",
+          "sha256": "adc503ca810f822349d061d8406ac458792397b8ba945b1f6e012731b52b1c92",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        },
+        "speech_rate": 0,
+        "playback_rate": 1
       }
     },
     {
       "id": "02",
       "sol_visible": true,
       "title": "Listening to Arthur",
-      "action": "Start from the exact supplied arm-raised first pose. Immediately lower the presenting arm once and tip the whole compact body gently back/up toward the fixed off-screen Narrator above camera. Establish that listening direction within the first half-second, before Arthur's planned onset. Flow through one small grounded bounce into the supplied arms-down tilted ending pose. Couple the tiny tip flick to that bounce, then stop emissions as the gesture settles. Keep above-camera attention and gentle attached tip/body listening idle through the remaining clip, with both arms quiet.",
+      "action": "Begin exactly at the approved Scene01 ending. During 0.0–0.7 seconds, lower the presenting arm once along a short direct path and tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera. Establish this listening direction by 0.7 seconds, before Arthur begins at 0.8 seconds. Keep his normal oval eyes, face and layers coherent with that body pitch. Maintain this above-camera attention with quiet attached body/tip wiggle from 0.7 seconds through the ending. Both arms rest at the flanks and both feet stay supported. End in the supplied approved listening pose.",
       "dialogue": [
         {
           "speaker": "Narrator",
@@ -280,17 +300,16 @@
       ],
       "next_cut": "Cut to Scene 03's separate storm example. Sol remains off-screen during the next exchange.",
       "start_sec": 3,
-      "end_sec": 7,
+      "end_sec": 9,
       "setting_and_framing": "Continue the exact Scene 01 source view, with the same Sol, bough, clearing and lighting. Generate at the original medium-wide framing. The tighter response view is an editing-only digital push; endpoint assets remain uncropped.",
       "first_frame": "Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.",
       "last_frame": "Match the displayed and user-approved body-tilt ending: both stubby arms rest beside the flanks, feet supported, compact flame body and attached face/layers share the small tilted listening orientation. Both normal-height oval eyes are solid navy, with unchanged identity and close spacing. Preserve body volume, scene crop, bough/fire placement, lighting and contact shadows. This is a neutral phase of listening idle; the connecting motion must establish clear attention UP to the Narrator before his words.",
-      "motion_prompt_action": "Start from the exact supplied arm-raised first pose. Immediately lower the presenting arm once and tip the whole compact body gently back/up toward the fixed off-screen Narrator above camera. Establish that listening direction within the first half-second, before Arthur's planned onset. Flow through one small grounded bounce into the supplied arms-down tilted ending pose. Couple the tiny tip flick to that bounce, then stop emissions as the gesture settles. Keep above-camera attention and gentle attached tip/body listening idle through the remaining clip, with both arms quiet.",
+      "motion_prompt_action": "Begin exactly at the approved Scene01 ending. During 0.0–0.7 seconds, lower the presenting arm once along a short direct path and tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera. Establish this listening direction by 0.7 seconds, before Arthur begins at 0.8 seconds. Keep his normal oval eyes, face and layers coherent with that body pitch. Maintain this above-camera attention with quiet attached body/tip wiggle from 0.7 seconds through the ending. Both arms rest at the flanks and both feet stay supported. End in the supplied approved listening pose.",
       "performance_beats": [
         {
-          "cue": "Establish body-led above-camera attention before the Narrator; final windows follow actual voices.",
-          "eye_shape": "Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso.",
-          "gaze": "UP to fixed above-camera Narrator for the whole turn",
-          "body": "Start from the exact supplied arm-raised first pose. Immediately lower the presenting arm once and tip the whole compact body gently back/up toward the fixed off-screen Narrator above camera. Establish that listening direction within the first half-second, before Arthur's planned onset. Flow through one small grounded bounce into the supplied arms-down tilted ending pose. Couple the tiny tip flick to that bounce, then stop emissions as the gesture settles. Keep above-camera attention and gentle attached tip/body listening idle through the remaining clip, with both arms quiet."
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Begin exactly at the approved Scene01 ending. During 0.0–0.7 seconds, lower the presenting arm once along a short direct path and tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera. Establish this listening direction by 0.7 seconds, before Arthur begins at 0.8 seconds. Keep his normal oval eyes, face and layers coherent with that body pitch. Maintain this above-camera attention with quiet attached body/tip wiggle from 0.7 seconds through the ending. Both arms rest at the flanks and both feet stay supported. End in the supplied approved listening pose.",
+          "gaze": "UP to fixed above-camera Narrator whenever he speaks and Sol is visible"
         }
       ],
       "camera": {
@@ -337,7 +356,7 @@
         "approval_status": "Changed narrator-upward-gaze ending; exact new pair requires user approval before another video.",
         "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
       },
-      "timing_status": "Provisional; finalize from normal-rate voices at 1x.",
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
       "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
       "reference_views": [],
       "cartoon_accents": [],
@@ -345,7 +364,7 @@
         "first": "REUSE ENTRY: use the approved Scene 01 ending image unchanged. Required state: Sol holds his short arm nearest the bough in an outward presenting gesture; his other arm is lowered, both feet are planted and his face is directed toward the wood. Preserve the original medium-wide composition, clear gap to the faceless bough fire, layered clearing, soft overcast light and faint local fire warmth. This endpoint is the same source image, with no newly generated variation.\n\nMatch the original Sol artwork exactly in this settled still: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep both eye ovals uniformly navy #1C2447, open and unchanged in shape, size, low placement and close spacing; no highlights, whites, extra pupils or facial drift. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs, neck or separate humanoid torso. Keep facial markings attached to the body. Preserve the softly tapering tip and filled flame layers. Actual wood fire stays separate.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
         "last": "Use the approved starting frame for composition and the displayed body-tilt ending as pose reference. Match the displayed and user-approved body-tilt ending: both stubby arms rest beside the flanks, feet supported, compact flame body and attached face/layers share the small tilted listening orientation. Both normal-height oval eyes are solid navy, with unchanged identity and close spacing. Preserve body volume, scene crop, bough/fire placement, lighting and contact shadows. This is a neutral phase of listening idle; the connecting motion must establish clear attention UP to the Narrator before his words. Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso. Preserve the supplied soft matte gouache painting: broad simplified shapes, layered color, subtle paper texture and softened painted edges, with coherent perspective, rounded depth and contact shadows. Animate the existing painted forms without tracing, sharpened contour strokes, pale eye rims, gloss, heavy grain or a vector rerender. No text or watermark."
       },
-      "video_prompt": "Start from the exact supplied arm-raised first pose. Immediately lower the presenting arm once and tip the whole compact body gently back/up toward the fixed off-screen Narrator above camera. Establish that listening direction within the first half-second, before Arthur's planned onset. Flow through one small grounded bounce into the supplied arms-down tilted ending pose. Couple the tiny tip flick to that bounce, then stop emissions as the gesture settles. Keep above-camera attention and gentle attached tip/body listening idle through the remaining clip, with both arms quiet.\n\nMake the pose changes flowing and visibly bouncy through small coherent body flex and soft tip/lobe follow-through around continuously supported foot nubs. Feet keep contact with the same ground and shadow. Give one small controlled rotational rebound, then settle the main gesture. Face and nested color layers move together; retain compact proportions, stubby limb lengths and the mouthless design.\n\nAt each intentional pose-bounce peak, allow just one tiny matte red/orange brush-flick beside the flame tip, roughly one-quarter of an eye's height or smaller. Keep it close to the tip and let it fade within a few held poses as the bounce settles. This accent is caused by the bounce and its follow-through. During quiet listening idle, the attached tip can gently waver but emits no new flecks. Keep the main filled mascot and original lobes intact. No eye-sized drops, bulbous glowing flares or repeated paired sprays. The separate wood fire alone flickers continuously.\n\nKeep the original normal-height, closely spaced navy #1C2447 eye ovals as flat opaque paint marks; their orientation follows the whole body. A brief natural blink is allowed, returning to the original design. No eye squish, highlights, pale rims, whites, added pupils, eyebrows, neck, fingers or separate torso.\n\nUse the supplied source's stable camera, geometry and lighting. Animate its soft matte gouache brushstrokes, layered color and softened painted edges, with subtle stable paper texture. Preserve the existing painted forms without tracing, hard contour strokes, glossy rerendering or eye-edge halos.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance. Longer intentional holds use complete two-frame pairs. Keep normal-speed action. Apply this cadence to Sol, the tiny accent, the separate wood fire and local animated light. No interpolation, blending, optical flow or concealing motion blur. Enforce and verify exact pairs in editing. No generated speech, text or audio.",
+      "video_prompt": "Begin exactly at the approved Scene01 ending. During 0.0–0.7 seconds, lower the presenting arm once along a short direct path and tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera. Establish this listening direction by 0.7 seconds, before Arthur begins at 0.8 seconds. Keep his normal oval eyes, face and layers coherent with that body pitch. Maintain this above-camera attention with quiet attached body/tip wiggle from 0.7 seconds through the ending. Both arms rest at the flanks and both feet stay supported. End in the supplied approved listening pose.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nMove Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.\n\nSol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve Sol's compact reference proportions, original flame silhouette and color-layer relationships, tiny stubby arms and feet, original limb lengths and attachment points. Keep his face attached to the body and both normal-height oval eyes uniformly navy #1C2447 with original size and close spacing. No eye squish, whites, highlights, extra pupils, eyebrows, mouth, nose, fingers, neck or humanoid torso. A brief natural blink returns to the same original ovals.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
       "continuity_from": {
         "scene": "01",
         "frame": "last",
@@ -354,7 +373,7 @@
       },
       "lighting": "Keep Scene 01's soft overcast upper-left light and faint warmth immediately around the existing bough fire.",
       "motion_cadence": {
-        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect. Use short, controlled movements with clear starting and ending positions. Give Sol’s intentional movements a small, bouncy flame-like wobble and soft follow-through, then let the motion damp and settle into the ending pose. Treat the wobble as part of the main action, not an extra gesture or perpetual idle loop. Add no unrequested windup, repeated nodding, hops, skating, or camera movement.",
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
         "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
         "delivery_fps": 30,
         "pose_hold_frames": 2,
@@ -414,7 +433,7 @@
       "narrator_attention": {
         "required": true,
         "gaze_target": "Fixed off-screen Narrator point just above camera",
-        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
         "final_voice_alignment_verified": false,
         "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.",
         "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
@@ -422,9 +441,14 @@
         "original_eye_design_preserved": true,
         "planned_lead_in_sec": 0.6,
         "planned_window": {
-          "start_sec": 0.6,
-          "end_sec": 4,
-          "confirmed": false
+          "start_sec": 0.8,
+          "end_sec": 4.781,
+          "confirmed": true
+        },
+        "edited_voice_window": {
+          "start_sec": 0.8,
+          "end_sec": 4.595729166666667,
+          "confirmed": true
         }
       },
       "eye_gaze_squish_trial": {
@@ -453,17 +477,35 @@
         "approval_quote": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?"
       },
       "bounce_flame_accents": {
-        "trigger": "intentional pose-bounce peak and tip follow-through",
-        "size": "tiny, about one-quarter eye height or smaller",
-        "lifetime": "few held poses; gone as the gesture settles",
-        "quiet_idle": "attached tip/body motion; no fresh emissions"
+        "enabled": false,
+        "status": "Superseded by explicit particle-free wiggle request"
+      },
+      "final_edit": {
+        "start_sec": 2.3333333333333335,
+        "end_sec": 7.133333333333333,
+        "duration_sec": 4.8,
+        "source": "clips/edit-v2/02-tight.mp4",
+        "source_trim": {
+          "scene": "02",
+          "source": "clips/02-scene-omni-v6-particle-free-v2.mp4",
+          "source_sha256": "c7da23c931b7e2b2b2429018c6fcbd9ed23e0c714f4b18839fe805832bbb46ab",
+          "source_first_frame": 0,
+          "frames": 144,
+          "duration": 4.8,
+          "output": "clips/edit-v2/02-tight.mp4",
+          "sha256": "5d7ec89b88e067ddc6fd50ce3dbd15ac85093ddfa9e8f010de06602b9cc6a1f7",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        },
+        "speech_rate": 0,
+        "playback_rate": 1
       }
     },
     {
       "id": "03",
       "sol_visible": false,
       "title": "Lightning ignites dry wood",
-      "action": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.",
+      "action": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.",
       "dialogue": [
         {
           "speaker": "Sol",
@@ -475,18 +517,17 @@
         }
       ],
       "next_cut": "Cut to a separate time/place for ember tending in Scene 04; do not imply that this particular branch or fire is tracked across the cut.",
-      "start_sec": 7,
-      "end_sec": 14,
+      "start_sec": 9,
+      "end_sec": 18,
       "setting_and_framing": "Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.",
       "first_frame": "The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.",
       "last_frame": "The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.",
-      "motion_prompt_action": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.",
+      "motion_prompt_action": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.",
       "performance_beats": [
         {
-          "cue": "Both voices stay off-screen. Arthur's explanation of lightning's heat cues the brief fixed-shape bolt, its complete disappearance and localized ignition.",
-          "eye_shape": "No visible character.",
-          "gaze": "No visible character.",
-          "body": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing."
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.",
+          "gaze": "Sol off-screen"
         }
       ],
       "camera": {
@@ -528,7 +569,7 @@
         "approval_status": "Exact unchanged endpoint pair approved by user. User selected Omni Flash 1.2 and explicitly permits brief natural blinks with bouncy motion; draft generation continues.",
         "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
       },
-      "timing_status": "Provisional; finalize from normal-rate voices at 1x.",
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
       "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
       "reference_views": [],
       "cartoon_accents": [],
@@ -536,10 +577,10 @@
         "first": "Create a low three-quarter medium-wide view of one dry dead tree under broad blue-gray storm clouds. Place the trunk near x=52% and its unlit dry lower branch near x=65%, y=62%; leave sky above for a later strike. Separate the tree, ground and distant muted teal woodland with painted overlap and perspective. Use cool diffuse storm daylight only. Show no lightning, flame, embers or warm firelight. The woodland is empty of characters; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
         "last": "Use the attached starting still for tree structure, composition and style. Keep the same source camera view and branch geometry. A small faceless painted flame now burns at a darkened patch on the dry lower branch at right; the lightning is completely absent. Its flame base is anchored to that ignition patch; keep the branch rigid. Preserve the rigid trunk, branch attachments, woodland layout and cool storm light. Add only a faint local warm reflection beside the burning patch; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
       },
-      "video_prompt": "One painted lightning bolt appears briefly as a fixed, complete shape joining the sky to the dry lower branch, held for one complete two-frame pair at final 30 fps, then disappears completely. It does not travel or sweep. A small flame ignites at that contact point. Anchor the flame base to the ignition point; only its small upper shapes change. Keep the tree and branch rigid, without bending, and the cool storm background stable. Local reflected warmth appears only after ignition, without whole-scene brightness pulsing.\n\nUse a stable low three-quarter medium-wide source camera. Begin with the entirely unlit dry tree under cool storm daylight and end with the localized flame; keep the same source crop, rigid attachments and woodland geometry.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.\n\nApply this cadence to the painted lightning state, flame upper shapes and animated local reflected lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.\n\nUse short controlled movements in the specified physical sequence, with clear starting and ending positions and clean stops. Do not add unrequested windup, recoil, repeated motion, bouncing props or camera movement.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nGeneration should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.\n\nNo added text or generated dialogue.",
+      "video_prompt": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nNo Sol or human face appears in this cutaway.\n\nKeep actual fire rooted at the wood contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve the physical order of the specified action and original object count.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
       "lighting": "At the start use cool diffuse storm daylight only: slate blue-gray clouds, desaturated teal distance and cool brown wood. No fire or warm firelight exists before ignition. After ignition retain the cool ambient light with only a tiny warm reflection at the burning patch.",
       "motion_cadence": {
-        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect. Apply this cadence to the painted lightning state, flame upper shapes and animated local reflected lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.",
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
         "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
         "delivery_fps": 30,
         "pose_hold_frames": 2,
@@ -577,9 +618,29 @@
       "narrator_attention": {
         "required": false,
         "gaze_target": null,
-        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
         "final_voice_alignment_verified": false,
         "reason": "Sol is off-screen during Narrator speech."
+      },
+      "final_edit": {
+        "start_sec": 7.133333333333333,
+        "end_sec": 12.8,
+        "duration_sec": 5.666666666666667,
+        "source": "clips/edit-v2/03-tight.mp4",
+        "source_trim": {
+          "scene": "03",
+          "source": "clips/03-scene-omni-v2-bolt-trim.mp4",
+          "source_sha256": "c651147d3a58e5096488fb84bcf5040a98f7ea5578f98dfe41b2d7466acdceec",
+          "source_first_frame": 36,
+          "frames": 170,
+          "duration": 5.666666666666667,
+          "output": "clips/edit-v2/03-tight.mp4",
+          "sha256": "f765950aaf31dd220a8f87b25c929692b2da800c2db8be44524ae85ad97a0830",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        },
+        "speech_rate": 0,
+        "playback_rate": 1
       }
     },
     {
@@ -594,18 +655,17 @@
         }
       ],
       "next_cut": "Cut wider from the same camera side for Scene 05, retaining the bough, added twig, ember arrangement and localized lighting. The human hand stays off-screen; Sol appears as presenter.",
-      "start_sec": 14,
-      "end_sec": 23,
+      "start_sec": 18,
+      "end_sec": 27,
       "setting_and_framing": "Stable close-up from a gently elevated three-quarter angle. A charred bough and ember bed fill the middle half of the frame, with the contact point near x=58%, y=60%. One cropped anonymous human hand enters upper-right, gripping the far end of a single dry twig. Keep the twig tip, coals and supporting surfaces clear; background detail falls into broad cool earth shapes. Keep the lower fifth quiet.",
       "first_frame": "One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.",
       "last_frame": "The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement. The released twig is stationary and securely supported; the flame base is anchored at the twig–ember contact.",
       "motion_prompt_action": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.",
       "performance_beats": [
         {
-          "cue": "Arthur's phrase about feeding embers wood cues stable-grip placement, support, release and one-path withdrawal in sequence. Hold the supported twig and small contact flame while he distinguishes making fire from tending it.",
-          "eye_shape": "No visible character.",
-          "gaze": "No visible character.",
-          "body": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool."
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.",
+          "gaze": "Sol off-screen"
         }
       ],
       "camera": {
@@ -647,7 +707,7 @@
         "approval_status": "Exact unchanged endpoint pair approved by user. User selected Omni Flash 1.2 and explicitly permits brief natural blinks with bouncy motion; draft generation continues.",
         "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
       },
-      "timing_status": "Provisional; finalize from normal-rate voices at 1x.",
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
       "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
       "reference_views": [],
       "cartoon_accents": [],
@@ -655,10 +715,10 @@
         "first": "Create a gently elevated three-quarter close-up of ONE charred fallen bough with a small ember bed on ash-gray earth. Use one main bough and only a few small coal pieces; describe the wood through broad painted shapes and gentle shading, without dense bark cracks or a pile of many logs. Place the contact area near x=58%, y=60%; keep the lower fifth quiet.\n\nONE cropped anonymous human hand enters from upper-right, gripping the far end of ONE short, straight, unbranched dry twig. Show a coherent thumb-and-finger grip. The twig has a single blunt lower tip hovering above the hot coals with a clearly visible gap. It has no forks or side branches. No face, mascot or extra tool is visible.\n\nThe existing embers glow a subdued red-orange, with no visible flames or yellow tongues of fire anywhere in this starting still. Use cool diffuse shade, charcoal wood and gray ash with only weak local ember warmth. The twig is unlit and has not touched the coals.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint the human hand, wood, coals and surroundings together with coherent perspective and lighting. Build rounded forms and space through gentle shading, overlap and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nThe supplied graphics control paint treatment only; do not copy their mascots, settings or accessories. No text or watermark.",
         "last": "Use the approved starting still as the composition reference. The single twig now rests on the existing charred support surfaces, one end touching the ember bed. The twig is fully supported and stationary after release; the hand has withdrawn completely along its single exit path. A small faceless painted flame has caught at the fixed twig–ember contact point, slightly increasing local warmth. Preserve the close-up crop, bough shape, coal and ash arrangement, twig identity, cool ambient shade and grounded contact. No mascot or added tools; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
       },
-      "video_prompt": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.\n\nUse the stable gently elevated three-quarter close-up. Preserve the bough, coal and ash arrangement and cool ambient shade; ember warmth and the caught flame affect only the nearby contact area.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.\n\nApply this cadence to the human hand, moving twig, flame upper shapes, ember glow and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.\n\nUse short controlled movements in the specified physical sequence, with clear starting and ending positions and clean stops. Do not add unrequested windup, recoil, repeated motion, bouncing props or camera movement.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nGeneration should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing.\n\nNo added text or generated dialogue.",
+      "video_prompt": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nNo Sol or human face appears in this cutaway.\n\nKeep actual fire rooted at the wood contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve the physical order of the specified action and original object count.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
       "lighting": "Cool diffuse shade over ash-gray soil and charcoal wood, with small ember-orange accents. Existing embers cast a weak local warm tint on the twig underside and nearby palm. The caught flame strengthens only the local warmth at the end.",
       "motion_cadence": {
-        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect. Apply this cadence to the human hand, moving twig, flame upper shapes, ember glow and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.",
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
         "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
         "delivery_fps": 30,
         "pose_hold_frames": 2,
@@ -696,16 +756,36 @@
       "narrator_attention": {
         "required": false,
         "gaze_target": null,
-        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
         "final_voice_alignment_verified": false,
         "reason": "Sol is off-screen during Narrator speech."
+      },
+      "final_edit": {
+        "start_sec": 12.8,
+        "end_sec": 19.4,
+        "duration_sec": 6.6,
+        "source": "clips/edit-v2/04-tight.mp4",
+        "source_trim": {
+          "scene": "04",
+          "source": "clips/04-scene-omni-v2-twos.mp4",
+          "source_sha256": "3f1ca918360ba3e8e220f44446592986f2eac3a3ef98eca82712af2c13cab600",
+          "source_first_frame": 0,
+          "frames": 198,
+          "duration": 6.6,
+          "output": "clips/edit-v2/04-tight.mp4",
+          "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        },
+        "speech_rate": 0,
+        "playback_rate": 1
       }
     },
     {
       "id": "05",
       "sol_visible": true,
       "title": "Understanding the distinction",
-      "action": "Start from the exact supplied first pose, arms beside the flanks. Open both short arms once into the supplied small low gesture of understanding, using one flowing grounded pose-bounce during the first 1.5 seconds. Then tip the whole compact body gently back/up into the supplied tilted listening pose by about 3.5 seconds, before Arthur's planned Right. Each pose change has soft connected follow-through; a tiny flick may accompany its bounce peak and then disappear. Keep the arms low/open and retain above-camera attention with quiet attached tip/body idle from 3.5 seconds through the ending. Do not return toward the fire during the Narrator's reply.",
+      "action": "Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.",
       "dialogue": [
         {
           "speaker": "Sol",
@@ -717,18 +797,17 @@
         }
       ],
       "next_cut": "Hold the concluding pose long enough to read, then end. Final hold depends on the normal-rate voice tracks.",
-      "start_sec": 23,
-      "end_sec": 29,
+      "start_sec": 27,
+      "end_sec": 33,
       "setting_and_framing": "Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.",
       "first_frame": "Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.",
       "last_frame": "Match the displayed and user-approved body-tilt ending: both original short arms are low and open, feet supported, and the whole compact flame body, layers and face share the tilted listening orientation. Both normal-height ovals stay dark navy with original identity and close spacing. Keep the tended bough, twig, embers, separate small flame, crop and lighting. Hold this attentive orientation through Arthur's Right with gentle connected idle; the connecting motion must make the UP direction clear.",
-      "motion_prompt_action": "Start from the exact supplied first pose, arms beside the flanks. Open both short arms once into the supplied small low gesture of understanding, using one flowing grounded pose-bounce during the first 1.5 seconds. Then tip the whole compact body gently back/up into the supplied tilted listening pose by about 3.5 seconds, before Arthur's planned Right. Each pose change has soft connected follow-through; a tiny flick may accompany its bounce peak and then disappear. Keep the arms low/open and retain above-camera attention with quiet attached tip/body idle from 3.5 seconds through the ending. Do not return toward the fire during the Narrator's reply.",
+      "motion_prompt_action": "Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.",
       "performance_beats": [
         {
-          "cue": "Establish body-led above-camera attention before the Narrator; final windows follow actual voices.",
-          "eye_shape": "Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso.",
-          "gaze": "UP to fixed above-camera Narrator for the whole turn",
-          "body": "Start from the exact supplied first pose, arms beside the flanks. Open both short arms once into the supplied small low gesture of understanding, using one flowing grounded pose-bounce during the first 1.5 seconds. Then tip the whole compact body gently back/up into the supplied tilted listening pose by about 3.5 seconds, before Arthur's planned Right. Each pose change has soft connected follow-through; a tiny flick may accompany its bounce peak and then disappear. Keep the arms low/open and retain above-camera attention with quiet attached tip/body idle from 3.5 seconds through the ending. Do not return toward the fire during the Narrator's reply."
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.",
+          "gaze": "UP to fixed above-camera Narrator whenever he speaks and Sol is visible"
         }
       ],
       "camera": {
@@ -775,7 +854,7 @@
         "approval_status": "Changed narrator-upward-gaze ending; exact new pair requires user approval before another video.",
         "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
       },
-      "timing_status": "Provisional; finalize from normal-rate voices at 1x.",
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
       "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
       "reference_views": [],
       "cartoon_accents": [],
@@ -783,7 +862,7 @@
         "first": "Create a wider view from the same camera side as the approved ember close-up, at Sol's face height and angled slightly down. Place full-body Sol at x=32%, 42% of frame height, feet at y=75%; retain the same tended bough, added twig and small faceless flame at right near x=74%, y=67%, with coherent wider-view scale. Sol's short arms rest close to his outer flanks; he faces the fire in shallow three-quarter view with both original eyes visible. Preserve a clear physical gap. Use cool diffuse shade and restrained amber light from the wood on his fire-facing side. Keep the lower fifth quiet.\n\nMatch the original Sol artwork exactly in this settled still: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep both eye ovals uniformly navy #1C2447, open and unchanged in shape, size, low placement and close spacing; no highlights, whites, extra pupils or facial drift. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs, neck or separate humanoid torso. Keep facial markings attached to the body. Preserve the softly tapering tip and filled flame layers. Actual wood fire stays separate.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
         "last": "Use the approved starting frame for composition and the displayed body-tilt ending as pose reference. Match the displayed and user-approved body-tilt ending: both original short arms are low and open, feet supported, and the whole compact flame body, layers and face share the tilted listening orientation. Both normal-height ovals stay dark navy with original identity and close spacing. Keep the tended bough, twig, embers, separate small flame, crop and lighting. Hold this attentive orientation through Arthur's Right with gentle connected idle; the connecting motion must make the UP direction clear. Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso. Preserve the supplied soft matte gouache painting: broad simplified shapes, layered color, subtle paper texture and softened painted edges, with coherent perspective, rounded depth and contact shadows. Animate the existing painted forms without tracing, sharpened contour strokes, pale eye rims, gloss, heavy grain or a vector rerender. No text or watermark."
       },
-      "video_prompt": "Start from the exact supplied first pose, arms beside the flanks. Open both short arms once into the supplied small low gesture of understanding, using one flowing grounded pose-bounce during the first 1.5 seconds. Then tip the whole compact body gently back/up into the supplied tilted listening pose by about 3.5 seconds, before Arthur's planned Right. Each pose change has soft connected follow-through; a tiny flick may accompany its bounce peak and then disappear. Keep the arms low/open and retain above-camera attention with quiet attached tip/body idle from 3.5 seconds through the ending. Do not return toward the fire during the Narrator's reply.\n\nMake the pose changes flowing and visibly bouncy through small coherent body flex and soft tip/lobe follow-through around continuously supported foot nubs. Feet keep contact with the same ground and shadow. Give one small controlled rotational rebound, then settle the main gesture. Face and nested color layers move together; retain compact proportions, stubby limb lengths and the mouthless design.\n\nAt each intentional pose-bounce peak, allow just one tiny matte red/orange brush-flick beside the flame tip, roughly one-quarter of an eye's height or smaller. Keep it close to the tip and let it fade within a few held poses as the bounce settles. This accent is caused by the bounce and its follow-through. During quiet listening idle, the attached tip can gently waver but emits no new flecks. Keep the main filled mascot and original lobes intact. No eye-sized drops, bulbous glowing flares or repeated paired sprays. The separate wood fire alone flickers continuously.\n\nKeep the original normal-height, closely spaced navy #1C2447 eye ovals as flat opaque paint marks; their orientation follows the whole body. A brief natural blink is allowed, returning to the original design. No eye squish, highlights, pale rims, whites, added pupils, eyebrows, neck, fingers or separate torso.\n\nUse the supplied source's stable camera, geometry and lighting. Animate its soft matte gouache brushstrokes, layered color and softened painted edges, with subtle stable paper texture. Preserve the existing painted forms without tracing, hard contour strokes, glossy rerendering or eye-edge halos.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance. Longer intentional holds use complete two-frame pairs. Keep normal-speed action. Apply this cadence to Sol, the tiny accent, the separate wood fire and local animated light. No interpolation, blending, optical flow or concealing motion blur. Enforce and verify exact pairs in editing. No generated speech, text or audio.",
+      "video_prompt": "Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nMove Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.\n\nSol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve Sol's compact reference proportions, original flame silhouette and color-layer relationships, tiny stubby arms and feet, original limb lengths and attachment points. Keep his face attached to the body and both normal-height oval eyes uniformly navy #1C2447 with original size and close spacing. No eye squish, whites, highlights, extra pupils, eyebrows, mouth, nose, fingers, neck or humanoid torso. A brief natural blink returns to the same original ovals.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
       "continuity_from": {
         "scene": "04",
         "frame": "last",
@@ -792,7 +871,7 @@
       },
       "lighting": "Use the same cool diffuse clearing shade and localized amber light as Scene 04's ending. Illuminate Sol coherently with that ambient light and only a restrained warm tint on his fire-facing side.",
       "motion_cadence": {
-        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect. Use short, controlled movements with clear starting and ending positions. Give Sol’s intentional movements a small, bouncy flame-like wobble and soft follow-through, then let the motion damp and settle into the ending pose. Treat the wobble as part of the main action, not an extra gesture or perpetual idle loop. Add no unrequested windup, repeated nodding, hops, skating, or camera movement.",
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
         "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
         "delivery_fps": 30,
         "pose_hold_frames": 2,
@@ -841,7 +920,7 @@
       "narrator_attention": {
         "required": true,
         "gaze_target": "Fixed off-screen Narrator point just above camera",
-        "timing_status": "provisional until actual normal-rate voice tracks are available",
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
         "final_voice_alignment_verified": false,
         "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.",
         "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
@@ -849,9 +928,14 @@
         "original_eye_design_preserved": true,
         "entry_cue": "Sol finishes his thought; eyes are up before Arthur's 'Right'.",
         "planned_window": {
-          "start_sec": 4,
-          "end_sec": 6,
-          "confirmed": false
+          "start_sec": 4.0,
+          "end_sec": 5.88,
+          "confirmed": true
+        },
+        "edited_voice_window": {
+          "start_sec": 3.7333333333333334,
+          "end_sec": 4.0454375,
+          "confirmed": true
         }
       },
       "eye_gaze_squish_trial": {
@@ -880,21 +964,36 @@
         "approval_quote": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?"
       },
       "bounce_flame_accents": {
-        "trigger": "intentional pose-bounce peak and tip follow-through",
-        "size": "tiny, about one-quarter eye height or smaller",
-        "lifetime": "few held poses; gone as the gesture settles",
-        "quiet_idle": "attached tip/body motion; no fresh emissions"
+        "enabled": false,
+        "status": "Superseded by explicit particle-free wiggle request"
+      },
+      "final_edit": {
+        "start_sec": 19.4,
+        "end_sec": 23.599999999999998,
+        "duration_sec": 4.2,
+        "source": "clips/edit-v2/05-tight.mp4",
+        "source_trim": {
+          "scene": "05",
+          "source": "clips/05-scene-omni-v6-particle-free-v2.mp4",
+          "source_sha256": "24850e7740569cd611a18239262a68626fa61ea2a5a64ecdc0fe4323d39a428a",
+          "source_first_frame": 0,
+          "frames": 126,
+          "duration": 4.2,
+          "output": "clips/edit-v2/05-tight.mp4",
+          "sha256": "8cd985cec5493094da06061cc2a1149efd82aecb538f9ecc0e143e5613d78737",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        },
+        "speech_rate": 0,
+        "playback_rate": 1
       }
     }
   ],
   "motion_and_editing": {
     "shared_motion_rules": [
-      "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect.",
-      "Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.",
-      "Give every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with compact proportions and normal eyes intact. Face and filled flame layers move together. Establish attention to the fixed above-camera Narrator before his first word, then maintain it with gentle body/tip/lobe listening idle throughout the turn. No unrelated windup, repeated arm gestures, large bounce loops, unplanned hops or camera movement.",
-      "Preserve Sol’s recognizable compact flame design, coherent red/orange/cream layers and stubby limb lengths. Allow small connected body/tip/lobe flex, with every colored part attached to the main body. The face remains part of the body. Intentional gaze shifts may move the existing eye ovals coherently as a pair inside the face while preserving their normal shape, size and gap. Do not detach or rotate the face as a separate head, introduce a neck, or allow unmotivated feature drift.",
-      "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
-      "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing."
+      "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+      "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
+      "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact."
     ],
     "character_motion_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer intentional holds may span multiple complete two-frame pairs. Maintain normal-speed action; this is a frame cadence instruction, not a speed-up or slow-motion effect. Give every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with compact proportions and normal eyes intact. Face and filled flame layers move together. Establish attention to the fixed above-camera Narrator before his first word, then maintain it with gentle body/tip/lobe listening idle throughout the turn. No unrelated windup, repeated arm gestures, large bounce loops, unplanned hops or camera movement. Preserve the recognizable compact flame design, coherent red/orange/cream layers and constant stubby limb lengths/attachment points. Sol remains one continuous filled painted shape through bounce: every tip, lobe, arm and color layer stays attached, without shed droplets, holes or dissolving pieces. Keep feet supported and the face attached to the body. Actual wood fire stays separate and rooted on the wood; only its upper shapes and local reflected warmth change. Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso.",
     "cadence_confirmed": false,
@@ -913,7 +1012,7 @@
     "narrator_attention": "Mandatory gaze up and gentle idle while Narrator speaks with Sol visible; verify with the actual complete script and bound voice cues/recordings. Planned speech windows remain provisional.",
     "bounce_flame_accents": "At each intentional pose-bounce peak, allow just one tiny matte red/orange brush-flick beside the flame tip, roughly one-quarter of an eye's height or smaller. Keep it close to the tip and let it fade within a few held poses as the bounce settles. This accent is caused by the bounce and its follow-through. During quiet listening idle, the attached tip can gently waver but emits no new flecks. Keep the main filled mascot and original lobes intact. No eye-sized drops, bulbous glowing flares or repeated paired sprays. The separate wood fire alone flickers continuously."
   },
-  "sol_performance_rule": "Give every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with compact proportions and normal eyes intact. Face and filled flame layers move together. Establish attention to the fixed above-camera Narrator before his first word, then maintain it with gentle body/tip/lobe listening idle throughout the turn. No unrelated windup, repeated arm gestures, large bounce loops, unplanned hops or camera movement. Preserve the recognizable compact flame design, coherent red/orange/cream layers and constant stubby limb lengths/attachment points. Sol remains one continuous filled painted shape through bounce: every tip, lobe, arm and color layer stays attached, without shed droplets, holes or dissolving pieces. Keep feet supported and the face attached to the body. Actual wood fire stays separate and rooted on the wood; only its upper shapes and local reflected warmth change. Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso.",
+  "sol_performance_rule": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
   "resolved_user_preferences": {
     "video_model": {
       "value": "gemini_omni_flash_1_2",
@@ -949,6 +1048,10 @@
     "bounce_triggered_flame_flicks": {
       "user_message": "like the flicks should happen when theres the bounce animation yk like flame flickers but yeah can we do the video clips",
       "required": true
+    },
+    "flame_particles": {
+      "enabled": false,
+      "user_message": "wait can we scrap the fire particles lol so just wiggle animation for sol"
     }
   },
   "user_selected_animation": {
@@ -966,5 +1069,6 @@
     "script_bound_by_hash": true,
     "voice_cues_and_available_recordings_bound": true,
     "actual_voice_timing": "provisional until recorded voices and final edit are checked"
-  }
+  },
+  "final_edit_duration_sec": 23.599999999999998
 }

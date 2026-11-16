@@ -1,0 +1,1965 @@
+{
+  "user_request": "wait i said remove the particles from sol",
+  "source": "clips/02-scene-omni-v6-twos.mp4",
+  "output": "clips/02-scene-omni-v6-particle-free-v2.mp4",
+  "source_sha256": "5d7fc09faaef36926b363cee9390911d833c7734da3d4aa399bd55afd5b5ee01",
+  "sha256": "c7da23c931b7e2b2b2429018c6fcbd9ed23e0c714f4b18839fe805832bbb46ab",
+  "method": "Replace only detached red/orange particle background regions using clean background pixels from this same native Higgsfield take. Protect all main Sol body/face/layer pixels before encoding; no new character poses or camera motion. Encode each original repaired state twice; normal-speed action. Original files preserved.",
+  "frames": 180,
+  "pairs": 90,
+  "decoded_pair_mismatches": [],
+  "repairs": [
+    {
+      "source_frames": [
+        42,
+        43
+      ],
+      "time_sec": 1.4,
+      "particle_boxes_360": [
+        [
+          65,
+          227,
+          82,
+          257
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        663,
+        267,
+        792
+      ],
+      "background_donor_frames": [
+        40,
+        60,
+        20,
+        80,
+        100
+      ],
+      "adjacent_native_background_pixels": 27,
+      "changed_pixels_before_encoding": 6199,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        44,
+        45
+      ],
+      "time_sec": 1.4666666666666666,
+      "particle_boxes_360": [
+        [
+          65,
+          227,
+          82,
+          257
+        ],
+        [
+          65,
+          225,
+          82,
+          255
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        657,
+        267,
+        792
+      ],
+      "background_donor_frames": [
+        40,
+        60,
+        20,
+        80,
+        100
+      ],
+      "adjacent_native_background_pixels": 27,
+      "changed_pixels_before_encoding": 6467,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        46,
+        47
+      ],
+      "time_sec": 1.5333333333333334,
+      "particle_boxes_360": [
+        [
+          66,
+          217,
+          83,
+          249
+        ],
+        [
+          65,
+          225,
+          82,
+          255
+        ],
+        [
+          65,
+          223,
+          82,
+          253
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        633,
+        270,
+        786
+      ],
+      "background_donor_frames": [
+        40,
+        60,
+        20,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 8040,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        48,
+        49
+      ],
+      "time_sec": 1.6,
+      "particle_boxes_360": [
+        [
+          68,
+          207,
+          84,
+          237
+        ],
+        [
+          66,
+          215,
+          83,
+          247
+        ],
+        [
+          65,
+          223,
+          82,
+          253
+        ],
+        [
+          65,
+          223,
+          82,
+          253
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        603,
+        273,
+        780
+      ],
+      "background_donor_frames": [
+        40,
+        60,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 9475,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        50,
+        51
+      ],
+      "time_sec": 1.6666666666666667,
+      "particle_boxes_360": [
+        [
+          70,
+          200,
+          85,
+          224
+        ],
+        [
+          68,
+          205,
+          84,
+          235
+        ],
+        [
+          66,
+          213,
+          83,
+          245
+        ],
+        [
+          65,
+          223,
+          82,
+          253
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        582,
+        276,
+        780
+      ],
+      "background_donor_frames": [
+        40,
+        60,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 10463,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        52,
+        53
+      ],
+      "time_sec": 1.7333333333333334,
+      "particle_boxes_360": [
+        [
+          73,
+          196,
+          86,
+          213
+        ],
+        [
+          70,
+          198,
+          85,
+          222
+        ],
+        [
+          68,
+          203,
+          84,
+          233
+        ],
+        [
+          66,
+          213,
+          83,
+          245
+        ]
+      ],
+      "repair_box_native": [
+        180,
+        570,
+        279,
+        756
+      ],
+      "background_donor_frames": [
+        60,
+        40,
+        80,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 9076,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        54,
+        55
+      ],
+      "time_sec": 1.8,
+      "particle_boxes_360": [
+        [
+          73,
+          196,
+          86,
+          213
+        ],
+        [
+          73,
+          194,
+          86,
+          211
+        ],
+        [
+          70,
+          196,
+          85,
+          220
+        ],
+        [
+          68,
+          203,
+          84,
+          233
+        ]
+      ],
+      "repair_box_native": [
+        186,
+        564,
+        279,
+        720
+      ],
+      "background_donor_frames": [
+        60,
+        40,
+        80,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 7593,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        56,
+        57
+      ],
+      "time_sec": 1.8666666666666667,
+      "particle_boxes_360": [
+        [
+          78,
+          193,
+          85,
+          202
+        ],
+        [
+          73,
+          194,
+          86,
+          211
+        ],
+        [
+          73,
+          192,
+          86,
+          209
+        ],
+        [
+          70,
+          196,
+          85,
+          220
+        ]
+      ],
+      "repair_box_native": [
+        192,
+        558,
+        279,
+        681
+      ],
+      "background_donor_frames": [
+        60,
+        40,
+        80,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 5579,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        58,
+        59
+      ],
+      "time_sec": 1.9333333333333333,
+      "particle_boxes_360": [
+        [
+          82,
+          191,
+          85,
+          193
+        ],
+        [
+          78,
+          191,
+          85,
+          200
+        ],
+        [
+          73,
+          192,
+          86,
+          209
+        ],
+        [
+          73,
+          192,
+          86,
+          209
+        ]
+      ],
+      "repair_box_native": [
+        201,
+        555,
+        279,
+        648
+      ],
+      "background_donor_frames": [
+        40
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 3358,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        60,
+        61
+      ],
+      "time_sec": 2.0,
+      "particle_boxes_360": [
+        [
+          82,
+          189,
+          85,
+          191
+        ],
+        [
+          78,
+          189,
+          85,
+          198
+        ],
+        [
+          73,
+          192,
+          86,
+          209
+        ]
+      ],
+      "repair_box_native": [
+        201,
+        549,
+        279,
+        648
+      ],
+      "background_donor_frames": [
+        40
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 3043,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        62,
+        63
+      ],
+      "time_sec": 2.066666666666667,
+      "particle_boxes_360": [
+        [
+          82,
+          187,
+          85,
+          189
+        ],
+        [
+          78,
+          189,
+          85,
+          198
+        ]
+      ],
+      "repair_box_native": [
+        216,
+        543,
+        276,
+        615
+      ],
+      "background_donor_frames": [
+        60,
+        80,
+        40
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 966,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        64,
+        65
+      ],
+      "time_sec": 2.1333333333333333,
+      "particle_boxes_360": [
+        [
+          82,
+          187,
+          85,
+          189
+        ]
+      ],
+      "repair_box_native": [
+        228,
+        543,
+        276,
+        588
+      ],
+      "background_donor_frames": [
+        60,
+        80,
+        40
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 265,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        70,
+        71
+      ],
+      "time_sec": 2.3333333333333335,
+      "particle_boxes_360": [
+        [
+          62,
+          228,
+          77,
+          256
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        666,
+        252,
+        789
+      ],
+      "background_donor_frames": [
+        60,
+        80,
+        40,
+        100,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 5924,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        72,
+        73
+      ],
+      "time_sec": 2.4,
+      "particle_boxes_360": [
+        [
+          64,
+          213,
+          79,
+          240
+        ],
+        [
+          62,
+          226,
+          77,
+          254
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        621,
+        258,
+        783
+      ],
+      "background_donor_frames": [
+        80,
+        60,
+        100,
+        40,
+        120,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 8361,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        74,
+        75
+      ],
+      "time_sec": 2.466666666666667,
+      "particle_boxes_360": [
+        [
+          64,
+          213,
+          79,
+          239
+        ],
+        [
+          64,
+          211,
+          79,
+          238
+        ],
+        [
+          62,
+          224,
+          77,
+          252
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        615,
+        258,
+        777
+      ],
+      "background_donor_frames": [
+        80,
+        60,
+        100,
+        40,
+        120,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 8297,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        76,
+        77
+      ],
+      "time_sec": 2.533333333333333,
+      "particle_boxes_360": [
+        [
+          67,
+          204,
+          81,
+          227
+        ],
+        [
+          64,
+          211,
+          79,
+          237
+        ],
+        [
+          64,
+          209,
+          79,
+          236
+        ],
+        [
+          62,
+          224,
+          77,
+          252
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        594,
+        264,
+        777
+      ],
+      "background_donor_frames": [
+        80,
+        60,
+        100,
+        40,
+        120,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 9449,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        78,
+        79
+      ],
+      "time_sec": 2.6,
+      "particle_boxes_360": [
+        [
+          70,
+          198,
+          82,
+          216
+        ],
+        [
+          79,
+          197,
+          79,
+          197
+        ],
+        [
+          67,
+          202,
+          81,
+          225
+        ],
+        [
+          64,
+          209,
+          79,
+          235
+        ],
+        [
+          64,
+          209,
+          79,
+          236
+        ]
+      ],
+      "repair_box_native": [
+        174,
+        573,
+        267,
+        729
+      ],
+      "background_donor_frames": [
+        80,
+        60,
+        100,
+        40,
+        120,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 7802,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        80,
+        81
+      ],
+      "time_sec": 2.6666666666666665,
+      "particle_boxes_360": [
+        [
+          74,
+          192,
+          83,
+          205
+        ],
+        [
+          70,
+          196,
+          82,
+          214
+        ],
+        [
+          79,
+          195,
+          79,
+          195
+        ],
+        [
+          67,
+          200,
+          81,
+          223
+        ],
+        [
+          64,
+          209,
+          79,
+          235
+        ]
+      ],
+      "repair_box_native": [
+        174,
+        558,
+        270,
+        726
+      ],
+      "background_donor_frames": [
+        60,
+        100,
+        40,
+        120,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 8074,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        82,
+        83
+      ],
+      "time_sec": 2.7333333333333334,
+      "particle_boxes_360": [
+        [
+          78,
+          191,
+          83,
+          195
+        ],
+        [
+          81,
+          189,
+          81,
+          189
+        ],
+        [
+          74,
+          190,
+          83,
+          203
+        ],
+        [
+          70,
+          194,
+          82,
+          212
+        ],
+        [
+          79,
+          193,
+          79,
+          193
+        ],
+        [
+          67,
+          200,
+          81,
+          223
+        ]
+      ],
+      "repair_box_native": [
+        183,
+        549,
+        270,
+        690
+      ],
+      "background_donor_frames": [
+        80,
+        100,
+        60,
+        120,
+        140
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 6413,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        84,
+        85
+      ],
+      "time_sec": 2.8,
+      "particle_boxes_360": [
+        [
+          78,
+          191,
+          83,
+          195
+        ],
+        [
+          78,
+          189,
+          83,
+          193
+        ],
+        [
+          81,
+          187,
+          81,
+          187
+        ],
+        [
+          74,
+          188,
+          83,
+          201
+        ],
+        [
+          70,
+          194,
+          82,
+          212
+        ],
+        [
+          79,
+          193,
+          79,
+          193
+        ]
+      ],
+      "repair_box_native": [
+        192,
+        543,
+        270,
+        657
+      ],
+      "background_donor_frames": [
+        80,
+        100,
+        60
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 4463,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        86,
+        87
+      ],
+      "time_sec": 2.8666666666666667,
+      "particle_boxes_360": [
+        [
+          78,
+          189,
+          83,
+          193
+        ],
+        [
+          78,
+          187,
+          83,
+          191
+        ],
+        [
+          81,
+          185,
+          81,
+          185
+        ],
+        [
+          74,
+          188,
+          83,
+          201
+        ]
+      ],
+      "repair_box_native": [
+        204,
+        537,
+        270,
+        624
+      ],
+      "background_donor_frames": [
+        80,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 2456,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        88,
+        89
+      ],
+      "time_sec": 2.933333333333333,
+      "particle_boxes_360": [
+        [
+          78,
+          187,
+          83,
+          191
+        ],
+        [
+          78,
+          187,
+          83,
+          191
+        ],
+        [
+          81,
+          185,
+          81,
+          185
+        ]
+      ],
+      "repair_box_native": [
+        216,
+        537,
+        270,
+        594
+      ],
+      "background_donor_frames": [
+        80,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 727,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        90,
+        91
+      ],
+      "time_sec": 3.0,
+      "particle_boxes_360": [
+        [
+          78,
+          187,
+          83,
+          191
+        ]
+      ],
+      "repair_box_native": [
+        216,
+        543,
+        270,
+        594
+      ],
+      "background_donor_frames": [
+        80,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 482,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        102,
+        103
+      ],
+      "time_sec": 3.4,
+      "particle_boxes_360": [
+        [
+          66,
+          227,
+          78,
+          245
+        ]
+      ],
+      "repair_box_native": [
+        180,
+        663,
+        255,
+        756
+      ],
+      "background_donor_frames": [
+        100,
+        120,
+        80,
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 3790,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        104,
+        105
+      ],
+      "time_sec": 3.466666666666667,
+      "particle_boxes_360": [
+        [
+          66,
+          227,
+          78,
+          245
+        ],
+        [
+          66,
+          225,
+          78,
+          243
+        ]
+      ],
+      "repair_box_native": [
+        180,
+        657,
+        255,
+        756
+      ],
+      "background_donor_frames": [
+        100,
+        120,
+        80,
+        140,
+        150,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 4094,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        106,
+        107
+      ],
+      "time_sec": 3.533333333333333,
+      "particle_boxes_360": [
+        [
+          68,
+          215,
+          80,
+          234
+        ],
+        [
+          66,
+          225,
+          78,
+          243
+        ],
+        [
+          66,
+          223,
+          78,
+          241
+        ]
+      ],
+      "repair_box_native": [
+        180,
+        627,
+        261,
+        750
+      ],
+      "background_donor_frames": [
+        100,
+        120,
+        80,
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 5603,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        108,
+        109
+      ],
+      "time_sec": 3.6,
+      "particle_boxes_360": [
+        [
+          71,
+          207,
+          81,
+          224
+        ],
+        [
+          68,
+          213,
+          80,
+          232
+        ],
+        [
+          66,
+          223,
+          78,
+          241
+        ],
+        [
+          66,
+          223,
+          78,
+          241
+        ]
+      ],
+      "repair_box_native": [
+        180,
+        603,
+        264,
+        744
+      ],
+      "background_donor_frames": [
+        100,
+        120,
+        80,
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 6529,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        110,
+        111
+      ],
+      "time_sec": 3.6666666666666665,
+      "particle_boxes_360": [
+        [
+          74,
+          201,
+          83,
+          212
+        ],
+        [
+          71,
+          205,
+          81,
+          222
+        ],
+        [
+          68,
+          211,
+          80,
+          230
+        ],
+        [
+          66,
+          223,
+          78,
+          241
+        ]
+      ],
+      "repair_box_native": [
+        180,
+        585,
+        270,
+        744
+      ],
+      "background_donor_frames": [
+        100,
+        120,
+        80,
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 6916,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        112,
+        113
+      ],
+      "time_sec": 3.7333333333333334,
+      "particle_boxes_360": [
+        [
+          78,
+          196,
+          83,
+          203
+        ],
+        [
+          74,
+          199,
+          83,
+          210
+        ],
+        [
+          71,
+          203,
+          81,
+          220
+        ],
+        [
+          68,
+          211,
+          80,
+          230
+        ]
+      ],
+      "repair_box_native": [
+        186,
+        570,
+        270,
+        711
+      ],
+      "background_donor_frames": [
+        120,
+        100,
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 4975,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        114,
+        115
+      ],
+      "time_sec": 3.8,
+      "particle_boxes_360": [
+        [
+          78,
+          196,
+          83,
+          203
+        ],
+        [
+          78,
+          194,
+          83,
+          201
+        ],
+        [
+          74,
+          197,
+          83,
+          208
+        ],
+        [
+          71,
+          203,
+          81,
+          220
+        ]
+      ],
+      "repair_box_native": [
+        195,
+        564,
+        270,
+        681
+      ],
+      "background_donor_frames": [
+        120,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 3828,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        116,
+        117
+      ],
+      "time_sec": 3.8666666666666667,
+      "particle_boxes_360": [
+        [
+          81,
+          194,
+          82,
+          196
+        ],
+        [
+          78,
+          194,
+          83,
+          201
+        ],
+        [
+          78,
+          192,
+          83,
+          199
+        ],
+        [
+          74,
+          197,
+          83,
+          208
+        ]
+      ],
+      "repair_box_native": [
+        204,
+        558,
+        270,
+        645
+      ],
+      "background_donor_frames": [
+        120,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 2486,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        118,
+        119
+      ],
+      "time_sec": 3.933333333333333,
+      "particle_boxes_360": [
+        [
+          81,
+          192,
+          82,
+          194
+        ],
+        [
+          78,
+          192,
+          83,
+          199
+        ],
+        [
+          78,
+          192,
+          83,
+          199
+        ]
+      ],
+      "repair_box_native": [
+        216,
+        558,
+        270,
+        618
+      ],
+      "background_donor_frames": [
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 1028,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        120,
+        121
+      ],
+      "time_sec": 4.0,
+      "particle_boxes_360": [
+        [
+          81,
+          190,
+          82,
+          192
+        ],
+        [
+          78,
+          192,
+          83,
+          199
+        ]
+      ],
+      "repair_box_native": [
+        216,
+        552,
+        270,
+        618
+      ],
+      "background_donor_frames": [
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 930,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        122,
+        123
+      ],
+      "time_sec": 4.066666666666666,
+      "particle_boxes_360": [
+        [
+          81,
+          190,
+          82,
+          192
+        ]
+      ],
+      "repair_box_native": [
+        225,
+        552,
+        267,
+        597
+      ],
+      "background_donor_frames": [
+        140,
+        100
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 287,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        130,
+        131
+      ],
+      "time_sec": 4.333333333333333,
+      "particle_boxes_360": [
+        [
+          62,
+          225,
+          76,
+          253
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        657,
+        249,
+        780
+      ],
+      "background_donor_frames": [
+        120,
+        140,
+        150,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 5931,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        132,
+        133
+      ],
+      "time_sec": 4.4,
+      "particle_boxes_360": [
+        [
+          64,
+          212,
+          77,
+          236
+        ],
+        [
+          62,
+          223,
+          76,
+          251
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        618,
+        252,
+        774
+      ],
+      "background_donor_frames": [
+        140,
+        120,
+        150,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 7576,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        134,
+        135
+      ],
+      "time_sec": 4.466666666666667,
+      "particle_boxes_360": [
+        [
+          64,
+          212,
+          77,
+          235
+        ],
+        [
+          64,
+          210,
+          77,
+          234
+        ],
+        [
+          62,
+          221,
+          76,
+          249
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        612,
+        252,
+        768
+      ],
+      "background_donor_frames": [
+        140,
+        120,
+        150,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 7671,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        136,
+        137
+      ],
+      "time_sec": 4.533333333333333,
+      "particle_boxes_360": [
+        [
+          69,
+          202,
+          80,
+          220
+        ],
+        [
+          64,
+          210,
+          77,
+          233
+        ],
+        [
+          64,
+          208,
+          77,
+          232
+        ],
+        [
+          62,
+          221,
+          76,
+          249
+        ]
+      ],
+      "repair_box_native": [
+        168,
+        588,
+        261,
+        768
+      ],
+      "background_donor_frames": [
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 8824,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        138,
+        139
+      ],
+      "time_sec": 4.6,
+      "particle_boxes_360": [
+        [
+          75,
+          198,
+          83,
+          209
+        ],
+        [
+          69,
+          200,
+          80,
+          218
+        ],
+        [
+          64,
+          208,
+          77,
+          231
+        ],
+        [
+          64,
+          208,
+          77,
+          232
+        ]
+      ],
+      "repair_box_native": [
+        174,
+        576,
+        270,
+        717
+      ],
+      "background_donor_frames": [
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 6572,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        140,
+        141
+      ],
+      "time_sec": 4.666666666666667,
+      "particle_boxes_360": [
+        [
+          80,
+          195,
+          84,
+          201
+        ],
+        [
+          75,
+          196,
+          83,
+          207
+        ],
+        [
+          69,
+          198,
+          80,
+          216
+        ],
+        [
+          64,
+          208,
+          77,
+          231
+        ]
+      ],
+      "repair_box_native": [
+        174,
+        567,
+        273,
+        714
+      ],
+      "background_donor_frames": [
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 6410,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        142,
+        143
+      ],
+      "time_sec": 4.733333333333333,
+      "particle_boxes_360": [
+        [
+          80,
+          193,
+          84,
+          199
+        ],
+        [
+          75,
+          194,
+          83,
+          205
+        ],
+        [
+          69,
+          198,
+          80,
+          216
+        ]
+      ],
+      "repair_box_native": [
+        189,
+        561,
+        273,
+        669
+      ],
+      "background_donor_frames": [
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 4076,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        144,
+        145
+      ],
+      "time_sec": 4.8,
+      "particle_boxes_360": [
+        [
+          80,
+          191,
+          84,
+          197
+        ],
+        [
+          75,
+          194,
+          83,
+          205
+        ]
+      ],
+      "repair_box_native": [
+        207,
+        555,
+        273,
+        636
+      ],
+      "background_donor_frames": [
+        140,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 2153,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        146,
+        147
+      ],
+      "time_sec": 4.866666666666666,
+      "particle_boxes_360": [
+        [
+          80,
+          191,
+          84,
+          197
+        ]
+      ],
+      "repair_box_native": [
+        222,
+        555,
+        273,
+        612
+      ],
+      "background_donor_frames": [
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 860,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        172,
+        173
+      ],
+      "time_sec": 5.733333333333333,
+      "particle_boxes_360": [
+        [
+          65,
+          240,
+          75,
+          254
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        702,
+        246,
+        783
+      ],
+      "background_donor_frames": [
+        170,
+        178,
+        160,
+        150,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 2598,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        174,
+        175
+      ],
+      "time_sec": 5.8,
+      "particle_boxes_360": [
+        [
+          65,
+          240,
+          75,
+          254
+        ],
+        [
+          65,
+          238,
+          75,
+          252
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        696,
+        246,
+        783
+      ],
+      "background_donor_frames": [
+        170,
+        178,
+        160,
+        150,
+        20
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 2861,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        176,
+        177
+      ],
+      "time_sec": 5.866666666666666,
+      "particle_boxes_360": [
+        [
+          68,
+          224,
+          77,
+          234
+        ],
+        [
+          65,
+          238,
+          75,
+          252
+        ],
+        [
+          65,
+          236,
+          75,
+          250
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        654,
+        252,
+        777
+      ],
+      "background_donor_frames": [
+        178,
+        170,
+        160,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 4240,
+      "protected_sol_pixels_changed": 0
+    },
+    {
+      "source_frames": [
+        178,
+        179
+      ],
+      "time_sec": 5.933333333333334,
+      "particle_boxes_360": [
+        [
+          68,
+          222,
+          77,
+          232
+        ],
+        [
+          65,
+          236,
+          75,
+          250
+        ],
+        [
+          65,
+          236,
+          75,
+          250
+        ]
+      ],
+      "repair_box_native": [
+        177,
+        648,
+        252,
+        771
+      ],
+      "background_donor_frames": [
+        170,
+        160,
+        150
+      ],
+      "adjacent_native_background_pixels": 0,
+      "changed_pixels_before_encoding": 3545,
+      "protected_sol_pixels_changed": 0
+    }
+  ],
+  "review_status": "pending native visual inspection; detector is preparation, not approval"
+}

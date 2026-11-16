@@ -1,0 +1,353 @@
+{
+  "packet_id": "d05b5a2a79a593c2cda4e61b03274965f0421bcfc210ba0a221bca977c08da0e",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_and_measured_voice_cue_alignment",
+  "method": "Fresh review of versioned03v2 bolt trim, not the untrimmed source. Read fullcurrent script and03context/cues before judging. Opened all14chronologicalpages covering270frames, original/approvedpair/Spring comparison, nativefinal269 and additional source-extracted native114/116 boundary PNGs underworkflow/.cache/clip-reviewer-fire03-v2. Nativeboundary content is cited through the matching manifest chronological/source-frame evidence. Verified allmanifest/source/reference/endpoint/script/cue/sevenaudio hashes, independently decoded135pairs withframemd5, and measured actual03Sol/ArthurWAVdurations. This is frame-based inspection and measuredwordcue alignment; no real-timeplayback/manual listening. No canonical clip, artwork, script or policy modified.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg",
+    "evidence/sequence-11.jpg",
+    "evidence/sequence-12.jpg",
+    "evidence/sequence-13.jpg",
+    "evidence/sequence-14.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "The approved empty cool woodland, one dead tree, attached dry lower branch and stable source camera are retained. Sol stays off-screen. The final rooted branch flame is at the approved lower-branch region, without a new character or substituted mechanism.",
+      "timestamps_sec": [
+        0,
+        3.766667,
+        3.8,
+        3.866667,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/frames/frame-000115.jpg",
+        "evidence/frames/frame-000117.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol and other faces are absent throughout all270frames; no invisible eye/gaze requirement is invented.",
+      "timestamps_sec": [
+        0,
+        3.8,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent, so his mascot limbs/particle-free body policy is not applied to the real branch fire. Tree/branch continuity is checked separately.",
+      "timestamps_sec": [
+        0,
+        3.8,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "All14pages retain the full dead tree/strike sky and same branch/woodland landmarks in a fixed medium-wide view. One tree, no people or Sol, no generated camera push or changing crop. The intended100%-110% push belongs to final editing and is not claimed reviewed here.",
+      "timestamps_sec": [
+        0,
+        2.4,
+        3.8,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/frame-comparison.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Frames0-113 remain unlit/no bolt. One complete fixed bolt occurs only in114-115 at3.8-3.833333s, clearing fully in116 at3.866667s. Ignition is visible at the strike/lower-branch area and the small flame remains supported/rooted on that branch afterward. Native114/116 and final269 views confirm the same attached branch, with no bending, dropping or travelling flame base.",
+      "timestamps_sec": [
+        0,
+        3.766667,
+        3.8,
+        3.833333,
+        3.866667,
+        4,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/frames/frame-000115.jpg",
+        "evidence/frames/frame-000117.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Actual consecutive states show cool/unlit wood, then one transient strike, then sustained bolt-free fire on the rigid branch. The bolt does not sweep/travel; adjacent114-115 are the identical held state and there is no later restrike. Fire grows upward from the same fuel region rather than moving to another object.",
+      "timestamps_sec": [
+        3.733333,
+        3.766667,
+        3.8,
+        3.833333,
+        3.866667,
+        4,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/frames/frame-000115.jpg",
+        "evidence/frames/frame-000117.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "The tree/branch geometry and setting preserve identity/placement through270frames. The complete bolt disappears after115, with no residual white trace in native116 or tail. Fire remains rooted at the lower-branch fuel while upper shapes flicker. Ambient storm color returns after the single strike illumination; no repeated whole-scene brightness pulse was observed.",
+      "timestamps_sec": [
+        0,
+        3.8,
+        3.866667,
+        4,
+        5,
+        6,
+        7,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Opening is the supplied cool unlit tree with no bolt/flame/warm firelight; ending is the same source view with a small branch-rooted fire and no bolt. Broad geometry/crop/prop state match the approved pair; rendering is painted but not pixel-identical.",
+      "timestamps_sec": [
+        0,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Independently decoded the bound versioned repair:270frames/135exact adjacent pairs, zero mismatches, normal9s. The final8decodedframes are one unchanged state, a complete-pair ending hold. Read source-index trim proof:0-111, one extra110-111 hold,120-269, six copies final state; no new painted state/interpolation or speed change. Only output114-115 contains the bolt, occupying3.8-3.866667s. Actual Sol WAV2.117333333s atoffset.12 ends2.237333333; actual Arthur WAV5.68s atoffset2.4 ends8.08. Strike3.8 overlaps measuredlightning word3.78-4.48; rooted fire is present forheat4.48-4.66 andalight6.0-6.34. All fit9s with tail; final mixed playback/manual listening/crop push remain separate.",
+      "timestamps_sec": [
+        0.12,
+        2.237333,
+        2.4,
+        3.78,
+        3.8,
+        3.866667,
+        4.48,
+        4.66,
+        6,
+        6.34,
+        8.08,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "Every chronological page shows clean empty woodland apart from the planned one strike and rooted fire. No text/watermark/logo, on-screen speakers, extra props or generated audio stream. This silent source is intended for separate actual voices and sound in the edit.",
+      "timestamps_sec": [
+        0,
+        3.8,
+        3.866667,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Approved-pair/Spring comparison, native114/116/end and allphone-sizepages retain broad layered matte painted cloud/foliage/ground shapes and restrained branch fire. Native generated tree/foliage has finer enhanced edges and paper/pigment texture than the softer PNGs, retained as a concrete chosen-Omni limitation. It is not a glossy/clay or separate smooth-vector scene. The temporal trim adds no drawn state.",
+      "timestamps_sec": [
+        0,
+        3.8,
+        3.866667,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/frames/frame-000115.jpg",
+        "evidence/frames/frame-000117.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete actual storyboard and03context plus confirmed actualvoice cues/word alignment. Off-screen Sol asks about lightning; Arthur explainsitsheatcanignite drywood. The opening stays unlit duringSol .12-2.237333s andArthurYes2.4-3.06. One strike at3.8 alignswithlightning3.78-4.48, then rootedfire remainsforheat4.48-4.66 andalight6-6.34. Measured completeArthur fileends8.08 within9s. Sol is invisible duringbothturns, so no gaze/listeningidle is imposed. Next04isexplicitlyanothertime/place. Audio hashes/durations/automaticwordcues were checked; no manual listening or unseen mixed playback is claimed.",
+      "timestamps_sec": [
+        0.12,
+        2.237333,
+        2.4,
+        3.06,
+        3.78,
+        3.8,
+        3.866667,
+        4.48,
+        4.66,
+        6,
+        6.34,
+        8.08
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/frames/frame-000115.jpg",
+        "evidence/frames/frame-000117.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    }
+  },
+  "summary": "PASS versioned03v2 editorial bolt repair as a visual source with measured-voice cue alignment. Sole fixed bolt pair114-115 at3.8s, fully gone116onward; unlit opening, rigid attached branch, rooted localized fire and stable cool setting throughfulltail.135exactpairsverified. Allactualdialoguefits9s; strike matchesArthurLightningword. Nativepaintedge/texture caveat retained. Finalmixedplayback/crops/captions/soundQAremainseparate; this does not select canonical media or approve frames.",
+  "additional_native_evidence": [
+    "workflow/.cache/clip-reviewer-fire03-v2/boundary-01.png",
+    "workflow/.cache/clip-reviewer-fire03-v2/boundary-02.png"
+  ],
+  "technical_verification": {
+    "frames": 270,
+    "exact_pairs": 135,
+    "pair_mismatches": 0,
+    "all_manifest_and_binding_hashes_match": true,
+    "bolt_frames": [
+      114,
+      115
+    ],
+    "bolt_interval_sec": [
+      3.8,
+      3.8666666667
+    ],
+    "sol_wav_duration_sec": 2.1173333333333333,
+    "narrator_wav_duration_sec": 5.68,
+    "final8frames_identical": true,
+    "manual_listening_performed": false,
+    "playback_performed": false
+  },
+  "deferred_final_checks": [
+    "Actualfinalassembledmovieplaybackandsoundlistening",
+    "Editing-onlydigitalpushandfullcrop/transitionreview",
+    "Finalcaptions,mix,gainandsynchronizationrenderQA"
+  ]
+}

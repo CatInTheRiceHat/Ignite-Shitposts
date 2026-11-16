@@ -1,3 +1,9 @@
+CURRENT: Particle-free gentle connected wiggle requested; all five new Omni clips generated and seven actual saved Arthur/custom Sol WAVs recorded at normal rate. Complete33s sound/caption/music review cut rendered. Final audio normalization and visual QA in progress. Old01v3 independently passes current script/audio policy and replaces rejected fresh01v5 (mouth/particles). New03v2 receives an editorial-only one-pair bolt trim at3.8s; no pixel painting. Current02v6/05v6 and03/04 independent reviews pending. Models, voice IDs, approved endpoints and caption styling preserved. This is a REVIEW DRAFT, not production approved. Latest user instruction scraps ALL Sol particles; previous tiny-flick allowances below are historical and superseded.
+
+History preserved at reviews/particle-free-full-v1-prior-handoff/.
+
+HISTORICAL HANDOFF — NOT CURRENT DIRECTIONS
+
 LATEST FLAME-SIZE FEEDBACK: Elaine likes tiny subtle painted flame flicks and dislikes the big emissions. Preserve small fading accents (review examples02~1.6–1.73s,05 top-right~4.13s); reduce eye-sized drops and bulbous flares (02~1.2–1.5s,05~2.5/3.5/4.5/5.5s) and sparse-out repeated pairs. Main mascot stays intact. Review-only request: no video pixel cleanup or new generation performed/authorized. Cleanup proposal has been narrowed accordingly. Current review policy now reflects this preference, so older gate bindings are historical until refreshed; original reports remain unchanged.
 
 Previous handoff / historical state:
