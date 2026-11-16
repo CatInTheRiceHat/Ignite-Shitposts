@@ -39,7 +39,7 @@ Preserve Sol's reference design and settled endpoint proportions while painting 
 
 ## Sol's cartoon expression and movement
 
-Elaine's latest direction is **bouncy, flame-like movement**. Sol is an expressive painted flame mascot, not a rigid cutout. An intentional gesture can cause a small body bounce, tip/lobe follow-through and one soft damped wobble before settling. Keep the primary bounce connected to the action. During every visible Narrator turn, Sol looks up to the fixed above-camera voice and maintains a gentle listening idle, without repeated arm gestures or large bounce loops.
+Elaine's latest direction is **flowing, bouncy transitions into every new pose**. Let Sol spring softly into the next pose with a readable body bounce, overlapping flame-tip/lobe follow-through and a brief controlled rebound that damps into the approved ending. Keep the face and nested layers coherent, the compact design recognizable and the limbs stubby. Flow comes from connected poses and overlapping follow-through on twos. During every visible Narrator turn, Sol attends to the fixed above-camera voice and maintains gentle listening idle after the main gesture settles, without repeated arm gestures or large bounce loops.
 
 Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity). Preserve the recognizable compact design and coherent nested color layers through the flex. The face travels with the body; the normal navy oval eye design stays unchanged in shape, size and spacing, with a brief natural blink allowed. Tiny limbs retain their lengths and attachment points. Keep supported feet grounded unless a hop or step is explicitly scripted.
 
@@ -54,7 +54,7 @@ Animate on twos: hold each animated pose or painted state unchanged for two cons
 
 Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.
 
-Use short, controlled movements with clear starting and ending positions. Give Sol’s intentional gestures a small bouncy flame-like wobble and soft follow-through. When the Narrator speaks while Sol is visible, establish Sol’s upward gaze to the fixed above-camera voice before the first word and maintain it throughout the turn, with gentle low-amplitude body/tip/lobe listening idle. The main arm gesture can settle while this quiet idle continues. Avoid unrelated windups, repeated arm gestures, large repetitive bounces, extra hops, skating or camera movement.
+Give every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with the compact design and normal eyes intact. Use the approved coherent body tilt to direct attention upward; face and flame layers move together. When the Narrator speaks with Sol visible, establish attention to the fixed above-camera voice before the first word and maintain it with gentle listening idle throughout. The main arm gesture settles while quiet body/tip/lobe motion continues. Avoid unrelated windups, repeated arm gestures, large bounce loops, unplanned hops, skating or camera movement.
 
 Preserve Sol’s recognizable compact flame design, coherent red/orange/cream layers and stubby limb lengths. Allow small connected body/tip/lobe flex, with every colored part attached to the main body. The face remains part of the body. Intentional gaze shifts may move the existing eye ovals coherently as a pair inside the face while preserving their normal shape, size and gap. Do not detach or rotate the face as a separate head, introduce a neck, or allow unmotivated feature drift.
 
@@ -68,6 +68,27 @@ Omit Sol's identity paragraphs when he is absent. Do not replace this cadence wi
 During editing, enforce two-frame source-pose holds on the final 30 fps timeline before applying any editorial camera transform. Align longer holds, action trims and source-state changes to complete two-frame pairs. Preserve natural action timing and 1x voice playback; inspect consecutive source frames and final playback for facial drift and prop contact. Do not use optical flow, frame blending or concealed interpolation as a cadence conversion.
 
 A purposeful digital push or crop can remain smooth over the stepped footage when the shot plan explicitly assigns it to editing. Check the crop throughout the move, keeping the face, limbs and important contacts visible. Do not apply the same move during generation. Record exact cadence as unverified until actual footage has been edited and checked.
+
+## Small flame accents
+
+Elaine likes tiny, subtle painted flame flicks around Sol, while oversized
+flames coming off him feel wrong. Keep secondary flicks small, sparse and
+brief, much smaller than an eye, so the main gesture and face remain the focus.
+Reduce eye-sized droplets, bulbous orange-centered flares and repeated paired
+sprays. Preserve the cute little accents when reducing the larger effects.
+
+Tie each flick to an intentional pose bounce and its tip follow-through: a
+tiny accent appears near the bounce peak, fades promptly, and stops as the
+pose settles. Quiet listening idle keeps a gentle attached tip motion without
+emitting a continuous or randomly timed stream. The separate wood fire can
+still flicker according to its own shot.
+
+Sol's main filled silhouette, original lobes and nested color layers stay
+coherent. A secondary accent must not remove a substantial piece of his body,
+open a hole or change his design. Keep the effects matte and storybook-painted,
+with no realistic fire rendering or strong glow. Judge size and frequency at
+phone size as well as in native frames. Actual fire on a separate prop follows
+that shot's own action and lighting instructions.
 
 ## Pacing, motion, and type
 

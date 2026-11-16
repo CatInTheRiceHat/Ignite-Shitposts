@@ -14,7 +14,7 @@ Develop the shot plan alongside the skit script. When Sol appears, generate him 
 
 Use the original mascot artwork and relevant examples in [sol-references.json](../config/sol-references.json) for the complete design. Preserve compact height-to-width proportions and reference volume, the asymmetric flame silhouette and side lobes, nested red/orange/cream contours and layer widths, original colors, and tiny rounded arms and stubby feet at their original lengths and attachment points. Preserve the broad cream inner flame and softly tapering wispy tip. Allow small coordinated action-driven flex while retaining that recognizable design and settled endpoint form. Paint it using the [style treatment](video-style-guide.md#painterly-surface-treatment).
 
-Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to the original open ovals. No highlights, whites, extra pupils, winks, prolonged squinting, unrelated expressive reshaping or facial-feature drift. His face is part of his body: allow only intentional coherent paired eye-gaze shifts inside the face; do not detach/rotate the face as a separate head, introduce a neck, or permit accidental feature drift. Small bouncy body motion and flame-tip/lobe follow-through are allowed under the current [motion style](video-style-guide.md#motion-style), with the eye ovals unchanged and attached to the coherent face. A face turn remains a separate scripted choice. Sol is completely mouthless, with the area beneath the eyes blank. Exclude noses, eyebrows, other added facial features, fingers, elongated limbs, ankles, shoes and a separate humanoid torso. The filled flame body remains intact; do not apply realistic fire effects to it. Bouncy motion flexes one continuous filled painted shape: tips, lobes and nested layers stay attached. Do not shed colored droplets, sparks or fragments, or open holes/tears in the mascot.
+Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to the original open ovals. No highlights, whites, extra pupils, winks, prolonged squinting, unrelated expressive reshaping or facial-feature drift. His face is part of his body: allow only intentional coherent paired eye-gaze shifts inside the face; do not detach/rotate the face as a separate head, introduce a neck, or permit accidental feature drift. Small bouncy body motion and flame-tip/lobe follow-through are allowed under the current [motion style](video-style-guide.md#motion-style), with the eye ovals unchanged and attached to the coherent face. A face turn remains a separate scripted choice. Sol is completely mouthless, with the area beneath the eyes blank. Exclude noses, eyebrows, other added facial features, fingers, elongated limbs, ankles, shoes and a separate humanoid torso. The filled flame body remains intact; do not apply realistic fire effects to it. Bouncy motion keeps the primary tips, lobes and nested layers connected. Tiny secondary painted flicks are allowed under the [small flame accent rule](video-style-guide.md#small-flame-accents); do not tear off substantial lobes, open holes or split the main mascot into floating pieces.
 
 Keep these identity constraints separate from the shot's performance direction.
 
@@ -37,6 +37,22 @@ Name the initial pose, gaze target, main action, ending pose and spoken or visua
 This is mandatory for all educational scenes: **whenever the Narrator speaks and Sol is visible, Sol looks UP toward a fixed point just above the camera and maintains gentle listening idle for the whole spoken turn.** Establish the gaze before the first word; do not wait until the last frame. If exact frame continuity starts with Sol looking at the mechanism, use a short silent gaze transition before the Narrator's audio begins.
 
 Move the original navy eye ovals coherently as a pair for a readable upward glance, retaining their normal shapes, sizes, close spacing and low resting placement. A slight coherent body/face angle can support the gaze; Sol has no separate head or neck. Scripted gaze movement is allowed, while accidental facial sliding or eye redesign is not. A brief natural blink returns to the same listening gaze.
+
+For a gaze-only change with the body's facing direction unchanged, translate the original oval pair; preserve each oval's contour, height-to-width ratio and long-axis orientation. Do not tilt, skew, shorten or round the eyes to indicate looking up. Their opaque navy fill stays dark and consistent between endpoints: lighting and the painted treatment must not introduce lighter blue/gray interiors, gradients, sheen or pale rims. Compare enlarged first/last eye crops as well as the full scene. A separately scripted body turn may use coherent perspective; an upward glance alone does not call for one.
+
+**Latest direction:** Elaine rejected the vertical eye-squish trial and asked
+for Sol to tilt his body up a little instead. Use a small coherent upward pitch
+of the entire compact flame body: outer silhouette, nested layers and attached
+face move together, keeping the tiny feet supported. Preserve the normal tall
+navy eye ovals; do not squash them or move the face as a separate head. Choose
+the modest angle for the shot, with no body rise, stretch or exaggerated lean.
+Elaine approved the displayed Fire Scene 02/05 first/last pairs and asked to
+animate them. Bounce fluidly into every new pose, with overlapping tip/lobe
+follow-through and a brief controlled rebound, then maintain quiet listening
+idle. The still reviewer found the UP direction ambiguous because the pose
+also rolls sideways; establish clear above-camera attention in motion and
+verify it against the script. The rejected eye-squish previews remain history,
+not a reusable expression rule.
 
 Use low-amplitude connected flame-tip/lobe/body motion while listening. The hands can remain in the required pose after one main gesture; avoid repeated pointing, nodding or large bounces. Keep all colored layers connected and feet supported. During Sol's own lines he can look at the mechanism as scripted, then lift his gaze before Arthur's reply.
 

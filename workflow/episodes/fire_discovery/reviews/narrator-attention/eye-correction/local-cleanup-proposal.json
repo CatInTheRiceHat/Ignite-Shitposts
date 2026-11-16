@@ -1,0 +1,43 @@
+{
+  "status": "executed_authorized_eye_cleanup_v2_pending_frame_approval",
+  "purpose": "Restore original small oval contours and dark navy while preserving the upward Narrator glance. This is local cleanup of generated stills, not manual animation.",
+  "pixel_edit_scope": "Only the union of old and new eye footprints, plus a narrow antialias border. Preserve all scene/body/prop pixels outside those areas.",
+  "eye_color_hex": "#1C2447",
+  "eye_color_rgb": [
+    28,
+    36,
+    71
+  ],
+  "gaze_translation_pixels": {
+    "x": 0,
+    "y": -20
+  },
+  "operations": [
+    "Extract the actual approved original oval contours; no reshaping, rotation or scaling.",
+    "Restore cream paint only where the previous eye footprints become exposed.",
+    "Translate both original contours upward as a pair and fill opaque original navy, retaining a clean antialias edge.",
+    "Check enlarged crops, full scene and pixel difference outside the edit masks; independently inspect the results.",
+    "Show actual first/last pairs and obtain approval before any video generation."
+  ],
+  "scenes": [
+    {
+      "scene": "02",
+      "base": "keyframes/01-first.png",
+      "base_sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+      "contour_source": "keyframes/02-first.png",
+      "contour_source_sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5",
+      "proposed_output": "keyframes/02-last-eye-lock-v1.png"
+    },
+    {
+      "scene": "05",
+      "base": "keyframes/05-last-nano-v5.png",
+      "base_sha256": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654",
+      "contour_source": "keyframes/05-first.png",
+      "contour_source_sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c",
+      "proposed_output": "keyframes/05-last-eye-lock-v1.png"
+    }
+  ],
+  "user_authorization": "oh oops yeah sorry u can do that",
+  "selected_candidate_receipt": "local-cleanup-receipt-v2.json",
+  "user_approved_result": false
+}

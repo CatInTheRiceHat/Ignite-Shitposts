@@ -1,6 +1,6 @@
 # Elaine's critique checklist
 
-Updated: 2026-11-14. This is the project's running memory of Elaine's visual
+Updated: 2026-11-15. This is the project's running memory of Elaine's visual
 feedback. Read it before writing prompts, generating frames or reviewing clips.
 Update it when Elaine gives new critiques, following the maintenance rules below.
 Unchecked boxes are reusable review questions, not claims about a particular take.
@@ -69,6 +69,18 @@ Run this short review on the complete prompt set before generation. Follow the l
   apart. Compare the gap relative to eye width, rather than spreading the eyes
   across the cream face. Correct spacing by moving the existing ovals inward;
   preserve their size, shape, dark fill, low height and the accepted painting.
+- [ ] Elaine flagged the Fire Scene 02/05 upward-looking endings because the eyes
+  became lighter and deformed. For a gaze-only change, move the original oval
+  pair without tilting, skewing, shortening or rounding it. Preserve each eye's
+  size, proportions, orientation and gap, with opaque dark navy #1C2447 rather than
+  lighter blue/gray, gradients, sheen or pale rims. Compare enlarged first/last
+  eye crops; looking up does not require a new eye design. See the
+  [Narrator attention owner](shot-integration-and-sol.md#narrator-attention-and-listening-idle).
+- Latest correction: Elaine rejected the vertical eye-squish trial as funny
+  looking and asked for a small upward tilt of Sol's body instead. Restore the
+  original tall navy ovals. Pitch the compact body, filled flame layers and
+  attached face coherently together, with feet supported; no separate head,
+  face slide, eye squash or body stretch. Review the new pose before animation.
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
@@ -84,6 +96,24 @@ Run this short review on the complete prompt set before generation. Follow the l
   checking arms, feet and eyes at the beginning, middle, end and across cuts.
 
 ## Style and staging
+
+- [ ] Flame effects follow Elaine's latest size preference: tiny, subtle
+  painted flicks are cute and may remain. Reduce the large orange-centered
+  drops, bulbous flares and overly frequent paired effects. Preserve Sol's
+  main filled shape; do not remove every little accent automatically. Check
+  the [small flame accent rule](video-style-guide.md#small-flame-accents).
+- [ ] Tiny flame flicks are caused by the pose bounce: time them to the bounce
+  peak/tip follow-through and let them fade as Sol settles. Keep quiet listening
+  idle free of random or continuous emissions. Review the effect's timing as
+  well as its size; this is Sol's accent, separate from the wood fire.
+
+- [ ] Latest instruction: whenever Sol changes pose, he bounces fluidly into
+  it, with overlapping flame-tip/lobe follow-through and a brief controlled
+  rebound. Keep him visibly animated while the main gesture settles; gentle
+  listening idle continues during Arthur's turn. Preserve normal eyes and
+  compact anatomy. Elaine approved the displayed body-tilt pairs and asked to
+  proceed to video; the upward attention cue still needs checking in motion
+  against the script.
 
 - [ ] Match the approved Ignite scenes with soft, matte gouache-like brushwork,
   broad simplified shapes, restrained detail, softened painted edges, layered
@@ -143,12 +173,23 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Keep failed takes and current episode edits. Use versioned replacements
   and the selected models in [generation.json](../config/generation.json).
 
+Fire episode note, 2026-11-15: Elaine explicitly authorized local eye-only
+cleanup for the Scene 02/05 endpoints after Nano retries changed the ovals.
+Use the approved source contours, retain their size/orientation/gap, translate
+the pair upward and restore opaque original navy. Preserve the scene outside
+the eye repair areas. This permission covers that cleanup; the resulting exact
+frame pairs still need her review before Higgsfield animation. Keep the shared
+Nano Banana image and Omni Flash video defaults.
+
 ## Technical checks learned during clip review
 
 These are production checks from inspecting the failed takes, rather than
 additional aesthetic preferences attributed to Elaine.
 
-- [ ] Bouncy Sol remains one continuous filled painted shape. Check for detached red droplets, torn lobes, holes or separating color layers; wobble does not authorize fragmentation.
+- [ ] Bouncy Sol's main filled shape remains coherent. Check for substantial
+  torn lobes, holes or separating core color layers. Judge secondary tip flicks
+  by size and frequency under Elaine's latest preference; a tiny subtle accent
+  is not automatically a character-continuity failure.
 
 - [ ] When a generated mascot is wrong, remove it from scene/layout inputs
   before rebuilding. Use the original mascot as the primary identity image

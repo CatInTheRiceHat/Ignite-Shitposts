@@ -1,0 +1,179 @@
+{
+  "method": "Authorized local eye-only cleanup; no image/video generation.",
+  "user_authorization": "oh oops yeah sorry u can do that",
+  "scope": "The eye-only operation proposed immediately before that reply.",
+  "eye_color_rgb": [
+    28,
+    36,
+    71
+  ],
+  "gaze_translation_px": [
+    0,
+    -20
+  ],
+  "user_approved_frames": false,
+  "scenes": [
+    {
+      "scene": "02",
+      "base": "keyframes/01-first.png",
+      "base_sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+      "contour_source": "keyframes/02-first.png",
+      "contour_source_sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5",
+      "proposed_output": "keyframes/02-last-eye-lock-v1.png",
+      "output_sha256": "6871741a51601bde2289e6e9ce13ddc3d9d06d0a110390813d904a956710a46e",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "eyes": [
+        {
+          "eye": 1,
+          "source_box": [
+            480,
+            1395,
+            605,
+            1545
+          ],
+          "target_box": [
+            480,
+            1375,
+            605,
+            1525
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            50,
+            84
+          ],
+          "source_center_xy": [
+            542.3296220334017,
+            1482.6349252856724
+          ],
+          "target_center_xy": [
+            542.3296220334017,
+            1462.6349252856724
+          ],
+          "opaque_navy_pixels": 3341,
+          "alpha_sha256": "d6617f0c041cad1e1390219e5d6cf4a31d435c74352f70c8a5d6eebdad3b63a3"
+        },
+        {
+          "eye": 2,
+          "source_box": [
+            610,
+            1380,
+            735,
+            1530
+          ],
+          "target_box": [
+            610,
+            1360,
+            735,
+            1510
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            48,
+            82
+          ],
+          "source_center_xy": [
+            671.2089268755935,
+            1470.6410256410256
+          ],
+          "target_center_xy": [
+            671.2089268755935,
+            1450.6410256410256
+          ],
+          "opaque_navy_pixels": 3079,
+          "alpha_sha256": "ba987c57097508766da203920214f0fc8a4e10427b571eb6bc03b1962e8c516e"
+        }
+      ],
+      "changed_pixels": 8953,
+      "allowed_pixels": 8953,
+      "changed_pixels_outside_eye_masks": 0,
+      "all_opaque_eye_pixels_exact_navy": true,
+      "user_approved": false
+    },
+    {
+      "scene": "05",
+      "base": "keyframes/05-last-nano-v5.png",
+      "base_sha256": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654",
+      "contour_source": "keyframes/05-first.png",
+      "contour_source_sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c",
+      "proposed_output": "keyframes/05-last-eye-lock-v1.png",
+      "output_sha256": "baf3737c902f66c30e13ce396467d9941bb94e41096b92cc6d0797f9ca5fdffe",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "eyes": [
+        {
+          "eye": 1,
+          "source_box": [
+            480,
+            1395,
+            605,
+            1545
+          ],
+          "target_box": [
+            480,
+            1375,
+            605,
+            1525
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            50,
+            85
+          ],
+          "source_center_xy": [
+            542.4778683750728,
+            1482.6173558532323
+          ],
+          "target_center_xy": [
+            542.4778683750728,
+            1462.6173558532323
+          ],
+          "opaque_navy_pixels": 3381,
+          "alpha_sha256": "9ca39fb8f6a8defe01865e61d92a3c5a26d7b1d24b50dd57d2492a018a603799"
+        },
+        {
+          "eye": 2,
+          "source_box": [
+            610,
+            1380,
+            735,
+            1530
+          ],
+          "target_box": [
+            610,
+            1360,
+            735,
+            1510
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            46,
+            83
+          ],
+          "source_center_xy": [
+            671.4617396991498,
+            1470.5448005232179
+          ],
+          "target_center_xy": [
+            671.4617396991498,
+            1450.5448005232179
+          ],
+          "opaque_navy_pixels": 2994,
+          "alpha_sha256": "fb524050c221e0ff5b39cdc913afe744ad18d60e0168bfc7d7fb89ab6b0209cf"
+        }
+      ],
+      "changed_pixels": 8660,
+      "allowed_pixels": 8660,
+      "changed_pixels_outside_eye_masks": 0,
+      "all_opaque_eye_pixels_exact_navy": true,
+      "user_approved": false
+    }
+  ],
+  "visual_status": "rejected",
+  "findings": "Old-eye perimeter/cream repair left ghost edges. Superseded by v2; preserve this attempted version."
+}

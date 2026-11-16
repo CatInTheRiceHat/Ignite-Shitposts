@@ -1,0 +1,131 @@
+{
+  "reviewer": "/root/clip_reviewer",
+  "scope": "independent review of unapproved still corrections only; no user approval or artwork edit",
+  "method": "Opened both actual target PNGs and02-first,05-first,05-last-nano-v5 at their native1536x2752 dimensions. Compared identical unresized native eye crops and full-frame phone-size previews side by side. Independently estimated blue/dark-region bounds, centroid gap and PCA orientation from actual PNGs; measurements are supporting approximations and may exclude pale/anti-aliased edges or highlights, so they are not exact contour-copy specifications. Also inspected the existing current/corrected-v2 comparison evidence.",
+  "sources": {
+    "02-first.png": {
+      "path": "workflow/episodes/fire_discovery/keyframes/02-first.png",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+    },
+    "05-first.png": {
+      "path": "workflow/episodes/fire_discovery/keyframes/05-first.png",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c"
+    },
+    "05-last-nano-v5.png": {
+      "path": "workflow/episodes/fire_discovery/keyframes/05-last-nano-v5.png",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "sha256": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654"
+    },
+    "02-last-narrator-up-nano-v4.png": {
+      "path": "workflow/episodes/fire_discovery/keyframes/02-last-narrator-up-nano-v4.png",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "sha256": "7f3d7787b2cc6912148ea69473adb2666dab5ade3e0526debaca476aea498832"
+    },
+    "05-last-narrator-up-nano-v8.png": {
+      "path": "workflow/episodes/fire_discovery/keyframes/05-last-narrator-up-nano-v8.png",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "sha256": "f3ccd31ffadbecdb0bbe7149245fdfa3aba6ac146ca2f3240f8c42bb7360a4d7"
+    }
+  },
+  "comparison": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/independent-eye-correction-comparison-v2.jpg",
+  "measurements": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/independent-eye-measurements-v2.json",
+  "findings": {
+    "02": {
+      "candidate": "02-last-narrator-up-nano-v4.png",
+      "verdict": "fail",
+      "upward_offset_px_approx": [
+        31.66,
+        33.82
+      ],
+      "source_center_gap_px": 128.93,
+      "candidate_center_gap_px": 128.8,
+      "approx_blue_region_source_wh": [
+        [
+          46,
+          80
+        ],
+        [
+          44,
+          78
+        ]
+      ],
+      "approx_blue_region_candidate_wh": [
+        [
+          49,
+          67
+        ],
+        [
+          45,
+          66
+        ]
+      ],
+      "source_major_axis_degrees_from_vertical": [
+        0.58,
+        0.34
+      ],
+      "candidate_major_axis_degrees_from_vertical": [
+        18.42,
+        16.73
+      ],
+      "observed": "Both ovals are visibly more tilted and their opaque navy portions are shorter/rounder; pale gray lower gradients soften/erase the original lower contour. Approximate blue-region aspect ratios change from1.74/1.77 to1.37/1.47, with PCA tilt about17-18 degrees instead of near-vertical. The gap is essentially preserved and both marks move up about32-34 px, but this is a redraw/fade rather than unchanged-contour translation."
+    },
+    "05": {
+      "candidate": "05-last-narrator-up-nano-v8.png",
+      "verdict": "fail",
+      "upward_offset_px_approx": [
+        26.68,
+        30.38
+      ],
+      "source_center_gap_px": 128.94,
+      "candidate_center_gap_px": 128.24,
+      "approx_blue_region_source_wh": [
+        [
+          46,
+          81
+        ],
+        [
+          44,
+          79
+        ]
+      ],
+      "approx_blue_region_candidate_wh": [
+        [
+          47,
+          79
+        ],
+        [
+          45,
+          75
+        ]
+      ],
+      "source_major_axis_degrees_from_vertical": [
+        0.63,
+        0.56
+      ],
+      "candidate_major_axis_degrees_from_vertical": [
+        16.84,
+        16.97
+      ],
+      "observed": "Size is closer to the source/old approved last, but both eyes now contain clear bright highlights and retain about17-degree tilt. Native source and old approved last have nearly vertical dark ovals without those bright shine spots. Approximate blue-region sizes47x79/45x75 are near the source46x81/44x79, but contour/orientation and opaque dark fill are not preserved. Upward motion is about27-30 px and gap remains near129 px."
+    }
+  },
+  "body_paint_scene_observation": "At phone-preview size the expected lowered02 arm and low-open05 arm states remain, feet/compact mascot and connected flame layers are retained, and the main camera/wood/fire placements stay consistent.05 v8 has a somewhat cooler/darker overall cast than old approved05-last-nano-v5; this is secondary to the explicit eye failures. No broader unrelated clip review was performed.",
+  "summary": "Both corrected endpoints remain rejected/unapproved on actual eye evidence:02 v4 has tilt plus a pale lower fade;05 v8 has conspicuous highlights plus tilt. Upward offsets and roughly preserved gaps do not establish gaze-only translation. Preserve the original eye contours, size and orientation and dark opaque navy appearance when translating the pair; this report neither performs nor authorizes local artwork cleanup, further generation or frame approval."
+}

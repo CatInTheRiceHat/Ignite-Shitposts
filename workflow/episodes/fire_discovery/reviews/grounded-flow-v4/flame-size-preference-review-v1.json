@@ -1,0 +1,104 @@
+{
+  "reviewer": "/root/clip_reviewer_current",
+  "type": "size_aware_preference_review_only",
+  "user_feedback": "wait i dont like the visual flames coming out i dont like them big but subtle ones look very cute can u look over that",
+  "scope": "Current Scene02/05 take4 mascot secondary flame effects only. No production approval, all12-check refresh, generation, video edit or approval of pending local/Python cleanup. Historical strict reports are preserved.",
+  "method": "Reopened both motion overviews, actual native1080x1920 selected details at02 1.5s and05 2.5/3.5/4/4.5/5.5s, plus actual phone-size frames at02 1.2/1.6/1.667/1.733s and05 4/4.067/4.133/4.8/4.867s. Timestamps follow packet frame/detail indices. Inspected still evidence, not playback. Checked current clip hashes against packets. This applies the newer size/sparsity feedback; a tiny secondary painted fleck is no longer rejected merely for being separate.",
+  "inputs": {
+    "02": {
+      "packet_id": "fa23db12341d75cc0a8aabd37ac97a5c409d9435c1614abe5c3fed5d8c12144b",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/02-scene.mp4",
+        "sha256": "acb22eaaf649127d1884541fe2fd0a2d4e1910cde40a8710ccc9e54177cdb7bd"
+      },
+      "packet": "workflow/episodes/fire_discovery/reviews/02/clip/fa23db12341d75cc0a8a/packet.json"
+    },
+    "05": {
+      "packet_id": "63a7465a6d6922029821da79b2fb2020f8c40223b5c0ce2e26e75d4b204b0a8d",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/05-scene.mp4",
+        "sha256": "f04e9436aacac68038115aa84d5887a7fe77f424954dc8ff1920a3ded0624804"
+      },
+      "packet": "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/packet.json"
+    }
+  },
+  "recommendation": "Keep tiny sparse painted tip flicks. Shrink eye-sized drops and swollen orange-centered lobe flames; shorten their presence and space them out. Prefer one small brief accent near a pose settle, with most motion carried by the connected original lobes. The main red/orange/cream body and mascot silhouette must remain coherent. Preserve the separate intended wood fire.",
+  "examples": [
+    {
+      "scene": "02",
+      "action": "reduce",
+      "timestamps_sec": [
+        1.2,
+        1.5
+      ],
+      "observed": "The detached red droplet at upper-left approaches an eye in height at1.5s and is similarly prominent at1.2s; it reads as a piece leaving Sol rather than a tiny accent. Shrink the mark while keeping the main tip/lobe intact.",
+      "evidence": [
+        "workflow/episodes/fire_discovery/reviews/02/clip/fa23db12341d75cc0a8a/evidence/frames/frame-000037.jpg",
+        "workflow/episodes/fire_discovery/reviews/02/clip/fa23db12341d75cc0a8a/evidence/detail/frame-000008.jpg"
+      ]
+    },
+    {
+      "scene": "02",
+      "action": "keep_size_direction",
+      "timestamps_sec": [
+        1.6,
+        1.666667,
+        1.733333
+      ],
+      "observed": "The same effect has diminished to a small red speck, then a near-pinprick by1.733s. This faint short tail is a useful example of the subtle scale to retain; it should not require the earlier oversized release.",
+      "evidence": [
+        "workflow/episodes/fire_discovery/reviews/02/clip/fa23db12341d75cc0a8a/evidence/frames/frame-000049.jpg",
+        "workflow/episodes/fire_discovery/reviews/02/clip/fa23db12341d75cc0a8a/evidence/frames/frame-000051.jpg",
+        "workflow/episodes/fire_discovery/reviews/02/clip/fa23db12341d75cc0a8a/evidence/frames/frame-000053.jpg"
+      ]
+    },
+    {
+      "scene": "05",
+      "action": "reduce",
+      "timestamps_sec": [
+        2.5,
+        4.5,
+        5.5
+      ],
+      "observed": "At2.5s a large orange-centered droplet and swollen side flame compete with Sol’s eyes; at4.5s two conspicuous bulbous drops recur, and5.5s has large flame buds on both sides. Reduce scale, orange core/bulb volume and repetition rather than erasing every secondary accent.",
+      "evidence": [
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/detail/frame-000010.jpg",
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/detail/frame-000014.jpg",
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/detail/frame-000016.jpg"
+      ]
+    },
+    {
+      "scene": "05",
+      "action": "reduce",
+      "timestamps_sec": [
+        3.5
+      ],
+      "observed": "The orange-centered swelling on the left outer layer is visually heavy even while attached. Keep the normal lobe’s soft follow-through but reduce this added bulb so the original silhouette stays recognizable.",
+      "evidence": [
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/detail/frame-000012.jpg"
+      ]
+    },
+    {
+      "scene": "05",
+      "action": "keep_smaller_direction_reduce_density",
+      "timestamps_sec": [
+        4,
+        4.066667,
+        4.133333,
+        4.8
+      ],
+      "observed": "The free marks at4s are appreciably smaller than the2.5/4.5s drops; the tiny upper-right fleck at4.133s is closest to the requested cute subtle accent. Keep that small-scale direction, while reducing repeated simultaneous pairs and the large orange side bulb still visible underneath. The tiny4.8s fleck is another scale reference, not permission for a persistent particle loop.",
+      "evidence": [
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/detail/frame-000013.jpg",
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/frames/frame-000123.jpg",
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/frames/frame-000125.jpg",
+        "workflow/episodes/fire_discovery/reviews/05/clip/63a7465a6d6922029821/evidence/frames/frame-000145.jpg"
+      ]
+    }
+  ],
+  "overviews": [
+    "workflow/episodes/fire_discovery/reviews/grounded-flow-v4/02-motion-overview.jpg",
+    "workflow/episodes/fire_discovery/reviews/grounded-flow-v4/05-motion-overview.jpg"
+  ],
+  "historical_reports": "Unmodified. Earlier blanket fragmentation failures remain historical under their original contracts; no approval status is changed by this preference note."
+}

@@ -1,0 +1,51 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "ecd052045e1af68bd6b852f7b310f4f9246da3c81fc707ca26bcabf5e526da95"
+  },
+  "scene_script_excerpt": "SCENE 02 — Listening to Arthur — 4 seconds (provisional)\nSetting and framing: Continue the exact Scene 01 source view, with the same Sol, bough, clearing and lighting. Generate at the original medium-wide framing. The tighter response view is an editing-only digital push; endpoint assets remain uncropped.\nLighting: Keep Scene 01's soft overcast upper-left light and faint warmth immediately around the existing bough fire.\nCamera: shot_size: Same medium-wide source view; tighter response view in editing.; height_and_angle: Same camera height and side as Scene 01.; movement: Generation: stable camera, no zoom or crop change.; editing: After the brief matching opening, apply one controlled digital push from 100% to 120%, anchored at x=50%, y=56%, then hold. Keep the full flame tip, feet and bough visible; do not ask generation to duplicate this move. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.; start_view: Uncropped source is pixel-identical to approved Scene 01 last.; end_view: Same source crop; required ending arm pose with gaze UP to the fixed Narrator point in a neutral phase of listening idle.\nFirst frame: Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.\n\nNarrator: “We don't know. Natural fires existed long before people.”\n\nAction: Begin in the exact approved Scene01 ending pose, with one short arm presenting toward the wood. Immediately redirect attention UP toward the fixed Narrator point just above camera by a small coherent backward/upward pitch of the whole flame body; face and nested layers travel together. Establish the listening direction during the short silent opening, before Arthur begins. Lower the presenting arm once along a short direct path to its flank. Bounce fluidly into the supplied approved tilted listening pose with overlapping tip/lobe follow-through and one small damped rebound; keep attention on the Narrator as the arm finishes. Once the arm settles, retain gentle connected body/tip/lobe listening idle through the whole Narrator turn and end in the approved pose. Keep both feet supported. Do not communicate the turn by sliding the eyes or face independently.\nNarrator attention: {\"required\": true, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"entry\": \"Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.\", \"coverage\": \"Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.\", \"idle\": true, \"original_eye_design_preserved\": true, \"planned_lead_in_sec\": 0.6, \"planned_window\": {\"start_sec\": 0.6, \"end_sec\": 4, \"confirmed\": false}}\nLast frame: Match the displayed and user-approved body-tilt ending: both stubby arms rest beside the flanks, feet supported, compact flame body and attached face/layers share the small tilted listening orientation. Both normal-height oval eyes are solid navy, with unchanged identity and close spacing. Preserve body volume, scene crop, bough/fire placement, lighting and contact shadows. This is a neutral phase of listening idle; the connecting motion must establish clear attention UP to the Narrator before his words.\nNext cut: Cut to Scene 03's separate storm example. Sol remains off-screen during the next exchange.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people."
+    }
+  ],
+  "narrator_attention": {
+    "required": true,
+    "gaze_target": "Fixed off-screen Narrator point just above camera",
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.",
+    "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
+    "idle": true,
+    "original_eye_design_preserved": true,
+    "planned_lead_in_sec": 0.6,
+    "planned_window": {
+      "start_sec": 0.6,
+      "end_sec": 4,
+      "confirmed": false
+    }
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "02",
+  "first_frame": "Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.",
+  "action": "Begin in the exact approved Scene01 ending pose, with one short arm presenting toward the wood. Immediately redirect attention UP toward the fixed Narrator point just above camera by a small coherent backward/upward pitch of the whole flame body; face and nested layers travel together. Establish the listening direction during the short silent opening, before Arthur begins. Lower the presenting arm once along a short direct path to its flank. Bounce fluidly into the supplied approved tilted listening pose with overlapping tip/lobe follow-through and one small damped rebound; keep attention on the Narrator as the arm finishes. Once the arm settles, retain gentle connected body/tip/lobe listening idle through the whole Narrator turn and end in the approved pose. Keep both feet supported. Do not communicate the turn by sliding the eyes or face independently.",
+  "last_frame": "Match the displayed and user-approved body-tilt ending: both stubby arms rest beside the flanks, feet supported, compact flame body and attached face/layers share the small tilted listening orientation. Both normal-height oval eyes are solid navy, with unchanged identity and close spacing. Preserve body volume, scene crop, bough/fire placement, lighting and contact shadows. This is a neutral phase of listening idle; the connecting motion must establish clear attention UP to the Narrator before his words.",
+  "performance_beats": [
+    {
+      "cue": "Establish body-led above-camera attention before the Narrator; final windows follow actual voices.",
+      "eye_shape": "Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso.",
+      "gaze": "UP to fixed above-camera Narrator for the whole turn",
+      "body": "Begin in the exact approved Scene01 ending pose, with one short arm presenting toward the wood. Immediately redirect attention UP toward the fixed Narrator point just above camera by a small coherent backward/upward pitch of the whole flame body; face and nested layers travel together. Establish the listening direction during the short silent opening, before Arthur begins. Lower the presenting arm once along a short direct path to its flank. Bounce fluidly into the supplied approved tilted listening pose with overlapping tip/lobe follow-through and one small damped rebound; keep attention on the Narrator as the arm finishes. Once the arm settles, retain gentle connected body/tip/lobe listening idle through the whole Narrator turn and end in the approved pose. Keep both feet supported. Do not communicate the turn by sliding the eyes or face independently."
+    }
+  ]
+}

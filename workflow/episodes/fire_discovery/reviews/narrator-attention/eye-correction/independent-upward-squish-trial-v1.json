@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/clip_reviewer",
+  "scope": "Preview-only vertical-squish preference trial; no production signoff or user frame approval",
+  "method": "Visually opened upward-squish-comparison-v1.jpg and both full scene02/05 trial pair JPEGs, then read the actual current Scene02/05 dialogue/action/Narrator-attention script sections. No repeated baseline hash audit, new generation, artwork change or approval recording.",
+  "evidence": [
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/upward-squish-comparison-v1.jpg",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/scene-02-pair-upward-squish-v1.jpg",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/scene-05-pair-upward-squish-v1.jpg",
+    "workflow/episodes/fire_discovery/script.txt"
+  ],
+  "trial_rule": "The latest explicit user request permits the80% vertical-height/100% width variant for this trial, overriding unchanged height only here; it is not permission for general eye morphs.",
+  "visual_findings": [
+    "The shorter eye shapes remain solid dark navy, close-spaced and upright, without visible highlights, pale lower fades, old-eye ghosts or new scene/body artifacts in the viewed comparisons.",
+    "Compression is clear in the enlarged comparison but subtle at phone size. It makes the marks rounder and can read as increased alertness; the shapes alone do not unambiguously establish upward attention. The paired upward shift and its animated transition/context will carry that cue.",
+    "The compact connected flame, supported feet, expected arms-down02 and low-open05 endpoints, paint and scene placements remain visually consistent in the pair previews."
+  ],
+  "script_compatibility": "The trial can serve the actual listening purpose: establish02 upward gaze before Arthur begins after the silent lead-in, and05 upward gaze before his final Right. Maintain gaze and gentle listening idle through each Narrator turn. Still comparisons cannot verify onset timing, continuous gaze coverage, blink return or idle.",
+  "assessment": "Clean enough to show for user preference between original-height and80%-height upward-gaze variants. No visual cleanup blocker found in this bounded preview check. The user still decides the preferred variant; no frame approval or video generation permission is inferred."
+}

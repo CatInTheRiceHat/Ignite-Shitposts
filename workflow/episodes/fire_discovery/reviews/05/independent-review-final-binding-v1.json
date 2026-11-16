@@ -1,0 +1,254 @@
+{
+  "packet_id": "63a7465a6d6922029821da79b2fb2020f8c40223b5c0ce2e26e75d4b204b0a8d",
+  "reviewer": "/root/clip_reviewer_current",
+  "method": "Read current packet contract/request and bound complete script/storyboard plus scene speaker context before visual judgment. References/endpoints are unchanged by hash from the previously opened Mascot, Microphone and Spring sources; reopened both current endpoint comparisons. Opened every chronological page and native 1080x1920 details at opening, gesture, lobe failures, planned Narrator window and actual ending. Used frame/detail-index actual timestamps. Inspected decoded still evidence, not playback; no final camera-crop/playback approval claimed. Read-only FFmpeg framemd5 verifies every source pair and bound canonical clip SHA-256; audio streams are zero. Real voice recordings are absent, so speech timing is provisional. Binding-only refresh by /root/clip_reviewer_current: no new visual inspection or playback. Reused the actual inspection and all 12 unchanged check verdicts, observations, timestamps and citations from /root/clip_reviewer_current in reviews/05/independent-review-grounded-flow-v4.json. Verified every old/new evidence file against its manifest and every unchanged clip/reference/frame/cue binding against current bytes. Only script-storyboard.txt and script-context.json evidence differ: full script bytes are identical after rstrip(); normalized contract/context equivalence was also verified, allowing only the changed script SHA-256 and trailing whitespace in the final-scene script excerpt. Dialogue, speaker cues and scene directions are unchanged. This preserves prior conclusions and is not a new visual or production approval.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Settled identity remains recognizable beside Mascot/Microphone: asymmetric flame, substantial red shell, nested orange and broad cream crown/face, mouthless face and compact nub limbs. Transient layer failures are assessed separately.",
+      "timestamps_sec": [
+        0,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "Open eyes retain dark navy oval interiors and close spacing; brief bilateral blinks are permitted. Native details still add a thin pale rim around the ovals compared with the supplied flat opaque eye marks. No eye-squish correction is appropriate.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Stable raw source crop keeps one Sol left of the separate wood fire, full tip and feet visible, quiet lower foreground and no new actor/prop or generated camera move. Future editorial crops are outside this footage review.",
+      "timestamps_sec": [
+        0,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "No placement mechanism occurs in this reaction/listening shot. Consecutive frames preserve rigid wood/support positions and the separate actual fire flickers upward from its fuel contact without moving the wood or inventing another ignition.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "fail",
+      "observed": "Boundary pose, prop arrangement and source framing broadly match the approved pair. Actual boundary footage still sharpens soft painted edges into contour tracing and adds pale eye rims, so the supplied visual treatment is not preserved. True final detail is free of detached droplets.",
+      "timestamps_sec": [
+        0,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "fail",
+      "observed": "Matte palette, layered painted color and paper texture survive, but native frames show crisp outlined character/inner-flame/wood/foliage edges and smoother mascot surfaces relative to the supplied gouache stills and Spring. Preserve accepted paint without tracing, sharpening or pale eye edging.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "Large airborne jump is removed and feet remain supported through the main gesture. Red/orange lobes turn into droplets around 2.4–3.3s, then recur through 3.5–5.9s. Native 2.5s and 4s frames show isolated pieces; 5.5s shows swollen extra lobes before they separate. This breaks the required continuously filled design.",
+      "timestamps_sec": [
+        2.5,
+        3.5,
+        4,
+        5.5
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000016.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "No hop; arms open once and stay low, but an inward arm curl/windup is visible near 1.5s before the opening around 1.6–2.3s, later than the requested first-1.5s gesture. Grounded body roll settles, yet flame follow-through repeatedly fragments and the above-camera direction remains unclear.",
+      "timestamps_sec": [
+        1.5,
+        1.666667,
+        2.3,
+        3.5,
+        4
+      ],
+      "evidence": [
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "Tended wood/twig/coals stay identifiable and supported. Sol adds free red/orange pieces above and left of his body around 2.4s onward, recurring throughout the intended listening section. Native 4s detail clearly shows two detached red objects.",
+      "timestamps_sec": [
+        2.5,
+        4,
+        5.5
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000016.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "Full bound-clip decode verifies all 90 unchanged two-frame pairs at 30fps, and the airborne jump is corrected. Arms remain low/open after their single opening, but initial inward windup and repeated lobe shedding prevent clean connected follow-through. Low-amplitude late rocking continues; its UP direction is ambiguous. Actual voice synchronization and final playback/crops are unverified.",
+      "timestamps_sec": [
+        1.5,
+        2.5,
+        3.5,
+        4,
+        5.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "No unintended text/logo, human hand, on-screen Narrator or audio appears. Repeated free red mascot droplets and swollen orange-tipped extra lobes remain conspicuous generation artifacts through the planned listening section.",
+      "timestamps_sec": [
+        2.5,
+        4,
+        5.5
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000016.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "uncertain",
+      "observed": "Actual script/context has Sol conclude “So finding fire wasn't the same as making it.” then Arthur say “Right.” in an unconfirmed 4–6s window. Arms open once and remain low, with a small tilted pose sustained across 3.5–6s rather than a full arm/body reset. Native details at 3.5s, 4s and ending still read predominantly as sideways roll, so a distinct glance UP toward the fixed above-camera voice cannot be established confidently. Late idle repeatedly fragments. Actual voice tracks are absent; neither exact onset nor final speech synchronization can be verified.",
+      "timestamps_sec": [
+        1.5,
+        2.5,
+        3.5,
+        4,
+        5.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000016.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    }
+  },
+  "summary": "REJECTED. Large jump corrected, low-open arms retained, exact 90/90 frame pairs verified. Remaining blockers: initial inward arm windup, repeated detached/swelled red-orange lobes from ~2.4s through late listening, pale eye rims and traced contours. UP attention remains visually uncertain despite the sustained tilt. Preserve approved stills and soft paint; actual voice sync/final playback/crops remain unverified.",
+  "binding_refresh": {
+    "type": "script_eof_whitespace_only",
+    "visual_inspection_reused": true,
+    "original_reviewer": "/root/clip_reviewer_current",
+    "original_report": "reviews/05/independent-review-grounded-flow-v4.json",
+    "original_packet_id": "b2c96944b899334373a464a76292639edac74c6ca45567c5eafc9e30e65408fc",
+    "old_script_sha256": "da26b7929a7a4c269fa12d746882ba4717e05022c1c7be491382fa0f7d7b0fd7",
+    "new_script_sha256": "ecd052045e1af68bd6b852f7b310f4f9246da3c81fc707ca26bcabf5e526da95",
+    "script_rstrip_equal": true,
+    "normalized_contract_and_context_equal": true,
+    "all_unchanged_evidence_hashes_verified": true,
+    "unchanged_evidence_file_count": 214,
+    "changed_evidence": [
+      "evidence/script-context.json",
+      "evidence/script-storyboard.txt"
+    ]
+  }
+}

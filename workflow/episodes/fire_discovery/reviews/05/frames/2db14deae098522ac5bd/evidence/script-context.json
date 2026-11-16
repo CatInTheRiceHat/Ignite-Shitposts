@@ -1,0 +1,55 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b"
+  },
+  "scene_script_excerpt": "SCENE 05 — 6 seconds (provisional)\nSetting and framing: Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.\nLighting: Use the same cool diffuse clearing shade and localized amber light as Scene 04's ending. Illuminate Sol coherently with that ambient light and only a restrained warm tint on his fire-facing side.\nCamera in generation: Generation: stable camera after the wider cut.\nEditing: No additional camera move; retain a brief final reaction hold.\nFirst frame: Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.\n\nSol: “So finding fire wasn't the same as making it.”\nNarrator: “Right.”\n\nAction: Move both short arms directly outward once into the approved low open pose with a small connected bouncy wobble. During Sol's concluding sentence he can attend to the tended fire. Before Arthur's final reply, lift the original navy eye pair to the fixed point just above camera, keeping the normal eye shapes, sizes and gap. Maintain that upward listening gaze and gentle connected flame/body idle throughout the reply and ending attention hold. Keep the arms low and quiet after opening, with their original lengths/attachments and both feet supported. No inward preparatory sweep, repeated arm gesture, detached body pieces or separate head turn.\nNarrator attention: {\"required\": true, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"entry\": \"Establish upward gaze BEFORE the first Narrator word; a short silent gaze transition is permitted.\", \"coverage\": \"Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.\", \"idle\": true, \"original_eye_design_preserved\": true, \"entry_cue\": \"Sol finishes his thought; eyes are up before Arthur's 'Right'.\", \"planned_window\": {\"start_sec\": 4, \"end_sec\": 6, \"confirmed\": false}}\nLast frame: Sol holds both original short arms in the approved small low open pose, with gaze UP to the fixed above-camera Narrator for the final reply. The navy ovals keep their normal design, size and close spacing as a coherent pair in the attached face. His compact flame form and nested layers remain connected and his feet supported. Capture a neutral phase of gentle listening idle; preserve the tended bough, twig, separate small fire, camera crop and lighting.\nNext cut: Hold the concluding pose long enough to read, then end. Final hold depends on the normal-rate voice tracks.\n\nREVIEW AND ASSEMBLY\nRead this actual complete script and the per-scene speaker/attention cues with every clip. While Narrator speaks with Sol visible, check up-gaze BEFORE onset and throughout speech, plus gentle listening idle. First/last states alone are insufficient.\nThe review packet binds this file and available voice-cue/recording hashes. Source checks can be provisional; no final speech synchronization is claimed before normal-rate recordings. Changed Scene02/05 frame pairs need explicit user approval before replacement videos.\nKeep captions editable with the existing Ramento white/orange styling; editorial pushes are separate and must retain required crops.\n\nRESEARCH REFERENCES\nFire 400 ka — Pathways to Ancient Britain\nhttps://www.pabproject.org/research-projects/fire-400-ka/\nThe research team distinguishes likely use of wildfires and maintained embers from intentional ignition. Early dates are uncertain; no first discoverer is identified.\n\nDavis et al. — Earliest evidence of making fire\nhttps://pubmed.ncbi.nlm.nih.gov/41372405/\nThe study reports evidence interpreted as deliberate fire-making at Barnham around 400,000 years ago. This evidence date is not a known first invention or discoverer.\n\nBerna et al. — Fire evidence at Wonderwerk Cave\nhttps://www.pnas.org/content/pnas/109/20/E1215.full.pdf\nBurned bone and plant ash document burning in an archaeological context around one million years ago. This does not identify a person or establish the first ignition method.\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "So finding fire wasn't the same as making it."
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Right."
+    }
+  ],
+  "narrator_attention": {
+    "required": true,
+    "gaze_target": "Fixed off-screen Narrator point just above camera",
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "entry": "Establish upward gaze BEFORE the first Narrator word; a short silent gaze transition is permitted.",
+    "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
+    "idle": true,
+    "original_eye_design_preserved": true,
+    "entry_cue": "Sol finishes his thought; eyes are up before Arthur's 'Right'.",
+    "planned_window": {
+      "start_sec": 4,
+      "end_sec": 6,
+      "confirmed": false
+    }
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "05",
+  "first_frame": "Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.",
+  "action": "Move both short arms directly outward once into the approved low open pose with a small connected bouncy wobble. During Sol's concluding sentence he can attend to the tended fire. Before Arthur's final reply, lift the original navy eye pair to the fixed point just above camera, keeping the normal eye shapes, sizes and gap. Maintain that upward listening gaze and gentle connected flame/body idle throughout the reply and ending attention hold. Keep the arms low and quiet after opening, with their original lengths/attachments and both feet supported. No inward preparatory sweep, repeated arm gesture, detached body pieces or separate head turn.",
+  "last_frame": "Sol holds both original short arms in the approved small low open pose, with gaze UP to the fixed above-camera Narrator for the final reply. The navy ovals keep their normal design, size and close spacing as a coherent pair in the attached face. His compact flame form and nested layers remain connected and his feet supported. Capture a neutral phase of gentle listening idle; preserve the tended bough, twig, separate small fire, camera crop and lighting.",
+  "performance_beats": [
+    {
+      "cue": "Look up before Arthur begins and maintain the gaze/idle through the whole turn; final onset follows actual voices.",
+      "eye_shape": "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
+      "gaze": "UP to fixed above-camera Narrator during his entire turn.",
+      "body": "Move both short arms directly outward once into the approved low open pose with a small connected bouncy wobble. During Sol's concluding sentence he can attend to the tended fire. Before Arthur's final reply, lift the original navy eye pair to the fixed point just above camera, keeping the normal eye shapes, sizes and gap. Maintain that upward listening gaze and gentle connected flame/body idle throughout the reply and ending attention hold. Keep the arms low and quiet after opening, with their original lengths/attachments and both feet supported. No inward preparatory sweep, repeated arm gesture, detached body pieces or separate head turn."
+    }
+  ]
+}

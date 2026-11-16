@@ -1,0 +1,177 @@
+{
+  "method": "Authorized local eye-only cleanup; no image/video generation.",
+  "user_authorization": "oh oops yeah sorry u can do that",
+  "scope": "The eye-only operation proposed immediately before that reply.",
+  "eye_color_rgb": [
+    28,
+    36,
+    71
+  ],
+  "gaze_translation_px": [
+    0,
+    -20
+  ],
+  "user_approved_frames": false,
+  "scenes": [
+    {
+      "scene": "02",
+      "base": "keyframes/01-first.png",
+      "base_sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+      "contour_source": "keyframes/02-first.png",
+      "contour_source_sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5",
+      "proposed_output": "keyframes/02-last-eye-lock-v2.png",
+      "output_sha256": "07387fb231d0f0191f254c1a8c9cfc38e323f129e83b77ee457515995db03151",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "eyes": [
+        {
+          "eye": 1,
+          "source_box": [
+            480,
+            1395,
+            605,
+            1545
+          ],
+          "target_box": [
+            480,
+            1375,
+            605,
+            1525
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            51,
+            88
+          ],
+          "source_center_xy": [
+            542.3296422487223,
+            1482.5318001135718
+          ],
+          "target_center_xy": [
+            542.3296422487223,
+            1462.5318001135718
+          ],
+          "opaque_navy_pixels": 3444,
+          "alpha_sha256": "9dca288b64110a3571a073a2c9f88440400fd5c5ea9fbe4bba6efe2550d724a2"
+        },
+        {
+          "eye": 2,
+          "source_box": [
+            610,
+            1380,
+            735,
+            1530
+          ],
+          "target_box": [
+            610,
+            1360,
+            735,
+            1510
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            48,
+            84
+          ],
+          "source_center_xy": [
+            671.2932926829268,
+            1470.6344512195121
+          ],
+          "target_center_xy": [
+            671.2932926829268,
+            1450.6344512195121
+          ],
+          "opaque_navy_pixels": 3207,
+          "alpha_sha256": "34824eb8334812fec44ec99468f167c77eb6234710701cff58413e872a9418f3"
+        }
+      ],
+      "changed_pixels": 11762,
+      "allowed_pixels": 11788,
+      "changed_pixels_outside_eye_masks": 0,
+      "all_opaque_eye_pixels_exact_navy": true,
+      "user_approved": false
+    },
+    {
+      "scene": "05",
+      "base": "keyframes/05-last-nano-v5.png",
+      "base_sha256": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654",
+      "contour_source": "keyframes/05-first.png",
+      "contour_source_sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c",
+      "proposed_output": "keyframes/05-last-eye-lock-v2.png",
+      "output_sha256": "7519ae7e22d207f1037db92800d1a1919daa55373e45b6a5c1a46a1a06b0409d",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "eyes": [
+        {
+          "eye": 1,
+          "source_box": [
+            480,
+            1395,
+            605,
+            1545
+          ],
+          "target_box": [
+            480,
+            1375,
+            605,
+            1525
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            50,
+            88
+          ],
+          "source_center_xy": [
+            542.4417351857103,
+            1482.5945562801248
+          ],
+          "target_center_xy": [
+            542.4417351857103,
+            1462.5945562801248
+          ],
+          "opaque_navy_pixels": 3443,
+          "alpha_sha256": "0674d928907ebafc533309f7cf74be99b4ec011d295913d79ef3089966b0af66"
+        },
+        {
+          "eye": 2,
+          "source_box": [
+            610,
+            1380,
+            735,
+            1530
+          ],
+          "target_box": [
+            610,
+            1360,
+            735,
+            1510
+          ],
+          "contour_transform": "integer translation only; no scale/rotation/reshape",
+          "contour_wh_px": [
+            48,
+            84
+          ],
+          "source_center_xy": [
+            671.3464711274061,
+            1470.6810265811182
+          ],
+          "target_center_xy": [
+            671.3464711274061,
+            1450.6810265811182
+          ],
+          "opaque_navy_pixels": 3193,
+          "alpha_sha256": "1ebfe55331398dd86f72be58612d8ca311bb45bd4ad9b666953cbdb53184ac17"
+        }
+      ],
+      "changed_pixels": 11957,
+      "allowed_pixels": 11969,
+      "changed_pixels_outside_eye_masks": 0,
+      "all_opaque_eye_pixels_exact_navy": true,
+      "user_approved": false
+    }
+  ]
+}

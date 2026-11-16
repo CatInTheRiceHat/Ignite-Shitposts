@@ -1,6 +1,6 @@
 {
   "episode": "fire_discovery",
-  "status": "Mandatory script/Narrator attention review implemented. New Scene02/05 upward-looking endpoint candidates await exact-pair approval before replacement videos. Earlier body-fix takes are archived.",
+  "status": "Size-aware flame review complete. Tiny subtle flicks allowed; oversized drops/flares should reduce. Pending cleanup plan narrowed; no video pixels changed.",
   "scenes": 5,
   "image_prompts": 10,
   "video_prompts": 5,
@@ -8,10 +8,10 @@
   "target_duration_sec": 30,
   "estimated_duration_sec": 29,
   "timing_confirmed": false,
-  "images_generated": 20,
-  "videos_generated": 11,
+  "images_generated": 26,
+  "videos_generated": 15,
   "audio_generated": 0,
-  "frame_approval": false,
+  "frame_approval": true,
   "final_ready": false,
   "previous_episode": "escalator",
   "previous_episode_preserved_sha256": {
@@ -20,9 +20,9 @@
     "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
   "pending": [
-    "User review/approval of the new Scene02/05 upward-looking endpoint pairs.",
-    "New Scene02/05 Omni clips with upward gaze before Narrator onset and gentle listening idle through speech.",
-    "Actual normal-rate voices, final speech alignment, playback, captions and editorial crop checks."
+    "User decision/permission on local video artifact cleanup of the existing take4 motion.",
+    "Independent review of any finished replacements, including the body-led UP cue against script.",
+    "Actual normal-rate voices, final speech timing/playback/captions and editorial crop checks."
   ],
   "checks": {
     "ten_endpoints_and_five_video_prompts": true,
@@ -44,13 +44,14 @@
     "cadence_not_yet_implemented_or_verified": false,
     "cadence_verified_per_generated_take": true,
     "one_reused_endpoint_nine_unique_active_stills": true,
-    "current_scene02_pair_explicitly_user_approved": false,
-    "current_scene05_pair_explicitly_user_approved": false,
-    "scene_05_ready_for_animation": false,
-    "unchanged_01_03_04_source_script_reviews_passed": true
+    "current_scene02_pair_explicitly_user_approved": true,
+    "current_scene05_pair_explicitly_user_approved": true,
+    "scene_05_ready_for_animation": true,
+    "unchanged_01_03_04_source_script_reviews_passed": true,
+    "eye_correction_passed": false
   },
   "endpoint_entries": 10,
-  "unique_image_generations": 9,
+  "unique_image_generations": 7,
   "reused_endpoint_entries": 1,
   "exact_frame_cadence_confirmed": false,
   "scene_01_candidate_sha256": {
@@ -58,7 +59,7 @@
     "last": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
   },
   "active_endpoint_entries": 10,
-  "unique_active_image_jobs": 9,
+  "unique_active_image_jobs": 7,
   "motion_policy": {
     "delivery_fps": 30,
     "pose_hold_frames": 2,
@@ -77,8 +78,8 @@
     "workflow/episodes/escalator/higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
   "scene05_endpoint_issue": "Earlier nano-v5 correction was approved historically. The current narrator-up nano-v6 ending is a new unapproved candidate.",
-  "video_jobs_submitted": 11,
-  "video_jobs_completed": 11,
+  "video_jobs_submitted": 15,
+  "video_jobs_completed": 15,
   "unique_scene_videos_generated": 5,
   "production_clips_approved": 0,
   "latest_motion_preference": "Small action-driven bouncy flame-like body/tip wobble with coherent layers/face, unchanged eye ovals and a damped settle.",
@@ -109,14 +110,15 @@
       "user_message": "Allow a brief natural blink"
     },
     "bouncy_sol": true,
-    "local_code_eye_cleanup_authorized": false
+    "local_code_eye_cleanup_authorized": true,
+    "flowy_pose_transitions": true
   },
   "frame_approvals_by_scene": {
     "01": true,
-    "02": false,
+    "02": true,
     "03": true,
     "04": true,
-    "05": false
+    "05": true
   },
   "required_review_checks": 12,
   "script_review_required": true,
@@ -135,5 +137,121 @@
     "03",
     "04"
   ],
-  "source_review_scope": "Source visuals plus provisional script alignment. Final production approval still requires actual voices, playback, captions and editorial crop checks."
+  "source_review_scope": "Source visuals and provisional script alignment only; actual normal-rate voices, final sync/playback/captions/crops remain pending.",
+  "latest_eye_feedback": {
+    "quote": "its good but i feel like the right images the eyes are lighter color? also their shape is kind of deformed",
+    "affected_scenes": [
+      "02",
+      "05"
+    ],
+    "current_pair_approved": false,
+    "correction_attempts": [
+      {
+        "receipt": "jobs/higgsfield/narrator-eye-fix-v1.json",
+        "status": "rejected_enlarged_eyes"
+      },
+      {
+        "receipt": "jobs/higgsfield/narrator-eye-fix-v2.json",
+        "status": "rejected_gradients_and_highlights"
+      }
+    ]
+  },
+  "local_eye_cleanup": {
+    "authorized": true,
+    "user_message": "oh oops yeah sorry u can do that",
+    "receipt": "reviews/narrator-attention/eye-correction/local-cleanup-receipt-v2.json",
+    "method": "Copy original source eye contours, translate20px up, restore opaque navy, repair only old eye footprints.",
+    "ai_generation_performed": false,
+    "frame_approval": false,
+    "selected_candidates": {
+      "02": "keyframes/02-last-eye-lock-v2.png",
+      "05": "keyframes/05-last-eye-lock-v2.png"
+    },
+    "independent_review": "reviews/narrator-attention/eye-correction/independent-local-eye-review-v2.json",
+    "visual_review_passed": true
+  },
+  "unique_active_still_assets": 9,
+  "selected_locally_corrected_endpoints": 2,
+  "local_eye_cleanup_versions": 4,
+  "eye_squish_trial": {
+    "requested": true,
+    "approved": false,
+    "vertical_scale": 0.8,
+    "receipt": "reviews/narrator-attention/eye-correction/upward-squish-trial-v1.json",
+    "canonical_frames_changed": false,
+    "status": "rejected_by_user"
+  },
+  "body_up_tilt_trial": {
+    "requested": true,
+    "approved": true,
+    "generation_receipt": "jobs/higgsfield/body-up-tilt-v1.json",
+    "eye_color_receipt": "reviews/narrator-attention/body-up-tilt/eye-color-finish-v1.json",
+    "candidates": {
+      "02": "keyframes/02-last-body-up-tilt-eye-finish-v1.png",
+      "05": "keyframes/05-last-body-up-tilt-eye-finish-v1.png"
+    },
+    "canonical_frames_changed": false,
+    "status": "selected and submitted for video"
+  },
+  "latest_visual_findings": {
+    "02": "Visible airborne pose near1.5s; needs complete independent review.",
+    "05": "Airborne pose near3s and detached red pieces in later motion; needs complete independent review."
+  },
+  "current_clip_gates": [],
+  "body_flow_correction": {
+    "take": 4,
+    "jobs": {
+      "02": "74a29afc-72c8-48a2-b4bf-21e3bfaa1264",
+      "05": "e1245ed3-1fd1-4aa2-b3ae-b94acc5e74e8"
+    },
+    "status": "completed_independently_rejected",
+    "same_approved_frames": true,
+    "model_unchanged": true,
+    "estimated_credits_this_video_phase": 65,
+    "remaining_blocked_checks": {
+      "02": {
+        "eyes": "fail",
+        "start_end_states": "fail",
+        "painted_art_style": "fail",
+        "flame_and_limbs": "fail",
+        "contacts_and_action": "fail",
+        "object_continuity": "fail",
+        "performance_and_timing": "fail",
+        "clean_footage": "fail",
+        "script_and_narrator_attention": "fail"
+      },
+      "05": {
+        "eyes": "fail",
+        "start_end_states": "fail",
+        "painted_art_style": "fail",
+        "flame_and_limbs": "fail",
+        "contacts_and_action": "fail",
+        "object_continuity": "fail",
+        "performance_and_timing": "fail",
+        "clean_footage": "fail",
+        "script_and_narrator_attention": "uncertain"
+      }
+    }
+  },
+  "local_video_cleanup_proposal": "reviews/grounded-flow-v4/local-video-cleanup-proposal.json",
+  "final_binding_reviews": {
+    "01": "reviews/01/independent-review-final-binding-v1.json",
+    "02": "reviews/02/independent-review-final-binding-v1.json",
+    "03": "reviews/03/independent-review-final-binding-v1.json",
+    "04": "reviews/04/independent-review-final-binding-v1.json",
+    "05": "reviews/05/independent-review-final-binding-v1.json"
+  },
+  "latest_flame_size_feedback": {
+    "user_message": "wait i dont like the visual flames coming out i dont like them big but subtle ones look very cute can u look over that",
+    "review": "reviews/grounded-flow-v4/flame-size-preference-review-v1.json",
+    "comparison": "reviews/grounded-flow-v4/flame-size/effect-size-examples.jpg",
+    "media_changed": false
+  },
+  "historical_source_passes_before_latest_policy": [
+    "01",
+    "03",
+    "04"
+  ],
+  "current_policy_review_pending": true,
+  "policy_note": "The updated flame-size criterion changes policy hashes. Prior01/03/04 source passes and02/05 rejects are retained as historical evidence; production gates require rebinding/review under current criteria before use. Do not rewrite old reports or infer new passes."
 }

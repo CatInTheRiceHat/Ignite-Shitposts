@@ -1,0 +1,63 @@
+{
+  "status": "scope_revised_after_size_feedback; not_executed_or_authorized",
+  "purpose": "Keep the existing Higgsfield motion and cute tiny flame accents; selectively reduce oversized/busy emissions and review eye-edge artifacts.",
+  "authorization_required": "New video-frame pixel cleanup; previous explicit permission covered the still-eye corrections.",
+  "source_model": "gemini_omni_flash_1_2",
+  "motion_source": "Existing generated take4; no manually drawn poses or new animation.",
+  "preserve": [
+    "Exact source timing and normal-speed motion",
+    "Two-frame source cadence at30fps",
+    "All pixels outside tightly reviewed artifact masks",
+    "Character anatomy, body pose, prop/fire contact and scene geometry"
+  ],
+  "operations": [
+    "Classify effects by native and phone-size evidence: preserve tiny fading accents such as02~1.6\u20131.73s and05 top-right~4.13s.",
+    "Reduce the eye-sized02~1.2\u20131.5s droplet and oversized/bulbous05 effects near2.5/3.5/4.5/5.5s; make repeated pairs sparser. Do not blanket-remove all detached flicks.",
+    "Retain the main mascot silhouette, anatomy and pose motion. Shrink/remove only intrusive excess; restore any affected small background areas from clean source evidence.",
+    "Normalize eye pigment/rims under tracked masks while retaining generated eye contours and permitted brief natural blinks.",
+    "Verify exact two-frame cadence and independently inspect actual script/footage. This pixel cleanup does not certify Narrator direction or final voice timing."
+  ],
+  "timing_limit": "This pixel cleanup alone does not prove upward attention or voice synchronization. Place Narrator onset after the actual gaze-ready state when real normal-rate recordings are available; review complete spoken turns then.",
+  "clips": [
+    {
+      "scene": "02",
+      "source": "clips/02-scene-omni-v4-twos.mp4",
+      "source_sha256": "acb22eaaf649127d1884541fe2fd0a2d4e1910cde40a8710ccc9e54177cdb7bd",
+      "report": "reviews/02/independent-review-grounded-flow-v4.json",
+      "proposed_output": "clips/02-scene-omni-v4-cleanup-v1.mp4",
+      "known_blocked_checks": {
+        "eyes": "fail",
+        "start_end_states": "fail",
+        "painted_art_style": "fail",
+        "flame_and_limbs": "fail",
+        "contacts_and_action": "fail",
+        "object_continuity": "fail",
+        "performance_and_timing": "fail",
+        "clean_footage": "fail",
+        "script_and_narrator_attention": "fail"
+      }
+    },
+    {
+      "scene": "05",
+      "source": "clips/05-scene-omni-v4-twos.mp4",
+      "source_sha256": "f04e9436aacac68038115aa84d5887a7fe77f424954dc8ff1920a3ded0624804",
+      "report": "reviews/05/independent-review-grounded-flow-v4.json",
+      "proposed_output": "clips/05-scene-omni-v4-cleanup-v1.mp4",
+      "known_blocked_checks": {
+        "eyes": "fail",
+        "start_end_states": "fail",
+        "painted_art_style": "fail",
+        "flame_and_limbs": "fail",
+        "contacts_and_action": "fail",
+        "object_continuity": "fail",
+        "performance_and_timing": "fail",
+        "clean_footage": "fail",
+        "script_and_narrator_attention": "uncertain"
+      }
+    }
+  ],
+  "latest_user_feedback": "wait i dont like the visual flames coming out i dont like them big but subtle ones look very cute can u look over that",
+  "effect_policy": "Allow tiny, sparse, brief matte painted flame flicks as secondary accents near Sol. Keep them much smaller than the eyes and subordinate to the pose. Reduce eye-sized droplets, bulbous orange-centered flares and frequent paired sprays. Preserve the main filled mascot, original lobes and coherent color layers; no holes, major lobe loss or realistic glowing fire effects.",
+  "preference_review": "reviews/grounded-flow-v4/flame-size-preference-review-v1.json",
+  "cleanup_approved": false
+}

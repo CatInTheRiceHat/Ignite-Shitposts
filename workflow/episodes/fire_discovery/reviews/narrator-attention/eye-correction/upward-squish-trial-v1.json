@@ -1,0 +1,95 @@
+{
+  "user_request": "do u wanna try changing the eyes so they squish vertically as if sol is loooking up",
+  "status": "rejected_by_user",
+  "vertical_scale": 0.8,
+  "horizontal_scale": 1,
+  "gaze_translation_px": [
+    0,
+    -20
+  ],
+  "eye_color_rgb": [
+    28,
+    36,
+    71
+  ],
+  "canonical_frames_changed": false,
+  "new_generation_jobs": 0,
+  "scenes": [
+    {
+      "scene": "02",
+      "output": "keyframes/02-last-upward-squish-v1.png",
+      "sha256": "654e25f809742ffd3a4ffda0ce7a3989e5510947787e2c8532e703fd654811e1",
+      "compare_with": "keyframes/02-last-eye-lock-v2.png",
+      "compare_with_sha256": "07387fb231d0f0191f254c1a8c9cfc38e323f129e83b77ee457515995db03151",
+      "eyes": [
+        {
+          "original_wh_px": [
+            51,
+            88
+          ],
+          "squished_wh_px": [
+            51,
+            70
+          ],
+          "opaque_navy_pixels": 2733
+        },
+        {
+          "original_wh_px": [
+            48,
+            84
+          ],
+          "squished_wh_px": [
+            48,
+            68
+          ],
+          "opaque_navy_pixels": 2533
+        }
+      ],
+      "changed_pixels_vs_eye_lock": 1703,
+      "changed_pixels_outside_eye_shapes": 0,
+      "user_approved": false
+    },
+    {
+      "scene": "05",
+      "output": "keyframes/05-last-upward-squish-v1.png",
+      "sha256": "f74d738e7434f4d8f1e55b3968c0eff1715ccc0bb16c93dad9a8b319ac1c118f",
+      "compare_with": "keyframes/05-last-eye-lock-v2.png",
+      "compare_with_sha256": "7519ae7e22d207f1037db92800d1a1919daa55373e45b6a5c1a46a1a06b0409d",
+      "eyes": [
+        {
+          "original_wh_px": [
+            50,
+            88
+          ],
+          "squished_wh_px": [
+            50,
+            70
+          ],
+          "opaque_navy_pixels": 2734
+        },
+        {
+          "original_wh_px": [
+            48,
+            84
+          ],
+          "squished_wh_px": [
+            48,
+            68
+          ],
+          "opaque_navy_pixels": 2525
+        }
+      ],
+      "changed_pixels_vs_eye_lock": 1700,
+      "changed_pixels_outside_eye_shapes": 0,
+      "user_approved": false
+    }
+  ],
+  "independent_preview_review": {
+    "report": "reviews/narrator-attention/eye-correction/independent-upward-squish-trial-v1.json",
+    "suitable_for_preference_comparison": true,
+    "observation": "Clean dark fill and upright squished shapes; subtle at phone size. Actual upward motion and voice cue will help establish looking up.",
+    "user_approved": false
+  },
+  "user_feedback": "ok that looks funny now... ok scratch the squishing eyes can we like make sol tilt his body up a bit",
+  "selected_for_animation": false
+}
