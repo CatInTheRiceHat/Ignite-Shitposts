@@ -1,0 +1,62 @@
+[
+  {
+    "scene": "01",
+    "source": "clips/01-scene-omni-v3-twos.mp4",
+    "source_sha256": "64f0590cf711838c549a409aa9283d72c7c31f5c404209cba50f4c84bacf3191",
+    "source_first_frame": 0,
+    "frames": 70,
+    "duration": 2.3333333333333335,
+    "output": "clips/edit-v2/01-tight.mp4",
+    "sha256": "adc503ca810f822349d061d8406ac458792397b8ba945b1f6e012731b52b1c92",
+    "decoded_source_subset_exact": true,
+    "decoded_pair_mismatches": []
+  },
+  {
+    "scene": "02",
+    "source": "clips/02-scene-omni-v6-particle-free-v2.mp4",
+    "source_sha256": "c7da23c931b7e2b2b2429018c6fcbd9ed23e0c714f4b18839fe805832bbb46ab",
+    "source_first_frame": 0,
+    "frames": 144,
+    "duration": 4.8,
+    "output": "clips/edit-v2/02-tight.mp4",
+    "sha256": "5d7ec89b88e067ddc6fd50ce3dbd15ac85093ddfa9e8f010de06602b9cc6a1f7",
+    "decoded_source_subset_exact": true,
+    "decoded_pair_mismatches": []
+  },
+  {
+    "scene": "03",
+    "source": "clips/03-scene-omni-v2-bolt-trim.mp4",
+    "source_sha256": "c651147d3a58e5096488fb84bcf5040a98f7ea5578f98dfe41b2d7466acdceec",
+    "source_first_frame": 36,
+    "frames": 170,
+    "duration": 5.666666666666667,
+    "output": "clips/edit-v2/03-tight.mp4",
+    "sha256": "f765950aaf31dd220a8f87b25c929692b2da800c2db8be44524ae85ad97a0830",
+    "decoded_source_subset_exact": true,
+    "decoded_pair_mismatches": []
+  },
+  {
+    "scene": "04",
+    "source": "clips/04-scene-omni-v2-twos.mp4",
+    "source_sha256": "3f1ca918360ba3e8e220f44446592986f2eac3a3ef98eca82712af2c13cab600",
+    "source_first_frame": 0,
+    "frames": 198,
+    "duration": 6.6,
+    "output": "clips/edit-v2/04-tight.mp4",
+    "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b",
+    "decoded_source_subset_exact": true,
+    "decoded_pair_mismatches": []
+  },
+  {
+    "scene": "05",
+    "source": "clips/05-scene-omni-v6-particle-free-v2.mp4",
+    "source_sha256": "24850e7740569cd611a18239262a68626fa61ea2a5a64ecdc0fe4323d39a428a",
+    "source_first_frame": 0,
+    "frames": 126,
+    "duration": 4.2,
+    "output": "clips/edit-v2/05-tight.mp4",
+    "sha256": "8cd985cec5493094da06061cc2a1149efd82aecb538f9ecc0e143e5613d78737",
+    "decoded_source_subset_exact": true,
+    "decoded_pair_mismatches": []
+  }
+]

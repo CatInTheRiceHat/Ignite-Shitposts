@@ -1,16 +1,16 @@
 {
   "episode": "fire_discovery",
-  "status": "Size-aware flame review complete. Tiny subtle flicks allowed; oversized drops/flares should reduce. Pending cleanup plan narrowed; no video pixels changed.",
+  "status": "Complete33s sound review cut rendered; audio finishing and independent source/final visual QA pending. No Sol particles allowed.",
   "scenes": 5,
   "image_prompts": 10,
   "video_prompts": 5,
   "spoken_words": 54,
   "target_duration_sec": 30,
-  "estimated_duration_sec": 29,
+  "estimated_duration_sec": 33,
   "timing_confirmed": false,
   "images_generated": 26,
-  "videos_generated": 15,
-  "audio_generated": 0,
+  "videos_generated": 22,
+  "audio_generated": 7,
   "frame_approval": true,
   "final_ready": false,
   "previous_episode": "escalator",
@@ -20,9 +20,8 @@
     "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
   "pending": [
-    "User decision/permission on local video artifact cleanup of the existing take4 motion.",
-    "Independent review of any finished replacements, including the body-led UP cue against script.",
-    "Actual normal-rate voices, final speech timing/playback/captions and editorial crop checks."
+    "Complete audio normalization/decode and full-cut native/caption/crop QA.",
+    "Finish independent current-source reviews for02v6,03v2bolttrim,04v2,05v6."
   ],
   "checks": {
     "ten_endpoints_and_five_video_prompts": true,
@@ -194,8 +193,11 @@
     "status": "selected and submitted for video"
   },
   "latest_visual_findings": {
-    "02": "Visible airborne pose near1.5s; needs complete independent review.",
-    "05": "Airborne pose near3s and detached red pieces in later motion; needs complete independent review."
+    "01": "Newv5 rejected for mouth/particles. Preserved user-preferredv3 passes current actual-voice/particle-free policy and is selected in review cut.",
+    "02": "v6 under review",
+    "03": "v2 editorial-only bolt trim under review",
+    "04": "v2 under review",
+    "05": "v6 under review"
   },
   "current_clip_gates": [],
   "body_flow_correction": {
@@ -253,5 +255,17 @@
     "04"
   ],
   "current_policy_review_pending": true,
-  "policy_note": "The updated flame-size criterion changes policy hashes. Prior01/03/04 source passes and02/05 rejects are retained as historical evidence; production gates require rebinding/review under current criteria before use. Do not rewrite old reports or infer new passes."
+  "policy_note": "Latest user scraps all Sol particles and asks gentle attached wiggle only. Historical tiny-flick allowances/rejections are preserved as history; current reports bind actual33s script, voice cues and raw WAV hashes.",
+  "particle_free_full_video": {
+    "source_request": "generate videos again and then make the fulll video with sound",
+    "status": "review draft rendered; finishing/QA pending",
+    "draft": "renders/fire-discovery-draft.mp4",
+    "audio_cues": "audio/voice-cues.json",
+    "normal_rate": true,
+    "narrator_onsets_local_sec": {
+      "02": 0.8,
+      "05": 4.0
+    },
+    "particle_policy": "All Sol emissions removed from prompts; actual footage still independently inspected."
+  }
 }

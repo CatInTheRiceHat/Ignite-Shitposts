@@ -1,0 +1,59 @@
+{
+  "source": "clips/03-scene-omni-v2-twos.mp4",
+  "output": "clips/03-scene-omni-v2-bolt-trim.mp4",
+  "source_sha256": "71df89dcbd300fdb063e9ebb5c509311df444cc6763f34378d5de8294cf7c25c",
+  "sha256": "c651147d3a58e5096488fb84bcf5040a98f7ea5578f98dfe41b2d7466acdceec",
+  "frames": 270,
+  "pairs": 135,
+  "decoded_pair_mismatches": [],
+  "method": "Normal editorial source-frame selection: source0\u2013111, source110\u2013111 once, source120\u2013269, then six copies of final held state. No image inpainting, optical flow or audio speed change.",
+  "bolt_source_range": [
+    112,
+    121
+  ],
+  "selected_bolt_source_pair": [
+    120,
+    121
+  ],
+  "bolt_output_frames": [
+    114,
+    115
+  ],
+  "bolt_output_time_sec": [
+    3.8,
+    3.8666667
+  ],
+  "command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-nostdin",
+    "-i",
+    "workflow/episodes/fire_discovery/clips/03-scene-omni-v2-twos.mp4",
+    "-filter_complex",
+    "[0:v]split=3[a][b][c];[a]trim=start_frame=0:end_frame=112,setpts=PTS-STARTPTS[pre];[b]trim=start_frame=110:end_frame=112,setpts=PTS-STARTPTS[hold];[c]trim=start_frame=120:end_frame=270,setpts=PTS-STARTPTS[post];[pre][hold][post]concat=n=3:v=1:a=0,tpad=stop_mode=clone:stop_duration=0.2[v]",
+    "-map",
+    "[v]",
+    "-an",
+    "-frames:v",
+    "270",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "fast",
+    "-qp",
+    "18",
+    "-g",
+    "1",
+    "-bf",
+    "0",
+    "-x264-params",
+    "aq-mode=0:mbtree=0:scenecut=0",
+    "-pix_fmt",
+    "yuv420p",
+    "-movflags",
+    "+faststart",
+    "workflow/episodes/fire_discovery/clips/03-scene-omni-v2-bolt-trim.mp4"
+  ],
+  "visual_review": "pending independent review"
+}

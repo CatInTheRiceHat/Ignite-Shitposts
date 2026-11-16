@@ -1,0 +1,325 @@
+{
+  "packet_id": "889e41733b378b7fd9bef4eec829241b15aae5e304189266b95a2ff78a4f83ab",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_and_measured_voice_cue_alignment",
+  "deferred_final_checks": [
+    "Actual assembled movie/cut/caption/crop playback",
+    "Manual listening, voice/static gain mix levels and sound effects",
+    "Final measured-cue rendering/synchronization in mixed export"
+  ],
+  "method": "CURRENT PARTICLE-FREE/ACTUAL-VOICE REVIEW of preserved selected Omni v3 through explicit --clip override; canonical media not selected or changed. Freshly opened all five current chronological pages covering90 frames and native detail1/1.5/2s. Current full script/context and confirmed actual voice/ASR cues are the same just read for01v5; equality verified. Reused earlier full-native endpoint/blink/paint comparison only after verifying all current visual evidence hashes equal the earlier fully inspected v3 packet, and actual original references/exact endpoints are unchanged. Independently decoded90frames/45exactpairs anew with framemd5; all pair hashes match. Verified all current clip/reference/endpoint/audio/cue/script hashes. This is frame-based inspection and measured-cue alignment, not real-time playback/manual listening or final mixed-cut approval. No generation, source edit or user frame approval.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Compared the complete original mascot and approved shallow-three-quarter pair with the actual sequence. Sol retains the broad compact filled-red flame, asymmetric main tip/rounded side lobes, coherent nested orange/cream paths, broad low cream face, navy eye marks and short red limb nubs. The flame tip/body/layers flex together during the requested wobble and recover toward the approved endpoint proportions; this is not a generic replacement flame or independent layer redesign. The current natural-blink permission is applied rather than the historical always-open rule.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "One short paired blink appears: narrowing around 0.666667 s, closed navy curves in frames 22-25 (0.733333-0.833333 s), and original open ovals restored by frames 26-27 (0.866667-0.900000 s). The eyes then remain the normal low navy oval design through the remaining sequence, without a wink, prolonged squint, extra pupils, internal white/shine patches or independent facial sliding. Fine pale edge enhancement is visible at native scale and is preserved as a style caveat, rather than misidentified as a new internal eye-white design. Exact compressed RGB equality is not required.",
+      "timestamps_sec": [
+        0,
+        0.666667,
+        0.733333,
+        0.8,
+        0.833333,
+        0.866667,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "All five chronological pages and native1/1.5/2s samples keep one intact compact filled red/orange/cream Sol. The main tip and side lobes wiggle while staying attached; no detached Sol particles, sparks, flecks, droplets, holes or layer separation were observed anywhere in the90-frame sequence. Arms/feet remain original short red nubs and face/layers move with the body. This meets current zero-particle connected-wiggle policy; historical optional-flick permission is not applied.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "All 90 chronological frames keep one full-body Sol on the left and the separate burning fallen bough on the right, with the same clearing/tree layout, visible character/fire gap and quiet lower foreground. No subject crop, large camera translation/zoom/bounce, new prop or extra character was observed. Native output already uses 1080x1920; final caption/cut crop checks belong to editing.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "The bough-side arm lifts once from lowered into the small supplied presenting pose. Both stubby feet stay supported at their ground/shadow contacts without hop or skate; the other arm makes no separate gesture. Body/tip/lobes and colored layers wiggle coherently and damp toward the ending around2.266667s. No particles, separate head turn, new mouth or extra action appears. This is a connected wiggle suitable for the current gentler direction, not an airborne bounce.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.266667,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000002.jpg",
+        "evidence/detail/frame-000003.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Actual consecutive frames show the designated arm moving from lowered through outward/upward into the presenting pose, followed by flame-like follow-through and a settled ending. The separate fire grows upward from the same wood fuel contact. No reversed physical connection, unplanned ignition/placement sequence or disconnected mechanism was visible. The earlier escalator requirements are not imposed on this woodland scene.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.0,
+        1.333333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "One Sol and the same bough, fuel pieces/stones retain identity/count/placement. Sol emits no particles in any chronological frame. Only the separate yellow/orange wood fire at right changes upper tongues/tiny upper fire shapes while its base remains on the same wood; these are distinct from Sol. No material global brightness pulse or camera/background shift was observed.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "At common 1080x1920 scale, the actual first and final decoded samples match the approved pair gross states: lowered arms at opening, bough-side arm raised at the ending, open normal navy ovals at both endpoints, compact feet/body and the same placements/camera/wood-fire separation. The approved painting is re-rendered with some sharper edge/texture treatment, documented separately; the comparison is not claimed pixel-identical.",
+      "timestamps_sec": [
+        0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "SOURCE PHASE: independently decoded90frames/45pairs with framemd5 anew, zero unequal pairs; normal3s duration at30fps/15updates remains as proved by preserved conform-v3 receipt. The finite coherent tip/body wiggle settles around2.266667s into the raised hold. Actual saved Sol WAV measures2.037291667s at1x, placed .12-2.157291667s, within3s. The presenting lift overlaps the question and a quiet ending tail remains. No final mixed playback or manual listening was performed; raw/static gain balance and caption/cut QA are separate.",
+      "timestamps_sec": [
+        0,
+        0.12,
+        0.666667,
+        0.733333,
+        0.866667,
+        1,
+        1.3,
+        1.76,
+        2.157292,
+        2.266667,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/voice-cues.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All90 chronological frames remain mouthless and show no unintended text/watermark/logo, extra character, on-screen Narrator, props or source audio. Native1/1.5/2s samples show blank cream beneath the two eye ovals. No detached Sol particle appears. The changing upper wood-fire tongues remain in the separate fire region.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Compared both approved PNGs and the Spring reference at common scale, plus native details and the complete phone-size sequence. The dominant actual treatment remains matte painted 2D across Sol, wood, foliage, earth and sky: layered color, broad brush-shaped regions and paper/pigment texture, with no glossy/clay anatomy or a smooth vector character pasted onto the scene. Concrete differences persist: thin dark/light edge enhancement and pale rims around some contours, plus more etched/stippled ground/tree texture than the softer PNGs. These are retained limitations, not claimed absent or pixel-identical. On full-sequence phone/native inspection calibrated to the animation the user explicitly chose, they do not materially replace the painted scene with an inked/glossy redesign. The substantial red outer flame itself is a filled color layer, not an outline. This is an independent source-visual judgment; model preference alone is not treated as blanket production approval.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2.0,
+        2.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read current full storyboard and actual01 context/cues:Sol alone asksWho actually discovered fire? Verified the actual01WAV hash and measured2.037291667s normal duration; confirmed cue places its complete file .12-2.157291667s. Automated word times correspond locally toWho .12-.48,actually .48-.82,discovered .82-1.30,fire1.30-1.76. Actual frame sequence presents the one arm during that question and settles around2.266667s afterward. No Narrator speaks here, so no invented up-gaze/listening idle is required until02. Facial area stays mouthless. This certifies source-frame/measured-cue alignment only, not manual listening, mix levels or unseen final assembled playback.",
+      "timestamps_sec": [
+        0,
+        0.12,
+        0.48,
+        0.82,
+        1.3,
+        1.76,
+        2.157292,
+        2.266667,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    }
+  },
+  "summary": "PASS current particle-free connected-wiggle source/measured-voice review for the preserved preferred Omni v3 diagnostic clip. All90frames freshly covered; no Sol particles or mouth, compact coherent anatomy and supported feet, one direct presenting arm, brief allowed blink and normal navy eyes.45exactpairs independently verified. Actual Sol cue .12-2.157291667s fits3s. Earlier concrete thin edge/rim and etched-texture paint limitations remain. This is a suitable replacement SOURCE candidate, not automatic selection, new frame approval or final sound-movie/playback signoff.",
+  "technical_verification": {
+    "decoded_frames": 90,
+    "exact_pairs": 45,
+    "pair_mismatches": 0,
+    "playback_rate": 1,
+    "01_wav_duration_sec": 2.0372916666666665,
+    "manual_listening_performed": false,
+    "playback_performed": false,
+    "all_visual_evidence_equal_to_prior_v3_packet": true
+  }
+}

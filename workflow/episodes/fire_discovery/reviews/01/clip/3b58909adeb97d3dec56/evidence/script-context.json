@@ -1,0 +1,43 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "d5524d68ce375279e273cb05b55b662c273a1ce575b6b216a9323c4bc6d87005"
+  },
+  "scene_script_excerpt": "SCENE 01 — A curious presenting gesture — 3 seconds (provisional)\nSetting and framing: Medium-wide full-body view at Sol's face height, angled slightly down onto a simple woodland clearing. Sol occupies 36% of frame height at x=28%, with feet at y=74%; a small burning fallen bough is at x=74%, y=67%. Separate foreground earth, a middle-ground charred trunk and distant sage foliage into overlapping painted layers. Keep the lower fifth quiet.\nLighting: Soft overcast daylight from upper-left; cream earth, muted sage and teal distance, honey-brown wood. The existing wood fire adds only a faint localized warm tint.\nCamera: shot_size: Medium-wide, full body and separate burning bough.; height_and_angle: Sol face height, slight downward angle.; movement: Generation: stable camera.; editing: No camera move planned.; start_view: Full body at x=28%, height 36%, feet y=74%; bough x=74%, y=67%.; end_view: Same crop, scale, camera side and placements.\nFirst frame: Sol faces the bough in a shallow three-quarter orientation, both tiny feet planted and short arms lowered. Both original eyes are visible. A clear gap separates his body from the small faceless painted flame rooted on the wood.\n\nSol: “Who actually discovered fire?”\n\nAction: Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold.\nNarrator attention: {\"required\": false, \"gaze_target\": null, \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"reason\": \"Only Sol speaks in this clip; Narrator attention starts in the next scene.\"}\nLast frame: Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.\nNext cut: Continue from the exact approved ending asset into Scene 02. Its generated source framing begins unchanged.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "Who actually discovered fire?"
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": null,
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "reason": "Only Sol speaks in this clip; Narrator attention starts in the next scene.",
+    "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "01",
+  "first_frame": "Sol faces the bough in a shallow three-quarter orientation, both tiny feet planted and short arms lowered. Both original eyes are visible. A clear gap separates his body from the small faceless painted flame rooted on the wood.",
+  "action": "Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold.",
+  "last_frame": "Only Sol's short arm nearest the bough is raised into the approved small presenting position, retaining its length and attachment point. His other arm, body orientation toward the bough, facial markings, silhouette, flame layers and planted feet remain unchanged. The separate small flame stays on the wood.",
+  "performance_beats": [
+    {
+      "cue": "Sol's opening question cues one arm lift with a small connected bouncy flame-like follow-through; settle and hold the ending pose into Scene 02.",
+      "eye_shape": "Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift.",
+      "gaze": "Same facing direction; eye ovals stay attached to the coherent face through the small body wobble.",
+      "body": "Sol lifts the short arm nearest the burning bough once into the supplied small presenting position. Keep its original length and attachment point. Let the movement give his painted flame body a small soft bounce: the tip and side lobes follow through with one damped wobble, and the nested color layers and face travel coherently with the body. Keep both stubby feet supported, the normal original oval eye design, with a brief natural blink allowed, and the other arm without a separate gesture. Settle into the approved ending pose and hold."
+    }
+  ]
+}

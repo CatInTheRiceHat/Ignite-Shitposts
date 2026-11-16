@@ -7,6 +7,9 @@ Unchecked boxes are reusable review questions, not claims about a particular tak
 
 ## Final prompt review
 
+- [ ] Check the actual delivered footage for mouths and Sol particles, including every intermediate pose. The area beneath the eye pair stays blank; a third facial mark or mouth line is a failure. A mouthless prompt does not establish a mouthless result. Never present a rejected mouth-bearing take as the corrected result.
+- [ ] Trim dead air from the actual voice files and unnecessary clip tails while retaining readable actions and short intentional pauses. Preserve normal speech speed. Keep the orange caption outline clearly visible at phone size; the current 1080p fire edit uses12px instead of the earlier thin6px.
+
 - [ ] Review the actual complete script and speaker turns alongside the footage. Whenever Narrator speaks and Sol is visible, is the upward glance established before the first word and maintained with gentle listening idle throughout? Check transition frames and real voice cues when available; label unrecorded timing provisional.
 
 Run this short review on the complete prompt set before generation. Follow the linked rule owners for details; keep shot-specific fixes scoped to their episode or animation.
@@ -97,23 +100,9 @@ Run this short review on the complete prompt set before generation. Follow the l
 
 ## Style and staging
 
-- [ ] Flame effects follow Elaine's latest size preference: tiny, subtle
-  painted flicks are cute and may remain. Reduce the large orange-centered
-  drops, bulbous flares and overly frequent paired effects. Preserve Sol's
-  main filled shape; do not remove every little accent automatically. Check
-  the [small flame accent rule](video-style-guide.md#small-flame-accents).
-- [ ] Tiny flame flicks are caused by the pose bounce: time them to the bounce
-  peak/tip follow-through and let them fade as Sol settles. Keep quiet listening
-  idle free of random or continuous emissions. Review the effect's timing as
-  well as its size; this is Sol's accent, separate from the wood fire.
+- [ ] Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact. Follow the [particle-free movement rule](video-style-guide.md#particle-free-sol-movement).
 
-- [ ] Latest instruction: whenever Sol changes pose, he bounces fluidly into
-  it, with overlapping flame-tip/lobe follow-through and a brief controlled
-  rebound. Keep him visibly animated while the main gesture settles; gentle
-  listening idle continues during Arthur's turn. Preserve normal eyes and
-  compact anatomy. Elaine approved the displayed body-tilt pairs and asked to
-  proceed to video; the upward attention cue still needs checking in motion
-  against the script.
+- [ ] Latest instruction: use a gentle connected body/tip wiggle through Sol's pose changes and listening idle. Keep feet supported, face and layers coherent, and emit no particles. Check the approved body tilt with the actual dialogue; still approval alone does not prove upward attention.
 
 - [ ] Match the approved Ignite scenes with soft, matte gouache-like brushwork,
   broad simplified shapes, restrained detail, softened painted edges, layered
@@ -186,10 +175,7 @@ Nano Banana image and Omni Flash video defaults.
 These are production checks from inspecting the failed takes, rather than
 additional aesthetic preferences attributed to Elaine.
 
-- [ ] Bouncy Sol's main filled shape remains coherent. Check for substantial
-  torn lobes, holes or separating core color layers. Judge secondary tip flicks
-  by size and frequency under Elaine's latest preference; a tiny subtle accent
-  is not automatically a character-continuity failure.
+- [ ] Sol's filled shape stays coherent through wiggle. Reject any detached sparks, flicks or droplets, torn lobes, holes, separating layers or airborne hops. This implements Elaine's latest particle-free direction.
 
 - [ ] When a generated mascot is wrong, remove it from scene/layout inputs
   before rebuilding. Use the original mascot as the primary identity image
@@ -210,7 +196,7 @@ additional aesthetic preferences attributed to Elaine.
 
 - Latest explicit preference: “i like omni flash” after viewing the Omni Flash 1.2 and Kling 3.0 Pro comparisons. Keep Omni Flash 1.2 for this episode. Elaine also said “Allow a brief natural blink.” Preserve the normal navy oval eye design and face attachment; brief closing/reopening is permitted, while unrelated eye morphs, highlights, added pupils and facial drift remain excluded.
 
-- Latest motion clarification: Elaine likes bouncy animation and wants Sol to wobble when he moves, because he is flame-like. This replaces the earlier rigid-body/no-bounce default. Use a small coordinated body/tip/lobe wobble connected to each intentional action, then settle; preserve original eyes and recognizable compact anatomy. This permission is for Sol’s performance, not bouncing hands, mechanisms or cameras.
+- Latest motion clarification: “scrap the fire particles” and use “just wiggle animation for sol.” Gentle attached body/tip wiggle replaces the previous particle allowances. Keep the original eyes, compact anatomy and supported feet; actual wood fire remains separate.
 
 - Current fire episode feedback: Elaine likes Scene 01's painted direction and
   staging, but its v1 eyes are too far apart. Preserve that painting while

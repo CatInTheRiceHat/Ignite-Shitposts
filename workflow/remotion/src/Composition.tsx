@@ -79,6 +79,10 @@ const ShotScene: React.FC<{ shot: Shot }> = ({ shot }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const { scene } = shot;
+  const push = scene.type === "video" ? scene.editorialPush : undefined;
+  const videoScale = push
+    ? smooth(frame, push.start, push.end, push.fromScale, push.toScale, fps)
+    : 1;
   if (scene.type === "video")
     return (
       <AbsoluteFill style={{ overflow: "hidden" }}>
@@ -87,7 +91,13 @@ const ShotScene: React.FC<{ shot: Shot }> = ({ shot }) => {
           trimBefore={Math.round(scene.trimBefore * fps)}
           muted={scene.muted}
           playbackRate={scene.playbackRate}
-          style={{ width: "100%", height: "100%", objectFit: scene.fit }}
+          style={{
+            width: "100%", height: "100%", objectFit: scene.fit,
+            transform: `scale(${videoScale})`,
+            transformOrigin: push
+              ? `${push.anchorXPercent}% ${push.anchorYPercent}%`
+              : "50% 50%",
+          }}
         />
       </AbsoluteFill>
     );

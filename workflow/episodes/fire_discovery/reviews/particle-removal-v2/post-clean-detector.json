@@ -1,0 +1,11 @@
+{
+  "note": "Analysis-only confirmation; independent actual-frame inspection still required.",
+  "sources": {
+    "02": "b519f8d3bfeb874ab19c",
+    "05": "e46ff56388a8b72282f8"
+  },
+  "remaining_candidates": {
+    "02": [],
+    "05": []
+  }
+}

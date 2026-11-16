@@ -1,0 +1,387 @@
+{
+  "packet_id": "c0c432accc9fffbdcd3b5deefae252ec5c2f69d5244edd894a72f71b5a09cd90",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_and_measured_voice_cue_alignment",
+  "method": "Fresh actual frame-based review of NEW01v5, not reused old-take coverage. Read the complete actual current script and per-scene context before judging; reviewed confirmed cues/ASR word timing and WAV duration, verified all seven actual audio hashes and all clip/reference/endpoint/evidence hashes. Opened every chronological sequence page covering all90 source frames, reference/approved-pair/paint montage, and native detail samples at .733333,1,1.5,2 and2.966667 s. Independently decoded all45 exact pairs with framemd5. This is static chronological/native inspection and measured cue comparison; no real-time playback or manual listening is claimed. Bounded rejection after confirmed added mouth and prohibited Sol particles; no media edits or user approvals performed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "The broad filled red/orange/cream mascot, short limbs and low navy eyes remain recognizable at the endpoints, but intermediate footage adds a clear dark mouth with a pink interior below the eyes. Native .733333,1.000000 and1.500000 s samples confirm this is a new facial feature, not compression or a moved eye. Sol must stay mouthless.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1,
+        1.5,
+        2,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Both eyes keep the normal close-spaced tall navy ovals outside one short natural paired blink: closed around frames16-21 (.533333-.700000 s), reopened at22 (.733333 s). No independent wink, white internal highlights, extra pupils or prolonged squint was observed. Native samples have fine pale edge enhancement also visible on other contours; this is retained as a paint/rim caveat, not confused with the independently confirmed mouth.",
+      "timestamps_sec": [
+        0,
+        0.533333,
+        0.7,
+        0.733333,
+        1,
+        1.5,
+        2,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "Sol sheds detached red pieces beside/above his own tip/lobes. At1.000000 s a red lobe-shaped piece is visibly separated by background; at1.500000 s separate red pieces sit above the tip and viewer-left side. Chronological frames also show further detached accents through roughly1.9 s. These belong to Sol on the left, not the distinct yellow/orange wood fire at right. Current policy prohibits particles of every size; compact limbs alone do not rescue this take.",
+      "timestamps_sec": [
+        1,
+        1.2,
+        1.266667,
+        1.333333,
+        1.5,
+        1.733333,
+        1.9
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "All90 chronological frames retain one full-body Sol at left and separate burning wood at right, with a fixed view, visible full tip/feet and stable clearing/trunk landmarks. No extra character/large prop or generated camera zoom is present. Quiet lower foreground remains available for editable captions.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1.5,
+        2,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/frame-comparison.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "The wood-side arm lifts once from its lowered pose into the small raised endpoint; the other arm makes no separate gesture. A connected body/tip wiggle accompanies the lift. Foot nubs stay over their supporting ground/contact shadows without a visible hop, step or skating in the inspected sequence/native samples. This narrow action/contact pass does not excuse the particle and facial-feature failures.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1,
+        1.5,
+        2,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Consecutive chronological states show the required arm going from lowered outward/upward to presenting, followed by a settled raised ending. Separate real fire remains rooted on the same wood, with upward-changing tongues. No physical placement/strike mechanism belongs to01 and no reverse event was observed.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        0.733333,
+        1,
+        1.5,
+        2,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "The bough, fuel pieces and camera landmarks remain in place, and the separate wood-fire base remains rooted. Sol nevertheless generates extra detached red objects near his tip/lobes at1.000000-1.900000 s. Current zero-particle policy supersedes the earlier optional tiny-flick permission; these objects are prohibited even if brief or bounce-related.",
+      "timestamps_sec": [
+        1,
+        1.266667,
+        1.333333,
+        1.5,
+        1.733333,
+        1.9
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Actual opening and ending gross states match the approved pair: mouthless normal open eyes, arms down at opening and only wood-side arm raised at ending, compact grounded body, unchanged wood/clearing/camera. Generated paint has somewhat sharper contours/texture and is not pixel-identical. Correct endpoints do not validate the intervening mouth/particles.",
+      "timestamps_sec": [
+        0,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "SOURCE CADENCE/TIMING ONLY: independently decoded the bound clip with FFmpeg framemd5:90 frames,45 exact adjacent pairs, zero mismatches. Read conform-v5 proof:normal3 s duration,30 fps with15 source updates/sec, no interpolation or speed change. Actual source is silent. The supplied Sol WAV measures2.037291667 s; cue offset .12 places its file extent at .12-2.157291667 s within the3 s shot. The one presenting action occurs during this line and the quiet raised tail is available afterward. This does not certify final mixed playback, sound levels or captions. Current image-content failures remain blocking despite correct cadence.",
+      "timestamps_sec": [
+        0,
+        0.12,
+        0.733333,
+        1.3,
+        1.76,
+        2.157292,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "Native .733333/1.000000/1.500000 s samples show an invented animated mouth, including dark opening and pink interior, beneath both normal eyes. Additional detached Sol-owned red accents are visible at1.000000/1.500000 s. No generated text/watermark/on-screen Narrator or source audio track was observed, but the facial/particle artifacts independently reject the take.",
+      "timestamps_sec": [
+        0.733333,
+        1,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Compared the approved-pair/original-mascot/Spring montage at common scale with all phone-size chronological pages and five native samples. Dominant treatment stays matte layered painted2D across Sol, earth, foliage and wood, with brush-shaped color and paper/pigment texture; no glossy/clay anatomy. Native rendering has sharper thin contour enhancement, pale eye rims and more etched bark/ground detail than the softer approved PNGs. Those visible limitations remain and are not called pixel-identical; the calibrated chosen Omni painted direction is retained. The added mouth/particles fail separate content checks.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1,
+        1.5,
+        2,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the full current storyboard and bound scene context, actual confirmed voice cues/word timings, and verified the seven bound WAV hashes. Only Sol speaks in01:Who actually discovered fire? Actual01 WAV is2.037291667 s at1x, placed .12-2.157291667 s; automatic word alignment placesWho .12-.48,actually .48-.82,discovered .82-1.30,fire1.30-1.76. The arm lifts during that question and is raised for its conclusion/tail. This matches the curious-presenter teaching beat. No Narrator speaks in01, so no upward-listening requirement is invented here. This is frame-to-measured-cue alignment, not manual listening or unseen mixed-cut playback; mouthless identity and particle failures remain blocking.",
+      "timestamps_sec": [
+        0,
+        0.12,
+        0.48,
+        0.733333,
+        0.82,
+        1.3,
+        1.76,
+        2.157292,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT01v5: invented mouth visibly opens below both eyes from .733333 s, and Sol sheds detached red pieces confirmed at1.000000/1.500000 s and on chronological pages through roughly1.9 s. Current policy requires mouthless Sol and zero detached particles at any size. Exact on-twos cadence and measured opening-line fit pass, but cannot excuse those content blockers. Preserve this failed take. A future usable source must keep the face blank beneath the eyes and all tip/lobe wiggle connected; do not infer final movie/audio approval.",
+  "blocking_findings": [
+    {
+      "severity": "blocking",
+      "check": "reference_match",
+      "times_sec": [
+        0.733333,
+        1,
+        1.5,
+        2
+      ],
+      "observed": "Invented mouth with dark opening and pink interior."
+    },
+    {
+      "severity": "blocking",
+      "check": "flame_and_limbs",
+      "times_sec": [
+        1,
+        1.266667,
+        1.5,
+        1.733333,
+        1.9
+      ],
+      "observed": "Detached red Sol-owned lobe/flick pieces under zero-particle rule."
+    }
+  ],
+  "technical_verification": {
+    "all_manifest_and_binding_hashes_match": true,
+    "decoded_frames": 90,
+    "exact_pairs": 45,
+    "pair_mismatches": 0,
+    "01_wav_duration_sec": 2.0372916666666665,
+    "manual_listening_performed": false,
+    "playback_performed": false
+  },
+  "deferred_final_checks": [
+    "Actual assembled33s movie playback, scene cuts and continuity",
+    "Manual listening, static gain/mix levels, captions and sound effects",
+    "Final editorial pushes/crops and actual mixed-track synchronization"
+  ],
+  "type": "independent_clip_review",
+  "decision": "rejected",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "32a331836caf863964ca52ccb7aceb1132aa9c3b30dde6f5e06dd89df4597be6",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-first.png",
+        "sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/01-last.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "ade449d6cee904b7f0bf647a1e7886c9ece632911564f28b3b56216fead1705a"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "5950bf993b4e8f49a0010eec450d7854ce82727ebe5a8a2f070cc7b0222eced1"
+    },
+    "audio_sources": {
+      "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+        "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+      },
+      "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+        "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+      },
+      "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+        "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+      },
+      "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+        "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+      },
+      "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+        "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+      },
+      "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+        "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+      },
+      "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+        "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/01-scene.mp4",
+      "sha256": "f67f7beeb1c4f2276b0be782354b6859909cbc16c55943b928a51977f5a03b9b"
+    }
+  },
+  "recorded_at": "2026-11-16T04:02:06.127854+00:00"
+}

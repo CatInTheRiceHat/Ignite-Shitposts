@@ -1,0 +1,32 @@
+[
+  {
+    "scene": "01",
+    "prior_exact_pair_approval": "workflow/episodes/fire_discovery/reviews/01/frames/0b1f6a63c35a000b478f/decisions/20261116T035103893145Z.json",
+    "actual_user_quote": "ok can we generate the higgsfield videos now",
+    "reason": "Actual still bytes unchanged. User explicitly authorized particle correction and edit/audio silence trims; no new media generation."
+  },
+  {
+    "scene": "02",
+    "prior_exact_pair_approval": "workflow/episodes/fire_discovery/reviews/02/frames/231961392d54605f6dc5/decisions/20261116T035106291394Z.json",
+    "actual_user_quote": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+    "reason": "Actual still bytes unchanged. User explicitly authorized particle correction and edit/audio silence trims; no new media generation."
+  },
+  {
+    "scene": "03",
+    "prior_exact_pair_approval": "workflow/episodes/fire_discovery/reviews/03/frames/2a64df5f24f24addd5ea/decisions/20261116T035107764054Z.json",
+    "actual_user_quote": "ok can we generate the higgsfield videos now",
+    "reason": "Actual still bytes unchanged. User explicitly authorized particle correction and edit/audio silence trims; no new media generation."
+  },
+  {
+    "scene": "04",
+    "prior_exact_pair_approval": "workflow/episodes/fire_discovery/reviews/04/frames/6680fe96fce36d155764/decisions/20261116T035108747349Z.json",
+    "actual_user_quote": "ok can we generate the higgsfield videos now",
+    "reason": "Actual still bytes unchanged. User explicitly authorized particle correction and edit/audio silence trims; no new media generation."
+  },
+  {
+    "scene": "05",
+    "prior_exact_pair_approval": "workflow/episodes/fire_discovery/reviews/05/frames/0daa48fd3dfb1be01b30/decisions/20261116T035109564053Z.json",
+    "actual_user_quote": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+    "reason": "Actual still bytes unchanged. User explicitly authorized particle correction and edit/audio silence trims; no new media generation."
+  }
+]

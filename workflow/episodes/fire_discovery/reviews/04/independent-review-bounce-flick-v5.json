@@ -1,0 +1,346 @@
+{
+  "packet_id": "87afac9762a952d48282953cb6a3871e746b309837bf8fb362ce6ce9985a65ac",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_and_provisional_script_alignment",
+  "method": "CURRENT BOUNCE-TRIGGERED TINY-FLICK POLICY REFRESH; no new playback or unchanged-pixel reinspection. Freshly read the current complete script/storyboard, this scene's script-context, provisional speaker cues, and updated checklist/style/review rules. Reused /root/clip_reviewer's prior actual complete chronological/native visual inspection carried by workflow/episodes/fire_discovery/reviews/04/independent-review-final-binding-v1.json; all 315 unchanged evidence files, including every covered sequence page, were rehashed in both prior/current packets and matched their manifests. Verified actual clip bytes, reference bytes, exact first/last bytes and cue bytes against both bindings; no mismatches. The only changed evidence is the complete script and script-context. For this scene the context is identical except its source-script hash; dialogue, action, camera, endpoints, attention requirements and provisional/no-audio status are unchanged. The shared delta permits tiny sparse bounce-timed secondary accents without damaging the primary mascot; it does not require adding an accent. Scene01 adds only a conditional accent paragraph to its video prompt; Scene03/04 contain no visible Sol. Retain the earlier concrete paint and prop limitations and independent cadence findings. This is a source-visual/script-binding refresh, not new still approval, final real-time playback, or recorded-voice synchronization.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg",
+    "evidence/sequence-11.jpg",
+    "evidence/sequence-12.jpg",
+    "evidence/sequence-13.jpg",
+    "evidence/sequence-14.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "No Sol is planned or present. The hand, ember bed, charred bough, twig and cool ground match the approved pair and remain the same objects through the tending action.",
+      "timestamps_sec": [
+        0,
+        2,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol and all other faces are absent in this hand/ember close-up.",
+      "timestamps_sec": [
+        0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent; the anonymous cropped human hand is evaluated under grip/contact, not mascot anatomy. CURRENT TINY-FLICK RULE: Sol is absent throughout this close-up. The new mascot-accent permission and bounce timing do not apply to the hand, supported twig or rooted wood fire. Stable grip, support-before-release, one withdrawal and stationary released wood remain unchanged requirements; the small upper painted fire tips remain part of the fuel-rooted fire, not mascot emissions.",
+      "timestamps_sec": [
+        0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Stable elevated close-up retains one hand and one continuous twig shaft, existing charred support wood, coal/ash bed and quiet lower foreground. The hand exits once toward the upper-right. The twig has a small lateral cut nub already visible in the approved stills; it is not literally featureless/unbranched, but no additional twig/fork or tool is generated. No character, human face or new prop appears.",
+      "timestamps_sec": [
+        0,
+        2,
+        3.5,
+        4,
+        4.8,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "The pinched grip is retained while lowering. The blunt tip reaches the coal surface around 1.1-1.3 s; the shaft is braced against existing charred support before the grip opens. Fingers open/clear around 3.0-4.0 s and withdraw in one continuous upper-right path. Full-resolution release crops show the twig remaining at its supported position after separation rather than following the hand, falling, skating or being regripped. Hand leaves by about 4.8 s. A small flame begins around 4.666667 s, after supported placement. No extra hand or repeated tending action appears. CURRENT FLOW RULE: Sol is absent. Mascot bounce/listening idle does not apply to the human hand or twig; stable grip, support-before-release and stationary released wood remain the appropriate motion requirements.",
+      "timestamps_sec": [
+        0,
+        1.133333,
+        1.3,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        4.666667,
+        4.8,
+        5,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The observed causal order is downward supported placement, grip release, hand withdrawal, then localized visible ignition. The released twig rests against the coals and charred support rather than hanging unsupported or moving with the withdrawing hand. Only normal small painted upper fire shapes change afterward.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        3.5,
+        4,
+        4.666667,
+        5,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Same bough, coal pieces, ash and continuous twig remain through all 270 frames. The twig stays stationary after release. No visible flame at opening; later flame base remains at the twig/ember contact, while detached upper painted tips flicker. No obvious global brightness pulse or relocated fuel was observed. CURRENT TINY-FLICK RULE: Sol is absent throughout this close-up. The new mascot-accent permission and bounce timing do not apply to the hand, supported twig or rooted wood fire. Stable grip, support-before-release, one withdrawal and stationary released wood remain unchanged requirements; the small upper painted fire tips remain part of the fuel-rooted fire, not mascot emissions.",
+      "timestamps_sec": [
+        0,
+        3.5,
+        4,
+        4.666667,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Actual opening shows the gripped hovering blunt tip above glowing coals without visible flames. Actual ending has no hand, a supported stationary twig and a small rooted contact flame, matching the approved pair gross states and crop. Fine texture is not claimed pixel-identical.",
+      "timestamps_sec": [
+        0,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Source-visual phase only. All fourteen chronological pages were inspected at real frame timestamps; placement/support/release/withdrawal and the ending fire hold are readable without extra gestures or camera movement. The supplied cadence-conform-v1 proof binds this 9 s file and verifies 135 exact decoded pairs at final 30 fps, normal speed. Final real-time playback, voice alignment and editorial timing remain deferred because no voices have been generated; no playback claim is made here. CURRENT FLOW RULE: Sol is absent. Mascot bounce/listening idle does not apply to the human hand or twig; stable grip, support-before-release and stationary released wood remain the appropriate motion requirements. Actual voice-cue plan remains unconfirmed with no audio sources; final speech synchronization, real-time playback and editorial crops remain deferred. CURRENT TINY-FLICK RULE: Sol is absent throughout this close-up. The new mascot-accent permission and bounce timing do not apply to the hand, supported twig or rooted wood fire. Stable grip, support-before-release, one withdrawal and stationary released wood remain unchanged requirements; the small upper painted fire tips remain part of the fuel-rooted fire, not mascot emissions.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        3.5,
+        4,
+        4.666667,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All chronological pages show no text, watermark, on-screen narrator, mascot, extra hand/tool or other added character. Clip is silent as intended. The approved twig small side nub is documented under props rather than hidden as a count change. CURRENT TINY-FLICK RULE: Sol is absent throughout this close-up. The new mascot-accent permission and bounce timing do not apply to the hand, supported twig or rooted wood fire. Stable grip, support-before-release, one withdrawal and stationary released wood remain unchanged requirements; the small upper painted fire tips remain part of the fuel-rooted fire, not mascot emissions.",
+      "timestamps_sec": [
+        0,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "The human hand, charcoal wood, embers and ground share layered matte painted color and a textured paper/pigment finish. Consistent with the calibrated selected Omni look, native evidence shows some sharper etched edges and denser surface texture than the softer approved stills; these remain documented differences, without glossy/clay rendering or a separate ink/vector redesign at phone scale.",
+      "timestamps_sec": [
+        0,
+        2,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Freshly read the actual current complete script and Scene04 context/cues. Narrator says, “Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill.” The unchanged inspected source starts with embers/no flame, shows stable-grip lowering and support before release, one upper-right withdrawal, and a small twig/ember contact flame after placement. This illustrates tending existing embers, not a new fire-making method. The scene context is unchanged except the full-script hash. Sol is absent, so no gaze/listening idle or mascot flick is required. The previously documented small lateral cut nub is present in approved twig artwork despite the word unbranched; it remains a prop caveat, not a newly generated fork/tool. No recordings exist; exact feeding-wood word/placement alignment and final hold remain provisional.",
+      "timestamps_sec": [
+        0,
+        1.2,
+        2.5,
+        3.5,
+        4,
+        4.666667,
+        4.8,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    }
+  },
+  "summary": "PASS SOURCE-VISUAL / PROVISIONAL SCRIPT REFRESH under current bounce-triggered tiny-flick policy for Scene04. Clip, exact endpoints, references, cue plan and all prior covered visual evidence verified unchanged. The current scene dialogue/action/attention is unchanged; the optional mascot accent clarification creates no new visible defect in this previously inspected source. Existing paint/prop caveats remain in the check observations. Actual normal-rate voices are absent: final speech synchronization, real-time playback, captions/mix and editorial crop/transition checks remain deferred. This report creates no user frame approval and authorizes no generation; no02/05 files were touched.",
+  "inspection_reuse": {
+    "prior_report": "workflow/episodes/fire_discovery/reviews/04/independent-review-final-binding-v1.json",
+    "prior_report_sha256": "cdcf824a64845736c3b30fe8ce07474bfd254dd63c65334a49ffb520f322c76b",
+    "prior_packet_id": "e9dfad2a7048a9372e8a0305c72afe995d54ee401f03c565d7924e1b1be53d73",
+    "original_visual_reviewer": "/root/clip_reviewer",
+    "all_prior_chronological_coverage_reused": true,
+    "verified_unchanged_evidence_files": 315,
+    "verified_unchanged_image_files": 312,
+    "actual_clip_references_endpoints_cues_unchanged": true,
+    "hash_mismatches": [],
+    "new_visual_inspection_performed": false,
+    "playback_performed": false
+  },
+  "binding_refresh": {
+    "type": "current_bounce_triggered_tiny_flick_policy_and_full_script_binding",
+    "old_script_sha256": "ecd052045e1af68bd6b852f7b310f4f9246da3c81fc707ca26bcabf5e526da95",
+    "new_script_sha256": "d5524d68ce375279e273cb05b55b662c273a1ce575b6b216a9323c4bc6d87005",
+    "changed_evidence": [
+      "evidence/script-context.json",
+      "evidence/script-storyboard.txt"
+    ],
+    "scene_context_equal_except_source_script_hash": true,
+    "policy_delta": "Optional sparse tiny matte flick near an intentional pose-bounce peak/follow-through, fading as the pose settles; no ongoing emissions during quiet listening and no main-body/lobe damage.",
+    "applicability": "Sol absent; mascot-accent policy does not apply to physical props or wood fire"
+  },
+  "deferred_final_checks": [
+    "Final synchronization with actual normal-rate Sol/Arthur voice recordings and measured cues",
+    "Real-time final playback, captions and sound mix",
+    "Final editorial crops, pushes, transitions and ending hold against actual speech"
+  ]
+}

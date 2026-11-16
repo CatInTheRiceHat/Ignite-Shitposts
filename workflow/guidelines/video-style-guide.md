@@ -39,7 +39,7 @@ Preserve Sol's reference design and settled endpoint proportions while painting 
 
 ## Sol's cartoon expression and movement
 
-Elaine's latest direction is **flowing, bouncy transitions into every new pose**. Let Sol spring softly into the next pose with a readable body bounce, overlapping flame-tip/lobe follow-through and a brief controlled rebound that damps into the approved ending. Keep the face and nested layers coherent, the compact design recognizable and the limbs stubby. Flow comes from connected poses and overlapping follow-through on twos. During every visible Narrator turn, Sol attends to the fixed above-camera voice and maintains gentle listening idle after the main gesture settles, without repeated arm gestures or large bounce loops.
+Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.
 
 Use the [identity and performance rules](shot-integration-and-sol.md#sol-identity). Preserve the recognizable compact design and coherent nested color layers through the flex. The face travels with the body; the normal navy oval eye design stays unchanged in shape, size and spacing, with a brief natural blink allowed. Tiny limbs retain their lengths and attachment points. Keep supported feet grounded unless a hop or step is explicitly scripted.
 
@@ -54,7 +54,7 @@ Animate on twos: hold each animated pose or painted state unchanged for two cons
 
 Apply this cadence to Sol, the human hand, moving props, flames, and animated local lighting. Keep the background and painted surface texture stable. Do not interpolate or blend between held poses. Avoid optical-flow smoothing and motion blur that conceals the stepped animation.
 
-Give every Sol pose transition a visible soft spring into the new pose, with a body bounce, overlapping tip/lobe follow-through and one brief controlled rebound that damps into the approved ending. Keep movements connected and flowing, with the compact design and normal eyes intact. Use the approved coherent body tilt to direct attention upward; face and flame layers move together. When the Narrator speaks with Sol visible, establish attention to the fixed above-camera voice before the first word and maintain it with gentle listening idle throughout. The main arm gesture settles while quiet body/tip/lobe motion continues. Avoid unrelated windups, repeated arm gestures, large bounce loops, unplanned hops, skating or camera movement.
+Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.
 
 Preserve Sol’s recognizable compact flame design, coherent red/orange/cream layers and stubby limb lengths. Allow small connected body/tip/lobe flex, with every colored part attached to the main body. The face remains part of the body. Intentional gaze shifts may move the existing eye ovals coherently as a pair inside the face while preserving their normal shape, size and gap. Do not detach or rotate the face as a separate head, introduce a neck, or allow unmotivated feature drift.
 
@@ -69,26 +69,9 @@ During editing, enforce two-frame source-pose holds on the final 30 fps timeline
 
 A purposeful digital push or crop can remain smooth over the stepped footage when the shot plan explicitly assigns it to editing. Check the crop throughout the move, keeping the face, limbs and important contacts visible. Do not apply the same move during generation. Record exact cadence as unverified until actual footage has been edited and checked.
 
-## Small flame accents
+## Particle-free Sol movement
 
-Elaine likes tiny, subtle painted flame flicks around Sol, while oversized
-flames coming off him feel wrong. Keep secondary flicks small, sparse and
-brief, much smaller than an eye, so the main gesture and face remain the focus.
-Reduce eye-sized droplets, bulbous orange-centered flares and repeated paired
-sprays. Preserve the cute little accents when reducing the larger effects.
-
-Tie each flick to an intentional pose bounce and its tip follow-through: a
-tiny accent appears near the bounce peak, fades promptly, and stops as the
-pose settles. Quiet listening idle keeps a gentle attached tip motion without
-emitting a continuous or randomly timed stream. The separate wood fire can
-still flicker according to its own shot.
-
-Sol's main filled silhouette, original lobes and nested color layers stay
-coherent. A secondary accent must not remove a substantial piece of his body,
-open a hole or change his design. Keep the effects matte and storybook-painted,
-with no realistic fire rendering or strong glow. Judge size and frequency at
-phone size as well as in native frames. Actual fire on a separate prop follows
-that shot's own action and lighting instructions.
+Elaine's latest direction is “scrap the fire particles” and use “just wiggle animation for sol.” Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact. This supersedes the earlier allowance for tiny bounce-triggered flicks. Keep gesture transitions soft and connected, using a low-amplitude body/tip wiggle rather than an airborne bounce. Preserve the face, nested layers, anatomy and approved ending poses.
 
 ## Pacing, motion, and type
 
@@ -96,6 +79,7 @@ that shot's own action and lighting instructions.
 - Vary clip lengths around the action and dialogue. Keep several lines in one scene when they share an action; use a shorter reaction or cutaway when it adds something. Establish the exact first and last frames of every planned clip. Use normal voice playback and set final timing from the actual recordings.
 - Export vertical at **1080 × 1920, 30 fps**. Keep draft durations provisional; the [script guide](video-script-guide.md#dialogue-density-and-timing) owns timing to real normal-rate recordings and removal of unnecessary holds or repeated reactions. The default deliverable remains complete generated clips, including the painted mechanism and motion.
 - Set all dialogue and narration captions as editable overlays in Remotion. Use **Ramento** with white fill `#FFFFFF` and Ignite orange outline `#F07B2A` around each letter. Use one or two lines above the social controls, with room around Sol, diagrams, and equations. Use Poppins Bold for headings and Nunito for longer non-caption text when needed.
+- Keep that orange outline visibly substantial at phone size. The1080p fire correction increases the stroke from6px to12px; preserve white letter interiors and check the actual export, rather than relying on a thin preview stroke.
 - Confirm the actual local font family before assembly; a guide's display name can differ from the font filename. Keep per-episode font paths and renderer implementation gaps in the episode handoff. Caption words and timings follow the real voice takes. Keep any optional finishing graphics and sound effects editable; they are not required to explain a mechanism that is already visible in a complete generated clip.
 - Keep assembly simple: arrange the complete clips, add separate voices, captions and sound, and export. Make explanatory colors or identifying details part of the generated scene where useful. Do not create SVGs, custom diagrams or separate mechanism animation unless explicitly requested. Additional visual overlays are optional, not a required production stage.
 
@@ -103,7 +87,7 @@ that shot's own action and lighting instructions.
 
 - [ ] The opening reads immediately at phone size.
 - [ ] Art texture and lighting feel consistent across adjacent shots.
-- [ ] Sol's normal open-eye design matches the reference; brief natural blinks return to it promptly; body poses carry the performance, with the requested small bouncy wobble and coherent layer follow-through. The recognizable compact design and settled endpoint proportions stay intact.
+- [ ] Sol's normal open-eye design matches the reference; brief natural blinks return to it promptly; body poses carry the performance, with a gentle connected wiggle and coherent layer follow-through, without emitted particles. The recognizable compact design and settled endpoint proportions stay intact.
 - [ ] Sol, props and background all show the same visible gouache brushwork, layered color and paper texture, with no inked outlines.
 - [ ] Motion and transitions draw attention to the explanation. The reveal remains visible long enough to understand.
 - [ ] Arthur and Sol are distinct in the mix. Captions use the approved Ramento treatment, are timed to both voices, and sit clear of the subject. Replace any visible draft placeholders before release.

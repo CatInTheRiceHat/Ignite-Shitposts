@@ -1,0 +1,116 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "dfdf89858fbe0579d6b6fb6663a91e1386d5efcf6787b12311ceed68f621b893"
+  },
+  "scene_script_excerpt": "SCENE 05 — Understanding the distinction — final edit4.200s (19.400–23.600s)\nSetting and framing: Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.\nLighting: Use the same cool diffuse clearing shade and localized amber light as Scene 04's ending. Illuminate Sol coherently with that ambient light and only a restrained warm tint on his fire-facing side.\nFirst frame: Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.\nAction: Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.\nEdit source: clips/edit-v2/05-tight.mp4; trim source first0frames and keep126frames. Preserve normal speed and complete two-frame pairs.\nSol: “So finding fire wasn't the same as making it.”\nActual edited voice cue, local: 0.080–2.914s; audio/trimmed-v2/05-01-sol.wav\nNarrator: “Right.”\nActual edited voice cue, local: 3.733–4.045s; audio/trimmed-v2/05-02-narrator.wav\nLast frame / cut: trim the unnecessary tail after the main action and spoken turn. Continue the same held action state; no new stills or poses.\nNarrator attention: {\"required\": true, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.\", \"final_voice_alignment_verified\": false, \"entry\": \"Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.\", \"coverage\": \"Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.\", \"idle\": true, \"original_eye_design_preserved\": true, \"entry_cue\": \"Sol finishes his thought; eyes are up before Arthur's 'Right'.\", \"planned_window\": {\"start_sec\": 4.0, \"end_sec\": 5.88, \"confirmed\": true}, \"edited_voice_window\": {\"start_sec\": 3.7333333333333334, \"end_sec\": 4.0454375, \"confirmed\": true}}\n\nEDITORIAL NOTES\nScene03 source begins1.2s into the approved unlit hold; the sole bolt pair is now local2.600–2.667s, aligned with Arthur's Lightning's. Source cameras stay stable;02 and03 have declared smooth editorial pushes after source-state pair enforcement. AllimportantcontactsandSolremainwithinframe.\nKeep frame approvals bound to exact original supplied stills. Trimming source footage is an editing operation, not a replacement generation or an invented still approval.\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "So finding fire wasn't the same as making it."
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Right."
+    }
+  ],
+  "narrator_attention": {
+    "required": true,
+    "gaze_target": "Fixed off-screen Narrator point just above camera",
+    "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
+    "final_voice_alignment_verified": false,
+    "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.",
+    "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
+    "idle": true,
+    "original_eye_design_preserved": true,
+    "entry_cue": "Sol finishes his thought; eyes are up before Arthur's 'Right'.",
+    "planned_window": {
+      "start_sec": 4.0,
+      "end_sec": 5.88,
+      "confirmed": true
+    },
+    "edited_voice_window": {
+      "start_sec": 3.7333333333333334,
+      "end_sec": 4.0454375,
+      "confirmed": true
+    }
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "4367266a7761b9a4b0d395de577637c93d0b2dfa3c89e340e932aeaf76b02207"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-02-narrator.wav",
+      "sha256": "bc147c6b5672e154d42aaa7cc5b093eaa06349a4c00fb991000c9a5e362b9dd2"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-02-narrator.wav",
+      "sha256": "b404b3e39c7ede40c82978288622356e57a7ff87b15b89f8edd4feb4552e4ae8"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "05",
+  "first_frame": "Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.",
+  "action": "Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.",
+  "last_frame": "Match the displayed and user-approved body-tilt ending: both original short arms are low and open, feet supported, and the whole compact flame body, layers and face share the tilted listening orientation. Both normal-height ovals stay dark navy with original identity and close spacing. Keep the tended bough, twig, embers, separate small flame, crop and lighting. Hold this attentive orientation through Arthur's Right with gentle connected idle; the connecting motion must make the UP direction clear.",
+  "performance_beats": [
+    {
+      "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+      "body": "Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.",
+      "gaze": "UP to fixed above-camera Narrator whenever he speaks and Sol is visible"
+    }
+  ]
+}

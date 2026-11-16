@@ -1,0 +1,41 @@
+{
+  "normal_rate": true,
+  "voices": "Raw original files preserved; per-track static gain equalizes peak levels. No pitch or playback change.",
+  "music_source": "workflow/assets/music/Hide and Sneak 4.mp3",
+  "music_processing": "Excerpt first33s, loudnorm I-33 LRA7 TP-3, half-second fade-in/1.5-second fade-out; gain0.25 in mix.",
+  "tracks": [
+    {
+      "id": "01-01-sol",
+      "volume": 1.84007
+    },
+    {
+      "id": "02-01-narrator",
+      "volume": 0.36391
+    },
+    {
+      "id": "03-01-sol",
+      "volume": 2
+    },
+    {
+      "id": "03-02-narrator",
+      "volume": 0.37165
+    },
+    {
+      "id": "04-01-narrator",
+      "volume": 0.37235
+    },
+    {
+      "id": "05-01-sol",
+      "volume": 1.85507
+    },
+    {
+      "id": "05-02-narrator",
+      "volume": 0.597
+    },
+    {
+      "id": "music-bed-v1",
+      "volume": 0.25
+    }
+  ],
+  "final_mix": "Loudness normalization to -16LUFS after assembly; true peak <=-1.5dBTP."
+}
