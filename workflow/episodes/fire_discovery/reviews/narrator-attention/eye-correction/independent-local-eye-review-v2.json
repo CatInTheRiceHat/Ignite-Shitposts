@@ -1,0 +1,187 @@
+{
+  "reviewer": "/root/clip_reviewer",
+  "scope": "Targeted unapproved still/eye-repair review only; not user frame approval or video review",
+  "method": "Read cleanup recipe and receipt without running the artwork-writing main routine. Opened both actual endpoint PNGs, native enlarged eye/old-position crops, the two full-pair JPEGs, source02-first/05-first, base01-first/05-last-nano-v5 and original Mascot. Independently loaded actual pixel arrays and saved alpha/allowed masks to verify target translation/core color, source-vs-target connected dark-footprint overlap, unchanged pixels outside masks and absence of residual navy in old-only repair areas. Source-mask geometry is corroborated visually; reconstructed cream inside old footprints is not claimed pixel-identical to erased artwork. Read the actual current Scene02/05 script sections. No artwork, code, plan, canonical slot or approval record was changed by this reviewer.",
+  "evidence_hashes": {
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/local-eye-cleanup-comparison-v2.jpg": "d7097660f81f134cb7caa3fa6c99b4818a44508eba2b6a06d1adc089cf5717b2",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/scene-02-pair-eye-lock-v2.jpg": "c30d9825cc54f5b4beac381a462187406d1e0672b1339d53f258f90eaa64fa1e",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/scene-05-pair-eye-lock-v2.jpg": "afb59280b52d302aaaf0f6e1d6e1a179341bcfa5afd05cb03487b00e1875e794",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/local-cleanup-receipt-v2.json": "09909b9c7b360ca43111ceeb60887933c05d6ff34ca5c86491a3efe58cfb319c",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/cleanup_eyes.py": "15d5e2e1aca0402c3bcaf776de6e223c3ddcafcbbf5bd16f7b2887e566402705",
+    "workflow/episodes/fire_discovery/keyframes/02-first.png": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5",
+    "workflow/episodes/fire_discovery/keyframes/05-first.png": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c",
+    "workflow/episodes/fire_discovery/keyframes/01-first.png": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+    "workflow/episodes/fire_discovery/keyframes/05-last-nano-v5.png": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654",
+    "workflow/assets/reference-art/Mascot.png": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605",
+    "workflow/episodes/fire_discovery/script.txt": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b"
+  },
+  "eye_color_rgb": [
+    28,
+    36,
+    71
+  ],
+  "findings": [
+    {
+      "scene": "02",
+      "candidate": "workflow/episodes/fire_discovery/keyframes/02-last-eye-lock-v2.png",
+      "candidate_sha256": "07387fb231d0f0191f254c1a8c9cfc38e323f129e83b77ee457515995db03151",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "base": "workflow/episodes/fire_discovery/keyframes/01-first.png",
+      "base_sha256": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+      "contour_source": "workflow/episodes/fire_discovery/keyframes/02-first.png",
+      "contour_source_sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5",
+      "allowed_mask": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/02-allowed-edit-mask-v2.png",
+      "allowed_mask_sha256": "8ba8518a90268df4f544a9462f6c50d9429f2a083033572d815628fb85dfd0c1",
+      "receipt_hashes_match_actual_files": true,
+      "changed_pixels": 11762,
+      "changed_outside_allowed_mask": 0,
+      "old_only_navy_ghost_pixels": 0,
+      "canonical_last_matches_candidate": true,
+      "eyes": [
+        {
+          "eye": 1,
+          "source_matte": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/02-eye-1-source-matte-v2.png",
+          "source_matte_sha256": "447cfa269d9bad1599eea5b81ab640336873f1388f6e9fcce08b8173cd12fe7b",
+          "source_box": [
+            480,
+            1395,
+            605,
+            1545
+          ],
+          "target_box": [
+            480,
+            1375,
+            605,
+            1525
+          ],
+          "translation_px": [
+            0,
+            -20
+          ],
+          "half_alpha_contour_wh": [
+            51,
+            88
+          ],
+          "actual_source_target_dark_footprint_iou_after_translation": 0.998599,
+          "opaque_core_pixels": 3444,
+          "core_pixels_not_exact_navy": 0
+        },
+        {
+          "eye": 2,
+          "source_matte": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/02-eye-2-source-matte-v2.png",
+          "source_matte_sha256": "a87f43a6fe0648ddf0219c1790b6bf9e70ad5266698c169c7cc12dae9cf6bc1e",
+          "source_box": [
+            610,
+            1380,
+            735,
+            1530
+          ],
+          "target_box": [
+            610,
+            1360,
+            735,
+            1510
+          ],
+          "translation_px": [
+            0,
+            -20
+          ],
+          "half_alpha_contour_wh": [
+            48,
+            84
+          ],
+          "actual_source_target_dark_footprint_iou_after_translation": 0.99759,
+          "opaque_core_pixels": 3207,
+          "core_pixels_not_exact_navy": 0
+        }
+      ],
+      "visual_verdict": "suitable_corrected_candidate_for_user_review",
+      "visual_observation": "Actual PNG native repair crops and enlarged/full-pair previews show dark near-vertical original oval contours without highlights, gray fade, duplicate lower eyes, dark/brown crescents or hard cream repair rings. Both marks shift upward coherently; whole source mascot, paint, feet and scene remain intact. Corrected marks look flatter/darker than the legacy shaded first-frame eyes, matching the authorized original-navy restoration. No material visual blocker found."
+    },
+    {
+      "scene": "05",
+      "candidate": "workflow/episodes/fire_discovery/keyframes/05-last-eye-lock-v2.png",
+      "candidate_sha256": "7519ae7e22d207f1037db92800d1a1919daa55373e45b6a5c1a46a1a06b0409d",
+      "dimensions": [
+        1536,
+        2752
+      ],
+      "base": "workflow/episodes/fire_discovery/keyframes/05-last-nano-v5.png",
+      "base_sha256": "f0872c9acc693209c84ec55f1732d6a4b12e40b18e777fab1097b8ccba94e654",
+      "contour_source": "workflow/episodes/fire_discovery/keyframes/05-first.png",
+      "contour_source_sha256": "53e4f27a55e09c7a4708488b6da4788e090d6f92a4350e20169390f371fbc25c",
+      "allowed_mask": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/05-allowed-edit-mask-v2.png",
+      "allowed_mask_sha256": "46e69bb37ca93701ac2821a30a1a840f59f7cd5434d01936e35a344a4507b5a1",
+      "receipt_hashes_match_actual_files": true,
+      "changed_pixels": 11957,
+      "changed_outside_allowed_mask": 0,
+      "old_only_navy_ghost_pixels": 0,
+      "canonical_last_matches_candidate": true,
+      "eyes": [
+        {
+          "eye": 1,
+          "source_matte": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/05-eye-1-source-matte-v2.png",
+          "source_matte_sha256": "5bb88867488548da13d997dc1482feb91e44d54bda7b90e7baf8443df0979e28",
+          "source_box": [
+            480,
+            1395,
+            605,
+            1545
+          ],
+          "target_box": [
+            480,
+            1375,
+            605,
+            1525
+          ],
+          "translation_px": [
+            0,
+            -20
+          ],
+          "half_alpha_contour_wh": [
+            50,
+            88
+          ],
+          "actual_source_target_dark_footprint_iou_after_translation": 0.998038,
+          "opaque_core_pixels": 3443,
+          "core_pixels_not_exact_navy": 0
+        },
+        {
+          "eye": 2,
+          "source_matte": "workflow/episodes/fire_discovery/reviews/narrator-attention/eye-correction/05-eye-2-source-matte-v2.png",
+          "source_matte_sha256": "e1feecbc55b20c91f69184956ccb35c5ccd54e401313e12d36a6b3b361d8065a",
+          "source_box": [
+            610,
+            1380,
+            735,
+            1530
+          ],
+          "target_box": [
+            610,
+            1360,
+            735,
+            1510
+          ],
+          "translation_px": [
+            0,
+            -20
+          ],
+          "half_alpha_contour_wh": [
+            48,
+            84
+          ],
+          "actual_source_target_dark_footprint_iou_after_translation": 0.997285,
+          "opaque_core_pixels": 3193,
+          "core_pixels_not_exact_navy": 0
+        }
+      ],
+      "visual_verdict": "suitable_corrected_candidate_for_user_review",
+      "visual_observation": "Actual PNG native repair crops and enlarged/full-pair previews show dark near-vertical original oval contours without highlights, gray fade, duplicate lower eyes, dark/brown crescents or hard cream repair rings. Both marks shift upward coherently; whole source mascot, paint, feet and scene remain intact. Corrected marks look flatter/darker than the legacy shaded first-frame eyes, matching the authorized original-navy restoration. No material visual blocker found."
+    }
+  ],
+  "script_compatibility": "Endpoints are compatible with the actual script:02 starts from reused raised-arm/lower gaze and can transition upward during a silent lead-in before Arthur, ending arms-down/up-gaze;05 starts arms gathered and ends low-open/up-gaze before Arthur\u2019s Right. Gentle listening idle and maintained gaze during Narrator turns can only be verified in future actual footage and with actual normal-rate voice cues. Current endpoint review does not certify those temporal requirements.",
+  "summary": "Both eye-lock-v2 endpoints are suitable to show/retain as corrected candidates for the user\u2019s approval decision. Independently confirmed20 px up translation, source-faithful oval geometry, exact opaque navy cores, zero outside-mask changes and no material old-eye ghost/cream repair seam. No user approval is inferred or recorded. No new image/video generation or artwork edit was performed during this review."
+}

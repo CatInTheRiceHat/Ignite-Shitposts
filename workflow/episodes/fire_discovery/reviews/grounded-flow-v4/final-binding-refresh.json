@@ -1,0 +1,37 @@
+[
+  {
+    "scene": "01",
+    "old_packet": "reviews/01/clip/e9979c7c01a8864792b0/packet.json",
+    "old_report": "reviews/01/independent-review-flow-v1.json",
+    "new_packet": "reviews/01/clip/be2a211e99b3eca18a88/packet.json",
+    "approval_source": "reviews/01/frames/bce34caed37efe036a04/decisions/20261115T070240789562Z.json"
+  },
+  {
+    "scene": "02",
+    "old_packet": "reviews/02/clip/6c17913d839769d17b02/packet.json",
+    "old_report": "reviews/02/independent-review-grounded-flow-v4.json",
+    "new_packet": "reviews/02/clip/fa23db12341d75cc0a8a/packet.json",
+    "approval_source": "reviews/02/frames/af95e00d41c6eebe1825/decisions/20261115T231623862927Z.json"
+  },
+  {
+    "scene": "03",
+    "old_packet": "reviews/03/clip/7e685041e851a4d21498/packet.json",
+    "old_report": "reviews/03/independent-review-flow-v1.json",
+    "new_packet": "reviews/03/clip/48003e0668ce3a7b63bc/packet.json",
+    "approval_source": "reviews/03/frames/8698bc61219b2be461a3/decisions/20261115T075441732997Z.json"
+  },
+  {
+    "scene": "04",
+    "old_packet": "reviews/04/clip/89994eb4764594020dc8/packet.json",
+    "old_report": "reviews/04/independent-review-flow-v1.json",
+    "new_packet": "reviews/04/clip/e9dfad2a7048a9372e8a/packet.json",
+    "approval_source": "reviews/04/frames/d5bb7eb5191a52addfb8/decisions/20261115T055942237923Z.json"
+  },
+  {
+    "scene": "05",
+    "old_packet": "reviews/05/clip/b2c96944b899334373a4/packet.json",
+    "old_report": "reviews/05/independent-review-grounded-flow-v4.json",
+    "new_packet": "reviews/05/clip/63a7465a6d6922029821/packet.json",
+    "approval_source": "reviews/05/frames/d533b749f62477b39ca4/decisions/20261115T231624456431Z.json"
+  }
+]

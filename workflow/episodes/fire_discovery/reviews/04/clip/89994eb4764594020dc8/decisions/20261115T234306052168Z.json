@@ -1,0 +1,371 @@
+{
+  "packet_id": "89994eb4764594020dc85809d4694b5f0ca2eccdb9d04c705e2c72179888a0a1",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "source_visual_generation_and_provisional_script_alignment",
+  "method": "CURRENT FLOW-POLICY/SCRIPT REFRESH WITH VERIFIED PRIOR VISUAL REUSE, not new playback. Verified current clip/reference bytes and first/last files/bindings unchanged from prior passing packet 3e6ba9da6707fd0152aa; all 314 prior visual evidence files are byte-identical to their reviewed hashes. Reused that actually inspected complete chronological/native coverage without repeating unchanged pixels. Freshly read the full current script/storyboard, per-scene script-context and current shared motion/timing policy; checked the bound script/context/cue hashes and absent actual recordings. Applied visible spring/overlapping follow-through/rebound requirements where Sol is visible, and kept human/branch physical actions rigid where he is absent. Prior inspection details remain in the preserved earlier reports. No new generation, frame approval, source edit or02/05 review file was performed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg",
+    "evidence/sequence-11.jpg",
+    "evidence/sequence-12.jpg",
+    "evidence/sequence-13.jpg",
+    "evidence/sequence-14.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "No Sol is planned or present. The hand, ember bed, charred bough, twig and cool ground match the approved pair and remain the same objects through the tending action.",
+      "timestamps_sec": [
+        0,
+        2,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol and all other faces are absent in this hand/ember close-up.",
+      "timestamps_sec": [
+        0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent; the anonymous cropped human hand is evaluated under grip/contact, not mascot anatomy.",
+      "timestamps_sec": [
+        0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Stable elevated close-up retains one hand and one continuous twig shaft, existing charred support wood, coal/ash bed and quiet lower foreground. The hand exits once toward the upper-right. The twig has a small lateral cut nub already visible in the approved stills; it is not literally featureless/unbranched, but no additional twig/fork or tool is generated. No character, human face or new prop appears.",
+      "timestamps_sec": [
+        0,
+        2,
+        3.5,
+        4,
+        4.8,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "The pinched grip is retained while lowering. The blunt tip reaches the coal surface around 1.1-1.3 s; the shaft is braced against existing charred support before the grip opens. Fingers open/clear around 3.0-4.0 s and withdraw in one continuous upper-right path. Full-resolution release crops show the twig remaining at its supported position after separation rather than following the hand, falling, skating or being regripped. Hand leaves by about 4.8 s. A small flame begins around 4.666667 s, after supported placement. No extra hand or repeated tending action appears. CURRENT FLOW RULE: Sol is absent. Mascot bounce/listening idle does not apply to the human hand or twig; stable grip, support-before-release and stationary released wood remain the appropriate motion requirements.",
+      "timestamps_sec": [
+        0,
+        1.133333,
+        1.3,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        4.666667,
+        4.8,
+        5,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The observed causal order is downward supported placement, grip release, hand withdrawal, then localized visible ignition. The released twig rests against the coals and charred support rather than hanging unsupported or moving with the withdrawing hand. Only normal small painted upper fire shapes change afterward.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        3.5,
+        4,
+        4.666667,
+        5,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Same bough, coal pieces, ash and continuous twig remain through all 270 frames. The twig stays stationary after release. No visible flame at opening; later flame base remains at the twig/ember contact, while detached upper painted tips flicker. No obvious global brightness pulse or relocated fuel was observed.",
+      "timestamps_sec": [
+        0,
+        3.5,
+        4,
+        4.666667,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Actual opening shows the gripped hovering blunt tip above glowing coals without visible flames. Actual ending has no hand, a supported stationary twig and a small rooted contact flame, matching the approved pair gross states and crop. Fine texture is not claimed pixel-identical.",
+      "timestamps_sec": [
+        0,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Source-visual phase only. All fourteen chronological pages were inspected at real frame timestamps; placement/support/release/withdrawal and the ending fire hold are readable without extra gestures or camera movement. The supplied cadence-conform-v1 proof binds this 9 s file and verifies 135 exact decoded pairs at final 30 fps, normal speed. Final real-time playback, voice alignment and editorial timing remain deferred because no voices have been generated; no playback claim is made here. CURRENT FLOW RULE: Sol is absent. Mascot bounce/listening idle does not apply to the human hand or twig; stable grip, support-before-release and stationary released wood remain the appropriate motion requirements. Actual voice-cue plan remains unconfirmed with no audio sources; final speech synchronization, real-time playback and editorial crops remain deferred.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        3.5,
+        4,
+        4.666667,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All chronological pages show no text, watermark, on-screen narrator, mascot, extra hand/tool or other added character. Clip is silent as intended. The approved twig small side nub is documented under props rather than hidden as a count change.",
+      "timestamps_sec": [
+        0,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg",
+        "evidence/sequence-12.jpg",
+        "evidence/sequence-13.jpg",
+        "evidence/sequence-14.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "The human hand, charcoal wood, embers and ground share layered matte painted color and a textured paper/pigment finish. Consistent with the calibrated selected Omni look, native evidence shows some sharper etched edges and denser surface texture than the softer approved stills; these remain documented differences, without glossy/clay rendering or a separate ink/vector redesign at phone scale.",
+      "timestamps_sec": [
+        0,
+        2,
+        4,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000009.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Freshly read the actual current full flow-policy script and per-scene context. Read the actual complete storyboard and Scene04 excerpt/context: Narrator describes keeping existing embers glowing by feeding wood, and distinguishes that from making fire. Footage starts with ember glow and no flame, then a stable-grip lowering, supported placement before release, one hand withdrawal and a small twig/ember contact flame afterward. This demonstrates tending existing embers rather than creating a new ignition method. Sol is absent throughout the Narrator turn, so no upward gaze/listening idle is required. The previously noted small lateral cut nub remains in the user-approved twig artwork despite the staging word unbranched; it is not a new extra tool and does not change the spoken feeding-wood explanation. Exact placement/feeding-words alignment and final hold cannot be certified without actual normal-rate voices; cue plan and audio are unconfirmed/absent. CURRENT FLOW RULE: Sol is absent. Mascot bounce/listening idle does not apply to the human hand or twig; stable grip, support-before-release and stationary released wood remain the appropriate motion requirements. This is a provisional semantic/source-visual check, not a claim of cue-to-recording synchronization.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        2,
+        3.5,
+        4,
+        4.666667,
+        6,
+        8.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-14.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/detail/frame-000023.jpg"
+      ]
+    }
+  },
+  "summary": "PASS CURRENT FLOW-POLICY SOURCE/SCRIPT REFRESH, phase-qualified. All previously inspected source/visual evidence is verified unchanged; original concrete paint/prop caveats remain in the checks.  CURRENT FLOW RULE: Sol is absent. Mascot bounce/listening idle does not apply to the human hand or twig; stable grip, support-before-release and stationary released wood remain the appropriate motion requirements. Current script dialogue and observed mechanism/gesture remain semantically aligned. No actual normal-rate voice recordings exist, so speech sync, final playback, captions/mix and editorial pushes/crops remain provisional. This report does not create user approval or authorize generation, and no02/05 files were touched.",
+  "inspection_reuse": {
+    "prior_report": "workflow/episodes/fire_discovery/reviews/04/independent-review-script-v1.json",
+    "prior_packet_id": "3e6ba9da6707fd0152aab39b283115a9417507debe6776789152a3847f6fbb9c",
+    "verified_visual_evidence_files": 314,
+    "actual_clip_references_and_frames_unchanged": true,
+    "hash_mismatches": []
+  },
+  "type": "independent_clip_review",
+  "decision": "passed",
+  "binding": {
+    "scene": "04",
+    "stage": "clip",
+    "contract_sha256": "dae86f835dcfff59efc17da904dcdf9beafcb486fb85897dfaa23230d7ef2fa1",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/04-first.png",
+        "sha256": "f2ee1c98492db252f44d3c3ed770f644fce7b81e6e7b6021f698f71543953e5a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/04-last.png",
+        "sha256": "0992a807d4e40b1a0179de978fd0a3e2ca89cad128e518157d2638fa99ba79c4"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "da26b7929a7a4c269fa12d746882ba4717e05022c1c7be491382fa0f7d7b0fd7"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/04-scene.mp4",
+      "sha256": "468bf4ffd9496846cd0d8b3cf50a80f1cacfb6665c6f06ccac4c9637082867b9"
+    }
+  },
+  "recorded_at": "2026-11-15T23:43:06.051778+00:00"
+}

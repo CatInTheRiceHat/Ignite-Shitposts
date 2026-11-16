@@ -1,0 +1,48 @@
+{
+  "type": "user_frame_approval",
+  "decision": "approved",
+  "user_message": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+  "packet_id": "d5dd734af3b359a105e3ad0276e54504a8832a24adfe6af00c0dac10625561d5",
+  "binding": {
+    "scene": "02",
+    "stage": "frames",
+    "contract_sha256": "718fa59ef8f4f659077e374605ccef58f75015a53cd87ff4735dcc8b6b366c6b",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/02-first.png",
+        "sha256": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/02-last.png",
+        "sha256": "c459e869e0987d5c21501af1d4015077126c61a5b7f1267c32e273db7b599fc8"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "d5524d68ce375279e273cb05b55b662c273a1ce575b6b216a9323c4bc6d87005"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    }
+  },
+  "recorded_at": "2026-11-16T03:15:03.563175+00:00"
+}

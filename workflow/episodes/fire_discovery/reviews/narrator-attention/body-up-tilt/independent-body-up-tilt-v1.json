@@ -1,0 +1,22 @@
+{
+  "reviewer": "/root/clip_reviewer",
+  "scope": "Pose preference comparison only; no user frame approval or production signoff",
+  "method": "Viewed the complete-tip/feet body-pose-comparison-eye-finish-v1.jpg and both full scene02/05 eye-finished pair sheets; also inspected raw comparison/pairs before the navy finish. Read actual current Scene02/05 dialogue and Narrator-attention/action context. No repeated mask/hash audit, artwork change, new generation, code or plan edit.",
+  "evidence": [
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/body-up-tilt/body-pose-comparison-eye-finish-v1.jpg",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/body-up-tilt/scene-02-pair-body-tilt-eye-finish-v1.jpg",
+    "workflow/episodes/fire_discovery/reviews/narrator-attention/body-up-tilt/scene-05-pair-body-tilt-eye-finish-v1.jpg",
+    "workflow/episodes/fire_discovery/keyframes/01-first.png",
+    "workflow/episodes/fire_discovery/keyframes/05-last-nano-v5.png",
+    "workflow/episodes/fire_discovery/script.txt"
+  ],
+  "assessment": "Suitable to show as coherent side-tilt/attention-pose alternatives, with a material limitation: neither unambiguously demonstrates an upward/backward whole-body pitch.",
+  "observations": [
+    "Both candidates read predominantly as an in-plane lean/roll toward viewer-left: the main flame axis, cream crown and eye line become diagonally tilted together. There is some raised-face/eye placement, but little clear perspective/foreshortening evidence of the body tipping back to face above the camera.",
+    "The face and colored layers remain attached and tilt coherently; no obvious separate head/neck or independent floating face patch is visible. Compact red limbs remain recognizable and both foot nubs appear supported.",
+    "The eye-finished versions retain dark flat navy and tall open ovals, without the rejected vertical squish or bright highlights. Their orientation follows the tilted pose.",
+    "The scene/camera, paint and mechanism placements remain consistent at preview scale, with intended arms-down02 and low-open05 ending states."
+  ],
+  "script_purpose": "Scene02 needs above-camera Narrator attention before Arthur begins; Scene05 needs it before his final Right. These poses can read as curious/attentive, but the mainly lateral tilt leaves the UP direction ambiguous for that specific purpose. Do not describe the candidate as a clearly successful upward body pitch solely from its label. The user is choosing a pose; no timing or listening-idle certification is made from stills.",
+  "summary": "No obvious anatomy/face-attachment or eye-squish blocker for preference comparison. Main candid limitation: predominantly a coherent sideways roll, with ambiguous upward/backward orientation. Preserve the user\u2019s choice; no approval or additional media job is inferred."
+}

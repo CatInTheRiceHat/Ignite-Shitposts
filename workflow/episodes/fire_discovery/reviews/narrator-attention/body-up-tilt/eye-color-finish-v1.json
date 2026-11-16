@@ -1,0 +1,76 @@
+{
+  "scope": "Eye-color-only finish of generated body-tilt candidates.",
+  "authorization": "Existing explicit permission: oh oops yeah sorry u can do that",
+  "eye_color_rgb": [
+    28,
+    36,
+    71
+  ],
+  "eye_geometry_transformed": false,
+  "body_or_environment_edited": false,
+  "canonical_frames_changed": false,
+  "scenes": [
+    {
+      "scene": "02",
+      "source": "keyframes/02-last-body-up-tilt-nano-v1.png",
+      "source_sha256": "2c5abca1b2a0334ca806ac2ad0e37da2ccd0a48e8c5ac0b1ca72ec2ff44887f9",
+      "output": "keyframes/02-last-body-up-tilt-eye-finish-v1.png",
+      "output_sha256": "c459e869e0987d5c21501af1d4015077126c61a5b7f1267c32e273db7b599fc8",
+      "eyes": [
+        {
+          "bounds": [
+            502,
+            1384,
+            599,
+            1511
+          ],
+          "opaque_navy_pixels": 3507
+        },
+        {
+          "bounds": [
+            628,
+            1351,
+            722,
+            1477
+          ],
+          "opaque_navy_pixels": 3304
+        }
+      ],
+      "changed_pixels": 7139,
+      "changed_pixels_outside_eye_shapes": 0,
+      "all_opaque_eye_pixels_exact_navy": true,
+      "user_approved": false
+    },
+    {
+      "scene": "05",
+      "source": "keyframes/05-last-body-up-tilt-nano-v1.png",
+      "source_sha256": "973098cb340a46ea37e1c7f5d124728b7966da75f68208494d51388cc2b999a4",
+      "output": "keyframes/05-last-body-up-tilt-eye-finish-v1.png",
+      "output_sha256": "e76e5413c32d90f99e9fec4c1009cf46baa776636596941516dbcb1b018963de",
+      "eyes": [
+        {
+          "bounds": [
+            498,
+            1379,
+            592,
+            1504
+          ],
+          "opaque_navy_pixels": 3381
+        },
+        {
+          "bounds": [
+            622,
+            1348,
+            712,
+            1470
+          ],
+          "opaque_navy_pixels": 3111
+        }
+      ],
+      "changed_pixels": 6822,
+      "changed_pixels_outside_eye_shapes": 0,
+      "all_opaque_eye_pixels_exact_navy": true,
+      "user_approved": false
+    }
+  ]
+}

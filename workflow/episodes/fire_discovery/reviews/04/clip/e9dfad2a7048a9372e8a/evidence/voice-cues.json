@@ -1,0 +1,56 @@
+{
+  "confirmed": false,
+  "playback_rate": 1,
+  "status": "provisional; no actual takes available",
+  "utterances": [
+    {
+      "scene": "01",
+      "speaker": "Sol",
+      "text": "Who actually discovered fire?",
+      "source_audio": null,
+      "source_sha256": null
+    },
+    {
+      "scene": "02",
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people.",
+      "source_audio": null,
+      "source_sha256": null
+    },
+    {
+      "scene": "03",
+      "speaker": "Sol",
+      "text": "Like when lightning hits a tree?",
+      "source_audio": null,
+      "source_sha256": null
+    },
+    {
+      "scene": "03",
+      "speaker": "Narrator",
+      "text": "Yes. Lightning's heat can set dry wood alight.",
+      "source_audio": null,
+      "source_sha256": null
+    },
+    {
+      "scene": "04",
+      "speaker": "Narrator",
+      "text": "Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill.",
+      "source_audio": null,
+      "source_sha256": null
+    },
+    {
+      "scene": "05",
+      "speaker": "Sol",
+      "text": "So finding fire wasn't the same as making it.",
+      "source_audio": null,
+      "source_sha256": null
+    },
+    {
+      "scene": "05",
+      "speaker": "Narrator",
+      "text": "Right.",
+      "source_audio": null,
+      "source_sha256": null
+    }
+  ]
+}

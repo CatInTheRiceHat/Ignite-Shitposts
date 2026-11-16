@@ -1,0 +1,51 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "e617f14944a9f0217a7a06304811a3d35bbb456919492dc15143240a488aa52b"
+  },
+  "scene_script_excerpt": "SCENE 02 — 4 seconds (provisional)\nSetting and framing: Continue the exact Scene 01 source view, with the same Sol, bough, clearing and lighting. Generate at the original medium-wide framing. The tighter response view is an editing-only digital push; endpoint assets remain uncropped.\nLighting: Keep Scene 01's soft overcast upper-left light and faint warmth immediately around the existing bough fire.\nCamera in generation: Generation: stable camera, no zoom or crop change.\nEditing: After the brief matching opening, apply one controlled digital push from 100% to 120%, anchored at x=50%, y=56%, then hold. Keep the full flame tip, feet and bough visible; do not ask generation to duplicate this move. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.\nFirst frame: Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.\n\nSilent gaze-ready lead-in: Sol looks UP to Arthur before his first word. Do not start Arthur's audio until that gaze is established. Planned lead-in about0.3s; final cue follows actual recordings.\n\nNarrator: “We don't know. Natural fires existed long before people.”\n\nAction: Begin in the exact reused Scene 01 ending pose. Immediately lift the original navy eye pair toward the fixed Narrator point just above camera; establish the upward glance in the short opening transition, before the Narrator's first word. Lower the presenting arm once along a short direct path to its flank, with constant stubby length and attachment. Keep the gaze UP for the entire listening section and maintain gentle low-amplitude connected body/tip/lobe idle while Arthur speaks. The arms remain quiet after lowering, feet supported, and normal oval design/spacing intact around an optional brief natural blink. Do not turn attention back to the fire during Arthur's turn.\nNarrator attention: {\"required\": true, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"entry\": \"Establish upward gaze BEFORE the first Narrator word; a short silent gaze transition is permitted.\", \"coverage\": \"Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.\", \"idle\": true, \"original_eye_design_preserved\": true, \"planned_lead_in_sec\": 0.3, \"planned_window\": {\"start_sec\": 0.3, \"end_sec\": 4, \"confirmed\": false}}\nLast frame: Sol's normal original navy oval eyes are directed UP toward the fixed Narrator point just above camera, shifted coherently as a pair inside the attached cream face. Both stubby arms rest beside his flanks and both feet are supported. This is a neutral phase of gentle listening idle, with all flame layers connected. Preserve the source medium-wide crop, scale, bough/fire placement, quiet lower foreground and overcast lighting.\nNext cut: Cut to Scene 03's separate storm example. Sol remains off-screen during the next exchange.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people."
+    }
+  ],
+  "narrator_attention": {
+    "required": true,
+    "gaze_target": "Fixed off-screen Narrator point just above camera",
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "entry": "Establish upward gaze BEFORE the first Narrator word; a short silent gaze transition is permitted.",
+    "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
+    "idle": true,
+    "original_eye_design_preserved": true,
+    "planned_lead_in_sec": 0.3,
+    "planned_window": {
+      "start_sec": 0.3,
+      "end_sec": 4,
+      "confirmed": false
+    }
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "02",
+  "first_frame": "Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.",
+  "action": "Begin in the exact reused Scene 01 ending pose. Immediately lift the original navy eye pair toward the fixed Narrator point just above camera; establish the upward glance in the short opening transition, before the Narrator's first word. Lower the presenting arm once along a short direct path to its flank, with constant stubby length and attachment. Keep the gaze UP for the entire listening section and maintain gentle low-amplitude connected body/tip/lobe idle while Arthur speaks. The arms remain quiet after lowering, feet supported, and normal oval design/spacing intact around an optional brief natural blink. Do not turn attention back to the fire during Arthur's turn.",
+  "last_frame": "Sol's normal original navy oval eyes are directed UP toward the fixed Narrator point just above camera, shifted coherently as a pair inside the attached cream face. Both stubby arms rest beside his flanks and both feet are supported. This is a neutral phase of gentle listening idle, with all flame layers connected. Preserve the source medium-wide crop, scale, bough/fire placement, quiet lower foreground and overcast lighting.",
+  "performance_beats": [
+    {
+      "cue": "Look up before Arthur begins and maintain the gaze/idle through the whole turn; final onset follows actual voices.",
+      "eye_shape": "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
+      "gaze": "UP to fixed above-camera Narrator during his entire turn.",
+      "body": "Begin in the exact reused Scene 01 ending pose. Immediately lift the original navy eye pair toward the fixed Narrator point just above camera; establish the upward glance in the short opening transition, before the Narrator's first word. Lower the presenting arm once along a short direct path to its flank, with constant stubby length and attachment. Keep the gaze UP for the entire listening section and maintain gentle low-amplitude connected body/tip/lobe idle while Arthur speaks. The arms remain quiet after lowering, feet supported, and normal oval design/spacing intact around an optional brief natural blink. Do not turn attention back to the fire during Arthur's turn."
+    }
+  ]
+}

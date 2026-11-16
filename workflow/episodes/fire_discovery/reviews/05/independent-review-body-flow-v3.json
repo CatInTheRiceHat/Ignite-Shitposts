@@ -1,0 +1,284 @@
+{
+  "packet_id": "8c7158b99ec1c331b0813ae67d5a22064a23a4737138b27cc57e5e0680456b10",
+  "reviewer": "/root/clip_reviewer_current",
+  "method": "Read both packets review-request/contract and the complete bound script/storyboard plus scene speaker/attention context before judging footage. Visually opened the original mascot, Microphone limb example, Spring paint reference, supplied endpoint comparison, every chronological sequence page, individual phone-size frames and selected 1080x1920 detail frames. Frame-index/detail-index provide the actual timestamps below. Inspected decoded still evidence, not video playback; no playback or final editorial-crop approval is claimed. A read-only FFmpeg framemd5 decode of the bound canonical MP4 verified unchanged consecutive source pairs across the entire clip and its SHA-256 matched the packet binding. No real voice recordings are bound; speech windows are provisional and final voice synchronization is unverified.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "The settled design remains the recognizable compact, mouthless mascot beside the primary source: asymmetric flame, substantial red shell, orange/cream crown and broad face, short arms and stubby feet. Transient fragmentation/support errors are recorded under flame_and_limbs; settled identity alone does not approve this clip.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        4,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "Both normal dark oval eyes generally remain attached and closely spaced. The bilateral close/reopen intervals near 0.67–0.93s and 2.47–2.67s are permitted natural blinks, not a reason for rejection. Open eyes nevertheless acquire thin pale edge rims in full-size footage at opening, 1.0s, 4.0s and ending, unlike the supplied opaque flat navy ovals. Retain the original eye treatment without halo or new design.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        0.933333,
+        1,
+        2.5,
+        2.666667,
+        4,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/last.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "Feet leave the ground/shadow during the pose change around 2.67–3.23s; at 3.00s both feet hang visibly above the stationary shadow. Red tip/lobe pieces detach around 2.93–3.50s, and new red droplets recur around 4.40–5.90s (clear full-size examples at 4.50, 5.00 and 5.50s). Requested flowing follow-through does not authorize a hop or fragmented filled layers. Limbs otherwise stay stubby.",
+      "timestamps_sec": [
+        2.733333,
+        3,
+        3.233333,
+        3.5,
+        4.5,
+        5,
+        5.5
+      ],
+      "evidence": [
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/detail/frame-000016.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "The stable medium full-body source view keeps one Sol left of the tended bough/twig/ember fire, with full silhouette and quiet lower caption area. No hand, extra character or camera move appears. Wood, supported twig and coal arrangement remain coherent within this shot.",
+      "timestamps_sec": [
+        0,
+        2,
+        3,
+        4.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "Sol initially tilts/settles with arms near the flanks, then opens them during the 2.7–3.2s leap. Both feet lose support and loose red pieces replace connected flame follow-through. The arms subsequently stay low/open, but the body at 4s is nearer the original fire-facing/upright orientation than a distinct body-led above-camera listening cue. Replace the leap with a supported spring into the low open gesture, followed by a readable UP cue and quiet connected idle.",
+      "timestamps_sec": [
+        1,
+        2.733333,
+        3,
+        4,
+        4.5
+      ],
+      "evidence": [
+        "evidence/script-context.json",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "This reaction shot has no hand-placement mechanism. Consecutive evidence preserves the supported twig and rigid bough, and the separate small actual flame stays rooted at the twig/ember contact while upper shapes flicker. No new ignition or prop reversal is invented. Sol action/support errors are assessed separately.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        3,
+        4.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "The wood/twig/coals remain identifiable, but Sol creates free red/orange tip fragments around 2.93–3.50s and again within the planned 4–6s listening window. Full-size frames at 3.00s, 4.50s, 5.00s and 5.50s show isolated mascot-colored droplets above/left of the body. These are unplanned objects and break the continuous filled mascot.",
+      "timestamps_sec": [
+        3,
+        3.5,
+        4.5,
+        5,
+        5.5
+      ],
+      "evidence": [
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/detail/frame-000016.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "fail",
+      "observed": "The opening arms-down and true final low-open arm poses, crop and tended-fire arrangement broadly match the approved endpoints; the actual last detail has no detached droplet. However both boundary frames introduce sharp contour/eye-edge tracing and pale eye rims compared with the supplied soft matte stills, so the approved visual treatment is not preserved exactly.",
+      "timestamps_sec": [
+        0,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000017.jpg",
+        "evidence/frames/frame-000180.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "Read-only full decode verified 180 frames in 90 identical two-frame pairs at 30fps; exact source cadence passes. The visually clear 2.7–3.2s leap violates supported spring performance, and repeated shed droplets through late idle prevent coherent flame follow-through. Arms open once but a clear sustained UP cue before the provisional 4s Arthur onset is not demonstrated. Real recordings and final playback/crop inspection are absent; no final voice alignment is claimed.",
+      "timestamps_sec": [
+        2.733333,
+        3,
+        3.5,
+        4,
+        4.5,
+        5.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000016.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "No unintended text, logo, on-screen Narrator, hand or sound is present in reviewed footage, but repeated isolated red mascot droplets appear around 3s and 4.4–5.9s. Newly traced contour/eye rims are additional visible render artifacts.",
+      "timestamps_sec": [
+        0,
+        3,
+        4.5,
+        5.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000016.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "fail",
+      "observed": "The scene keeps its matte woodland colors, layered light and paper texture, but the full-size generated clip outlines Sol, inner flame, eyes, wood and foliage with crisp contour strokes and smooths the mascot surface relative to the supplied gouache endpoints/Spring. The approved soft painting should be preserved without a traced/vector-like edge treatment or pale eye rims.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3,
+        4.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "fail",
+      "observed": "Read the actual complete script and Scene05 context: Sol says “So finding fire wasn't the same as making it.”, then Arthur says “Right.” in a provisional unconfirmed 4–6s window. The single arm opening is visible around 2.7–3.2s, but comes with an unsupported jump. At 4.00s body/face are close to the initial upright/fire-facing pose; later small side roll and tip changes at 4.5–5.97s do not provide an unambiguous body-led glance UP to a fixed above-camera point before Arthur or sustained directional attention throughout his turn. Some late idle is visible, but it repeatedly sheds red pieces. Actual voices are absent, so this is a provisional visual/script failure, not a claim of measured speech desynchronization.",
+      "timestamps_sec": [
+        0,
+        2.733333,
+        3,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/detail/frame-000016.jpg",
+        "evidence/detail/frame-000017.jpg"
+      ]
+    }
+  },
+  "summary": "REJECTED. Preserve the approved still pair. Use a small grounded flowing spring into the low open-arm pose, keep all filled layers attached with one controlled rebound, then establish unmistakable UP attention before Arthur and sustain gentle connected idle. Remove recurrent red fragments, pale eye rims and line tracing while retaining the accepted matte paint. Exact source pairs pass. Timing is provisional until actual normal-rate voices exist; final playback/crops are not reviewed."
+}

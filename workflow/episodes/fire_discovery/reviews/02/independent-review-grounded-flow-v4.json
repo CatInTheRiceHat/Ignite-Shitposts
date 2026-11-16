@@ -1,0 +1,220 @@
+{
+  "packet_id": "6c17913d839769d17b025a70498fd6423643c98365d7ca246e89085cc575d4d6",
+  "reviewer": "/root/clip_reviewer_current",
+  "method": "Read current packet contract/request and bound complete script/storyboard plus scene speaker context before visual judgment. References/endpoints are unchanged by hash from the previously opened Mascot, Microphone and Spring sources; reopened both current endpoint comparisons. Opened every chronological page and native 1080x1920 details at opening, gesture, lobe failures, planned Narrator window and actual ending. Used frame/detail-index actual timestamps. Inspected decoded still evidence, not playback; no final camera-crop/playback approval claimed. Read-only FFmpeg framemd5 verifies every source pair and bound canonical clip SHA-256; audio streams are zero. Real voice recordings are absent, so speech timing is provisional.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Settled identity remains recognizable beside Mascot/Microphone: asymmetric flame, substantial red shell, nested orange and broad cream crown/face, mouthless face and compact nub limbs. Transient layer failures are assessed separately.",
+      "timestamps_sec": [
+        0,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "fail",
+      "observed": "Open eyes retain dark navy oval interiors and close spacing; brief bilateral blinks are permitted. Native details still add a thin pale rim around the ovals compared with the supplied flat opaque eye marks. No eye-squish correction is appropriate.",
+      "timestamps_sec": [
+        0,
+        1,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Stable raw source crop keeps one Sol left of the separate wood fire, full tip and feet visible, quiet lower foreground and no new actor/prop or generated camera move. Future editorial crops are outside this footage review.",
+      "timestamps_sec": [
+        0,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "No placement mechanism occurs in this reaction/listening shot. Consecutive frames preserve rigid wood/support positions and the separate actual fire flickers upward from its fuel contact without moving the wood or inventing another ignition.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "fail",
+      "observed": "Boundary pose, prop arrangement and source framing broadly match the approved pair. Actual boundary footage still sharpens soft painted edges into contour tracing and adds pale eye rims, so the supplied visual treatment is not preserved. True final detail is free of detached droplets.",
+      "timestamps_sec": [
+        0,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "fail",
+      "observed": "Matte palette, layered painted color and paper texture survive, but native frames show crisp outlined character/inner-flame/wood/foliage edges and smoother mascot surfaces relative to the supplied gouache stills and Spring. Preserve accepted paint without tracing, sharpening or pale eye edging.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "The previous large hop is removed: tiny feet remain at the ground/shadow through the transition. However a left red lobe peels away around 1.07s, becoming a clearly detached droplet at 1.2–1.5s and fading by about 1.73s. Filled flame continuity still fails.",
+      "timestamps_sec": [
+        1.066667,
+        1.2,
+        1.5,
+        1.733333
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "Grounded rocking replaces the hop, and the presenting arm lowers once. The pose remains essentially unchanged through 0.5s, with arm raised at the provisional 0.6s Narrator onset; the intended immediate listening transition is late. Tip follow-through produces a detached piece instead of connected flex.",
+      "timestamps_sec": [
+        0.5,
+        0.6,
+        0.733333,
+        1,
+        1.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "Wood/fire counts remain stable, but a red mascot lobe becomes a free object to upper-left of Sol during 1.07–1.73s. Native 1.5s detail confirms a gap between the droplet and solid body.",
+      "timestamps_sec": [
+        1.066667,
+        1.5,
+        1.733333
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "Full bound-clip decode verifies all 60 two-frame pairs at 30fps unchanged, and the airborne bounce is corrected. Performance still waits through roughly 0.5s, misses the planned early listening cue, and sheds a lobe during follow-through. Later subtle tip idle and permitted blinks exist. No actual voices or final playback/editorial-crop review are available.",
+      "timestamps_sec": [
+        0.5,
+        0.6,
+        1.5,
+        2.5,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "No unintended text/logo, on-screen Narrator or sound appears; native footage nevertheless contains a free red mascot droplet around 1.07–1.73s plus pale eye-edge/contour artifacts.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "fail",
+      "observed": "Actual script/context assigns Arthur “We don't know. Natural fires existed long before people.” after an unconfirmed 0.6s lead-in. At 0.5s Sol still presents toward the wood; 0.6–0.77s is a brief allowed blink while the arm remains raised. No clear UP-to-above-camera cue precedes the planned onset. The subsequent side roll around 1s and gentle late tip idle do not demonstrate unambiguous sustained upward attention. Actual voices are absent, so final speech synchronization remains unverified.",
+      "timestamps_sec": [
+        0.5,
+        0.6,
+        0.733333,
+        1,
+        1.5,
+        2.5,
+        3.5,
+        3.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    }
+  },
+  "summary": "REJECTED. Large hop corrected, exact 60/60 frame pairs verified. Remaining blockers: detached red lobe at ~1.07–1.73s, delayed/unclear UP attention before provisional 0.6s Narrator onset, pale eye rims and traced contours. Keep the approved still pair and accepted painting; maintain grounded connected follow-through and a readable listening cue. Real voice sync/final playback/crops unverified."
+}

@@ -1,0 +1,55 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/script.txt",
+    "sha256": "da26b7929a7a4c269fa12d746882ba4717e05022c1c7be491382fa0f7d7b0fd7"
+  },
+  "scene_script_excerpt": "SCENE 05 — Understanding the distinction — 6 seconds (provisional)\nSetting and framing: Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.\nLighting: Use the same cool diffuse clearing shade and localized amber light as Scene 04's ending. Illuminate Sol coherently with that ambient light and only a restrained warm tint on his fire-facing side.\nCamera: shot_size: Medium full-body concluding reaction with the tended fire at right.; height_and_angle: Sol face height, slight downward angle; same side as Scene 04.; movement: Generation: stable camera after the wider cut.; editing: No additional camera move; retain a brief final reaction hold.; start_view: Sol x=32%, height 42%, feet y=75%; same tended wood at right.; end_view: Same source crop; required ending arm pose with gaze UP to the fixed Narrator point in a neutral phase of listening idle.\nFirst frame: Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.\n\nSol: “So finding fire wasn't the same as making it.”\nNarrator: “Right.”\n\nAction: Begin in the exact approved first frame, both short arms beside the flanks and attention on the tended fire. Open both arms once into the supplied small low gesture of understanding during Sol's concluding sentence. Spring softly into this gesture with a coherent body bounce, overlapping flame-tip/lobe follow-through and one controlled rebound. Then, before Arthur's final Right, tilt the whole compact body gently back/up toward the fixed Narrator point above camera, flowing into the supplied approved ending pose. Face and filled layers move together; keep the normal eyes intact. Maintain above-camera attention and quiet connected listening idle throughout Right and the ending. Arms remain low after opening, both feet supported; no extra arm wave, inward windup or separate head turn.\nNarrator attention: {\"required\": true, \"gaze_target\": \"Fixed off-screen Narrator point just above camera\", \"timing_status\": \"provisional until actual normal-rate voice tracks are available\", \"final_voice_alignment_verified\": false, \"entry\": \"Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.\", \"coverage\": \"Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.\", \"idle\": true, \"original_eye_design_preserved\": true, \"entry_cue\": \"Sol finishes his thought; eyes are up before Arthur's 'Right'.\", \"planned_window\": {\"start_sec\": 4, \"end_sec\": 6, \"confirmed\": false}}\nLast frame: Match the displayed and user-approved body-tilt ending: both original short arms are low and open, feet supported, and the whole compact flame body, layers and face share the tilted listening orientation. Both normal-height ovals stay dark navy with original identity and close spacing. Keep the tended bough, twig, embers, separate small flame, crop and lighting. Hold this attentive orientation through Arthur's Right with gentle connected idle; the connecting motion must make the UP direction clear.\nNext cut: Hold the concluding pose long enough to read, then end. Final hold depends on the normal-rate voice tracks.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "So finding fire wasn't the same as making it."
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Right."
+    }
+  ],
+  "narrator_attention": {
+    "required": true,
+    "gaze_target": "Fixed off-screen Narrator point just above camera",
+    "timing_status": "provisional until actual normal-rate voice tracks are available",
+    "final_voice_alignment_verified": false,
+    "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.",
+    "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.",
+    "idle": true,
+    "original_eye_design_preserved": true,
+    "entry_cue": "Sol finishes his thought; eyes are up before Arthur's 'Right'.",
+    "planned_window": {
+      "start_sec": 4,
+      "end_sec": 6,
+      "confirmed": false
+    }
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.plan.json",
+      "sha256": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116"
+    },
+    "cues_confirmed": false,
+    "alignment_verifiable": false,
+    "basis": "provisional script or voice plan; actual speech alignment unverified"
+  },
+  "audio_sources": {},
+  "scene_id": "05",
+  "first_frame": "Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.",
+  "action": "Begin in the exact approved first frame, both short arms beside the flanks and attention on the tended fire. Open both arms once into the supplied small low gesture of understanding during Sol's concluding sentence. Spring softly into this gesture with a coherent body bounce, overlapping flame-tip/lobe follow-through and one controlled rebound. Then, before Arthur's final Right, tilt the whole compact body gently back/up toward the fixed Narrator point above camera, flowing into the supplied approved ending pose. Face and filled layers move together; keep the normal eyes intact. Maintain above-camera attention and quiet connected listening idle throughout Right and the ending. Arms remain low after opening, both feet supported; no extra arm wave, inward windup or separate head turn.",
+  "last_frame": "Match the displayed and user-approved body-tilt ending: both original short arms are low and open, feet supported, and the whole compact flame body, layers and face share the tilted listening orientation. Both normal-height ovals stay dark navy with original identity and close spacing. Keep the tended bough, twig, embers, separate small flame, crop and lighting. Hold this attentive orientation through Arthur's Right with gentle connected idle; the connecting motion must make the UP direction clear.",
+  "performance_beats": [
+    {
+      "cue": "Establish body-led above-camera attention before the Narrator; final windows follow actual voices.",
+      "eye_shape": "Keep both original normal-height oval eyes uniformly navy #1C2447, with reference size and close spacing. Their orientation follows the body coherently; do not squash, widen or independently rotate/slide them. A brief natural blink is allowed and returns to the same normal ovals and listening orientation. Keep Sol mouthless, with no eyebrows, nose, whites, highlights, extra pupils, fingers, neck or separate humanoid torso.",
+      "gaze": "UP to fixed above-camera Narrator for the whole turn",
+      "body": "Begin in the exact approved first frame, both short arms beside the flanks and attention on the tended fire. Open both arms once into the supplied small low gesture of understanding during Sol's concluding sentence. Spring softly into this gesture with a coherent body bounce, overlapping flame-tip/lobe follow-through and one controlled rebound. Then, before Arthur's final Right, tilt the whole compact body gently back/up toward the fixed Narrator point above camera, flowing into the supplied approved ending pose. Face and filled layers move together; keep the normal eyes intact. Maintain above-camera attention and quiet connected listening idle throughout Right and the ending. Arms remain low after opening, both feet supported; no extra arm wave, inward windup or separate head turn."
+    }
+  ]
+}
