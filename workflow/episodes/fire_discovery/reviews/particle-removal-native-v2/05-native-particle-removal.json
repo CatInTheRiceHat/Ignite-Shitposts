@@ -1,0 +1,5615 @@
+{
+  "source": "clips/05-scene-omni-v6-particle-free-native-v1.mp4",
+  "output": "clips/05-scene-omni-v6-particle-free-native-v2.mp4",
+  "sha256": "5ccaf93655e0c8c426b4b106aff242a674b13d469148c7b29bc1ca78a83c157f",
+  "method": "Native1080p warm-color isolation includes faint red trails omitted by the previous high-saturation threshold. Restore isolated background contaminants above the upper-body midpoint from same-take background. Preserve the current main silhouette and every pixel below900, including face and limbs. Three-state fading masks; normal source speed, exact pairs. Does not fix attached emission buds; those are excluded by a separate complete-pair editorial selection.",
+  "repairs": [
+    {
+      "frames": [
+        0,
+        1
+      ],
+      "time_sec": 0.0,
+      "boxes_native": [
+        [
+          348,
+          640,
+          38,
+          25,
+          184
+        ],
+        [
+          417,
+          646,
+          1,
+          2,
+          2
+        ],
+        [
+          342,
+          664,
+          7,
+          4,
+          16
+        ],
+        [
+          344,
+          668,
+          2,
+          2,
+          3
+        ]
+      ],
+      "changed_pixels": 554,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        0,
+        10,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        2,
+        3
+      ],
+      "time_sec": 0.06666666666666667,
+      "boxes_native": [
+        [
+          350,
+          640,
+          36,
+          25,
+          180
+        ],
+        [
+          342,
+          664,
+          4,
+          2,
+          8
+        ],
+        [
+          346,
+          666,
+          3,
+          2,
+          4
+        ],
+        [
+          344,
+          668,
+          2,
+          2,
+          3
+        ],
+        [
+          342,
+          670,
+          2,
+          1,
+          2
+        ]
+      ],
+      "changed_pixels": 655,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        0,
+        10,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        4,
+        5
+      ],
+      "time_sec": 0.13333333333333333,
+      "boxes_native": [
+        [
+          342,
+          664,
+          4,
+          2,
+          8
+        ],
+        [
+          346,
+          666,
+          3,
+          2,
+          4
+        ],
+        [
+          344,
+          668,
+          2,
+          2,
+          3
+        ],
+        [
+          342,
+          670,
+          1,
+          1,
+          1
+        ],
+        [
+          338,
+          672,
+          3,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 565,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        0,
+        10,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        6,
+        7
+      ],
+      "time_sec": 0.2,
+      "boxes_native": [
+        [
+          398,
+          640,
+          2,
+          2,
+          4
+        ],
+        [
+          398,
+          646,
+          5,
+          1,
+          5
+        ],
+        [
+          419,
+          650,
+          1,
+          1,
+          1
+        ],
+        [
+          376,
+          652,
+          1,
+          1,
+          1
+        ],
+        [
+          364,
+          660,
+          1,
+          1,
+          1
+        ],
+        [
+          342,
+          664,
+          4,
+          2,
+          8
+        ],
+        [
+          312,
+          686,
+          10,
+          10,
+          48
+        ],
+        [
+          306,
+          714,
+          1,
+          2,
+          2
+        ],
+        [
+          292,
+          718,
+          2,
+          2,
+          4
+        ],
+        [
+          288,
+          720,
+          4,
+          4,
+          16
+        ],
+        [
+          286,
+          720,
+          17,
+          20,
+          74
+        ],
+        [
+          286,
+          724,
+          2,
+          2,
+          4
+        ],
+        [
+          282,
+          736,
+          2,
+          2,
+          4
+        ],
+        [
+          286,
+          742,
+          1,
+          1,
+          1
+        ],
+        [
+          260,
+          766,
+          2,
+          8,
+          14
+        ]
+      ],
+      "changed_pixels": 2156,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        10,
+        0,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 215
+    },
+    {
+      "frames": [
+        8,
+        9
+      ],
+      "time_sec": 0.26666666666666666,
+      "boxes_native": [
+        [
+          348,
+          662,
+          2,
+          2,
+          4
+        ],
+        [
+          342,
+          664,
+          8,
+          6,
+          28
+        ],
+        [
+          312,
+          684,
+          10,
+          10,
+          44
+        ],
+        [
+          348,
+          690,
+          2,
+          2,
+          3
+        ],
+        [
+          292,
+          716,
+          2,
+          4,
+          8
+        ],
+        [
+          288,
+          720,
+          4,
+          4,
+          12
+        ],
+        [
+          282,
+          734,
+          2,
+          4,
+          8
+        ],
+        [
+          264,
+          762,
+          2,
+          2,
+          4
+        ],
+        [
+          262,
+          764,
+          2,
+          2,
+          4
+        ],
+        [
+          260,
+          766,
+          2,
+          6,
+          12
+        ]
+      ],
+      "changed_pixels": 2816,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        10,
+        0,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 369
+    },
+    {
+      "frames": [
+        10,
+        11
+      ],
+      "time_sec": 0.3333333333333333,
+      "boxes_native": [
+        [
+          342,
+          664,
+          6,
+          2,
+          12
+        ],
+        [
+          336,
+          672,
+          4,
+          2,
+          8
+        ],
+        [
+          407,
+          673,
+          1,
+          1,
+          1
+        ],
+        [
+          306,
+          674,
+          33,
+          28,
+          159
+        ]
+      ],
+      "changed_pixels": 1131,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        10,
+        0,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 21
+    },
+    {
+      "frames": [
+        12,
+        13
+      ],
+      "time_sec": 0.4,
+      "boxes_native": [
+        [
+          352,
+          630,
+          20,
+          9,
+          91
+        ],
+        [
+          373,
+          636,
+          3,
+          2,
+          4
+        ],
+        [
+          328,
+          640,
+          18,
+          15,
+          81
+        ],
+        [
+          352,
+          640,
+          1,
+          1,
+          1
+        ],
+        [
+          377,
+          640,
+          1,
+          1,
+          1
+        ],
+        [
+          348,
+          642,
+          1,
+          1,
+          1
+        ],
+        [
+          332,
+          644,
+          1,
+          1,
+          1
+        ],
+        [
+          324,
+          656,
+          3,
+          2,
+          4
+        ],
+        [
+          316,
+          658,
+          8,
+          6,
+          15
+        ],
+        [
+          280,
+          664,
+          36,
+          37,
+          161
+        ],
+        [
+          404,
+          696,
+          2,
+          2,
+          4
+        ],
+        [
+          268,
+          718,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1762,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        10,
+        20,
+        40
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        14,
+        15
+      ],
+      "time_sec": 0.4666666666666667,
+      "boxes_native": [
+        [
+          373,
+          636,
+          3,
+          2,
+          4
+        ],
+        [
+          328,
+          640,
+          19,
+          16,
+          97
+        ],
+        [
+          348,
+          642,
+          2,
+          1,
+          2
+        ],
+        [
+          326,
+          656,
+          1,
+          1,
+          1
+        ],
+        [
+          320,
+          660,
+          2,
+          1,
+          2
+        ],
+        [
+          310,
+          668,
+          1,
+          1,
+          1
+        ],
+        [
+          308,
+          670,
+          1,
+          1,
+          1
+        ],
+        [
+          306,
+          672,
+          1,
+          1,
+          1
+        ],
+        [
+          300,
+          674,
+          5,
+          5,
+          13
+        ],
+        [
+          298,
+          680,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          682,
+          1,
+          1,
+          1
+        ],
+        [
+          404,
+          694,
+          4,
+          4,
+          16
+        ],
+        [
+          268,
+          718,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1561,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        10,
+        20,
+        40
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        16,
+        17
+      ],
+      "time_sec": 0.5333333333333333,
+      "boxes_native": [
+        [
+          296,
+          622,
+          38,
+          34,
+          218
+        ],
+        [
+          274,
+          656,
+          21,
+          25,
+          123
+        ],
+        [
+          272,
+          682,
+          1,
+          1,
+          1
+        ],
+        [
+          270,
+          684,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 1580,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        10,
+        40
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        18,
+        19
+      ],
+      "time_sec": 0.6,
+      "boxes_native": [
+        [
+          276,
+          670,
+          1,
+          1,
+          1
+        ],
+        [
+          274,
+          672,
+          1,
+          2,
+          2
+        ],
+        [
+          272,
+          676,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1111,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        10,
+        40
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        20,
+        21
+      ],
+      "time_sec": 0.6666666666666666,
+      "boxes_native": [
+        [
+          280,
+          656,
+          1,
+          1,
+          1
+        ],
+        [
+          276,
+          680,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 978,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        10,
+        40
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        22,
+        23
+      ],
+      "time_sec": 0.7333333333333333,
+      "boxes_native": [
+        [
+          292,
+          680,
+          2,
+          6,
+          9
+        ],
+        [
+          282,
+          720,
+          1,
+          4,
+          4
+        ]
+      ],
+      "changed_pixels": 1422,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        24,
+        25
+      ],
+      "time_sec": 0.8,
+      "boxes_native": [
+        [
+          292,
+          684,
+          1,
+          2,
+          2
+        ],
+        [
+          290,
+          690,
+          1,
+          3,
+          3
+        ],
+        [
+          282,
+          698,
+          2,
+          2,
+          4
+        ],
+        [
+          282,
+          720,
+          1,
+          4,
+          4
+        ],
+        [
+          260,
+          726,
+          4,
+          2,
+          8
+        ]
+      ],
+      "changed_pixels": 776,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        26,
+        27
+      ],
+      "time_sec": 0.8666666666666667,
+      "boxes_native": [
+        [
+          316,
+          628,
+          10,
+          8,
+          60
+        ],
+        [
+          321,
+          628,
+          1,
+          1,
+          1
+        ],
+        [
+          272,
+          672,
+          2,
+          6,
+          12
+        ],
+        [
+          308,
+          692,
+          1,
+          2,
+          2
+        ],
+        [
+          262,
+          724,
+          2,
+          4,
+          8
+        ],
+        [
+          272,
+          736,
+          6,
+          16,
+          56
+        ]
+      ],
+      "changed_pixels": 1424,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        40,
+        10,
+        0,
+        100
+      ],
+      "adjacent_background_pixels": 51
+    },
+    {
+      "frames": [
+        28,
+        29
+      ],
+      "time_sec": 0.9333333333333333,
+      "boxes_native": [
+        [
+          314,
+          628,
+          10,
+          8,
+          52
+        ],
+        [
+          344,
+          642,
+          16,
+          17,
+          95
+        ],
+        [
+          346,
+          652,
+          1,
+          1,
+          1
+        ],
+        [
+          344,
+          660,
+          1,
+          2,
+          2
+        ],
+        [
+          284,
+          722,
+          2,
+          4,
+          8
+        ],
+        [
+          278,
+          732,
+          2,
+          4,
+          8
+        ]
+      ],
+      "changed_pixels": 1651,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        40,
+        10,
+        0,
+        100
+      ],
+      "adjacent_background_pixels": 37
+    },
+    {
+      "frames": [
+        30,
+        31
+      ],
+      "time_sec": 1.0,
+      "boxes_native": [
+        [
+          352,
+          634,
+          35,
+          27,
+          173
+        ],
+        [
+          388,
+          636,
+          5,
+          2,
+          6
+        ],
+        [
+          344,
+          658,
+          2,
+          4,
+          8
+        ],
+        [
+          334,
+          662,
+          14,
+          12,
+          55
+        ],
+        [
+          348,
+          662,
+          3,
+          2,
+          4
+        ],
+        [
+          332,
+          674,
+          2,
+          2,
+          3
+        ],
+        [
+          314,
+          690,
+          1,
+          1,
+          1
+        ],
+        [
+          280,
+          720,
+          5,
+          7,
+          14
+        ]
+      ],
+      "changed_pixels": 2028,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        20,
+        40,
+        10,
+        0,
+        100
+      ],
+      "adjacent_background_pixels": 4
+    },
+    {
+      "frames": [
+        32,
+        33
+      ],
+      "time_sec": 1.0666666666666667,
+      "boxes_native": [
+        [
+          396,
+          636,
+          1,
+          1,
+          1
+        ],
+        [
+          342,
+          654,
+          2,
+          2,
+          4
+        ],
+        [
+          346,
+          656,
+          3,
+          2,
+          4
+        ],
+        [
+          342,
+          658,
+          4,
+          1,
+          4
+        ],
+        [
+          314,
+          668,
+          14,
+          10,
+          37
+        ],
+        [
+          310,
+          680,
+          2,
+          1,
+          2
+        ],
+        [
+          272,
+          682,
+          37,
+          37,
+          148
+        ],
+        [
+          260,
+          720,
+          11,
+          13,
+          50
+        ],
+        [
+          260,
+          734,
+          1,
+          2,
+          2
+        ],
+        [
+          258,
+          738,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1965,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        20,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        34,
+        35
+      ],
+      "time_sec": 1.1333333333333333,
+      "boxes_native": [
+        [
+          342,
+          652,
+          2,
+          4,
+          8
+        ],
+        [
+          352,
+          654,
+          2,
+          1,
+          2
+        ],
+        [
+          407,
+          655,
+          1,
+          1,
+          1
+        ],
+        [
+          346,
+          656,
+          4,
+          2,
+          5
+        ],
+        [
+          342,
+          658,
+          4,
+          2,
+          5
+        ],
+        [
+          326,
+          664,
+          9,
+          6,
+          17
+        ],
+        [
+          322,
+          670,
+          3,
+          2,
+          4
+        ],
+        [
+          318,
+          674,
+          1,
+          1,
+          1
+        ],
+        [
+          316,
+          676,
+          1,
+          1,
+          1
+        ],
+        [
+          308,
+          678,
+          7,
+          5,
+          13
+        ],
+        [
+          306,
+          684,
+          1,
+          1,
+          1
+        ],
+        [
+          272,
+          718,
+          1,
+          1,
+          1
+        ],
+        [
+          270,
+          720,
+          1,
+          1,
+          1
+        ],
+        [
+          260,
+          734,
+          1,
+          2,
+          2
+        ],
+        [
+          258,
+          738,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1886,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        20,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        36,
+        37
+      ],
+      "time_sec": 1.2,
+      "boxes_native": [
+        [
+          318,
+          652,
+          4,
+          4,
+          12
+        ],
+        [
+          308,
+          660,
+          2,
+          2,
+          4
+        ],
+        [
+          306,
+          662,
+          2,
+          2,
+          4
+        ],
+        [
+          312,
+          662,
+          6,
+          4,
+          10
+        ],
+        [
+          392,
+          712,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 710,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        20,
+        60,
+        10,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        38,
+        39
+      ],
+      "time_sec": 1.2666666666666666,
+      "boxes_native": [
+        [
+          320,
+          646,
+          2,
+          2,
+          3
+        ],
+        [
+          318,
+          648,
+          2,
+          1,
+          2
+        ],
+        [
+          358,
+          648,
+          2,
+          2,
+          4
+        ],
+        [
+          314,
+          650,
+          3,
+          2,
+          4
+        ],
+        [
+          312,
+          652,
+          2,
+          2,
+          3
+        ],
+        [
+          310,
+          654,
+          2,
+          1,
+          2
+        ],
+        [
+          302,
+          656,
+          7,
+          5,
+          16
+        ],
+        [
+          300,
+          662,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          664,
+          2,
+          2,
+          3
+        ],
+        [
+          294,
+          666,
+          2,
+          2,
+          3
+        ],
+        [
+          292,
+          668,
+          2,
+          1,
+          2
+        ],
+        [
+          278,
+          670,
+          13,
+          13,
+          69
+        ],
+        [
+          278,
+          684,
+          1,
+          1,
+          1
+        ],
+        [
+          392,
+          712,
+          2,
+          2,
+          4
+        ],
+        [
+          232,
+          764,
+          2,
+          4,
+          8
+        ]
+      ],
+      "changed_pixels": 1014,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        20,
+        60,
+        10,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        40,
+        41
+      ],
+      "time_sec": 1.3333333333333333,
+      "boxes_native": [
+        [
+          341,
+          648,
+          1,
+          1,
+          1
+        ],
+        [
+          347,
+          658,
+          1,
+          1,
+          1
+        ],
+        [
+          392,
+          712,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 491,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        20,
+        60,
+        10,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        42,
+        43
+      ],
+      "time_sec": 1.4,
+      "boxes_native": [
+        [
+          321,
+          621,
+          1,
+          3,
+          3
+        ],
+        [
+          264,
+          718,
+          2,
+          5,
+          9
+        ],
+        [
+          264,
+          723,
+          1,
+          1,
+          1
+        ],
+        [
+          272,
+          724,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 632,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        60,
+        20,
+        10
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        44,
+        45
+      ],
+      "time_sec": 1.4666666666666666,
+      "boxes_native": [
+        [
+          311,
+          604,
+          1,
+          1,
+          1
+        ],
+        [
+          321,
+          616,
+          1,
+          1,
+          1
+        ],
+        [
+          326,
+          630,
+          2,
+          2,
+          4
+        ],
+        [
+          276,
+          656,
+          2,
+          2,
+          4
+        ],
+        [
+          264,
+          718,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 818,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        60,
+        20,
+        10
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        46,
+        47
+      ],
+      "time_sec": 1.5333333333333334,
+      "boxes_native": [
+        [
+          320,
+          630,
+          2,
+          2,
+          4
+        ],
+        [
+          324,
+          630,
+          4,
+          2,
+          8
+        ],
+        [
+          282,
+          650,
+          4,
+          4,
+          11
+        ],
+        [
+          272,
+          724,
+          2,
+          2,
+          4
+        ],
+        [
+          266,
+          730,
+          6,
+          6,
+          24
+        ]
+      ],
+      "changed_pixels": 1015,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        60,
+        20,
+        80,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        48,
+        49
+      ],
+      "time_sec": 1.6,
+      "boxes_native": [
+        [
+          324,
+          631,
+          4,
+          1,
+          4
+        ],
+        [
+          328,
+          632,
+          8,
+          6,
+          27
+        ],
+        [
+          364,
+          632,
+          16,
+          8,
+          50
+        ],
+        [
+          362,
+          640,
+          1,
+          1,
+          1
+        ],
+        [
+          360,
+          642,
+          1,
+          1,
+          1
+        ],
+        [
+          358,
+          644,
+          1,
+          1,
+          1
+        ],
+        [
+          356,
+          646,
+          1,
+          1,
+          1
+        ],
+        [
+          280,
+          650,
+          6,
+          4,
+          15
+        ],
+        [
+          405,
+          673,
+          1,
+          1,
+          1
+        ],
+        [
+          322,
+          674,
+          2,
+          4,
+          8
+        ],
+        [
+          328,
+          676,
+          1,
+          1,
+          1
+        ],
+        [
+          326,
+          678,
+          1,
+          1,
+          1
+        ],
+        [
+          324,
+          680,
+          1,
+          1,
+          1
+        ],
+        [
+          322,
+          682,
+          2,
+          2,
+          3
+        ],
+        [
+          268,
+          716,
+          2,
+          3,
+          5
+        ],
+        [
+          268,
+          719,
+          1,
+          1,
+          1
+        ],
+        [
+          268,
+          730,
+          4,
+          4,
+          11
+        ]
+      ],
+      "changed_pixels": 1770,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        60,
+        20,
+        80,
+        10,
+        0,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        50,
+        51
+      ],
+      "time_sec": 1.6666666666666667,
+      "boxes_native": [
+        [
+          328,
+          632,
+          2,
+          2,
+          4
+        ],
+        [
+          282,
+          650,
+          4,
+          4,
+          11
+        ],
+        [
+          344,
+          660,
+          10,
+          8,
+          45
+        ]
+      ],
+      "changed_pixels": 1956,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        40,
+        60,
+        20,
+        80,
+        10,
+        0,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        52,
+        53
+      ],
+      "time_sec": 1.7333333333333334,
+      "boxes_native": [
+        [
+          354,
+          632,
+          58,
+          30,
+          230
+        ],
+        [
+          413,
+          642,
+          1,
+          2,
+          2
+        ],
+        [
+          376,
+          646,
+          1,
+          1,
+          1
+        ],
+        [
+          342,
+          660,
+          11,
+          7,
+          42
+        ],
+        [
+          320,
+          674,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 2336,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        40,
+        80,
+        20,
+        10,
+        100,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        54,
+        55
+      ],
+      "time_sec": 1.8,
+      "boxes_native": [
+        [
+          340,
+          633,
+          72,
+          35,
+          312
+        ],
+        [
+          413,
+          642,
+          1,
+          2,
+          2
+        ],
+        [
+          344,
+          658,
+          1,
+          1,
+          1
+        ],
+        [
+          320,
+          674,
+          2,
+          2,
+          4
+        ],
+        [
+          282,
+          720,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 2530,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        40,
+        80,
+        20,
+        10,
+        100,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        56,
+        57
+      ],
+      "time_sec": 1.8666666666666667,
+      "boxes_native": [],
+      "changed_pixels": 743,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        40,
+        80,
+        20,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        58,
+        59
+      ],
+      "time_sec": 1.9333333333333333,
+      "boxes_native": [
+        [
+          316,
+          664,
+          2,
+          2,
+          3
+        ],
+        [
+          383,
+          669,
+          1,
+          1,
+          1
+        ],
+        [
+          270,
+          704,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 724,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        40,
+        80
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        60,
+        61
+      ],
+      "time_sec": 2.0,
+      "boxes_native": [
+        [
+          306,
+          630,
+          54,
+          37,
+          267
+        ],
+        [
+          366,
+          642,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1468,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        40,
+        80
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        62,
+        63
+      ],
+      "time_sec": 2.066666666666667,
+      "boxes_native": [
+        [
+          292,
+          672,
+          8,
+          6,
+          28
+        ],
+        [
+          300,
+          676,
+          1,
+          2,
+          2
+        ],
+        [
+          298,
+          680,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          682,
+          2,
+          2,
+          3
+        ],
+        [
+          290,
+          684,
+          6,
+          7,
+          17
+        ],
+        [
+          290,
+          692,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1018,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        80,
+        40,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        64,
+        65
+      ],
+      "time_sec": 2.1333333333333333,
+      "boxes_native": [
+        [
+          356,
+          630,
+          4,
+          2,
+          8
+        ],
+        [
+          371,
+          668,
+          1,
+          1,
+          1
+        ],
+        [
+          298,
+          680,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          682,
+          1,
+          2,
+          2
+        ],
+        [
+          292,
+          686,
+          3,
+          5,
+          9
+        ],
+        [
+          284,
+          688,
+          2,
+          2,
+          3
+        ],
+        [
+          290,
+          692,
+          1,
+          2,
+          2
+        ],
+        [
+          388,
+          700,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 1279,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        80,
+        40,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        66,
+        67
+      ],
+      "time_sec": 2.2,
+      "boxes_native": [
+        [
+          258,
+          600,
+          6,
+          2,
+          12
+        ],
+        [
+          306,
+          660,
+          4,
+          4,
+          12
+        ],
+        [
+          292,
+          672,
+          8,
+          6,
+          28
+        ],
+        [
+          306,
+          672,
+          7,
+          11,
+          35
+        ],
+        [
+          385,
+          681,
+          1,
+          2,
+          2
+        ],
+        [
+          304,
+          684,
+          2,
+          3,
+          4
+        ],
+        [
+          284,
+          688,
+          2,
+          2,
+          4
+        ],
+        [
+          278,
+          716,
+          2,
+          2,
+          4
+        ],
+        [
+          276,
+          718,
+          2,
+          2,
+          4
+        ],
+        [
+          272,
+          724,
+          2,
+          2,
+          4
+        ],
+        [
+          268,
+          730,
+          4,
+          4,
+          12
+        ],
+        [
+          271,
+          732,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 2017,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        80,
+        40,
+        100,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        68,
+        69
+      ],
+      "time_sec": 2.2666666666666666,
+      "boxes_native": [
+        [
+          340,
+          632,
+          10,
+          6,
+          36
+        ],
+        [
+          391,
+          662,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          672,
+          4,
+          4,
+          16
+        ],
+        [
+          304,
+          686,
+          2,
+          2,
+          4
+        ],
+        [
+          284,
+          688,
+          2,
+          2,
+          4
+        ],
+        [
+          278,
+          716,
+          2,
+          2,
+          4
+        ],
+        [
+          276,
+          718,
+          2,
+          4,
+          7
+        ],
+        [
+          274,
+          722,
+          2,
+          2,
+          4
+        ],
+        [
+          268,
+          728,
+          4,
+          6,
+          16
+        ],
+        [
+          286,
+          736,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 1713,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        80,
+        100,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 11
+    },
+    {
+      "frames": [
+        70,
+        71
+      ],
+      "time_sec": 2.3333333333333335,
+      "boxes_native": [
+        [
+          344,
+          632,
+          6,
+          4,
+          24
+        ],
+        [
+          407,
+          668,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          670,
+          4,
+          6,
+          20
+        ],
+        [
+          292,
+          676,
+          4,
+          2,
+          8
+        ]
+      ],
+      "changed_pixels": 1882,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        60,
+        80,
+        100,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 21
+    },
+    {
+      "frames": [
+        72,
+        73
+      ],
+      "time_sec": 2.4,
+      "boxes_native": [
+        [
+          348,
+          630,
+          60,
+          37,
+          307
+        ],
+        [
+          346,
+          668,
+          1,
+          1,
+          1
+        ],
+        [
+          280,
+          748,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 2430,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        60,
+        100,
+        40,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 80
+    },
+    {
+      "frames": [
+        74,
+        75
+      ],
+      "time_sec": 2.466666666666667,
+      "boxes_native": [
+        [
+          346,
+          632,
+          50,
+          37,
+          221
+        ],
+        [
+          399,
+          634,
+          7,
+          4,
+          20
+        ],
+        [
+          403,
+          640,
+          1,
+          2,
+          2
+        ],
+        [
+          404,
+          642,
+          2,
+          5,
+          6
+        ],
+        [
+          290,
+          730,
+          2,
+          3,
+          4
+        ]
+      ],
+      "changed_pixels": 2143,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        60,
+        100,
+        40,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 79
+    },
+    {
+      "frames": [
+        76,
+        77
+      ],
+      "time_sec": 2.533333333333333,
+      "boxes_native": [
+        [
+          346,
+          634,
+          50,
+          36,
+          243
+        ]
+      ],
+      "changed_pixels": 1522,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        60,
+        100,
+        40,
+        0
+      ],
+      "adjacent_background_pixels": 7
+    },
+    {
+      "frames": [
+        78,
+        79
+      ],
+      "time_sec": 2.6,
+      "boxes_native": [
+        [
+          402,
+          636,
+          6,
+          1,
+          6
+        ],
+        [
+          411,
+          636,
+          5,
+          7,
+          20
+        ],
+        [
+          414,
+          654,
+          2,
+          2,
+          4
+        ],
+        [
+          348,
+          664,
+          2,
+          1,
+          2
+        ]
+      ],
+      "changed_pixels": 1177,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        60,
+        100,
+        40
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        80,
+        81
+      ],
+      "time_sec": 2.6666666666666665,
+      "boxes_native": [
+        [
+          404,
+          638,
+          2,
+          2,
+          3
+        ],
+        [
+          407,
+          650,
+          1,
+          6,
+          6
+        ],
+        [
+          405,
+          661,
+          1,
+          3,
+          3
+        ],
+        [
+          338,
+          662,
+          6,
+          4,
+          12
+        ],
+        [
+          336,
+          666,
+          2,
+          2,
+          3
+        ],
+        [
+          334,
+          668,
+          1,
+          1,
+          1
+        ],
+        [
+          328,
+          670,
+          5,
+          3,
+          10
+        ],
+        [
+          320,
+          672,
+          7,
+          7,
+          24
+        ],
+        [
+          318,
+          680,
+          1,
+          1,
+          1
+        ],
+        [
+          316,
+          682,
+          1,
+          1,
+          1
+        ],
+        [
+          264,
+          744,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1205,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        60,
+        100,
+        40,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        82,
+        83
+      ],
+      "time_sec": 2.7333333333333334,
+      "boxes_native": [
+        [
+          372,
+          632,
+          24,
+          8,
+          95
+        ],
+        [
+          389,
+          632,
+          1,
+          1,
+          1
+        ],
+        [
+          372,
+          636,
+          1,
+          1,
+          1
+        ],
+        [
+          354,
+          640,
+          17,
+          8,
+          67
+        ],
+        [
+          393,
+          640,
+          1,
+          3,
+          3
+        ],
+        [
+          410,
+          642,
+          8,
+          4,
+          28
+        ],
+        [
+          393,
+          644,
+          5,
+          12,
+          32
+        ],
+        [
+          328,
+          646,
+          27,
+          19,
+          108
+        ],
+        [
+          393,
+          658,
+          1,
+          1,
+          1
+        ],
+        [
+          280,
+          664,
+          46,
+          45,
+          254
+        ],
+        [
+          397,
+          675,
+          1,
+          1,
+          1
+        ],
+        [
+          280,
+          710,
+          1,
+          2,
+          2
+        ],
+        [
+          276,
+          716,
+          1,
+          1,
+          1
+        ],
+        [
+          274,
+          718,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 2476,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        100,
+        60,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        84,
+        85
+      ],
+      "time_sec": 2.8,
+      "boxes_native": [
+        [
+          372,
+          632,
+          24,
+          10,
+          96
+        ],
+        [
+          334,
+          640,
+          37,
+          19,
+          150
+        ],
+        [
+          408,
+          642,
+          10,
+          4,
+          32
+        ],
+        [
+          394,
+          644,
+          4,
+          8,
+          32
+        ],
+        [
+          332,
+          660,
+          3,
+          2,
+          4
+        ],
+        [
+          328,
+          662,
+          4,
+          3,
+          9
+        ],
+        [
+          324,
+          666,
+          3,
+          2,
+          4
+        ],
+        [
+          320,
+          670,
+          2,
+          2,
+          3
+        ],
+        [
+          318,
+          672,
+          1,
+          1,
+          1
+        ],
+        [
+          306,
+          674,
+          8,
+          7,
+          28
+        ],
+        [
+          316,
+          674,
+          1,
+          1,
+          1
+        ],
+        [
+          306,
+          682,
+          1,
+          1,
+          1
+        ],
+        [
+          304,
+          684,
+          1,
+          1,
+          1
+        ],
+        [
+          302,
+          686,
+          1,
+          1,
+          1
+        ],
+        [
+          300,
+          688,
+          1,
+          1,
+          1
+        ],
+        [
+          298,
+          690,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          692,
+          1,
+          1,
+          1
+        ],
+        [
+          294,
+          694,
+          1,
+          1,
+          1
+        ],
+        [
+          292,
+          696,
+          1,
+          1,
+          1
+        ],
+        [
+          278,
+          714,
+          1,
+          1,
+          1
+        ],
+        [
+          276,
+          716,
+          1,
+          1,
+          1
+        ],
+        [
+          274,
+          718,
+          1,
+          2,
+          2
+        ],
+        [
+          262,
+          732,
+          4,
+          7,
+          13
+        ]
+      ],
+      "changed_pixels": 2634,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        100,
+        60,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        86,
+        87
+      ],
+      "time_sec": 2.8666666666666667,
+      "boxes_native": [
+        [
+          381,
+          632,
+          1,
+          1,
+          1
+        ],
+        [
+          356,
+          634,
+          1,
+          1,
+          1
+        ],
+        [
+          388,
+          634,
+          8,
+          4,
+          28
+        ],
+        [
+          404,
+          642,
+          8,
+          4,
+          26
+        ],
+        [
+          388,
+          648,
+          10,
+          8,
+          40
+        ],
+        [
+          300,
+          664,
+          18,
+          16,
+          97
+        ],
+        [
+          296,
+          678,
+          4,
+          2,
+          8
+        ],
+        [
+          294,
+          680,
+          2,
+          4,
+          8
+        ],
+        [
+          260,
+          738,
+          1,
+          3,
+          3
+        ],
+        [
+          254,
+          754,
+          2,
+          6,
+          7
+        ]
+      ],
+      "changed_pixels": 2051,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        100,
+        60,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        88,
+        89
+      ],
+      "time_sec": 2.933333333333333,
+      "boxes_native": [
+        [
+          388,
+          634,
+          8,
+          4,
+          28
+        ],
+        [
+          330,
+          644,
+          1,
+          1,
+          1
+        ],
+        [
+          390,
+          646,
+          8,
+          8,
+          44
+        ],
+        [
+          262,
+          736,
+          1,
+          3,
+          3
+        ],
+        [
+          260,
+          742,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 1817,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        100,
+        60,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        90,
+        91
+      ],
+      "time_sec": 3.0,
+      "boxes_native": [
+        [
+          396,
+          646,
+          1,
+          1,
+          1
+        ],
+        [
+          390,
+          648,
+          8,
+          6,
+          35
+        ],
+        [
+          258,
+          746,
+          2,
+          6,
+          12
+        ],
+        [
+          256,
+          752,
+          2,
+          2,
+          4
+        ],
+        [
+          254,
+          756,
+          4,
+          4,
+          12
+        ]
+      ],
+      "changed_pixels": 1859,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        80,
+        100,
+        60,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        92,
+        93
+      ],
+      "time_sec": 3.066666666666667,
+      "boxes_native": [
+        [
+          368,
+          634,
+          2,
+          1,
+          2
+        ],
+        [
+          370,
+          638,
+          2,
+          1,
+          2
+        ],
+        [
+          379,
+          654,
+          1,
+          4,
+          4
+        ],
+        [
+          278,
+          760,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 1753,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        80,
+        120,
+        60,
+        0
+      ],
+      "adjacent_background_pixels": 71
+    },
+    {
+      "frames": [
+        94,
+        95
+      ],
+      "time_sec": 3.1333333333333333,
+      "boxes_native": [
+        [
+          370,
+          638,
+          2,
+          1,
+          2
+        ],
+        [
+          379,
+          654,
+          1,
+          4,
+          4
+        ],
+        [
+          280,
+          752,
+          1,
+          4,
+          4
+        ],
+        [
+          278,
+          760,
+          1,
+          4,
+          4
+        ]
+      ],
+      "changed_pixels": 980,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        80,
+        120,
+        60
+      ],
+      "adjacent_background_pixels": 121
+    },
+    {
+      "frames": [
+        96,
+        97
+      ],
+      "time_sec": 3.2,
+      "boxes_native": [
+        [
+          389,
+          638,
+          1,
+          1,
+          1
+        ],
+        [
+          403,
+          660,
+          1,
+          1,
+          1
+        ],
+        [
+          302,
+          688,
+          6,
+          4,
+          16
+        ],
+        [
+          288,
+          720,
+          4,
+          4,
+          12
+        ],
+        [
+          284,
+          724,
+          4,
+          2,
+          8
+        ],
+        [
+          304,
+          724,
+          1,
+          1,
+          1
+        ],
+        [
+          298,
+          752,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 1154,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        80,
+        120,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 425
+    },
+    {
+      "frames": [
+        98,
+        99
+      ],
+      "time_sec": 3.2666666666666666,
+      "boxes_native": [
+        [
+          302,
+          684,
+          10,
+          8,
+          44
+        ],
+        [
+          288,
+          720,
+          4,
+          4,
+          12
+        ],
+        [
+          284,
+          724,
+          4,
+          2,
+          8
+        ]
+      ],
+      "changed_pixels": 1086,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        80,
+        120,
+        60,
+        140,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 539
+    },
+    {
+      "frames": [
+        100,
+        101
+      ],
+      "time_sec": 3.3333333333333335,
+      "boxes_native": [
+        [
+          364,
+          672,
+          1,
+          1,
+          1
+        ],
+        [
+          438,
+          672,
+          2,
+          3,
+          5
+        ],
+        [
+          364,
+          682,
+          2,
+          2,
+          3
+        ],
+        [
+          308,
+          684,
+          4,
+          4,
+          16
+        ],
+        [
+          362,
+          684,
+          2,
+          2,
+          3
+        ],
+        [
+          302,
+          688,
+          6,
+          4,
+          20
+        ],
+        [
+          360,
+          688,
+          1,
+          1,
+          1
+        ],
+        [
+          356,
+          692,
+          1,
+          1,
+          1
+        ],
+        [
+          354,
+          694,
+          1,
+          1,
+          1
+        ],
+        [
+          284,
+          720,
+          8,
+          6,
+          24
+        ]
+      ],
+      "changed_pixels": 1244,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        80,
+        120,
+        60,
+        140,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 524
+    },
+    {
+      "frames": [
+        102,
+        103
+      ],
+      "time_sec": 3.4,
+      "boxes_native": [
+        [
+          364,
+          676,
+          4,
+          2,
+          8
+        ],
+        [
+          332,
+          730,
+          2,
+          2,
+          3
+        ]
+      ],
+      "changed_pixels": 1115,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        120,
+        80,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 342
+    },
+    {
+      "frames": [
+        104,
+        105
+      ],
+      "time_sec": 3.466666666666667,
+      "boxes_native": [
+        [
+          394,
+          640,
+          52,
+          28,
+          312
+        ],
+        [
+          398,
+          658,
+          1,
+          1,
+          1
+        ],
+        [
+          445,
+          658,
+          1,
+          4,
+          4
+        ],
+        [
+          364,
+          674,
+          6,
+          4,
+          24
+        ],
+        [
+          354,
+          686,
+          2,
+          2,
+          4
+        ],
+        [
+          332,
+          720,
+          2,
+          2,
+          4
+        ],
+        [
+          336,
+          726,
+          1,
+          1,
+          1
+        ],
+        [
+          334,
+          728,
+          2,
+          2,
+          3
+        ],
+        [
+          332,
+          730,
+          2,
+          2,
+          3
+        ],
+        [
+          330,
+          734,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1830,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        120,
+        80,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 247
+    },
+    {
+      "frames": [
+        106,
+        107
+      ],
+      "time_sec": 3.533333333333333,
+      "boxes_native": [
+        [
+          364,
+          672,
+          6,
+          6,
+          32
+        ],
+        [
+          380,
+          676,
+          1,
+          1,
+          1
+        ],
+        [
+          464,
+          678,
+          2,
+          2,
+          4
+        ],
+        [
+          318,
+          740,
+          2,
+          2,
+          3
+        ],
+        [
+          254,
+          764,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1798,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        120,
+        80,
+        140,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 104
+    },
+    {
+      "frames": [
+        108,
+        109
+      ],
+      "time_sec": 3.6,
+      "boxes_native": [
+        [
+          450,
+          648,
+          2,
+          1,
+          2
+        ],
+        [
+          452,
+          652,
+          2,
+          4,
+          8
+        ],
+        [
+          450,
+          669,
+          1,
+          1,
+          1
+        ],
+        [
+          328,
+          702,
+          1,
+          1,
+          1
+        ],
+        [
+          456,
+          720,
+          2,
+          4,
+          8
+        ],
+        [
+          458,
+          724,
+          8,
+          12,
+          36
+        ],
+        [
+          474,
+          754,
+          2,
+          6,
+          12
+        ]
+      ],
+      "changed_pixels": 1716,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        120,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        110,
+        111
+      ],
+      "time_sec": 3.6666666666666665,
+      "boxes_native": [
+        [
+          380,
+          644,
+          2,
+          1,
+          2
+        ],
+        [
+          383,
+          644,
+          1,
+          1,
+          1
+        ],
+        [
+          312,
+          694,
+          1,
+          1,
+          1
+        ],
+        [
+          294,
+          712,
+          1,
+          1,
+          1
+        ],
+        [
+          290,
+          718,
+          1,
+          1,
+          1
+        ],
+        [
+          288,
+          720,
+          1,
+          1,
+          1
+        ],
+        [
+          286,
+          722,
+          1,
+          2,
+          2
+        ],
+        [
+          284,
+          724,
+          2,
+          2,
+          3
+        ],
+        [
+          458,
+          724,
+          2,
+          6,
+          12
+        ],
+        [
+          278,
+          726,
+          6,
+          9,
+          18
+        ],
+        [
+          276,
+          728,
+          2,
+          2,
+          4
+        ],
+        [
+          462,
+          730,
+          2,
+          2,
+          4
+        ],
+        [
+          276,
+          736,
+          1,
+          2,
+          2
+        ],
+        [
+          274,
+          740,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1733,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        100,
+        120,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 31
+    },
+    {
+      "frames": [
+        112,
+        113
+      ],
+      "time_sec": 3.7333333333333334,
+      "boxes_native": [
+        [
+          326,
+          658,
+          1,
+          1,
+          1
+        ],
+        [
+          289,
+          660,
+          32,
+          25,
+          156
+        ],
+        [
+          322,
+          660,
+          2,
+          2,
+          3
+        ],
+        [
+          288,
+          682,
+          1,
+          1,
+          1
+        ],
+        [
+          290,
+          686,
+          1,
+          1,
+          1
+        ],
+        [
+          288,
+          688,
+          1,
+          1,
+          1
+        ],
+        [
+          286,
+          690,
+          1,
+          1,
+          1
+        ],
+        [
+          284,
+          692,
+          1,
+          1,
+          1
+        ],
+        [
+          282,
+          694,
+          1,
+          1,
+          1
+        ],
+        [
+          280,
+          696,
+          1,
+          1,
+          1
+        ],
+        [
+          278,
+          698,
+          1,
+          1,
+          1
+        ],
+        [
+          258,
+          718,
+          1,
+          1,
+          1
+        ],
+        [
+          252,
+          728,
+          5,
+          4,
+          11
+        ],
+        [
+          252,
+          734,
+          1,
+          2,
+          2
+        ],
+        [
+          250,
+          738,
+          1,
+          1,
+          1
+        ],
+        [
+          248,
+          742,
+          1,
+          1,
+          1
+        ],
+        [
+          246,
+          746,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1544,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        100,
+        140
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        114,
+        115
+      ],
+      "time_sec": 3.8,
+      "boxes_native": [
+        [
+          332,
+          648,
+          4,
+          2,
+          8
+        ],
+        [
+          377,
+          658,
+          1,
+          6,
+          6
+        ],
+        [
+          298,
+          674,
+          2,
+          2,
+          4
+        ],
+        [
+          304,
+          674,
+          2,
+          1,
+          2
+        ],
+        [
+          300,
+          676,
+          3,
+          2,
+          4
+        ],
+        [
+          380,
+          676,
+          2,
+          4,
+          8
+        ],
+        [
+          296,
+          680,
+          2,
+          2,
+          3
+        ],
+        [
+          399,
+          750,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1577,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        100,
+        140
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        116,
+        117
+      ],
+      "time_sec": 3.8666666666666667,
+      "boxes_native": [
+        [
+          342,
+          632,
+          2,
+          2,
+          4
+        ],
+        [
+          258,
+          696,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 649,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        100,
+        140
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        118,
+        119
+      ],
+      "time_sec": 3.933333333333333,
+      "boxes_native": [
+        [
+          340,
+          702,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 648,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        100,
+        140
+      ],
+      "adjacent_background_pixels": 22
+    },
+    {
+      "frames": [
+        120,
+        121
+      ],
+      "time_sec": 4.0,
+      "boxes_native": [],
+      "changed_pixels": 484,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        100,
+        140
+      ],
+      "adjacent_background_pixels": 20
+    },
+    {
+      "frames": [
+        122,
+        123
+      ],
+      "time_sec": 4.066666666666666,
+      "boxes_native": [
+        [
+          328,
+          634,
+          4,
+          2,
+          5
+        ],
+        [
+          256,
+          672,
+          2,
+          2,
+          4
+        ],
+        [
+          226,
+          738,
+          4,
+          5,
+          13
+        ],
+        [
+          229,
+          743,
+          1,
+          1,
+          1
+        ],
+        [
+          226,
+          744,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 464,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        140,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        124,
+        125
+      ],
+      "time_sec": 4.133333333333334,
+      "boxes_native": [
+        [
+          256,
+          670,
+          2,
+          4,
+          8
+        ],
+        [
+          232,
+          710,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 546,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        140,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        126,
+        127
+      ],
+      "time_sec": 4.2,
+      "boxes_native": [
+        [
+          256,
+          670,
+          4,
+          4,
+          12
+        ],
+        [
+          262,
+          694,
+          1,
+          3,
+          3
+        ],
+        [
+          260,
+          700,
+          1,
+          1,
+          1
+        ],
+        [
+          240,
+          704,
+          10,
+          14,
+          52
+        ],
+        [
+          258,
+          704,
+          1,
+          2,
+          2
+        ],
+        [
+          254,
+          708,
+          3,
+          3,
+          7
+        ],
+        [
+          252,
+          712,
+          4,
+          9,
+          16
+        ],
+        [
+          239,
+          718,
+          1,
+          1,
+          1
+        ],
+        [
+          238,
+          719,
+          1,
+          1,
+          1
+        ],
+        [
+          234,
+          726,
+          2,
+          2,
+          4
+        ],
+        [
+          246,
+          736,
+          1,
+          3,
+          3
+        ],
+        [
+          244,
+          744,
+          1,
+          1,
+          1
+        ],
+        [
+          242,
+          750,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 1358,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        140,
+        150,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        128,
+        129
+      ],
+      "time_sec": 4.266666666666667,
+      "boxes_native": [
+        [
+          321,
+          634,
+          1,
+          1,
+          1
+        ],
+        [
+          335,
+          640,
+          1,
+          1,
+          1
+        ],
+        [
+          264,
+          668,
+          14,
+          14,
+          83
+        ],
+        [
+          256,
+          670,
+          3,
+          4,
+          9
+        ],
+        [
+          259,
+          670,
+          1,
+          1,
+          1
+        ],
+        [
+          264,
+          683,
+          1,
+          1,
+          1
+        ],
+        [
+          258,
+          690,
+          2,
+          2,
+          4
+        ],
+        [
+          240,
+          704,
+          8,
+          14,
+          48
+        ],
+        [
+          244,
+          748,
+          2,
+          2,
+          3
+        ],
+        [
+          248,
+          748,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 2161,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        140,
+        150,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        130,
+        131
+      ],
+      "time_sec": 4.333333333333333,
+      "boxes_native": [
+        [
+          264,
+          668,
+          14,
+          16,
+          92
+        ],
+        [
+          258,
+          688,
+          4,
+          2,
+          8
+        ],
+        [
+          240,
+          704,
+          8,
+          12,
+          44
+        ]
+      ],
+      "changed_pixels": 1888,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        120,
+        140,
+        150,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        132,
+        133
+      ],
+      "time_sec": 4.4,
+      "boxes_native": [
+        [
+          342,
+          634,
+          2,
+          1,
+          2
+        ],
+        [
+          361,
+          647,
+          1,
+          5,
+          5
+        ],
+        [
+          264,
+          668,
+          14,
+          14,
+          80
+        ],
+        [
+          258,
+          686,
+          6,
+          6,
+          24
+        ],
+        [
+          246,
+          740,
+          1,
+          3,
+          3
+        ],
+        [
+          244,
+          744,
+          1,
+          3,
+          3
+        ],
+        [
+          240,
+          748,
+          4,
+          7,
+          15
+        ],
+        [
+          238,
+          758,
+          1,
+          1,
+          1
+        ],
+        [
+          236,
+          762,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 2005,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        120,
+        150,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        134,
+        135
+      ],
+      "time_sec": 4.466666666666667,
+      "boxes_native": [
+        [
+          288,
+          676,
+          2,
+          2,
+          4
+        ],
+        [
+          284,
+          680,
+          2,
+          2,
+          4
+        ],
+        [
+          288,
+          686,
+          1,
+          1,
+          1
+        ],
+        [
+          246,
+          730,
+          2,
+          4,
+          8
+        ],
+        [
+          248,
+          738,
+          1,
+          1,
+          1
+        ],
+        [
+          246,
+          740,
+          1,
+          3,
+          3
+        ],
+        [
+          244,
+          744,
+          1,
+          2,
+          2
+        ],
+        [
+          242,
+          748,
+          1,
+          2,
+          2
+        ],
+        [
+          240,
+          750,
+          2,
+          5,
+          7
+        ],
+        [
+          238,
+          758,
+          1,
+          1,
+          1
+        ],
+        [
+          236,
+          762,
+          1,
+          3,
+          3
+        ],
+        [
+          234,
+          766,
+          1,
+          3,
+          3
+        ]
+      ],
+      "changed_pixels": 1938,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        120,
+        150,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        136,
+        137
+      ],
+      "time_sec": 4.533333333333333,
+      "boxes_native": [
+        [
+          254,
+          708,
+          2,
+          4,
+          8
+        ],
+        [
+          256,
+          708,
+          6,
+          8,
+          17
+        ],
+        [
+          382,
+          724,
+          2,
+          2,
+          4
+        ],
+        [
+          236,
+          746,
+          1,
+          2,
+          2
+        ],
+        [
+          234,
+          750,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 1439,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        150,
+        120,
+        170,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        138,
+        139
+      ],
+      "time_sec": 4.6,
+      "boxes_native": [
+        [
+          360,
+          688,
+          10,
+          16,
+          52
+        ],
+        [
+          382,
+          722,
+          2,
+          4,
+          8
+        ]
+      ],
+      "changed_pixels": 1229,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        150,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        140,
+        141
+      ],
+      "time_sec": 4.666666666666667,
+      "boxes_native": [
+        [
+          362,
+          688,
+          8,
+          14,
+          40
+        ],
+        [
+          382,
+          720,
+          2,
+          6,
+          12
+        ],
+        [
+          224,
+          760,
+          1,
+          5,
+          5
+        ]
+      ],
+      "changed_pixels": 503,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        150,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        142,
+        143
+      ],
+      "time_sec": 4.733333333333333,
+      "boxes_native": [
+        [
+          282,
+          652,
+          1,
+          1,
+          1
+        ],
+        [
+          362,
+          688,
+          8,
+          16,
+          48
+        ],
+        [
+          232,
+          730,
+          1,
+          2,
+          2
+        ],
+        [
+          226,
+          744,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 956,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        150,
+        160,
+        120,
+        170,
+        178
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        144,
+        145
+      ],
+      "time_sec": 4.8,
+      "boxes_native": [
+        [
+          282,
+          652,
+          1,
+          1,
+          1
+        ],
+        [
+          238,
+          718,
+          2,
+          2,
+          4
+        ],
+        [
+          242,
+          720,
+          1,
+          2,
+          2
+        ],
+        [
+          236,
+          722,
+          2,
+          4,
+          8
+        ],
+        [
+          234,
+          724,
+          1,
+          1,
+          1
+        ],
+        [
+          240,
+          724,
+          1,
+          3,
+          3
+        ],
+        [
+          234,
+          726,
+          2,
+          2,
+          4
+        ],
+        [
+          232,
+          730,
+          2,
+          4,
+          8
+        ],
+        [
+          226,
+          742,
+          2,
+          4,
+          7
+        ],
+        [
+          230,
+          760,
+          1,
+          5,
+          5
+        ]
+      ],
+      "changed_pixels": 1145,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        140,
+        150,
+        160,
+        120,
+        170,
+        178
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        146,
+        147
+      ],
+      "time_sec": 4.866666666666666,
+      "boxes_native": [
+        [
+          240,
+          714,
+          2,
+          4,
+          8
+        ],
+        [
+          239,
+          718,
+          1,
+          1,
+          1
+        ],
+        [
+          238,
+          719,
+          1,
+          1,
+          1
+        ],
+        [
+          234,
+          720,
+          4,
+          10,
+          23
+        ],
+        [
+          238,
+          754,
+          1,
+          5,
+          5
+        ]
+      ],
+      "changed_pixels": 1376,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        150,
+        140,
+        160,
+        170,
+        120,
+        178,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        148,
+        149
+      ],
+      "time_sec": 4.933333333333334,
+      "boxes_native": [
+        [
+          343,
+          670,
+          1,
+          1,
+          1
+        ],
+        [
+          365,
+          702,
+          1,
+          1,
+          1
+        ],
+        [
+          240,
+          712,
+          4,
+          6,
+          16
+        ],
+        [
+          238,
+          718,
+          2,
+          1,
+          2
+        ],
+        [
+          234,
+          721,
+          4,
+          9,
+          22
+        ],
+        [
+          230,
+          734,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 1256,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        150,
+        140,
+        160,
+        170,
+        120,
+        178,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        150,
+        151
+      ],
+      "time_sec": 5.0,
+      "boxes_native": [
+        [
+          276,
+          684,
+          4,
+          4,
+          16
+        ],
+        [
+          240,
+          710,
+          6,
+          8,
+          24
+        ],
+        [
+          238,
+          718,
+          2,
+          2,
+          4
+        ],
+        [
+          234,
+          720,
+          4,
+          8,
+          20
+        ],
+        [
+          230,
+          734,
+          2,
+          2,
+          4
+        ],
+        [
+          248,
+          734,
+          1,
+          2,
+          2
+        ]
+      ],
+      "changed_pixels": 910,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        150,
+        140,
+        170,
+        178,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        152,
+        153
+      ],
+      "time_sec": 5.066666666666666,
+      "boxes_native": [
+        [
+          359,
+          644,
+          1,
+          1,
+          1
+        ],
+        [
+          276,
+          684,
+          4,
+          4,
+          12
+        ],
+        [
+          242,
+          746,
+          2,
+          4,
+          6
+        ],
+        [
+          234,
+          760,
+          4,
+          4,
+          9
+        ]
+      ],
+      "changed_pixels": 925,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        150,
+        160,
+        140,
+        170,
+        178,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        154,
+        155
+      ],
+      "time_sec": 5.133333333333334,
+      "boxes_native": [],
+      "changed_pixels": 811,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        150,
+        160,
+        140,
+        170,
+        178,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        156,
+        157
+      ],
+      "time_sec": 5.2,
+      "boxes_native": [],
+      "changed_pixels": 695,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        160,
+        150,
+        170,
+        178,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        158,
+        159
+      ],
+      "time_sec": 5.266666666666667,
+      "boxes_native": [
+        [
+          314,
+          644,
+          1,
+          1,
+          1
+        ],
+        [
+          360,
+          670,
+          2,
+          2,
+          4
+        ],
+        [
+          370,
+          706,
+          2,
+          4,
+          8
+        ]
+      ],
+      "changed_pixels": 432,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        160,
+        150,
+        170,
+        140,
+        178,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        160,
+        161
+      ],
+      "time_sec": 5.333333333333333,
+      "boxes_native": [
+        [
+          334,
+          634,
+          1,
+          1,
+          1
+        ],
+        [
+          308,
+          646,
+          3,
+          2,
+          5
+        ],
+        [
+          347,
+          648,
+          1,
+          1,
+          1
+        ],
+        [
+          346,
+          650,
+          6,
+          12,
+          34
+        ],
+        [
+          339,
+          670,
+          1,
+          2,
+          2
+        ],
+        [
+          366,
+          708,
+          6,
+          4,
+          16
+        ],
+        [
+          368,
+          712,
+          2,
+          4,
+          8
+        ],
+        [
+          216,
+          766,
+          2,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 805,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        160,
+        150,
+        170,
+        178,
+        140,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        162,
+        163
+      ],
+      "time_sec": 5.4,
+      "boxes_native": [
+        [
+          264,
+          672,
+          1,
+          1,
+          1
+        ],
+        [
+          366,
+          708,
+          6,
+          6,
+          28
+        ],
+        [
+          220,
+          760,
+          2,
+          2,
+          4
+        ],
+        [
+          223,
+          760,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 1159,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        160,
+        170,
+        150,
+        178,
+        140,
+        120,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        164,
+        165
+      ],
+      "time_sec": 5.466666666666667,
+      "boxes_native": [
+        [
+          329,
+          657,
+          1,
+          1,
+          1
+        ],
+        [
+          226,
+          752,
+          1,
+          1,
+          1
+        ],
+        [
+          220,
+          760,
+          4,
+          2,
+          8
+        ]
+      ],
+      "changed_pixels": 1291,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        160,
+        170,
+        150,
+        178,
+        140,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        166,
+        167
+      ],
+      "time_sec": 5.533333333333333,
+      "boxes_native": [
+        [
+          312,
+          636,
+          6,
+          4,
+          20
+        ]
+      ],
+      "changed_pixels": 1396,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        170,
+        160,
+        178,
+        150,
+        140,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        168,
+        169
+      ],
+      "time_sec": 5.6,
+      "boxes_native": [
+        [
+          319,
+          638,
+          1,
+          1,
+          1
+        ],
+        [
+          264,
+          688,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 699,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        170,
+        160,
+        178,
+        150,
+        140,
+        120,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        170,
+        171
+      ],
+      "time_sec": 5.666666666666667,
+      "boxes_native": [],
+      "changed_pixels": 360,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        170,
+        178,
+        160,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        172,
+        173
+      ],
+      "time_sec": 5.733333333333333,
+      "boxes_native": [
+        [
+          353,
+          658,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 325,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        170,
+        178,
+        160,
+        150,
+        120
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        174,
+        175
+      ],
+      "time_sec": 5.8,
+      "boxes_native": [
+        [
+          321,
+          632,
+          1,
+          1,
+          1
+        ],
+        [
+          323,
+          632,
+          3,
+          2,
+          4
+        ],
+        [
+          300,
+          658,
+          2,
+          2,
+          4
+        ],
+        [
+          296,
+          660,
+          4,
+          6,
+          16
+        ]
+      ],
+      "changed_pixels": 422,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        170,
+        178,
+        160,
+        150,
+        120,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        176,
+        177
+      ],
+      "time_sec": 5.866666666666666,
+      "boxes_native": [
+        [
+          324,
+          638,
+          1,
+          1,
+          1
+        ],
+        [
+          296,
+          658,
+          6,
+          8,
+          24
+        ],
+        [
+          306,
+          662,
+          2,
+          2,
+          3
+        ],
+        [
+          304,
+          664,
+          2,
+          2,
+          3
+        ],
+        [
+          297,
+          670,
+          3,
+          2,
+          4
+        ]
+      ],
+      "changed_pixels": 402,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        178,
+        170,
+        160,
+        150,
+        120,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    },
+    {
+      "frames": [
+        178,
+        179
+      ],
+      "time_sec": 5.933333333333334,
+      "boxes_native": [
+        [
+          347,
+          638,
+          1,
+          1,
+          1
+        ],
+        [
+          304,
+          654,
+          1,
+          1,
+          1
+        ]
+      ],
+      "changed_pixels": 325,
+      "protected_native_body_pixels_changed": 0,
+      "face_changed": 0,
+      "donors": [
+        178,
+        170,
+        160,
+        150,
+        120,
+        100
+      ],
+      "adjacent_background_pixels": 0
+    }
+  ],
+  "decoded_pair_mismatches": [],
+  "review": "pending actual native visual inspection"
+}

@@ -1,0 +1,277 @@
+{
+  "source": "clips/02-scene-omni-v6-particle-free-v2.mp4",
+  "output": "clips/02-scene-omni-v6-particle-free-v3.mp4",
+  "sha256": "54d8423153bad5c30c6bb6e1adbd7ae0bcbba0746e1b45a3555e08096c4766da",
+  "method": "Remove pre-separation flare buds only inside known emission-track regions. Protect registered clean body-core silhouettes from neighboring post-release frames; restore native same-take background. No changes to face/limbs or pixels below900; original native body wiggle retained elsewhere.",
+  "frames": 180,
+  "decoded_pair_mismatches": [],
+  "repairs": [
+    {
+      "frames": [
+        36,
+        37
+      ],
+      "time_sec": 1.2,
+      "repair_pixels": 7730,
+      "background_donors": [
+        40,
+        20,
+        80,
+        100,
+        140,
+        150
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        38,
+        39
+      ],
+      "time_sec": 1.2666666666666666,
+      "repair_pixels": 8148,
+      "background_donors": [
+        40,
+        20,
+        80,
+        100,
+        140,
+        150,
+        170
+      ],
+      "adjacent_background_pixels": 2,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        40,
+        41
+      ],
+      "time_sec": 1.3333333333333333,
+      "repair_pixels": 5256,
+      "background_donors": [
+        40,
+        20,
+        80,
+        100,
+        140,
+        150,
+        170
+      ],
+      "adjacent_background_pixels": 2,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        64,
+        65
+      ],
+      "time_sec": 2.1333333333333333,
+      "repair_pixels": 7040,
+      "background_donors": [
+        60,
+        80,
+        40,
+        100,
+        20,
+        140,
+        150,
+        170
+      ],
+      "adjacent_background_pixels": 7,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        66,
+        67
+      ],
+      "time_sec": 2.2,
+      "repair_pixels": 7582,
+      "background_donors": [
+        60,
+        80,
+        40,
+        100,
+        20,
+        140,
+        150,
+        170
+      ],
+      "adjacent_background_pixels": 41,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        68,
+        69
+      ],
+      "time_sec": 2.2666666666666666,
+      "repair_pixels": 8232,
+      "background_donors": [
+        60,
+        80,
+        40,
+        100,
+        20,
+        140,
+        150,
+        170
+      ],
+      "adjacent_background_pixels": 94,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        96,
+        97
+      ],
+      "time_sec": 3.2,
+      "repair_pixels": 5686,
+      "background_donors": [
+        100,
+        80,
+        140,
+        150,
+        20
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        98,
+        99
+      ],
+      "time_sec": 3.2666666666666666,
+      "repair_pixels": 5966,
+      "background_donors": [
+        100,
+        80,
+        140,
+        150,
+        20
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        100,
+        101
+      ],
+      "time_sec": 3.3333333333333335,
+      "repair_pixels": 3479,
+      "background_donors": [
+        100,
+        80,
+        140,
+        150,
+        20
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        124,
+        125
+      ],
+      "time_sec": 4.133333333333334,
+      "repair_pixels": 8688,
+      "background_donors": [
+        120,
+        140,
+        100,
+        150,
+        170,
+        20
+      ],
+      "adjacent_background_pixels": 43,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        126,
+        127
+      ],
+      "time_sec": 4.2,
+      "repair_pixels": 8728,
+      "background_donors": [
+        120,
+        140,
+        150,
+        100,
+        170,
+        20
+      ],
+      "adjacent_background_pixels": 7,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        128,
+        129
+      ],
+      "time_sec": 4.266666666666667,
+      "repair_pixels": 8501,
+      "background_donors": [
+        120,
+        140,
+        150,
+        100,
+        20
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        166,
+        167
+      ],
+      "time_sec": 5.533333333333333,
+      "repair_pixels": 3096,
+      "background_donors": [
+        170,
+        160,
+        178,
+        150
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        168,
+        169
+      ],
+      "time_sec": 5.6,
+      "repair_pixels": 2799,
+      "background_donors": [
+        170,
+        160,
+        178,
+        150
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        170,
+        171
+      ],
+      "time_sec": 5.666666666666667,
+      "repair_pixels": 531,
+      "background_donors": [
+        170,
+        178
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    }
+  ],
+  "review": "REJECTED local contour experiment. Never selected or delivered; v2 stays selected pending native-scale gap analysis."
+}
