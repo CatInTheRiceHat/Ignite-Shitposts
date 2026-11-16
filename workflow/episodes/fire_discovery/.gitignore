@@ -1,0 +1,5 @@
+# Local generated footage and extracted review images; retain JSON receipts.
+clips/**/*.mp4
+reviews/**/*.jpg
+reviews/**/*.png
+reviews/**/*.webp

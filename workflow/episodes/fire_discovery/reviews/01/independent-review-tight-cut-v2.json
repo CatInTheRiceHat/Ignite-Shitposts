@@ -1,0 +1,247 @@
+{
+  "packet_id": "ae68ff30ef5cd40da2485e78c90d569bb46db16d3482b3429f17dc74da895716",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "edited_source_visual_and_measured_trimmed_voice_cue_alignment",
+  "method": "Freshly read actual current complete tight-edit storyboard, per-scene context and trimmed audio cues; measured actual retained WAV durations and verified all bound audio hashes. Opened every current chronological page (4 pages, 70 frames). Independently decoded RGB framemd5 for the current clip and preserved prior source and verified exact subset 0-69, along with 35 identical adjacent pairs and all manifest/reference/endpoint/script/cue bindings. Reused previously inspected native geometry/identity/paint/contact details only because the retained decoded pixels are exactly unchanged; prior report is reviews/01/independent-review-preferred-v3-particle-free-voice-v1.json. The original still approvals are not recreated or inferred. Frame-based review only: no new real-time playback or manual listening. No source edits, media generation or policy changes.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "The retained native source keeps the original compact filled flame, coherent red/orange/cream contours, low close navy eyes and tiny red limbs. It stays mouthless in every retained pose; the earlier full native face audit covers all these exact retained frames.",
+      "timestamps_sec": [
+        0,
+        0.666667,
+        0.733333,
+        0.833333,
+        0.866667,
+        1,
+        1.5,
+        2,
+        2.266667,
+        2.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Normal tall close-spaced navy ovals remain outside the one short natural blink: narrowing around .667, closed around .733-.833, original open ovals restored by .867 seconds. No third facial mark or independent eye drift appears. Fine pale edge enhancement remains a paint caveat, not an internal white/highlight design.",
+      "timestamps_sec": [
+        0,
+        0.666667,
+        0.733333,
+        0.833333,
+        0.866667,
+        1,
+        1.5,
+        2,
+        2.266667,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "All 70 frames retain one continuous compact filled mascot; gentle tip/lobe wiggle stays attached, with no Sol particles, holes, split layers or remodeled limbs. Both feet and arm nubs keep their short reference anatomy.",
+      "timestamps_sec": [
+        0,
+        0.666667,
+        0.733333,
+        0.833333,
+        0.866667,
+        1,
+        1.5,
+        2,
+        2.266667,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Same fixed full-body Sol-left and separate burning bough-right source framing, stable clearing/trunk landmarks and quiet lower foreground. No crop change, extra character or prop appears.",
+      "timestamps_sec": [
+        0,
+        1,
+        2,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "One wood-side arm lift with connected body/tip wiggle, the other arm quiet and both feet supported throughout. The gesture settles into the raised state around 2.267 seconds before the 2.333-second cut. No extra step, hop or skating.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2.266667,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Consecutive states show the intended lowered-to-outward/raised arm path and settled ending. Actual wood fire changes upward from the same fuel region, separate from Sol; no reversed action or unplanned mechanism.",
+      "timestamps_sec": [
+        0,
+        1,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "One Sol, same bough/fuel/stones and stationary setting remain. No Sol-owned detached particle appears. Only the separate fuel-rooted wood fire changes its upper shapes/local warmth; no material global pulse.",
+      "timestamps_sec": [
+        0,
+        1,
+        1.5,
+        2,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "The trim starts in the approved lowered-arm state and ends with the intended small raised presenting arm, open original ovals and planted feet. It cuts the prior source tail while continuing a valid held action state; this is the documented editorial trim, not a replacement still approval.",
+      "timestamps_sec": [
+        0,
+        2.266667,
+        2.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Independently decoded 70 frames/35 exact pairs, zero mismatches. RGB frame hashes match the prior passed source subset 0-69 exactly; no new pixels, interpolation or speed change. Actual trimmed Sol WAV is 1.8063125 seconds, placed .08-1.8863125 at 1x. Word cues put discovered at .579292-1.059292 and fire at 1.059292-1.519292. The presenting lift overlaps the question; its connected wiggle settles by about 2.267 before the 2.333-second cut. No Narrator turn occurs here, so no upward listening requirement is invented.",
+      "timestamps_sec": [
+        0,
+        1,
+        2.3
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All 70 retained chronological frames preserve the clean source content: no unintended text/logo/watermark, extra speaker/prop or generated audio. Sol stays mouthless and emits no particles.",
+      "timestamps_sec": [
+        0,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Retained RGB pixels exactly match the previously inspected native painted source. Matte layered color, brush-shaped regions and paper/pigment texture remain; the earlier thin contour enhancement/pale rims and denser etched surface detail versus the softer PNGs remain documented limitations. No new style processing or glossy/vector redraw was introduced by the trim.",
+      "timestamps_sec": [
+        0,
+        2.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Freshly read the complete updated tight-edit script, this scene context and actual trimmed WAV/word cues. Actual trimmed Sol WAV is 1.8063125 seconds, placed .08-1.8863125 at 1x. Word cues put discovered at .579292-1.059292 and fire at 1.059292-1.519292. The presenting lift overlaps the question; its connected wiggle settles by about 2.267 before the 2.333-second cut. No Narrator turn occurs here, so no upward listening requirement is invented. This is source-frame/measured-cue alignment; no manual listening or unseen final mixed playback is claimed.",
+      "timestamps_sec": [
+        0,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    }
+  },
+  "summary": "PASS current tighter edited source and measured trimmed-voice context. One presenting lift, mouthless particle-free Sol, supported feet and attached wiggle remain valid. The shorter clip retains the complete spoken file(s) at normal speed and complete two-frame holds. Original paint/prop caveats remain; final mixed playback, captions/outline, editorial pushes/crops and sound listening are separate checks.",
+  "inspection_reuse": {
+    "prior_report": "reviews/01/independent-review-preferred-v3-particle-free-voice-v1.json",
+    "decoded_source_subset_exact": true,
+    "source_first_frame": 0,
+    "source_last_frame": 69,
+    "current_frames": 70,
+    "current_exact_pairs": 35,
+    "pair_mismatches": 0,
+    "all_manifest_and_binding_hashes_match": true,
+    "proof": "reviews/tight-cut-v2-video-trims.json",
+    "playback_performed": false,
+    "manual_listening_performed": false
+  },
+  "deferred_final_checks": [
+    "Actual final assembled cut playback and manual sound listening",
+    "Final captions/12px orange outline, mix levels and rendered synchronization",
+    "Smooth editorial pushes/crops and cross-scene transitions"
+  ]
+}
