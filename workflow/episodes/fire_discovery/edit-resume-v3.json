@@ -1,0 +1,353 @@
+{
+  "id": "fire-discovery",
+  "title": "How Fire Was Discovered",
+  "hook": "How Fire Was Discovered",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "layout": "fullscreen",
+  "assets": {
+    "paper": "art/ignite/painted-style-reference.jpg",
+    "font": "fonts/RammettoOne-Regular.ttf"
+  },
+  "palette": {
+    "paper": "#FFF8F0",
+    "ink": "#1A1A2E",
+    "teal": "#4F9298",
+    "orange": "#F07B2A"
+  },
+  "captionStyle": {
+    "fontSize": 56,
+    "fill": "#FFFFFF",
+    "outline": "#F07B2A",
+    "outlineWidth": 12,
+    "leftPercent": 10,
+    "rightPercent": 16,
+    "topPercent": 80
+  },
+  "shots": [
+    {
+      "id": "01",
+      "label": "Scene 01",
+      "duration": 2.3333333333333335,
+      "scene": {
+        "type": "video",
+        "src": "clips/edit-v2/01-tight.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1,
+        "trimBefore": 0
+      }
+    },
+    {
+      "id": "02",
+      "label": "Scene 02",
+      "duration": 4.8,
+      "scene": {
+        "type": "video",
+        "src": "clips/edit-v3/02-clean-holds-v3.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1,
+        "editorialPush": {
+          "start": 0.25,
+          "end": 2.5,
+          "fromScale": 1,
+          "toScale": 1.2,
+          "anchorXPercent": 50,
+          "anchorYPercent": 56
+        },
+        "trimBefore": 0
+      }
+    },
+    {
+      "id": "03",
+      "label": "Scene 03",
+      "duration": 5.666666666666667,
+      "scene": {
+        "type": "video",
+        "src": "clips/edit-v2/03-tight.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1,
+        "editorialPush": {
+          "start": 2.3,
+          "end": 4.2,
+          "fromScale": 1,
+          "toScale": 1.1,
+          "anchorXPercent": 65,
+          "anchorYPercent": 62
+        },
+        "trimBefore": 0
+      }
+    },
+    {
+      "id": "04",
+      "label": "Scene 04",
+      "duration": 6.6,
+      "scene": {
+        "type": "video",
+        "src": "clips/edit-v2/04-tight.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1,
+        "trimBefore": 0
+      }
+    },
+    {
+      "id": "05",
+      "label": "Scene 05",
+      "duration": 4.466666666666667,
+      "scene": {
+        "type": "video",
+        "src": "clips/edit-v3/05-clean-holds-v3.mp4",
+        "fit": "contain",
+        "muted": true,
+        "playbackRate": 1,
+        "trimBefore": 0
+      }
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.08,
+      "end": 1.846313,
+      "text": "Who actually discovered fire?"
+    },
+    {
+      "start": 3.133333,
+      "end": 3.779895,
+      "text": "We don't know."
+    },
+    {
+      "start": 4.219895,
+      "end": 5.439896,
+      "text": "Natural fires existed"
+    },
+    {
+      "start": 5.439896,
+      "end": 6.889063,
+      "text": "long before people."
+    },
+    {
+      "start": 7.213333,
+      "end": 8.930042,
+      "text": "Like when lightning hits a tree?"
+    },
+    {
+      "start": 9.133333,
+      "end": 9.583333,
+      "text": "Yes."
+    },
+    {
+      "start": 9.689521,
+      "end": 11.309521,
+      "text": "Lightning's heat can set"
+    },
+    {
+      "start": 11.309521,
+      "end": 12.506687,
+      "text": "dry wood alight."
+    },
+    {
+      "start": 12.88,
+      "end": 14.12,
+      "text": "Our ancestors could keep"
+    },
+    {
+      "start": 14.12,
+      "end": 14.82,
+      "text": "embers glowing"
+    },
+    {
+      "start": 14.82,
+      "end": 16.36,
+      "text": "by feeding them wood."
+    },
+    {
+      "start": 16.650646,
+      "end": 17.650646,
+      "text": "Making fire themselves"
+    },
+    {
+      "start": 17.650646,
+      "end": 19.143688,
+      "text": "was a different skill."
+    },
+    {
+      "start": 19.48,
+      "end": 21.027208,
+      "text": "So finding fire wasn't"
+    },
+    {
+      "start": 21.027208,
+      "end": 22.273604,
+      "text": "the same as making it."
+    },
+    {
+      "start": 23.4,
+      "end": 23.85,
+      "text": "Right."
+    }
+  ],
+  "voiceover": null,
+  "audioTracks": [
+    {
+      "id": "01-01-sol",
+      "speaker": "Sol",
+      "src": "audio/trimmed-v2/01-01-sol.wav",
+      "start": 0.08,
+      "duration": 1.8063125,
+      "trimBefore": 0,
+      "volume": 1.84007,
+      "playbackRate": 1,
+      "source_sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    {
+      "id": "02-01-narrator",
+      "speaker": "Narrator",
+      "src": "audio/trimmed-v2/02-01-narrator.wav",
+      "start": 3.133333,
+      "duration": 3.795729166666667,
+      "trimBefore": 0,
+      "volume": 0.36391,
+      "playbackRate": 1,
+      "source_sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    {
+      "id": "03-01-sol",
+      "speaker": "Sol",
+      "src": "audio/trimmed-v2/03-01-sol.wav",
+      "start": 7.213333,
+      "duration": 1.7567083333333333,
+      "trimBefore": 0,
+      "volume": 2,
+      "playbackRate": 1,
+      "source_sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    {
+      "id": "03-02-narrator",
+      "speaker": "Narrator",
+      "src": "audio/trimmed-v2/03-02-narrator.wav",
+      "start": 9.133333,
+      "duration": 3.4133541666666667,
+      "trimBefore": 0,
+      "volume": 0.37165,
+      "playbackRate": 1,
+      "source_sha256": "bc147c6b5672e154d42aaa7cc5b093eaa06349a4c00fb991000c9a5e362b9dd2"
+    },
+    {
+      "id": "04-01-narrator",
+      "speaker": "Narrator",
+      "src": "audio/trimmed-v2/04-01-narrator.wav",
+      "start": 12.88,
+      "duration": 6.3036875,
+      "trimBefore": 0,
+      "volume": 0.37235,
+      "playbackRate": 1,
+      "source_sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    {
+      "id": "05-01-sol",
+      "speaker": "Sol",
+      "src": "audio/trimmed-v2/05-01-sol.wav",
+      "start": 19.48,
+      "duration": 2.8336041666666665,
+      "trimBefore": 0,
+      "volume": 1.85507,
+      "playbackRate": 1,
+      "source_sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    {
+      "id": "05-02-narrator",
+      "speaker": "Narrator",
+      "src": "audio/trimmed-v2/05-02-narrator.wav",
+      "start": 23.4,
+      "duration": 0.3121041666666667,
+      "trimBefore": 0,
+      "volume": 0.597,
+      "playbackRate": 1,
+      "source_sha256": "b404b3e39c7ede40c82978288622356e57a7ff87b15b89f8edd4feb4552e4ae8"
+    },
+    {
+      "id": "music-bed-v2",
+      "speaker": "Music",
+      "src": "audio/fire-music-bed-v2.wav",
+      "start": 0,
+      "duration": 23.6,
+      "trimBefore": 0,
+      "volume": 0.25,
+      "playbackRate": 1,
+      "source_sha256": "a3026760b1bfbbe911dd22f257db21fdacdf708097912cb736118a77b4ccd8a8"
+    }
+  ],
+  "generation": {
+    "schema_version": 1,
+    "provider": "Higgsfield",
+    "image": {
+      "model": "nano_banana_2_1",
+      "display_name": "Nano Banana 2.1",
+      "resolution": "2k",
+      "thinking_level": "medium",
+      "aspect_ratio": "9:16",
+      "count": 1
+    },
+    "video": {
+      "model": "gemini_omni_flash_1_2",
+      "display_name": "Gemini Omni Flash 1.2",
+      "mode": "image-to-video",
+      "resolution": "1080p",
+      "aspect_ratio": "9:16",
+      "count": 1,
+      "required_input_roles": [
+        "start_image",
+        "end_image"
+      ],
+      "paired_frame_duration_sec": {
+        "min": 3,
+        "max": 10
+      },
+      "native_audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+    },
+    "production_order": [
+      "Generate first and last stills for a scene.",
+      "Show BOTH actual stills to the user and obtain explicit approval of that exact pair.",
+      "Pass the frame gate, then animate the approved pair using Gemini Omni Flash 1.2.",
+      "Run independent clip review against the approved pair, scene contract and original lantern reference.",
+      "Use only passing clips in production. Preserve failed and uncertain takes."
+    ],
+    "no_automatic_model_fallback": true,
+    "verification": "Nano Banana 2.1 image ID, reference inputs, 2k/9:16 and supported settings verified with Higgsfield models_get on 2026-11-14. Omni Flash 1.2 video ID, paired-frame roles, 3\u201310 second limit and 1080p output verified with Higgsfield models_search.",
+    "character_references_config": "sol-references.json"
+  },
+  "cast": {
+    "Sol": {
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice": "Sol",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1
+    },
+    "Narrator": {
+      "provider": "Higgsfield",
+      "voice": "Arthur",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+    }
+  },
+  "timing": {
+    "confirmed": false,
+    "note": "716-frame/23.8667s review cut. Original normal-rate trimmed dialogue; final Narrator onset moved to scene05 local4.0s after upward tilt. Native background cleanup plus inspected complete-pair holds remove residual Sol flecks. Final audiovisual review pending."
+  }
+}

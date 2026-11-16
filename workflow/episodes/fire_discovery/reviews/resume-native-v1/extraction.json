@@ -1,0 +1,26 @@
+{
+  "02": {
+    "source": "workflow/episodes/fire_discovery/clips/02-scene-omni-v6-particle-free-native-v1.mp4",
+    "sha256": "5711f3e9672088d82249e37a0132567ef695aa9dc1a6e20124ff19ab741e5e95",
+    "frames": 180,
+    "pair_mismatches": [],
+    "sheets": [
+      "02-sequence-00.jpg",
+      "02-sequence-01.jpg",
+      "02-sequence-02.jpg",
+      "02-sequence-03.jpg"
+    ]
+  },
+  "05": {
+    "source": "workflow/episodes/fire_discovery/clips/05-scene-omni-v6-particle-free-native-v1.mp4",
+    "sha256": "c9767b77a1aadd57b3eaeee919a447513654b7e8e3d8b26059bd4d7305ff988a",
+    "frames": 180,
+    "pair_mismatches": [],
+    "sheets": [
+      "05-sequence-00.jpg",
+      "05-sequence-01.jpg",
+      "05-sequence-02.jpg",
+      "05-sequence-03.jpg"
+    ]
+  }
+}

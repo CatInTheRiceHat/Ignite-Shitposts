@@ -1,0 +1,150 @@
+{
+  "source": "clips/05-scene-omni-v6-particle-free-v2.mp4",
+  "output": "clips/05-scene-omni-v6-particle-free-v3.mp4",
+  "sha256": "cfba176950ee99e50114b21f5035e8ee188c1c4484e0a39a47d39c17d28e0baf",
+  "method": "Remove pre-separation flare buds only inside known emission-track regions. Protect registered clean body-core silhouettes from neighboring post-release frames; restore native same-take background. No changes to face/limbs or pixels below900; original native body wiggle retained elsewhere.",
+  "frames": 180,
+  "decoded_pair_mismatches": [],
+  "repairs": [
+    {
+      "frames": [
+        16,
+        17
+      ],
+      "time_sec": 0.5333333333333333,
+      "repair_pixels": 5042,
+      "background_donors": [
+        20,
+        10
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        18,
+        19
+      ],
+      "time_sec": 0.6,
+      "repair_pixels": 7116,
+      "background_donors": [
+        20,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        20,
+        21
+      ],
+      "time_sec": 0.6666666666666666,
+      "repair_pixels": 3663,
+      "background_donors": [
+        20,
+        10,
+        0
+      ],
+      "adjacent_background_pixels": 13,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        40,
+        41
+      ],
+      "time_sec": 1.3333333333333333,
+      "repair_pixels": 3663,
+      "background_donors": [
+        40,
+        20,
+        60,
+        10,
+        100
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        42,
+        43
+      ],
+      "time_sec": 1.4,
+      "repair_pixels": 7399,
+      "background_donors": [
+        40,
+        60,
+        20,
+        10,
+        100
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        44,
+        45
+      ],
+      "time_sec": 1.4666666666666666,
+      "repair_pixels": 7633,
+      "background_donors": [
+        40,
+        60,
+        20,
+        10,
+        100
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        46,
+        47
+      ],
+      "time_sec": 1.5333333333333334,
+      "repair_pixels": 2372,
+      "background_donors": [
+        40,
+        60,
+        20,
+        10,
+        100
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        48,
+        49
+      ],
+      "time_sec": 1.6,
+      "repair_pixels": 983,
+      "background_donors": [
+        40
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    },
+    {
+      "frames": [
+        50,
+        51
+      ],
+      "time_sec": 1.6666666666666667,
+      "repair_pixels": 1233,
+      "background_donors": [
+        40,
+        10
+      ],
+      "adjacent_background_pixels": 0,
+      "face_and_limbs_changed": 0
+    }
+  ],
+  "review": "REJECTED local contour experiment. Never selected or delivered; v2 stays selected pending native-scale gap analysis."
+}
