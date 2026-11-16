@@ -1,74 +1,70 @@
 HOW FIRE WAS DISCOVERED
-Complete script and storyboard — corrected tight23.6-second edit
+Complete script and storyboard — 25.8-second sound review edit
 
-Current delivery uses the same approved endpoints/native Higgsfield animation. All Sol particles are removed from selected02/05 source footage; rejected mouth-bearing01v5 is excluded and selected01v3 is mouthless. No new character poses or paid generation. Original stills/takes and prior33s film are preserved.
-Normal-rate Arthur/custom Sol dialogue: leading/trailing dead air trimmed; long internal silent gaps shortened. No speech-rate, pitch or playback change. Captions use white fill and a visibly stronger12pxorangeoutline.
-Generation prompts still describe original3/6/9/9/6-second input clips. These are source durations; the final edit below trims their quiet beginnings/endings.
+Requested sound updates: the supplied bomboclat-with-thunder clip starts with the lightning strike at9.733333s. A1.2s pause after Yes lets the effect finish before the explanation. Hide and Sneak4 provides audible background music with a dip under the effect and an ending fade.
+The original Right take retains0.9s of its release, and the clean final pose has22 extra held frames. All spoken samples remain at normal speed and1x playback. White captions retain the12px orange outline.
+Mouthless Sol and particle cleanup from the previous review remain. No new generated footage or endpoint approvals. Previous versions are preserved. Consolidated user feedback: feedback.txt.
 
 VISUAL AND CHARACTER DIRECTION
 Match the original Sol artwork: recognizable compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream layer relationships, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both original eye ovals uniformly navy #1C2447, with the normal open-eye design unchanged in shape, size, low placement and close spacing, without highlights, whites, extra pupils or drift. A brief natural blink is allowed, returning promptly to the original open ovals. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Keep the face attached to the body with no separate head or neck. Scripted gaze shifts may move the original ovals coherently as a pair within the face while preserving their normal shape, size and spacing. Settled endpoints retain the reference body form; small coordinated bouncy flame-like flex during the action preserves his recognizable design. Actual wood fire remains separate.
 Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
-Sol is completely mouthless; no detached particles, sparks, droplets or brush-flecks. Keep actual wood fire separate. Gentle connected wiggle, original navy eyes and supported feet; face and all colored layers remain attached.
 
-SCENE 01 — A curious presenting gesture — final edit2.333s (0.000–2.333s)
+SCENE 01 — A curious presenting gesture — edit 2.333s (0.000–2.333s)
 Setting and framing: Medium-wide full-body view at Sol's face height, angled slightly down onto a simple woodland clearing. Sol occupies 36% of frame height at x=28%, with feet at y=74%; a small burning fallen bough is at x=74%, y=67%. Separate foreground earth, a middle-ground charred trunk and distant sage foliage into overlapping painted layers. Keep the lower fifth quiet.
 Lighting: Soft overcast daylight from upper-left; cream earth, muted sage and teal distance, honey-brown wood. The existing wood fire adds only a faint localized warm tint.
 First frame: Sol faces the bough in a shallow three-quarter orientation, both tiny feet planted and short arms lowered. Both original eyes are visible. A clear gap separates his body from the small faceless painted flame rooted on the wood.
 Action: Sol lifts the short arm nearest the burning bough once along a small direct path into the supplied presenting pose while asking his opening question. Keep the arm length and attachment unchanged. Use a gentle connected body/tip wiggle as the arm moves, with feet supported, then settle. The other arm makes no separate gesture.
-Edit source: clips/edit-v2/01-tight.mp4; trim source first0frames and keep70frames. Preserve normal speed and complete two-frame pairs.
+Edit source: clips/edit-v2/01-tight.mp4; 70 frames at30fps. Source starts at frame0; complete-pair selection and normal-speed action.
 Sol: “Who actually discovered fire?”
 Actual edited voice cue, local: 0.080–1.886s; audio/trimmed-v2/01-01-sol.wav
-Last frame / cut: trim the unnecessary tail after the main action and spoken turn. Continue the same held action state; no new stills or poses.
 Narrator attention: {"required": false, "gaze_target": null, "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.", "final_voice_alignment_verified": false, "reason": "Only Sol speaks in this clip; Narrator attention starts in the next scene."}
 
-SCENE 02 — Listening to Arthur — final edit4.800s (2.333–7.133s)
+SCENE 02 — Listening to Arthur — edit 4.800s (2.333–7.133s)
 Setting and framing: Continue the exact Scene 01 source view, with the same Sol, bough, clearing and lighting. Generate at the original medium-wide framing. The tighter response view is an editing-only digital push; endpoint assets remain uncropped.
 Lighting: Keep Scene 01's soft overcast upper-left light and faint warmth immediately around the existing bough fire.
 First frame: Reuse Scene 01's approved last image unchanged: Sol holds one short arm toward the bough, his other arm lowered, feet planted and face directed toward the wood.
 Action: Begin exactly at the approved Scene01 ending. During 0.0–0.7 seconds, lower the presenting arm once along a short direct path and tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera. Establish this listening direction by 0.7 seconds, before Arthur begins at 0.8 seconds. Keep his normal oval eyes, face and layers coherent with that body pitch. Maintain this above-camera attention with quiet attached body/tip wiggle from 0.7 seconds through the ending. Both arms rest at the flanks and both feet stay supported. End in the supplied approved listening pose.
-Edit source: clips/edit-v2/02-tight.mp4; trim source first0frames and keep144frames. Preserve normal speed and complete two-frame pairs.
+Edit source: clips/edit-v3/02-clean-holds-v3.mp4; 144 frames at30fps. Source starts at frame0; complete-pair selection and normal-speed action.
 Narrator: “We don't know. Natural fires existed long before people.”
 Actual edited voice cue, local: 0.800–4.596s; audio/trimmed-v2/02-01-narrator.wav
-Last frame / cut: trim the unnecessary tail after the main action and spoken turn. Continue the same held action state; no new stills or poses.
 Narrator attention: {"required": true, "gaze_target": "Fixed off-screen Narrator point just above camera", "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.", "final_voice_alignment_verified": false, "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.", "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.", "idle": true, "original_eye_design_preserved": true, "planned_lead_in_sec": 0.6, "planned_window": {"start_sec": 0.8, "end_sec": 4.781, "confirmed": true}, "edited_voice_window": {"start_sec": 0.8, "end_sec": 4.595729166666667, "confirmed": true}}
 
-SCENE 03 — Lightning ignites dry wood — final edit5.667s (7.133–12.800s)
+SCENE 03 — Lightning ignites dry wood — edit 6.867s (7.133–14.000s)
 Setting and framing: Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.
 Lighting: At the start use cool diffuse storm daylight only: slate blue-gray clouds, desaturated teal distance and cool brown wood. No fire or warm firelight exists before ignition. After ignition retain the cool ambient light with only a tiny warm reflection at the burning patch.
 First frame: The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.
 Action: Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.
-Edit source: clips/edit-v2/03-tight.mp4; trim source first36frames and keep170frames. Preserve normal speed and complete two-frame pairs.
+Edit source: clips/edit-v4/03-lightning-with-sting-gap.mp4; 206 frames at30fps. Source starts at frame36; complete-pair selection and normal-speed action.
 Sol: “Like when lightning hits a tree?”
 Actual edited voice cue, local: 0.080–1.837s; audio/trimmed-v2/03-01-sol.wav
 Narrator: “Yes. Lightning's heat can set dry wood alight.”
-Actual edited voice cue, local: 2.000–5.413s; audio/trimmed-v2/03-02-narrator.wav
-Last frame / cut: trim the unnecessary tail after the main action and spoken turn. Continue the same held action state; no new stills or poses.
+Actual edited voice cue, local: 2.000–6.613s; audio/sound-v4/03-02-narrator-with-sting-gap.wav
+Editable sound cue: bomboclat-with-thunder.wav begins at local2.400s/global9.533333s; its main impact about0.19s later aligns with the visible lightning pair at local2.600s/global9.733333s. Yes finishes first; the rest of the Narrator line resumes at approximately local3.756s after the effect. The extra1.2s of actual source footage lets the fire keep flickering through the completed explanation.
 Narrator attention: {"required": false, "gaze_target": null, "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.", "final_voice_alignment_verified": false, "reason": "Sol is off-screen during Narrator speech."}
 
-SCENE 04 — Tending existing embers — final edit6.600s (12.800–19.400s)
+SCENE 04 — Tending existing embers — edit 6.600s (14.000–20.600s)
 Setting and framing: Stable close-up from a gently elevated three-quarter angle. A charred bough and ember bed fill the middle half of the frame, with the contact point near x=58%, y=60%. One cropped anonymous human hand enters upper-right, gripping the far end of a single dry twig. Keep the twig tip, coals and supporting surfaces clear; background detail falls into broad cool earth shapes. Keep the lower fifth quiet.
 Lighting: Cool diffuse shade over ash-gray soil and charcoal wood, with small ember-orange accents. Existing embers cast a weak local warm tint on the twig underside and nearby palm. The caught flame strengthens only the local warmth at the end.
 First frame: One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.
 Action: Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.
-Edit source: clips/edit-v2/04-tight.mp4; trim source first0frames and keep198frames. Preserve normal speed and complete two-frame pairs.
+Edit source: clips/edit-v2/04-tight.mp4; 198 frames at30fps. Source starts at frame0; complete-pair selection and normal-speed action.
 Narrator: “Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill.”
 Actual edited voice cue, local: 0.080–6.384s; audio/trimmed-v2/04-01-narrator.wav
-Last frame / cut: trim the unnecessary tail after the main action and spoken turn. Continue the same held action state; no new stills or poses.
 Narrator attention: {"required": false, "gaze_target": null, "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.", "final_voice_alignment_verified": false, "reason": "Sol is off-screen during Narrator speech."}
 
-SCENE 05 — Understanding the distinction — final edit4.200s (19.400–23.600s)
+SCENE 05 — Understanding the distinction — edit 5.200s (20.600–25.800s)
 Setting and framing: Cut wider from Scene 04's camera side to a medium full-body three-quarter view at Sol's face height, angled slightly down. Sol stands left-center at x=32%, 42% of frame height, feet at y=75%; the same tended bough, added twig and small flame remain at right near x=74%, y=67%. Their arrangement and world-space scale stay coherent in the wider view. Give Sol's short arms clear silhouette space and keep the lower fifth quiet.
 Lighting: Use the same cool diffuse clearing shade and localized amber light as Scene 04's ending. Illuminate Sol coherently with that ambient light and only a restrained warm tint on his fire-facing side.
 First frame: Sol stands grounded with both short arms gathered close to his outer flanks, face directed toward the tended fire in a shallow three-quarter orientation. Both original eyes are visible. The same bough, added twig and small separate flame are at right; no human hand is visible.
 Action: Begin from the supplied first pose. During Sol's sentence, open both short arms once into the approved small low gesture of understanding, with gentle attached body/tip wiggle and constant limb lengths. By 3.6 seconds tilt the whole compact body gently backward/up toward the fixed Narrator point just above camera, keeping face and layers coherent. Arthur begins Right at 4.0 seconds. Maintain the above-camera listening orientation, low open arms, supported feet and quiet connected wiggle through his reply and the ending. No separate face turn, body rise, eye squish or particles.
-Edit source: clips/edit-v2/05-tight.mp4; trim source first0frames and keep126frames. Preserve normal speed and complete two-frame pairs.
+Edit source: clips/edit-v4/05-extended-ending.mp4; 156 frames at30fps. Source starts at frame0; complete-pair selection and normal-speed action.
 Sol: “So finding fire wasn't the same as making it.”
 Actual edited voice cue, local: 0.080–2.914s; audio/trimmed-v2/05-01-sol.wav
 Narrator: “Right.”
-Actual edited voice cue, local: 3.733–4.045s; audio/trimmed-v2/05-02-narrator.wav
-Last frame / cut: trim the unnecessary tail after the main action and spoken turn. Continue the same held action state; no new stills or poses.
-Narrator attention: {"required": true, "gaze_target": "Fixed off-screen Narrator point just above camera", "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.", "final_voice_alignment_verified": false, "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.", "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.", "idle": true, "original_eye_design_preserved": true, "entry_cue": "Sol finishes his thought; eyes are up before Arthur's 'Right'.", "planned_window": {"start_sec": 4.0, "end_sec": 5.88, "confirmed": true}, "edited_voice_window": {"start_sec": 3.7333333333333334, "end_sec": 4.0454375, "confirmed": true}}
+Actual edited voice cue, local: 4.000–4.900s; audio/sound-v4/05-02-narrator-full-release.wav
+Ending: Arthur begins Right at local4.000s/global24.600s after the upward pose. Preserve his original release through local4.900s and the caption through global25.700s. Final picture holds the same verified clean source pair until25.800s.
+Narrator attention: {"required": true, "gaze_target": "Fixed off-screen Narrator point just above camera", "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.", "final_voice_alignment_verified": false, "entry": "Use coherent body-led upward attention before the first Narrator word; normal eye design stays intact.", "coverage": "Maintain upward gaze and gentle connected body/tip/lobe listening idle throughout the entire Narrator turn.", "idle": true, "original_eye_design_preserved": true, "entry_cue": "Source frames 116–118 establish the body-led upward listening pose before Arthur starts at local 4.0 seconds.", "planned_window": {"start_sec": 4.0, "end_sec": 5.88, "confirmed": true}, "edited_voice_window": {"start_sec": 4.0, "end_sec": 4.9, "confirmed": true}}
 
 EDITORIAL NOTES
-Scene03 source begins1.2s into the approved unlit hold; the sole bolt pair is now local2.600–2.667s, aligned with Arthur's Lightning's. Source cameras stay stable;02 and03 have declared smooth editorial pushes after source-state pair enforcement. AllimportantcontactsandSolremainwithinframe.
-Keep frame approvals bound to exact original supplied stills. Trimming source footage is an editing operation, not a replacement generation or an invented still approval.
+The generation prompts still describe original source durations and remain unchanged. These edits use existing approved-input footage, actual voice recordings and supplied sound/music assets. Source cadence stays on twos at30fps; no accelerated speech, interpolated poses or new character art.
+Sound and music are separate editable tracks in edit.json. Review export: renders/fire-discovery-thunder-sync-v5-review.mp4. Sound alignment: reviews/thunder-sync-v5/verification.json; earlier mix provenance: reviews/sound-v4/. User audiovisual acceptance remains pending.

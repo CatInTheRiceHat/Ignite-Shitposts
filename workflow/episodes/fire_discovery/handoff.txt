@@ -1,4 +1,32 @@
-CURRENT CORRECTED PREVIEW: renders/fire-discovery-corrected-v2-preview.mp4,23.616s/708video frames,1080x1920/30fps,AAC48k,-16.00LUFS. All5visualtails shortened;7 actual Arthur/custom Sol WAVs trimmed at1x (5.981s silence removed). Caption orangeoutline12px (was6). Body-preserving actual particle cleanup applied to02/05; no new paid generation. Selected01v3 is mouthless; rejected01v5 with mouths is excluded. Original recordings, frames, videos and33s movie remain preserved. Local contour experimentsv3/v4 were REJECTED and NEVERselected. Current actualmedia/currentreviewpackets/voicecues are in edit.json/audio/voice-cues.json/reviews. This remains a review preview, not a claim of productionapproval.
+CURRENT SCENE REVISION: revisions/scene-replacements-v2/. Elaine clarified that repeated clips in THIS VIDEO should be replaced by returning to first/last image generation and designing different scenes. Shared guidelines contain reusable art direction, not these scene prescriptions. Retain the unapproved new01 fireplace and02 landscape pairs; replace05 with a new evening campsite/campfire pair. All three selected pairs are now ready in revisions/scene-replacements-v2/reviews/frame-pair-selection.json. Prior fireplace-v1 candidates are preserved. No new pair approval or clip generation. Thunder-sync-v5 remains the current sound-corrected review export.
+
+CURRENT SOUND CORRECTION: renders/fire-discovery-thunder-sync-v5-review.mp4. The sting now starts at9.533333s; its measured impact at9.722333s meets the flash at9.733333s, within one frame. Picture, dialogue, captions and music preserved. Verification: reviews/thunder-sync-v5/verification.json.
+
+SCENE REFRESH — PAIRS READY FOR APPROVAL: revisions/fireplace-v1/ contains a complete revised storyboard and10 image/5 video prompts. Scene01 opens beside an indoor fireplace;02 becomes an uninhabited natural-fire landscape;05 returns from the opposite side of the hearth. Selected pairs and packet paths: revisions/fireplace-v1/reviews/frame-pair-selection.json. All six selected images are unapproved; seven stills were generated including one unused05 composition. New pairs must be shown and explicitly approved before video generation. Completed delivery remains the previous copy while the revision is reviewed.
+
+PRIOR DELIVERY / REVIEW HANDOFF
+
+DELIVERY COPY: workflow/completed/How Fire Was Discovered.mp4 (identical to the current sound-v4 export).
+
+CURRENT REVIEW CUT: renders/fire-discovery-sound-v4-review.mp4.
+25.8 seconds of picture (774 frames),1080x1920 at30fps; AAC48k audio normalized to -16.03LUFS, true peak -3.18dBTP. Entire exported file decoded successfully. Numerical correlation confirms the sting at9.733333s, original Right onset at24.6s, and the audible music bed. No manual listening is claimed.
+
+The supplied assets/meme sounds/bomboclat-with-thunder.mp3 plays at the actual lightning strike. A1.2s silence gap after Yes gives it room before the rest of the explanation; every original spoken sample retains normal speed. Hide and Sneak4 is mixed beneath the dialogue, dipped during the sting and faded at the ending. Right now retains0.9s from the original take; its audio ends at25.5s, with picture continuing to25.8s. Scene03 uses36 additional original frames; Scene05 adds22 exact paired hold frames. Original media and previous exports are preserved.
+
+Current edit, script, shot plan, prompts and voice cues are synchronized. The ten image and five video prompt blocks are unchanged. See reviews/sound-v4/sound-edit-receipt.json and renders/full-cut-review-v4/verification.json. Sampled final contact sheets and native lightning/Right frames pass caption and crop inspection. Prior independent Sol cleanup findings remain in reviews/resume-native-v1/selected-v3-diagnostic-review.json. This is a review cut; final production bindings and user timing/playback approval remain unconfirmed. No new media generation was submitted.
+
+Elaine's consolidated comments, latest clarifications and superseded directions are saved in feedback.txt. The shared workflow/guidelines/checklist.md is updated with the sound and ending notes.
+
+PREVIOUS REVIEW HANDOFF — PRESERVED HISTORY
+
+CURRENT REVIEW CUT: renders/fire-discovery-resumed-v3-review.mp4.
+23.867 seconds of picture (716 frames), 1080 x 1920 at30fps; AAC48k audio normalized to -16.01LUFS, true peak -3.98dBTP. Entire exported file decoded successfully; no black segments over100ms.
+
+The seven original Arthur/custom Sol takes retain normal speech speed and1x playback. Their existing silence trims remove5.981s; captions retain the stronger12px orange outline. Scene01 uses the mouthless preferredv3 take. Scenes02/05 now use native-v2 cleanup for faint red background trails plus short complete-pair holds that omit remaining emission buds. Every selected output frame matches its actual source frame exactly in decoded YUV, and every source pair matches. Scene05 Arthur starts at local4.0s after Sol's body-up transition; shot lasts4.467s. The music bed retains its existing end fade.
+
+Current sources, script and cue timings are synchronized in edit.json, shot-plan.json, script.txt, higgsfield-prompts.txt and audio/voice-cues.json. Prior versions are preserved in reviews/resume-native-v1/prior-state/. Source selection: reviews/resume-native-v1/clean-state-selection-v3.json. Technical export verification: renders/full-cut-review-v3/verification.json. Dedicated visual review: reviews/resume-native-v1/selected-v3-diagnostic-review.json. All 139 selected Scene 02/05 source states and native tip sheets pass the inspected mouth/particle/contour checks; sampled final captions and crops pass.
+
+This is a complete REVIEW CUT for the user, not a claim of final production approval. Canonical media check passes, while script-bound production gates and final timing confirmation remain pending. Existing still approval records are preserved; no new generation was submitted. Original and rejected media remain intact. User instructions remain: no Sol mouths or particles, gentle connected wiggle, normal-rate voices, shortened dead air and visible orange caption outlines.
 
 HISTORICAL HANDOFF — NOT CURRENT DIRECTIONS
 

@@ -1,14 +1,21 @@
 # Elaine's critique checklist
 
-Updated: 2026-11-15. This is the project's running memory of Elaine's visual
-feedback. Read it before writing prompts, generating frames or reviewing clips.
+Updated: 2026-11-16. This is the project's running memory of Elaine's reusable
+art-direction feedback. Read it before writing prompts, generating frames or reviewing clips.
 Update it when Elaine gives new critiques, following the maintenance rules below.
 Unchecked boxes are reusable review questions, not claims about a particular take.
+
+The complete fire episode feedback is consolidated in
+[fire_discovery/feedback.txt](../episodes/fire_discovery/feedback.txt). Keep specific
+scene requests, settings, sound cues and delivery notes in the relevant episode;
+they do not become shared art-direction rules.
 
 ## Final prompt review
 
 - [ ] Check the actual delivered footage for mouths and Sol particles, including every intermediate pose. The area beneath the eye pair stays blank; a third facial mark or mouth line is a failure. A mouthless prompt does not establish a mouthless result. Never present a rejected mouth-bearing take as the corrected result.
 - [ ] Trim dead air from the actual voice files and unnecessary clip tails while retaining readable actions and short intentional pauses. Preserve normal speech speed. Keep the orange caption outline clearly visible at phone size; the current 1080p fire edit uses12px instead of the earlier thin6px.
+- [ ] Preserve quiet word releases and a readable final hold; do not apply
+  silence trimming so tightly that speech feels clipped.
 
 - [ ] Review the actual complete script and speaker turns alongside the footage. Whenever Narrator speaks and Sol is visible, is the upward glance established before the first word and maintained with gentle listening idle throughout? Check transition frames and real voice cues when available; label unrecorded timing provisional.
 
@@ -174,6 +181,12 @@ Nano Banana image and Omni Flash video defaults.
 
 These are production checks from inspecting the failed takes, rather than
 additional aesthetic preferences attributed to Elaine.
+
+- [ ] Inspect the moving silhouette at native resolution for faint red trails
+  and emission buds still joined by a thin bridge. Phone-size sheets and
+  connected-component counts can miss these. After a local cleanup, inspect
+  every selected pose and the transitions around any complete-pair holds;
+  confirm the repair preserves the main contour, face and limbs.
 
 - [ ] Sol's filled shape stays coherent through wiggle. Reject any detached sparks, flicks or droplets, torn lobes, holes, separating layers or airborne hops. This implements Elaine's latest particle-free direction.
 

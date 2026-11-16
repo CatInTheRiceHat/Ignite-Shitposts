@@ -1,0 +1,52 @@
+{
+  "status": "awaiting explicit user approval",
+  "selected_pairs": {
+    "01": {
+      "first": "keyframes/01-first.png",
+      "last": "keyframes/01-last.png",
+      "first_sha256": "a82d47d9563639577c9c460b659442e6752b6910a12da202a8b5c3d475044222",
+      "last_sha256": "f89e431a40a1f52ba5cba08cf0b981d5648477975adedda9e279843a62a0d1c8",
+      "comparison": "reviews/01-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/01/frames/a5f5afaecf89cf3fddd9/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/01/frames/a5f5afaecf89cf3fddd9/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/01/frames/a5f5afaecf89cf3fddd9/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    },
+    "02": {
+      "first": "keyframes/02-first.png",
+      "last": "keyframes/02-last.png",
+      "first_sha256": "e38f61c78a674f18532fc8b9ba429be7fad7c30b754bea384fa62d3784b8f0ba",
+      "last_sha256": "c53b607c2b749fcb0477f8899205568551f7efdaeed1b6ec534c436c3707bcb6",
+      "comparison": "reviews/02-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/02/frames/0bb0d6547d268ed7d410/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/02/frames/0bb0d6547d268ed7d410/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/02/frames/0bb0d6547d268ed7d410/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    },
+    "05": {
+      "first": "keyframes/05-first-reverse.png",
+      "last": "keyframes/05-last-reverse.png",
+      "first_sha256": "70103e4b6c473df881a16ba3667fa2872f26c866fc1f0d08c7673b067e588b7d",
+      "last_sha256": "3be5960546801298ca00693d8cd7eadf2f55c689820a652beb03186f9fa395f0",
+      "comparison": "reviews/05-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/05/frames/23586dcaccff45701550/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/05/frames/23586dcaccff45701550/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/fireplace-v1/reviews/05/frames/23586dcaccff45701550/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    }
+  },
+  "images_generated": 7,
+  "selected_images": 6,
+  "new_video_jobs": 0,
+  "unused_first_05": "keyframes/05-first.png",
+  "scope": "Still candidate screening, not approval or proof of animation quality."
+}

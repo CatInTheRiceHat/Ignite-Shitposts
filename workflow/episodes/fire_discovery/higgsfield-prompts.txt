@@ -1,4 +1,4 @@
-CURRENT EDIT NOTE: generation prompts below retain their original whole-second source durations. Actual corrected film is23.6s after normal-rate audio silence trims and visual tail cuts; see script.txt,edit.json,audio/voice-cues.json. Sol must remain mouthless and emit zero particles. Selected02/05 source files have constrained particle cleanup; rejected mouth-bearing01v5 is excluded. Captions now use12pxorangeoutline. No new frames/media generation requested for these corrections.
+CURRENT EDIT NOTE: the current sound review is25.8s. The supplied bomboclat file starts at9.533333s so its internal thunder impact meets the existing lightning pair at9.733333s; a short narration gap preserves clarity. Audible background music and an extended Right release/final hold are added in editing. All original generation prompt blocks and endpoint inputs remain unchanged. See script.txt, edit.json, audio/voice-cues.json and feedback.txt. No new media generation is requested.
 
 HOW FIRE WAS DISCOVERED
 Five scenes; ten endpoint entries; five video prompts. Nine unique approved stills; I02-FIRST reuses I01-LAST unchanged.

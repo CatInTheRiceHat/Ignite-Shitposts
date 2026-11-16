@@ -1,0 +1,23 @@
+CURRENT REVIEW CUT: renders/fire-discovery-resumed-v3-review.mp4.
+23.867 seconds of picture (716 frames), 1080 x 1920 at30fps; AAC48k audio normalized to -16.01LUFS, true peak -3.98dBTP. Entire exported file decoded successfully; no black segments over100ms.
+
+The seven original Arthur/custom Sol takes retain normal speech speed and1x playback. Their existing silence trims remove5.981s; captions retain the stronger12px orange outline. Scene01 uses the mouthless preferredv3 take. Scenes02/05 now use native-v2 cleanup for faint red background trails plus short complete-pair holds that omit remaining emission buds. Every selected output frame matches its actual source frame exactly in decoded YUV, and every source pair matches. Scene05 Arthur starts at local4.0s after Sol's body-up transition; shot lasts4.467s. The music bed retains its existing end fade.
+
+Current sources, script and cue timings are synchronized in edit.json, shot-plan.json, script.txt, higgsfield-prompts.txt and audio/voice-cues.json. Prior versions are preserved in reviews/resume-native-v1/prior-state/. Source selection: reviews/resume-native-v1/clean-state-selection-v3.json. Technical export verification: renders/full-cut-review-v3/verification.json. Dedicated visual review: reviews/resume-native-v1/selected-v3-diagnostic-review.json. All 139 selected Scene 02/05 source states and native tip sheets pass the inspected mouth/particle/contour checks; sampled final captions and crops pass.
+
+This is a complete REVIEW CUT for the user, not a claim of final production approval. Canonical media check passes, while script-bound production gates and final timing confirmation remain pending. Existing still approval records are preserved; no new generation was submitted. Original and rejected media remain intact. User instructions remain: no Sol mouths or particles, gentle connected wiggle, normal-rate voices, shortened dead air and visible orange caption outlines.
+
+HISTORICAL HANDOFF — NOT CURRENT DIRECTIONS
+
+LATEST FLAME-SIZE FEEDBACK: Elaine likes tiny subtle painted flame flicks and dislikes the big emissions. Preserve small fading accents (review examples02~1.6–1.73s,05 top-right~4.13s); reduce eye-sized drops and bulbous flares (02~1.2–1.5s,05~2.5/3.5/4.5/5.5s) and sparse-out repeated pairs. Main mascot stays intact. Review-only request: no video pixel cleanup or new generation performed/authorized. Cleanup proposal has been narrowed accordingly. Current review policy now reflects this preference, so older gate bindings are historical until refreshed; original reports remain unchanged.
+
+Previous handoff / historical state:
+Current state:15 video jobs completed in the episode. The latest02/05 take4 Omni motion drafts are generated, silent, normal-speed and exact-pair verified, but independently REJECTED for remaining red/orange fragments, eye rims/contour treatment and late/ambiguous upward attention. Hops are fixed. Three unchanged clips01/03/04 pass current source/script review. Do not call the episode final-ready or use rejected02/05 in production.
+
+Review drafts: clips/02-scene-omni-v4-twos.mp4 and05-scene-omni-v4-twos.mp4. Reports: reviews/02/independent-review-grounded-flow-v4.json and05 counterpart. All raw/rejected takes remain preserved. The exact approved body-tilt still pairs remain selected. Eye squishing was rejected; user requests flowing bounce into every pose with original eyes and compact anatomy.
+
+A precise local VIDEO cleanup is proposed at reviews/grounded-flow-v4/local-video-cleanup-proposal.json, preserving Higgsfield movement and repairing only particle/eye artifacts. No video pixel cleanup has been executed. Earlier permission covered still-eye cleanup; ask for the new video scope explicitly. No further automatic paid retries. The two body-flow attempts were estimated32.5credits each.
+
+A pixel cleanup cannot certify UP direction or final voice sync.02 planned Narrator onset0.6s is earlier than current visible attention change;05 UP reading remains uncertain. Once actual normal-rate voices exist, place onset after gaze-ready and verify the whole spoken turn and idle. Native generated audio is discarded. Shared Omni Flash1.2/Nano Banana2.1, saved Arthur/custom Sol voices and caption styling are preserved.
+
+Frame gates for the actual approved02/05 first/last files remain valid. Edited ending media IDs02=5bb335ad-5974-4a27-bea6-b8bfa69ab603,05=36d81324-54f7-449e-872c-377cbf644030. Actualscript/10 endpoint entries/5 video prompts stay synchronized; I02-FIRST exactly reuses I01-LAST. Final work also needs real voice tracks, source/finished visual passes, playback and editorial crop checks.

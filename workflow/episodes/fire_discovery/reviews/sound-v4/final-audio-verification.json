@@ -1,0 +1,16 @@
+{
+  "method": "Numerical correlation of decoded final audio against the supplied sting, original Right onset and music-only interval; not manual listening.",
+  "sting_alignment_sec": 9.733333333333333,
+  "sting_correlation": 0.992140224789359,
+  "right_alignment_sec": 24.6,
+  "right_onset_correlation": 0.937572110382396,
+  "music_only_interval_sec": [
+    2,
+    2.8
+  ],
+  "music_correlation": 0.9999732874583663,
+  "music_rms_dbfs_in_interval": -28.122112274169922,
+  "right_wave_end_sec": 25.5,
+  "picture_end_sec": 25.8,
+  "ending_after_right_wave_sec": 0.3
+}

@@ -1,5 +1,11 @@
 # Local generated footage and extracted review images; retain JSON receipts.
 clips/**/*.mp4
+audio/**/*.wav
+audio/**/*.mp3
 reviews/**/*.jpg
 reviews/**/*.png
 reviews/**/*.webp
+revisions/**/reviews/**/*.jpg
+revisions/**/reviews/**/*.png
+revisions/**/reviews/**/*.webp
+revisions/**/clips/**/*.mp4

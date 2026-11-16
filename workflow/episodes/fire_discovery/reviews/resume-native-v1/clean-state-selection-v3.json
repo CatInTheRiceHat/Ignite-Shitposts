@@ -165,7 +165,7 @@
     "decoded_frames_match_selected_source_exactly": true,
     "decoded_pair_mismatches": [],
     "method": "Complete-pair editorial holds from inspected adjacent clean states. No new pixel edits. Other source action remains at 1x. Scene 05 retains 8 more source frames for the Narrator's reply after the upward tilt.",
-    "status": "Review candidate; visual transition review pending."
+    "status": "Independent mouth/particle/contour review passed; see selected-v3-diagnostic-review.json. Not canonical production approval."
   },
   {
     "scene": "05",
@@ -323,6 +323,6 @@
     "decoded_frames_match_selected_source_exactly": true,
     "decoded_pair_mismatches": [],
     "method": "Complete-pair editorial holds from inspected adjacent clean states. No new pixel edits. Other source action remains at 1x. Scene 05 retains 8 more source frames for the Narrator's reply after the upward tilt.",
-    "status": "Review candidate; visual transition review pending."
+    "status": "Independent mouth/particle/contour review passed; see selected-v3-diagnostic-review.json. Not canonical production approval."
   }
 ]

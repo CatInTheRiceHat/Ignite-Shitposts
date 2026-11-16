@@ -1,0 +1,134 @@
+{
+  "status": "Three different replacement scene pairs ready for explicit approval. No new clips generated.",
+  "scenes": {
+    "01": {
+      "title": "A question beside the fireplace",
+      "duration": 2.3333333333333335,
+      "generation_duration": 3,
+      "dialogue": [
+        "Sol: \u201cWho actually discovered fire?\u201d"
+      ],
+      "framing": "Medium-wide full-body view at Sol face height, slight downward angle; Sol x=30%, height40%, feet y=74%; fireplace at x=72%, logs y=64%. Fixed camera; lower fifth quiet for captions.",
+      "first": "Sol stands on the flat hearth apron, clear of the firebox, in a shallow three-quarter orientation toward the logs with both eyes visible. Both short arms are held low and slightly forward as if enjoying the warmth; feet rest flat and separated beneath the body.",
+      "last": "The same Sol, room and framing. The arm nearest the fireplace is now raised a little toward the logs in one compact questioning gesture. The other arm stays low, both feet supported and gaze directed toward the fire; original anatomy and eye design unchanged.",
+      "action": "Over the first1.6s, lift only the short arm nearest the fireplace along a small direct path toward the burning logs as Sol asks his question. Gentle connected body/tip wiggle follows the gesture and settles. Do not walk, hop or turn the face independently. The low fire flickers within the same log contact; no flying sparks. End in the supplied small questioning pose.",
+      "attention": "Only Sol speaks; no Narrator attention cue in this scene.",
+      "voice": "Existing01-01-sol at local0.080\u20131.886s, unchanged1x.",
+      "transition": "Hard cut from the contained household fire to an empty landscape showing natural fire; the cut introduces historical context, not an adjacent room.",
+      "first_prompt": "Create one complete vertical painted still. Medium-wide full-body view at Sol face height, slight downward angle; Sol x=30%, height40%, feet y=74%; fireplace at x=72%, logs y=64%. Fixed camera; lower fifth quiet for captions. A small lived-in room with a simple ochre plaster wall, a broad charcoal-gray stone fireplace on screen-right, a recessed dark firebox containing three short stacked logs and one low contained faceless wood fire, a flat slate hearth and muted blue-gray wooden floor. Cool soft window light enters from off-screen left; the hearth gives a restrained warm tint to the nearby stones and Sol. No decorations, text, tools or extra characters.\n\nSol stands on the flat hearth apron, clear of the firebox, in a shallow three-quarter orientation toward the logs with both eyes visible. Both short arms are held low and slightly forward as if enjoying the warmth; feet rest flat and separated beneath the body.\n\nMatch the original Sol mascot: compact broad flame body, asymmetric main tip and side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its crown and rounded lower face. Keep the two small, close-spaced, low-set tall oval eyes opaque navy #1C2447 with no highlights, whites or pale rims. Preserve short rounded arms and tiny stubby feet directly below the body; no fingers, long limbs, neck or separate torso. Completely mouthless, blank beneath the eye pair. Keep the face attached to the coherent filled body. No particles, sparks, droplets or detached pieces from Sol.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture on every subject, prop and surface. Broad readable shapes, gentle painted shading, coherent perspective and contact shadows. Define forms through light and color with softly painted edges, without inked outlines, gloss, plastic rendering or heavy grain.\n\nNo text, captions or watermark.",
+      "last_prompt": "Use the supplied starting still as the exact composition and continuity reference. Create only its matching ending still. Medium-wide full-body view at Sol face height, slight downward angle; Sol x=30%, height40%, feet y=74%; fireplace at x=72%, logs y=64%. Fixed camera; lower fifth quiet for captions. A small lived-in room with a simple ochre plaster wall, a broad charcoal-gray stone fireplace on screen-right, a recessed dark firebox containing three short stacked logs and one low contained faceless wood fire, a flat slate hearth and muted blue-gray wooden floor. Cool soft window light enters from off-screen left; the hearth gives a restrained warm tint to the nearby stones and Sol. No decorations, text, tools or extra characters.\n\nThe same Sol, room and framing. The arm nearest the fireplace is now raised a little toward the logs in one compact questioning gesture. The other arm stays low, both feet supported and gaze directed toward the fire; original anatomy and eye design unchanged.\n\nMatch the original Sol mascot: compact broad flame body, asymmetric main tip and side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its crown and rounded lower face. Keep the two small, close-spaced, low-set tall oval eyes opaque navy #1C2447 with no highlights, whites or pale rims. Preserve short rounded arms and tiny stubby feet directly below the body; no fingers, long limbs, neck or separate torso. Completely mouthless, blank beneath the eye pair. Keep the face attached to the coherent filled body. No particles, sparks, droplets or detached pieces from Sol.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture on every subject, prop and surface. Broad readable shapes, gentle painted shading, coherent perspective and contact shadows. Define forms through light and color with softly painted edges, without inked outlines, gloss, plastic rendering or heavy grain.\n\nNo text, captions or watermark.",
+      "video_prompt": "Over the first1.6s, lift only the short arm nearest the fireplace along a small direct path toward the burning logs as Sol asks his question. Gentle connected body/tip wiggle follows the gesture and settles. Do not walk, hop or turn the face independently. The low fire flickers within the same log contact; no flying sparks. End in the supplied small questioning pose.\n\nFixed source camera; preserve exact endpoint composition, object contacts, framing and light.\n\nMatch the original Sol mascot: compact broad flame body, asymmetric main tip and side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its crown and rounded lower face. Keep the two small, close-spaced, low-set tall oval eyes opaque navy #1C2447 with no highlights, whites or pale rims. Preserve short rounded arms and tiny stubby feet directly below the body; no fingers, long limbs, neck or separate torso. Completely mouthless, blank beneath the eye pair. Keep the face attached to the coherent filled body. No particles, sparks, droplets or detached pieces from Sol.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture on every subject, prop and surface. Broad readable shapes, gentle painted shading, coherent perspective and contact shadows. Define forms through light and color with softly painted edges, without inked outlines, gloss, plastic rendering or heavy grain.\n\nAnimate on twos at final30fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply this to Sol when present, actual fire and animated local light. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs in editing.\n\nNo generated speech, music, sound effects, text or captions."
+    },
+    "02": {
+      "title": "Natural fire before people",
+      "duration": 4.8,
+      "generation_duration": 5,
+      "dialogue": [
+        "Narrator: \u201cWe don't know. Natural fires existed long before people.\u201d"
+      ],
+      "framing": "Wide elevated three-quarter view across an open dry grassy basin, not an enclosed woodland. A low charred fallen branch and small natural fire occupy x=56%, y=60%; distant layered slate-blue hills below broad gray cloud banks. Static camera, no zoom. Empty pale foreground in lower fifth.",
+      "first": "No people or Sol. An isolated dry fallen branch lies on bare earth among sparse straw-gold grass, with a small orange fire already rooted on its center. A single soft gray plume rises above it. The surroundings remain mostly unburned, with no campsite, buildings, tools or stone ring.",
+      "last": "Exactly the same elevated view, branch position, hills, grass and cloud shapes. The small fire remains rooted to the same branch, with its connected upper tongues in a slightly different natural flicker state and the thin smoke plume a little higher. No new fire patches or objects.",
+      "action": "Continue the already-established small natural wood fire while the Narrator explains that fire existed before people. Only its connected upper flame shapes flicker softly and the thin smoke plume rises slowly. Keep the flame base fixed on the fallen branch. Keep the entire terrain, branch, grass and cloudy sky stable. No new ignition, lightning, sweeping flame front or human activity.",
+      "attention": "Sol is absent throughout; Narrator is off-screen.",
+      "voice": "Existing02-01-narrator at local0.800\u20134.596s, unchanged1x.",
+      "transition": "Cut to the existing storm-tree shot for a specific example of natural ignition.",
+      "first_prompt": "Create one complete vertical painted still. Wide elevated three-quarter view across an open dry grassy basin, not an enclosed woodland. A low charred fallen branch and small natural fire occupy x=56%, y=60%; distant layered slate-blue hills below broad gray cloud banks. Static camera, no zoom. Empty pale foreground in lower fifth. An uninhabited natural grassland landscape under cool overcast daylight; warm light is confined to the small existing fire.\n\nNo people or Sol. An isolated dry fallen branch lies on bare earth among sparse straw-gold grass, with a small orange fire already rooted on its center. A single soft gray plume rises above it. The surroundings remain mostly unburned, with no campsite, buildings, tools or stone ring.\n\nNo mascot, human, human-made structure or text.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture on every subject, prop and surface. Broad readable shapes, gentle painted shading, coherent perspective and contact shadows. Define forms through light and color with softly painted edges, without inked outlines, gloss, plastic rendering or heavy grain.\n\nNo text, captions or watermark.",
+      "last_prompt": "Use the supplied starting still as the exact composition and continuity reference. Create only its matching ending still. Wide elevated three-quarter view across an open dry grassy basin, not an enclosed woodland. A low charred fallen branch and small natural fire occupy x=56%, y=60%; distant layered slate-blue hills below broad gray cloud banks. Static camera, no zoom. Empty pale foreground in lower fifth. An uninhabited natural grassland landscape under cool overcast daylight; warm light is confined to the small existing fire.\n\nExactly the same elevated view, branch position, hills, grass and cloud shapes. The small fire remains rooted to the same branch, with its connected upper tongues in a slightly different natural flicker state and the thin smoke plume a little higher. No new fire patches or objects.\n\nNo mascot, human, human-made structure or text.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture on every subject, prop and surface. Broad readable shapes, gentle painted shading, coherent perspective and contact shadows. Define forms through light and color with softly painted edges, without inked outlines, gloss, plastic rendering or heavy grain.\n\nNo text, captions or watermark.",
+      "video_prompt": "Continue the already-established small natural wood fire while the Narrator explains that fire existed before people. Only its connected upper flame shapes flicker softly and the thin smoke plume rises slowly. Keep the flame base fixed on the fallen branch. Keep the entire terrain, branch, grass and cloudy sky stable. No new ignition, lightning, sweeping flame front or human activity.\n\nFixed source camera; preserve exact endpoint composition, object contacts, framing and light.\n\nNo characters or human activity.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture on every subject, prop and surface. Broad readable shapes, gentle painted shading, coherent perspective and contact shadows. Define forms through light and color with softly painted edges, without inked outlines, gloss, plastic rendering or heavy grain.\n\nAnimate on twos at final30fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply this to Sol when present, actual fire and animated local light. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs in editing.\n\nNo generated speech, music, sound effects, text or captions."
+    },
+    "05": {
+      "title": "Understanding beside a campfire after dark",
+      "duration": 5.2,
+      "generation_duration": 6,
+      "dialogue": [
+        "Sol: \u201cSo finding fire wasn't the same as making it.\u201d",
+        "Narrator: \u201cRight.\u201d"
+      ],
+      "framing": "Medium-wide full-body shot at Sol face height, slightly downward. Sol stands on SCREEN-RIGHT at x=66%, height38%, feet y=76%; a low campfire occupies SCREEN-LEFT at x=28%, y=64%, with a clear gap from Sol. The small tent is distant, at x=77%, y=38%; hills and open sky form broad simple layers. Fixed camera. Quiet lower fifth for editable captions.",
+      "first": "Sol stands on solid packed earth beside the campfire, both tiny feet supported and both short rounded arms lowered at his flanks. His compact body is angled shallowly toward the fire on screen-left, with both original dark oval eyes visible. A small contained flame burns on three charred pieces of wood inside a low ring of stones; no people are present.",
+      "last": "Exactly the same campsite, camera, Sol scale, ground contacts, tent, hills, stones and three wood pieces. Sol holds both stubby arms slightly open in a low gesture of understanding. His compact body, filled flame layers and attached face tilt gently backward/up together toward the fixed Narrator point just above camera. Preserve original tall close-spaced navy oval eyes, broad cream inner flame, unchanged limb lengths and supported feet.",
+      "action": "During Sol's sentence, open both short arms once into the small low understanding gesture, with gentle attached body/tip follow-through and unchanged limb lengths. By local3.6s, tilt the whole compact body and attached face slightly upward toward the fixed Narrator point above camera. Maintain that gaze, low open arms and gentle listening idle throughout Arthur's Right at4.0\u20134.9s and the ending. Keep feet supported; no face slide, eye squish, mouth, particles or hops. The low fire remains fixed to its logs.",
+      "attention": "Gaze ready by3.6s, before Arthur at4.0s; maintain above-camera listening through his complete0.9s take and final hold.",
+      "voice": "Existing05-01-sol at0.080\u20132.914s; original-release05-02-narrator at4.000\u20134.900s. Unchanged1x; preserve final picture through5.2s.",
+      "transition": "Hold the clear upward listening pose through the complete Right release and existing music fade; no additional scene.",
+      "first_prompt": "Create one complete new vertical painted scene of Sol beside an outdoor campfire after dark.\n\nA small campsite on an open ridge at blue hour, with a low stone-ring campfire, a simple muted-ochre canvas tent in the far upper-right, packed mauve-gray earth and broad distant blue hills. An open slate-blue evening sky replaces the enclosed woodland or indoor walls. Cool ambient evening light and gentle local amber firelight; no stars, flying embers or decorative particles.\n\nMedium-wide full-body shot at Sol face height, slightly downward. Sol stands on SCREEN-RIGHT at x=66%, height38%, feet y=76%; a low campfire occupies SCREEN-LEFT at x=28%, y=64%, with a clear gap from Sol. The small tent is distant, at x=77%, y=38%; hills and open sky form broad simple layers. Fixed camera. Quiet lower fifth for editable captions.\n\nSol stands on solid packed earth beside the campfire, both tiny feet supported and both short rounded arms lowered at his flanks. His compact body is angled shallowly toward the fire on screen-left, with both original dark oval eyes visible. A small contained flame burns on three charred pieces of wood inside a low ring of stones; no people are present.\n\nPreserve the original mascot as a whole: broad compact flame silhouette, asymmetric tip, rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with a lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are opaque navy #1C2447 with no highlights, whites, gray rims or extra pupils. Short rounded arms and tiny stubby feet keep their original lengths and attachment points. Completely mouthless and blank below the eye pair. No nose, fingers, long legs, neck or separate torso. Keep the face and all filled flame layers coherent. Sol emits no sparks, particles, droplets or detached flame pieces.\n\nSoft matte gouache brushwork, visible layered painted color, subtle paper texture and broad readable shapes across Sol, tent, fire, rocks, earth and sky. Coherent perspective, gentle shading and contact shadows. Keep the cream face readable in the low light. Define forms through light and color without ink outlines, gloss, plastic surfaces, heavy grain or photographic fire.\n\nNo text, captions, watermark, indoor fireplace, walls or dense woodland.",
+      "last_prompt": "Create the matching ending illustration for this gentle painted cartoon campsite. Preserve the exact first image's camera, composition, evening light, tent, hills, stone ring, burning wood and ground.\n\nKeep the same small flame mascot on the right at the same size and position. He now opens his two short rounded arms a little into a low gesture of understanding and tilts his whole connected flame shape gently upward to listen to a friendly voice just above the camera. Both little feet stay on their original ground contacts. His two small solid navy oval eyes keep the same shape, spacing and placement within the cream face, following the whole character's upward tilt. Keep him mouthless, with the cream area below the eyes blank.\n\nPreserve his original red, orange and broad cream flame layers and compact proportions. Keep all flame lobes attached, with no emitted particles. Maintain the same soft gouache brushwork, layered color, subtle paper texture and painted depth throughout the scene. The small campfire stays contained on its wood. No text or watermark.",
+      "video_prompt": "During Sol's sentence, open both short arms once into the small low understanding gesture, with gentle attached body/tip follow-through and unchanged limb lengths. By local3.6s, tilt the whole compact body and attached face slightly upward toward the fixed Narrator point above camera. Maintain that gaze, low open arms and gentle listening idle throughout Arthur's Right at4.0\u20134.9s and the ending. Keep feet supported; no face slide, eye squish, mouth, particles or hops. The low campfire remains fixed to its wood inside the stone ring. Keep the tent, hills, ground, stones and camera stable.\n\nPreserve the exact supplied campsite composition and lighting. No camera move.\n\nPreserve the original mascot as a whole: broad compact flame silhouette, asymmetric tip, rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with a lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are opaque navy #1C2447 with no highlights, whites, gray rims or extra pupils. Short rounded arms and tiny stubby feet keep their original lengths and attachment points. Completely mouthless and blank below the eye pair. No nose, fingers, long legs, neck or separate torso. Keep the face and all filled flame layers coherent. Sol emits no sparks, particles, droplets or detached flame pieces.\n\nSoft matte gouache brushwork, visible layered painted color, subtle paper texture and broad readable shapes across Sol, tent, fire, rocks, earth and sky. Coherent perspective, gentle shading and contact shadows. Keep the cream face readable in the low light. Define forms through light and color without ink outlines, gloss, plastic surfaces, heavy grain or photographic fire.\n\nAnimate on twos at final30fps: every source pose or painted state stays unchanged for two consecutive frames,15 updates per second at normal speed; longer holds use complete pairs. Apply to Sol, campfire and local animated light. Stable background and paint texture; no interpolation, blending, optical flow or concealing blur. Enforce and verify the cadence during editing.\n\nA brief natural blink is allowed and returns promptly to the original dark ovals and upward gaze. No generated speech, music, sound effects, text or captions.",
+      "room": "A small campsite on an open ridge at blue hour, with a low stone-ring campfire, a simple muted-ochre canvas tent in the far upper-right, packed mauve-gray earth and broad distant blue hills. An open slate-blue evening sky replaces the enclosed woodland or indoor walls. Cool ambient evening light and gentle local amber firelight; no stars, flying embers or decorative particles."
+    }
+  },
+  "retained_scenes": [
+    "03",
+    "04"
+  ],
+  "original_edit": "../../edit-thunder-sync-v5.json",
+  "picture_duration_sec": 25.8,
+  "dialogue_changed": false,
+  "preliminary_still_review": {
+    "01": "Both endpoints show a mouthless Sol with two dark ovals, compact anatomy, supported feet, consistent fireplace and camera. The ending lifts the fireplace-side arm and lets the opposite arm rest lower; no detached Sol shapes visible at phone size.",
+    "02": "Both endpoints show the same empty grassland, branch contact and distant hills; only fire/smoke state changes. No people or mascot.",
+    "05": "Both campsite endpoints retain tent/hill/stone-ring layout, separate wood fire, compact mouthless Sol and dark oval eyes. Last frame opens the short arms and shows a coherent upward listening tilt with feet supported. Still review only; attention through motion remains unverified."
+  },
+  "frame_approvals": {},
+  "unselected_candidates": [
+    {
+      "path": "../fireplace-v1/keyframes/05-first.png",
+      "reason": "First earlier ending attempt repeated the opening composition."
+    },
+    {
+      "path": "../fireplace-v1/keyframes/05-first-reverse.png",
+      "reason": "Preserved earlier reverse-angle fireplace candidate; superseded by the requested different scene."
+    },
+    {
+      "path": "../fireplace-v1/keyframes/05-last-reverse.png",
+      "reason": "Preserved earlier reverse-angle fireplace ending; new campfire pair pending."
+    }
+  ],
+  "selected_pairs": {
+    "01": {
+      "first": "keyframes/01-first.png",
+      "last": "keyframes/01-last.png",
+      "first_sha256": "a82d47d9563639577c9c460b659442e6752b6910a12da202a8b5c3d475044222",
+      "last_sha256": "f89e431a40a1f52ba5cba08cf0b981d5648477975adedda9e279843a62a0d1c8",
+      "comparison": "reviews/01-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/01/frames/779740149e32cb51e9ac/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/01/frames/779740149e32cb51e9ac/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/01/frames/779740149e32cb51e9ac/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    },
+    "02": {
+      "first": "keyframes/02-first.png",
+      "last": "keyframes/02-last.png",
+      "first_sha256": "e38f61c78a674f18532fc8b9ba429be7fad7c30b754bea384fa62d3784b8f0ba",
+      "last_sha256": "c53b607c2b749fcb0477f8899205568551f7efdaeed1b6ec534c436c3707bcb6",
+      "comparison": "reviews/02-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/02/frames/2663b88dfa4edc0ad81c/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/02/frames/2663b88dfa4edc0ad81c/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/02/frames/2663b88dfa4edc0ad81c/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    },
+    "05": {
+      "first": "keyframes/05-first.png",
+      "last": "keyframes/05-last.png",
+      "first_sha256": "53661174b77e50a14ff43c4b3baada639258ead566a80bb74cc0f359762363b2",
+      "last_sha256": "c92e45ad927b08d07744efb74061acd46ac27b4da02572b3522c596340e85c93",
+      "comparison": "reviews/05-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/05/frames/7c56d79360dedb7f266b/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/05/frames/7c56d79360dedb7f266b/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/05/frames/7c56d79360dedb7f266b/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    }
+  },
+  "superseded_revision": "../fireplace-v1/",
+  "clarification": "Replace repeated clips in this video by generating new scenes from first/last stills; specific scene choices do not belong in shared art-style guidelines."
+}

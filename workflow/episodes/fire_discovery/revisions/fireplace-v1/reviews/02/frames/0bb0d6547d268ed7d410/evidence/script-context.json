@@ -1,0 +1,97 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/revisions/fireplace-v1/script.txt",
+    "sha256": "71f830e5a6e4fd5e2f38cb160b08b10d2701e84a0f871afe45c2272e69c1e0b9"
+  },
+  "scene_script_excerpt": "SCENE 02 — Natural fire before people — edit4.800s (2.333–7.133s)\nSetting: Open uninhabited grassland, small natural wood fire, distant hills and cloudy sky.\nFraming: Wide elevated three-quarter view across an open dry grassy basin, not an enclosed woodland. A low charred fallen branch and small natural fire occupy x=56%, y=60%; distant layered slate-blue hills below broad gray cloud banks. Static camera, no zoom. Empty pale foreground in lower fifth.\nFirst frame: No people or Sol. An isolated dry fallen branch lies on bare earth among sparse straw-gold grass, with a small orange fire already rooted on its center. A single soft gray plume rises above it. The surroundings remain mostly unburned, with no campsite, buildings, tools or stone ring.\nAction: Continue the already-established small natural wood fire while the Narrator explains that fire existed before people. Only its connected upper flame shapes flicker softly and the thin smoke plume rises slowly. Keep the flame base fixed on the fallen branch. Keep the entire terrain, branch, grass and cloudy sky stable. No new ignition, lightning, sweeping flame front or human activity.\nLast frame: Exactly the same elevated view, branch position, hills, grass and cloud shapes. The small fire remains rooted to the same branch, with its connected upper tongues in a slightly different natural flicker state and the thin smoke plume a little higher. No new fire patches or objects.\nNarrator: “We don't know. Natural fires existed long before people.”\nSpeaker cues: Existing02-01-narrator at local0.800–4.596s, unchanged1x.\nNarrator attention: Sol is absent throughout; Narrator is off-screen.\nNext cut: Cut to the existing storm-tree shot for a specific example of natural ignition.\nGeneration length: 5s, trimmed to actual voice timing after review.\nMotion: Animate on twos at final30fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply this to Sol when present, actual fire and animated local light. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs in editing.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people."
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": null,
+    "coverage": "Sol is absent throughout; Narrator is off-screen.",
+    "final_voice_alignment_verified": false
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "02",
+  "first_frame": "No people or Sol. An isolated dry fallen branch lies on bare earth among sparse straw-gold grass, with a small orange fire already rooted on its center. A single soft gray plume rises above it. The surroundings remain mostly unburned, with no campsite, buildings, tools or stone ring.",
+  "action": "Continue the already-established small natural wood fire while the Narrator explains that fire existed before people. Only its connected upper flame shapes flicker softly and the thin smoke plume rises slowly. Keep the flame base fixed on the fallen branch. Keep the entire terrain, branch, grass and cloudy sky stable. No new ignition, lightning, sweeping flame front or human activity.",
+  "last_frame": "Exactly the same elevated view, branch position, hills, grass and cloud shapes. The small fire remains rooted to the same branch, with its connected upper tongues in a slightly different natural flicker state and the thin smoke plume a little higher. No new fire patches or objects.",
+  "performance_beats": [
+    {
+      "body": "Continue the already-established small natural wood fire while the Narrator explains that fire existed before people. Only its connected upper flame shapes flicker softly and the thin smoke plume rises slowly. Keep the flame base fixed on the fallen branch. Keep the entire terrain, branch, grass and cloudy sky stable. No new ignition, lightning, sweeping flame front or human activity.",
+      "cue": "Existing02-01-narrator at local0.800–4.596s, unchanged1x.",
+      "gaze": "Sol is absent throughout; Narrator is off-screen."
+    }
+  ]
+}

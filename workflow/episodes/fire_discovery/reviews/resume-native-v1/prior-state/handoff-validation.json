@@ -1,0 +1,274 @@
+{
+  "episode": "fire_discovery",
+  "status": "Corrected23.616s preview rendered: actualSolparticlecleanup, mouth-bearing takeexcluded, silence trims, stronger12pxoutline. Finalindependentcriticalchecks finishing.",
+  "scenes": 5,
+  "image_prompts": 10,
+  "video_prompts": 5,
+  "spoken_words": 54,
+  "target_duration_sec": 30,
+  "estimated_duration_sec": 23.6,
+  "timing_confirmed": false,
+  "images_generated": 26,
+  "videos_generated": 22,
+  "audio_generated": 7,
+  "frame_approval": true,
+  "final_ready": false,
+  "previous_episode": "escalator",
+  "previous_episode_preserved_sha256": {
+    "script.txt": "c8f19c099e6e51b84a12d3e51cb236768573f137c672c2baaeeedd7add43179c",
+    "shot-plan.json": "b4f336e299c9ed098c232b491c4fc23be1543f12be596f63303eb1cbaa7514ef",
+    "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
+  },
+  "pending": [
+    "Dedicated corrected02/05 no-mouth/no-detached-particle inspection and current source review records.",
+    "User review of actual corrected preview."
+  ],
+  "checks": {
+    "ten_endpoints_and_five_video_prompts": true,
+    "prompt_blocks_match_plan": true,
+    "complete_spoken_script_unchanged": true,
+    "model_voice_ids_paths_preserved": true,
+    "moment_specific_lighting": true,
+    "no_hand_elements_in_scene_03": true,
+    "generated_and_editorial_cameras_separate": true,
+    "cadence_and_voice_timing_unconfirmed": true,
+    "gouache_depth_and_identity_rules": true,
+    "previous_episode_preserved": null,
+    "only_requested_still_images_generated": true,
+    "all_ten_endpoint_files_present": true,
+    "scene_02_first_exactly_reuses_scene_01_last": true,
+    "previous_endpoint_versions_preserved": true,
+    "all_five_video_prompts_target_exact_twos": true,
+    "face_turn_endpoints_replaced": true,
+    "cadence_not_yet_implemented_or_verified": false,
+    "cadence_verified_per_generated_take": true,
+    "one_reused_endpoint_nine_unique_active_stills": true,
+    "current_scene02_pair_explicitly_user_approved": true,
+    "current_scene05_pair_explicitly_user_approved": true,
+    "scene_05_ready_for_animation": true,
+    "unchanged_01_03_04_source_script_reviews_passed": true,
+    "eye_correction_passed": false
+  },
+  "endpoint_entries": 10,
+  "unique_image_generations": 7,
+  "reused_endpoint_entries": 1,
+  "exact_frame_cadence_confirmed": false,
+  "scene_01_candidate_sha256": {
+    "first": "f54632337add920352d5e08c158368747c40dcfd4aa7ab20d2340e064de1726a",
+    "last": "a6196a113ed0919e60ed270f6f60c23e2e1861f9a55ff26b55d7d25cd0e54ad5"
+  },
+  "active_endpoint_entries": 10,
+  "unique_active_image_jobs": 7,
+  "motion_policy": {
+    "delivery_fps": 30,
+    "pose_hold_frames": 2,
+    "pose_updates_per_second": 15,
+    "playback_rate": 1,
+    "confirmed": false
+  },
+  "twos_endpoint_receipt": "jobs/higgsfield/twos-endpoints-v1.json",
+  "prior_revision_baseline_sha256": {
+    "workflow/config/generation.json": "2d8aab66e0045ca491e271ad14a82c6f854886b72328e3153574f0efb3233f16",
+    "workflow/config/voices.json": "e887ef98ec089d9c3856ff98084ee0f44006d53cc29d5db66a36d252d75daf4d",
+    "workflow/config/sol-references.json": "14e0f6a6be72b249b434960a2c6a641bfc1273a8e51bf333ce911f162901900e",
+    "workflow/episodes/fire_discovery/audio/voice-cues.plan.json": "4a09b69ff828e0410e253d212cc3c117ebf35c5700404cb85a3e2ea7b98ae116",
+    "workflow/episodes/escalator/script.txt": "c8f19c099e6e51b84a12d3e51cb236768573f137c672c2baaeeedd7add43179c",
+    "workflow/episodes/escalator/shot-plan.json": "b4f336e299c9ed098c232b491c4fc23be1543f12be596f63303eb1cbaa7514ef",
+    "workflow/episodes/escalator/higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
+  },
+  "scene05_endpoint_issue": "Earlier nano-v5 correction was approved historically. The current narrator-up nano-v6 ending is a new unapproved candidate.",
+  "video_jobs_submitted": 15,
+  "video_jobs_completed": 15,
+  "unique_scene_videos_generated": 5,
+  "production_clips_approved": 0,
+  "latest_motion_preference": "Small action-driven bouncy flame-like body/tip wobble with coherent layers/face, unchanged eye ovals and a damped settle.",
+  "single_model_comparison": {
+    "model": "kling3_0",
+    "mode": "pro",
+    "duration": 3,
+    "estimated_credits": 5.25,
+    "user_authorized": true,
+    "shared_defaults_changed": false,
+    "status": "completed_reviewed_eye_squash",
+    "clip": "clips/tests/01-kling3pro-v1-twos.mp4",
+    "native_dimensions": [
+      1076,
+      1928
+    ],
+    "cadence_fps": 30,
+    "verified_pairs": 45,
+    "review_report": "reviews/01/independent-review-kling3pro-v1.json"
+  },
+  "resolved_user_preferences": {
+    "video_model": {
+      "value": "gemini_omni_flash_1_2",
+      "user_message": "i like omni flash."
+    },
+    "brief_natural_blink": {
+      "allowed": true,
+      "user_message": "Allow a brief natural blink"
+    },
+    "bouncy_sol": true,
+    "local_code_eye_cleanup_authorized": true,
+    "flowy_pose_transitions": true
+  },
+  "frame_approvals_by_scene": {
+    "01": true,
+    "02": true,
+    "03": true,
+    "04": true,
+    "05": true
+  },
+  "required_review_checks": 12,
+  "script_review_required": true,
+  "review_tests_passed": 17,
+  "superseded_validation": {
+    "two_reused_endpoints_eight_unique_active_stills": true,
+    "scene_02_last_exactly_reuses_scene_01_first": true,
+    "scene05_fixed_identity_endpoint_passed": true,
+    "scene_05_ready_for_animation": true,
+    "current_scene05_pair_explicitly_user_approved": true,
+    "scope": "Historical checks before the current Narrator-up endpoint change; these do not approve the new Scene02/05 pairs."
+  },
+  "previous_episode_preservation_note": "Historical hashes retained. The escalator directory is currently absent, so preservation cannot be verified in this audit; this task did not remove it.",
+  "source_visual_and_provisional_script_reviews_passed": [
+    "01",
+    "03",
+    "04"
+  ],
+  "source_review_scope": "Source visuals and provisional script alignment only; actual normal-rate voices, final sync/playback/captions/crops remain pending.",
+  "latest_eye_feedback": {
+    "quote": "its good but i feel like the right images the eyes are lighter color? also their shape is kind of deformed",
+    "affected_scenes": [
+      "02",
+      "05"
+    ],
+    "current_pair_approved": false,
+    "correction_attempts": [
+      {
+        "receipt": "jobs/higgsfield/narrator-eye-fix-v1.json",
+        "status": "rejected_enlarged_eyes"
+      },
+      {
+        "receipt": "jobs/higgsfield/narrator-eye-fix-v2.json",
+        "status": "rejected_gradients_and_highlights"
+      }
+    ]
+  },
+  "local_eye_cleanup": {
+    "authorized": true,
+    "user_message": "oh oops yeah sorry u can do that",
+    "receipt": "reviews/narrator-attention/eye-correction/local-cleanup-receipt-v2.json",
+    "method": "Copy original source eye contours, translate20px up, restore opaque navy, repair only old eye footprints.",
+    "ai_generation_performed": false,
+    "frame_approval": false,
+    "selected_candidates": {
+      "02": "keyframes/02-last-eye-lock-v2.png",
+      "05": "keyframes/05-last-eye-lock-v2.png"
+    },
+    "independent_review": "reviews/narrator-attention/eye-correction/independent-local-eye-review-v2.json",
+    "visual_review_passed": true
+  },
+  "unique_active_still_assets": 9,
+  "selected_locally_corrected_endpoints": 2,
+  "local_eye_cleanup_versions": 4,
+  "eye_squish_trial": {
+    "requested": true,
+    "approved": false,
+    "vertical_scale": 0.8,
+    "receipt": "reviews/narrator-attention/eye-correction/upward-squish-trial-v1.json",
+    "canonical_frames_changed": false,
+    "status": "rejected_by_user"
+  },
+  "body_up_tilt_trial": {
+    "requested": true,
+    "approved": true,
+    "generation_receipt": "jobs/higgsfield/body-up-tilt-v1.json",
+    "eye_color_receipt": "reviews/narrator-attention/body-up-tilt/eye-color-finish-v1.json",
+    "candidates": {
+      "02": "keyframes/02-last-body-up-tilt-eye-finish-v1.png",
+      "05": "keyframes/05-last-body-up-tilt-eye-finish-v1.png"
+    },
+    "canonical_frames_changed": false,
+    "status": "selected and submitted for video"
+  },
+  "latest_visual_findings": {
+    "01": "Verifiedmouthless preferredv3subset, badmouth-bearingv5 excluded.",
+    "02": "Actualbody-preservingparticlecleanup and4.8s prefix selected; connectedoriginal lobe wiggle preserved.",
+    "03": "One-pair lightning, source1.2sopening trimmed, final5.667s.",
+    "04": "Contactactionpreserved, shortened6.6s.",
+    "05": "Actualbody-preservingparticlecleanup and4.2s prefix selected; face preserved."
+  },
+  "current_clip_gates": [],
+  "body_flow_correction": {
+    "take": 4,
+    "jobs": {
+      "02": "74a29afc-72c8-48a2-b4bf-21e3bfaa1264",
+      "05": "e1245ed3-1fd1-4aa2-b3ae-b94acc5e74e8"
+    },
+    "status": "completed_independently_rejected",
+    "same_approved_frames": true,
+    "model_unchanged": true,
+    "estimated_credits_this_video_phase": 65,
+    "remaining_blocked_checks": {
+      "02": {
+        "eyes": "fail",
+        "start_end_states": "fail",
+        "painted_art_style": "fail",
+        "flame_and_limbs": "fail",
+        "contacts_and_action": "fail",
+        "object_continuity": "fail",
+        "performance_and_timing": "fail",
+        "clean_footage": "fail",
+        "script_and_narrator_attention": "fail"
+      },
+      "05": {
+        "eyes": "fail",
+        "start_end_states": "fail",
+        "painted_art_style": "fail",
+        "flame_and_limbs": "fail",
+        "contacts_and_action": "fail",
+        "object_continuity": "fail",
+        "performance_and_timing": "fail",
+        "clean_footage": "fail",
+        "script_and_narrator_attention": "uncertain"
+      }
+    }
+  },
+  "local_video_cleanup_proposal": "reviews/grounded-flow-v4/local-video-cleanup-proposal.json",
+  "final_binding_reviews": {
+    "01": "reviews/01/independent-review-final-binding-v1.json",
+    "02": "reviews/02/independent-review-final-binding-v1.json",
+    "03": "reviews/03/independent-review-final-binding-v1.json",
+    "04": "reviews/04/independent-review-final-binding-v1.json",
+    "05": "reviews/05/independent-review-final-binding-v1.json"
+  },
+  "latest_flame_size_feedback": {
+    "user_message": "wait i dont like the visual flames coming out i dont like them big but subtle ones look very cute can u look over that",
+    "review": "reviews/grounded-flow-v4/flame-size-preference-review-v1.json",
+    "comparison": "reviews/grounded-flow-v4/flame-size/effect-size-examples.jpg",
+    "media_changed": false
+  },
+  "historical_source_passes_before_latest_policy": [
+    "01",
+    "03",
+    "04"
+  ],
+  "current_policy_review_pending": true,
+  "policy_note": "Latest user scraps all Sol particles and asks gentle attached wiggle only. Historical tiny-flick allowances/rejections are preserved as history; current reports bind actual33s script, voice cues and raw WAV hashes.",
+  "particle_free_full_video": {
+    "source_request": "generate videos again and then make the fulll video with sound",
+    "status": "Corrected23.6s preview rendered/decoded/normalized; currentcriticalreviewpending",
+    "draft": "renders/fire-discovery-corrected-v2-preview.mp4",
+    "audio_cues": "audio/voice-cues.json",
+    "normal_rate": true,
+    "narrator_onsets_local_sec": {
+      "02": 0.8,
+      "05": 4.0
+    },
+    "particle_policy": "All Sol emissions removed from prompts; actual footage still independently inspected.",
+    "duration_sec": 23.616,
+    "orange_outline_px": 12
+  },
+  "final_edit_duration_sec": 23.6
+}
