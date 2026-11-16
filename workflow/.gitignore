@@ -5,3 +5,6 @@ episodes/**/jobs/useapi/
 episodes/**/jobs/higgsfield/
 episodes/**/public/clips/
 episodes/**/public/audio/
+
+# Completed episode delivery copies stay local.
+/completed/*.mp4

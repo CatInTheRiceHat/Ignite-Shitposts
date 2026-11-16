@@ -7,6 +7,11 @@ her current feedback. Read it before each prompt or media review and update it
 when she gives new critiques. Her later clarifications take precedence over
 older examples or acting suggestions.
 
+Keep shared visual guidance focused on reusable art direction: painted finish,
+character identity, motion and visual consistency. Specific scenes, settings,
+story beats and episode sound requests belong in that episode's feedback,
+script and shot plan. Elaine's scene examples are not shared style requirements.
+
 Current video default for all active clients: **Gemini Omni Flash 1.2**
 (`gemini_omni_flash_1_2`), from `../config/generation.json`. Prepare first and
 last stills by generating or reusing the specified assets. Show BOTH to the

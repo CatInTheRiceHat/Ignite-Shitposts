@@ -1,0 +1,124 @@
+{
+  "scope": "Episode-only replacement of repeated fire-video clips. Shared art guidelines do not prescribe these locations.",
+  "reference_inputs": [
+    {
+      "media_id": "32eb483f-3828-4c01-b964-62503b693684",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/32eb483f-3828-4c01-b964-62503b693684.png",
+      "source_path": "workflow/assets/reference-art/Mascot.png",
+      "role": "identity"
+    },
+    {
+      "media_id": "bb3b0905-041a-4456-9587-74d7276cdaef",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/bb3b0905-041a-4456-9587-74d7276cdaef.png",
+      "source_path": "workflow/assets/reference-art/Microphone.png",
+      "role": "limb anatomy only"
+    },
+    {
+      "media_id": "f882fffb-183a-4cda-972a-c5cf0e1e38bc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/f882fffb-183a-4cda-972a-c5cf0e1e38bc.jpg",
+      "source_path": "workflow/assets/reference-art/Spring.jpg",
+      "role": "painted style only"
+    },
+    {
+      "media_id": "f71d56dd-c10a-452d-bb46-901270659d55",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/f71d56dd-c10a-452d-bb46-901270659d55.jpg",
+      "source_path": "workflow/assets/reference-art/Practical Learning.jpg",
+      "role": "painted style only"
+    },
+    {
+      "media_id": "184b0d32-8932-4f79-92b3-b5b42431b63c",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/184b0d32-8932-4f79-92b3-b5b42431b63c.jpg",
+      "source_path": "workflow/assets/reference-art/Thank You.jpg",
+      "role": "painted style only"
+    }
+  ],
+  "new_requests": [
+    {
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "medium",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "prompt": "Create one complete new vertical painted scene of Sol beside an outdoor campfire after dark.\n\nA small campsite on an open ridge at blue hour, with a low stone-ring campfire, a simple muted-ochre canvas tent in the far upper-right, packed mauve-gray earth and broad distant blue hills. An open slate-blue evening sky replaces the enclosed woodland or indoor walls. Cool ambient evening light and gentle local amber firelight; no stars, flying embers or decorative particles.\n\nMedium-wide full-body shot at Sol face height, slightly downward. Sol stands on SCREEN-RIGHT at x=66%, height38%, feet y=76%; a low campfire occupies SCREEN-LEFT at x=28%, y=64%, with a clear gap from Sol. The small tent is distant, at x=77%, y=38%; hills and open sky form broad simple layers. Fixed camera. Quiet lower fifth for editable captions.\n\nSol stands on solid packed earth beside the campfire, both tiny feet supported and both short rounded arms lowered at his flanks. His compact body is angled shallowly toward the fire on screen-left, with both original dark oval eyes visible. A small contained flame burns on three charred pieces of wood inside a low ring of stones; no people are present.\n\nPreserve the original mascot as a whole: broad compact flame silhouette, asymmetric tip, rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with a lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are opaque navy #1C2447 with no highlights, whites, gray rims or extra pupils. Short rounded arms and tiny stubby feet keep their original lengths and attachment points. Completely mouthless and blank below the eye pair. No nose, fingers, long legs, neck or separate torso. Keep the face and all filled flame layers coherent. Sol emits no sparks, particles, droplets or detached flame pieces.\n\nSoft matte gouache brushwork, visible layered painted color, subtle paper texture and broad readable shapes across Sol, tent, fire, rocks, earth and sky. Coherent perspective, gentle shading and contact shadows. Keep the cream face readable in the low light. Define forms through light and color without ink outlines, gloss, plastic surfaces, heavy grain or photographic fire.\n\nNo text, captions, watermark, indoor fireplace, walls or dense woodland.\n\nReference roles: image1 controls the original mascot design; image2 shows the original short rounded arms only, without microphone or cable; image3 supplies gouache finish only, without its spring scene, props or multiple characters. Show exactly one Sol in this new evening campsite.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "32eb483f-3828-4c01-b964-62503b693684"
+          },
+          {
+            "role": "image",
+            "value": "bb3b0905-041a-4456-9587-74d7276cdaef"
+          },
+          {
+            "role": "image",
+            "value": "f882fffb-183a-4cda-972a-c5cf0e1e38bc"
+          }
+        ]
+      },
+      "authorization": "Redo repeated scene clips in this video by returning to image generation and making different scenes.",
+      "output": "revisions/scene-replacements-v2/keyframes/05-first.png",
+      "new_pair_approved": false
+    },
+    {
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "medium",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "prompt": "Create the matching last still using the supplied campsite first frame as the exact composition reference.\n\nMedium-wide full-body shot at Sol face height, slightly downward. Sol stands on SCREEN-RIGHT at x=66%, height38%, feet y=76%; a low campfire occupies SCREEN-LEFT at x=28%, y=64%, with a clear gap from Sol. The small tent is distant, at x=77%, y=38%; hills and open sky form broad simple layers. Fixed camera. Quiet lower fifth for editable captions.\n\nExactly the same campsite, camera, Sol scale, ground contacts, tent, hills, stones and three wood pieces. Sol holds both stubby arms slightly open in a low gesture of understanding. His compact body, filled flame layers and attached face tilt gently backward/up together toward the fixed Narrator point just above camera. Preserve original tall close-spaced navy oval eyes, broad cream inner flame, unchanged limb lengths and supported feet.\n\nPreserve the original mascot as a whole: broad compact flame silhouette, asymmetric tip, rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with a lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are opaque navy #1C2447 with no highlights, whites, gray rims or extra pupils. Short rounded arms and tiny stubby feet keep their original lengths and attachment points. Completely mouthless and blank below the eye pair. No nose, fingers, long legs, neck or separate torso. Keep the face and all filled flame layers coherent. Sol emits no sparks, particles, droplets or detached flame pieces.\n\nSoft matte gouache brushwork, visible layered painted color, subtle paper texture and broad readable shapes across Sol, tent, fire, rocks, earth and sky. Coherent perspective, gentle shading and contact shadows. Keep the cream face readable in the low light. Define forms through light and color without ink outlines, gloss, plastic surfaces, heavy grain or photographic fire.\n\nKeep the low campfire attached to its wood; no flying sparks. No text, captions or watermark.\n\nThe final pose must visibly listen UP: gently pitch Sol's compact body and attached face/layers backward together, keeping the original eye shapes and eye-to-face placement. Keep both tiny feet supported on the same ground contacts. The low open-arm gesture remains within the original short limb length. No separate face turn or eye-only sliding.\n\nReference1 is the exact new campsite composition; preserve its tent, hill silhouettes, stone ring, wood, camera, mascot scale and light. Reference2 supplies the original mascot geometry only. Reference3 supplies the upward body posture only; do not copy its woodland, character scale, lighting or fire arrangement.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d7f8f514-eb3e-4d29-a468-6cc416182bc5"
+          },
+          {
+            "role": "image",
+            "value": "32eb483f-3828-4c01-b964-62503b693684"
+          },
+          {
+            "role": "image",
+            "value": "36d81324-54f7-449e-872c-377cbf644030"
+          }
+        ]
+      },
+      "output": "revisions/scene-replacements-v2/keyframes/05-last.png",
+      "new_pair_approved": false
+    },
+    {
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "medium",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "prompt": "Create the matching ending illustration for this gentle painted cartoon campsite. Preserve the exact first image's camera, composition, evening light, tent, hills, stone ring, burning wood and ground.\n\nKeep the same small flame mascot on the right at the same size and position. He now opens his two short rounded arms a little into a low gesture of understanding and tilts his whole connected flame shape gently upward to listen to a friendly voice just above the camera. Both little feet stay on their original ground contacts. His two small solid navy oval eyes keep the same shape, spacing and placement within the cream face, following the whole character's upward tilt. Keep him mouthless, with the cream area below the eyes blank.\n\nPreserve his original red, orange and broad cream flame layers and compact proportions. Keep all flame lobes attached, with no emitted particles. Maintain the same soft gouache brushwork, layered color, subtle paper texture and painted depth throughout the scene. The small campfire stays contained on its wood. No text or watermark.\n\nThe first reference is the exact scene to preserve. The second is the mascot identity reference.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "d7f8f514-eb3e-4d29-a468-6cc416182bc5"
+          },
+          {
+            "role": "image",
+            "value": "32eb483f-3828-4c01-b964-62503b693684"
+          }
+        ]
+      },
+      "reason": "Prior request returned terminal nsfw status for a benign cartoon campsite. This simplified scene-preserving prompt omits the older pose reference.",
+      "output": "revisions/scene-replacements-v2/keyframes/05-last.png"
+    }
+  ],
+  "new_image_jobs": 3,
+  "estimated_credits_per_image": 2,
+  "estimated_total_credits": null,
+  "retained_pair_sources": {
+    "01": "../fireplace-v1/keyframes/01-first.png and01-last.png",
+    "02": "../fireplace-v1/keyframes/02-first.png and02-last.png"
+  },
+  "frame_approvals": {},
+  "video_jobs_submitted": 0,
+  "estimated_total_submitted_credits": 6,
+  "billing_note": "One request was rejected by the provider; actual billed/refunded amount not verified.",
+  "rejected_job": "8a3d9e27-4610-454e-b58b-be9930ee490e"
+}

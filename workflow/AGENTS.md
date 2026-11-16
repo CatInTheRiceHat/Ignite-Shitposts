@@ -12,6 +12,9 @@ forward, while its scene layout and mechanical props do not.
   and distinguish her preferences from reviewer observations. Keep any new
   critiques she has not yet stated pending. Read the linked image/video prompt
   guides and apply her latest clarifications over older acting examples.
+  Shared visual guidelines cover reusable art direction. Keep specific scene
+  ideas, replacement-shot requests and episode sound notes in that episode's
+  feedback, script and shot plan; do not promote them into shared style rules.
 - Image generation uses **Nano Banana 2.1** (`nano_banana_2_1`) through
   Higgsfield, with the 2k, 9:16 settings in `config/generation.json`.
   Its `thinking_level` is separate from image quality; do not send GPT-specific
@@ -88,3 +91,11 @@ Smooth planned editorial pushes may follow stepped footage; check all crops.
 Preserve current models, voice selections, caption styling and frame approvals.
 
 Mandatory script review: read the actual script/storyboard and per-scene speaker cues with every clip. Narrator speech plus visible Sol requires upward gaze and gentle listening idle throughout. New endpoint directions require review of the changed actual frame pairs before animation; preserve exact frame reuse where applicable.
+
+## Completed exports
+
+Put a copy of each completed episode MP4 in `workflow/completed/`, named only
+with the episode title, for example `How Fire Was Discovered.mp4`. Omit version
+numbers and draft/review/final suffixes from these delivery filenames. Preserve
+the episode's original renders and edit history. Flag differing filename
+collisions before replacing a completed copy.

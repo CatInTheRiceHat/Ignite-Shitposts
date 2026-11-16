@@ -1,0 +1,53 @@
+{
+  "status": "awaiting explicit approval of both endpoints per scene",
+  "selected_pairs": {
+    "01": {
+      "first": "keyframes/01-first.png",
+      "last": "keyframes/01-last.png",
+      "first_sha256": "a82d47d9563639577c9c460b659442e6752b6910a12da202a8b5c3d475044222",
+      "last_sha256": "f89e431a40a1f52ba5cba08cf0b981d5648477975adedda9e279843a62a0d1c8",
+      "comparison": "reviews/01-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/01/frames/779740149e32cb51e9ac/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/01/frames/779740149e32cb51e9ac/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/01/frames/779740149e32cb51e9ac/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    },
+    "02": {
+      "first": "keyframes/02-first.png",
+      "last": "keyframes/02-last.png",
+      "first_sha256": "e38f61c78a674f18532fc8b9ba429be7fad7c30b754bea384fa62d3784b8f0ba",
+      "last_sha256": "c53b607c2b749fcb0477f8899205568551f7efdaeed1b6ec534c436c3707bcb6",
+      "comparison": "reviews/02-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/02/frames/2663b88dfa4edc0ad81c/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/02/frames/2663b88dfa4edc0ad81c/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/02/frames/2663b88dfa4edc0ad81c/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    },
+    "05": {
+      "first": "keyframes/05-first.png",
+      "last": "keyframes/05-last.png",
+      "first_sha256": "53661174b77e50a14ff43c4b3baada639258ead566a80bb74cc0f359762363b2",
+      "last_sha256": "c92e45ad927b08d07744efb74061acd46ac27b4da02572b3522c596340e85c93",
+      "comparison": "reviews/05-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/05/frames/7c56d79360dedb7f266b/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/05/frames/7c56d79360dedb7f266b/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/scene-replacements-v2/reviews/05/frames/7c56d79360dedb7f266b/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "approved": false
+    }
+  },
+  "new_image_jobs": 3,
+  "new_successful_images": 2,
+  "provider_rejected_jobs": 1,
+  "retained_images": 4,
+  "new_video_jobs": 0,
+  "guideline_scope": "Specific scene choices remain in the episode, not shared art direction."
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root/clip_reviewer",
+  "scope": "Independent diagnostic review of selected Scene 02 and 05 repairs; not canonical production approval.",
+  "method": "Decoded every frame; visually inspected every two-frame state on six chronological Sol sheets plus six native-scale tip sheets and native crops. No real-time audiovisual playback claimed.",
+  "sources": {
+    "02": {
+      "source": "workflow/episodes/fire_discovery/clips/edit-v3/02-clean-holds-v3.mp4",
+      "sha256": "e0cc61c98cc7490e30130a79042a068e1f47bb46d305ed281d2a1d9a7de79d9d",
+      "frames": 144,
+      "pair_mismatches": [],
+      "sheets": [
+        "02-sequence-00.jpg",
+        "02-sequence-01.jpg",
+        "02-sequence-02.jpg"
+      ]
+    },
+    "05": {
+      "source": "workflow/episodes/fire_discovery/clips/edit-v3/05-clean-holds-v3.mp4",
+      "sha256": "d4e9edb5e06bdbb73ac7a51378ffd4b75e961019ca1b4427b7009e6f1c9b49e4",
+      "frames": 134,
+      "pair_mismatches": [],
+      "sheets": [
+        "05-sequence-00.jpg",
+        "05-sequence-01.jpg",
+        "05-sequence-02.jpg"
+      ]
+    }
+  },
+  "bound_edit": "edit-resume-v3.json",
+  "coverage_reviewed": [
+    "selected-v3/02-sequence-00.jpg",
+    "selected-v3/02-sequence-01.jpg",
+    "selected-v3/02-sequence-02.jpg",
+    "selected-v3/05-sequence-00.jpg",
+    "selected-v3/05-sequence-01.jpg",
+    "selected-v3/05-sequence-02.jpg",
+    "selected-v3/selected-v3-02-native-tip-00.png",
+    "selected-v3/selected-v3-02-native-tip-01.png",
+    "selected-v3/selected-v3-02-native-tip-02.png",
+    "selected-v3/selected-v3-05-native-tip-00.png",
+    "selected-v3/selected-v3-05-native-tip-01.png",
+    "selected-v3/selected-v3-05-native-tip-02.png"
+  ],
+  "findings": {
+    "mouthless": {
+      "verdict": "pass",
+      "observed": "All 72 Scene02 and67 Scene05 paired states retain blank cream beneath the two navy eyes. No third mark, mouth line or nose. Brief natural blinks retained.",
+      "timestamps_sec": [
+        0,
+        0.6,
+        0.8,
+        1.333333,
+        2.266667,
+        3.0,
+        3.733333,
+        4.0,
+        4.4
+      ]
+    },
+    "sol_particles": {
+      "verdict": "pass",
+      "observed": "The previously visible leaf-like emitted lobes are absent from the selected short clean holds. Native background cleanup also removes thin red trails, including Scene05 frames126\u2013133. No detached Sol fragments identified in all inspected selected native tip states. Actual separate wood fire is outside this repair scope.",
+      "timestamps_sec": [
+        0.533333,
+        0.666667,
+        1.266667,
+        1.333333,
+        1.4,
+        1.466667,
+        1.666667,
+        2.266667,
+        3.266667,
+        3.333333,
+        4.2,
+        4.266667,
+        4.333333
+      ]
+    },
+    "repair_contour_and_transitions": {
+      "verdict": "pass",
+      "observed": "No introduced holes, sliced main tip, jagged body replacement or altered limbs/face in inspected selected states. Complete-pair holds use small neighboring idle changes; body and planted-foot positions stay coherent across those boundaries. A real-time playback smoothness judgment is not claimed.",
+      "timestamps_sec": [
+        0.466667,
+        0.733333,
+        1.2,
+        1.4,
+        1.533333,
+        1.733333,
+        2.2,
+        2.333333,
+        3.2,
+        3.4,
+        4.133333,
+        4.333333
+      ]
+    },
+    "narrator_attention": {
+      "verdict": "pass_with_timing_scope",
+      "observed": "Scene02 arm lowering/body-led upward orientation is underway by f22 (0.733s), visible at f24 before/during 0.8s voice onset and maintained across the 0.8\u20134.595729s scheduled voice window, including brief blink f90\u201394. Scene05 still transitions at original3.733 onset, so revised Right onset4.0s is needed: f116\u2013118 establish the body-up pose before f120; it persists with attached tip/body idle through the revised reply end4.312104s. Uses actual saved-wave durations and schedule, not a new auditory onset measurement.",
+      "timestamps_sec": [
+        0.733333,
+        0.8,
+        3.0,
+        3.733333,
+        3.866667,
+        3.933333,
+        4.0,
+        4.266667,
+        4.4
+      ]
+    },
+    "on_twos": {
+      "verdict": "pass",
+      "observed": "Independent full RGB decode found zero within-pair mismatches in both candidates. Scene02 144frames;05 134frames. All holds use complete pairs.",
+      "timestamps_sec": [
+        0,
+        1.266667,
+        4.4
+      ]
+    }
+  },
+  "initial_native_v1_verdict": "reject; residual attached/emitting buds at02f38/40,68,98/100,126/128;05f16/18/20,40/42/44,50, plus thin detached trails in05tail126\u2013133. New selected-v3 remedies those observed defects.",
+  "limitations": [
+    "This is a narrow repair/source review, not full canonical contract review or user still approval.",
+    "No claim of final audio playback, full-film review, exact voice-word auditory synchronization, or approval of unrelated inherited art/eye/wood-fire behavior.",
+    "Retain the intentional look-up pause before Right; deleting f88\u2013105 makes a visible pose/blink phase jump at86\u2192106."
+  ],
+  "summary": "Selected-v3 Scene02/05 repairs pass the inspected mouth/particle/contour scope; revised Right4.0s placement follows the upward body pose. Final export sample visual checks pass. Deliver as a review cut; this does not confer canonical production approval.",
+  "final_export_samples": {
+    "output": "renders/fire-discovery-resumed-v3-review.mp4",
+    "sha256": "b5ddfc8406f1b298bdd72f8eed4b90a28928a62d5b31c534c6e7fd1b35beaf28",
+    "verdict": "pass_for_sampled_visual_scope",
+    "coverage": [
+      "renders/full-cut-review-v3/sequence-01.jpg",
+      "renders/full-cut-review-v3/sequence-02.jpg",
+      "renders/full-cut-review-v3/detail-05-3.8333s.jpg",
+      "renders/full-cut-review-v3/detail-08-6.7333s.jpg",
+      "renders/full-cut-review-v3/detail-22-23.6s.jpg"
+    ],
+    "observed": "Both final phone-size chronological sample sheets and named native details show mouthless Sol, no visible emitted Sol fragments, clear orange caption outlines and no crop cutting Sol or key action. Final23.6s Right sample has body-up listening pose. Sparse final-film samples supplement all-state source inspection; no real-time listening or exhaustive final-frame inspection claimed."
+  }
+}

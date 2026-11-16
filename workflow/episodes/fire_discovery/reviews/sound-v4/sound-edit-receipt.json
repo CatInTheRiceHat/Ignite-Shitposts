@@ -1,0 +1,39 @@
+{
+  "user_request": "Bomboclat sound at lightning, background music, extend the ending so Right is not cut off.",
+  "lightning_frame": 292,
+  "lightning_sec": 9.733333333333333,
+  "sting_source": "assets/meme sounds/bomboclat-with-thunder.mp3",
+  "sting_source_sha256": "8e3663992d860bcefe614a365a3233808c80b1df697fc34309cde0e64d8e1e6a",
+  "sting_duration_sec": 1.0163125,
+  "sting_volume": 0.55,
+  "music_source": "assets/music/Hide and Sneak 4.mp3",
+  "music_source_sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23",
+  "music_processing": "Source gain0.1,0.35s fade-in,1.2s fade-out,6dB dip during sting; edit gain1. Previous quiet bed replaced, not stacked.",
+  "narrator_gap": {
+    "utterance": "03-02-narrator",
+    "source_split_sec": 0.4,
+    "inserted_silence_sec": 1.2,
+    "original_spoken_samples_preserved": true
+  },
+  "right_release": {
+    "source": "audio/05-02-narrator.wav",
+    "kept_sec": 0.9,
+    "unchanged_source_prefix": true
+  },
+  "tree_source_exact_frames": [
+    36,
+    241
+  ],
+  "tree_output_frames": 206,
+  "ending_original_frames": 134,
+  "ending_added_hold_frames": 22,
+  "ending_pair_mismatches": [],
+  "new_duration_sec": 25.8,
+  "new_frames": 774,
+  "status": "Completed and exported; full decode, numerical audio alignment and sampled final visuals passed.",
+  "output": "renders/fire-discovery-sound-v4-review.mp4",
+  "sha256": "987fd5b8e60a78ed0cbda059653eab634d39f1416a70d87977db847fb30d9b25",
+  "export_verification": "renders/full-cut-review-v4/verification.json",
+  "audio_verification": "reviews/sound-v4/final-audio-verification.json",
+  "feedback": "feedback.txt"
+}

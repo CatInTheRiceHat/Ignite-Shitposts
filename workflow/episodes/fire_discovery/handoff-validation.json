@@ -1,12 +1,12 @@
 {
   "episode": "fire_discovery",
-  "status": "Corrected23.616s preview rendered: actualSolparticlecleanup, mouth-bearing takeexcluded, silence trims, stronger12pxoutline. Finalindependentcriticalchecks finishing.",
+  "status": "Thunder timing corrected and verified. Three replacement still pairs are ready for explicit user approval before animation.",
   "scenes": 5,
   "image_prompts": 10,
   "video_prompts": 5,
   "spoken_words": 54,
   "target_duration_sec": 30,
-  "estimated_duration_sec": 23.6,
+  "estimated_duration_sec": 25.8,
   "timing_confirmed": false,
   "images_generated": 26,
   "videos_generated": 22,
@@ -20,8 +20,7 @@
     "higgsfield-prompts.txt": "c5848cfd65c042b823cb916e6fe0dd42f75e749836df4394665068be27dab143"
   },
   "pending": [
-    "Dedicated corrected02/05 no-mouth/no-detached-particle inspection and current source review records.",
-    "User review of actual corrected preview."
+    "User audiovisual review; final production bindings and manual timing/playback confirmation remain separate."
   ],
   "checks": {
     "ten_endpoints_and_five_video_prompts": true,
@@ -193,11 +192,11 @@
     "status": "selected and submitted for video"
   },
   "latest_visual_findings": {
-    "01": "Verifiedmouthless preferredv3subset, badmouth-bearingv5 excluded.",
-    "02": "Actualbody-preservingparticlecleanup and4.8s prefix selected; connectedoriginal lobe wiggle preserved.",
-    "03": "One-pair lightning, source1.2sopening trimmed, final5.667s.",
-    "04": "Contactactionpreserved, shortened6.6s.",
-    "05": "Actualbody-preservingparticlecleanup and4.2s prefix selected; face preserved."
+    "01": "Preferred mouthlessv3 subset preserved; source review passed.",
+    "02": "Native-v2 faint-trail cleanup plus clean pair holds at remaining emissions;4.8s selected.",
+    "03": "6.867s of original lightning source retained to accommodate the sound gap; source frames36 through241 preserved exactly.",
+    "04": "Verified existing6.6s contact-action edit preserved.",
+    "05": "Previous clean134-frame selection plus22 complete-pair hold frames;5.2s total. Right begins at local4.0s and retains0.9s of the original take."
   },
   "current_clip_gates": [],
   "body_flow_correction": {
@@ -255,11 +254,11 @@
     "04"
   ],
   "current_policy_review_pending": true,
-  "policy_note": "Latest user scraps all Sol particles and asks gentle attached wiggle only. Historical tiny-flick allowances/rejections are preserved as history; current reports bind actual33s script, voice cues and raw WAV hashes.",
+  "policy_note": "No Sol particles. Current review cut uses native-v2 faint-trail cleanup and short clean source-pair holds. Original frame approvals and rejected media are preserved. No new generation.",
   "particle_free_full_video": {
     "source_request": "generate videos again and then make the fulll video with sound",
-    "status": "Corrected23.6s preview rendered/decoded/normalized; currentcriticalreviewpending",
-    "draft": "renders/fire-discovery-corrected-v2-preview.mp4",
+    "status": "Complete corrected review export, fully decoded and normalized",
+    "draft": "renders/fire-discovery-sound-v4-review.mp4",
     "audio_cues": "audio/voice-cues.json",
     "normal_rate": true,
     "narrator_onsets_local_sec": {
@@ -267,8 +266,58 @@
       "05": 4.0
     },
     "particle_policy": "All Sol emissions removed from prompts; actual footage still independently inspected.",
-    "duration_sec": 23.616,
-    "orange_outline_px": 12
+    "duration_sec": 25.813,
+    "orange_outline_px": 12,
+    "picture_duration_sec": 25.8
   },
-  "final_edit_duration_sec": 23.6
+  "final_edit_duration_sec": 25.8,
+  "current_review_export": {
+    "path": "renders/fire-discovery-thunder-sync-v5-review.mp4",
+    "sha256": "db2915e95d98f68fbce297100b7e9b82e2b4bdafb8e6c82a2f7fc74c9fbf8434",
+    "verification": "reviews/thunder-sync-v5/verification.json",
+    "manual_audio_playback_claimed": false,
+    "video_bytes_preserved": true
+  },
+  "prior_review_export": {
+    "path": "renders/fire-discovery-resumed-v3-review.mp4",
+    "sha256": "b5ddfc8406f1b298bdd72f8eed4b90a28928a62d5b31c534c6e7fd1b35beaf28",
+    "verification": "renders/full-cut-review-v3/verification.json",
+    "selection": "reviews/resume-native-v1/clean-state-selection-v3.json",
+    "manual_audio_playback_claimed": false,
+    "independent_review": "reviews/resume-native-v1/selected-v3-diagnostic-review.json",
+    "independent_repair_verdict": "pass in all inspected selected source states; final export visual samples pass"
+  },
+  "feedback_record": "feedback.txt",
+  "latest_sound_requests": {
+    "lightning_sting": "assets/meme sounds/bomboclat-with-thunder.mp3",
+    "music": "assets/music/Hide and Sneak 4.mp3",
+    "right_full_release_sec": 0.9,
+    "final_hold_after_right_wave_sec": 0.3,
+    "implemented": true
+  },
+  "completed_delivery": {
+    "path": "workflow/completed/How Fire Was Discovered.mp4",
+    "sha256": "987fd5b8e60a78ed0cbda059653eab634d39f1416a70d87977db847fb30d9b25",
+    "source": "workflow/episodes/fire_discovery/renders/fire-discovery-sound-v4-review.mp4",
+    "byte_identical": true
+  },
+  "previous_review_export_before_thunder_sync": {
+    "path": "renders/fire-discovery-sound-v4-review.mp4",
+    "sha256": "987fd5b8e60a78ed0cbda059653eab634d39f1416a70d87977db847fb30d9b25",
+    "verification": "renders/full-cut-review-v4/verification.json",
+    "sound_edit": "reviews/sound-v4/sound-edit-receipt.json",
+    "audio_verification": "reviews/sound-v4/final-audio-verification.json",
+    "manual_audio_playback_claimed": false,
+    "visual_review_scope": "Passed sampled contact sheets covering the full cut and native detail frames at the lightning strike and final Right caption; not an exhaustive new independent review.",
+    "prior_source_repair_review": "reviews/resume-native-v1/selected-v3-diagnostic-review.json"
+  },
+  "pending_scene_revision": {
+    "path": "revisions/scene-replacements-v2/scene-plan.json",
+    "scenes": [
+      "01",
+      "02",
+      "05"
+    ],
+    "status": "Three first/last pairs ready for explicit approval; no replacement clips generated."
+  }
 }
