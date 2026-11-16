@@ -1,0 +1,432 @@
+{
+  "packet_id": "05cd0d742eb626717db70dde5bfeaf2a92a29a08a73f1e9bcc173fb22391105a",
+  "reviewer": "/root/clip_reviewer",
+  "scope": "edited_source_visual_and_measured_trimmed_voice_cue_alignment",
+  "method": "Freshly read actual current complete tight-edit storyboard, per-scene context and trimmed audio cues; measured actual retained WAV durations and verified all bound audio hashes. Opened every current chronological page (10 pages, 198 frames). Independently decoded RGB framemd5 for the current clip and preserved prior source and verified exact subset 0-197, along with 99 identical adjacent pairs and all manifest/reference/endpoint/script/cue bindings. Reused previously inspected native geometry/identity/paint/contact details only because the retained decoded pixels are exactly unchanged; prior report is reviews/04/independent-review-particle-free-v2-voice-v1.json. The original still approvals are not recreated or inferred. Frame-based review only: no new real-time playback or manual listening. No source edits, media generation or policy changes.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "The approved cropped hand, same dry twig, bough and coal arrangement remain. Sol is absent. The small lateral cut nub belongs to the approved twig artwork despite the script word unbranched; it remains an explicit prop caveat, not a newly generated second twig/tool.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        2,
+        3.333333,
+        3.5,
+        3.8,
+        4,
+        5.2,
+        6.383688,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "No visible Sol or face in the retained 198 frames.",
+      "timestamps_sec": [
+        0,
+        4,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent. His body/particle policy does not apply to the human hand or separate rooted wood fire.",
+      "timestamps_sec": [
+        0,
+        4,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Same stable contact close-up with one upper-right hand, one twig and unchanged bough/coals/ash, with no generated camera move or extra tool. Tip, grip and supports stay readable through the cut.",
+      "timestamps_sec": [
+        0,
+        2,
+        3.5,
+        4,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Stable grip lowers the twig onto the coals by about 1.3 seconds; support precedes fingers opening around 3.3-3.8. The released twig stays stationary as the hand withdraws once upper-right and leaves by about 5.1 seconds. Rooted contact flame begins around 4 seconds, after placement; all action is retained by the 6.6-second cut.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        2,
+        3.333333,
+        3.5,
+        3.8,
+        4,
+        5.2,
+        6.383688,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The retained sequence preserves held lowering, supported placement, release, one withdrawal, stationary released wood and subsequent contact fire. No regrip, falling/skating twig or fire before placement.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        2,
+        3.333333,
+        3.5,
+        3.8,
+        4,
+        5.2,
+        6.383688,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Same continuous twig, cut nub, bough, coals and ash retain identity/count/placement. Released wood is stationary through the shorter ending. Only small fire shapes/local warmth change at the fixed fuel contact; no global pulse.",
+      "timestamps_sec": [
+        0,
+        1.3,
+        2,
+        3.333333,
+        3.5,
+        3.8,
+        4,
+        5.2,
+        6.383688,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Opening retains the gripped twig above existing embers with no flame. At the shorter ending the hand is out and the same supported twig carries a small contact flame, a valid continuation of the approved result rather than a new pose/still.",
+      "timestamps_sec": [
+        0,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Independently decoded 198 frames/99 exact pairs, zero mismatches. RGB frame hashes match the prior passed source subset 0-197 exactly; no new pixels, interpolation or speed change. Actual trimmed Arthur WAV is 6.3036875 seconds, placed .08-6.3836875 at 1x inside the 6.6-second source. Supported hold/release overlaps feeding/them/wood at 2.56-3.46 seconds. Making begins 3.850646 and fire at 4.150646, while the placed fuel catches at about 4 seconds. This still illustrates tending existing glowing embers and then distinguishes making fire, with no new ignition method shown. Sol is absent throughout, so no gaze/listening idle is required.",
+      "timestamps_sec": [
+        0,
+        1,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All 198 retained chronological frames preserve the clean source content: no unintended text/logo/watermark, extra speaker/prop or generated audio. Only the planned physical action/fire is visible; Sol remains off-screen.",
+      "timestamps_sec": [
+        0,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Retained RGB pixels exactly match the previously inspected native painted source. Matte layered color, brush-shaped regions and paper/pigment texture remain; the earlier thin contour enhancement/pale rims and denser etched surface detail versus the softer PNGs remain documented limitations. No new style processing or glossy/vector redraw was introduced by the trim.",
+      "timestamps_sec": [
+        0,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Freshly read the complete updated tight-edit script, this scene context and actual trimmed WAV/word cues. Actual trimmed Arthur WAV is 6.3036875 seconds, placed .08-6.3836875 at 1x inside the 6.6-second source. Supported hold/release overlaps feeding/them/wood at 2.56-3.46 seconds. Making begins 3.850646 and fire at 4.150646, while the placed fuel catches at about 4 seconds. This still illustrates tending existing glowing embers and then distinguishes making fire, with no new ignition method shown. Sol is absent throughout, so no gaze/listening idle is required. This is source-frame/measured-cue alignment; no manual listening or unseen final mixed playback is claimed.",
+      "timestamps_sec": [
+        0,
+        6.566666666666666
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    }
+  },
+  "summary": "PASS current tighter edited source and measured trimmed-voice context. Stable grip, support before release, stationary released twig, single withdrawal and rooted contact fire remain valid. The shorter clip retains the complete spoken file(s) at normal speed and complete two-frame holds. Original paint/prop caveats remain; final mixed playback, captions/outline, editorial pushes/crops and sound listening are separate checks.",
+  "inspection_reuse": {
+    "prior_report": "reviews/04/independent-review-particle-free-v2-voice-v1.json",
+    "decoded_source_subset_exact": true,
+    "source_first_frame": 0,
+    "source_last_frame": 197,
+    "current_frames": 198,
+    "current_exact_pairs": 99,
+    "pair_mismatches": 0,
+    "all_manifest_and_binding_hashes_match": true,
+    "proof": "reviews/tight-cut-v2-video-trims.json",
+    "playback_performed": false,
+    "manual_listening_performed": false
+  },
+  "deferred_final_checks": [
+    "Actual final assembled cut playback and manual sound listening",
+    "Final captions/12px orange outline, mix levels and rendered synchronization",
+    "Smooth editorial pushes/crops and cross-scene transitions"
+  ],
+  "type": "independent_clip_review",
+  "decision": "passed",
+  "binding": {
+    "scene": "04",
+    "stage": "clip",
+    "contract_sha256": "962218359baf5c795942ee911df54d5df6d5152ed3c8647bf244f83188344b13",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/04-first.png",
+        "sha256": "f2ee1c98492db252f44d3c3ed770f644fce7b81e6e7b6021f698f71543953e5a"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/04-last.png",
+        "sha256": "0992a807d4e40b1a0179de978fd0a3e2ca89cad128e518157d2638fa99ba79c4"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "dfdf89858fbe0579d6b6fb6663a91e1386d5efcf6787b12311ceed68f621b893"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "4367266a7761b9a4b0d395de577637c93d0b2dfa3c89e340e932aeaf76b02207"
+    },
+    "audio_sources": {
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+        "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+      },
+      "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+        "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+        "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+      },
+      "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+        "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+        "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+      },
+      "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+        "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-02-narrator.wav",
+        "sha256": "bc147c6b5672e154d42aaa7cc5b093eaa06349a4c00fb991000c9a5e362b9dd2"
+      },
+      "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+        "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+        "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+      },
+      "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+        "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+        "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+      },
+      "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+        "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-02-narrator.wav",
+        "sha256": "b404b3e39c7ede40c82978288622356e57a7ff87b15b89f8edd4feb4552e4ae8"
+      },
+      "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+        "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/edit-v2/04-tight.mp4",
+      "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b"
+    }
+  },
+  "recorded_at": "2026-11-16T05:37:54.683715+00:00"
+}
