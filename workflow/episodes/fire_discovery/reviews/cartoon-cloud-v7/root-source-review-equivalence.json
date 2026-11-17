@@ -1,0 +1,106 @@
+{
+  "created_at": "2026-11-17T03:05:12.386499+00:00",
+  "script_sha256": "eacc1d6cad6c2bcc1cf762f10eef5a22bbff71c13a50139522a2b9d128e8fa80",
+  "scenes": [
+    {
+      "scene": "01",
+      "root_packet_id": "65b807edd6031af919deeee1c75c81852d6220e97b9d2703768fe797dc3f23b0",
+      "root_packet_directory": "workflow/episodes/fire_discovery/reviews/01/clip/65b807edd6031af919de",
+      "prior_revision_packet_id": "5c557cbd98a02ad3be2147d2bcf45f0120c182b9382da5643a1d9237da92a923",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/01-independent-review.json",
+      "prior_report_sha256": "0f76cfcf26da47f2b8224365e69a97863ec987dbbc7f25d3ad9f912e75465bbf",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4",
+        "sha256": "f75ff9b7487b8c12402d978cdea68361504ef953f9f850b120dd829d5ee2a53a"
+      },
+      "actual_media_hash_identical": true,
+      "actual_identical_image_count": 89,
+      "changed_context_keys": [
+        "source"
+      ],
+      "context_change": "Only script source path; identical actual script hash and all dialogue/action/attention/cue fields.",
+      "scene_policy_style_composition_identical": true,
+      "actual_reference_still_audio_cue_hashes_verified": true
+    },
+    {
+      "scene": "02",
+      "root_packet_id": "3952c033f415076f0338c41274e2aa788316fc867e75a46ace169b51e5d62cae",
+      "root_packet_directory": "workflow/episodes/fire_discovery/reviews/02/clip/3952c033f415076f0338",
+      "prior_revision_packet_id": "4fbb17e5d0e8c3618751b60daf1b55d04ef0897522d515e02773189dcd5e9525",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/02-fight-cloud-v2-selected-independent-review.json",
+      "prior_report_sha256": "a7a46dc9fdd448dceb9b101b0c7719134f1245fcd9f5ef03d4e6e9aa9544b4f3",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/clips/02-fight-cloud-v2-selected.mp4",
+        "sha256": "c3dbae1a4d4c87e883f28c5cc2f7603e3caf6b3861b9de387ffc57b142fc7d56"
+      },
+      "actual_media_hash_identical": true,
+      "actual_identical_image_count": 172,
+      "changed_context_keys": [
+        "source"
+      ],
+      "context_change": "Only script source path; identical actual script hash and all dialogue/action/attention/cue fields.",
+      "scene_policy_style_composition_identical": true,
+      "actual_reference_still_audio_cue_hashes_verified": true
+    },
+    {
+      "scene": "03",
+      "root_packet_id": "50d85b7d38300d853743eff6c6278d6e282607bbb64bcc7eb93067176ed14691",
+      "root_packet_directory": "workflow/episodes/fire_discovery/reviews/03/clip/50d85b7d38300d853743",
+      "prior_revision_packet_id": "b0d3196f0295442eae20edb5f367acbfbe193e9309b1edaa0c0e0f024c53718d",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/03-independent-review.json",
+      "prior_report_sha256": "8a33e5598d85d17248d1e53b3b622a355efff738da97ba399539f865d7445abe",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v4/03-lightning-with-sting-gap.mp4",
+        "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365"
+      },
+      "actual_media_hash_identical": true,
+      "actual_identical_image_count": 241,
+      "changed_context_keys": [
+        "source"
+      ],
+      "context_change": "Only script source path; identical actual script hash and all dialogue/action/attention/cue fields.",
+      "scene_policy_style_composition_identical": true,
+      "actual_reference_still_audio_cue_hashes_verified": true
+    },
+    {
+      "scene": "04",
+      "root_packet_id": "adb63381675497182255d904234fead3e141f4fe5e99481c56c63e86c76e00c9",
+      "root_packet_directory": "workflow/episodes/fire_discovery/reviews/04/clip/adb63381675497182255",
+      "prior_revision_packet_id": "86832cb2b9ebfc573ba82256007ea78f4b3cb5d651531ddc4125d663591368c5",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/04-independent-review.json",
+      "prior_report_sha256": "faa29e14bacaf1fea970e993972e42ee00aaaa2985b27b87b863a2733bbc7edf",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v2/04-tight.mp4",
+        "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b"
+      },
+      "actual_media_hash_identical": true,
+      "actual_identical_image_count": 232,
+      "changed_context_keys": [
+        "source"
+      ],
+      "context_change": "Only script source path; identical actual script hash and all dialogue/action/attention/cue fields.",
+      "scene_policy_style_composition_identical": true,
+      "actual_reference_still_audio_cue_hashes_verified": true
+    },
+    {
+      "scene": "05",
+      "root_packet_id": "dd0daf55f537fbab7cc8aa249c40ce61d79d8b5475302bd301c309da40ad282a",
+      "root_packet_directory": "workflow/episodes/fire_discovery/reviews/05/clip/dd0daf55f537fbab7cc8",
+      "prior_revision_packet_id": "6695bcba04f516fd7f5ab9e7b0572422572563cc2101cb7b87ea7aabed947390",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/05-independent-review.json",
+      "prior_report_sha256": "7a6c2e657fe860aac3d49eebd56ec1dc4aeccd4b36b2124c9db7fa96f535ed90",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/05-scene.mp4",
+        "sha256": "cc01c367acea68e13bdaa18cc13d13e279faa6462b59718f7e89f56328f3541e"
+      },
+      "actual_media_hash_identical": true,
+      "actual_identical_image_count": 211,
+      "changed_context_keys": [
+        "source"
+      ],
+      "context_change": "Only script source path; identical actual script hash and all dialogue/action/attention/cue fields.",
+      "scene_policy_style_composition_identical": true,
+      "actual_reference_still_audio_cue_hashes_verified": true
+    }
+  ]
+}

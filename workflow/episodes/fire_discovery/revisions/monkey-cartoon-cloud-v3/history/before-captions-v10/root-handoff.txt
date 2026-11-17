@@ -1,0 +1,33 @@
+HOW FIRE WAS DISCOVERED — COMPLETED, NO FINAL POOF
+
+Delivered: ../../completed/How Fire Was Discovered.mp4
+25.466667 seconds, 764 frames, 1080x1920, 30fps, H264/AAC.
+SHA256: 598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626
+
+Elaine clarified “ultimately what im trying to say: remove the poof”.
+Removed prior v8 output204–207 only: the tiny-flame shrink and renewed cream
+puffs. Monkey now ends with a visible burning flame at203, then cuts to the
+tree at204 /6.8s. Original fast cartoon fight cloud remains, as does the
+0.2s opening trim. No added freeze, generated footage or slowed performance.
+Full monkey Narrator take ends6.729062s, before the cut; all words retained.
+
+Current canonical edit: edit.json; revision edit matches the same timeline.
+Full source clips and untrimmed source storyboard remain preserved. Latest
+editorial removal overrides the historical tiny-flame/puff last-state in
+the delivered selection. Scene02 uses source6–139, duration4.466667s.
+
+Later sound and captions advance4/30s together. Flash9.4s; bomboclat main
+impact9.389s. Right voice24.266667–25.166667s, caption to25.366667s, final
+picture25.466667s. Music-only cut uses10ms fade out/in; no spoken samples
+cross the cut. All speech playback stays1x.
+
+All source review gates, full decode, all-frame temporal mapping, numerical
+audio checks and independent targeted visual review passed. No listening
+claim. Evidence and delivery receipt:
+revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/.
+
+Prior completed MP4: renders/archive/completed-before-no-poof-v9.mp4.
+Older source clips, edits and renders are preserved. Feedback47 records both
+the initial hold request and superseding removal clarification. Scene-specific
+feedback stays outside shared art guidelines.
+New v9 render opened in QuickTime; final user playback acceptance pending.

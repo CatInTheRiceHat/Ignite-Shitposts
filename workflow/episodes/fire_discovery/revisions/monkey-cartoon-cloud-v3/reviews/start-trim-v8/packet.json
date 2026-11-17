@@ -1,0 +1,186 @@
+{
+  "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-cartoon-cloud-start-trim-v8-final.mp4",
+  "sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+  "baseline_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly-independent-review.json",
+  "pages": [
+    "trim-review-01.jpg",
+    "trim-review-02.jpg",
+    "trim-review-03.jpg"
+  ],
+  "detail": [
+    {
+      "frame": 0,
+      "time_sec": 0.0,
+      "file": "detail/frame-001.jpg"
+    },
+    {
+      "frame": 68,
+      "time_sec": 2.2666666666666666,
+      "file": "detail/frame-002.jpg"
+    },
+    {
+      "frame": 69,
+      "time_sec": 2.3,
+      "file": "detail/frame-003.jpg"
+    },
+    {
+      "frame": 70,
+      "time_sec": 2.3333333333333335,
+      "file": "detail/frame-004.jpg"
+    },
+    {
+      "frame": 71,
+      "time_sec": 2.3666666666666667,
+      "file": "detail/frame-005.jpg"
+    },
+    {
+      "frame": 72,
+      "time_sec": 2.4,
+      "file": "detail/frame-006.jpg"
+    },
+    {
+      "frame": 74,
+      "time_sec": 2.466666666666667,
+      "file": "detail/frame-007.jpg"
+    },
+    {
+      "frame": 76,
+      "time_sec": 2.533333333333333,
+      "file": "detail/frame-008.jpg"
+    },
+    {
+      "frame": 80,
+      "time_sec": 2.6666666666666665,
+      "file": "detail/frame-009.jpg"
+    },
+    {
+      "frame": 86,
+      "time_sec": 2.8666666666666667,
+      "file": "detail/frame-010.jpg"
+    },
+    {
+      "frame": 88,
+      "time_sec": 2.933333333333333,
+      "file": "detail/frame-011.jpg"
+    },
+    {
+      "frame": 90,
+      "time_sec": 3.0,
+      "file": "detail/frame-012.jpg"
+    },
+    {
+      "frame": 202,
+      "time_sec": 6.733333333333333,
+      "file": "detail/frame-013.jpg"
+    },
+    {
+      "frame": 204,
+      "time_sec": 6.8,
+      "file": "detail/frame-014.jpg"
+    },
+    {
+      "frame": 206,
+      "time_sec": 6.866666666666666,
+      "file": "detail/frame-015.jpg"
+    },
+    {
+      "frame": 207,
+      "time_sec": 6.9,
+      "file": "detail/frame-016.jpg"
+    },
+    {
+      "frame": 208,
+      "time_sec": 6.933333333333334,
+      "file": "detail/frame-017.jpg"
+    },
+    {
+      "frame": 284,
+      "time_sec": 9.466666666666667,
+      "file": "detail/frame-018.jpg"
+    },
+    {
+      "frame": 285,
+      "time_sec": 9.5,
+      "file": "detail/frame-019.jpg"
+    },
+    {
+      "frame": 286,
+      "time_sec": 9.533333333333333,
+      "file": "detail/frame-020.jpg"
+    },
+    {
+      "frame": 287,
+      "time_sec": 9.566666666666666,
+      "file": "detail/frame-021.jpg"
+    },
+    {
+      "frame": 288,
+      "time_sec": 9.6,
+      "file": "detail/frame-022.jpg"
+    },
+    {
+      "frame": 412,
+      "time_sec": 13.733333333333333,
+      "file": "detail/frame-023.jpg"
+    },
+    {
+      "frame": 413,
+      "time_sec": 13.766666666666667,
+      "file": "detail/frame-024.jpg"
+    },
+    {
+      "frame": 414,
+      "time_sec": 13.8,
+      "file": "detail/frame-025.jpg"
+    },
+    {
+      "frame": 610,
+      "time_sec": 20.333333333333332,
+      "file": "detail/frame-026.jpg"
+    },
+    {
+      "frame": 611,
+      "time_sec": 20.366666666666667,
+      "file": "detail/frame-027.jpg"
+    },
+    {
+      "frame": 612,
+      "time_sec": 20.4,
+      "file": "detail/frame-028.jpg"
+    },
+    {
+      "frame": 732,
+      "time_sec": 24.4,
+      "file": "detail/frame-029.jpg"
+    },
+    {
+      "frame": 746,
+      "time_sec": 24.866666666666667,
+      "file": "detail/frame-030.jpg"
+    },
+    {
+      "frame": 758,
+      "time_sec": 25.266666666666666,
+      "file": "detail/frame-031.jpg"
+    },
+    {
+      "frame": 764,
+      "time_sec": 25.466666666666665,
+      "file": "detail/frame-032.jpg"
+    },
+    {
+      "frame": 766,
+      "time_sec": 25.533333333333335,
+      "file": "detail/frame-033.jpg"
+    },
+    {
+      "frame": 767,
+      "time_sec": 25.566666666666666,
+      "file": "detail/frame-034.jpg"
+    }
+  ],
+  "timing": "timing.json",
+  "voice_cues": "voice-cues-assembled.json",
+  "verification": "verification.json",
+  "scope": "Editorial removal of baseline frames70\u201375 only; source clips/storyboard and all acting unchanged, final timings mapped explicitly."
+}

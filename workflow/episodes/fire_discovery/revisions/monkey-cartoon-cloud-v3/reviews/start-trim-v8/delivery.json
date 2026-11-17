@@ -1,0 +1,78 @@
+{
+  "status": "complete",
+  "completed_at": "2026-11-17T03:21:46.530439+00:00",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+  "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-cartoon-cloud-start-trim-v8-final.mp4",
+  "sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+  "bytes": 31767457,
+  "duration_sec": 25.6,
+  "frames": 768,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "codecs": [
+    "h264",
+    "aac"
+  ],
+  "prior_completed_archive": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/archive/completed-before-cartoon-cloud-v8.mp4",
+  "prior_completed_sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
+  "source_review_gate": {
+    "approved": true,
+    "scenes": [
+      {
+        "approved": true,
+        "scene": "01",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "02",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "03",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "04",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "05",
+        "stage": "clip",
+        "reason": "independent review passed"
+      }
+    ]
+  },
+  "final_visual_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/independent-review.json",
+  "final_visual_review_sha256": "7231a138462310fa26728904068cc6ae01d702423a97500ca59f126db51d47b7",
+  "technical_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/verification.json",
+  "technical_verification_sha256": "0dc8388181db03570736087b06094099e74eaf1df1a67d671be2a0051f3dd565",
+  "reviewed_edit_snapshot": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/reviewed-edit.json",
+  "current_edit_receipts": [
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit.json",
+      "sha256": "aece17687672a4903e311abecf4aa03abb408867ceb35a2e324fce12d7919844",
+      "change_after_review": "Receipt pointers in timing metadata only; render instructions unchanged."
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/edit.json",
+      "sha256": "aece17687672a4903e311abecf4aa03abb408867ceb35a2e324fce12d7919844",
+      "change_after_review": "Receipt pointers in timing metadata only; render instructions unchanged."
+    }
+  ],
+  "change": "Removed 0.2 seconds from monkey02 opening; no spoken content removed; later sound and captions advance together.",
+  "scope": "Assumed monkey/cloud opening after unanswered optional scope question; stated before editing.",
+  "manual_audio_listening_claimed": false,
+  "quicktime_open_returncode": 0,
+  "user_final_playback_acceptance": "Pending user viewing."
+}

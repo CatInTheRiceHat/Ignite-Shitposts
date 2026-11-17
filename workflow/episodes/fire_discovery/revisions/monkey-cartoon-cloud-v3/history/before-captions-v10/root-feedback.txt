@@ -1,0 +1,365 @@
+HOW FIRE WAS DISCOVERED — ELAINE'S FEEDBACK
+Updated: 2026-11-16
+
+This consolidates Elaine's episode feedback and the applicable creative
+directions carried into this edit. Later corrections override earlier trials.
+The reusable checklist remains workflow/guidelines/checklist.md. Implementation
+and review status below do not imply Elaine has approved a new frame pair or cut.
+
+CURRENT CHARACTER AND ART DIRECTION
+
+1. Keep the accepted painted direction and staging while fixing Sol's identity.
+   Apply soft matte gouache, layered color and subtle paper texture to Sol,
+   props and surroundings. Preserve painted depth; do not turn Sol into a smooth
+   logo, glossy sculpture or a different flame character.
+2. Match the original mascot as a whole: broad cream inner flame, original red
+   and orange layers, asymmetric tip, rounded side lobes, compact proportions,
+   short rounded arms and tiny stubby feet. All original features must survive
+   every pose and clip. Compare actual footage with the source artwork.
+3. Keep Sol completely mouthless. The area below the eye pair stays blank.
+   Elaine's explicit correction: “YO WHY ARE THERE MOUTHS”. Reject any take
+   with a mouth, third facial mark or nose; inspect intermediate poses too.
+4. Keep the original small dark navy oval eyes, close spacing and low placement.
+   Scene 01's earlier eyes were too far apart. The upward-looking endpoint
+   eyes became lighter and deformed; preserve their original shape and dark
+   fill instead of adding pale rims, highlights, gradients or larger pupils.
+5. Elaine rejected the vertical eye-squish experiment. Use a slight coherent
+   upward body tilt with the original tall ovals. No separate face/head turn,
+   independent facial sliding, neck, stretched body or longer limbs.
+6. A brief natural blink is allowed; return promptly to the original ovals.
+
+CURRENT PERFORMANCE AND REVIEW DIRECTION
+
+7. Keep Gemini Omni Flash 1.2 for this episode. Elaine explicitly preferred
+   Omni Flash in the comparison. Shared stills remain Nano Banana 2.1.
+8. Make transitions between poses flowing and animated, with gentle connected
+   body/tip wiggle, small bouncy follow-through and a settled endpoint. Keep
+   feet supported, limbs short, and all flame layers/face attached.
+9. Remove ALL particles from Sol. Elaine first liked subtle tiny flicks and
+   disliked large emissions, then clarified “scrap the fire particles” and
+   “just wiggle animation for sol”. That later instruction supersedes every
+   small-flick allowance, including flicks synchronized with a bounce.
+   The separate wood fire remains part of the scene.
+10. Whenever Narrator speaks with Sol visible, Sol must look UP to the fixed
+    voice above camera before the first word and maintain gentle listening
+    idle throughout. Elaine said this is a must for everything else too.
+    Review actual clips with the complete script and actual voice cues.
+11. Use unchanged two-frame source states at final 30fps, normal-speed action
+    and complete-pair longer holds. Preserve the painted texture and background.
+12. Show both actual endpoint stills and wait for explicit approval of that
+    exact pair before animation. A correction request is not approval of a new
+    pair. Preserve rejected takes and episode drafts.
+
+SCRIPT, VOICES, EDITING AND CAPTIONS
+
+13. Current episode is How Fire Was Discovered. Preserve the earlier escalator
+    draft. Keep the complete dialogue and shot/storyboard directions together,
+    with matching separate first/last image prompts and continuous video prompts.
+14. Keep the conversational Sol/Narrator skit and concrete explanation. Avoid
+    repeatedly clipped phrases, forced jokes and slogan endings.
+15. Use Arthur for Narrator and the saved custom Sol voice for Sol, at their
+    normal generated rate and1x playback. Do not accelerate speech to fit clips.
+16. Elaine requested the full video with sound. Trim unnecessary leading and
+    trailing silence in actual voice files and unnecessary visual tails,
+    retaining readable actions, intentional reactions and complete spoken words.
+17. Make the orange caption outline more visible. The current white captions
+    use a12px orange outline at1080p, increased from6px.
+18. Latest ending note: “at the end the right is cut off” / “so just extend a
+    bit of that”. Give Arthur's Right its full release and leave a readable
+    end hold. Do not aggressively trim a quiet word ending or its caption.
+
+LATEST SOUND REQUESTS — FIRE EPISODE ONLY
+
+19. At the lightning strike, play the supplied “bombo clat” meme sound.
+    Actual asset: workflow/assets/meme sounds/bomboclat-with-thunder.mp3.
+    The existing lightning pair begins at output frame292,9.733333s. Keep the
+    effect editable and make it audible without masking the explanation.
+20. Add audible background music under the dialogue. Use an existing shared
+    music asset, keep speech clear and give the bed a clean ending fade.
+    The current choice is workflow/assets/music/Hide and Sneak 4.mp3.
+    Implementation finding: the prior bed was attenuated in both its saved
+    audio file and the edit, making it very quiet. This is an editing diagnosis,
+    not an additional critique attributed to Elaine.
+WORKFLOW AND EPISODE REVISION NOTES
+
+21. Save all of Elaine's comments into feedback after making the changes.
+    Keep this episode record and the shared critique checklist current.
+
+22. Keep completed episode MP4s together in workflow/completed/. Use only the
+    episode title as the filename, without version numbers or other suffixes.
+23. Elaine suggested a campfire scene or Ignite/Sol looking at a fireplace
+    while discussing repeated clips. Her later clarification is that these are
+    episode scene ideas, not shared art-style guidelines. Keep this context here;
+    do not turn these settings into standing requirements for future videos.
+
+24. Elaine requested applying the scene-variety direction to the fire episode
+    now: redo some scenes using the accumulated production experience. The
+    proposed replacements are01 at an indoor fireplace,02 as a natural fire
+    landscape cutaway, and05 returning from the opposite side of the hearth.
+    Those initial pairs are preserved in revisions/fireplace-v1/. The current
+    revision is revisions/scene-replacements-v2/, with a new campfire ending.
+25. Elaine said the bomboclat thunder sounds slightly delayed against the
+    lightning flash. Align the audible impact inside the file, accounting for
+    its quiet lead-in. The sound-v5 correction advances the file by0.2s;
+    measured impact and flash differ by11ms, within one30fps frame.
+
+26. Guideline scope correction: “guidelines should be entirely like the art
+    style so no specific scenes im looking for”. Specific scene examples and
+    episode sound cues were removed from the shared checklist; production
+    delivery rules remain in workflow/AGENTS.md and this episode record.
+27. Current task clarification: redo the repeated scene clips IN THIS VIDEO by
+    returning to image generation, creating a different scene's first and last
+    frames, then animating the exact pair after approval. A new camera angle
+    alone does not fulfill the intended scene replacement. The earlier pairs
+    remain unapproved. Current implementation choice: keep the new fireplace
+    opening and natural-fire landscape, and replace the proposed second
+    fireplace view with a new outdoor campfire ending. That location choice is
+    an implementation proposal, not a universal instruction from Elaine. The
+    new campfire first/last pair is ready; all three replacement pairs still
+    require explicit approval before animation.
+
+28. Elaine asks for more variation in lighting and time of day, including
+    nighttime, a cozy campfire, more action and more Sols. This applies to the
+    current fire episode and stays out of shared art-style guidelines.
+    Implementation proposal: retain the daylight fireplace opening; relight
+    the natural-fire grassland to warm late afternoon; keep the existing
+    lightning and ember clips; end at a deep-night campfire with three Sols.
+    One silent friend toasts a marshmallow, another warms its short arms,
+    and the speaking Sol makes its understanding gesture. All three look UP
+    before Narrator's Right and listen through the full release. Fresh02/05
+    first/last frames are ready alongside the retained01 pair; all three pairs
+    require approval before animation. No replacement clips generated.
+
+29. Elaine requests more stimulation and detail in the background, specifically
+    regenerating the fireplace as Christmas. She says “the rest areok” in
+    response to the displayed01/02/05 pairs:02 late-afternoon landscape and05
+    three-Sol night-campfire exact pairs are approved, recorded canonically in
+    night-camp-v3. Only01 is replaced. Implementation: decorated Christmas
+    tree, gifts, garland, stockings, wreath, warm lights and a snowy window,
+    with clear space around the original mouthless Sol and his gesture.
+    These are episode-specific scene notes, not shared art-style requirements.
+    New01 Christmas first/last pair is ready in christmas-fireplace-v4 and
+    still needs explicit approval before animation.
+
+30. Elaine replied “awesome” to the explicit request to approve both new
+    Christmas fireplace frames. Record01 approved;02/05 were already approved.
+    She then asked for the rest of the images. Shared all remaining02–05
+    first/last pairs and bundled their eight full-size PNGs in
+    revisions/christmas-fireplace-v4/renders/remaining-scene-images.zip.
+    Three approved replacement clips generated. Independent review passed02/05;
+    brief01 mouth/particle artifacts are being repaired from existing footage.
+
+31. Elaine asks for reusable tools inside this project to analyze generated
+    clips for random blemishes, instead of many one-off Python scripts.
+    She explicitly does not want a website or separate app. Use the shared
+    inspect-video command behind the scenes and review its timestamped frame
+    evidence. This is a tooling preference, not a shared art-style requirement.
+
+32. Elaine asked to continue the video after the shared inspection-tool work.
+    Completed the selected Christmas01, late-afternoon02 and three-Sol night05
+    scenes with retained lightning03/ember04. Independent review caught residual
+    ribbon-overlap particles in the first01 cleanup; clean-v7 replaces those
+    states with complete clean source pairs and now passes. All five sources
+    and the final assembled cut passed independent visual review. Kept the
+    corrected v5 soundtrack byte-for-byte, including music, aligned bomboclat
+    and the complete Right release. Final25.8s export delivered as
+    completed/How Fire Was Discovered.mp4; earlier completed copy archived.
+
+33. Elaine requests replacing the open-grassland fire shot with a monkey
+    accidentally starting a flame. Current interpretation: a playful monkey
+    knocks an existing glowing twig into dry leaves and reacts to the little
+    flame, preserving the natural-fire narration and the finding/making
+    distinction. New02 first/last pair has been generated and is awaiting explicit approval
+    before video generation.
+    This scene idea stays in episode feedback and revision docs.
+
+34. Elaine flags a weird ripple animation while Sol looks at the chimney in
+    the Christmas opening. Inspect the actual intermediate motion; keep
+    stable painted layers and compact anatomy rather than sweeping waves
+    through his body. A reversible no-ripple preview keeps original frames0–19, then holds
+    clean18/19 through2.333s. This also holds the hearth from0.600s; no
+    new pixels, speech-speed change or replacement full export. Actual
+    source and captioned-preview review are being recorded.
+
+35. Elaine noticed the long freeze in the ripple-cleanup preview: “why does
+    it freeze 2 seconds after”. The freeze was introduced by the edit's
+   1.733s whole-scene hold. That workaround is rejected. Regenerate01 from
+    the unchanged approved pair, with a compact arm gesture, coherent painted
+    interior and continuing hearth flicker. No replacement stills are needed.
+    New Omni Flash job: ac7d0103-d482-4ec6-8817-e8f759cbf7e5 completed.
+    Source has continuous fire and stable layers. Select0–19+30–79 to shorten
+    a prolonged blink and omit the unused tail; no frozen substitutions.
+    Corrected preview: revisions/chimney-ripple-v2/renders/
+    fireplace-corrected-preview.mp4. Dedicated candidate review passed all12 checks; canonical gate approved.
+    Corrected preview opened in QuickTime.
+
+36. Elaine chose “Revise the frames” for the new monkey02 first/last pair.
+    This is not approval. Asked which part should change: ignition action,
+    monkey appearance or setting. Keep this pair as revision history and
+    do not animate it while the requested correction is unspecified. Elaine
+    then asked to see the frames first; displayed both as a labeled comparison
+    and in the Higgsfield gallery, with full-size individual links.
+
+37. Elaine clarified the monkey revision: “how about the monkey rubs two
+    sticks and then they light up”. Replace the banana/tail-dropped glowing
+    twig action with exactly two initially unlit sticks rubbing together,
+    a little flame at their contact, and the monkey’s surprised reaction.
+    Preserve the monkey design, painted woodland and afternoon light.
+    New first/last stills are generated in revisions/monkey-friction-v2/:
+    keyframes/02-first-v2.png and02-last-v2.png. Exactly two handheld sticks;
+    both upper ends are aflame in the ending. Pair displayed/opened in Preview;
+    explicit approval of both is still needed before animation. This specific scene
+    direction stays in episode feedback and prompts, not shared art guidelines.
+
+38. Elaine approved the displayed two-stick first/last pair with “okay sure”
+    after the explicit question asking to approve BOTH for animation.
+    Recorded exact frame hashes and generated Omni Flash5s job
+   945c9d9e-dc38-4823-a61a-1b08cb21b841. The selected4.8s clip is conformed
+    to exact two-frame states at30fps. Independent review rejected the
+    first take for separated sticks and smeared moving-stick/hand edges.
+    A concrete fixed-stick/sliding-stick retry is prepared at16.25credits;
+    additional paid-generation approval requested under workflow/AGENTS.md.
+    Assemble it with the corrected continuous-motion fireplace and retain
+    the existing soundtrack, captions, lightning alignment and full ending.
+
+39. When offered the prepared paid retry or a look at the current take,
+    Elaine chose “Show me the current take”. Opened the existing monkey
+    preview in QuickTime with actual1x narration and captions, clearly
+    identified as the draft with stick-contact defects. No paid retry
+    authorized or submitted; await her viewing feedback.
+
+40. Elaine asks why the fire appears on top. The earlier approved endpoint
+    placed flames at the remote upper stick tips, and the video copied it.
+    Correct the new ending so one tiny flame starts at the actual central X
+    rubbing contact, with both free upper ends visibly brown and unlit.
+
+41. Elaine requests cartoon animation: the hands rub really fast, with
+    “a cartoon cloud showing that the arms are moving incredibly fast”.
+    New revision monkey-cartoon-cloud-v3 uses a compact cream speed cloud
+    around the hands, little painted movement strokes, then a clearing cloud
+    and a surprised reaction to the central-contact flame. The cloud is a
+    deliberate cartoon effect in this scene, not smoke before ignition.
+    Keep exactly two arms and two sticks, clear face and supported feet.
+    Fast hand performance stays within the normal1x clip; retain paired
+    animation states at30fps. The specific action stays in episode feedback
+    and prompts. Elaine later requested the reusable cartoon direction in
+    the shared guidelines (entry42); Sol's particle policy remains unchanged.
+    The old no-cloud retry was never submitted and is now superseded.
+    New first/last stills require explicit approval before animation.
+
+42. After seeing the Cloud v3 first/last proposal, Elaine said “wait this is
+    wonderful awesome” and “yeah make sure to add this to the guidelines too
+    of what i want for cartoony”. Save the reusable direction: exaggerated
+    effort and rapid motion, compact painted motion clouds and curved speed
+    strokes, then a clear reveal and expressive reaction. The effect shares
+    the scene's gouache finish, preserves anatomy/contacts and uses exact
+    two-frame states at normal1x playback. Added the rule to the shared style
+    guide, with links from the critique checklist and video prompt guide.
+    The monkey, sticks, woodland and central ignition remain episode details.
+    Initially recorded only as style acceptance. On resuming, recognized that
+    her affirmative “yeah” directly followed the displayed BOTH-frame approval
+    question. Recorded the complete actual reply as approval of that exact pair;
+    the request to save guidelines was an additional instruction.
+
+43. Elaine asks whether the video is done. Clarified that the cartoon scene
+    had only reached stills and the guideline update. Continued using her
+    affirmative reply to the BOTH-frame approval question; recorded its exact
+    words and frame hashes, then passed the canonical gate. First cloud Omni
+    job2ca98963-b371-4ea9-b195-9815d31d05b3 completed; keep it as history.
+
+44. Elaine clarifies that the cloud should be “a cartoon fighting cloud”,
+    and rejects the same cloud “appearing again and again”. Inspecting the
+    first take confirms repeated clearing/respawning. New motion: one sustained
+    compact cloud with constantly tumbling, folding, bulging, overlapping lobes
+    and changing speed strokes; clear it only once for the final reveal.
+    Keep the same approved first/last images. Also keep the contact flame tiny
+    throughout; the first take briefly grew an oversized flare. New Omni5s job
+    38021f66-556b-4e58-a775-d287b0119273 completed. Saved reusable changing-cloud
+    motion in shared style/checklist; specific scene action remains here.
+
+45. Production review of the revised fight-cloud take found continuous
+    evolving cloud motion and correct central-X ignition. The first144-frame
+    selection ended on a near-extinguished transition. Selected real paired
+    source0–139 plus146–149 for4.8s: clean tiny-flame ending, no changed pixels,
+    frozen filler, frame blending or playback-speed change. Independent review
+    passed the repaired selection. Modest natural height flicker was retained;
+    the assistant-added always-below-tips threshold was over-specific, while
+    the user's actual contact-rooted ignition requirement remains satisfied.
+    The stricter original contract and failed review are preserved. All five
+    final source clips pass; full25.8s export and exact AAC soundtrack copy
+    verified, and assembled-output visual review passed. The later opening
+    trim and current delivery are recorded below.
+
+46. Elaine requests a small trim at the start as well as the earlier tail trim:
+    “ok so yk how i said trim a little of the clip before it ends how about
+    trim a little when it starts”. With the optional scope question unanswered,
+    the assistant stated the reversible assumption that this means monkey02.
+    Removed six frames / 0.2 seconds from that scene's opening, so it begins
+    during the active cloud. No spoken content is removed; Narrator still
+    starts 0.6 seconds into the scene. All later sound and captions advance
+    together by 0.2 seconds. Final cut is 25.6 seconds; lightning at9.533333s
+    and main bomboclat impact at9.522333s remain aligned. Full Right release
+    remains24.4–25.3s, caption to25.5s, picture to25.6s. Technical verification
+    and independent targeted visual review passed. Saved the title-only MP4
+    to completed/, preserved the older delivery, and opened it in QuickTime.
+    This is episode editing feedback, not a new shared art-style requirement.
+
+47. Elaine first asks to let the monkey hold the visible fire longer before
+    the poof because it feels jarring, then clarifies: “ultimately what im
+    trying to say: remove the poof”. The latest direction is removal, not
+    delaying the puff or extending a freeze. The four final monkey frames in
+    v8 (204–207 globally) shrink the fire and reintroduce cream puffs. Remove
+    those frames and cut to the next shot while the flame is still burning.
+    Keep the existing0.2s opening trim and the fast fight cloud earlier in the
+    shot. This is an editorial trim of unchanged source footage; the original
+    supplied tiny-flame/puff endpoint remains historical and is excluded from
+    this final selection. Full Narrator take ends6.729062s before the new6.8s
+    cut. Shift later sound and captions together by4/30s; no words removed or
+    speech speed changed. No extra generation or freeze is needed. Specific
+    correction belongs to this episode; shared cartoon style stays unchanged.
+
+IMPLEMENTATION / REVIEW STATUS
+
+Current revision: monkey-cartoon-cloud-v3. Final v9 removes the four terminal
+monkey poof frames, ending on the visible burning flame. The earlier fast
+fight cloud and0.2s opening trim remain. All five unchanged source gates and
+the targeted final editorial review passed. Full narration stays at1x.
+Delivered25.466667s /764frames /1080x1920 /30fps:
+workflow/completed/How Fire Was Discovered.mp4.
+SHA256: 598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626.
+Receipts: revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/.
+Prior completed copy: renders/archive/completed-before-no-poof-v9.mp4.
+Current root and revision edits retain source02 frames6–139 only; full
+source and original storyboard remain preserved. Latest editorial override
+and assembled cue timing live alongside the final review. Flash9.4s and
+main bomboclat impact9.389s remain aligned; full Right voice24.266667–
+25.166667s and caption through25.366667s precede final picture25.466667s.
+Opened the new render in QuickTime. No manual audio listening is claimed;
+final user playback acceptance remains open.
+Earlier implementation history follows.
+
+The resumed-v3 cut addressed mouths, remaining Sol emission buds and faint
+particle trails, kept the normal voices and stronger captions, and corrected
+the final look-up timing. Its independent review inspected all139 selected
+Scene02/05 paired states and native tip sheets; the repair checks passed.
+
+The sound-v4 edit adds the supplied lightning sting, replaces the very quiet
+music bed with an audible mix, inserts a short gap after Yes for the sting,
+restores0.9s of the original Right take, and extends the clean ending pose.
+Its picture duration is25.8s. The exported cut passed full audio/video decode,
+numerical checks of sting/music/Right alignment, and sampled visual inspection.
+Evidence is in reviews/sound-v4/ and renders/full-cut-review-v4/verification.json.
+The video is renders/fire-discovery-sound-v4-review.mp4. Elaine's review of
+that new cut is still pending; no manual listening is claimed.
+
+HISTORICAL DIRECTIONS THAT MUST NOT RETURN
+
+- Earlier tiny-particle and bounce-triggered-flick allowances: superseded by
+  zero Sol particles and attached wiggle only.
+- Vertical eye squishing: rejected; use coherent body tilt with original ovals.
+- Earlier rigid/no-bounce and always-open-eye rules: superseded by gentle
+  connected wiggle and a brief natural blink.
+- Rejected mascot designs and mouth-bearing takes: preserved as history only,
+  never selected as corrected footage or treated as identity references.
+- Acceptance of a style or mascot direction: not blanket approval of later
+  endpoint pairs or generated clips.

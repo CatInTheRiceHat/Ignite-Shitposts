@@ -1,5 +1,5 @@
 {
-  "id": "fire-discovery-cartoon-cloud-v7",
+  "id": "fire-discovery-captions-v10",
   "title": "How Fire Was Discovered",
   "hook": "How Fire Was Discovered",
   "format": {
@@ -19,7 +19,7 @@
     "orange": "#F07B2A"
   },
   "captionStyle": {
-    "fontSize": 56,
+    "fontSize": 64,
     "fill": "#FFFFFF",
     "outline": "#F07B2A",
     "outlineWidth": 12,
@@ -44,14 +44,14 @@
     {
       "id": "02",
       "label": "Scene 02",
-      "duration": 4.8,
+      "duration": 4.466666666666667,
       "scene": {
         "type": "video",
         "src": "revisions/monkey-cartoon-cloud-v3/clips/02-fight-cloud-v2-selected.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1,
-        "trimBefore": 0
+        "trimBefore": 0.2
       }
     },
     {
@@ -109,78 +109,78 @@
       "text": "Who actually discovered fire?"
     },
     {
-      "start": 3.133333,
-      "end": 3.779895,
+      "start": 2.933333,
+      "end": 3.579895,
       "text": "We don't know."
     },
     {
-      "start": 4.219895,
-      "end": 5.439896,
+      "start": 4.019895,
+      "end": 5.239896,
       "text": "Natural fires existed"
     },
     {
-      "start": 5.439896,
-      "end": 6.889063,
+      "start": 5.239896,
+      "end": 6.689063,
       "text": "long before people."
     },
     {
-      "start": 7.213333,
-      "end": 8.930042,
+      "start": 6.8799996666666665,
+      "end": 8.596708666666666,
       "text": "Like when lightning hits a tree?"
     },
     {
-      "start": 9.133333,
-      "end": 9.583333,
+      "start": 8.799999666666666,
+      "end": 9.249999666666668,
       "text": "Yes."
     },
     {
-      "start": 10.889521,
-      "end": 12.509521,
+      "start": 10.556187666666666,
+      "end": 12.176187666666667,
       "text": "Lightning's heat can set"
     },
     {
-      "start": 12.509521,
-      "end": 13.706687,
+      "start": 12.176187666666667,
+      "end": 13.373353666666667,
       "text": "dry wood alight."
     },
     {
-      "start": 14.08,
-      "end": 15.32,
+      "start": 13.746666666666668,
+      "end": 14.986666666666666,
       "text": "Our ancestors could keep"
     },
     {
-      "start": 15.32,
-      "end": 16.02,
+      "start": 14.986666666666666,
+      "end": 15.686666666666667,
       "text": "embers glowing"
     },
     {
-      "start": 16.02,
-      "end": 17.56,
+      "start": 15.686666666666667,
+      "end": 17.226666666666667,
       "text": "by feeding them wood."
     },
     {
-      "start": 17.850646,
-      "end": 18.850646,
+      "start": 17.517312666666665,
+      "end": 18.517312666666665,
       "text": "Making fire themselves"
     },
     {
-      "start": 18.850646,
-      "end": 20.343688,
+      "start": 18.517312666666665,
+      "end": 20.010354666666668,
       "text": "was a different skill."
     },
     {
-      "start": 20.68,
-      "end": 22.227208,
+      "start": 20.346666666666668,
+      "end": 21.89387466666667,
       "text": "So finding fire wasn't"
     },
     {
-      "start": 22.227208,
-      "end": 23.473604,
+      "start": 21.89387466666667,
+      "end": 23.140270666666666,
       "text": "the same as making it."
     },
     {
-      "start": 24.6,
-      "end": 25.7,
+      "start": 24.266666666666666,
+      "end": 25.366666666666667,
       "text": "Right."
     }
   ],
@@ -201,7 +201,7 @@
       "id": "02-01-narrator",
       "speaker": "Narrator",
       "src": "audio/trimmed-v2/02-01-narrator.wav",
-      "start": 3.133333,
+      "start": 2.933333,
       "duration": 3.795729166666667,
       "trimBefore": 0,
       "volume": 0.36391,
@@ -212,7 +212,7 @@
       "id": "03-01-sol",
       "speaker": "Sol",
       "src": "audio/trimmed-v2/03-01-sol.wav",
-      "start": 7.213333,
+      "start": 6.8799996666666665,
       "duration": 1.7567083333333333,
       "trimBefore": 0,
       "volume": 2,
@@ -223,7 +223,7 @@
       "id": "03-02-narrator",
       "speaker": "Narrator",
       "src": "audio/sound-v4/03-02-narrator-with-sting-gap.wav",
-      "start": 9.133333,
+      "start": 8.799999666666666,
       "duration": 4.613354166666666,
       "trimBefore": 0,
       "volume": 0.37165,
@@ -234,7 +234,7 @@
       "id": "04-01-narrator",
       "speaker": "Narrator",
       "src": "audio/trimmed-v2/04-01-narrator.wav",
-      "start": 14.08,
+      "start": 13.746666666666668,
       "duration": 6.3036875,
       "trimBefore": 0,
       "volume": 0.37235,
@@ -245,7 +245,7 @@
       "id": "05-01-sol",
       "speaker": "Sol",
       "src": "audio/trimmed-v2/05-01-sol.wav",
-      "start": 20.68,
+      "start": 20.346666666666668,
       "duration": 2.8336041666666665,
       "trimBefore": 0,
       "volume": 1.85507,
@@ -256,7 +256,7 @@
       "id": "05-02-narrator",
       "speaker": "Narrator",
       "src": "audio/sound-v4/05-02-narrator-full-release.wav",
-      "start": 24.6,
+      "start": 24.266666666666666,
       "duration": 0.9,
       "trimBefore": 0,
       "volume": 0.597,
@@ -267,7 +267,7 @@
       "id": "lightning-bomboclat",
       "speaker": "Sound effect",
       "src": "audio/sound-v4/bomboclat-with-thunder.wav",
-      "start": 9.533333333333333,
+      "start": 9.199999999666668,
       "duration": 1.0163125,
       "trimBefore": 0,
       "volume": 0.55,
@@ -275,15 +275,15 @@
       "source_sha256": "b2941aab7a92f8f11158e80a656fbba1a3de3c153cde893f2eb94d7e723e2b01"
     },
     {
-      "id": "music-bed-v4",
+      "id": "music-bed-no-poof-v9",
       "speaker": "Music",
-      "src": "audio/sound-v4/hide-and-sneak-bed.wav",
+      "src": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/audio/sound-v9/hide-and-sneak-bed-no-poof.wav",
       "start": 0,
-      "duration": 25.8,
+      "duration": 25.466666666666665,
       "trimBefore": 0,
       "volume": 1,
       "playbackRate": 1,
-      "source_sha256": "885cd683c450e3330681090276eddf077a724972824b68c143ad52bcc4243baf"
+      "source_sha256": "d452f99f306bfefd78d36248561c7a3d659602481f378a0696882144701d3a29"
     }
   ],
   "generation": {
@@ -322,7 +322,7 @@
       "Use only passing clips in production. Preserve failed and uncertain takes."
     ],
     "no_automatic_model_fallback": true,
-    "verification": "Nano Banana 2.1 image ID, reference inputs, 2k/9:16 and supported settings verified with Higgsfield models_get on 2026-11-14. Omni Flash 1.2 video ID, paired-frame roles, 3\u201310 second limit and 1080p output verified with Higgsfield models_search.",
+    "verification": "Nano Banana 2.1 image ID, reference inputs, 2k/9:16 and supported settings verified with Higgsfield models_get on 2026-11-14. Omni Flash 1.2 video ID, paired-frame roles, 3–10 second limit and 1080p output verified with Higgsfield models_search.",
     "character_references_config": "sol-references.json"
   },
   "cast": {
@@ -351,9 +351,10 @@
   },
   "timing": {
     "confirmed": true,
-    "note": "All original normal-rate voice sources,9 audio-track parameters,captions and scene durations match delivered25.8s cut. New02 selected144frames at1x covers Narrator local0.800\u20134.596s; sources require their separate independent production gates.",
-    "audio_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/assembly-timing-preservation.json",
+    "note": "Retain v9 no-poof frame selection, opening trim, complete normal-rate speech and all cue timings. Caption size56→64px only, with unchanged12px outline and placement. Final output uses exact v9 AAC packets.",
+    "audio_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/verification.json",
     "original_audio_master_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/scene-refresh-v6/audio-master-checks.json",
-    "caption_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/scene-refresh-v6/primary-assembly-review.json"
+    "caption_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/independent-review.json",
+    "assembled_voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json"
   }
 }

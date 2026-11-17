@@ -1,0 +1,29 @@
+{
+  "status": "complete",
+  "completed_at": "2026-11-17T03:28:10.386627+00:00",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+  "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-no-poof-v9-final.mp4",
+  "sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+  "bytes": 30541864,
+  "duration_sec": 25.466666666666665,
+  "frames": 764,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "prior_completed_archive": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/archive/completed-before-no-poof-v9.mp4",
+  "prior_completed_sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+  "source_review_gate": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/source-gate.json",
+  "final_visual_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/independent-review.json",
+  "final_visual_review_sha256": "0a2955ce94e77407da40fbcdff3523ef63e62ebe03b8c531e43836847eec7429",
+  "technical_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/verification.json",
+  "technical_verification_sha256": "59bc6012e4bde0a8d65c447bcd21724ba4d810014abfd386745bd8108f02e817",
+  "change": "Remove final four monkey poof frames. Flame stays visibly burning until cut. Earlier active cloud and opening trim retained.",
+  "spoken_content_removed": false,
+  "playback_rate": 1,
+  "manual_audio_listening_claimed": false,
+  "quicktime_opened_path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-no-poof-v9-final.mp4",
+  "quicktime_open_returncode": 0,
+  "user_final_playback_acceptance": "Pending viewing."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "edit.json",
+    "sha256": "d813648b7d900932119c4f34bdd82dabd452155d87ea41139133d318e79326df"
+  },
+  {
+    "name": "script.txt",
+    "sha256": "02397d256e21f2529166d1cbdf8d4b313ecb1a86b1a133facbc93c4aae21bb9b"
+  },
+  {
+    "name": "shot-plan.json",
+    "sha256": "338c106e315abdf4ac84a6e1e1695f2dcae01e2636680ae2ea064052f2b70528"
+  },
+  {
+    "name": "higgsfield-prompts.txt",
+    "sha256": "d7dd2d8c9c5fcdd6cee738132e2f9a014b6bdf0545ba1bd8ab2781f0dc6fbdb8"
+  },
+  {
+    "name": "handoff.txt",
+    "sha256": "75b9cb9e55bf0c99ac4fbbdd6f7443db0b978ff4a4ab5460eb224ad301e08a0f"
+  },
+  {
+    "name": "handoff-validation.json",
+    "sha256": "80826ce1c1fe982cba853d40474b79fa2dc94a9abb36307b01bdf67fc39e8ab9"
+  }
+]

@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_editorial_change_visual_review",
+  "reviewer": "dedicated clip_reviewer sub-agent",
+  "created_at": "2026-11-17T03:19:28.639694+00:00",
+  "status": "pass",
+  "approved_scope": "Targeted final-picture and timing-metadata review of the six-frame Scene02 opening trim relative to the passed v7 assembly. No new source generation or source re-approval.",
+  "video": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-cartoon-cloud-start-trim-v8-final.mp4",
+    "sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+    "frames": 768,
+    "fps": 30,
+    "duration_seconds": 25.6,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  "baseline": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-cartoon-cloud-v7-final.mp4",
+    "sha256": "f9d5963edce149f23059d41d76e055063778bb4efcd0749581c2d7ec99961cb1",
+    "review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly-independent-review.json",
+    "review_sha256": "4c72ce21fd0dc3bd577d7304f28141bfd55c0d03fea21f38c3dd0455ca2c3c21"
+  },
+  "change": {
+    "retained_baseline_frame_ranges_inclusive": [
+      [
+        0,
+        69
+      ],
+      [
+        76,
+        773
+      ]
+    ],
+    "removed_baseline_frames_inclusive": [
+      70,
+      75
+    ],
+    "removed_seconds": 0.2,
+    "new_scene02_duration_seconds": 4.6,
+    "normal_rate": 1,
+    "new_scene02_narrator_local_start_seconds": 0.6,
+    "scope_assumption": "Production agent stated the reversible assumption that the user meant a small trim at the monkey/cloud opening; this review does not represent a user scope approval."
+  },
+  "context": {
+    "script_sha256": "eacc1d6cad6c2bcc1cf762f10eef5a22bbff71c13a50139522a2b9d128e8fa80",
+    "script_unchanged": true,
+    "edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/edit.json",
+    "edit_sha256": "371d973fed3c9abcfa75d836145cdc86c6f97236e949c32653c91242ebd90ca5",
+    "timing": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/timing.json",
+    "timing_sha256": "7659308541383475b98747edb717a8818abbb960a897bf940ca1a6bbf77e854d",
+    "assembled_voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/voice-cues-assembled.json",
+    "assembled_voice_cues_sha256": "5919157aa807571504e9f0e19380f4629095be2d8c83f0dcf1eb45e96560bde9"
+  },
+  "actual_inspection": {
+    "all_three_targeted_pages_opened": true,
+    "sampled_output_frames": [
+      0,
+      68,
+      69,
+      70,
+      71,
+      72,
+      74,
+      76,
+      80,
+      86,
+      88,
+      90,
+      202,
+      204,
+      206,
+      207,
+      208,
+      284,
+      285,
+      286,
+      287,
+      288,
+      412,
+      413,
+      414,
+      610,
+      611,
+      612,
+      732,
+      746,
+      758,
+      764,
+      766,
+      767
+    ],
+    "separately_opened_native_output_frames": [
+      70,
+      88,
+      286,
+      767
+    ],
+    "audio_listening_performed": false,
+    "real_time_playback_performed": false,
+    "all_768_output_frames_separately_visually_inspected": false,
+    "method": "Actual decoded output sheets plus four native detail JPEGs, baseline visual/source review evidence, and independent exact edit metadata comparison. All-frame temporal comparison is attributed to the technical receipt rather than claimed as manual inspection."
+  },
+  "findings": [
+    {
+      "check": "New opening cut and cloud continuity",
+      "result": "pass",
+      "frames": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        74,
+        76,
+        80,
+        86
+      ],
+      "seconds": [
+        2.266667,
+        2.866667
+      ],
+      "evidence": [
+        "trim-review-01.jpg",
+        "detail/frame-004.jpg"
+      ],
+      "observation": "The unchanged Christmas shot cuts cleanly into the already-active fight cloud at output 70. The paired first state leads directly into varied succeeding cloud/wood states without an added hold, blank frame or new spatial jump. Entering during active motion remains readable; face, seated feet and setting are clear while the intentional cloud occludes part of the stick contact."
+    },
+    {
+      "check": "First Narrator caption and onset headroom",
+      "result": "pass",
+      "frames": [
+        86,
+        88,
+        90
+      ],
+      "seconds": [
+        2.866667,
+        3.0
+      ],
+      "evidence": [
+        "trim-review-01.jpg",
+        "detail/frame-011.jpg"
+      ],
+      "observation": "We don't know. first appears at output 88 / 2.933333, .6 seconds after the new scene start, below the action with margins intact. It is absent at 86. Actual assembled voice cue starts at the same 2.933333 seconds; its source, duration and 1x rate are unchanged."
+    },
+    {
+      "check": "Retained tiny flame ending and next cut",
+      "result": "pass",
+      "frames": [
+        202,
+        204,
+        206,
+        207,
+        208
+      ],
+      "seconds": [
+        6.733333,
+        6.933333
+      ],
+      "evidence": [
+        "trim-review-02.jpg"
+      ],
+      "observation": "The previously reviewed tiny-flame final pairs remain at 204/206 and last monkey 207; no near-extinguished tail was reintroduced. Hard cut 208 enters the unlit tree cleanly. The baseline quick flame shrink remains a documented source-selection tradeoff and is not a newly introduced trim defect."
+    },
+    {
+      "check": "Mapped lightning and remaining scene boundaries",
+      "result": "pass",
+      "frames": [
+        284,
+        285,
+        286,
+        287,
+        288,
+        412,
+        413,
+        414,
+        610,
+        611,
+        612
+      ],
+      "seconds": [
+        9.466667,
+        20.4
+      ],
+      "evidence": [
+        "trim-review-02.jpg",
+        "trim-review-03.jpg",
+        "detail/frame-020.jpg"
+      ],
+      "observation": "Bolt remains absent 284/285, visible 286/287, absent 288 with rooted branch fire retained. Branch and flash remain in crop. Tree-to-ember cut 413\u2192414 and ember-to-campfire cut 611\u2192612 preserve complete frames without carried captions. Flash shifts to 9.533333 seconds exactly with its sound cue; timing receipt places main impact 9.522333, 11 ms earlier. No listening judgment is asserted."
+    },
+    {
+      "check": "Full final Right and intact tail",
+      "result": "pass",
+      "frames": [
+        732,
+        746,
+        758,
+        764,
+        766,
+        767
+      ],
+      "seconds": [
+        24.4,
+        25.6
+      ],
+      "evidence": [
+        "trim-review-03.jpg",
+        "detail/frame-034.jpg"
+      ],
+      "observation": "Right. is fully visible at 732 / 24.4 and through 764 / 25.466667, clearing by 766 / 25.533333. Final 767 retains complete campfire picture, the established upward listening poses and clear margins. Voice window 24.4\u201325.3 retains its full 0.9-second release and the picture lasts 25.6; no end truncation is introduced."
+    },
+    {
+      "check": "Exact editorial metadata preservation",
+      "result": "pass",
+      "observation": "Independently compared current edit to archived pre-trim edit: all 5 shots match the expected sole 02 trim/duration change; all 8 nonmusic audio tracks retain source, gain, duration, trims and playbackRate, with exactly 0.2s shift after the cut; all 16 captions retain text and duration with the same shift. The opening speech is unchanged. Music is the explicitly documented changed bed and is outside this metadata-identity assertion.",
+      "individual_checks": [
+        {
+          "type": "shot",
+          "id": "01",
+          "matches_expected": true
+        },
+        {
+          "type": "shot",
+          "id": "02",
+          "matches_expected": true
+        },
+        {
+          "type": "shot",
+          "id": "03",
+          "matches_expected": true
+        },
+        {
+          "type": "shot",
+          "id": "04",
+          "matches_expected": true
+        },
+        {
+          "type": "shot",
+          "id": "05",
+          "matches_expected": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "01-01-sol",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "02-01-narrator",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "03-01-sol",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "03-02-narrator",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "04-01-narrator",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "05-01-sol",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "05-02-narrator",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "nonmusic_audio",
+          "id": "lightning-bomboclat",
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 0,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 1,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 2,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 3,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 4,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 5,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 6,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 7,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 8,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 9,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 10,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 11,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 12,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 13,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 14,
+          "unchanged_except_expected_shift": true
+        },
+        {
+          "type": "caption",
+          "index": 15,
+          "unchanged_except_expected_shift": true
+        }
+      ]
+    },
+    {
+      "check": "New encode visual condition",
+      "result": "pass",
+      "observation": "The inspected output retains baseline paint, crops, small flame, faces and caption edges without a newly visible re-encode artifact. This is not pixel identity: CRF16 encoding differences are documented, and complete temporal matching is supplied by the technical receipt."
+    }
+  ],
+  "technical_receipt": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/verification.json",
+    "sha256_at_review": "46a95283cf8c790e00bd2f59e2f67e82baf154346a86777651845748fd021eaa",
+    "read_findings": {
+      "decode_passed": true,
+      "video_frames": 768,
+      "duration_sec": 25.6,
+      "baseline_frame_mapping": "0\u201369 +76\u2013773",
+      "all_frames_compared": true,
+      "frame_ssim_min": 0.986923,
+      "frame_ssim_mean": 0.9936306484375,
+      "audio_expected_samples": 1228800,
+      "audio_rate": 48000,
+      "audio_correlation_outside_music_join": 0.9999949311469378,
+      "sting_best_lag_samples": 0,
+      "sting_correlation": 0.9999972611807586,
+      "spoken_content_removed": false,
+      "playback_rate": 1,
+      "manual_audio_listening_claimed": false
+    },
+    "attribution": "Producer technical verification read by reviewer; the reviewer independently recomputed the final file SHA256 and edit-diff checks, but did not rerun the full-frame SSIM/audio signal comparison or listen to the new music join."
+  },
+  "evidence": [
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/trim-review-01.jpg",
+      "sha256": "538c3fd412bc18fb7e9ac283b2d6b051504923fd58d2584a74f465f75df012a7",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/trim-review-02.jpg",
+      "sha256": "3eb106c0686844865b2018759b1309060d48aa82dfda58327c7bbacfca199b4f",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/trim-review-03.jpg",
+      "sha256": "de629a600c1c6e98f2a40f8cb57a819281ed1d3072e2bca3e8632778bae0eb24",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/detail/frame-004.jpg",
+      "sha256": "6c22df9952e74b0d65702e2b61ad7e90d98c5bbedde113b3ec6359d308faa694",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/detail/frame-011.jpg",
+      "sha256": "f9a861c9a00be62fa13c535969335ccfa7d2e1e73895d24f06b9a0dd2c501ea9",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/detail/frame-020.jpg",
+      "sha256": "e112b3b45b6db385679a6eb19b1b83aed4799d11af456ba429ae1ae80266bcc8",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/detail/frame-034.jpg",
+      "sha256": "7e540fa583e98093d2290e392ac00cb53fd60c33059b6e9dbf868cfabf41cbd1",
+      "inspection": "actual image opened and visually inspected"
+    }
+  ],
+  "blocking_visual_issues": [],
+  "limitations": [
+    "Targeted editorial-change review, not a repeated source-footage review or independent visual inspection of every one of 768 output frames.",
+    "No manual audio listening was performed. Music join and encoded audio signal validation are attributed to the technical receipt; musical taste/click audibility is not claimed from still images.",
+    "This review approves the visual result of the stated reversible trim, not an interpretation of an unanswered user scope clarification."
+  ],
+  "conclusion": "No new visual or timing-metadata blocker found for this exact 25.6-second output."
+}

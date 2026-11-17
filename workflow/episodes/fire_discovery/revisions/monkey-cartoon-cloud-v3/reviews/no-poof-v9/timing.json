@@ -1,0 +1,47 @@
+{
+  "user_request": "ultimately what im trying to say: remove the poof",
+  "change": "Remove only the final monkey puff/shrink frames; flame stays visible until cut.",
+  "baseline": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-cartoon-cloud-start-trim-v8-final.mp4",
+  "baseline_sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+  "removed_baseline_frames": [
+    204,
+    207
+  ],
+  "retained_baseline_ranges_inclusive": [
+    [
+      0,
+      203
+    ],
+    [
+      208,
+      767
+    ]
+  ],
+  "cut_interval_sec": [
+    6.8,
+    6.933333333333334
+  ],
+  "scene02_source_frames_retained_inclusive": [
+    6,
+    139
+  ],
+  "scene02_source_unchanged": true,
+  "scene02_duration_sec": 4.466666666666667,
+  "duration_sec": 25.466666666666665,
+  "frames": 764,
+  "scene02_narrator_end": 6.729062166666666,
+  "new_scene03_start": 6.8,
+  "new_lightning_frames": [
+    282,
+    283
+  ],
+  "new_flash_sec": 9.4,
+  "new_sting_main_impact_sec": 9.389,
+  "right_voice": [
+    24.266666666666666,
+    25.166666666666668
+  ],
+  "right_caption_end": 25.366666666666667,
+  "voice_playback_rate": 1,
+  "music_join": "10ms fade out/in at music-only cut"
+}

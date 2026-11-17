@@ -86,6 +86,12 @@ puffs. Let it break apart and clear once when the action ends. Elaine rejected
 an identical cloud repeatedly appearing and disappearing; inspect the actual
 sequence for continuous internal change and evolving contours.
 
+Once an action effect clears, leave its visible result readable through the
+reaction and cut. Do not introduce an unmotivated late puff that hides or
+abruptly erases the payoff. Elaine's latest correction removed that ending
+poof; it did not reject the energetic fight cloud during the action. Keep
+any different intentional disappearance specific to its own storyboard.
+
 Keep effects localized to the action, with a clear onset and finish. Preserve
 the face, silhouette and readable cause and effect; reveal the hands and prop
 contact clearly as the cloud clears. Keep the actual limb and prop counts,
@@ -115,9 +121,11 @@ Elaine's latest direction is “scrap the fire particles” and use “just wigg
 
 - Make every shot stimulating and nice to look at, with plenty of purposeful action that makes viewers curious about what is happening. Follow the [shot guide's visual interest and curiosity direction](shot-integration-and-sol.md#visual-interest-and-curiosity) when staging performances, interactions and reveals.
 - Open on the question or a surprising image. Use a close-up or controlled camera push when it reveals an important detail, and a stable view when it serves listening, anticipation or a readable payoff. Hold the reveal long enough to read it.
+- Keep entrances and exits brisk by trimming unnecessary lead-ins and tails from actual footage. Start during readable action when appropriate, and cut while the outcome is still visible. Retain complete voice releases and reactions; do not create a whole-scene freeze to extend a shot.
 - Vary clip lengths around the action and dialogue. Keep several lines in one scene when they share an action; use a shorter reaction or cutaway when it adds something. Establish the exact first and last frames of every planned clip. Use normal voice playback and set final timing from the actual recordings.
 - Export vertical at **1080 × 1920, 30 fps**. Keep draft durations provisional; the [script guide](video-script-guide.md#dialogue-density-and-timing) owns timing to real normal-rate recordings and removal of unnecessary holds or repeated reactions. The default deliverable remains complete generated clips, including the painted mechanism and motion.
 - Set all dialogue and narration captions as editable overlays in Remotion. Use **Ramento** with white fill `#FFFFFF` and Ignite orange outline `#F07B2A` around each letter. Use one or two lines above the social controls, with room around Sol, diagrams, and equations. Use Poppins Bold for headings and Nunito for longer non-caption text when needed.
+- Elaine refined the caption increase to 25% above the original size. The current 1080p fire edit uses 70px rather than the original 56px, superseding the earlier 64px trial, while retaining the 12px orange outline. Use this as a working readability reference, scaled to the output; confirm the actual result at phone size. Keep one or two lines, generous side/bottom margins and space around the action. Check the longest phrases and final short word after changing the size; do not alter their wording or voice timing just to fit.
 - Keep that orange outline visibly substantial at phone size. The1080p fire correction increases the stroke from6px to12px; preserve white letter interiors and check the actual export, rather than relying on a thin preview stroke.
 - Confirm the actual local font family before assembly; a guide's display name can differ from the font filename. Keep per-episode font paths and renderer implementation gaps in the episode handoff. Caption words and timings follow the real voice takes. Keep any optional finishing graphics and sound effects editable; they are not required to explain a mechanism that is already visible in a complete generated clip.
 - Keep assembly simple: arrange the complete clips, add separate voices, captions and sound, and export. Make explanatory colors or identifying details part of the generated scene where useful. Do not create SVGs, custom diagrams or separate mechanism animation unless explicitly requested. Additional visual overlays are optional, not a required production stage.

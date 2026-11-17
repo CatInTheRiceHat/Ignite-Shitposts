@@ -1,0 +1,38 @@
+{
+  "approved": true,
+  "command": "python3 workflow/scripts/shorts.py review-gate /Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery --edit /Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/root-edit-candidate.json",
+  "observed_exit_code": 0,
+  "scenes": [
+    {
+      "approved": true,
+      "scene": "01",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "02",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "03",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "04",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "05",
+      "stage": "clip",
+      "reason": "independent review passed"
+    }
+  ],
+  "scope": "Unchanged source clips and contracts. New final editorial outpoint is separately reviewed in independent-review.json."
+}

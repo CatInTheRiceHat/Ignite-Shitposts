@@ -1,0 +1,39 @@
+{
+  "scope": "Assumed monkey/cloud scene based on active revision; user asked to trim a little at the start. Scope question pending; this is reversible.",
+  "trim_seconds": 0.2,
+  "removed_baseline_frames_inclusive": [
+    70,
+    75
+  ],
+  "retained_baseline_ranges_inclusive": [
+    [
+      0,
+      69
+    ],
+    [
+      76,
+      773
+    ]
+  ],
+  "old_frames": 774,
+  "new_frames": 768,
+  "duration_sec": 25.6,
+  "scene02_source_unchanged": true,
+  "scene02_trimBefore_seconds": 0.2,
+  "scene02_edit_duration": 4.6,
+  "spoken_audio_cut": false,
+  "scene02_narrator_new_local_start": 0.6,
+  "voice_rates": 1,
+  "captions_and_audio_after_cut_advance": 0.2,
+  "new_flash_frame": 286,
+  "new_flash_sec": 9.533333333333333,
+  "new_sting_main_impact_sec": 9.522333333333334,
+  "new_right_voice_window": [
+    24.4,
+    25.3
+  ],
+  "new_right_caption_end": 25.5,
+  "new_final_picture_end": 25.6,
+  "music_join": "10ms fade-out/fade-in around music-only cut; all narration lies outside join",
+  "source_reviews": "Unchanged approved source media and source-local script/cues; final edit maps source02 time0.2 to scene output time0."
+}

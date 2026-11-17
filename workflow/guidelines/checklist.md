@@ -13,7 +13,9 @@ they do not become shared art-direction rules.
 ## Final prompt review
 
 - [ ] Check the actual delivered footage for mouths and Sol particles, including every intermediate pose. The area beneath the eye pair stays blank; a third facial mark or mouth line is a failure. A mouthless prompt does not establish a mouthless result. Never present a rejected mouth-bearing take as the corrected result.
-- [ ] Trim dead air from the actual voice files and unnecessary clip tails while retaining readable actions and short intentional pauses. Preserve normal speech speed. Keep the orange caption outline clearly visible at phone size; the current 1080p fire edit uses12px instead of the earlier thin6px.
+- [ ] Trim dead air from the actual voice files and unnecessary clip lead-ins and tails while retaining readable actions and short intentional pauses. Preserve normal speech speed. Keep the orange caption outline clearly visible at phone size; the current 1080p fire edit uses12px instead of the earlier thin6px.
+- [ ] Are captions large enough to read on a phone? The current fire correction uses 70px, 25% above the original 56px at 1080p, with the existing 12px orange outline; this supersedes the 64px trial. Check every phrase, especially long lines and the last word, for one/two-line wrapping, safe margins and clear action.
+- [ ] Does the revealed result stay visible through the reaction and cut, without an unmotivated late poof hiding or abruptly erasing it? Keep useful movement rather than adding a frozen scene to fill time.
 - [ ] Preserve quiet word releases and a readable final hold; do not apply
   silence trimming so tightly that speech feels clipped.
 

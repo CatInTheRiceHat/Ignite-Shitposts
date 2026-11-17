@@ -1,0 +1,28 @@
+{
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-captions-v10-final.mp4",
+  "sha256": "838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54",
+  "bytes": 29082589,
+  "decode_passed": true,
+  "frames": 764,
+  "duration_sec": 25.466666666666665,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "caption_size_before": 56,
+  "caption_size_after": 64,
+  "caption_increase_percent": 14.28571428571428,
+  "caption_outline_px": 12,
+  "all_caption_words_and_cues_identical": true,
+  "all_shots_and_audio_edit_settings_identical": true,
+  "aac_packets_hashes_and_timestamps_identical": true,
+  "aac_packet_count": 1195,
+  "baseline_sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+  "uncaptioned_area_ssim_min": 0.982625,
+  "uncaptioned_area_ssim_mean": 0.9889318115183247,
+  "uncaptioned_area_all_frames_compared": true,
+  "picture_comparison_note": "Fresh Remotion render from same source clips; codec differences expected. No pixel-identity claim. Caption region excluded from this intentional font-size comparison.",
+  "manual_audio_listening_claimed": false,
+  "final_visual_review_pending": true
+}
