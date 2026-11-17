@@ -207,12 +207,15 @@ def archive_outputs(episode):
 
 def main(argv=None):
     arguments = list(argv) if argv is not None else sys.argv[1:]
+    if arguments and arguments[0] == 'inspect-video':
+        from video_inspect import main as inspect_main
+        return inspect_main(arguments[1:])
     review_commands = ('review-frames', 'review-clip', 'approve-frames', 'record-review', 'review-gate', 'video-request')
     if arguments and arguments[0] in review_commands:
         from clip_review import main as review_main
         return review_main(arguments)
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.epilog='Review commands: '+', '.join(review_commands)+' (use <command> --help).'
+    parser.epilog='Review commands: '+', '.join(review_commands)+', inspect-video (use <command> --help).'
     sub=parser.add_subparsers(dest='command',required=True)
     for action in ('prepare','generate','check','render','sync-audio'):
         command=sub.add_parser(action)

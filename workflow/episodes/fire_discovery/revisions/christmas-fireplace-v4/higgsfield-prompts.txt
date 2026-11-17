@@ -1,0 +1,217 @@
+HOW FIRE WAS DISCOVERED — CHRISTMAS FIREPLACE REVISION
+
+Five scenes: exactly ten image prompts and five video prompts. New clips planned for01,02,05. Generate a new01 Christmas fireplace pair. Reuse the exact approved02 late-afternoon and05 three-Sol night-campfire pairs from night-camp-v3, without new image jobs for those scenes. Scenes03/04 retain their existing endpoints, footage and prompt text.
+
+SETTINGS / REFERENCES / EDITING — OUTSIDE COPYABLE PROMPTS
+Images: Nano Banana2.1,2k,9:16,count1,thinking_level medium. Video: Gemini Omni Flash1.2,1080p,9:16, approved first AND last frame; no video submitted before approval. Original Mascot controls identity, Microphone controls short-arm anatomy only, Spring/Practical Learning/Thank You control paint only. Scene01 establishes a richly decorated Christmas room and fireplace. Scene05 is a different outdoor campsite and uses fresh first/last images, without the fireplace as a layout reference. Each new last image uses its own first image as composition input. Settings and media IDs are recorded separately in generation-inputs.json. Existing Arthur/custom Sol takes stay1x. White/orange editable captions stay unchanged. Sound correction: advance the supplied sting6frames so its ~0.19s impact meets the actual flash at9.733333s. Native generated audio is discarded.
+
+SCENE 01 — A question beside the Christmas fireplace — generate3s / edit2.333s
+Dialogue context, outside prompts:
+Sol: “Who actually discovered fire?”
+
+Output: keyframes/01-first.png (relative to this revision)
+BEGIN IMAGE PROMPT I01-FIRST
+Create a complete new vertical painted scene: Sol beside a fireplace in a detailed Christmas living room.
+
+A richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.
+
+Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.
+
+Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.
+
+Preserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.
+
+Soft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.
+END IMAGE PROMPT I01-FIRST
+
+Output: keyframes/01-last.png (relative to this revision)
+BEGIN IMAGE PROMPT I01-LAST
+Use the supplied Christmas first frame as the exact composition reference. Create its matching last still, changing only Sol's small near-fire arm gesture.
+
+The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.
+
+Preserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.
+
+Soft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.
+
+Keep the warm lighting, every background object, framing, floor contact and Sol design consistent with the supplied first frame.
+END IMAGE PROMPT I01-LAST
+
+Inputs: this revision's explicitly approved01-first.png and01-last.png.
+Output: clips/01-scene.mp4 (planned)
+BEGIN VIDEO PROMPT V01
+Over the first1.6s, lift only the short arm nearest the fireplace along one small direct path toward the burning logs as Sol asks his question. Add gentle connected body/tip wiggle that follows the gesture and settles, keeping both feet supported. Preserve Sol's original small dark oval eyes, mouthless face and short limbs. The low fire flickers while attached to its three logs. Keep all Christmas decorations, tree lights, snowy window view, rug, furniture and camera stable. End in the supplied small questioning pose by2.0s and hold through the3s source tail. No walking, hopping, independent face turn or emitted particles.
+
+Preserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.
+
+Soft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.
+
+Animate on twos at final30fps: every source pose or painted state stays unchanged for two consecutive frames,15 updates per second at normal speed; longer holds use complete pairs. Apply to Sol, wood fire and local animated light. Background, Christmas lights and paint texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify during editing. No generated speech, music, effects, text or captions.
+END VIDEO PROMPT V01
+
+SCENE 02 — Natural fire in late-afternoon grassland — generate5s / edit4.800s
+Dialogue context, outside prompts:
+Narrator: “We don't know. Natural fires existed long before people.”
+
+Output: keyframes/02-first.png (relative to this revision)
+BEGIN IMAGE PROMPT I02-FIRST
+Create a vertical painted natural landscape in distinct warm late-afternoon light.
+
+Uninhabited dry grassland in warm late-afternoon sunlight. Low sun from off-screen upper-left gives the straw-gold grasses and dusty ground warm honey light and long soft shadows to the right. Distant muted blue hills and peach-gold haze beneath a broad pale warm sky. This is a clear late-afternoon landscape; only the small branch fire gives localized orange light.
+
+Wide elevated three-quarter view across an open grassy basin. A fallen branch and small natural fire occupy x=56%, y=60%; distant layered blue hills lie below the upper third. Static camera, no zoom. Quiet light-colored lower fifth for captions.
+
+No people or Sol. An isolated dry fallen branch lies on bare earth among sparse straw-gold grass, with a small orange fire already rooted on its center. A single soft gray plume rises above it. The surroundings remain mostly unburned, with no campsite, buildings, tools or stone ring.
+
+Soft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.
+
+No characters, people, campsite, structures or human-made objects.
+END IMAGE PROMPT I02-FIRST
+
+Output: keyframes/02-last.png (relative to this revision)
+BEGIN IMAGE PROMPT I02-LAST
+Use the supplied first image as the exact composition reference. Create its matching last still; retain the same late-afternoon lighting.
+
+Exactly the same elevated view, branch position, hills, grass and warm sky and sunlight. The small fire remains rooted to the same branch, with its connected upper tongues in a slightly different natural flicker state and the thin smoke plume a little higher. No new fire patches or objects.
+
+Uninhabited dry grassland in warm late-afternoon sunlight. Low sun from off-screen upper-left gives the straw-gold grasses and dusty ground warm honey light and long soft shadows to the right. Distant muted blue hills and peach-gold haze beneath a broad pale warm sky. This is a clear late-afternoon landscape; only the small branch fire gives localized orange light.
+
+Soft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.
+END IMAGE PROMPT I02-LAST
+
+Inputs: this revision's explicitly approved02-first.png and02-last.png.
+Output: clips/02-scene.mp4 (planned)
+BEGIN VIDEO PROMPT V02
+Continue the already-established small natural wood fire while the Narrator explains that fire existed before people. Only its connected upper flame shapes flicker softly and the thin smoke plume rises slowly. Keep the flame base fixed on the fallen branch. Keep the entire terrain, branch, grass and late-afternoon sky stable. No new ignition, lightning, sweeping flame front or human activity.
+
+Preserve exact endpoint framing, late-afternoon light, long soft shadows and static camera.
+
+Soft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.
+
+Animate on twos at final 30 fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply to every Sol, prop, real flame and animated local light. Background and paint texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs during editing. No generated speech, music, sound effects, text or captions.
+END VIDEO PROMPT V02
+
+SCENE 03 — RETAIN EXISTING APPROVED-INPUT FOOTAGE; no regeneration requested.
+
+BEGIN IMAGE PROMPT I03-FIRST
+Create a low three-quarter medium-wide view of one dry dead tree under broad blue-gray storm clouds. Place the trunk near x=52% and its unlit dry lower branch near x=65%, y=62%; leave sky above for a later strike. Separate the tree, ground and distant muted teal woodland with painted overlap and perspective. Use cool diffuse storm daylight only. Show no lightning, flame, embers or warm firelight. The woodland is empty of characters; keep the lower fifth quiet.
+
+Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
+
+No text or watermarks.
+END IMAGE PROMPT I03-FIRST
+
+BEGIN IMAGE PROMPT I03-LAST
+Use the attached starting still for tree structure, composition and style. Keep the same source camera view and branch geometry. A small faceless painted flame now burns at a darkened patch on the dry lower branch at right; the lightning is completely absent. Its flame base is anchored to that ignition patch; keep the branch rigid. Preserve the rigid trunk, branch attachments, woodland layout and cool storm light. Add only a faint local warm reflection beside the burning patch; keep the lower fifth quiet.
+
+Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
+
+No text or watermarks.
+END IMAGE PROMPT I03-LAST
+
+BEGIN VIDEO PROMPT V03
+Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.
+
+Stable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.
+
+No Sol or human face appears in this cutaway.
+
+Keep actual fire rooted at the wood contact.
+
+Preserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.
+
+Preserve the physical order of the specified action and original object count.
+
+Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.
+
+No text, captions, generated speech, music or sound effects.
+END VIDEO PROMPT V03
+
+SCENE 04 — RETAIN EXISTING APPROVED-INPUT FOOTAGE; no regeneration requested.
+
+BEGIN IMAGE PROMPT I04-FIRST
+Create a gently elevated three-quarter close-up of ONE charred fallen bough with a small ember bed on ash-gray earth. Use one main bough and only a few small coal pieces; describe the wood through broad painted shapes and gentle shading, without dense bark cracks or a pile of many logs. Place the contact area near x=58%, y=60%; keep the lower fifth quiet.
+
+ONE cropped anonymous human hand enters from upper-right, gripping the far end of ONE short, straight, unbranched dry twig. Show a coherent thumb-and-finger grip. The twig has a single blunt lower tip hovering above the hot coals with a clearly visible gap. It has no forks or side branches. No face, mascot or extra tool is visible.
+
+The existing embers glow a subdued red-orange, with no visible flames or yellow tongues of fire anywhere in this starting still. Use cool diffuse shade, charcoal wood and gray ash with only weak local ember warmth. The twig is unlit and has not touched the coals.
+
+Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint the human hand, wood, coals and surroundings together with coherent perspective and lighting. Build rounded forms and space through gentle shading, overlap and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
+
+The supplied graphics control paint treatment only; do not copy their mascots, settings or accessories. No text or watermark.
+END IMAGE PROMPT I04-FIRST
+
+BEGIN IMAGE PROMPT I04-LAST
+Use the approved starting still as the composition reference. The single twig now rests on the existing charred support surfaces, one end touching the ember bed. The twig is fully supported and stationary after release; the hand has withdrawn completely along its single exit path. A small faceless painted flame has caught at the fixed twig–ember contact point, slightly increasing local warmth. Preserve the close-up crop, bough shape, coal and ash arrangement, twig identity, cool ambient shade and grounded contact. No mascot or added tools; keep the lower fifth quiet.
+
+Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.
+
+No text or watermarks.
+END IMAGE PROMPT I04-LAST
+
+BEGIN VIDEO PROMPT V04
+Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig–ember contact; keep its base anchored there. No extra hand, forked twig or tool.
+
+Stable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.
+
+No Sol or human face appears in this cutaway.
+
+Keep actual fire rooted at the wood contact.
+
+Preserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.
+
+Preserve the physical order of the specified action and original object count.
+
+Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.
+
+No text, captions, generated speech, music or sound effects.
+END VIDEO PROMPT V04
+
+SCENE 05 — Three Sols at a cozy night campfire — generate6s / edit5.200s
+Dialogue context, outside prompts:
+Sol: “So finding fire wasn't the same as making it.”
+Narrator: “Right.”
+
+Output: keyframes/05-first.png (relative to this revision)
+BEGIN IMAGE PROMPT I05-FIRST
+Create one complete new vertical painted scene of EXACTLY THREE original Sol mascots sharing a cozy campfire at NIGHT.
+
+A cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.
+
+Static medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.
+
+The foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow held in front of the stone ring, ready to toast. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.
+
+Each of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.
+
+Soft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.
+END IMAGE PROMPT I05-FIRST
+
+Output: keyframes/05-last.png (relative to this revision)
+BEGIN IMAGE PROMPT I05-LAST
+Use the supplied night campsite first image as the exact continuity reference. Create the matching last still with the same THREE Sols.
+
+Exactly the same three Sols, campsite, sizes, positions, foot contacts, fire, stones, wood, tent and night lighting. The foreground-left friend now holds the skewer slightly lifted, with its single lightly toasted marshmallow clear of the flame. The rear friend holds both short arms a little forward in a warming pose. The foreground-right speaking Sol holds both short arms slightly open in a low understanding gesture. All THREE compact bodies and their attached faces tilt gently backward/up together to look toward the fixed Narrator point just above camera, keeping original normal navy oval eyes and tiny limbs unchanged. All three remain firmly on the ground.
+
+Keep every fixed background object, wood piece, stone and camera position identical; preserve deep navy night and amber firelight.
+
+Each of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.
+
+Soft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.
+END IMAGE PROMPT I05-LAST
+
+Inputs: this revision's explicitly approved05-first.png and05-last.png.
+Output: clips/05-scene.mp4 (planned)
+BEGIN VIDEO PROMPT V05
+During local0.0–2.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080–2.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0–3.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0–4.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.
+
+Static medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.
+
+A cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.
+
+Each of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.
+
+Soft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.
+
+Animate on twos at final 30 fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply to every Sol, prop, real flame and animated local light. Background and paint texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs during editing. No generated speech, music, sound effects, text or captions.
+END VIDEO PROMPT V05

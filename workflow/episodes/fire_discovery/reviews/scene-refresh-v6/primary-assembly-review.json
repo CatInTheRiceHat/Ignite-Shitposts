@@ -1,0 +1,16 @@
+{
+  "reviewer": "Codex primary assembly check",
+  "method": "Opened all three 2fps contact sheets, covering0\u201325.5s. Native final and flash samples remain for final review. No playback or audio listening claimed.",
+  "evidence": [
+    "assembled-draft-v6/sequence-01.jpg",
+    "assembled-draft-v6/sequence-02.jpg",
+    "assembled-draft-v6/sequence-03.jpg"
+  ],
+  "observations": [
+    "02\u201305 show the intended setting variation: grassland, storm tree, ember detail and three-Sol night campfire.",
+    "Captions remain visible inside safe edges; lowered opening text clears Sol feet, and ending Right is intact.",
+    "No picture-edge cropping evident in these sampled frames. The black tiles after25.5s are contact-sheet padding, not video frames.",
+    "Old01 repair in this draft is rejected and must be replaced by v7 before delivery."
+  ],
+  "status": "02\u201305 assembly samples acceptable; source/final review pending"
+}

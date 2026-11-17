@@ -1,0 +1,326 @@
+{
+  "packet_id": "84cb8b94666a7405bdb36511208b968553cc0c7f7c398eff75badf658be057e1",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "method": "Independent actual-frame review against the current root script/storyboard and confirmed voice-cue metadata. Opened every chronological sequence page and the cited native detail frames; compared the approved endpoint pair, original Mascot/Microphone design and Spring paint reference already inspected in this review session. Lantern motion reference was sampled at1fps earlier in this same session. Exact native decoded pair-hash cadence receipts were inspected separately. No real-time playback or manual audio listening is claimed. Visual timing is cue-relative; final mix/crops/captions require separate assembled-export review. Additional native crop sheet01-v7-native-repairs.jpg extracted from actual v7 covers every even source state20–42, and was visually inspected; it is supplemental outside-packet evidence, not an automatic detector pass.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "One Sol preserves the approved Christmas pair design: broad cream inner flame, original dark oval eyes, attached red/orange flame layers, compact arms and stubby feet. Native eye edges have a thin pale antialias rim, not an added sclera or changed eye design.",
+      "timestamps_sec": [
+        0,
+        1,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Normal paired navy oval eyes stay anchored to the cream face. The brief paired blink around0.400–0.567 returns to the same oval design; no brows, pupils, independent face turn or mouth is present, including the formerly defective52–55 interval.",
+      "timestamps_sec": [
+        0.4,
+        0.6,
+        1,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "Connected silhouette and original compact limbs are preserved. The prior emission onset22–25 now repeats clean20;26–40 has no visible detached red trail in native inspection;42–61 repeats clean62 with no blade/residue or mouth. Raised near-fire arm remains short and connected.",
+      "timestamps_sec": [
+        0.666667,
+        0.8,
+        1,
+        1.333333,
+        1.4,
+        1.8,
+        2.066667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed full-body Christmas-room composition retains Sol on the rug with clear lower caption area. Tree, presents and ribbon, chair, snowy window, garland, three stockings, wreath, hearth logs and basket remain stable without crop or scale change.",
+      "timestamps_sec": [
+        0,
+        1,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Both stubby feet retain rug support while the near-fire arm lifts directly toward the hearth. No walking, floating, prop intersection or repaired contour notch is visible. The40→42 transition (replacement source62) produces a small coherent tip/body settle with unchanged foot support.",
+      "timestamps_sec": [
+        0,
+        0.866667,
+        1.333333,
+        1.4,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The gesture points toward the right-hand fireplace. Hearth flame remains rooted to the same logs; no mechanical system requires a directional test.",
+      "timestamps_sec": [
+        0.866667,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Exactly one Sol and the same decorations persist. All inspected repaired states keep the gift bow/ribbon separate from the mascot edge. No detached Sol flecks or mouth recur in the clean held state or tail.",
+      "timestamps_sec": [
+        0.8,
+        1,
+        1.4,
+        1.8,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "First state matches the low-arm approved pose, last state the compact raised-arm pose. Final pose is established before the2.333s edit cut and remains through source2.967.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.3,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Purposeful arm lift and connected tip wiggle lead into the questioning pose during Sol cue0.080–1.886. Complete-pair holds20–25 and42–63 are deliberate: the latter also pauses hearth flicker1.400–2.133. The40→42 tip settle is visible but compact/coherent, with no pose teleport or facial discontinuity. Normal source speed and exact paired states are verified by the native cadence receipt; no audio listening claim.",
+      "timestamps_sec": [
+        0.08,
+        0.6,
+        0.866667,
+        1.333333,
+        1.4,
+        1.886,
+        2.133333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/voice-cues.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All90 chronological frames inspected. No rendered caption/UI/watermark, mouth, detached Sol particle, faint red trail, gift-ribbon residue or obvious cleanup seam remains. Native inspection covered every even repair-state20–42 plus held-state45, specifically distinguishing actual connected lobe from stray emissions.",
+      "timestamps_sec": [
+        0.666667,
+        0.8,
+        1,
+        1.333333,
+        1.4,
+        1.8,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native frames retain layered warm gouache-like color, brush and paper texture on the room, mascot and props. Stable paint texture and color-defined forms match the accepted pair and Spring finish; no repair introduced a flat patch or ink outline.",
+      "timestamps_sec": [
+        1,
+        1.5
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current root scene and confirmed cues. Only Sol asks Who actually discovered fire? at0.080–1.886; no Narrator gaze requirement applies. Sol gestures toward the hearth during that line and holds before the2.333 edit cut. All behavior fits this cue window; actual final audio mix is outside this silent-source review.",
+      "timestamps_sec": [
+        0.08,
+        0.866667,
+        1.886,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    }
+  },
+  "summary": "PASS for cleaned-v7 selected source. Earlier original and clean-v6 rejections remain valid for their different video hashes. This candidate removes their red emissions/residue and mouth through adjacent original clean paired states plus localized background cleanup. Small40→42 settling change and0.733s full-scene hold42–63 are disclosed and acceptable as staged complete-pair holds. No remaining source visual blocker found. Final assembled export still requires crop/caption/mix checks.",
+  "type": "independent_clip_review",
+  "decision": "passed",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "358894ce9d79bb0013b5d2d47d8532061998ca63218f5d926fa3ebabecdf8ee5",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/keyframes/01-first.png",
+        "sha256": "0ee6b0d1079f52f483521dc02949625d8f3923bdcffbd49f4e4b6de6735a6f7d"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/keyframes/01-last.png",
+        "sha256": "98e9c4f09b3640f770b8651a0cbc46942d8f2434518ffa03c7a109c73cdfe475"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/script.txt",
+      "sha256": "02397d256e21f2529166d1cbdf8d4b313ecb1a86b1a133facbc93c4aae21bb9b"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "audio_sources": {
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+        "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+      },
+      "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+        "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+        "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+      },
+      "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+        "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+        "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+      },
+      "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+        "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+        "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+      },
+      "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+        "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+        "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+      },
+      "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+        "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+        "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+      },
+      "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+        "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+        "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+      },
+      "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+        "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene-clean-v7.mp4",
+      "sha256": "bec7bb00f80e009689930c539eee6327319ed0f1783b87000f00feace937a9ee"
+    }
+  },
+  "recorded_at": "2026-11-17T00:26:09.333662+00:00"
+}

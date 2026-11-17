@@ -1,0 +1,77 @@
+[
+  {
+    "frame": 18,
+    "time": 0.6,
+    "image": "detail-01.jpg"
+  },
+  {
+    "frame": 40,
+    "time": 1.3333333333333333,
+    "image": "detail-02.jpg"
+  },
+  {
+    "frame": 120,
+    "time": 4.0,
+    "image": "detail-03.jpg"
+  },
+  {
+    "frame": 170,
+    "time": 5.666666666666667,
+    "image": "detail-04.jpg"
+  },
+  {
+    "frame": 284,
+    "time": 9.466666666666667,
+    "image": "detail-05.jpg"
+  },
+  {
+    "frame": 292,
+    "time": 9.733333333333333,
+    "image": "detail-06.jpg"
+  },
+  {
+    "frame": 294,
+    "time": 9.8,
+    "image": "detail-07.jpg"
+  },
+  {
+    "frame": 326,
+    "time": 10.866666666666667,
+    "image": "detail-08.jpg"
+  },
+  {
+    "frame": 460,
+    "time": 15.333333333333334,
+    "image": "detail-09.jpg"
+  },
+  {
+    "frame": 520,
+    "time": 17.333333333333332,
+    "image": "detail-10.jpg"
+  },
+  {
+    "frame": 630,
+    "time": 21.0,
+    "image": "detail-11.jpg"
+  },
+  {
+    "frame": 680,
+    "time": 22.666666666666668,
+    "image": "detail-12.jpg"
+  },
+  {
+    "frame": 740,
+    "time": 24.666666666666668,
+    "image": "detail-13.jpg"
+  },
+  {
+    "frame": 760,
+    "time": 25.333333333333332,
+    "image": "detail-14.jpg"
+  },
+  {
+    "frame": 773,
+    "time": 25.766666666666666,
+    "image": "detail-15.jpg"
+  }
+]

@@ -1,0 +1,50 @@
+CURRENT SCENE REVISION: revisions/christmas-fireplace-v4/. Elaine requests a more detailed Christmas fireplace opening and approves the rest of the displayed pairs.02 and05 are approved by canonical events under night-camp-v3; their exact stills are preserved. New01 Christmas first/last pair is ready in revisions/christmas-fireplace-v4/reviews/01-pair.jpg and needs approval. Selection, exact hashes and approved02/05 source packets are in that revision's reviews/frame-pair-selection.json. Existing dialogue, sound-corrected cut and completed delivery are preserved. Christmas and background detail choices remain in episode feedback.
+
+PREVIOUS REVISION HANDOFF
+CURRENT SCENE REVISION: revisions/night-camp-v3/. Elaine requests lighting/time-of-day variety, a cozy nighttime campfire, action and more Sols in this episode. Retain01 daylight fireplace pair, refresh02 with warm late-afternoon light, and refresh05 with three Sols sharing a marshmallow-toasting beat in deep-night amber campfire light. All three must look UP before Narrator speaks. All three selected first/last pairs are ready in revisions/night-camp-v3/reviews/frame-pair-selection.json and remain unapproved; no new clips. Six new image jobs completed, including two preserved unselected candidates corrected for mouth/eye artifacts. Prior candidates are preserved below and in their revision folders. Scene ideas belong in episode feedback, not shared art guidelines.
+
+PREVIOUS SCENE REVISION
+CURRENT SCENE REVISION: revisions/scene-replacements-v2/. Elaine clarified that repeated clips in THIS VIDEO should be replaced by returning to first/last image generation and designing different scenes. Shared guidelines contain reusable art direction, not these scene prescriptions. Retain the unapproved new01 fireplace and02 landscape pairs; replace05 with a new evening campsite/campfire pair. All three selected pairs are now ready in revisions/scene-replacements-v2/reviews/frame-pair-selection.json. Prior fireplace-v1 candidates are preserved. No new pair approval or clip generation. Thunder-sync-v5 remains the current sound-corrected review export.
+
+CURRENT SOUND CORRECTION: renders/fire-discovery-thunder-sync-v5-review.mp4. The sting now starts at9.533333s; its measured impact at9.722333s meets the flash at9.733333s, within one frame. Picture, dialogue, captions and music preserved. Verification: reviews/thunder-sync-v5/verification.json.
+
+SCENE REFRESH — PAIRS READY FOR APPROVAL: revisions/fireplace-v1/ contains a complete revised storyboard and10 image/5 video prompts. Scene01 opens beside an indoor fireplace;02 becomes an uninhabited natural-fire landscape;05 returns from the opposite side of the hearth. Selected pairs and packet paths: revisions/fireplace-v1/reviews/frame-pair-selection.json. All six selected images are unapproved; seven stills were generated including one unused05 composition. New pairs must be shown and explicitly approved before video generation. Completed delivery remains the previous copy while the revision is reviewed.
+
+PRIOR DELIVERY / REVIEW HANDOFF
+
+DELIVERY COPY: workflow/completed/How Fire Was Discovered.mp4 (identical to the current sound-v4 export).
+
+CURRENT REVIEW CUT: renders/fire-discovery-sound-v4-review.mp4.
+25.8 seconds of picture (774 frames),1080x1920 at30fps; AAC48k audio normalized to -16.03LUFS, true peak -3.18dBTP. Entire exported file decoded successfully. Numerical correlation confirms the sting at9.733333s, original Right onset at24.6s, and the audible music bed. No manual listening is claimed.
+
+The supplied assets/meme sounds/bomboclat-with-thunder.mp3 plays at the actual lightning strike. A1.2s silence gap after Yes gives it room before the rest of the explanation; every original spoken sample retains normal speed. Hide and Sneak4 is mixed beneath the dialogue, dipped during the sting and faded at the ending. Right now retains0.9s from the original take; its audio ends at25.5s, with picture continuing to25.8s. Scene03 uses36 additional original frames; Scene05 adds22 exact paired hold frames. Original media and previous exports are preserved.
+
+Current edit, script, shot plan, prompts and voice cues are synchronized. The ten image and five video prompt blocks are unchanged. See reviews/sound-v4/sound-edit-receipt.json and renders/full-cut-review-v4/verification.json. Sampled final contact sheets and native lightning/Right frames pass caption and crop inspection. Prior independent Sol cleanup findings remain in reviews/resume-native-v1/selected-v3-diagnostic-review.json. This is a review cut; final production bindings and user timing/playback approval remain unconfirmed. No new media generation was submitted.
+
+Elaine's consolidated comments, latest clarifications and superseded directions are saved in feedback.txt. The shared workflow/guidelines/checklist.md is updated with the sound and ending notes.
+
+PREVIOUS REVIEW HANDOFF — PRESERVED HISTORY
+
+CURRENT REVIEW CUT: renders/fire-discovery-resumed-v3-review.mp4.
+23.867 seconds of picture (716 frames), 1080 x 1920 at30fps; AAC48k audio normalized to -16.01LUFS, true peak -3.98dBTP. Entire exported file decoded successfully; no black segments over100ms.
+
+The seven original Arthur/custom Sol takes retain normal speech speed and1x playback. Their existing silence trims remove5.981s; captions retain the stronger12px orange outline. Scene01 uses the mouthless preferredv3 take. Scenes02/05 now use native-v2 cleanup for faint red background trails plus short complete-pair holds that omit remaining emission buds. Every selected output frame matches its actual source frame exactly in decoded YUV, and every source pair matches. Scene05 Arthur starts at local4.0s after Sol's body-up transition; shot lasts4.467s. The music bed retains its existing end fade.
+
+Current sources, script and cue timings are synchronized in edit.json, shot-plan.json, script.txt, higgsfield-prompts.txt and audio/voice-cues.json. Prior versions are preserved in reviews/resume-native-v1/prior-state/. Source selection: reviews/resume-native-v1/clean-state-selection-v3.json. Technical export verification: renders/full-cut-review-v3/verification.json. Dedicated visual review: reviews/resume-native-v1/selected-v3-diagnostic-review.json. All 139 selected Scene 02/05 source states and native tip sheets pass the inspected mouth/particle/contour checks; sampled final captions and crops pass.
+
+This is a complete REVIEW CUT for the user, not a claim of final production approval. Canonical media check passes, while script-bound production gates and final timing confirmation remain pending. Existing still approval records are preserved; no new generation was submitted. Original and rejected media remain intact. User instructions remain: no Sol mouths or particles, gentle connected wiggle, normal-rate voices, shortened dead air and visible orange caption outlines.
+
+HISTORICAL HANDOFF — NOT CURRENT DIRECTIONS
+
+LATEST FLAME-SIZE FEEDBACK: Elaine likes tiny subtle painted flame flicks and dislikes the big emissions. Preserve small fading accents (review examples02~1.6–1.73s,05 top-right~4.13s); reduce eye-sized drops and bulbous flares (02~1.2–1.5s,05~2.5/3.5/4.5/5.5s) and sparse-out repeated pairs. Main mascot stays intact. Review-only request: no video pixel cleanup or new generation performed/authorized. Cleanup proposal has been narrowed accordingly. Current review policy now reflects this preference, so older gate bindings are historical until refreshed; original reports remain unchanged.
+
+Previous handoff / historical state:
+Current state:15 video jobs completed in the episode. The latest02/05 take4 Omni motion drafts are generated, silent, normal-speed and exact-pair verified, but independently REJECTED for remaining red/orange fragments, eye rims/contour treatment and late/ambiguous upward attention. Hops are fixed. Three unchanged clips01/03/04 pass current source/script review. Do not call the episode final-ready or use rejected02/05 in production.
+
+Review drafts: clips/02-scene-omni-v4-twos.mp4 and05-scene-omni-v4-twos.mp4. Reports: reviews/02/independent-review-grounded-flow-v4.json and05 counterpart. All raw/rejected takes remain preserved. The exact approved body-tilt still pairs remain selected. Eye squishing was rejected; user requests flowing bounce into every pose with original eyes and compact anatomy.
+
+A precise local VIDEO cleanup is proposed at reviews/grounded-flow-v4/local-video-cleanup-proposal.json, preserving Higgsfield movement and repairing only particle/eye artifacts. No video pixel cleanup has been executed. Earlier permission covered still-eye cleanup; ask for the new video scope explicitly. No further automatic paid retries. The two body-flow attempts were estimated32.5credits each.
+
+A pixel cleanup cannot certify UP direction or final voice sync.02 planned Narrator onset0.6s is earlier than current visible attention change;05 UP reading remains uncertain. Once actual normal-rate voices exist, place onset after gaze-ready and verify the whole spoken turn and idle. Native generated audio is discarded. Shared Omni Flash1.2/Nano Banana2.1, saved Arthur/custom Sol voices and caption styling are preserved.
+
+Frame gates for the actual approved02/05 first/last files remain valid. Edited ending media IDs02=5bb335ad-5974-4a27-bea6-b8bfa69ab603,05=36d81324-54f7-449e-872c-377cbf644030. Actualscript/10 endpoint entries/5 video prompts stay synchronized; I02-FIRST exactly reuses I01-LAST. Final work also needs real voice tracks, source/finished visual passes, playback and editorial crop checks.

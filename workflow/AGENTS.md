@@ -67,6 +67,12 @@ forward, while its scene layout and mechanical props do not.
 Canonical commands run from the repository root as
 `python3 workflow/scripts/shorts.py ...`. See `guidelines/clip-review-guide.txt`.
 
+Use the shared `shorts.py inspect-video <clip>` tool for reusable blemish
+screening instead of adding episode-specific detection scripts. Elaine wants
+tools inside this folder that Codex runs, not a website or separate app.
+Inspect the timestamped candidate crops and contact sheets; automatic flags
+are neither confirmed defects nor production approvals.
+
 
 ## Exact motion policy
 

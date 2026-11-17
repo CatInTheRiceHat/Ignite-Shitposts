@@ -106,6 +106,26 @@ their edit JSON, public assets and renders; a custom composition can live in
 edit JSON path. Start a new Remotion short from
 `templates/remotion-episode.json`; see the [Remotion guide](remotion/README.md).
 
+## Shared clip inspection
+
+Use one local tool to screen clips across episodes. It creates timestamped
+candidate lists, marked before/after frames, full-resolution detail crops and
+contact sheets. There is no website or separate app.
+
+```bash
+workflow/.venv/bin/python workflow/scripts/shorts.py inspect-video path/to/clip.mp4 --check-twos
+```
+
+Reports go under `workflow/inspections/`; `--output` can select an episode's
+review folder. `--first` and `--last` optionally include reference stills.
+The scanner checks every decoded frame for local changes and moving details.
+`--check-twos` additionally verifies native frame pairs at 30 fps. It preserves
+the source video, uses no generation service, and never approves a clip.
+Intentional motion can be flagged and persistent defects can be missed: inspect
+the evidence with the script and references using the existing clip review.
+Use this shared command for future inspections instead of adding one-off
+episode detection scripts.
+
 ## Setup
 
 Use Python 3.10 or newer, Pillow, FFmpeg and ffprobe. Blender is not required.

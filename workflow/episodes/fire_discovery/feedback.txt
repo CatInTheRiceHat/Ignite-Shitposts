@@ -118,7 +118,58 @@ WORKFLOW AND EPISODE REVISION NOTES
     new campfire first/last pair is ready; all three replacement pairs still
     require explicit approval before animation.
 
+28. Elaine asks for more variation in lighting and time of day, including
+    nighttime, a cozy campfire, more action and more Sols. This applies to the
+    current fire episode and stays out of shared art-style guidelines.
+    Implementation proposal: retain the daylight fireplace opening; relight
+    the natural-fire grassland to warm late afternoon; keep the existing
+    lightning and ember clips; end at a deep-night campfire with three Sols.
+    One silent friend toasts a marshmallow, another warms its short arms,
+    and the speaking Sol makes its understanding gesture. All three look UP
+    before Narrator's Right and listen through the full release. Fresh02/05
+    first/last frames are ready alongside the retained01 pair; all three pairs
+    require approval before animation. No replacement clips generated.
+
+29. Elaine requests more stimulation and detail in the background, specifically
+    regenerating the fireplace as Christmas. She says “the rest areok” in
+    response to the displayed01/02/05 pairs:02 late-afternoon landscape and05
+    three-Sol night-campfire exact pairs are approved, recorded canonically in
+    night-camp-v3. Only01 is replaced. Implementation: decorated Christmas
+    tree, gifts, garland, stockings, wreath, warm lights and a snowy window,
+    with clear space around the original mouthless Sol and his gesture.
+    These are episode-specific scene notes, not shared art-style requirements.
+    New01 Christmas first/last pair is ready in christmas-fireplace-v4 and
+    still needs explicit approval before animation.
+
+30. Elaine replied “awesome” to the explicit request to approve both new
+    Christmas fireplace frames. Record01 approved;02/05 were already approved.
+    She then asked for the rest of the images. Shared all remaining02–05
+    first/last pairs and bundled their eight full-size PNGs in
+    revisions/christmas-fireplace-v4/renders/remaining-scene-images.zip.
+    Three approved replacement clips generated. Independent review passed02/05;
+    brief01 mouth/particle artifacts are being repaired from existing footage.
+
+31. Elaine asks for reusable tools inside this project to analyze generated
+    clips for random blemishes, instead of many one-off Python scripts.
+    She explicitly does not want a website or separate app. Use the shared
+    inspect-video command behind the scenes and review its timestamped frame
+    evidence. This is a tooling preference, not a shared art-style requirement.
+
+32. Elaine asked to continue the video after the shared inspection-tool work.
+    Completed the selected Christmas01, late-afternoon02 and three-Sol night05
+    scenes with retained lightning03/ember04. Independent review caught residual
+    ribbon-overlap particles in the first01 cleanup; clean-v7 replaces those
+    states with complete clean source pairs and now passes. All five sources
+    and the final assembled cut passed independent visual review. Kept the
+    corrected v5 soundtrack byte-for-byte, including music, aligned bomboclat
+    and the complete Right release. Final25.8s export delivered as
+    completed/How Fire Was Discovered.mp4; earlier completed copy archived.
+
 IMPLEMENTATION / REVIEW STATUS
+
+Current: scene-refresh-v6 is delivered and all source/final visual checks passed.
+See reviews/scene-refresh-v6/delivery.json and final-output/verification.json.
+Earlier implementation history follows.
 
 The resumed-v3 cut addressed mouths, remaining Sol emission buds and faint
 particle trails, kept the normal voices and stronger captions, and corrected

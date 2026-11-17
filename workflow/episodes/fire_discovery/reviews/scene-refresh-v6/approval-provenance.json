@@ -1,0 +1,52 @@
+[
+  {
+    "scene": "01",
+    "source_decision": "revisions/christmas-fireplace-v4/reviews/01/frames/9e6e4df6e9bf3aa84c20/decisions/20261116T185312526404Z.json",
+    "user_message": "awesome",
+    "approved_still_hashes": {
+      "first": "0ee6b0d1079f52f483521dc02949625d8f3923bdcffbd49f4e4b6de6735a6f7d",
+      "last": "98e9c4f09b3640f770b8651a0cbc46942d8f2434518ffa03c7a109c73cdfe475"
+    },
+    "scope": "Carry forward existing approval of unchanged exact images into the consolidated selected-edit record; no new user approval inferred."
+  },
+  {
+    "scene": "02",
+    "source_decision": "revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/decisions/20261116T184604927615Z.json",
+    "user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok",
+    "approved_still_hashes": {
+      "first": "a94c013227d99120d77c37cd30a1f2e44acf614f24e97afe0f63cb840aefd97f",
+      "last": "3886551b7d192ee25b2c4d9023596549487290c8dfdda40061df9fbe3bfec9ca"
+    },
+    "scope": "Carry forward existing approval of unchanged exact images into the consolidated selected-edit record; no new user approval inferred."
+  },
+  {
+    "scene": "03",
+    "source_decision": "reviews/03/frames/f4a420982928036c7d89/decisions/20261116T044941201482Z.json",
+    "user_message": "ok can we generate the higgsfield videos now",
+    "approved_still_hashes": {
+      "first": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1",
+      "last": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20"
+    },
+    "scope": "Carry forward existing approval of unchanged exact images into the consolidated selected-edit record; no new user approval inferred."
+  },
+  {
+    "scene": "04",
+    "source_decision": "reviews/04/frames/04e914ec81c920bb1a58/decisions/20261116T044941779774Z.json",
+    "user_message": "ok can we generate the higgsfield videos now",
+    "approved_still_hashes": {
+      "first": "f2ee1c98492db252f44d3c3ed770f644fce7b81e6e7b6021f698f71543953e5a",
+      "last": "0992a807d4e40b1a0179de978fd0a3e2ca89cad128e518157d2638fa99ba79c4"
+    },
+    "scope": "Carry forward existing approval of unchanged exact images into the consolidated selected-edit record; no new user approval inferred."
+  },
+  {
+    "scene": "05",
+    "source_decision": "revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/decisions/20261116T184605160202Z.json",
+    "user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok",
+    "approved_still_hashes": {
+      "first": "b3bcfaa9a90171724e38ccafb799e6644b07f3f13615c3c6c49128ca0920d4bb",
+      "last": "e0ccf5cac57bddf95d041063102518590cf3cc31a012a000f9e566d66ad28e60"
+    },
+    "scope": "Carry forward existing approval of unchanged exact images into the consolidated selected-edit record; no new user approval inferred."
+  }
+]

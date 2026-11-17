@@ -1,0 +1,223 @@
+{
+  "packet_id": "99cd286b3633d554ff2cd41374a9ee1c833372977e03e7d07587c2f98ed22a78",
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "method": "Independent visual inspection of every chronological sequence page, approved endpoint comparison, original Mascot/Microphone and Spring paint reference, and stated native detail frames. Additional Scene01 all45 native pair-state crops inspected. Original lantern reference sampled at1fps as contextual reference. Matching cadence receipts inspected. No real-time video playback or manual audio listening claimed; source visual alignment uses actual bound storyboard/cues.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "Recognizable compact layered Sol, broad cream face, short arms and feet otherwise follow the original and approved pair. A generated open red mouth appears at frames52\u201355, contradicting the mouthless identity.",
+      "timestamps_sec": [
+        0,
+        1.733333,
+        1.833333,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/frames/frame-000053.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Both close-spaced navy ovals remain attached to the coherent cream face. The paired blink at0.4\u20130.567 returns to open ovals by0.6. Thin pale perimeter pixels are already present in approved stills/opening and read as edge treatment, not added whites, pupils or a new eye design. No independent face rotation observed.",
+      "timestamps_sec": [
+        0,
+        0.4,
+        0.6,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "Short arms, grounded feet and coherent colored layers persist, but two red pieces leave Sol: first emission begins atf22/0.733 and persists throughf45/1.5; second begins atf46/1.533 and persists throughf61/2.033. Native pair-by-pair diagnostic crops distinguish these from room decorations. They violate the explicit no-Sol-particles direction.",
+      "timestamps_sec": [
+        0.733333,
+        1,
+        1.5,
+        1.533333,
+        2,
+        2.066667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "One full-body Sol remains on the rug with a clear gap to the hearth. Tree, presents, three stockings, garland, wreath, window, chair, rug and wood basket retain their layout. Static portrait camera and usable lower floor area match the approved pair.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "The near-fire arm makes one compact direct lift while the other stays low, with feet supported and small body/tip follow-through. The action itself is readable, but the detached red tip/lobe pieces interrupt the required continuous connected silhouette.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Consecutive frames show the near-fire arm raising toward screen-right logs, then settling, without reversed motion or a new mechanical action. Fireplace flames remain rooted on the log stack. No mechanism or hand-placement sequence is required.",
+      "timestamps_sec": [
+        0.2,
+        0.6,
+        1,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "Room objects and fireplace fuel remain stable, but Sol emits two extra red floating objects during the question. These are not fireplace embers: their onset is at Sol tip/left lobe and travel is above Sol against chair/wall/tree.",
+      "timestamps_sec": [
+        0.733333,
+        1,
+        1.5,
+        1.6,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Opening arms-low and source end compact near-fire-arm-up pose match supplied endpoints, original foot positions and room geometry. The used2.333s ending is already settled and mouthless; source2.967 is also clear.",
+      "timestamps_sec": [
+        0,
+        2.3,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "All45 complete frame pairs are identical in the matching cadence receipt and visibly paired chronological evidence, at30fps/normal-speed sampling. Gesture settles within the2.333s edit after the0.08\u20131.886 Sol cue, but emissions and the1.733\u20131.833 mouth occur inside that cue and block this take. No audio playback or final composite synchronization claimed.",
+      "timestamps_sec": [
+        0.08,
+        0.733333,
+        1.733333,
+        1.833333,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/frame-index.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "Definite unintended open mouth atf52\u201355 and two Sol-emitted red particles spanningf22\u201361. No text, logo or visible Narrator. Preserve this rejected source; proposed repair must receive its own review.",
+      "timestamps_sec": [
+        0.733333,
+        1.5,
+        1.733333,
+        1.833333,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/frames/frame-000053.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native detail shows layered brush-shaped warm color on Sol and visible painted strokes/texture across stone, wood, fabric and tree, consistent with approved room stills and the Spring paint reference. Matte forms are modeled through painted light/color, with no new glossy or photographic rendering.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read actual complete storyboard and bound scene context. Only Sol asks Who actually discovered fire? at local0.08\u20131.886; no Narrator turn requires upward listening. The compact screen-right arm gesture toward logs supports the spoken question and settles before2.333. This is visual alignment to bound cues, not a claim of listening to final audio; mouth/particle failures are recorded separately.",
+      "timestamps_sec": [
+        0.08,
+        0.6,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT: Scene01 mouth atf52\u201355 and two emitted Sol particlesf22\u201361. Native diagnostic evidence and supported local repair suggestions supplied separately. Fresh review required after repair."
+}

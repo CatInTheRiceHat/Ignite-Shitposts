@@ -8,3 +8,6 @@ episodes/**/public/audio/
 
 # Completed episode delivery copies stay local.
 /completed/*.mp4
+
+# Reproducible local video inspection reports, evidence and unchanged video copies.
+/inspections/

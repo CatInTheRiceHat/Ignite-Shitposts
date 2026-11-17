@@ -1,0 +1,238 @@
+{
+  "packet_id": "8d9a00be588779a05f07df24000225a6b9dceaa03bee6e4ae1be58748e567924",
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "method": "Independent inspection of all five chronological pages, native packet details at0.733/1.0/1.5, and every complete-pair native crop fromf20\u201364. Shared inspector event059/060 and source0/24/26/44/48/50 native comparisons confirm remaining defects. Original Mascot/Microphone/Spring and lantern reference examined earlier in this same review. Read current bound script/context; no video playback/audio listening claimed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "fail",
+      "observed": "Mouth artifact is removed and original compact eyes/layers/limbs persist. However generated red emission residue remains atf24 and above the gift bow atf48\u201355, with an altered red strip across the gift edge aroundf42\u201347. This is not a fully particle-free mouthless mascot take yet.",
+      "timestamps_sec": [
+        0.8,
+        1.4,
+        1.466667,
+        1.6,
+        1.666667,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000049.jpg",
+        "evidence/frames/frame-000051.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Both close-spaced navy ovals remain attached to the coherent cream face. The paired blink at0.4\u20130.567 returns to open ovals by0.6. Thin pale perimeter pixels are already present in approved stills/opening and read as edge treatment, not added whites, pupils or a new eye design. No independent face rotation observed.",
+      "timestamps_sec": [
+        0,
+        0.4,
+        0.6,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "fail",
+      "observed": "The attached onset pairs22 and46 are replaced, and most airborne red travel is removed. Nativef24 still has tiny red specks left of Sol diagonal edge (approxx444\u2013466,y1138\u20131166). Nativef48\u201355 still retains a large red blade atx357\u2013408,y1066\u20131144 above the gift bow. Source0 shows that blade is not a decoration. Actual connected body/limbs remain otherwise intact.",
+      "timestamps_sec": [
+        0.8,
+        1.4,
+        1.466667,
+        1.6,
+        1.666667,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000049.jpg",
+        "evidence/frames/frame-000051.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "One full-body Sol remains on the rug with a clear gap to the hearth. Tree, presents, three stockings, garland, wreath, window, chair, rug and wood basket retain their layout. Static portrait camera and usable lower floor area match the approved pair.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "Grounded feet and one compact arm lift remain readable through the four complete-pair holds. However remnants of the removed emission remain outside Sol, and a red strip changes the gift ribbon beside the left lobe at1.4\u20131.567. Requires further background correction while preserving actual Sol contour.",
+      "timestamps_sec": [
+        0.8,
+        1.4,
+        1.466667,
+        1.6,
+        1.666667,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000049.jpg",
+        "evidence/frames/frame-000051.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Consecutive frames show the near-fire arm raising toward screen-right logs, then settling, without reversed motion or a new mechanical action. Fireplace flames remain rooted on the log stack. No mechanism or hand-placement sequence is required.",
+      "timestamps_sec": [
+        0.2,
+        0.6,
+        1,
+        2
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "Room framing and object counts remain stable, but the retained red blade above the gift bow at1.6\u20131.833 changes a static decoration. Wider red strip overlays the gift edge around1.4\u20131.567. These differ from clean source0 and disappear later; not legitimate stable ribbon geometry.",
+      "timestamps_sec": [
+        0.8,
+        1.4,
+        1.466667,
+        1.6,
+        1.666667,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000049.jpg",
+        "evidence/frames/frame-000051.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Opening arms-low and source end compact near-fire-arm-up pose match supplied endpoints, original foot positions and room geometry. The used2.333s ending is already settled and mouthless; source2.967 is also clear.",
+      "timestamps_sec": [
+        0,
+        2.3,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "Native decoded YUV hashes in shared inspector show90frames,45 complete pairs and no mismatches. Holds preserve normal overall3s duration and the2.333s used cut; the mouth is absent and arm gesture settles. Still fails the particle-free performance requirement due residual red specks/blade inside Sol0.08\u20131.886 voice cue. No final audio playback claim.",
+      "timestamps_sec": [
+        0.8,
+        1.4,
+        1.466667,
+        1.6,
+        1.666667,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000049.jpg",
+        "evidence/frames/frame-000051.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "Mouth is absent at52\u201355. Remaining artifacts: tiny red flecks atf24 left of actual Sol tip; large red blade above static gift bow atf48\u201355; broadened red strip beside the gift right ribbon atf42\u201347. Shared inspector flags059/060 correctly point to the blade but flags are not the basis of the semantic verdict; native comparisons establish it.",
+      "timestamps_sec": [
+        0.8,
+        1.4,
+        1.466667,
+        1.6,
+        1.666667,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/frames/frame-000025.jpg",
+        "evidence/frames/frame-000049.jpg",
+        "evidence/frames/frame-000051.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native detail shows layered brush-shaped warm color on Sol and visible painted strokes/texture across stone, wood, fabric and tree, consistent with approved room stills and the Spring paint reference. Matte forms are modeled through painted light/color, with no new glossy or photographic rendering.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000009.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read actual complete storyboard and bound scene context. Only Sol asks Who actually discovered fire? at local0.08\u20131.886; no Narrator turn requires upward listening. The compact screen-right arm gesture toward logs supports the spoken question and settles before2.333. This is visual alignment to bound cues, not a claim of listening to final audio; mouth/particle failures are recorded separately.",
+      "timestamps_sec": [
+        0.08,
+        0.6,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    }
+  },
+  "summary": "REJECT cleaned-v6: mouth and most particles are removed, but native inspection confirms residual red flecks atf24 and a large retained blade above the gift bow atf48\u201355, plus altered red strip over gift edge aroundf42\u201347. No pass is granted. Preserve candidate; fresh packet/review required after repair."
+}

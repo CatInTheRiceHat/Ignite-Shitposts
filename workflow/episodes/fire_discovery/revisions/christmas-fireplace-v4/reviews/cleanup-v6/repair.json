@@ -1,0 +1,360 @@
+{
+  "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene.mp4",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene-clean-v6.mp4",
+  "source_sha256": "f11bf3e63620fae72afc583e59fb43193f77768d3d6d6ff699360fc4117c0306",
+  "output_sha256": "9709322e24fb7f71a1c91a03c8d37fe9d4cd099c210961409eb8eef79c2fcf6c",
+  "frames": 90,
+  "duration_sec": 3,
+  "paired_holds": {
+    "22": 20,
+    "46": 44,
+    "52": 50,
+    "54": 50
+  },
+  "source_frame_mapping": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    20,
+    21,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    44,
+    45,
+    48,
+    49,
+    50,
+    51,
+    50,
+    51,
+    50,
+    51,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "background_repairs": [
+    {
+      "source_pair": 24,
+      "box": [
+        426,
+        1076,
+        470,
+        1160
+      ],
+      "background_donors": [
+        0,
+        62,
+        88,
+        64,
+        66,
+        80,
+        4,
+        8,
+        10,
+        12
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 26,
+      "box": [
+        430,
+        1040,
+        472,
+        1130
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 28,
+      "box": [
+        432,
+        1008,
+        474,
+        1094
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 30,
+      "box": [
+        432,
+        986,
+        472,
+        1068
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 32,
+      "box": [
+        430,
+        954,
+        470,
+        1028
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 34,
+      "box": [
+        430,
+        954,
+        472,
+        1028
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 36,
+      "box": [
+        426,
+        930,
+        468,
+        996
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 38,
+      "box": [
+        426,
+        896,
+        466,
+        958
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 40,
+      "box": [
+        432,
+        874,
+        470,
+        930
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 42,
+      "box": [
+        442,
+        860,
+        470,
+        892
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 44,
+      "box": [
+        442,
+        860,
+        470,
+        892
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 48,
+      "box": [
+        356,
+        1080,
+        412,
+        1144
+      ],
+      "background_donors": [
+        0,
+        62
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 50,
+      "box": [
+        364,
+        1060,
+        414,
+        1134
+      ],
+      "background_donors": [
+        0,
+        62
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 52,
+      "box": [
+        374,
+        1042,
+        418,
+        1118
+      ],
+      "background_donors": [
+        0,
+        62
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 54,
+      "box": [
+        374,
+        1040,
+        418,
+        1118
+      ],
+      "background_donors": [
+        0,
+        62
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 56,
+      "box": [
+        382,
+        1028,
+        420,
+        1094
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 58,
+      "box": [
+        386,
+        1016,
+        420,
+        1070
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 60,
+      "box": [
+        392,
+        1008,
+        420,
+        1048
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    }
+  ],
+  "decoded_output_matches_selected_and_repaired_yuv_exactly": true,
+  "pair_mismatches": [],
+  "first_and_last_source_frames_unchanged": true,
+  "method": "Local same-take static-background replacement outside protected Sol silhouette. Four complete-pair holds remove attached emission onsets and mouth. No redraw, interpolation, optical flow, speed change or audio edits.",
+  "visual_review": "pending fresh independent review"
+}

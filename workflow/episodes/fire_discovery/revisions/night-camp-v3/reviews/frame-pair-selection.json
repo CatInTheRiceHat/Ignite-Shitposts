@@ -1,0 +1,68 @@
+{
+  "status": "02 and05 approved;01 requested Christmas replacement",
+  "selected_pairs": {
+    "01": {
+      "first": "keyframes/01-first.png",
+      "last": "keyframes/01-last.png",
+      "first_sha256": "a82d47d9563639577c9c460b659442e6752b6910a12da202a8b5c3d475044222",
+      "last_sha256": "f89e431a40a1f52ba5cba08cf0b981d5648477975adedda9e279843a62a0d1c8",
+      "comparison": "reviews/01-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/01/frames/54a247c662768c50dc63/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/01/frames/54a247c662768c50dc63/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/01/frames/54a247c662768c50dc63/evidence/frame-comparison.jpg",
+        "status": "awaiting user approval of both frames"
+      },
+      "job_ids": {
+        "first": "5dd18c47-6e43-4605-ab76-dc2120dd80cb",
+        "last": "5f1c62df-6899-40a4-81b2-402862002c98"
+      },
+      "approved": false
+    },
+    "02": {
+      "first": "keyframes/02-first.png",
+      "last": "keyframes/02-last.png",
+      "first_sha256": "a94c013227d99120d77c37cd30a1f2e44acf614f24e97afe0f63cb840aefd97f",
+      "last_sha256": "3886551b7d192ee25b2c4d9023596549487290c8dfdda40061df9fbe3bfec9ca",
+      "comparison": "reviews/02-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/evidence/frame-comparison.jpg",
+        "status": "both exact stills approved by user"
+      },
+      "job_ids": {
+        "first": "c638e28a-939a-4fee-b92f-2774898ab08b",
+        "last": "bfb47309-9dae-4e21-9648-b4c23be6a315"
+      },
+      "approved": true,
+      "approval_user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok"
+    },
+    "05": {
+      "first": "keyframes/05-first.png",
+      "last": "keyframes/05-last.png",
+      "first_sha256": "b3bcfaa9a90171724e38ccafb799e6644b07f3f13615c3c6c49128ca0920d4bb",
+      "last_sha256": "e0ccf5cac57bddf95d041063102518590cf3cc31a012a000f9e566d66ad28e60",
+      "comparison": "reviews/05-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/evidence/frame-comparison.jpg",
+        "status": "both exact stills approved by user"
+      },
+      "job_ids": {
+        "first": "913589b9-71a1-4754-b6a1-0176afd54822",
+        "last": "35a62922-b25a-4a5f-be84-02ada128a0db"
+      },
+      "approved": true,
+      "approval_user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok"
+    }
+  },
+  "new_image_jobs": 6,
+  "new_successful_images": 6,
+  "new_selected_images": 4,
+  "unused_corrected_candidates": 2,
+  "retained_images": 2,
+  "new_video_jobs": 0,
+  "guideline_scope": "Specific lighting, location, action and cast choices stay in this episode feedback and storyboard."
+}

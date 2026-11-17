@@ -1,5 +1,5 @@
 {
-  "id": "fire-discovery",
+  "id": "fire-discovery-scene-refresh-v6",
   "title": "How Fire Was Discovered",
   "hook": "How Fire Was Discovered",
   "format": {
@@ -25,7 +25,7 @@
     "outlineWidth": 12,
     "leftPercent": 10,
     "rightPercent": 16,
-    "topPercent": 80
+    "topPercent": 84
   },
   "shots": [
     {
@@ -34,7 +34,7 @@
       "duration": 2.3333333333333335,
       "scene": {
         "type": "video",
-        "src": "clips/edit-v2/01-tight.mp4",
+        "src": "revisions/christmas-fireplace-v4/clips/01-scene-clean-v7.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1,
@@ -47,18 +47,10 @@
       "duration": 4.8,
       "scene": {
         "type": "video",
-        "src": "clips/edit-v3/02-clean-holds-v3.mp4",
+        "src": "revisions/night-camp-v3/clips/02-scene.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1,
-        "editorialPush": {
-          "start": 0.25,
-          "end": 2.5,
-          "fromScale": 1,
-          "toScale": 1.2,
-          "anchorXPercent": 50,
-          "anchorYPercent": 56
-        },
         "trimBefore": 0
       }
     },
@@ -102,7 +94,7 @@
       "duration": 5.2,
       "scene": {
         "type": "video",
-        "src": "clips/edit-v4/05-extended-ending.mp4",
+        "src": "revisions/night-camp-v3/clips/05-scene.mp4",
         "fit": "contain",
         "muted": true,
         "playbackRate": 1,
@@ -358,7 +350,9 @@
     }
   },
   "timing": {
-    "confirmed": false,
-    "note": "25.8-second sound correction: file starts at9.533333s; main impact at9.722333s meets lightning flash at9.733333s (11ms early, within one frame). All dialogue/music/captions/picture retained. New fireplace scene stills remain separate pending approval."
+    "confirmed": true,
+    "note": "Actual saved voice/caption cues unchanged from25.8s corrected v5; all9 audio hashes and1x rates verified. Source review gates remain mandatory. Delivery retains the exact corrected v5 AAC soundtrack; final assembled visual review remains separate.",
+    "audio_verification": "reviews/scene-refresh-v6/audio-master-checks.json",
+    "caption_review": "reviews/scene-refresh-v6/primary-assembly-review.json"
   }
 }
