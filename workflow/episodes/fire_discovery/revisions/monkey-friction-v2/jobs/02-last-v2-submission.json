@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "id": "438464fe-6a39-4bc6-9bab-93955efea217",
+      "type": "image",
+      "status": "pending",
+      "model": "nano_banana_2_1",
+      "params": {
+        "prompt": "Make one precise local edit to this painted monkey ending frame: move the small orange flame DOWN from the isolated upper tip to the X-shaped CONTACT where the two sticks cross. The base of the fire must touch BOTH pieces of wood at their crossing, approximately44% from the left and60% from the top of the whole image. Let the upper flame tongues wrap the two short protruding wood ends so both touching sticks visibly catch together. Keep the fire compact, about the width of one monkey hand, rising only a little above the existing stick ends. It must be attached to the crossed wood, with no floating flame and no flame rooted on only an isolated remote tip.\n\nPreserve everything else exactly: the same TWO full sticks, their positions and crossing, each hand gripping its same cool lower end, the surprised monkey expression, seated pose, supported feet, one tail, forest, leaf patch, stone, camera and golden afternoon lighting. Keep the monkey unhurt. Do not add any wood, hand, log or banana. Retain soft matte gouache brushwork, layered color and subtle paper texture. No text or captions.",
+        "aspect_ratio": "9:16",
+        "reference_images": [
+          "6944b42f-9307-4fca-99f6-7eb4073fb769"
+        ],
+        "resolution": "2k",
+        "thinking_level": "medium"
+      }
+    }
+  ],
+  "adjustments": {
+    "medias[0].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+    }
+  }
+}

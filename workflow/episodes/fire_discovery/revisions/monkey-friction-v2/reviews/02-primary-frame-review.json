@@ -1,0 +1,39 @@
+{
+  "scene": "02",
+  "revision": "monkey-friction-v2",
+  "approval_status": "approved by user: okay sure",
+  "video_generated": true,
+  "method": "Primary visual inspection of both720px previews, actual reference comparison to Spring and lantern artwork, and selected endpoint files. No motion review or user approval inferred.",
+  "selected_images": {
+    "first": {
+      "path": "keyframes/02-first-v2.png",
+      "sha256": "4de32def65c8c39ff24053d8e248cc7e1ad26981b28227293a54b5208c06c4e3"
+    },
+    "last": {
+      "path": "keyframes/02-last-v2.png",
+      "sha256": "bb1657fac38db89fcb1fcb6916c69eaeb43589b4e590e1ed9249eed6aec1905c"
+    }
+  },
+  "observations": [
+    "Exactly two visible working sticks, one per hand; shafts cross in front of the monkey. No banana or supporting log.",
+    "First has no visible fire or smoke. Last has small flames on both upper stick ends and a surprised reaction; grips remain below them.",
+    "Monkey identity, feet, tail, seated stone, foreground leaf patch, woodland arch and camera remain compatible across endpoints.",
+    "Warm layered matte painting matches the established storybook direction; Sol-only face constraints are not applied to this monkey.",
+    "Lower foreground remains clear for editable captions."
+  ],
+  "motion_checks_pending": [
+    "Continuous wood-on-wood rubbing and persistent two-stick count",
+    "Both grips and supported feet stable, no extra hands",
+    "Small flames arise on the rubbed upper wood before the reaction",
+    "No texture ripple or long whole-frame freeze",
+    "Exact30fps paired states and original1x Narrator alignment"
+  ],
+  "preserved_rejected_attempts": [
+    "reviews/02-first-attempt-rejected.json",
+    "reviews/02-last-attempt-rejected.json"
+  ],
+  "packet": "reviews/02/frames/7d846bcca3ac3417c2b8/packet.json",
+  "display": "Labeled first/last pair sheet, full-size files, opened in Preview.",
+  "video_job_id": "945c9d9e-dc38-4823-a61a-1b08cb21b841",
+  "video_review": "in progress"
+}

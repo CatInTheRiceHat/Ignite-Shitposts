@@ -200,17 +200,96 @@ WORKFLOW AND EPISODE REVISION NOTES
     then asked to see the frames first; displayed both as a labeled comparison
     and in the Higgsfield gallery, with full-size individual links.
 
+37. Elaine clarified the monkey revision: “how about the monkey rubs two
+    sticks and then they light up”. Replace the banana/tail-dropped glowing
+    twig action with exactly two initially unlit sticks rubbing together,
+    a little flame at their contact, and the monkey’s surprised reaction.
+    Preserve the monkey design, painted woodland and afternoon light.
+    New first/last stills are generated in revisions/monkey-friction-v2/:
+    keyframes/02-first-v2.png and02-last-v2.png. Exactly two handheld sticks;
+    both upper ends are aflame in the ending. Pair displayed/opened in Preview;
+    explicit approval of both is still needed before animation. This specific scene
+    direction stays in episode feedback and prompts, not shared art guidelines.
+
+38. Elaine approved the displayed two-stick first/last pair with “okay sure”
+    after the explicit question asking to approve BOTH for animation.
+    Recorded exact frame hashes and generated Omni Flash5s job
+   945c9d9e-dc38-4823-a61a-1b08cb21b841. The selected4.8s clip is conformed
+    to exact two-frame states at30fps. Independent review rejected the
+    first take for separated sticks and smeared moving-stick/hand edges.
+    A concrete fixed-stick/sliding-stick retry is prepared at16.25credits;
+    additional paid-generation approval requested under workflow/AGENTS.md.
+    Assemble it with the corrected continuous-motion fireplace and retain
+    the existing soundtrack, captions, lightning alignment and full ending.
+
+39. When offered the prepared paid retry or a look at the current take,
+    Elaine chose “Show me the current take”. Opened the existing monkey
+    preview in QuickTime with actual1x narration and captions, clearly
+    identified as the draft with stick-contact defects. No paid retry
+    authorized or submitted; await her viewing feedback.
+
+40. Elaine asks why the fire appears on top. The earlier approved endpoint
+    placed flames at the remote upper stick tips, and the video copied it.
+    Correct the new ending so one tiny flame starts at the actual central X
+    rubbing contact, with both free upper ends visibly brown and unlit.
+
+41. Elaine requests cartoon animation: the hands rub really fast, with
+    “a cartoon cloud showing that the arms are moving incredibly fast”.
+    New revision monkey-cartoon-cloud-v3 uses a compact cream speed cloud
+    around the hands, little painted movement strokes, then a clearing cloud
+    and a surprised reaction to the central-contact flame. The cloud is a
+    deliberate cartoon effect in this scene, not smoke before ignition.
+    Keep exactly two arms and two sticks, clear face and supported feet.
+    Fast hand performance stays within the normal1x clip; retain paired
+    animation states at30fps. The specific action stays in episode feedback
+    and prompts. Elaine later requested the reusable cartoon direction in
+    the shared guidelines (entry42); Sol's particle policy remains unchanged.
+    The old no-cloud retry was never submitted and is now superseded.
+    New first/last stills require explicit approval before animation.
+
+42. After seeing the Cloud v3 first/last proposal, Elaine said “wait this is
+    wonderful awesome” and “yeah make sure to add this to the guidelines too
+    of what i want for cartoony”. Save the reusable direction: exaggerated
+    effort and rapid motion, compact painted motion clouds and curved speed
+    strokes, then a clear reveal and expressive reaction. The effect shares
+    the scene's gouache finish, preserves anatomy/contacts and uses exact
+    two-frame states at normal1x playback. Added the rule to the shared style
+    guide, with links from the critique checklist and video prompt guide.
+    The monkey, sticks, woodland and central ignition remain episode details.
+    Initially recorded only as style acceptance. On resuming, recognized that
+    her affirmative “yeah” directly followed the displayed BOTH-frame approval
+    question. Recorded the complete actual reply as approval of that exact pair;
+    the request to save guidelines was an additional instruction.
+
+43. Elaine asks whether the video is done. Clarified that the cartoon scene
+    had only reached stills and the guideline update. Continued using her
+    affirmative reply to the BOTH-frame approval question; recorded its exact
+    words and frame hashes, then passed the canonical gate. First cloud Omni
+    job2ca98963-b371-4ea9-b195-9815d31d05b3 completed; keep it as history.
+
+44. Elaine clarifies that the cloud should be “a cartoon fighting cloud”,
+    and rejects the same cloud “appearing again and again”. Inspecting the
+    first take confirms repeated clearing/respawning. New motion: one sustained
+    compact cloud with constantly tumbling, folding, bulging, overlapping lobes
+    and changing speed strokes; clear it only once for the final reveal.
+    Keep the same approved first/last images. Also keep the contact flame tiny
+    throughout; the first take briefly grew an oversized flare. New Omni5s job
+    38021f66-556b-4e58-a775-d287b0119273 is rendering. Save reusable changing-cloud
+    motion in shared style/checklist; specific scene action remains here.
+
 IMPLEMENTATION / REVIEW STATUS
 
-Current revision: monkey-accident-v1 Scene02 pair is awaiting Elaine’s specific
-revision direction or approval after redisplay; no new02
-clip has been generated. chimney-ripple-v1 is the rejected freeze preview; chimney-ripple-v2
-contains the fresh-animation job and review outputs.
-The completed scene-refresh-v6 delivery is preserved while these changes are
-reviewed. Its earlier checks passed at delivery; Elaine subsequently flagged the
-opening ripple, now tracked in item34. See revisions/monkey-accident-v1/ and
-revisions/chimney-ripple-v1/. Earlier delivery evidence remains in
-reviews/scene-refresh-v6/delivery.json and final-output/verification.json.
+Current revision: monkey-cartoon-cloud-v3 replaces the old tip-fire pair with
+Elaine's rapid-rubbing cartoon hand cloud and fire at the actual X contact.
+The selected new frame pair has recorded approval and passed the canonical
+frame gate. First cloud motion was rejected by the user for recurring puffs.
+Revised fight-cloud job38021f66-556b-4e58-a775-d287b0119273 is rendering;
+actual review and final assembly remain pending.
+Selected files:02-first-v3.png and02-last-v3.png in that revision.
+Both displayed as a labeled pair and opened in Preview.
+The previous monkey-friction-v2 clip and unsubmitted retry remain history.
+Corrected continuous-motion01 remains selected; retained03–05 are unchanged.
+The existing completed scene-refresh-v6 MP4 is preserved while02 is revised.
 Earlier implementation history follows.
 
 The resumed-v3 cut addressed mouths, remaining Sol emission buds and faint

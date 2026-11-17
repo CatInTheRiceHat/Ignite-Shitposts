@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "prompt": "Edit the supplied woodland monkey scene into the FIRST frame of a monkey rubbing two sticks together and unexpectedly starting a little fire. Change the hands and working props to the unlit wood-rubbing setup; preserve the monkey identity, woodland layout, camera, paint and afternoon lighting.\n\nKeep the supplied woodland clearing: broad left tree trunk, arching canopy overhead, layered sage ferns and foliage, winding roots, scattered stones and ochre leaves, distant blue hills and warm golden afternoon light. The monkey sits on the same low gray stone on the left. The low fallen log remains to its front-right, now ordinary unburned wood used as support. No pre-existing fire or charred glowing twig.\n\nLocked medium-wide full-body portrait composition from the seated monkey eye height with a slight downward angle. Preserve the supplied camera and subject scale. Keep both hands, the full two working sticks, their contact point, the seated monkey, supported feet and attached tail visible. Stage the stick contact above the quiet lowest17% reserved for captions.\n\nExactly one friendly cocoa-brown storybook monkey with the same tan muzzle and belly, rounded ears, expressive dark eyes, small natural monkey mouth, ordinary compact monkey limbs and one attached long curved tail as the supplied scene. Preserve its proportions and painting. No clothes or accessories; no other characters.\n\nThe monkey leans slightly forward, absorbed in playing with exactly TWO dry wooden sticks. Its left hand grips the cool left end of one thicker nearly horizontal stick, braced on the low fallen log. Its right hand grips one thinner stick angled downward, with its lower tip pressed into a shallow rubbed groove on the upper surface of the horizontal stick. The stick-to-stick contact is clearly visible between the two hands. A tiny tuft of dry grass and fine wood fibers rests immediately beside that contact. Both sticks are ordinary brown wood, completely unlit: no ember, glow, smoke, sparks or flame anywhere. Its gaze is on the contact point, with a relaxed curious expression. Both feet remain supported and the tail curls calmly beside the stone. Remove the banana completely; the monkey holds only these two sticks.\n\nSoft matte gouache illustration with visible layered brushwork, broad readable shapes, softly painted edges, subtle paper texture and convincing overlapping depth. Paint the monkey, sticks, wood, leaves and surroundings together. Warm late-afternoon sun and cool sage shadows. No inked outlines, glossy3D surfaces, text, captions or watermark.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "637fda74-fd3a-4144-9f0e-3ab3f1be75b1"
+      }
+    ]
+  }
+}

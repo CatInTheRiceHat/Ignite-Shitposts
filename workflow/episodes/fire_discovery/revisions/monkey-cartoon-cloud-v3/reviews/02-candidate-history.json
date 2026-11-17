@@ -1,0 +1,26 @@
+{
+  "scene": "02",
+  "video_submitted": false,
+  "candidates": [
+    {
+      "file": "keyframes/02-first.png",
+      "note": "Clear compact hand cloud; superseded opening because the corrected last changed upper stick lengths."
+    },
+    {
+      "file": "keyframes/02-last.png",
+      "note": "Flame too tall and above contact; not selected."
+    },
+    {
+      "file": "keyframes/02-last-v2.png",
+      "note": "Flame still too tall; used only as input to localized correction."
+    },
+    {
+      "file": "keyframes/02-last-v3.png",
+      "note": "Selected candidate: tiny central flame below both unlit upper ends; inspected native crop."
+    },
+    {
+      "file": "keyframes/02-first-v2.png",
+      "note": "Matches corrected wood shape and removes fire, but dust effect fell below fists with oversized arcs; correction requested."
+    }
+  ]
+}

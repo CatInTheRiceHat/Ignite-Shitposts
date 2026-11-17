@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (Nano Banana 2.1 backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc  \"Make one precise small correction to this supplied picture. The existing orange flame is too tall and too high. Erase that flame and place a much smaller match flame directly on the dark X-shaped wood joint BELOW it. In this1536x2752 image, the new flame's BASE is near(690,1665) and its TIP near(690,1625). It is about40pixels tall and22pixels wide. The small flame sits on the front dark contact seam of the crossed sticks. The area of the previous flame above y1620 returns to the original green background and brown wooden shafts. Both upper wooden tips extend conspicuously HIGHER than the entire tiny new flame, and both are completely unlit. Preserve every other part: same monkey face, two hands gripping exactly two sticks, remaining cream motion-cloud puffs, tail, feet, stone, woodland, camera and painted finish. No additional flames, sparks, text or new objects.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc",
+        "type": "image",
+        "status": "pending",
+        "model": "nano_banana_2_1",
+        "params": {
+          "prompt": "Make one precise small correction to this supplied picture. The existing orange flame is too tall and too high. Erase that flame and place a much smaller match flame directly on the dark X-shaped wood joint BELOW it. In this1536x2752 image, the new flame's BASE is near(690,1665) and its TIP near(690,1625). It is about40pixels tall and22pixels wide. The small flame sits on the front dark contact seam of the crossed sticks. The area of the previous flame above y1620 returns to the original green background and brown wooden shafts. Both upper wooden tips extend conspicuously HIGHER than the entire tiny new flame, and both are completely unlit. Preserve every other part: same monkey face, two hands gripping exactly two sticks, remaining cream motion-cloud puffs, tail, feet, stone, woodland, camera and painted finish. No additional flames, sparks, text or new objects.",
+          "aspect_ratio": "9:16",
+          "reference_images": [
+            "ff8b6e99-bbca-4b10-90b0-1d40b3641633"
+          ],
+          "resolution": "2k",
+          "thinking_level": "medium"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}

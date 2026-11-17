@@ -1,0 +1,20 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "91e54062-6c52-4858-8065-00c8320ac5a4"
+      },
+      {
+        "role": "image",
+        "value": "0feae87f-69e1-4a34-9640-1153bfe6eee4"
+      }
+    ],
+    "prompt": "Use IMAGE1 as the base. Make exactly one local cartoon-effect edit. Keep IMAGE1's monkey, face, posture, TWO WOODEN STICKS AND THEIR EXACT LENGTHS, forest, lighting, tail, feet and camera unchanged. All wood remains unlit.\n\nReplace IMAGE1's sweeping yellow arcs and the small low dust puff with IMAGE2's compact fluffy cream HAND CLOUD. The new cloud must COVER BOTH VISIBLE FISTS COMPLETELY at the center of the monkey's belly, hiding the fast hands inside. It is centered on the fists, higher than the current low puff. Use the same cloud size and scalloped cream shape as IMAGE2, spanning about x30–56% and y61–70% of the portrait. Two forearms enter it; the exposed stick X and both upper stick ends remain completely visible above the cloud. A few short curved ochre strokes stay INSIDE the cloud, like IMAGE2. No giant sweeping arcs outside it, no cloud below the knees, no added hands, no fire or glow. Copy only IMAGE2's hand-cloud effect; retain IMAGE1's longer stick geometry and everything else."
+  }
+}

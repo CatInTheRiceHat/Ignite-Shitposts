@@ -1,0 +1,385 @@
+{
+  "packet_id": "263da829417840f18b6a69e970ac585231e164fe76cd98ee24d18f9b9b3a32f3",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T02:55:48.707084+00:00",
+  "method": "Read current workflow requirements, current complete script and scene cues, including the user-requested cartoon cloud clarification. Actually inspected frame comparison and all8 chronological pages; native source0/45/75/90/120/135/143; every even-state native flame/contact crop68–142; scaled approved-last flame crop; raw-tail even states138–148 and body comparisons138/140/146/148. The large approved PNG view exceeded tool output limits, so its actual scaled native-equivalent flame crop and packet comparison were inspected instead. Reference paint/identity roles remain those inspected in the continuing review; Sol is absent. This is frame-based inspection, not a claim of real-time playback or manual audio listening. Cadence metadata and automatic inspector flags are not treated as semantic proof.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Exactly one approved cocoa-brown monkey retains tan muzzle/belly, rounded ears, compact ordinary arms, supported feet and one attached curved tail. Woodland/stone seat/camera match the approved pair. Its natural eyebrows, eyes and mouth express effort then surprise; Sol is absent and his facial constraints do not apply.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        3,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent. The approved monkey has natural dark eyes with normal animal pupils/whites and expressive eyebrows; these are not Sol identity violations. Monkey face continuity is covered under reference_match and clean_footage.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "No Sol is visible. Intentional cream hand-cloud puffs and the separate wood-contact flame are not Sol-emitted particles. Monkey limbs/support and actual fuel flame are assessed in contacts_and_action and object_continuity.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Locked full-body portrait composition retains one monkey, exactly two crossed sticks, two underlying arms, stone seat and visible supported feet/single tail. Cloud is localized around the hands and torso; some passing lobes briefly overlap the lower face/eyes, but the monkey and stick count remain readable. The lower ground stays quiet for captions; no extra log, banana, prop or character appears.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        1.5,
+        2.5,
+        3,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "The exposed shafts remain crossed through rapid action and reveal; two gripping hands are coherent when visible, with no observed separation gap, multiplying hand or grip teleportation. Cloud intentionally occludes portions of the hands/contact during its bulges, so hidden geometry cannot be independently established. On reveal both hands retain the same cool lower ends. Fire appears at the central X, not at either remote tip. Feet keep support; one surprised reaction follows.",
+      "timestamps_sec": [
+        0,
+        1,
+        1.5,
+        2.4,
+        2.5,
+        3,
+        4.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Continuously active cloud and short stick/forearm changes convey rapid rubbing, then cloud breaks apart once and exposes the central contact flame. The two brown upper tips remain actual wood rather than separate burning torch tips. Flame base stays at the X throughout visible combustion. This is the approved cartoon accident, not a claim of historical or practical fire-making accuracy.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.4,
+        2.5,
+        3,
+        4.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "fail",
+      "observed": "Two sticks, two grips and the single monkey/tail remain coherent. Cloud is one sustained evolving action rather than the same whole cloud disappearing and respawning; it hollows/reforms with changing lobes and curved strokes, clears around2.4–2.9s and does not return as a full cloud. However source142/143 at4.733333–4.800s abruptly replaces the established flame with only a faint ember while endpoint cream puffs reappear. The current selected file therefore does not preserve the required visible burning result to its end.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        2.9,
+        4.666667,
+        4.733333,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "fail",
+      "observed": "Opening matches the approved effort/cloud/unlit-X state. At the current selected last pair142/143 the flame nearly disappears into a faint ember, unlike the approved visible tiny central flame. The actual raw tail later restores a tiny flame at pairs146/147 and148/149; those frames are not part of this144-frame selection. Current last-state mismatch blocks this file even though a real-footage local selection may repair it.",
+      "timestamps_sec": [
+        0,
+        4.666667,
+        4.733333,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "144 frames at30fps with identical complete pairs, longest full-frame hold2 and1x fps15-to30 conversion are documented in the cadence receipt. Actual pages show varied continuous cloud churn, changing silhouettes/swirl and rapid forearm/stick action, one clearing transition around2.4–2.9s and a readable recoil/surprise by3.0s. The small timing extension beyond the planned2.7s clearing is not by itself a blocker. Later subtle movement/flame flicker continues through the confirmed Narrator0.800–4.596s. Blocking issue: the final pair abruptly drops the visible flame to ember. The flame also grows visibly larger than the supplied small flame from about2.533s onward, repeatedly raising its crown to/above the free tip heights; this is a current script-size discrepancy, though it remains modest and rooted at the central contact rather than a huge remote-tip flare.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.4,
+        2.533333,
+        2.9,
+        3,
+        4,
+        4.5,
+        4.733333,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/script-context.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All144 states inspected via all8 pages, with native cloud/reveal/end and supplemental flame-pair crops. No added text/logo, extra person/hand/stick, body/wood melting, broad background ripple or photographic smear was observed. Cream puffs and ochre strokes are intentional approved cartoon effects. Separate wood-fire accents/smoke are not Sol particles. The final combustion discontinuity is separately rejected under ending/continuity; no audio listening is claimed.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        3,
+        4.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Approved monkey and forest retain layered matte brushwork, textured bark/ground, softly painted foliage and coherent depth. Cream lobes and ochre motion strokes use soft painted edges; these intentional cartoon symbols fit the approved pair and current style direction. Flame remains a small local illustrated effect, though larger than the supplied match-sized endpoint. No new glossy/vector character treatment appears.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        4.5
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "fail",
+      "observed": "Read the actual complete stable storyboard fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741 and bound context. Confirmed Narrator local0.800–4.596s accompanies the playful imagined rubbing/cloud/reveal; Sol is absent so no upward Sol gaze is required. Continuous changing cloud, central ignition and one reaction broadly fulfill the requested action. Current ending does not:142/143 nearly extinguishes the visible result. Actual flame crowns also repeatedly exceed the script’s below-both-tips control, although the flame remains modest and correctly contact-rooted. Distinguish that assistant-added size control from the user’s remote-tip-ignition concern; no user height approval is fabricated. No subjective audio or final assembled sync claim.",
+      "timestamps_sec": [
+        0.8,
+        1.5,
+        2.4,
+        2.5,
+        3,
+        4,
+        4.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    }
+  },
+  "source_sha256": "3bac71ab8d26f3b1a61d1dad9cc7e8b6074475cf44e0ceeac971adedd1e2f417",
+  "supplemental_evidence": [
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/02-fight-cloud-v2-independent-evidence/approved-last-fire-crop.png",
+      "sha256": "cfe88a77dafaa316f5762af4cddf83318dafe1ca5722394ca269c66e5416ad01"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/02-fight-cloud-v2-independent-evidence/flame-pairs-116-142.jpg",
+      "sha256": "4104d18ff3405cd0c0f89c0906de63e51c62a211b8e2611a47e0518bd38846a4"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/02-fight-cloud-v2-independent-evidence/flame-pairs-68-114.jpg",
+      "sha256": "c652216df7f101787f929400408b15bd0eb1c5c529724303180248f003c48a61"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/02-fight-cloud-v2-independent-evidence/raw-tail-pairs-138-148.jpg",
+      "sha256": "d2a2c1df551e4ee5c8f11107b545ab52e33733fbc2d2d7962787648224ba05c8"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/02-fight-cloud-v2-independent-evidence/tail-body-138-140-146-148.jpg",
+      "sha256": "10997250022c86c26bef7754ec9c3e6a9e020be3ddddb4459d4b290210961110"
+    }
+  ],
+  "diagnostic_frame_maps": {
+    "flame-pairs-68-114.jpg": {
+      "frames": [
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92,
+        94,
+        96,
+        98,
+        100,
+        102,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114
+      ],
+      "layout": "6 columns x4 rows, row-major, native crop x400 y970 w200 h270"
+    },
+    "flame-pairs-116-142.jpg": {
+      "frames": [
+        116,
+        118,
+        120,
+        122,
+        124,
+        126,
+        128,
+        130,
+        132,
+        134,
+        136,
+        138,
+        140,
+        142
+      ],
+      "layout": "7 columns x2 rows, row-major, same native crop"
+    },
+    "raw-tail-pairs-138-148.jpg": {
+      "frames": [
+        138,
+        140,
+        142,
+        144,
+        146,
+        148
+      ],
+      "layout": "6 columns x1 row; raw sampled fps15 then doubled to30 at1x, crop x390 y940 w220 h300"
+    },
+    "tail-body-138-140-146-148.jpg": {
+      "frames": [
+        138,
+        140,
+        146,
+        148
+      ],
+      "layout": "4 columns; same raw cadence, body crop x120 y860 w640 h700 displayed at half scale"
+    },
+    "approved-last-fire-crop.png": {
+      "method": "Approved last image scaled to source1080x1920, then crop x400 y970 w200 h270"
+    }
+  },
+  "local_edit_option": {
+    "status": "Supported by actual raw states; candidate not yet reviewed or selected.",
+    "mapping": "Retain full-cadence raw frames0–139 then146–149,144 frames/4.8s at1x; remove140–145.",
+    "reason": "Pairs142/143 and144/145 are near-extinguished ember.146/147 and148/149 restore the approved tiny contact flame. The retained pose/face/grips/feet/tail align across138→146, but the flame quickly shrinks and a few endpoint puffs return. This is a genuine whole-source-frame selection, not a freeze or generated repair. Inspect the actual encoded join before approving.",
+    "remaining_scope": "Earlier flame is larger than the approved tiny endpoint and sometimes taller than both free tips; root is at central X. Record any reasonable revised interpretation explicitly, rather than silently calling it below the tips."
+  },
+  "summary": "FAIL current144-frame selection: final pair142/143 nearly extinguishes the visible central flame. Continuous evolving cloud and coherent central rubbing/ignition are successful; no remote-tip torch ignition observed. Earlier fire is modest but larger/taller than the literal script control. Real raw tail supplies a possible complete-pair local ending repair, requiring its own fresh review. No paid generation authorization."
+}

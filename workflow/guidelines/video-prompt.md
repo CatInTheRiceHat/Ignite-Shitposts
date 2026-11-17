@@ -8,6 +8,12 @@ Carry Ignite's established painted 2D look from the approved keyframes through t
 
 Animate only the elements needed for the shot. Keep background movement restrained, maintain breathing room around the subject, and direct attention to one clear action. Use effects only when the scene brief calls for them; Sol stays particle-free under the current shared movement rule. Preserve technical geometry throughout the motion.
 
+Apply the shared [cartoon exaggeration and action effects](video-style-guide.md#cartoon-exaggeration-and-action-effects)
+when planning energetic performance. Describe the rapid action, the localized
+painted cloud or speed strokes, when the effect clears, and the visible result
+and reaction. Keep fast acting within 1x playback and exact two-frame states;
+preserve the real anatomy and prop contacts under the effect.
+
 When Sol is visible, include the essential [identity constraints](shot-integration-and-sol.md#sol-identity) and write his [performance direction](shot-integration-and-sol.md#purposeful-performance-and-prop-contact) separately. Preserve anatomy through purposeful gestures and interactions. Omit character boilerplate in a cutaway without him.
 
 ## Reusable painted art direction

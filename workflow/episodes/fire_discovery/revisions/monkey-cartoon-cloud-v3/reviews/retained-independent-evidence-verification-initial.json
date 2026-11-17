@@ -1,0 +1,162 @@
+{
+  "created_at": "2026-11-17T02:47:03.480133+00:00",
+  "scope": "Evidence-identity checkpoint only; script revision pending. No production review registration or Scene02 approval. Prior actual visual observations remain attributable to the prior reports.",
+  "scenes": [
+    {
+      "scene": "01",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/01/clip/941491581102d407aaac",
+      "packet_id": "941491581102d407aaac462676ba5d2151741090de210582dc7115ce8c612f08",
+      "prior_packet_id": "7f91e1d4545d8b300b0df4d7b3c487e82f4ee8aba2f73eaffece59835caaf2c9",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/01-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4",
+        "sha256": "f75ff9b7487b8c12402d978cdea68361504ef953f9f850b120dd829d5ee2a53a"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 89,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "scene_script_excerpt",
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "contract_sections_identical": {
+        "scene": true,
+        "policy": true,
+        "style": true,
+        "composition_rules": true
+      },
+      "reference_frame_audio_hashes_identical": {
+        "frames": true,
+        "references": true,
+        "audio_sources": true
+      },
+      "voice_cues_identical": true,
+      "script_sha256": "41215acfc0bc5662c055d6ee4ff5a86fa08857ebb74d04bacf0d2b80c286d9a5",
+      "all_prior_coverage_images_identical": true
+    },
+    {
+      "scene": "03",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/03/clip/0f949dc38f035375739d",
+      "packet_id": "0f949dc38f035375739d79cbf99930207fc90f14b76319110e7761988b78c008",
+      "prior_packet_id": "e19b09aaaa898c79e44aaeffc56cb4509a58e090bd3b887e68a6f6331dfe5893",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/03-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v4/03-lightning-with-sting-gap.mp4",
+        "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 241,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "scene_script_excerpt",
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "contract_sections_identical": {
+        "scene": true,
+        "policy": true,
+        "style": true,
+        "composition_rules": true
+      },
+      "reference_frame_audio_hashes_identical": {
+        "frames": true,
+        "references": true,
+        "audio_sources": true
+      },
+      "voice_cues_identical": true,
+      "script_sha256": "41215acfc0bc5662c055d6ee4ff5a86fa08857ebb74d04bacf0d2b80c286d9a5",
+      "all_prior_coverage_images_identical": true
+    },
+    {
+      "scene": "04",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/04/clip/d0f99712b5e6dc2979c1",
+      "packet_id": "d0f99712b5e6dc2979c13890cd92caf2d321362d0e0ae440128b733341cc6aa7",
+      "prior_packet_id": "d2f23e21d714d2f8f0926e1923bd7f6e0f04dbd9981fe06a6e54b8c34cfa4b61",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/04-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v2/04-tight.mp4",
+        "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 232,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "scene_script_excerpt",
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "contract_sections_identical": {
+        "scene": true,
+        "policy": true,
+        "style": true,
+        "composition_rules": true
+      },
+      "reference_frame_audio_hashes_identical": {
+        "frames": true,
+        "references": true,
+        "audio_sources": true
+      },
+      "voice_cues_identical": true,
+      "script_sha256": "41215acfc0bc5662c055d6ee4ff5a86fa08857ebb74d04bacf0d2b80c286d9a5",
+      "all_prior_coverage_images_identical": true
+    },
+    {
+      "scene": "05",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/05/clip/8415ac7d566e9ac37416",
+      "packet_id": "8415ac7d566e9ac37416d340ae7ac2a8e1b5d41b395de0f28bb762afd7057e4c",
+      "prior_packet_id": "2db20f5864c43f8b6537fba5de2f0849fc284b44aa7bf231ddb9cf3cdc21a5ba",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/05-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/05-scene.mp4",
+        "sha256": "cc01c367acea68e13bdaa18cc13d13e279faa6462b59718f7e89f56328f3541e"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 211,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "scene_script_excerpt",
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "contract_sections_identical": {
+        "scene": true,
+        "policy": true,
+        "style": true,
+        "composition_rules": true
+      },
+      "reference_frame_audio_hashes_identical": {
+        "frames": true,
+        "references": true,
+        "audio_sources": true
+      },
+      "voice_cues_identical": true,
+      "script_sha256": "41215acfc0bc5662c055d6ee4ff5a86fa08857ebb74d04bacf0d2b80c286d9a5",
+      "all_prior_coverage_images_identical": true
+    }
+  ]
+}

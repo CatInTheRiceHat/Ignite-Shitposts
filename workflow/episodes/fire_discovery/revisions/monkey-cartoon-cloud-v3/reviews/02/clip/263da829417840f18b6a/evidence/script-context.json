@@ -1,0 +1,104 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/script.txt",
+    "sha256": "fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741"
+  },
+  "scene_script_excerpt": "SCENE 02 — A cartoon hand cloud reveals fire at the rubbing point — edit4.800s (2.333–7.133s)\nSetting and framing: Same locked medium-wide painted woodland shot, seated monkey and two crossed sticks. Keep face, supported feet, tail, stick count and exposed X contact clear; the lower17% remains quiet for captions.\nCharacter: Preserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\nFirst frame: The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey’s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.\nAction: From the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\nLast frame: The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.\nNarrator: “We don't know. Natural fires existed long before people.”\nSpeaker cue: Existing02-01-narrator, local0.800–4.596s, unchanged1x. Sol is absent.\nStory scope: Playful cartoon accident, not an asserted historical discovery. This cartoon cloud is specifically requested for the monkey scene.\nGeneration:5s; select4.8s at1x after actual review. New first/last pair needs approval before video.\nMotion: Locked camera. Play the clip at1x with the existing1x voices. The fast hand action is deliberately exaggerated cartoon performance, not accelerated whole-clip playback. Animate all poses, cloud lobes, motion strokes, puffs, flame and light on twos at final30fps: identical consecutive pairs,15 state updates per second. Painted states stay crisp; no optical-flow interpolation, blended frames or photographic motion blur. No generated speech, music, sound effects, text or captions.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people."
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "reason": "Sol is absent; monkey looks at the stick contact and new flame.",
+    "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "02",
+  "first_frame": "The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey’s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.",
+  "action": "From the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.",
+  "last_frame": "The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.",
+  "performance_beats": [
+    {
+      "cue": "0.0–2.3s",
+      "body": "Continuously churning fight cloud, evolving lobes and speed strokes around extremely fast hands; exposed X contact stays pressed.",
+      "gaze": "Stick contact."
+    },
+    {
+      "cue": "2.3–2.7s",
+      "body": "Cloud breaks apart and clears once; tiny contact flame appears below both unlit upper tips."
+    },
+    {
+      "cue": "2.7–5.0s",
+      "body": "One surprised recoil, then settled breath/blink and tiny flame flicker."
+    }
+  ]
+}

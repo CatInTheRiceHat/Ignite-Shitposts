@@ -1,0 +1,32 @@
+{
+  "params": {
+    "model": "gemini_omni_flash_1_2",
+    "mode": "image-to-video",
+    "resolution": "1080p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "count": 1,
+    "prompt": "Begin in the supplied small cartoon speed-cloud pose. From0.0–1.9s, the monkey’s two hands rub the crossed sticks absurdly fast using very short alternating strokes. The right-hand stick is braced in its original diagonal; the other slides along its own length while both shafts stay pressed together at the exposed X. The cream dust cloud around the hands pulses, curls and gives off a few tiny puffs; short curved painted motion strokes convey rapid arms. This is the user-requested cartoon effect, with exactly two underlying arms and hands; the face, supported feet, tail, stick count and exposed wood contact remain coherent. Keep the stick upper tips unlit. Around2.1s a small warm glow appears at the X contact ABOVE the cloud. The hand cloud pops aside and thins, revealing one tiny flame rooted at that exact rubbed crossing by2.5s. The free upper tips stay brown and unlit above the flame. Stop rubbing and make one surprised recoil by3.2s. End in the supplied last pose, with the hands visible, a couple of dissipating cream puffs and the small central wood-contact flame flickering through5s. No repeated freeze, no detached fire above the wood, no arm multiplication, no separating stick gap or smeared anatomy.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.\n\nLocked camera. Play the clip at1x with the existing1x voices. The fast hand action is deliberately exaggerated cartoon performance, not accelerated whole-clip playback. Animate all poses, cloud lobes, motion strokes, puffs, flame and light on twos at final30fps: identical consecutive pairs,15 state updates per second. Painted states stay crisp; no optical-flow interpolation, blended frames or photographic motion blur. No generated speech, music, sound effects, text or captions.",
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "7ec798b1-6c7f-4e21-9db7-b92b0ad13f5d"
+      },
+      {
+        "role": "end_image",
+        "value": "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+      }
+    ]
+  },
+  "approved_frames": {
+    "first": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-first-v3.png",
+      "sha256": "617ede31026052c54f2d9d73dad5478914a915e1e29c865ae58da83536e1b2c7"
+    },
+    "last": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-last-v3.png",
+      "sha256": "5d3a5f1775bdfd7c777eeca7a4bd5e26cf1e7af9f0951f58df1a4c454e74340c"
+    }
+  },
+  "submission_performed": false
+}

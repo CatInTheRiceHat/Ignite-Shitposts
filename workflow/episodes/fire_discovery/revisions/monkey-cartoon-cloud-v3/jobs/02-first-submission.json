@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (Nano Banana 2.1 backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 0feae87f-69e1-4a34-9640-1153bfe6eee4  \"Edit the supplied unlit monkey-and-two-sticks scene into the FIRST frame of a funny fast-rubbing cartoon scene. Keep the same character, woodland, camera and crossed-stick setup.\n\nThe monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and64% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey’s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "0feae87f-69e1-4a34-9640-1153bfe6eee4",
+        "type": "image",
+        "status": "pending",
+        "model": "nano_banana_2_1",
+        "params": {
+          "prompt": "Edit the supplied unlit monkey-and-two-sticks scene into the FIRST frame of a funny fast-rubbing cartoon scene. Keep the same character, woodland, camera and crossed-stick setup.\n\nThe monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and64% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey’s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.",
+          "aspect_ratio": "9:16",
+          "reference_images": [
+            "920bf419-89b0-4906-bd2f-aff6d6d8950f"
+          ],
+          "resolution": "2k",
+          "thinking_level": "medium"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}

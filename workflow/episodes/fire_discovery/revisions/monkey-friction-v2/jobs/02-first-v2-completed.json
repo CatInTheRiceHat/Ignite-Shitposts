@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "index": 1,
+      "job_id": "920bf419-89b0-4906-bd2f-aff6d6d8950f",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_2_1",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/hf_20261117_013956_920bf419-89b0-4906-bd2f-aff6d6d8950f.png"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "completed": 1,
+    "failed": 0,
+    "active": 0,
+    "errors": 0
+  },
+  "all_terminal": true
+}

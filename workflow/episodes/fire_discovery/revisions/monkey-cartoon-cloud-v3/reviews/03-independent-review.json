@@ -1,0 +1,241 @@
+{
+  "packet_id": "b0d3196f0295442eae20edb5f367acbfbe193e9309b1edaa0c0e0f024c53718d",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T03:00:30.854314+00:00",
+  "method": "Final current-script binding after actual visual review of this unchanged retained source. Read full storyboard in the preceding revision and verified final script diff changes only Scene02 intermediate flame-height treatment. Verified this retained scene excerpt, action, dialogue, speaker attention, cue timing and performance beats identical to the prior report. Actual source bytes and all current image/reference/still/cue/audio hashes verified; every chronological page remains byte-identical to previously inspected footage. The prior targeted actual-frame reopening and established native cadence proofs remain applicable. No new visual defect or changed retained requirement is introduced. This is explicitly evidence reuse, not a fresh claim of playback; no manual audio listening or final-assembly approval.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg",
+    "evidence/sequence-11.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Character-free storm-tree cutaway matches approved endpoints: the same dead tree and dry lower branch in a cool painted landscape, no Sol or incidental characters.",
+      "timestamps_sec": [
+        0,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol is entirely off screen. No mascot eyes or anatomy require review in this landscape cutaway.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is entirely off screen. No mascot eyes or anatomy require review in this landscape cutaway.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed tree composition leaves branch contact readable; tree, terrain and cloud framing stay stable. The editorial push is outside this source; no source crop cuts the strike contact.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Tree remains unlit through2.567. One complete branching bolt appears for frames78–79 at2.600–2.633 at the dry branch region. A small flame first appears at contact in that same pair, then stays rooted after the bolt disappears at2.667. This is causal ignition at contact within two-frame resolution; no separate delayed ignition pair is claimed.",
+      "timestamps_sec": [
+        2.566667,
+        2.6,
+        2.633333,
+        2.666667,
+        3
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The full fixed bolt connects sky toward the dry lower branch as a single flash. It does not sweep, draw itself over time, reverse direction or float away. Subsequent wood fire flickers upward from the same branch.",
+      "timestamps_sec": [
+        2.6,
+        2.633333,
+        2.666667,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Tree and branch remain rigid and in the same position. Fire persists at one contact region with no second fire patch or background/prop morph; small fire flecks belong to the wood fire, with no mascot present.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Unlit opening and burning-branch ending match approved story states. Last selected frame retains the same fire and landscape; source is already the actual206-frame trimmed/extended edit selection.",
+      "timestamps_sec": [
+        0,
+        2.566667,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Quiet unlit hold supports offscreen Sol question0.080–1.837 and Narrator Yes onset2.0. One-pair bolt at2.600 is positioned at the supplied sting-impact cue. Actual flame flicker then continues through Narrator resume about3.756 and line end6.613, with selected cut6.867. Native pair hashes confirm cadence; audio impact heard timing is not independently claimed.",
+      "timestamps_sec": [
+        0.08,
+        1.837,
+        2,
+        2.6,
+        3.756,
+        6.613
+      ],
+      "evidence": [
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All206 frames inspected. No baked captions, UI, watermark, added character or sweeping bolt. No unplanned whole-image flash/pulse or morphing tree was observed. The intended bolt is confined to one unchanged pair.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        2.666667,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native3s detail shows textured painted tree bark, clouds and ground with soft layered colors; fire is integrated in the same painted treatment. No inked diagram or separately styled mechanism.",
+      "timestamps_sec": [
+        3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete cartoon fight-cloud revision storyboard and bound Scene03 context. The selected-source timing in the actual storyboard is authoritative: Sol offscreen0.080–1.837s; Narrator2.000–6.613s with the sting gap; fixed bolt/source78–79 at2.600–2.633s; fire continues through6.867s. The unchanged historical performance-beat prose still mentions the pre-trim3.8s source event, but the explicit current edited-source instructions and actual frames place it at2.6s. This source supports the spoken lightning explanation. Sol is absent; no invented upward gaze. Cue-relative visual timing is checked, not audible impact sync.",
+      "timestamps_sec": [
+        0.08,
+        1.837,
+        2,
+        2.6,
+        3.756,
+        6.613
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    }
+  },
+  "summary": "PASS unchanged retained Scene03 under final script eacc1d6cad6c2bcc1cf762f10eef5a22bbff71c13a50139522a2b9d128e8fa80. Source/evidence/context equivalence verified; no new visual blocker. New final assembly is separate.",
+  "reused_evidence": {
+    "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/history/independent-reviews-before-eacc1d6c/03-independent-review.json",
+    "prior_report_sha256": "9faf3a830368733f137987f179e4629752f67e1951606c9979078e9d76b442ef",
+    "prior_packet_id": "db99fcc53bc61e658b7b9a5512890f0c979acce7875678aebe97fd4179f47860",
+    "all_image_evidence_identical_count": 241,
+    "prior_full_page_coverage_reused": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg",
+      "evidence/sequence-05.jpg",
+      "evidence/sequence-06.jpg",
+      "evidence/sequence-07.jpg",
+      "evidence/sequence-08.jpg",
+      "evidence/sequence-09.jpg",
+      "evidence/sequence-10.jpg",
+      "evidence/sequence-11.jpg"
+    ],
+    "new_visual_reinspection_performed": false,
+    "reason": "Exact retained footage/evidence/context unchanged; final full-script delta only concerns Scene02."
+  },
+  "verification_receipt": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/retained-independent-evidence-verification-final.json",
+  "limitations": [
+    "Retained source visual review only; final assembled captions/crops/audio mix require separate review.",
+    "No manual audio listening or real-time playback claimed."
+  ]
+}

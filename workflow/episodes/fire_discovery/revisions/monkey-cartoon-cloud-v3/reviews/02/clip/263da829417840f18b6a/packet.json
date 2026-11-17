@@ -1,0 +1,758 @@
+{
+  "version": 1,
+  "packet_id": "263da829417840f18b6a69e970ac585231e164fe76cd98ee24d18f9b9b3a32f3",
+  "binding": {
+    "scene": "02",
+    "stage": "clip",
+    "contract_sha256": "a82812ef7ef7a27a81140b5c089f96e488fd0d5e2a548465f42443ae9915c574",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-first-v3.png",
+        "sha256": "617ede31026052c54f2d9d73dad5478914a915e1e29c865ae58da83536e1b2c7"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-last-v3.png",
+        "sha256": "5d3a5f1775bdfd7c777eeca7a4bd5e26cf1e7af9f0951f58df1a4c454e74340c"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/script.txt",
+      "sha256": "fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "audio_sources": {
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+        "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+      },
+      "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+        "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+        "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+      },
+      "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+        "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+        "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+      },
+      "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+        "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+        "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+      },
+      "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+        "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+        "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+      },
+      "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+        "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+        "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+      },
+      "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+        "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+        "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+      },
+      "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+        "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/clips/02-fight-cloud-v2.mp4",
+      "sha256": "3bac71ab8d26f3b1a61d1dad9cc7e8b6074475cf44e0ceeac971adedd1e2f417"
+    }
+  },
+  "created_at": "2026-11-17T02:50:14.948141+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Where Sol is visible, compare the COMPLETE original mascot at a similar size: silhouette, tip/lobes, red/orange/cream contour paths and widths, face/eye proportions and limbs. Do not pass a generic flame character. Where Sol is off-screen, compare the planned setting/props and approved frame pair without requiring him. Keep user design approval separate. Allow the latest requested small action-driven body/flame wobble; judge identity by recognizable compact design, coherent colored layers and settled endpoints, rather than requiring a rigid silhouette at every intermediate pose.",
+        "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. Intentional scripted gaze shifts may move the original ovals coherently as a pair inside the face; preserve their normal design, size and spacing. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift. No independent face slide/rotation, neck or body reshaping to fake a separate head turn.",
+        "flame_and_limbs": "Preserve the recognizable original flame design, red/orange/cream layer relationships, reference compact form and stubby limb lengths/attachment points. Allow small coordinated body/tip/lobe flex and soft follow-through tied to the main action, settling to reference endpoint proportions. Do not reject that requested bounce as a deformation by itself. Reject inflated or remodeled anatomy, independent layer slippage, uncontrolled stretching, new limbs or a different mascot. Keep feet supported unless a step/hop is scripted. Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+        "framing_and_props": "Match the active scene first/last crops, camera, required character/prop counts and physical attachments. Apply only episode-specific requirements; an earlier episode does not supply mandatory props for a new story.",
+        "contacts_and_action": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement. Verify stable prop contact and sequential placement/support/release/withdrawal where applicable.",
+        "mechanical_direction": "Inspect consecutive real frames for the planned direction, rigid connections when present, and causal order of physical events. Do not infer correct movement or causality from a prompt, label, endpoint or successful decode.",
+        "object_continuity": "Maintain the identity and count of planned objects. A tracking mark, when present, stays attached to the same object and cannot jump, multiply or fade to fake movement. Fire may flicker or fuel may glow only as the approved action requires. Anchor actual fire to its ignition/fuel contact; any animated local lighting follows the two-frame cadence without unplanned whole-scene brightness pulsing. A transient painted effect must disappear completely when the shot requires it. Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Inspect actual source-frame pairs on final 30 fps timeline: each pose/painted state unchanged for two frames, 15 pose updates per second at normal speed; longer holds use complete pairs. Apply to Sol, visible human hands, moving props, flames and animated local lighting. Background and painted surface texture stay stable. Reject interpolation, blending, optical-flow smoothing and motion blur concealing steps. Check source cadence before smooth editorial transforms, then final playback/crops. Verify planned action and ending hold against actual voice timestamps; no default Narrator face turn. Sol may be absent. Judge small bouncy body/flame follow-through as intended Sol performance under the latest user clarification. It must be connected to the action, readable on twos and settled at the approved end; a brief natural blink is permitted; unrelated eye morphs, prolonged squinting and facial sliding remain failures. During visible Narrator turns, maintain above-camera gaze and gentle listening idle throughout; that requested idle is intentional, not an unrequested sway. Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints. Reject all detached Sol sparks, flecks, droplets or flame particles under the latest particle-free direction.",
+        "painted_art_style": "Visible soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes cover Sol, props and environment consistently. Forms use light/color without inked outlines. Compare the selected graphic references. A smooth logo-like mascot with only a grain overlay fails even if its geometry is correct. Preserve the source character and clear mechanical contacts through the paint.",
+        "script_and_narrator_attention": "Read the actual complete script/storyboard and the bound per-scene dialogue/attention context, not only the video prompt. Match every spoken turn to the visible beat. Whenever Narrator speaks and Sol is visible, establish his gaze UP to the fixed above-camera voice before the first word and maintain it through the whole turn, with gentle coherent flame/body listening idle and no repeated arm gestures. Intentional paired eye-gaze adjustment is allowed while preserving the normal oval design, size, navy fill and spacing; no unmotivated feature drift or separate head. Compare actual voice cues/recordings when bound; otherwise label speech timing provisional and do not claim final synchronization. For Sol-off-screen cutaways, verify the mechanism follows the scripted explanation without inventing an invisible gaze. Evidence must include the actual script, script-context JSON and chronological/detail frames at relevant times."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes.",
+        "Character geometry and painted art style must each pass. Approval of one does not establish the other or approve the complete frame pair.",
+        "Record frame-index/timestamp evidence for exact two-frame cadence, facial anchoring and hand-prop contact. Prompt wording or 30 fps metadata alone does not prove these checks passed.",
+        "Latest user direction supersedes the earlier rigid-body/no-bounce default: allow small coherent movement-triggered Sol wobble, but preserve original eyes, stubby anatomy, settled endpoints and approved soft paint. Historical rejections retain their original contracts.",
+        "Latest user clarification: allow a brief natural blink that returns to the original open navy oval design. Model preference is Omni Flash 1.2 after the comparison. Preserve material observations, but do not apply the superseded blanket no-blink rule.",
+        "Every review must bind the actual script/storyboard and available voice-cue/audio sources. A pass requires script plus actual timeline evidence for script_and_narrator_attention; a changed script, cue file or recording invalidates prior decisions. Never infer speech timing from silent media.",
+        "User approved the displayed02/05 body-tilt still pairs and requested flowing bouncy pose transitions. Still acceptance does not prove upward attention, listening idle or dialogue timing in generated clips; inspect those with script/timeline evidence.",
+        "Latest user request scraps all Sol particles and uses gentle connected wiggle only. Earlier tiny-flick permissions are superseded; preserve historical rejected takes. Review every scene with actual script, voice cues and recorded audio hashes."
+      ],
+      "script_review_required": true
+    },
+    "scene": {
+      "id": "02",
+      "first_frame": "The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey’s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.",
+      "last_frame": "The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.",
+      "action": "From the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.",
+      "framing_prompt": "Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey’s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+      "camera": {
+        "shot_size": "Medium-wide full-body monkey and two-stick contact.",
+        "height_and_angle": "Seated monkey eye height, slightly downward.",
+        "movement": "Locked, no editorial push.",
+        "start_view": "Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey’s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+        "end_view": "Same camera, hands visible after cloud clears; tiny fire at central X below unlit upper tips."
+      },
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "We don't know. Natural fires existed long before people."
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "0.0–2.3s",
+          "body": "Continuously churning fight cloud, evolving lobes and speed strokes around extremely fast hands; exposed X contact stays pressed.",
+          "gaze": "Stick contact."
+        },
+        {
+          "cue": "2.3–2.7s",
+          "body": "Cloud breaks apart and clears once; tiny contact flame appears below both unlit upper tips."
+        },
+        {
+          "cue": "2.7–5.0s",
+          "body": "One surprised recoil, then settled breath/blink and tiny flame flicker."
+        }
+      ],
+      "sol_visible": false,
+      "image_prompts": {
+        "first": "Use IMAGE1 as the base. Make exactly one local cartoon-effect edit. Keep IMAGE1's monkey, face, posture, TWO WOODEN STICKS AND THEIR EXACT LENGTHS, forest, lighting, tail, feet and camera unchanged. All wood remains unlit.\n\nReplace IMAGE1's sweeping yellow arcs and the small low dust puff with IMAGE2's compact fluffy cream HAND CLOUD. The new cloud must COVER BOTH VISIBLE FISTS COMPLETELY at the center of the monkey's belly, hiding the fast hands inside. It is centered on the fists, higher than the current low puff. Use the same cloud size and scalloped cream shape as IMAGE2, spanning about x30–56% and y61–70% of the portrait. Two forearms enter it; the exposed stick X and both upper stick ends remain completely visible above the cloud. A few short curved ochre strokes stay INSIDE the cloud, like IMAGE2. No giant sweeping arcs outside it, no cloud below the knees, no added hands, no fire or glow. Copy only IMAGE2's hand-cloud effect; retain IMAGE1's longer stick geometry and everything else.",
+        "last": "Make one precise small correction to this supplied picture. The existing orange flame is too tall and too high. Erase that flame and place a much smaller match flame directly on the dark X-shaped wood joint BELOW it. In this1536x2752 image, the new flame's BASE is near(690,1665) and its TIP near(690,1625). It is about40pixels tall and22pixels wide. The small flame sits on the front dark contact seam of the crossed sticks. The area of the previous flame above y1620 returns to the original green background and brown wooden shafts. Both upper wooden tips extend conspicuously HIGHER than the entire tiny new flame, and both are completely unlit. Preserve every other part: same monkey face, two hands gripping exactly two sticks, remaining cream motion-cloud puffs, tail, feet, stone, woodland, camera and painted finish. No additional flames, sparks, text or new objects."
+      },
+      "video_prompt": "Animate the supplied first and last frames as one5-second painted cartoon shot. The main performance is a frantic, continuously evolving cartoon fight cloud around fast rubbing hands; this is not an actual fight and there are no additional characters.\n\nFrom the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\n\nKeep the same cocoa-brown monkey, exactly two arms and two wooden sticks, single tail, planted feet, sitting stone and woodland. Stable stick lengths and firm crossing contact; the cloud is intentional cartoon shorthand, not a way to add extra limbs or separate the sticks. Keep the camera and forest fixed. Paint all motion, clouds and fire in the same soft matte gouache finish.\n\nNormal1x playback and voices; the hand performance itself is fast. Use crisp animation on twos at final30fps,15 changing painted states per second, including every cloud lobe and speed stroke. No blended frames, photographic motion blur, camera movement, generated text, speech, music or sound effects.",
+      "start_sec": 2.3333333333333335,
+      "end_sec": 7.133333333333333,
+      "narrator_attention": {
+        "required": false,
+        "reason": "Sol is absent; monkey looks at the stick contact and new flame."
+      },
+      "timing_status": "Existing Narrator local0.800–4.596s retained at1x; future5s source/4.8s edit must be reviewed."
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "paint": "workflow/assets/reference-art/Spring.jpg",
+      "paint_examples": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "captions": "Important action stays above y=76%; lower foreground near y=80–90% stays quiet for editable captions.",
+      "character_count": "One Sol in01, one monkey and no Sol in02, no Sol in03/04, three Sols in05. Sol identity rules apply only to Sol.",
+      "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
+      "narrator_eyeline": "MANDATORY whenever Narrator speaks with Sol visible: gaze UP to the fixed voice just above camera before the first word and throughout the turn, with gentle listening idle. A short silent gaze transition may precede voice onset; final windows follow real normal-rate recordings.",
+      "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+    },
+    "script": {
+      "source": {
+        "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/script.txt",
+        "sha256": "fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741"
+      },
+      "scene_script_excerpt": "SCENE 02 — A cartoon hand cloud reveals fire at the rubbing point — edit4.800s (2.333–7.133s)\nSetting and framing: Same locked medium-wide painted woodland shot, seated monkey and two crossed sticks. Keep face, supported feet, tail, stick count and exposed X contact clear; the lower17% remains quiet for captions.\nCharacter: Preserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\nFirst frame: The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey’s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.\nAction: From the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\nLast frame: The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.\nNarrator: “We don't know. Natural fires existed long before people.”\nSpeaker cue: Existing02-01-narrator, local0.800–4.596s, unchanged1x. Sol is absent.\nStory scope: Playful cartoon accident, not an asserted historical discovery. This cartoon cloud is specifically requested for the monkey scene.\nGeneration:5s; select4.8s at1x after actual review. New first/last pair needs approval before video.\nMotion: Locked camera. Play the clip at1x with the existing1x voices. The fast hand action is deliberately exaggerated cartoon performance, not accelerated whole-clip playback. Animate all poses, cloud lobes, motion strokes, puffs, flame and light on twos at final30fps: identical consecutive pairs,15 state updates per second. Painted states stay crisp; no optical-flow interpolation, blended frames or photographic motion blur. No generated speech, music, sound effects, text or captions.\n\n",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "We don't know. Natural fires existed long before people."
+        }
+      ],
+      "narrator_attention": {
+        "required": false,
+        "reason": "Sol is absent; monkey looks at the stick contact and new flame.",
+        "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+      },
+      "timing": {
+        "source": {
+          "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+          "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+        },
+        "cues_confirmed": true,
+        "alignment_verifiable": true,
+        "basis": "confirmed cues and recordings"
+      },
+      "audio_sources": {
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+          "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+        },
+        "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+          "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+          "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+        },
+        "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+          "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+          "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+        },
+        "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+          "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+        },
+        "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+          "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+        },
+        "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+          "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+          "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+        },
+        "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+          "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+          "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+        },
+        "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+          "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+        },
+        "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+          "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+        },
+        "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+          "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+        }
+      }
+    }
+  },
+  "technical": {
+    "decode": "passed",
+    "duration_sec": 4.8,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0
+  },
+  "coverage": {
+    "source_frames": 144,
+    "all_frames_extracted": true,
+    "source_timestamps": "evidence/frame-index.json",
+    "sequence_pages": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg",
+      "evidence/sequence-05.jpg",
+      "evidence/sequence-06.jpg",
+      "evidence/sequence-07.jpg",
+      "evidence/sequence-08.jpg"
+    ],
+    "full_resolution_samples": [
+      {
+        "index": 0,
+        "time_sec": 0.0,
+        "image": "evidence/detail/frame-000001.jpg"
+      },
+      {
+        "index": 4,
+        "time_sec": 0.133333,
+        "image": "evidence/detail/frame-000002.jpg"
+      },
+      {
+        "index": 7,
+        "time_sec": 0.233333,
+        "image": "evidence/detail/frame-000003.jpg"
+      },
+      {
+        "index": 11,
+        "time_sec": 0.366667,
+        "image": "evidence/detail/frame-000004.jpg"
+      },
+      {
+        "index": 15,
+        "time_sec": 0.5,
+        "image": "evidence/detail/frame-000005.jpg"
+      },
+      {
+        "index": 22,
+        "time_sec": 0.733333,
+        "image": "evidence/detail/frame-000006.jpg"
+      },
+      {
+        "index": 30,
+        "time_sec": 1.0,
+        "image": "evidence/detail/frame-000007.jpg"
+      },
+      {
+        "index": 45,
+        "time_sec": 1.5,
+        "image": "evidence/detail/frame-000008.jpg"
+      },
+      {
+        "index": 60,
+        "time_sec": 2.0,
+        "image": "evidence/detail/frame-000009.jpg"
+      },
+      {
+        "index": 75,
+        "time_sec": 2.5,
+        "image": "evidence/detail/frame-000010.jpg"
+      },
+      {
+        "index": 90,
+        "time_sec": 3.0,
+        "image": "evidence/detail/frame-000011.jpg"
+      },
+      {
+        "index": 105,
+        "time_sec": 3.5,
+        "image": "evidence/detail/frame-000012.jpg"
+      },
+      {
+        "index": 120,
+        "time_sec": 4.0,
+        "image": "evidence/detail/frame-000013.jpg"
+      },
+      {
+        "index": 135,
+        "time_sec": 4.5,
+        "image": "evidence/detail/frame-000014.jpg"
+      },
+      {
+        "index": 143,
+        "time_sec": 4.766667,
+        "image": "evidence/detail/frame-000015.jpg"
+      }
+    ],
+    "sampling_is_not_approval": true
+  },
+  "evidence": [
+    "evidence/detail-index.json",
+    "evidence/detail/frame-000001.jpg",
+    "evidence/detail/frame-000002.jpg",
+    "evidence/detail/frame-000003.jpg",
+    "evidence/detail/frame-000004.jpg",
+    "evidence/detail/frame-000005.jpg",
+    "evidence/detail/frame-000006.jpg",
+    "evidence/detail/frame-000007.jpg",
+    "evidence/detail/frame-000008.jpg",
+    "evidence/detail/frame-000009.jpg",
+    "evidence/detail/frame-000010.jpg",
+    "evidence/detail/frame-000011.jpg",
+    "evidence/detail/frame-000012.jpg",
+    "evidence/detail/frame-000013.jpg",
+    "evidence/detail/frame-000014.jpg",
+    "evidence/detail/frame-000015.jpg",
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/frame-index.json",
+    "evidence/frames/frame-000001.jpg",
+    "evidence/frames/frame-000002.jpg",
+    "evidence/frames/frame-000003.jpg",
+    "evidence/frames/frame-000004.jpg",
+    "evidence/frames/frame-000005.jpg",
+    "evidence/frames/frame-000006.jpg",
+    "evidence/frames/frame-000007.jpg",
+    "evidence/frames/frame-000008.jpg",
+    "evidence/frames/frame-000009.jpg",
+    "evidence/frames/frame-000010.jpg",
+    "evidence/frames/frame-000011.jpg",
+    "evidence/frames/frame-000012.jpg",
+    "evidence/frames/frame-000013.jpg",
+    "evidence/frames/frame-000014.jpg",
+    "evidence/frames/frame-000015.jpg",
+    "evidence/frames/frame-000016.jpg",
+    "evidence/frames/frame-000017.jpg",
+    "evidence/frames/frame-000018.jpg",
+    "evidence/frames/frame-000019.jpg",
+    "evidence/frames/frame-000020.jpg",
+    "evidence/frames/frame-000021.jpg",
+    "evidence/frames/frame-000022.jpg",
+    "evidence/frames/frame-000023.jpg",
+    "evidence/frames/frame-000024.jpg",
+    "evidence/frames/frame-000025.jpg",
+    "evidence/frames/frame-000026.jpg",
+    "evidence/frames/frame-000027.jpg",
+    "evidence/frames/frame-000028.jpg",
+    "evidence/frames/frame-000029.jpg",
+    "evidence/frames/frame-000030.jpg",
+    "evidence/frames/frame-000031.jpg",
+    "evidence/frames/frame-000032.jpg",
+    "evidence/frames/frame-000033.jpg",
+    "evidence/frames/frame-000034.jpg",
+    "evidence/frames/frame-000035.jpg",
+    "evidence/frames/frame-000036.jpg",
+    "evidence/frames/frame-000037.jpg",
+    "evidence/frames/frame-000038.jpg",
+    "evidence/frames/frame-000039.jpg",
+    "evidence/frames/frame-000040.jpg",
+    "evidence/frames/frame-000041.jpg",
+    "evidence/frames/frame-000042.jpg",
+    "evidence/frames/frame-000043.jpg",
+    "evidence/frames/frame-000044.jpg",
+    "evidence/frames/frame-000045.jpg",
+    "evidence/frames/frame-000046.jpg",
+    "evidence/frames/frame-000047.jpg",
+    "evidence/frames/frame-000048.jpg",
+    "evidence/frames/frame-000049.jpg",
+    "evidence/frames/frame-000050.jpg",
+    "evidence/frames/frame-000051.jpg",
+    "evidence/frames/frame-000052.jpg",
+    "evidence/frames/frame-000053.jpg",
+    "evidence/frames/frame-000054.jpg",
+    "evidence/frames/frame-000055.jpg",
+    "evidence/frames/frame-000056.jpg",
+    "evidence/frames/frame-000057.jpg",
+    "evidence/frames/frame-000058.jpg",
+    "evidence/frames/frame-000059.jpg",
+    "evidence/frames/frame-000060.jpg",
+    "evidence/frames/frame-000061.jpg",
+    "evidence/frames/frame-000062.jpg",
+    "evidence/frames/frame-000063.jpg",
+    "evidence/frames/frame-000064.jpg",
+    "evidence/frames/frame-000065.jpg",
+    "evidence/frames/frame-000066.jpg",
+    "evidence/frames/frame-000067.jpg",
+    "evidence/frames/frame-000068.jpg",
+    "evidence/frames/frame-000069.jpg",
+    "evidence/frames/frame-000070.jpg",
+    "evidence/frames/frame-000071.jpg",
+    "evidence/frames/frame-000072.jpg",
+    "evidence/frames/frame-000073.jpg",
+    "evidence/frames/frame-000074.jpg",
+    "evidence/frames/frame-000075.jpg",
+    "evidence/frames/frame-000076.jpg",
+    "evidence/frames/frame-000077.jpg",
+    "evidence/frames/frame-000078.jpg",
+    "evidence/frames/frame-000079.jpg",
+    "evidence/frames/frame-000080.jpg",
+    "evidence/frames/frame-000081.jpg",
+    "evidence/frames/frame-000082.jpg",
+    "evidence/frames/frame-000083.jpg",
+    "evidence/frames/frame-000084.jpg",
+    "evidence/frames/frame-000085.jpg",
+    "evidence/frames/frame-000086.jpg",
+    "evidence/frames/frame-000087.jpg",
+    "evidence/frames/frame-000088.jpg",
+    "evidence/frames/frame-000089.jpg",
+    "evidence/frames/frame-000090.jpg",
+    "evidence/frames/frame-000091.jpg",
+    "evidence/frames/frame-000092.jpg",
+    "evidence/frames/frame-000093.jpg",
+    "evidence/frames/frame-000094.jpg",
+    "evidence/frames/frame-000095.jpg",
+    "evidence/frames/frame-000096.jpg",
+    "evidence/frames/frame-000097.jpg",
+    "evidence/frames/frame-000098.jpg",
+    "evidence/frames/frame-000099.jpg",
+    "evidence/frames/frame-000100.jpg",
+    "evidence/frames/frame-000101.jpg",
+    "evidence/frames/frame-000102.jpg",
+    "evidence/frames/frame-000103.jpg",
+    "evidence/frames/frame-000104.jpg",
+    "evidence/frames/frame-000105.jpg",
+    "evidence/frames/frame-000106.jpg",
+    "evidence/frames/frame-000107.jpg",
+    "evidence/frames/frame-000108.jpg",
+    "evidence/frames/frame-000109.jpg",
+    "evidence/frames/frame-000110.jpg",
+    "evidence/frames/frame-000111.jpg",
+    "evidence/frames/frame-000112.jpg",
+    "evidence/frames/frame-000113.jpg",
+    "evidence/frames/frame-000114.jpg",
+    "evidence/frames/frame-000115.jpg",
+    "evidence/frames/frame-000116.jpg",
+    "evidence/frames/frame-000117.jpg",
+    "evidence/frames/frame-000118.jpg",
+    "evidence/frames/frame-000119.jpg",
+    "evidence/frames/frame-000120.jpg",
+    "evidence/frames/frame-000121.jpg",
+    "evidence/frames/frame-000122.jpg",
+    "evidence/frames/frame-000123.jpg",
+    "evidence/frames/frame-000124.jpg",
+    "evidence/frames/frame-000125.jpg",
+    "evidence/frames/frame-000126.jpg",
+    "evidence/frames/frame-000127.jpg",
+    "evidence/frames/frame-000128.jpg",
+    "evidence/frames/frame-000129.jpg",
+    "evidence/frames/frame-000130.jpg",
+    "evidence/frames/frame-000131.jpg",
+    "evidence/frames/frame-000132.jpg",
+    "evidence/frames/frame-000133.jpg",
+    "evidence/frames/frame-000134.jpg",
+    "evidence/frames/frame-000135.jpg",
+    "evidence/frames/frame-000136.jpg",
+    "evidence/frames/frame-000137.jpg",
+    "evidence/frames/frame-000138.jpg",
+    "evidence/frames/frame-000139.jpg",
+    "evidence/frames/frame-000140.jpg",
+    "evidence/frames/frame-000141.jpg",
+    "evidence/frames/frame-000142.jpg",
+    "evidence/frames/frame-000143.jpg",
+    "evidence/frames/frame-000144.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg",
+    "evidence/script-context.json",
+    "evidence/script-storyboard.txt",
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/voice-cues.json"
+  ],
+  "evidence_sha256": {
+    "evidence/detail-index.json": "3658927c41606239fdb096e39270e5a77e9f7060d81a9d73c811e4bc8c061b0a",
+    "evidence/detail/frame-000001.jpg": "1174416ea9c1c90ff9646e897433692095e041a7b2c354d663d8dc301aae0bf2",
+    "evidence/detail/frame-000002.jpg": "5d6e477425545719955e95315bc8c8978148c0c6abc372995e8e880dcc3a66dd",
+    "evidence/detail/frame-000003.jpg": "84b5a31aae41280fc260e576face1602a385f99831136acbd4bfaaf6dc0e8634",
+    "evidence/detail/frame-000004.jpg": "d335bbecc1f615fa4af7273b282c3c6dabf6c7176e6d3be3a47b35e6b72d55cd",
+    "evidence/detail/frame-000005.jpg": "476ba6cd36b35abaf035cb8c3c4be47ed1a49a7f5cea809e6b836d8fcc6e61e2",
+    "evidence/detail/frame-000006.jpg": "e98e98ab0719bc1242030f3928c8e1a06df78861baf3e43a4f5d110418ee1c88",
+    "evidence/detail/frame-000007.jpg": "3ae1de82ad497ed4e401e577f876dc899cbc56f980c67790022f6182f69d9741",
+    "evidence/detail/frame-000008.jpg": "f2debd774c5f1430ac0a80a015cd1323dedba87554d65d5279fe1f297977465d",
+    "evidence/detail/frame-000009.jpg": "1a58f42416176bc612770ff0c68230eb9f0c626a32a954a95ac4ec8557fd9adb",
+    "evidence/detail/frame-000010.jpg": "7b2ce542ebaca10cc26d6b6832537bf5fca0f85631ea5f703763c5b1d99ba733",
+    "evidence/detail/frame-000011.jpg": "79272af67ceb606e1fdffc28378c4e2abb1f82f1328e64bc294e2482ed810291",
+    "evidence/detail/frame-000012.jpg": "ee4346f71d554509aed229bd1a1937ee3550f6e3c7fef9fc46e0cc1c8da1b1ba",
+    "evidence/detail/frame-000013.jpg": "e978f82c53d4cce440335ae360aec0f4b02fc8cbfe57a87e17323d7894a5c39a",
+    "evidence/detail/frame-000014.jpg": "f30402503417d1efc48e2aeca91303225504c15df0cc1ae8585d4070d0348720",
+    "evidence/detail/frame-000015.jpg": "21197e0be5ce47f41a2c0280a35615d03641f6775f9abb7fdfdfde419f226484",
+    "evidence/first.jpg": "e0ab0b32fa0006c2cb9a31e5a8e26797ab49f0a61413eab4dab3effe892c547d",
+    "evidence/frame-comparison.jpg": "b158686ebf0d3e0a5e7074531a31119e70ad7663d60e140e377112d0787f3add",
+    "evidence/frame-index.json": "e73fad57e15e2955546527d7a6fa25bea4adf2d3dd846d46892239f93253cfe3",
+    "evidence/frames/frame-000001.jpg": "f6fe8d3c745fcc899dcd12f4347247595180cf1cd0ad3762db9bc8b3a8d51878",
+    "evidence/frames/frame-000002.jpg": "f6fe8d3c745fcc899dcd12f4347247595180cf1cd0ad3762db9bc8b3a8d51878",
+    "evidence/frames/frame-000003.jpg": "fe13629e5a8062738afb82e9bb51020b10ee7e89954f69a358bc017e8b8e875d",
+    "evidence/frames/frame-000004.jpg": "fe13629e5a8062738afb82e9bb51020b10ee7e89954f69a358bc017e8b8e875d",
+    "evidence/frames/frame-000005.jpg": "2ac391f47a1e3e94f33c1dfad1ae1d01a8bdadce6fcd6e5fddfb4857c1870950",
+    "evidence/frames/frame-000006.jpg": "2ac391f47a1e3e94f33c1dfad1ae1d01a8bdadce6fcd6e5fddfb4857c1870950",
+    "evidence/frames/frame-000007.jpg": "6c955415dcf936ac97a3176677d81fb812b34f78ad59b477a42433967a1673de",
+    "evidence/frames/frame-000008.jpg": "6c955415dcf936ac97a3176677d81fb812b34f78ad59b477a42433967a1673de",
+    "evidence/frames/frame-000009.jpg": "1ccda5494ac3dcc11c8994adc0caa85059ee1f091e1fe84f9d50595f743147d5",
+    "evidence/frames/frame-000010.jpg": "1ccda5494ac3dcc11c8994adc0caa85059ee1f091e1fe84f9d50595f743147d5",
+    "evidence/frames/frame-000011.jpg": "19930df61423fd39b28d424833c5775e464cd2e80741de102517b4af79b673a8",
+    "evidence/frames/frame-000012.jpg": "19930df61423fd39b28d424833c5775e464cd2e80741de102517b4af79b673a8",
+    "evidence/frames/frame-000013.jpg": "266cabf2ecbe554d522a5f50d3657f26cd34d9f95d0aca3bae741f514cf711a5",
+    "evidence/frames/frame-000014.jpg": "266cabf2ecbe554d522a5f50d3657f26cd34d9f95d0aca3bae741f514cf711a5",
+    "evidence/frames/frame-000015.jpg": "500ede80bacc74964976c89101914d230259f7ecbebd156394f24f591d358594",
+    "evidence/frames/frame-000016.jpg": "500ede80bacc74964976c89101914d230259f7ecbebd156394f24f591d358594",
+    "evidence/frames/frame-000017.jpg": "e908543e0b6be21f5b1a7af97bd89323ed90f26d3f5dfac5c4ca4faf06478d17",
+    "evidence/frames/frame-000018.jpg": "e908543e0b6be21f5b1a7af97bd89323ed90f26d3f5dfac5c4ca4faf06478d17",
+    "evidence/frames/frame-000019.jpg": "74802a99e22c9644de2a3c7b38b85e12a7e0a0ffa5204892f7f01e9b8b894e12",
+    "evidence/frames/frame-000020.jpg": "74802a99e22c9644de2a3c7b38b85e12a7e0a0ffa5204892f7f01e9b8b894e12",
+    "evidence/frames/frame-000021.jpg": "33da60ed4885227f229cae2a8330522c5c575a810d83508405745960f385c074",
+    "evidence/frames/frame-000022.jpg": "33da60ed4885227f229cae2a8330522c5c575a810d83508405745960f385c074",
+    "evidence/frames/frame-000023.jpg": "0078709c9d20d10a22b3cfcffa75c2d2ff2537157b48282f12a66e18d8d1d01e",
+    "evidence/frames/frame-000024.jpg": "0078709c9d20d10a22b3cfcffa75c2d2ff2537157b48282f12a66e18d8d1d01e",
+    "evidence/frames/frame-000025.jpg": "400db1f2149e50e839393935b826db6faeafcd44e56f5780c00bb32cb19becc6",
+    "evidence/frames/frame-000026.jpg": "400db1f2149e50e839393935b826db6faeafcd44e56f5780c00bb32cb19becc6",
+    "evidence/frames/frame-000027.jpg": "07aff148a41a5f20a998aabe5a22f63e530b249c0c52460a57cf16d9b7fd6316",
+    "evidence/frames/frame-000028.jpg": "07aff148a41a5f20a998aabe5a22f63e530b249c0c52460a57cf16d9b7fd6316",
+    "evidence/frames/frame-000029.jpg": "827f8bb0cfad43c5fd4dc15a5655bcca924e99f9c4e41c4fc3c417e9672134aa",
+    "evidence/frames/frame-000030.jpg": "827f8bb0cfad43c5fd4dc15a5655bcca924e99f9c4e41c4fc3c417e9672134aa",
+    "evidence/frames/frame-000031.jpg": "1bb79b02a19d06c2dca2dabf08ade6c1b2ea4ede5c89900742db40f7d20d7f8a",
+    "evidence/frames/frame-000032.jpg": "1bb79b02a19d06c2dca2dabf08ade6c1b2ea4ede5c89900742db40f7d20d7f8a",
+    "evidence/frames/frame-000033.jpg": "0b36e3ecbf704e86ab2218d9298d522f2aa5177a8ad485bcb3d20c73224f10b8",
+    "evidence/frames/frame-000034.jpg": "0b36e3ecbf704e86ab2218d9298d522f2aa5177a8ad485bcb3d20c73224f10b8",
+    "evidence/frames/frame-000035.jpg": "9e44d0234e987da5ddc5af366e7f0df9fa5bed30ba2166f22200fd3c025aa9aa",
+    "evidence/frames/frame-000036.jpg": "9e44d0234e987da5ddc5af366e7f0df9fa5bed30ba2166f22200fd3c025aa9aa",
+    "evidence/frames/frame-000037.jpg": "830ed419a560d3ec6ca67a2db419f701f45c64e6eef03d9da8be5957b758f124",
+    "evidence/frames/frame-000038.jpg": "830ed419a560d3ec6ca67a2db419f701f45c64e6eef03d9da8be5957b758f124",
+    "evidence/frames/frame-000039.jpg": "58c6e78971da95c90479962b79f0b2ce034759dd0482819158810b0392867482",
+    "evidence/frames/frame-000040.jpg": "58c6e78971da95c90479962b79f0b2ce034759dd0482819158810b0392867482",
+    "evidence/frames/frame-000041.jpg": "e1f15d5558e5d089dba4310e55311648fd03843f96281554c598739e2a5e3c09",
+    "evidence/frames/frame-000042.jpg": "e1f15d5558e5d089dba4310e55311648fd03843f96281554c598739e2a5e3c09",
+    "evidence/frames/frame-000043.jpg": "06703bc02e750154c8f299ca23d1a763b1eeba591c67d7292e6db00360fe5b91",
+    "evidence/frames/frame-000044.jpg": "06703bc02e750154c8f299ca23d1a763b1eeba591c67d7292e6db00360fe5b91",
+    "evidence/frames/frame-000045.jpg": "9c74d69c21ca0af9f06db6624f47d46eecca5e97027d235227503b7956865d1b",
+    "evidence/frames/frame-000046.jpg": "9c74d69c21ca0af9f06db6624f47d46eecca5e97027d235227503b7956865d1b",
+    "evidence/frames/frame-000047.jpg": "324c8ffcfb26a1ffea13d7bd4c7653e7530eb814b1710d99ca9deeef75206a7d",
+    "evidence/frames/frame-000048.jpg": "324c8ffcfb26a1ffea13d7bd4c7653e7530eb814b1710d99ca9deeef75206a7d",
+    "evidence/frames/frame-000049.jpg": "084bf78924d3d945d60d74b3e2233bc0945d3ebc9c45c3912914512a88bbbad1",
+    "evidence/frames/frame-000050.jpg": "084bf78924d3d945d60d74b3e2233bc0945d3ebc9c45c3912914512a88bbbad1",
+    "evidence/frames/frame-000051.jpg": "d64a37066c8508a8224f5c85a45f4b0935d21f16b146daaefd0048857cffd47c",
+    "evidence/frames/frame-000052.jpg": "d64a37066c8508a8224f5c85a45f4b0935d21f16b146daaefd0048857cffd47c",
+    "evidence/frames/frame-000053.jpg": "40d0b8dd94aff36c0694c929b4a64100b76588e09685c6c88bd54f304e3681e4",
+    "evidence/frames/frame-000054.jpg": "40d0b8dd94aff36c0694c929b4a64100b76588e09685c6c88bd54f304e3681e4",
+    "evidence/frames/frame-000055.jpg": "485379388d67c6f111e3cd58b0f3348ec5f04a1ec3528f8ac216bd7ccd1b0482",
+    "evidence/frames/frame-000056.jpg": "485379388d67c6f111e3cd58b0f3348ec5f04a1ec3528f8ac216bd7ccd1b0482",
+    "evidence/frames/frame-000057.jpg": "cf82f1cc6ec40237f64654cb810cb66987b882b8165826c5427b9c9fcb9f6d51",
+    "evidence/frames/frame-000058.jpg": "cf82f1cc6ec40237f64654cb810cb66987b882b8165826c5427b9c9fcb9f6d51",
+    "evidence/frames/frame-000059.jpg": "a51a9575e5337818cc197e901e4da0a117ca8ccfb3102ee29ae7311e3f6b7131",
+    "evidence/frames/frame-000060.jpg": "a51a9575e5337818cc197e901e4da0a117ca8ccfb3102ee29ae7311e3f6b7131",
+    "evidence/frames/frame-000061.jpg": "53ae6ca195da63f9097809183a88202d7be2788228d463c13670fd87441151f8",
+    "evidence/frames/frame-000062.jpg": "53ae6ca195da63f9097809183a88202d7be2788228d463c13670fd87441151f8",
+    "evidence/frames/frame-000063.jpg": "a83ba9deeccd4daf1f5dced3acff874fcd73440039854b4c3166f0bfc4e0f767",
+    "evidence/frames/frame-000064.jpg": "a83ba9deeccd4daf1f5dced3acff874fcd73440039854b4c3166f0bfc4e0f767",
+    "evidence/frames/frame-000065.jpg": "e8615d4a09f8ade44ac86033f2e473dd934a43926a25d672fd8b1846a5ed79ba",
+    "evidence/frames/frame-000066.jpg": "e8615d4a09f8ade44ac86033f2e473dd934a43926a25d672fd8b1846a5ed79ba",
+    "evidence/frames/frame-000067.jpg": "d342ab5f773633e6e953f7e49aa88dc6c0bfd937fcfc6cb4a7489cbaee6fe9a9",
+    "evidence/frames/frame-000068.jpg": "d342ab5f773633e6e953f7e49aa88dc6c0bfd937fcfc6cb4a7489cbaee6fe9a9",
+    "evidence/frames/frame-000069.jpg": "e0c0ff98ed90a7454a11df7ca206ce5a408fb08296e9ecbd8fb7136abe278525",
+    "evidence/frames/frame-000070.jpg": "e0c0ff98ed90a7454a11df7ca206ce5a408fb08296e9ecbd8fb7136abe278525",
+    "evidence/frames/frame-000071.jpg": "bde2818fc4b0a73dfe58a5f1bd44bff65bee3a1ec1968e77d72732839535b98f",
+    "evidence/frames/frame-000072.jpg": "bde2818fc4b0a73dfe58a5f1bd44bff65bee3a1ec1968e77d72732839535b98f",
+    "evidence/frames/frame-000073.jpg": "a96548c2761030cbd8e29b6bab62434c68d067f8e40be8e16e3e39ad0f3bf20f",
+    "evidence/frames/frame-000074.jpg": "a96548c2761030cbd8e29b6bab62434c68d067f8e40be8e16e3e39ad0f3bf20f",
+    "evidence/frames/frame-000075.jpg": "2487f4ddf585f3006575f44f03495c622cb3fdfc7b656a5d5565be9fa285defc",
+    "evidence/frames/frame-000076.jpg": "2487f4ddf585f3006575f44f03495c622cb3fdfc7b656a5d5565be9fa285defc",
+    "evidence/frames/frame-000077.jpg": "d8132e3a6e10674380640df0861c9c4bd6e905cd20a87494770de8635c9ec1bb",
+    "evidence/frames/frame-000078.jpg": "d8132e3a6e10674380640df0861c9c4bd6e905cd20a87494770de8635c9ec1bb",
+    "evidence/frames/frame-000079.jpg": "5a699ad4d8faec7a3ceb82e7411ed68c992f94ad551c9249aab417ea967eb5ac",
+    "evidence/frames/frame-000080.jpg": "5a699ad4d8faec7a3ceb82e7411ed68c992f94ad551c9249aab417ea967eb5ac",
+    "evidence/frames/frame-000081.jpg": "25e7747c0637393e105a92c744b4ef6df9f6cfabe7cd6fb5bbc00598284ce794",
+    "evidence/frames/frame-000082.jpg": "25e7747c0637393e105a92c744b4ef6df9f6cfabe7cd6fb5bbc00598284ce794",
+    "evidence/frames/frame-000083.jpg": "12e535644eba2e93f253e5d131b2770a98d9ca1168dea9cb768c3f776620f87b",
+    "evidence/frames/frame-000084.jpg": "12e535644eba2e93f253e5d131b2770a98d9ca1168dea9cb768c3f776620f87b",
+    "evidence/frames/frame-000085.jpg": "31b9f7dc0f512f02f19bb319a7e0dbe1dc3c8a3d7554c35500831e535edb5d21",
+    "evidence/frames/frame-000086.jpg": "31b9f7dc0f512f02f19bb319a7e0dbe1dc3c8a3d7554c35500831e535edb5d21",
+    "evidence/frames/frame-000087.jpg": "e0ce81905773db07c02a50b9b2f897723b6bd228e116c992345de47b8a092420",
+    "evidence/frames/frame-000088.jpg": "e0ce81905773db07c02a50b9b2f897723b6bd228e116c992345de47b8a092420",
+    "evidence/frames/frame-000089.jpg": "831832100622e26b34e627bca94e1e03e3713a88395f07fec139b359dbc734ec",
+    "evidence/frames/frame-000090.jpg": "831832100622e26b34e627bca94e1e03e3713a88395f07fec139b359dbc734ec",
+    "evidence/frames/frame-000091.jpg": "8a46221f0cf5284b8db4950bcfb3f425a47f95ee88fd95b3e2fd6b78f00840cc",
+    "evidence/frames/frame-000092.jpg": "8a46221f0cf5284b8db4950bcfb3f425a47f95ee88fd95b3e2fd6b78f00840cc",
+    "evidence/frames/frame-000093.jpg": "91a48cc60b7eb88ecaad548d2d293762f88cf590df6964a8834bf6e0535243d7",
+    "evidence/frames/frame-000094.jpg": "91a48cc60b7eb88ecaad548d2d293762f88cf590df6964a8834bf6e0535243d7",
+    "evidence/frames/frame-000095.jpg": "ac09e2489c570e1d0f814029ef2e4d4ba63e3bda21e9f3ada2125278f3170c63",
+    "evidence/frames/frame-000096.jpg": "ac09e2489c570e1d0f814029ef2e4d4ba63e3bda21e9f3ada2125278f3170c63",
+    "evidence/frames/frame-000097.jpg": "1fda8e8e39da10c3cd2d090b88dc8738523ef7da56d5b250de20edd69964c168",
+    "evidence/frames/frame-000098.jpg": "1fda8e8e39da10c3cd2d090b88dc8738523ef7da56d5b250de20edd69964c168",
+    "evidence/frames/frame-000099.jpg": "ca0c455fd9d7f3dd94ea6c87db9cc1d5b8df781da963697182151bef85fec3e2",
+    "evidence/frames/frame-000100.jpg": "ca0c455fd9d7f3dd94ea6c87db9cc1d5b8df781da963697182151bef85fec3e2",
+    "evidence/frames/frame-000101.jpg": "31ad7ef73c340354553d0f1e36a9ea7e24b7ca3ee133335b90092ca241ed51e6",
+    "evidence/frames/frame-000102.jpg": "31ad7ef73c340354553d0f1e36a9ea7e24b7ca3ee133335b90092ca241ed51e6",
+    "evidence/frames/frame-000103.jpg": "e6cd2cacecf999dcba2fc569231a77b61ea46cdd2da25b6f7e9e904fee7674c2",
+    "evidence/frames/frame-000104.jpg": "e6cd2cacecf999dcba2fc569231a77b61ea46cdd2da25b6f7e9e904fee7674c2",
+    "evidence/frames/frame-000105.jpg": "e3ecc1e8e1cb3adf40a72bdfce46eb3632ccc5760debe52fc63fbc9be8680c49",
+    "evidence/frames/frame-000106.jpg": "e3ecc1e8e1cb3adf40a72bdfce46eb3632ccc5760debe52fc63fbc9be8680c49",
+    "evidence/frames/frame-000107.jpg": "f955b4f778d94fdba44db7e9d494b5a7a0490e0790eabe22e6d01ef485a79c09",
+    "evidence/frames/frame-000108.jpg": "f955b4f778d94fdba44db7e9d494b5a7a0490e0790eabe22e6d01ef485a79c09",
+    "evidence/frames/frame-000109.jpg": "f5b96948e989f80266ac4a96e27b11f06ae723a29a832ab142883916e4d5b879",
+    "evidence/frames/frame-000110.jpg": "f5b96948e989f80266ac4a96e27b11f06ae723a29a832ab142883916e4d5b879",
+    "evidence/frames/frame-000111.jpg": "2d691189c98d7735a3456d74762f553acc88a846d546ce94af2a87579ee648a7",
+    "evidence/frames/frame-000112.jpg": "2d691189c98d7735a3456d74762f553acc88a846d546ce94af2a87579ee648a7",
+    "evidence/frames/frame-000113.jpg": "7f4de745d33b2be06f122af60468feb2425df1cd956369178d4ba6c9cad8f6b1",
+    "evidence/frames/frame-000114.jpg": "7f4de745d33b2be06f122af60468feb2425df1cd956369178d4ba6c9cad8f6b1",
+    "evidence/frames/frame-000115.jpg": "912c68b87c82dd9789481e5da4af4791286ab73b0e5a52db1fc3b5f4610cfecc",
+    "evidence/frames/frame-000116.jpg": "912c68b87c82dd9789481e5da4af4791286ab73b0e5a52db1fc3b5f4610cfecc",
+    "evidence/frames/frame-000117.jpg": "aa63f2e819648d396b7aac6abbf828d878fd80947e6e08c843e8a4b9439c146e",
+    "evidence/frames/frame-000118.jpg": "aa63f2e819648d396b7aac6abbf828d878fd80947e6e08c843e8a4b9439c146e",
+    "evidence/frames/frame-000119.jpg": "ed141e32c577c3623ca29fc560cce0d4344d0bbf53e628ed5a802217119c4ca1",
+    "evidence/frames/frame-000120.jpg": "ed141e32c577c3623ca29fc560cce0d4344d0bbf53e628ed5a802217119c4ca1",
+    "evidence/frames/frame-000121.jpg": "7c89b8153249048f8af3ef2a7b07f68f257488de96ea3c706fffa2ea680ec511",
+    "evidence/frames/frame-000122.jpg": "7c89b8153249048f8af3ef2a7b07f68f257488de96ea3c706fffa2ea680ec511",
+    "evidence/frames/frame-000123.jpg": "2b1b5823928e8ae94cae42c3b7ff75fcacce323825f5e86422dfe4e32cca2407",
+    "evidence/frames/frame-000124.jpg": "2b1b5823928e8ae94cae42c3b7ff75fcacce323825f5e86422dfe4e32cca2407",
+    "evidence/frames/frame-000125.jpg": "91b1825fcc098626fd6388a73bf548783dd8e20c2ae3df2c7fdb1dc84be5bde8",
+    "evidence/frames/frame-000126.jpg": "91b1825fcc098626fd6388a73bf548783dd8e20c2ae3df2c7fdb1dc84be5bde8",
+    "evidence/frames/frame-000127.jpg": "d0e4a0b723597a6347cbbcbeff4ed0bf30d86e59fc2ebf5c4b4534401d02f735",
+    "evidence/frames/frame-000128.jpg": "d0e4a0b723597a6347cbbcbeff4ed0bf30d86e59fc2ebf5c4b4534401d02f735",
+    "evidence/frames/frame-000129.jpg": "4e1299f7ff8c988c7926352acc4fba79e11934c675177752c31683c4d75f023e",
+    "evidence/frames/frame-000130.jpg": "4e1299f7ff8c988c7926352acc4fba79e11934c675177752c31683c4d75f023e",
+    "evidence/frames/frame-000131.jpg": "52555ad34b0b8236596574e9f195ad6e520b00ca0be75d4ff3c83e035b94c6dd",
+    "evidence/frames/frame-000132.jpg": "52555ad34b0b8236596574e9f195ad6e520b00ca0be75d4ff3c83e035b94c6dd",
+    "evidence/frames/frame-000133.jpg": "ef4d0a4e0f4237b80b36cd40c73d1a02c22dbd1b3dc5aff21ed1b0f6d604b6ff",
+    "evidence/frames/frame-000134.jpg": "ef4d0a4e0f4237b80b36cd40c73d1a02c22dbd1b3dc5aff21ed1b0f6d604b6ff",
+    "evidence/frames/frame-000135.jpg": "c7ee12f559745f38f011f40a2a8a30dd45497b195c52d67c7d2c443a514a4021",
+    "evidence/frames/frame-000136.jpg": "c7ee12f559745f38f011f40a2a8a30dd45497b195c52d67c7d2c443a514a4021",
+    "evidence/frames/frame-000137.jpg": "0d7cc2bb10ab1f3d9f7edacc344524688f59df08dcc410f948540097321a0684",
+    "evidence/frames/frame-000138.jpg": "0d7cc2bb10ab1f3d9f7edacc344524688f59df08dcc410f948540097321a0684",
+    "evidence/frames/frame-000139.jpg": "fa4abaac9b885ad171c9a0cad0b468f9981c3c68e13acfff7b5669006e4de2d0",
+    "evidence/frames/frame-000140.jpg": "fa4abaac9b885ad171c9a0cad0b468f9981c3c68e13acfff7b5669006e4de2d0",
+    "evidence/frames/frame-000141.jpg": "fdd58988c795b6eb18637911ec5d6ebdf18ff03c6480a55a851fad2f124ff61a",
+    "evidence/frames/frame-000142.jpg": "fdd58988c795b6eb18637911ec5d6ebdf18ff03c6480a55a851fad2f124ff61a",
+    "evidence/frames/frame-000143.jpg": "bb51188cf55454332c907bddaa64357729b56dc7b2444e5efa16677f379f5001",
+    "evidence/frames/frame-000144.jpg": "bb51188cf55454332c907bddaa64357729b56dc7b2444e5efa16677f379f5001",
+    "evidence/last.jpg": "bade53fd045c7eef9c163e9357cdeedfb9db911d6d0fff8a91130b3789e90d40",
+    "evidence/paint.jpg": "7df5af3ac758a9a2a751be5efe5bb3c3d419cba2170c6b19bd375b2d9916e187",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432",
+    "evidence/script-context.json": "3a0f1f934e97adf32c30978fb1e6364e45166823fa1fdac219dfb1546417bb2f",
+    "evidence/script-storyboard.txt": "fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741",
+    "evidence/sequence-01.jpg": "e63660131bce4bc1c0eb6abf1618e063aa78ba7f3efc74d3e26a7080a9bf29ad",
+    "evidence/sequence-02.jpg": "5119a1b1a0de539b160c920e9a2efda606da78710338bcad6252c48633064f18",
+    "evidence/sequence-03.jpg": "f8245675ed3f0cd8a4fcac9807c6eac1b21e95fd615314c9680b1faa4ce8c735",
+    "evidence/sequence-04.jpg": "55ac4269d4cf81da0b1376899fa54dec1c93e49d0b1bc08c2a6501f07f07698f",
+    "evidence/sequence-05.jpg": "f98977166da9def8f215cb4fdb5ba1f5302216fed4c04b002e9a6cb94bb7007b",
+    "evidence/sequence-06.jpg": "d69e7cee00e5cf8ebd736c45958cac96aa87e06d90c052afcc88a9c9b9433d57",
+    "evidence/sequence-07.jpg": "da616f26f007d84fd3f5fb28ac0269d3d20b1cb232330c8ce0122ed5d0012828",
+    "evidence/sequence-08.jpg": "4741e05589e902cfe655b0419e989b410bd528a58317f96d86f48ee821dd9d02",
+    "evidence/voice-cues.json": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+  },
+  "state": "awaiting independent visual review"
+}

@@ -1,0 +1,29 @@
+{
+  "approved": true,
+  "scenes": [
+    {
+      "approved": true,
+      "scene": "01",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "03",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "04",
+      "stage": "clip",
+      "reason": "independent review passed"
+    },
+    {
+      "approved": true,
+      "scene": "05",
+      "stage": "clip",
+      "reason": "independent review passed"
+    }
+  ]
+}

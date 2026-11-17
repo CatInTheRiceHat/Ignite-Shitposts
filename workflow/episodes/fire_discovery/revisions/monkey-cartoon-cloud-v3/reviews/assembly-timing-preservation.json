@@ -1,0 +1,56 @@
+{
+  "duration_sec": 25.8,
+  "unchanged_audioTracks": true,
+  "unchanged_captions": true,
+  "unchanged_caption_style": true,
+  "unchanged_scene_durations": true,
+  "clip_playback_rates": 1,
+  "audio": [
+    {
+      "src": "audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/sound-v4/bomboclat-with-thunder.wav",
+      "sha256": "b2941aab7a92f8f11158e80a656fbba1a3de3c153cde893f2eb94d7e723e2b01",
+      "playbackRate": 1
+    },
+    {
+      "src": "audio/sound-v4/hide-and-sneak-bed.wav",
+      "sha256": "885cd683c450e3330681090276eddf077a724972824b68c143ad52bcc4243baf",
+      "playbackRate": 1
+    }
+  ],
+  "final_mux_plan": "Copy exact AAC packets from existing scene-refresh-v6 final over newly reviewed picture; verify packets and timings."
+}

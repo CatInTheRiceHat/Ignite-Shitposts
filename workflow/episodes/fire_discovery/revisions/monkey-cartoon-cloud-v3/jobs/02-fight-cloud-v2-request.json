@@ -1,0 +1,32 @@
+{
+  "params": {
+    "model": "gemini_omni_flash_1_2",
+    "mode": "image-to-video",
+    "resolution": "1080p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "count": 1,
+    "prompt": "Animate the supplied first and last frames as one5-second painted cartoon shot. The main performance is a frantic, continuously evolving cartoon fight cloud around fast rubbing hands; this is not an actual fight and there are no additional characters.\n\nFrom the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0\u20132.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3\u20132.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\n\nKeep the same cocoa-brown monkey, exactly two arms and two wooden sticks, single tail, planted feet, sitting stone and woodland. Stable stick lengths and firm crossing contact; the cloud is intentional cartoon shorthand, not a way to add extra limbs or separate the sticks. Keep the camera and forest fixed. Paint all motion, clouds and fire in the same soft matte gouache finish.\n\nNormal1x playback and voices; the hand performance itself is fast. Use crisp animation on twos at final30fps,15 changing painted states per second, including every cloud lobe and speed stroke. No blended frames, photographic motion blur, camera movement, generated text, speech, music or sound effects.",
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "7ec798b1-6c7f-4e21-9db7-b92b0ad13f5d"
+      },
+      {
+        "role": "end_image",
+        "value": "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+      }
+    ]
+  },
+  "approved_frames": {
+    "first": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-first-v3.png",
+      "sha256": "617ede31026052c54f2d9d73dad5478914a915e1e29c865ae58da83536e1b2c7"
+    },
+    "last": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-last-v3.png",
+      "sha256": "5d3a5f1775bdfd7c777eeca7a4bd5e26cf1e7af9f0951f58df1a4c454e74340c"
+    }
+  },
+  "submission_performed": false
+}

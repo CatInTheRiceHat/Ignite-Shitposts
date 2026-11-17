@@ -1,0 +1,30 @@
+[
+  {
+    "scene": "01",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/01/clip/7f91e1d4545d8b300b0d/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/01/clip/7f91e1d4545d8b300b0d/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/01/clip/7f91e1d4545d8b300b0d/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "03",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/03/clip/e19b09aaaa898c79e44a/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/03/clip/e19b09aaaa898c79e44a/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/03/clip/e19b09aaaa898c79e44a/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "04",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/04/clip/d2f23e21d714d2f8f092/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/04/clip/d2f23e21d714d2f8f092/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/04/clip/d2f23e21d714d2f8f092/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "05",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/05/clip/2db20f5864c43f8b6537/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/05/clip/2db20f5864c43f8b6537/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/05/clip/2db20f5864c43f8b6537/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  }
+]

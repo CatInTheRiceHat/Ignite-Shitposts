@@ -1,0 +1,13 @@
+{
+  "cost": {
+    "credits": 2,
+    "credits_exact": 2
+  },
+  "adjustments": {
+    "medias[0].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+    }
+  }
+}

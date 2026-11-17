@@ -1,0 +1,38 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Submitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 2ca98963-b371-4ea9-b195-9815d31d05b3  \"Begin in the supplied small cartoon speed-cloud pose. From0.0–1.9s, the monkey’s two hands rub the crossed sticks absurdly fast using very short alternating strokes. The right-hand stick is braced in its original diagonal; the other slides along its own length while both shafts stay pressed together at the exposed X. The cream dust cloud around the hands pulses, curls and gives off a few tiny puffs; short curved painted motion strokes convey rapid arms. This is the user-requested cartoon effect, with exactly two underlying arms and hands; the face, supported feet, tail, stick count and exposed wood contact remain coherent. Keep the stick upper tips unlit. Around2.1s a small warm glow appears at the X contact ABOVE the cloud. The hand cloud pops aside and thins, revealing one tiny flame rooted at that exact rubbed crossing by2.5s. The free upper tips stay brown and unlit above the flame. Stop rubbing and make one surprised recoil by3.2s. End in the supplied last pose, with the hands visible, a couple of dissipating cream puffs and the small central wood-contact flame flickering through5s. No repeated freeze, no detached fire above the wood, no arm multiplication, no separating stick gap or smeared anatomy.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.\n\nLocked camera. Play the clip at1x with the existing1x voices. The fast hand action is deliberately exaggerated cartoon performance, not accelerated whole-clip playback. Animate all poses, cloud lobes, motion strokes, puffs, flame and light on twos at final30fps: identical consecutive pairs,15 state updates per second. Painted states stay crisp; no optical-flow interpolation, blended frames or photographic motion blur. No generated speech, music, sound effects, text or captions.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "2ca98963-b371-4ea9-b195-9815d31d05b3",
+        "type": "video",
+        "status": "pending",
+        "model": "gemini_omni_flash_1_2",
+        "params": {
+          "prompt": "Begin in the supplied small cartoon speed-cloud pose. From0.0–1.9s, the monkey’s two hands rub the crossed sticks absurdly fast using very short alternating strokes. The right-hand stick is braced in its original diagonal; the other slides along its own length while both shafts stay pressed together at the exposed X. The cream dust cloud around the hands pulses, curls and gives off a few tiny puffs; short curved painted motion strokes convey rapid arms. This is the user-requested cartoon effect, with exactly two underlying arms and hands; the face, supported feet, tail, stick count and exposed wood contact remain coherent. Keep the stick upper tips unlit. Around2.1s a small warm glow appears at the X contact ABOVE the cloud. The hand cloud pops aside and thins, revealing one tiny flame rooted at that exact rubbed crossing by2.5s. The free upper tips stay brown and unlit above the flame. Stop rubbing and make one surprised recoil by3.2s. End in the supplied last pose, with the hands visible, a couple of dissipating cream puffs and the small central wood-contact flame flickering through5s. No repeated freeze, no detached fire above the wood, no arm multiplication, no separating stick gap or smeared anatomy.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.\n\nLocked camera. Play the clip at1x with the existing1x voices. The fast hand action is deliberately exaggerated cartoon performance, not accelerated whole-clip playback. Animate all poses, cloud lobes, motion strokes, puffs, flame and light on twos at final30fps: identical consecutive pairs,15 state updates per second. Painted states stay crisp; no optical-flow interpolation, blended frames or photographic motion blur. No generated speech, music, sound effects, text or captions.",
+          "aspect_ratio": "9:16",
+          "duration": 5,
+          "reference_images": [
+            "7ec798b1-6c7f-4e21-9db7-b92b0ad13f5d",
+            "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+          ],
+          "mode": "image-to-video",
+          "resolution": "1080p"
+        }
+      }
+    ]
+  },
+  "isError": false
+}

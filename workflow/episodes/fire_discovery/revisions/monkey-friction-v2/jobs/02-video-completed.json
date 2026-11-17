@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "index": 2,
+      "job_id": "945c9d9e-dc38-4823-a61a-1b08cb21b841",
+      "status": "completed",
+      "type": "video",
+      "model": "gemini_omni_flash_1_2",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/hf_20261117_014652_945c9d9e-dc38-4823-a61a-1b08cb21b841.mp4"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "completed": 1,
+    "failed": 0,
+    "active": 0,
+    "errors": 0
+  },
+  "all_terminal": true
+}

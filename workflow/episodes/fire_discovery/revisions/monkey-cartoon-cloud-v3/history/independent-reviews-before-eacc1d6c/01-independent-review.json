@@ -1,0 +1,281 @@
+{
+  "packet_id": "1f84e39ec6cc3327bdfb9d4416834c21f12b86f9798e5935237dbf3fab0f207c",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T02:49:08.519523+00:00",
+  "method": "Read the complete stable current script fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741 and actual per-scene speaker/action context. Verified retained scene excerpt, dialogue, attention, timing, first/action/last and performance beats unchanged from the prior actual-footage review; verified source bytes, all current image evidence and actual reference/still/audio/cue hashes. Every chronological page was actually inspected in that prior continuing review and all images are byte-identical here, so those observations are reused explicitly. Reopened the targeted current page listed below during this revision check. Current script update only changes Scene02 cloud action. Current shared cartoon-effects guidance does not change the retained shot contracts. No pass is inferred from a prompt/probe alone; no real-time playback, manual audio listening or new assembled-output approval is claimed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Compared the complete original mascot, accepted Christmas still pair and unchanged identity examples with actual selected states. Broad cream face, red/orange layer widths and lobes, low navy ovals, rounded short arms and stubby feet remain recognizable through the small gesture. The ending retains the approved near-fire raised arm, fixed room and compact proportions; no generic replacement mascot or independent face turn.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1,
+        2.3
+      ],
+      "evidence": [
+        "evidence/reference.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Normal navy oval eyes remain anchored as a pair. Closing and reopening occupy selected frames16–25 (.533–.867s); fully closed frames18–23 last .200s. Both original open ovals return at26 and remain through69. No sustained closed-eye dwell, added pupil/white/highlight, wink or sliding facial marking. The fuzzy raw-source86/87 pair is absent from this exact selection.",
+      "timestamps_sec": [
+        0.5,
+        0.533333,
+        0.6,
+        0.666667,
+        0.733333,
+        0.8,
+        0.866667,
+        1,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "Inspected every retained native pair state using the raw native crops plus independently verified exact source-to-selected hashes. Filled red/orange/cream layers flex coherently with the small action and settle; no repeating traveling layer wave, torn contour, detached Sol particle, split body, new limb or lengthened arm. Both short feet keep support. Small attached tip follow-through remains, as requested; it is not a frozen character replacement.",
+      "timestamps_sec": [
+        0,
+        0.6,
+        0.666667,
+        0.733333,
+        1,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed Christmas-room medium-wide framing matches the approved pair. Exactly one full-body Sol remains in front of the hearth; tree, gifts, snowy window, chair/throw, wreath, three stockings, stacked logs, rug and wood basket keep their positions and identities. No camera jump at selected19-to20 or loss of feet/arm. Lower caption area remains usable; actual rendered preview samples confirm the two-line caption clears the feet and frame edges.",
+      "timestamps_sec": [
+        0,
+        0.6,
+        0.666667,
+        1,
+        2.3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Both feet remain supported while the near-fire arm rises once. The retained source18/19-to30/31 transition (selected18/19-to20/21) joins two low-arm, closed-eye poses with close body/face/foot alignment, retaining real arm onset in subsequent selected22–28. There is no hop, detached lobe, unmotivated second gesture or arm snap. Hearth flame stays over the same fixed logs.",
+      "timestamps_sec": [
+        0.533333,
+        0.6,
+        0.666667,
+        0.733333,
+        0.8,
+        0.866667,
+        0.933333,
+        1,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The visible near-fire arm moves outward/up toward the hearth in one direct questioning arc, then settles. The selected19-to20 cut removes only the extended closed-eye dwell and retains the natural arm onset; no reversed gesture, teleporting prop or camera discontinuity. This shot contains no mechanical explanation requiring a separate mechanism direction check.",
+      "timestamps_sec": [
+        0.6,
+        0.666667,
+        0.733333,
+        0.8,
+        0.866667,
+        1,
+        1.5
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/sequence-03.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "One Sol and the Christmas props persist through every page. Wood flame tips change locally throughout the selected2.333s, including after Sol settles; logs/fire contact remain fixed. The editorial cut changes the upper flame shape without moving the fuel or causing a broad lighting/camera jump. No Sol-emitted flecks, sparks or droplets appear. No sustained whole-scene freeze remains.",
+      "timestamps_sec": [
+        0,
+        0.6,
+        0.666667,
+        1,
+        1.5,
+        2,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Actual first state has both arms low and the original eye/face design in the approved Christmas setting. Selected last state (source79) has the short near-fire arm raised, other arm low, open navy ovals, compact connected flame layers and supported feet. It matches the required approved ending pose and scene arrangement; this is an editorial trim to that established state, not a claim that source79 is pixel-identical to the supplied final still.",
+      "timestamps_sec": [
+        0,
+        2.3
+      ],
+      "evidence": [
+        "evidence/first.jpg",
+        "evidence/last.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Independent native FFmpeg frame hashes verified70 frames, every selected frame exactly matching source0–19 then30–79, all35 pairs identical, and longest complete-frame repeat2. No interpolation, blending, speed change or frozen tail. Actual sequence shows brief paired blink at16–25 and one compact arm lift completing around1.0s, followed by small connected settling and continuing hearth flicker through2.333s. Existing Sol cue .080–1.886s fits the gesture and settled question pose at1x. This verifies visual timing against bound cues, not audible sync/listening quality.",
+      "timestamps_sec": [
+        0.08,
+        0.533333,
+        0.6,
+        0.666667,
+        0.866667,
+        1,
+        1.5,
+        1.886,
+        2.3
+      ],
+      "evidence": [
+        "evidence/frame-index.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/voice-cues.json",
+        "evidence/script-context.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All selected states were inspected chronologically and at native character scale. No mouth, detached Sol particle, residual emission strip, extra character, generated caption/logo, mangled contour or broad room distortion appears in this70-frame clip. It excludes source86/87 rendering smudging. Actual captioned preview samples add only the intended clear caption and retain the clean picture. The conformed visual source has no provider audio; no subjective audio listening claim is made.",
+      "timestamps_sec": [
+        0,
+        0.6,
+        0.666667,
+        0.733333,
+        1,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Compared with the unchanged Spring paint reference and accepted Christmas pair, including prior native reference inspection in this continuing review. Native selected frames retain soft layered paint on Sol, textured red/orange/cream color transitions, brushworked stone/wood/textiles/foliage and a consistent illustrated environment. Character edges are colored painted forms rather than inked contours; the finish is not merely a flat logo with grain. The original clean paint survives the trim unchanged.",
+      "timestamps_sec": [
+        0,
+        0.733333,
+        1,
+        2.3
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete cartoon fight-cloud revision storyboard and this retained Scene01 context. Sol alone asks Who actually discovered fire? at confirmed local0.080–1.886s, unchanged1x. The exact70-frame selection retains one compact questioning arm raise, a brief paired blink, coherent settled layers, supported feet and continuing hearth flicker through2.333s. No Narrator speaks here, so no upward gaze requirement applies. The current source mapping remains original0–19+30–79; no frozen repair is selected. This review does not approve either Scene02 cloud take or claim audio listening.",
+      "timestamps_sec": [
+        0.08,
+        0.6,
+        0.666667,
+        0.866667,
+        1,
+        1.5,
+        1.886,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    }
+  },
+  "summary": "PASS for unchanged retained Scene01 under the current stable storyboard. Existing actual-frame observations and cadence evidence remain valid after verified asset/context identity. Scene02 and the new assembled output require their own actual-media review.",
+  "reused_evidence": {
+    "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/01-independent-review.json",
+    "prior_report_sha256": "72f519eb9e02eb5d4d815c2ab713c714bb2255f7bc3e6868ddf76c8bc557168b",
+    "prior_packet_id": "7f91e1d4545d8b300b0df4d7b3c487e82f4ee8aba2f73eaffece59835caaf2c9",
+    "all_image_evidence_identical_count": 89,
+    "prior_full_page_coverage_reused": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg"
+    ],
+    "targeted_pages_reopened_this_revision": [
+      "evidence/sequence-02.jpg"
+    ],
+    "initial_reviewed_packet": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/01/clip/941491581102d407aaac/packet.json"
+  },
+  "verification_receipt": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/retained-independent-evidence-verification.json",
+  "limitations": [
+    "Source-level visual/cue compatibility only; new final crops, captions and audio mix are not approved by this retained-source report.",
+    "No manual audio listening or real-time playback claimed.",
+    "Scene02 first cloud take is user-rejected; its replacement has not been reviewed by this report."
+  ]
+}

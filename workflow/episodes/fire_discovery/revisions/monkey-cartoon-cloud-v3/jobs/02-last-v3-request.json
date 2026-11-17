@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "ff8b6e99-bbca-4b10-90b0-1d40b3641633"
+      }
+    ],
+    "prompt": "Make one precise small correction to this supplied picture. The existing orange flame is too tall and too high. Erase that flame and place a much smaller match flame directly on the dark X-shaped wood joint BELOW it. In this1536x2752 image, the new flame's BASE is near(690,1665) and its TIP near(690,1625). It is about40pixels tall and22pixels wide. The small flame sits on the front dark contact seam of the crossed sticks. The area of the previous flame above y1620 returns to the original green background and brown wooden shafts. Both upper wooden tips extend conspicuously HIGHER than the entire tiny new flame, and both are completely unlit. Preserve every other part: same monkey face, two hands gripping exactly two sticks, remaining cream motion-cloud puffs, tail, feet, stone, woodland, camera and painted finish. No additional flames, sparks, text or new objects."
+  }
+}

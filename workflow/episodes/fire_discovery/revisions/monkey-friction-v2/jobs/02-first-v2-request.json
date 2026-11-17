@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "prompt": "Edit the supplied monkey-in-the-woods picture into a simple first frame of the monkey rubbing TWO sticks together. Preserve its character design, woodland, camera and painted lighting.\n\nKeep the supplied woodland clearing, broad left tree trunk, arching leafy canopy, sage ferns, winding roots, distant blue hills and golden afternoon light. Keep the same monkey seated on the same gray stone on the left. The ground immediately in front of the monkey is clear earth with a few flat leaves; remove the old fallen log and all loose background sticks from this foreground action area.\n\nKeep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.\n\nExactly one friendly cocoa-brown storybook monkey with the same tan muzzle and belly, rounded ears, expressive dark eyes, small natural monkey mouth, ordinary compact monkey limbs and one attached long curved tail as the supplied scene. Preserve its proportions and painting. No clothes or accessories; no other characters.\n\nThe monkey looks down with quiet curiosity and holds exactly TWO SHORT WOODEN STICKS: one stick in its left hand and one in its right hand. Both are held above the ground. The left-hand stick points diagonally down-right; the right-hand stick points diagonally up-left so their exposed wood tips cross and TOUCH in front of the monkey. Both gripping hands are separated, below the crossing, leaving the wood-to-wood contact unobstructed. Include only these two plain brown sticks, each with a simple readable shaft and a few pale frayed wood fibers at the touching point. Neither stick is supported by another piece of wood. The sticks are entirely unlit: no ember, glow, smoke, sparks or flame. The monkey\u2019s face, ears, body, feet and single curved tail match the reference. No banana, no log, no third stick, no bow/drill/fireboard apparatus, no extra hand.\n\nSoft matte gouache illustration, layered brushwork, broad readable shapes, gently softened painted edges and subtle paper texture. Preserve the reference monkey and woodland paint, warm afternoon sun and cool sage shadows. No outlines, glossy3D rendering, text, captions or watermark.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "637fda74-fd3a-4144-9f0e-3ab3f1be75b1"
+      }
+    ]
+  }
+}

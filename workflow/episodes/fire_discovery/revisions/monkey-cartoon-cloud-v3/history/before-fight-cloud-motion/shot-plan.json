@@ -1,0 +1,921 @@
+{
+  "episode": "fire_discovery_monkey_cartoon_cloud_v3",
+  "title": "How Fire Was Discovered",
+  "status": "Scene02 exact frames approved; first cartoon-cloud Omni animation submitted, awaiting actual review.",
+  "target_duration_sec": 30,
+  "estimated_duration_sec": 25.8,
+  "spoken_word_count": 54,
+  "timing_status": "Existing normal-rate voice tracks and25.8s soundtrack retained as timing targets. New02 animation and full assembly timing pending.",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "aspect_ratio": "9:16"
+  },
+  "speakers": {
+    "Sol": {
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice": "Sol",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1
+    },
+    "Narrator": {
+      "provider": "Higgsfield",
+      "voice": "Arthur",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+    }
+  },
+  "voice_config": "workflow/config/voices.json",
+  "prompt_document": "higgsfield-prompts.txt",
+  "prompt_counts": {
+    "image": 10,
+    "video": 5
+  },
+  "character_identity_rule": "Match the original Sol artwork: recognizable compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream layer relationships, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both original eye ovals uniformly navy #1C2447, with the normal open-eye design unchanged in shape, size, low placement and close spacing, without highlights, whites, extra pupils or drift. A brief natural blink is allowed, returning promptly to the original open ovals. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Keep the face attached to the body with no separate head or neck. Scripted gaze shifts may move the original ovals coherently as a pair within the face while preserving their normal shape, size and spacing. Settled endpoints retain the reference body form; small coordinated bouncy flame-like flex during the action preserves his recognizable design. Actual wood fire remains separate.",
+  "painted_art_direction": "Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.",
+  "art_direction_reference": {
+    "still": "workflow/assets/reference-art/Mascot.png",
+    "identity_examples": [
+      "workflow/assets/reference-art/Microphone.png"
+    ],
+    "paint": "workflow/assets/reference-art/Spring.jpg",
+    "paint_examples": [
+      "workflow/assets/reference-art/Spring.jpg",
+      "workflow/assets/reference-art/Practical Learning.jpg",
+      "workflow/assets/reference-art/Thank You.jpg"
+    ],
+    "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+    "frame_pair_approved": false
+  },
+  "composition_rules": {
+    "captions": "Important action stays above y=76%; lower foreground near y=80\u201390% stays quiet for editable captions.",
+    "character_count": "One Sol in01, one monkey and no Sol in02, no Sol in03/04, three Sols in05. Sol identity rules apply only to Sol.",
+    "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
+    "narrator_eyeline": "MANDATORY whenever Narrator speaks with Sol visible: gaze UP to the fixed voice just above camera before the first word and throughout the turn, with gentle listening idle. A short silent gaze transition may precede voice onset; final windows follow real normal-rate recordings.",
+    "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+  },
+  "historical_scope": "Replace repeated clips in this video by generating new scenes from first/last stills; specific scene choices do not belong in shared art-style guidelines.",
+  "production_notes": [
+    "Scene02 is the new user-requested cartoon hand-cloud and central-contact flame; its replacement pair is unapproved.",
+    "Scene01 retains the reviewed continuous-motion chimney-ripple-v2 selection; Scenes03\u201305 retain existing media.",
+    "Historical approvals for unchanged retained stills remain valid with hash proof. Previous Scene02 approval does not apply to this new pair.",
+    "Discard generated native audio. Preserve all existing1x speech, captions, aligned bomboclat/music and complete Right release.",
+    "Exact paired source cadence at30fps; retained03 editorial push remains separate.",
+    "No video submission until explicit approval of both new actual02 images and the canonical frame gate."
+  ],
+  "sources": [
+    {
+      "id": "pab",
+      "title": "Fire 400 ka \u2014 Pathways to Ancient Britain",
+      "url": "https://www.pabproject.org/research-projects/fire-400-ka/",
+      "supports": "The research team distinguishes likely use of wildfires and maintained embers from intentional ignition. Early dates are uncertain; no first discoverer is identified."
+    },
+    {
+      "id": "barnham",
+      "title": "Davis et al. \u2014 Earliest evidence of making fire",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41372405/",
+      "supports": "The study reports evidence interpreted as deliberate fire-making at Barnham around 400,000 years ago. This evidence date is not a known first invention or discoverer."
+    },
+    {
+      "id": "wonderwerk",
+      "title": "Berna et al. \u2014 Fire evidence at Wonderwerk Cave",
+      "url": "https://www.pnas.org/content/pnas/109/20/E1215.full.pdf",
+      "supports": "Burned bone and plant ash document burning in an archaeological context around one million years ago. This does not identify a person or establish the first ignition method."
+    }
+  ],
+  "clips": [
+    {
+      "id": "01",
+      "sol_visible": true,
+      "title": "A question beside the Christmas fireplace",
+      "action": "At normal speed Sol lifts the short arm nearest the fireplace once in a small questioning arc during0.0\u20131.2s, with only slight attached tip follow-through that settles by1.8s. His filled red/orange/cream body stays compact and coherent; no traveling contour wave, internal ripple or side-to-side body sweep. A brief natural paired blink returns to the same navy ovals. The wood fire continues its gentle localized flicker throughout all3s, with only subtle attached tip motion on Sol after the gesture. No prolonged full-scene freeze or pause in hearth animation. Feet remain supported and the camera/background stay fixed.",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Who actually discovered fire?"
+        }
+      ],
+      "next_cut": "Hard cut from the richly decorated Christmas fireplace to the approved golden late-afternoon natural-fire landscape, introducing historical context.",
+      "start_sec": 0,
+      "end_sec": 2.3333333333333335,
+      "setting_and_framing": "A richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening. Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.",
+      "first_frame": "Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.",
+      "last_frame": "The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.",
+      "motion_prompt_action": "At normal speed, lift only the short near-fire arm once into a compact questioning gesture during0.0\u20130.6s. A brief natural blink returns immediately to the original navy ovals. Settle in that clean actual source pose from0.600s through the2.333s edit. Keep the whole painted frame stable during this complete-pair hold. No traveling wave through the flame layers, jelly-like body warping, surface ripple, secondary gesture or later pose jump. The character stays mouthless with supported feet and original proportions.",
+      "performance_beats": [
+        {
+          "time": "0.0\u20131.2s",
+          "action": "One direct compact near-fire arm lift; optional brief paired blink."
+        },
+        {
+          "time": "1.2\u20131.8s",
+          "action": "Small attached tip follow-through settles; no rolling body wave."
+        },
+        {
+          "time": "1.8\u20133.0s",
+          "action": "Keep questioning pose, subtle attached tip life and continuous separate hearth flicker. No whole-frame freeze."
+        }
+      ],
+      "camera": {
+        "shot_size": "Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.",
+        "movement": "Fixed source camera",
+        "editing": "No automatic push."
+      },
+      "clean_first_frame": "Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.",
+      "clean_last_frame": "The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.",
+      "framing_prompt": "Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.",
+      "identity_references": [
+        "workflow/assets/reference-art/Mascot.png",
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "style_references": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "previous_reference": "Original mascot for identity where visible; graphics for gouache texture only.",
+      "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "planned_outputs": {
+        "first": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/keyframes/01-first.png",
+        "last": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/keyframes/01-last.png",
+        "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4"
+      },
+      "generation_settings": {
+        "image_model": "nano_banana_2_1",
+        "video_model": "gemini_omni_flash_1_2",
+        "mode": "image-to-video",
+        "resolution": "1080p",
+        "duration": 3,
+        "aspect_ratio": "9:16",
+        "input_roles": [
+          "start_image",
+          "end_image"
+        ],
+        "approval_status": "Unapproved replacement pair; show both exact images before animation.",
+        "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+      },
+      "timing_status": "Actual existing voice windows retained; alignment to replacement animation unverified.",
+      "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
+      "reference_views": [],
+      "cartoon_accents": [],
+      "image_prompts": {
+        "first": "Create a complete new vertical painted scene: Sol beside a fireplace in a detailed Christmas living room.\n\nA richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.\n\nMedium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.\n\nExactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.\n\nPreserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.",
+        "last": "Use the supplied Christmas first frame as the exact composition reference. Create its matching last still, changing only Sol's small near-fire arm gesture.\n\nThe same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.\n\nPreserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.\n\nKeep the warm lighting, every background object, framing, floor contact and Sol design consistent with the supplied first frame."
+      },
+      "video_prompt": "Animate the supplied first image to the supplied last image as one quiet3-second painted shot. Preserve exactly the Christmas room, locked camera, character design, colors and object positions in those two images.\n\nSol is a solid painted mascot, NOT a simulation of real fire. His interior red/orange/cream regions stay joined and stable like paint on one compact form. Keep his original broad cream face, normal navy oval eyes, short rounded arms and tiny supported feet. The area under his two eyes stays completely blank and mouthless. No torso waves, jelly deformation, flowing bands, texture swimming, face drift, elongated arms, sparks, particles or detached flame flicks.\n\nOne action: during0.0\u20131.2s lift only his short arm nearest the hearth through a small direct questioning arc, arriving at the supplied last-frame arm position. Keep feet planted. Allow a tiny connected tip follow-through that settles by1.8s, without leaning the whole body back and forth. A brief natural paired blink may close and reopen his original dark oval eyes once. Keep that restrained questioning pose thereafter with a barely perceptible attached tip movement. Do not restart the gesture or add a nod.\n\nThe separate wood fire in the fireplace gently flickers from beginning to end, attached to the same logs, with subtle local warm light changes. Sol stays filled and solid. Hearth flicker continues even when Sol's arm rests; do not freeze the full image for a long hold. Room, stockings, tree, rug, window and paper texture remain stable. No camera movement.\n\nSoft matte gouache paint, layered colors and subtle paper texture across everything, matching the exact supplied artwork. Animate on twos at final30fps: unchanged complete two-frame states,15 updates per second, normal-speed action, no interpolation or blending. This cadence is not a request for a long frozen shot. No speech, music, sound effects, text or captions. End in the supplied last-frame composition.",
+      "lighting": "A richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.",
+      "motion_cadence": {
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+        "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
+        "delivery_fps": 30,
+        "pose_hold_frames": 2,
+        "pose_updates_per_second": 15,
+        "playback_rate": 1,
+        "confirmed": false
+      },
+      "image_generation": {
+        "first": "generate",
+        "last": "generate"
+      },
+      "eye_spacing_feedback": "User: eyes in v1 are too separated. Narrow the gap while retaining original oval size, shape, navy fill and vertical placement, without changing the accepted paint or staging.",
+      "comparison_test": {
+        "model": "kling3_0",
+        "mode": "pro",
+        "sound": "off",
+        "duration": 3,
+        "job_id": "6ae0db5a-cc8a-4918-814d-9377cf6fefbc",
+        "receipt": "jobs/higgsfield/scene-01-kling3pro-v1.json",
+        "user_authorization": "Try one Kling 3.0 Pro clip",
+        "estimated_credits": 5.25,
+        "status": "completed_reviewed_eye_squash",
+        "shared_defaults_changed": false,
+        "path": "clips/tests/01-kling3pro-v1-twos.mp4",
+        "native_path": "clips/tests/01-kling3pro-v1-raw.mp4",
+        "review_report": "reviews/01/independent-review-kling3pro-v1.json",
+        "production_approved": false,
+        "dimensions": [
+          1076,
+          1928
+        ],
+        "cadence_fps": 30,
+        "decoded_two_frame_pairs": 45
+      },
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": null,
+        "coverage": "Only Sol speaks; no Narrator attention cue in this scene.",
+        "final_voice_alignment_verified": false
+      },
+      "selection_note": "Fresh Omni take, source0\u201319+30\u201379 selected: shortened blink, intact arm onset and continuous hearth, no freeze. See chimney-ripple-v2/reviews/01-selected-brief-blink.json."
+    },
+    {
+      "id": "02",
+      "sol_visible": false,
+      "title": "A cartoon hand cloud reveals fire at the rubbing point",
+      "action": "Begin in the supplied small cartoon speed-cloud pose. From0.0\u20131.9s, the monkey\u2019s two hands rub the crossed sticks absurdly fast using very short alternating strokes. The right-hand stick is braced in its original diagonal; the other slides along its own length while both shafts stay pressed together at the exposed X. The cream dust cloud around the hands pulses, curls and gives off a few tiny puffs; short curved painted motion strokes convey rapid arms. This is the user-requested cartoon effect, with exactly two underlying arms and hands; the face, supported feet, tail, stick count and exposed wood contact remain coherent. Keep the stick upper tips unlit. Around2.1s a small warm glow appears at the X contact ABOVE the cloud. The hand cloud pops aside and thins, revealing one tiny flame rooted at that exact rubbed crossing by2.5s. The free upper tips stay brown and unlit above the flame. Stop rubbing and make one surprised recoil by3.2s. End in the supplied last pose, with the hands visible, a couple of dissipating cream puffs and the small central wood-contact flame flickering through5s. No repeated freeze, no detached fire above the wood, no arm multiplication, no separating stick gap or smeared anatomy.",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "We don't know. Natural fires existed long before people."
+        }
+      ],
+      "next_cut": "Cut to retained lightning03 as the skit returns to naturally occurring fire.",
+      "start_sec": 2.3333333333333335,
+      "end_sec": 7.133333333333333,
+      "setting_and_framing": "Keep the supplied woodland clearing, broad left tree trunk, arching leafy canopy, sage ferns, winding roots, distant blue hills and golden afternoon light. Keep the same monkey seated on the same gray stone on the left. The ground immediately in front of the monkey is clear earth with a few flat leaves; remove the old fallen log and all loose background sticks from this foreground action area. Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+      "first_frame": "The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey\u2019s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.",
+      "last_frame": "The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.",
+      "motion_prompt_action": "Begin in the supplied small cartoon speed-cloud pose. From0.0\u20131.9s, the monkey\u2019s two hands rub the crossed sticks absurdly fast using very short alternating strokes. The right-hand stick is braced in its original diagonal; the other slides along its own length while both shafts stay pressed together at the exposed X. The cream dust cloud around the hands pulses, curls and gives off a few tiny puffs; short curved painted motion strokes convey rapid arms. This is the user-requested cartoon effect, with exactly two underlying arms and hands; the face, supported feet, tail, stick count and exposed wood contact remain coherent. Keep the stick upper tips unlit. Around2.1s a small warm glow appears at the X contact ABOVE the cloud. The hand cloud pops aside and thins, revealing one tiny flame rooted at that exact rubbed crossing by2.5s. The free upper tips stay brown and unlit above the flame. Stop rubbing and make one surprised recoil by3.2s. End in the supplied last pose, with the hands visible, a couple of dissipating cream puffs and the small central wood-contact flame flickering through5s. No repeated freeze, no detached fire above the wood, no arm multiplication, no separating stick gap or smeared anatomy.",
+      "performance_beats": [
+        {
+          "cue": "0.0\u20131.9s",
+          "body": "Rapid cartoon rubbing inside small cream hand cloud; two stick shafts retain exposed X contact.",
+          "gaze": "Central X contact."
+        },
+        {
+          "cue": "2.1\u20132.5s",
+          "body": "Cloud pops aside; one tiny flame starts at central rubbed X, free upper tips stay unlit."
+        },
+        {
+          "cue": "2.5\u20135.0s",
+          "body": "Stop rubbing; one surprised recoil, then gentle breath/blink and central flame flicker."
+        }
+      ],
+      "camera": {
+        "shot_size": "Medium-wide full-body monkey and two-stick contact.",
+        "height_and_angle": "Seated monkey eye height, slightly downward.",
+        "movement": "Locked, no editorial push.",
+        "start_view": "Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+        "end_view": "Same camera, hands visible after cloud clears; tiny fire at central X below unlit upper tips."
+      },
+      "clean_first_frame": "The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey\u2019s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.",
+      "clean_last_frame": "The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.",
+      "framing_prompt": "Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+      "identity_references": [
+        "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-first-v2.png"
+      ],
+      "identity_examples": [],
+      "style_references": [
+        "workflow/assets/reference-art/Spring.jpg"
+      ],
+      "previous_reference": "Use earlier unlit two-stick first for monkey/woodland/stick geometry only. Do not use the rejected tip-fire ending as a flame reference.",
+      "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "planned_outputs": {
+        "first": "keyframes/02-first-v3.png",
+        "last": "keyframes/02-last-v3.png",
+        "video": "clips/02-scene.mp4"
+      },
+      "generation_settings": {
+        "image_model": "nano_banana_2_1",
+        "video_model": "gemini_omni_flash_1_2",
+        "mode": "image-to-video",
+        "resolution": "1080p",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "input_roles": [
+          "start_image",
+          "end_image"
+        ],
+        "approval_status": "Approved exact pair; canonical gate passed.",
+        "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+      },
+      "timing_status": "Existing Narrator local0.800\u20134.596s retained at1x; future5s source/4.8s edit must be reviewed.",
+      "planned_method": "Generate complete first/last stills, obtain approval, animate whole scene in Higgsfield, then assemble.",
+      "reference_views": [],
+      "cartoon_accents": [
+        {
+          "effect": "compact cream dust cloud at hands",
+          "scope": "User explicitly requested cartoon cloud to communicate extremely fast rubbing; episode-specific."
+        },
+        {
+          "effect": "short curved painted ochre motion strokes and tiny cream puffs",
+          "scope": "Intentional cartoon action symbols; not photographic blur or extra limbs."
+        }
+      ],
+      "image_prompts": {
+        "first": "Use IMAGE1 as the base. Make exactly one local cartoon-effect edit. Keep IMAGE1's monkey, face, posture, TWO WOODEN STICKS AND THEIR EXACT LENGTHS, forest, lighting, tail, feet and camera unchanged. All wood remains unlit.\n\nReplace IMAGE1's sweeping yellow arcs and the small low dust puff with IMAGE2's compact fluffy cream HAND CLOUD. The new cloud must COVER BOTH VISIBLE FISTS COMPLETELY at the center of the monkey's belly, hiding the fast hands inside. It is centered on the fists, higher than the current low puff. Use the same cloud size and scalloped cream shape as IMAGE2, spanning about x30\u201356% and y61\u201370% of the portrait. Two forearms enter it; the exposed stick X and both upper stick ends remain completely visible above the cloud. A few short curved ochre strokes stay INSIDE the cloud, like IMAGE2. No giant sweeping arcs outside it, no cloud below the knees, no added hands, no fire or glow. Copy only IMAGE2's hand-cloud effect; retain IMAGE1's longer stick geometry and everything else.",
+        "last": "Make one precise small correction to this supplied picture. The existing orange flame is too tall and too high. Erase that flame and place a much smaller match flame directly on the dark X-shaped wood joint BELOW it. In this1536x2752 image, the new flame's BASE is near(690,1665) and its TIP near(690,1625). It is about40pixels tall and22pixels wide. The small flame sits on the front dark contact seam of the crossed sticks. The area of the previous flame above y1620 returns to the original green background and brown wooden shafts. Both upper wooden tips extend conspicuously HIGHER than the entire tiny new flame, and both are completely unlit. Preserve every other part: same monkey face, two hands gripping exactly two sticks, remaining cream motion-cloud puffs, tail, feet, stone, woodland, camera and painted finish. No additional flames, sparks, text or new objects."
+      },
+      "video_prompt": "Begin in the supplied small cartoon speed-cloud pose. From0.0\u20131.9s, the monkey\u2019s two hands rub the crossed sticks absurdly fast using very short alternating strokes. The right-hand stick is braced in its original diagonal; the other slides along its own length while both shafts stay pressed together at the exposed X. The cream dust cloud around the hands pulses, curls and gives off a few tiny puffs; short curved painted motion strokes convey rapid arms. This is the user-requested cartoon effect, with exactly two underlying arms and hands; the face, supported feet, tail, stick count and exposed wood contact remain coherent. Keep the stick upper tips unlit. Around2.1s a small warm glow appears at the X contact ABOVE the cloud. The hand cloud pops aside and thins, revealing one tiny flame rooted at that exact rubbed crossing by2.5s. The free upper tips stay brown and unlit above the flame. Stop rubbing and make one surprised recoil by3.2s. End in the supplied last pose, with the hands visible, a couple of dissipating cream puffs and the small central wood-contact flame flickering through5s. No repeated freeze, no detached fire above the wood, no arm multiplication, no separating stick gap or smeared anatomy.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.\n\nLocked camera. Play the clip at1x with the existing1x voices. The fast hand action is deliberately exaggerated cartoon performance, not accelerated whole-clip playback. Animate all poses, cloud lobes, motion strokes, puffs, flame and light on twos at final30fps: identical consecutive pairs,15 state updates per second. Painted states stay crisp; no optical-flow interpolation, blended frames or photographic motion blur. No generated speech, music, sound effects, text or captions.",
+      "continuity_from": {
+        "scene": "01",
+        "scope": "Hard cut to a different setting; no fireplace-frame geometry or props reused."
+      },
+      "lighting": "Golden afternoon throughout; only the last gains small local firelight. No light/smoke/embers in the first.",
+      "motion_cadence": {
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+        "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
+        "delivery_fps": 30,
+        "pose_hold_frames": 2,
+        "pose_updates_per_second": 15,
+        "playback_rate": 1,
+        "confirmed": false
+      },
+      "image_generation": {
+        "first": "match corrected ending geometry, remove fire, restore cartoon hand cloud",
+        "last": "localized generated flame correction; see jobs/02-last-v3-request.json and generation-inputs.json"
+      },
+      "narrator_attention": {
+        "required": false,
+        "reason": "Sol is absent; monkey looks at the stick contact and new flame."
+      },
+      "cast": [
+        {
+          "character": "monkey",
+          "count": 1,
+          "identity": "Exactly one friendly cocoa-brown storybook monkey with the same tan muzzle and belly, rounded ears, expressive dark eyes, small natural monkey mouth, ordinary compact monkey limbs and one attached long curved tail as the supplied scene. Preserve its proportions and painting. No clothes or accessories; no other characters."
+        }
+      ],
+      "selection_note": "User asked why fire started on top, then requested extremely fast cartoon hand rubbing with a cloud. Replaces the earlier tip-fire endpoints and pending no-cloud retry."
+    },
+    {
+      "id": "03",
+      "sol_visible": false,
+      "title": "Lightning ignites dry wood",
+      "action": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 2.6 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Like when lightning hits a tree?"
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Yes. Lightning's heat can set dry wood alight."
+        }
+      ],
+      "next_cut": "Cut to a separate time/place for ember tending in Scene 04; do not imply that this particular branch or fire is tracked across the cut.",
+      "start_sec": 7.133333333333333,
+      "end_sec": 14.0,
+      "setting_and_framing": "Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.",
+      "first_frame": "The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.",
+      "last_frame": "The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.",
+      "motion_prompt_action": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 2.6 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.",
+      "performance_beats": [
+        {
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.",
+          "gaze": "Sol off-screen"
+        }
+      ],
+      "camera": {
+        "shot_size": "Stable medium-wide source; closer presentation through editorial push.",
+        "height_and_angle": "Low three-quarter side view, unchanged axis.",
+        "movement": "Generation: stable low three-quarter medium-wide camera for the strike and ignition.",
+        "editing": "Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.",
+        "start_view": "Trunk x=52%; dry branch/strike point near x=65%, y=62%; sky visible.",
+        "end_view": "Same generated source crop; edited presentation ends at 110%."
+      },
+      "clean_first_frame": "The tree and dry lower branch are completely unlit. No lightning, flame, embers or firelight are visible. The empty woodland has no characters.",
+      "clean_last_frame": "The same source view of the tree and woodland. A small faceless painted flame burns at a newly darkened patch on the dry lower branch. The lightning is gone. Preserve branch attachments and cool storm light, with only faint local warmth beside the flame. The flame base is fixed to the ignition patch; the bolt is completely absent, the branch is rigid and no global brightness pulse is present.",
+      "framing_prompt": "Low three-quarter medium-wide source view of a dry dead tree beneath broad storm clouds, trunk near x=52% and lower branch near x=65%, y=62%. Keep sky for the strike and readable ground depth. Both raw endpoints retain the same camera view. The controlled 100%-to-110% push belongs in editing only.",
+      "identity_references": [],
+      "identity_examples": [],
+      "style_references": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "previous_reference": "Original mascot for identity where visible; graphics for gouache texture only.",
+      "motion_reference": null,
+      "planned_outputs": {
+        "first": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/keyframes/03-first.png",
+        "last": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/keyframes/03-last.png",
+        "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/clips/edit-v4/03-lightning-with-sting-gap.mp4"
+      },
+      "generation_settings": {
+        "image_model": "nano_banana_2_1",
+        "video_model": "gemini_omni_flash_1_2",
+        "mode": "image-to-video",
+        "resolution": "1080p",
+        "duration": 7,
+        "aspect_ratio": "9:16",
+        "input_roles": [
+          "start_image",
+          "end_image"
+        ],
+        "approval_status": "Exact unchanged endpoint pair approved by user. User selected Omni Flash 1.2 and explicitly permits brief natural blinks with bouncy motion; draft generation continues.",
+        "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+      },
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
+      "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
+      "reference_views": [],
+      "cartoon_accents": [],
+      "image_prompts": {
+        "first": "Create a low three-quarter medium-wide view of one dry dead tree under broad blue-gray storm clouds. Place the trunk near x=52% and its unlit dry lower branch near x=65%, y=62%; leave sky above for a later strike. Separate the tree, ground and distant muted teal woodland with painted overlap and perspective. Use cool diffuse storm daylight only. Show no lightning, flame, embers or warm firelight. The woodland is empty of characters; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks.",
+        "last": "Use the attached starting still for tree structure, composition and style. Keep the same source camera view and branch geometry. A small faceless painted flame now burns at a darkened patch on the dry lower branch at right; the lightning is completely absent. Its flame base is anchored to that ignition patch; keep the branch rigid. Preserve the rigid trunk, branch attachments, woodland layout and cool storm light. Add only a faint local warm reflection beside the burning patch; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
+      },
+      "video_prompt": "Hold the unlit tree and rigid dry branch for the opening off-screen question and Arthur's Yes. At about 3.8 seconds, one fixed complete painted lightning bolt briefly joins the sky to the dry branch for a single two-frame pair, then disappears completely. It does not travel or sweep. A small flame catches at that contact after the strike. Anchor its base to that ignition point; only small upper shapes change. Keep the tree, branch and cool storm background stable. No firelight in the unlit opening and no whole-scene brightness pulse.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nNo Sol or human face appears in this cutaway.\n\nKeep actual fire rooted at the wood contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve the physical order of the specified action and original object count.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
+      "lighting": "At the start use cool diffuse storm daylight only: slate blue-gray clouds, desaturated teal distance and cool brown wood. No fire or warm firelight exists before ignition. After ignition retain the cool ambient light with only a tiny warm reflection at the burning patch.",
+      "motion_cadence": {
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+        "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
+        "delivery_fps": 30,
+        "pose_hold_frames": 2,
+        "pose_updates_per_second": 15,
+        "playback_rate": 1,
+        "confirmed": false
+      },
+      "image_generation": {
+        "first": "generate",
+        "last": "generate"
+      },
+      "generated_stills": {
+        "first": {
+          "path": "keyframes/03-first.png",
+          "candidate_path": "keyframes/03-first-nano-v1.png",
+          "job_id": "bb93ada9-834f-4509-af4c-e58afc931751",
+          "sha256": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1",
+          "user_approved": true
+        },
+        "last": {
+          "path": "keyframes/03-last.png",
+          "candidate_path": "keyframes/03-last-nano-v2.png",
+          "job_id": "50c4010b-e1fb-450c-9edc-25293fd3fe5c",
+          "sha256": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20",
+          "user_approved": true
+        }
+      },
+      "generated_video": {
+        "job_id": "804c6d6a-68fa-41c6-b5f5-b143519ffde5",
+        "receipt": "jobs/higgsfield/scene-03-video-omni-v1.json",
+        "status": "pending",
+        "path": "clips/03-scene.mp4",
+        "production_approved": false
+      },
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": null,
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
+        "final_voice_alignment_verified": false,
+        "reason": "Sol is off-screen during Narrator speech."
+      },
+      "final_edit": {
+        "start_sec": 7.133333333333333,
+        "end_sec": 14.0,
+        "duration_sec": 6.866666666666666,
+        "source": "clips/edit-v4/03-lightning-with-sting-gap.mp4",
+        "source_trim": {
+          "source": "clips/03-scene-omni-v2-bolt-trim.mp4",
+          "source_first_frame": 36,
+          "frames": 206,
+          "output": "clips/edit-v4/03-lightning-with-sting-gap.mp4",
+          "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365",
+          "decoded_source_selection_exact": true,
+          "added_final_hold_frames": 0,
+          "receipt": "reviews/sound-v4/sound-edit-receipt.json"
+        },
+        "speech_rate": 0,
+        "playback_rate": 1,
+        "prior_source_selection": {
+          "scene": "03",
+          "source": "clips/03-scene-omni-v2-bolt-trim.mp4",
+          "source_sha256": "c651147d3a58e5096488fb84bcf5040a98f7ea5578f98dfe41b2d7466acdceec",
+          "source_first_frame": 36,
+          "frames": 170,
+          "duration": 5.666666666666667,
+          "output": "clips/edit-v2/03-tight.mp4",
+          "sha256": "f765950aaf31dd220a8f87b25c929692b2da800c2db8be44524ae85ad97a0830",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        }
+      },
+      "revision_action": "Retain existing media; no generation requested.",
+      "selection_note": "Existing approved frame pair; selected source clip has its own fresh review binding."
+    },
+    {
+      "id": "04",
+      "sol_visible": false,
+      "title": "Tending existing embers",
+      "action": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig\u2013ember contact; keep its base anchored there. No extra hand, forked twig or tool.",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill."
+        }
+      ],
+      "next_cut": "Cut wider from the same camera side for Scene 05, retaining the bough, added twig, ember arrangement and localized lighting. The human hand stays off-screen; Sol appears as presenter.",
+      "start_sec": 14.0,
+      "end_sec": 20.6,
+      "setting_and_framing": "Stable close-up from a gently elevated three-quarter angle. A charred bough and ember bed fill the middle half of the frame, with the contact point near x=58%, y=60%. One cropped anonymous human hand enters upper-right, gripping the far end of a single dry twig. Keep the twig tip, coals and supporting surfaces clear; background detail falls into broad cool earth shapes. Keep the lower fifth quiet.",
+      "first_frame": "One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.",
+      "last_frame": "The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement. The released twig is stationary and securely supported; the flame base is anchored at the twig\u2013ember contact.",
+      "motion_prompt_action": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig\u2013ember contact; keep its base anchored there. No extra hand, forked twig or tool.",
+      "performance_beats": [
+        {
+          "cue": "Actual normal-rate dialogue and measured per-scene voice cues",
+          "body": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig\u2013ember contact; keep its base anchored there. No extra hand, forked twig or tool.",
+          "gaze": "Sol off-screen"
+        }
+      ],
+      "camera": {
+        "shot_size": "Close-up of embers, twig and contact point.",
+        "height_and_angle": "Gently elevated three-quarter view.",
+        "movement": "Generation: stable camera for the contact sequence.",
+        "editing": "No camera move; time the final hold to Arthur's take.",
+        "start_view": "Single twig tip above coals; one hand upper-right; contact point near x=58%, y=60%.",
+        "end_view": "Same crop; supported twig at the coals, hand out of frame, small caught flame."
+      },
+      "clean_first_frame": "One cropped human hand grips the far end of one short straight unbranched dry twig. Its single blunt tip hovers with a clear gap above a small red-orange glowing ember bed beside one charred bough and a few coal pieces. There are no visible flames, and no mascot or human face.",
+      "clean_last_frame": "The hand has withdrawn completely. The same twig rests on the existing charred support surfaces with one end against the embers. A small faceless painted flame has caught at that contact point. The coals, bough and ash retain their arrangement. The released twig is stationary and securely supported; the flame base is anchored at the twig\u2013ember contact.",
+      "framing_prompt": "Stable close-up from a gently elevated three-quarter angle. A charred bough and ember bed fill the middle half of the frame, with the contact point near x=58%, y=60%. One cropped anonymous human hand enters upper-right, gripping the far end of a single dry twig. Keep the twig tip, coals and supporting surfaces clear; background detail falls into broad cool earth shapes. Keep the lower fifth quiet.",
+      "identity_references": [],
+      "identity_examples": [],
+      "style_references": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "previous_reference": "Original mascot for identity where visible; graphics for gouache texture only.",
+      "motion_reference": null,
+      "planned_outputs": {
+        "first": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/keyframes/04-first.png",
+        "last": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/keyframes/04-last.png",
+        "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/clips/edit-v2/04-tight.mp4"
+      },
+      "generation_settings": {
+        "image_model": "nano_banana_2_1",
+        "video_model": "gemini_omni_flash_1_2",
+        "mode": "image-to-video",
+        "resolution": "1080p",
+        "duration": 9,
+        "aspect_ratio": "9:16",
+        "input_roles": [
+          "start_image",
+          "end_image"
+        ],
+        "approval_status": "Exact unchanged endpoint pair approved by user. User selected Omni Flash 1.2 and explicitly permits brief natural blinks with bouncy motion; draft generation continues.",
+        "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+      },
+      "timing_status": "Scene length set from actual normal-rate WAV duration with dialogue and action lead-in/tail; caption alignment uses measured word cues.",
+      "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
+      "reference_views": [],
+      "cartoon_accents": [],
+      "image_prompts": {
+        "first": "Create a gently elevated three-quarter close-up of ONE charred fallen bough with a small ember bed on ash-gray earth. Use one main bough and only a few small coal pieces; describe the wood through broad painted shapes and gentle shading, without dense bark cracks or a pile of many logs. Place the contact area near x=58%, y=60%; keep the lower fifth quiet.\n\nONE cropped anonymous human hand enters from upper-right, gripping the far end of ONE short, straight, unbranched dry twig. Show a coherent thumb-and-finger grip. The twig has a single blunt lower tip hovering above the hot coals with a clearly visible gap. It has no forks or side branches. No face, mascot or extra tool is visible.\n\nThe existing embers glow a subdued red-orange, with no visible flames or yellow tongues of fire anywhere in this starting still. Use cool diffuse shade, charcoal wood and gray ash with only weak local ember warmth. The twig is unlit and has not touched the coals.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint the human hand, wood, coals and surroundings together with coherent perspective and lighting. Build rounded forms and space through gentle shading, overlap and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nThe supplied graphics control paint treatment only; do not copy their mascots, settings or accessories. No text or watermark.",
+        "last": "Use the approved starting still as the composition reference. The single twig now rests on the existing charred support surfaces, one end touching the ember bed. The twig is fully supported and stationary after release; the hand has withdrawn completely along its single exit path. A small faceless painted flame has caught at the fixed twig\u2013ember contact point, slightly increasing local warmth. Preserve the close-up crop, bough shape, coal and ash arrangement, twig identity, cool ambient shade and grounded contact. No mascot or added tools; keep the lower fifth quiet.\n\nMatch the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.\n\nNo text or watermarks."
+      },
+      "video_prompt": "Show one continuous tending action in this order: lower the single straight twig with a stable grip; establish secure support on the existing charred surfaces with its blunt tip against the embers; release it only after support is established; then withdraw the hand completely along one clear path toward the upper-right. After release the twig stays stationary. Begin with subdued ember glow and no visible flames. A small faceless flame catches only after placement at the twig\u2013ember contact; keep its base anchored there. No extra hand, forked twig or tool.\n\nStable source camera, same crop, subject scale, geometry and light as the supplied endpoints. No generated camera movement.\n\nNo Sol or human face appears in this cutaway.\n\nKeep actual fire rooted at the wood contact.\n\nPreserve the supplied soft matte gouache painting: broad simple shapes, restrained detail, layered color, subtle paper texture, softened painted edges, coherent perspective, gentle shading and contact shadows. Paint Sol, props and environment together. Keep the navy eyes plain filled paint and the red outer layer a painted surface. No traced outlines, pale eye rims, gloss, vector re-rendering, heavy grain or texture crawl.\n\nPreserve the physical order of the specified action and original object count.\n\nAnimate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.\n\nNo text, captions, generated speech, music or sound effects.",
+      "lighting": "Cool diffuse shade over ash-gray soil and charcoal wood, with small ember-orange accents. Existing embers cast a weak local warm tint on the twig underside and nearby palm. The caught flame strengthens only the local warmth at the end.",
+      "motion_cadence": {
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+        "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
+        "delivery_fps": 30,
+        "pose_hold_frames": 2,
+        "pose_updates_per_second": 15,
+        "playback_rate": 1,
+        "confirmed": false
+      },
+      "image_generation": {
+        "first": "generate",
+        "last": "generate"
+      },
+      "generated_stills": {
+        "first": {
+          "path": "keyframes/04-first.png",
+          "candidate_path": "keyframes/04-first-nano-v2.png",
+          "job_id": "0acceb6c-11cf-4299-9e28-bb490507effc",
+          "sha256": "f2ee1c98492db252f44d3c3ed770f644fce7b81e6e7b6021f698f71543953e5a",
+          "user_approved": true
+        },
+        "last": {
+          "path": "keyframes/04-last.png",
+          "candidate_path": "keyframes/04-last-nano-v2.png",
+          "job_id": "4bca1331-16b4-46dc-b09a-24137adedfb0",
+          "sha256": "0992a807d4e40b1a0179de978fd0a3e2ca89cad128e518157d2638fa99ba79c4",
+          "user_approved": true
+        }
+      },
+      "generated_video": {
+        "job_id": "18500268-1514-4f45-81b4-9420ab7219f3",
+        "receipt": "jobs/higgsfield/scene-04-video-omni-v1.json",
+        "status": "pending",
+        "path": "clips/04-scene.mp4",
+        "production_approved": false
+      },
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": null,
+        "timing_status": "Actual saved voice takes measured at 1x; exact onsets in audio/voice-cues.json.",
+        "final_voice_alignment_verified": false,
+        "reason": "Sol is off-screen during Narrator speech."
+      },
+      "final_edit": {
+        "start_sec": 14.0,
+        "end_sec": 20.6,
+        "duration_sec": 6.6,
+        "source": "clips/edit-v2/04-tight.mp4",
+        "source_trim": {
+          "scene": "04",
+          "source": "clips/04-scene-omni-v2-twos.mp4",
+          "source_sha256": "3f1ca918360ba3e8e220f44446592986f2eac3a3ef98eca82712af2c13cab600",
+          "source_first_frame": 0,
+          "frames": 198,
+          "duration": 6.6,
+          "output": "clips/edit-v2/04-tight.mp4",
+          "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b",
+          "decoded_source_subset_exact": true,
+          "decoded_pair_mismatches": []
+        },
+        "speech_rate": 0,
+        "playback_rate": 1
+      },
+      "revision_action": "Retain existing media; no generation requested.",
+      "selection_note": "Existing approved frame pair; selected source clip has its own fresh review binding."
+    },
+    {
+      "id": "05",
+      "sol_visible": true,
+      "title": "Three Sols at a cozy night campfire",
+      "action": "During local0.0\u20132.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080\u20132.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0\u20133.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0\u20134.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "So finding fire wasn't the same as making it."
+        },
+        {
+          "speaker": "Narrator",
+          "text": "Right."
+        }
+      ],
+      "next_cut": "Hold all three upward listening poses through the complete Right release and existing music fade. Preserve the full5.2s picture ending.",
+      "start_sec": 20.6,
+      "end_sec": 25.8,
+      "setting_and_framing": "A cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere. Static medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.",
+      "first_frame": "The foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow held in front of the stone ring, ready to toast. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.",
+      "last_frame": "Exactly the same three Sols, campsite, sizes, positions, foot contacts, fire, stones, wood, tent and night lighting. The foreground-left friend now holds the skewer slightly lifted, with its single lightly toasted marshmallow clear of the flame. The rear friend holds both short arms a little forward in a warming pose. The foreground-right speaking Sol holds both short arms slightly open in a low understanding gesture. All THREE compact bodies and their attached faces tilt gently backward/up together to look toward the fixed Narrator point just above camera, keeping original normal navy oval eyes and tiny limbs unchanged. All three remain firmly on the ground.",
+      "motion_prompt_action": "During local0.0\u20132.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080\u20132.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0\u20133.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0\u20134.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.",
+      "performance_beats": [
+        {
+          "body": "During local0.0\u20132.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080\u20132.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0\u20133.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0\u20134.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.",
+          "cue": "Existing05-01-sol at0.080\u20132.914s; original-release05-02-narrator at4.000\u20134.900s. Unchanged1x; preserve final picture through5.2s.",
+          "gaze": "ALL THREE visible Sols must look above camera by local3.6s and maintain that gaze with gentle listening idle through Narrator4.0\u20134.9s and the ending. Only foreground-right Sol speaks; the two friends are silent."
+        }
+      ],
+      "camera": {
+        "shot_size": "Static medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.",
+        "movement": "Fixed source camera",
+        "editing": "No automatic push."
+      },
+      "clean_first_frame": "The foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow held in front of the stone ring, ready to toast. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.",
+      "clean_last_frame": "Exactly the same three Sols, campsite, sizes, positions, foot contacts, fire, stones, wood, tent and night lighting. The foreground-left friend now holds the skewer slightly lifted, with its single lightly toasted marshmallow clear of the flame. The rear friend holds both short arms a little forward in a warming pose. The foreground-right speaking Sol holds both short arms slightly open in a low understanding gesture. All THREE compact bodies and their attached faces tilt gently backward/up together to look toward the fixed Narrator point just above camera, keeping original normal navy oval eyes and tiny limbs unchanged. All three remain firmly on the ground.",
+      "framing_prompt": "Static medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.",
+      "identity_references": [
+        "workflow/assets/reference-art/Mascot.png",
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "style_references": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "previous_reference": "Use the preceding approved scene only for stated continuity; original mascot assets still control identity.",
+      "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "planned_outputs": {
+        "first": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/keyframes/05-first.png",
+        "last": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/keyframes/05-last.png",
+        "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/05-scene.mp4"
+      },
+      "generation_settings": {
+        "image_model": "nano_banana_2_1",
+        "video_model": "gemini_omni_flash_1_2",
+        "mode": "image-to-video",
+        "resolution": "1080p",
+        "duration": 6,
+        "aspect_ratio": "9:16",
+        "input_roles": [
+          "start_image",
+          "end_image"
+        ],
+        "approval_status": "Unapproved replacement pair; show both exact images before animation.",
+        "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+      },
+      "timing_status": "Actual existing voice windows retained; alignment to replacement animation unverified.",
+      "planned_method": "Generated whole-frame stills and complete Higgsfield clips; no SVGs or separate mechanism animation.",
+      "reference_views": [],
+      "cartoon_accents": [],
+      "image_prompts": {
+        "first": "Create one complete new vertical painted scene of EXACTLY THREE original Sol mascots sharing a cozy campfire at NIGHT.\n\nA cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.\n\nStatic medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.\n\nThe foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow held in front of the stone ring, ready to toast. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.\n\nEach of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.\n\nSoft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.",
+        "last": "Use the supplied night campsite first image as the exact continuity reference. Create the matching last still with the same THREE Sols.\n\nExactly the same three Sols, campsite, sizes, positions, foot contacts, fire, stones, wood, tent and night lighting. The foreground-left friend now holds the skewer slightly lifted, with its single lightly toasted marshmallow clear of the flame. The rear friend holds both short arms a little forward in a warming pose. The foreground-right speaking Sol holds both short arms slightly open in a low understanding gesture. All THREE compact bodies and their attached faces tilt gently backward/up together to look toward the fixed Narrator point just above camera, keeping original normal navy oval eyes and tiny limbs unchanged. All three remain firmly on the ground.\n\nKeep every fixed background object, wood piece, stone and camera position identical; preserve deep navy night and amber firelight.\n\nEach of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.\n\nSoft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark."
+      },
+      "video_prompt": "During local0.0\u20132.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080\u20132.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0\u20133.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0\u20134.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.\n\nStatic medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.\n\nA cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.\n\nEach of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.\n\nSoft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.\n\nAnimate on twos at final 30 fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply to every Sol, prop, real flame and animated local light. Background and paint texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs during editing. No generated speech, music, sound effects, text or captions.",
+      "continuity_from": {
+        "scene": "04",
+        "frame": "last",
+        "path": "keyframes/04-last.png",
+        "scope": "Same bough, added twig, ember arrangement and localized lighting; wider view from same camera side, with Sol added as presenter."
+      },
+      "lighting": "A cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.",
+      "motion_cadence": {
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+        "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
+        "delivery_fps": 30,
+        "pose_hold_frames": 2,
+        "pose_updates_per_second": 15,
+        "playback_rate": 1,
+        "confirmed": false
+      },
+      "image_generation": {
+        "first": "generate",
+        "last": "generated_pose_with_authorized_eye_finish"
+      },
+      "narrator_attention": {
+        "required": true,
+        "gaze_target": "Fixed point just above camera",
+        "coverage": "ALL THREE visible Sols must look above camera by local3.6s and maintain that gaze with gentle listening idle through Narrator4.0\u20134.9s and the ending. Only foreground-right Sol speaks; the two friends are silent.",
+        "final_voice_alignment_verified": false
+      },
+      "cast": [
+        "Sol speaking foreground-right",
+        "Sol silent toasting friend foreground-left",
+        "Sol silent warming friend rear"
+      ],
+      "approved_frame_source": {
+        "source_revision": "../night-camp-v3/",
+        "source_selection": "../night-camp-v3/reviews/frame-pair-selection.json",
+        "source_packet": {
+          "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/packet.json",
+          "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/review-request.txt",
+          "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/evidence/frame-comparison.jpg",
+          "status": "both exact stills approved by user"
+        },
+        "first_sha256": "b3bcfaa9a90171724e38ccafb799e6644b07f3f13615c3c6c49128ca0920d4bb",
+        "last_sha256": "e0ccf5cac57bddf95d041063102518590cf3cc31a012a000f9e566d66ad28e60",
+        "approval_user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok"
+      },
+      "selection_note": "Existing approved frame pair; selected source clip has its own fresh review binding."
+    }
+  ],
+  "motion_and_editing": {
+    "shared_motion_rules": [
+      "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+      "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
+      "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact."
+    ],
+    "character_motion_request": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement. Painted layers stay coherent without traveling waves. Preserve ongoing hearth flicker; no prolonged full-frame freeze to hide defective motion.",
+    "cadence_confirmed": false,
+    "exact_cadence": {
+      "delivery_fps": 30,
+      "pose_hold_frames": 2,
+      "pose_updates_per_second": 15,
+      "playback_rate": 1,
+      "longer_holds": "Multiple complete two-frame pairs",
+      "implementation": "Retained sources already conformed. Regenerated01 and new02 require exact paired-state verification and actual visual review."
+    },
+    "scene_02_editorial_camera": "Locked camera. User-requested cartoon speed cloud and strokes are generated within the whole clip; no separate animation/compositing workflow.",
+    "scene_03_generated_camera": "Generation: stable low three-quarter medium-wide camera for the strike and ignition.",
+    "scene_03_editorial_camera": "Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.",
+    "latest_user_clarification": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+    "narrator_attention": "Mandatory gaze up and gentle idle while Narrator speaks with Sol visible; verify with the actual complete script and bound voice cues/recordings. Planned speech windows remain provisional.",
+    "bounce_flame_accents": "Superseded: Sol emits no particles or detached flecks.",
+    "scene_02_effect_scope": "Only this monkey scene: cream hand cloud and painted speed strokes. Fast gestures at1x; exact two-frame cadence preserved. Sol particle rules remain unchanged elsewhere."
+  },
+  "sol_performance_rule": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
+  "resolved_user_preferences": {
+    "video_model": {
+      "value": "gemini_omni_flash_1_2",
+      "user_message": "i like omni flash."
+    },
+    "brief_natural_blink": {
+      "allowed": true,
+      "user_message": "Allow a brief natural blink"
+    },
+    "bouncy_sol": true,
+    "local_code_eye_cleanup_authorized": true,
+    "narrator_attention": {
+      "required_when_sol_visible": true,
+      "gaze": "UP to fixed Narrator point just above camera before and throughout speech",
+      "idle": "Gentle connected body/tip/lobe listening idle",
+      "review": "Actual script plus speaker cues and timeline frames; actual voice timings for final synchronization",
+      "user_messages": [
+        "yo in the scene can u make sure sols eyes glance up whenever the narrator is talkig",
+        "and this is a must for everything else can we make sure that when u review it u also review it with the script so that when narrator is spaeking sol is looking up and idle animationing idk"
+      ]
+    },
+    "eye_squishing": "rejected",
+    "flowy_pose_transitions": {
+      "required": true,
+      "user_message": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?"
+    },
+    "flame_accents": {
+      "user_message": "wait i dont like the visual flames coming out i dont like them big but subtle ones look very cute can u look over that",
+      "allow": "tiny subtle sparse painted flicks",
+      "reduce": "large eye-sized drops, bulbous flares and repeated busy pairs",
+      "review_only": true,
+      "superseded_by": "flame_particles.enabled=false; no emitted flicks"
+    },
+    "bounce_triggered_flame_flicks": {
+      "user_message": "like the flicks should happen when theres the bounce animation yk like flame flickers but yeah can we do the video clips",
+      "required": true,
+      "superseded_by": "flame_particles.enabled=false; no emitted flicks"
+    },
+    "flame_particles": {
+      "enabled": false,
+      "user_message": "wait can we scrap the fire particles lol so just wiggle animation for sol"
+    }
+  },
+  "user_selected_animation": {
+    "scene": "01",
+    "job_id": "8e8a5789-baa6-4cb8-be45-9ca6a60f7a26",
+    "path": "clips/01-scene-omni-v3-twos.mp4",
+    "user_message": "i like omni flash.",
+    "motion_preference": "Bouncy flame-like movement; brief natural blinks allowed.",
+    "production_approved": false
+  },
+  "pending_user_choice": null,
+  "review_requirements": {
+    "script_required": true,
+    "check": "script_and_narrator_attention",
+    "script_bound_by_hash": true,
+    "voice_cues_and_available_recordings_bound": true,
+    "actual_voice_timing": "provisional until recorded voices and final edit are checked"
+  },
+  "final_edit_duration_sec": 25.8,
+  "sound_edit": {
+    "user_request": "Bomboclat sound at lightning, background music, extend the ending so Right is not cut off.",
+    "lightning_frame": 292,
+    "lightning_sec": 9.733333333333333,
+    "sting_source": "assets/meme sounds/bomboclat-with-thunder.mp3",
+    "sting_source_sha256": "8e3663992d860bcefe614a365a3233808c80b1df697fc34309cde0e64d8e1e6a",
+    "sting_duration_sec": 1.0163125,
+    "sting_volume": 0.55,
+    "music_source": "assets/music/Hide and Sneak 4.mp3",
+    "music_source_sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23",
+    "music_processing": "Source gain0.1,0.35s fade-in,1.2s fade-out,6dB dip during sting; edit gain1. Previous quiet bed replaced, not stacked.",
+    "narrator_gap": {
+      "utterance": "03-02-narrator",
+      "source_split_sec": 0.4,
+      "inserted_silence_sec": 1.2,
+      "original_spoken_samples_preserved": true
+    },
+    "right_release": {
+      "source": "audio/05-02-narrator.wav",
+      "kept_sec": 0.9,
+      "unchanged_source_prefix": true
+    },
+    "tree_source_exact_frames": [
+      36,
+      241
+    ],
+    "tree_output_frames": 206,
+    "ending_original_frames": 134,
+    "ending_added_hold_frames": 22,
+    "ending_pair_mismatches": [],
+    "new_duration_sec": 25.8,
+    "new_frames": 774,
+    "status": "Prepared; export verification pending."
+  },
+  "feedback_record": "../../feedback.txt",
+  "thunder_sync": {
+    "status": "Export complete; decode, loudness, picture preservation and numerical cue alignment passed.",
+    "source": "renders/fire-discovery-sound-v4-review.mp4",
+    "output": "renders/fire-discovery-thunder-sync-v5-review.mp4",
+    "sha256": "db2915e95d98f68fbce297100b7e9b82e2b4bdafb8e6c82a2f7fc74c9fbf8434",
+    "picture_duration_sec": 25.8,
+    "previous_file_start_sec": 9.733333333333333,
+    "file_start_sec": 9.533333333333333,
+    "advance_frames": 6,
+    "advance_sec": 0.2,
+    "internal_impact_sec": 0.189,
+    "impact_measurement": "First1ms RMS window over -24dBFS after low-level lead-in",
+    "flash_sec": 9.733333333333333,
+    "flash_frame": 292,
+    "impact_global_sec": 9.722333333333333,
+    "impact_offset_sec": -0.010999999999999233,
+    "final_effect_correlation": 0.9933068470319492,
+    "measured_lufs": "-16.02",
+    "true_peak_dbtp": "-3.04",
+    "video_packet_hash_unchanged": true,
+    "speech_playback_rate": 1,
+    "manual_listening_claimed": false,
+    "completed_delivery_preserved": true
+  },
+  "pending_scene_revision": {
+    "scene": "02",
+    "revision": "monkey-cartoon-cloud-v3",
+    "user_requests": [
+      "why did the fire come on top",
+      "cartoonishly animate",
+      "hands rub really fast",
+      "cartoon cloud showing arms moving incredibly fast"
+    ],
+    "approval_status": "new pair unapproved"
+  },
+  "episode_revision_direction": "Retain corrected01 and existing03\u201305; new02 uses user-requested rapid-rubbing cartoon cloud and central-contact fire, with free stick tips unlit."
+}

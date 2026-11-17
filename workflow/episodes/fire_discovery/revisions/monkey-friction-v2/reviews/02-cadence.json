@@ -1,0 +1,19 @@
+{
+  "job_id": "945c9d9e-dc38-4823-a61a-1b08cb21b841",
+  "raw": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/clips/raw/02-omni.mp4",
+  "raw_sha256": "1f7983290e6744fadf1a5d27ba0427c2b87b83264fe13a3697013596f870f197",
+  "raw_fps": "24/1",
+  "raw_dimensions": [
+    1080,
+    1920
+  ],
+  "clip": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/clips/02-scene.mp4",
+  "clip_sha256": "3134dccd1911d42a4bdeba0673d7e86c9e24b72840071ec45a878a5920e533fc",
+  "frames": 144,
+  "fps": 30,
+  "duration_sec": 4.8,
+  "pair_mismatches": [],
+  "max_full_frame_hold_frames": 2,
+  "conversion": "Normal-speed15fps sampling, exact doubled states at30fps, first4.8s of5s source; losslessH264, native audio discarded; no interpolation, blending or frozen extension.",
+  "visual_review": "rejected: separated sticks12\u201321 and smeared shaft/hand motion22\u201325,48\u201351; normal-rate trimming cannot preserve4.8s without unsuitable repeated/frozen states"
+}

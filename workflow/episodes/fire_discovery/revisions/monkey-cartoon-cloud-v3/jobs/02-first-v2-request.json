@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "medias": [
+      {
+        "role": "image",
+        "value": "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+      }
+    ],
+    "prompt": "Create the matching FIRST frame of this supplied monkey cartoon. Keep the two wooden sticks EXACTLY as drawn: same lengths, thicknesses, upper endpoints, lower grips, diagonal angles and exposed X-shaped crossing. Keep the whole woodland, monkey size, sitting stone, supported feet, tail and locked camera unchanged.\n\nREMOVE the tiny flame completely. There is no flame, ember, orange glow, firelight or burning smoke anywhere. Restore brown wood at the small fire contact. The monkey is focused on rubbing, with its mouth closed and eyes looking at the sticks.\n\nAdd a compact fluffy cream cartoon speed cloud around its hands and lower forearms, below the exposed wood crossing. The cloud is approximately one monkey-head wide, centered near x42%, y65%, with a few rounded lobes, 2–3 curved soft ochre speed strokes and little cream puffs to convey incredibly fast arm rubbing. Exactly two underlying arms enter the cloud. Leave the face, tail, feet, both upper stick shafts and their X crossing clearly visible. The X stays above the cloud; the entire sticks remain unlit. The cloud is a comic motion symbol, not fire smoke. Preserve the same soft matte gouache painting, colors and background; no photographic blur, duplicate arms or extra sticks. No text."
+  }
+}

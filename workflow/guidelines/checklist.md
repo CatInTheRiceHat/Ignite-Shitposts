@@ -25,6 +25,18 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Are shapes simple and readable, with believable [painted depth](image-prompt.md#painted-depth-and-form)?
 - [ ] Is Sol's [identity preserved](shot-integration-and-sol.md#sol-identity) while his [action remains expressive](shot-integration-and-sol.md#purposeful-performance-and-prop-contact), where he is visible?
 - [ ] Does each shot contribute a [distinct teaching beat](video-script-guide.md#distinct-visual-beats)?
+- [ ] Is every shot stimulating and attractive, with plenty of purposeful
+  action that invites “omg thats cool whats happening there”? Identify what
+  catches the eye, how the action develops and the visible payoff; check
+  [visual interest and curiosity](shot-integration-and-sol.md#visual-interest-and-curiosity).
+- [ ] Does the performance use Elaine's preferred [cartoon exaggeration and
+  action effects](video-style-guide.md#cartoon-exaggeration-and-action-effects)
+  where useful: readable effort, rapid motion, compact painted clouds or speed
+  strokes, then a clear reveal and reaction? Keep effects tied to the action,
+  preserve anatomy and prop contact, and clear them so the result reads.
+- [ ] For a sustained cartoon fight-cloud effect, do its lobes continuously
+  churn, tumble and change shape until one final clearing? Reject an identical
+  cloud repeatedly appearing and disappearing.
 - [ ] Are camera behavior, generation/editing responsibility and [motion quality](video-prompt.md#motion-and-continuity) intentional, with exact two-frame source holds at 30 fps and normal-speed action to be verified during editing?
 - [ ] Are there contradictory lighting instructions or [leftover objects and boilerplate](video-prompt.md#remove-boilerplate-and-contradictions)?
 - [ ] Can matching frames connect naturally, and can an approved [endpoint be reused](shot-integration-and-sol.md#specify-the-first-and-last-frames) unchanged?
@@ -125,9 +137,10 @@ Run this short review on the complete prompt set before generation. Follow the l
 - [ ] Preserve depth and the mascot's reference volume through overlapping
   painted layers, gentle shading, coherent perspective and contact shadows.
   Do not flatten the scene or invent inflated/sculpted mascot anatomy.
-- [ ] Give each Sol scene a distinct readable action. Use one primary gesture
-  with a short direct gesture path, small bouncy flame-like follow-through and
-  a settled hold. Keep layers and face coherent, eyes unchanged, limbs stubby
+- [ ] Give each Sol scene a distinct readable action with enough connected
+  physical stages to sustain visual interest. Each gesture uses a direct path,
+  small bouncy flame-like follow-through and a readable endpoint; keep holds
+  purposeful. Keep layers and face coherent, eyes unchanged, limbs stubby
   and feet supported. Avoid unrelated windup, repeated nodding, endless idle
   sway, extra hops or camera movement.
 - [ ] Request animation on twos: every animated source pose or painted state stays
@@ -209,6 +222,13 @@ additional aesthetic preferences attributed to Elaine.
   fixed comb. Stationary parts keep their geometry and colors across the pair.
 
 ## Current visual anchors
+
+- Latest cartoon direction: Elaine called the rapid-hand cloud frame direction
+  “wonderful awesome” and explicitly asked to save it as what she wants for
+  “cartoony.” Carry forward playful exaggeration, localized painted motion
+  clouds/speed strokes and clear reactions under the [style owner](video-style-guide.md#cartoon-exaggeration-and-action-effects).
+  The specific scene remains episode-scoped. This records style acceptance;
+  approval of an exact frame pair remains a separate production decision.
 
 - Latest mandatory direction: whenever Narrator is speaking with Sol visible, Sol looks UP toward the fixed voice above camera and keeps gentle listening idle. Review the actual clip WITH the script and speaker cues. This supersedes the earlier optional/no-upward-glance and no-listening-idle defaults. Intentional coherent paired eye-gaze shifts are allowed; normal eye design, brief natural blinks, mouthless face, connected flame layers and stubby limbs remain.
 

@@ -1,0 +1,31 @@
+{
+  "selected": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/clips/02-fight-cloud-v2-selected.mp4",
+  "sha256": "c3dbae1a4d4c87e883f28c5cc2f7603e3caf6b3861b9de387ffc57b142fc7d56",
+  "frames": 144,
+  "duration_sec": 4.8,
+  "fps": 30,
+  "selected_source_ranges_inclusive": [
+    [
+      0,
+      139
+    ],
+    [
+      146,
+      149
+    ]
+  ],
+  "source_frames": 150,
+  "selected_decoded_pixels_match_source": true,
+  "pair_mismatches": [],
+  "longest_identical_frame_run": 2,
+  "playback_rate": 1,
+  "removed_source_frames": [
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+  ],
+  "reason": "Use actual tiny-flame tail and remove near-extinguished transition; no pixel changes, no frozen filler, no interpolation."
+}

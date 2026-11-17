@@ -1,0 +1,30 @@
+{
+  "scene": "02",
+  "version": "monkey-cartoon-cloud-v3",
+  "status": "ready for explicit user frame review; not approved",
+  "packet": "reviews/02/frames/5e31192cf1033863804c/packet.json",
+  "selected": {
+    "first": {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-first-v3.png",
+      "sha256": "617ede31026052c54f2d9d73dad5478914a915e1e29c865ae58da83536e1b2c7"
+    },
+    "last": {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-last-v3.png",
+      "sha256": "5d3a5f1775bdfd7c777eeca7a4bd5e26cf1e7af9f0951f58df1a4c454e74340c"
+    }
+  },
+  "evidence": [
+    "reviews/02-first-last-review.jpg",
+    "reviews/02-selected-hand-details.jpg",
+    "reviews/02-selected-style-comparison.jpg"
+  ],
+  "observations": [
+    "First: compact cream cloud covers both fists with curved ochre motion strokes; face, feet, tail and exposed two-stick X remain visible. No visible flame or orange glow.",
+    "Last: cloud clears to visible two-handed grip, surprised mouth and a tiny flame rooted at the central crossing. Both free upper ends are unlit and clearly higher than the flame.",
+    "Soft matte painted forest and monkey compared with actual Lantern and Spring artwork. Sol is absent, so his mouthless/oval-eye restrictions do not apply to this ordinary monkey.",
+    "Continuity caveat: the ending has somewhat longer/darker upper stick shafts than the opening. The still pair is a proposal, not proof of stable stick geometry in motion; inspect actual shaft/contact continuity in the resulting clip if the user approves.",
+    "No video has been generated. Exact cadence, rapid rubbing, cloud clearing and ignition timing remain unverified until actual animation."
+  ],
+  "user_approval": null,
+  "preview_opened": true
+}

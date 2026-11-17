@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "id": "6944b42f-9307-4fca-99f6-7eb4073fb769",
+      "type": "image",
+      "status": "pending",
+      "model": "nano_banana_2_1",
+      "params": {
+        "prompt": "Create the LAST frame matching the supplied new two-stick FIRST frame. Change only the small flame and the monkey’s surprised expression/body pose.\n\nKeep the exact same monkey identity, seated body, supported feet, tail, forest, camera, empty foreground and two sticks from the first frame. The same TWO sticks are still gripped one per hand and their tips still touch at the same visible crossing. A small orange flame, only about one monkey palm tall, now rises from those touching wood tips and their frayed fibers. The touching tips have darkened slightly; the cool held ends remain ordinary brown wood. The monkey stops rubbing, lifts its shoulders, leans back a little and looks wide-eyed at the unexpected flame with a small surprised open monkey mouth. Keep both hands gripping the same cool ends away from the flame; no dropped sticks or injuries. The flame stays rooted to the wood contact. Keep the background and afternoon light stable, with only a tiny warm reflection near the contact. No banana, third stick, log, extra hand, fireball or floating flame.\n\nExactly one friendly cocoa-brown storybook monkey with the same tan muzzle and belly, rounded ears, expressive dark eyes, small natural monkey mouth, ordinary compact monkey limbs and one attached long curved tail as the supplied scene. Preserve its proportions and painting. No clothes or accessories; no other characters.\n\nSoft matte gouache illustration, layered brushwork, broad readable shapes, gently softened painted edges and subtle paper texture. Preserve the reference monkey and woodland paint, warm afternoon sun and cool sage shadows. No outlines, glossy3D rendering, text, captions or watermark.\n\nThe supplied first frame is the exact design/continuity input: keep both existing sticks, their full shafts, the single visible X-shaped contact, both grips and the clear ground. Do not introduce a third stick or a support log. Keep the little fire confined to the existing X contact, well away from his face.",
+        "aspect_ratio": "9:16",
+        "reference_images": [
+          "920bf419-89b0-4906-bd2f-aff6d6d8950f"
+        ],
+        "resolution": "2k",
+        "thinking_level": "medium"
+      }
+    }
+  ],
+  "adjustments": {
+    "medias[0].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+    }
+  }
+}

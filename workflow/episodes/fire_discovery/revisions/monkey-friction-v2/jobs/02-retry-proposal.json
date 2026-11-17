@@ -1,0 +1,33 @@
+{
+  "params": {
+    "model": "gemini_omni_flash_1_2",
+    "mode": "image-to-video",
+    "resolution": "1080p",
+    "aspect_ratio": "9:16",
+    "duration": 5,
+    "count": 1,
+    "prompt": "Animate exactly the supplied first and last images. The monkey RUBS the two crossed sticks together; it does not tap them or lift them apart. Keep the stick held in the monkey's right hand almost stationary at its supplied upward-left diagonal. Slide the stick in its left hand a short distance forward and backward ALONG ITS OWN LENGTH, pressed against the stationary stick at the visible X crossing. The shafts stay visibly touching at that crossing during every rubbing stroke. Use three small controlled sliding strokes during0.3–2.2s. No striking arc, separate vertical stick pose, air gap, changing grip or hand swap. Preserve exactly two sticks and one stick per hand.\n\nA tiny wisp appears on the rubbed upper wood, and both exposed upper ends catch small flames around2.4s. The monkey stops sliding, keeps both crossed sticks in its hands, raises its shoulders and makes one compact surprised reaction by3.2s. End in the supplied final pose with both small flames rooted to the wood. Keep the seated stone contact, planted feet, attached tail and forest unchanged. Gentle flame flicker and a brief natural blink/breath continue to5s; no prolonged whole-frame freeze.\n\nPreserve the exact supplied monkey proportions and soft matte gouache painting. Background shapes and paint texture remain stable. Keep moving stick and hand edges crisp at each held pose; no smeared paint, motion blur, embossed or sharpened contour artifacts, extra limbs or extra sticks. Static camera. Normal-speed action on twos at30fps, identical complete two-frame states,15 updates per second. No interpolation or blending. No generated speech, music, sound effects, text or captions.",
+    "medias": [
+      {
+        "role": "start_image",
+        "value": "920bf419-89b0-4906-bd2f-aff6d6d8950f"
+      },
+      {
+        "role": "end_image",
+        "value": "438464fe-6a39-4bc6-9bab-93955efea217"
+      }
+    ]
+  },
+  "approved_frames": {
+    "first": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-first-v2.png",
+      "sha256": "4de32def65c8c39ff24053d8e248cc7e1ad26981b28227293a54b5208c06c4e3"
+    },
+    "last": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-last-v2.png",
+      "sha256": "bb1657fac38db89fcb1fcb6916c69eaeb43589b4e590e1ed9249eed6aec1905c"
+    }
+  },
+  "submission_performed": false,
+  "authorization_status": "Prepared proposal only; awaiting paid regeneration authorization under workflow/AGENTS.md."
+}
