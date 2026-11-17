@@ -1,0 +1,205 @@
+{
+  "type": "independent diagnostic only; not a canonical approval report",
+  "created_at": "2026-11-17T00:45:42.401881+00:00",
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "status": "rejected_for_visible_freeze",
+  "canonical_review_recorded": false,
+  "production_selection": false,
+  "packet_id": "0a1a71ca680d88f8498c290abe80f0a26f70138eca416f3327a45065c310e0fb",
+  "packet": "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/packet.json",
+  "clip": {
+    "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/clips/01-no-ripple.mp4",
+    "sha256": "c1c792235d317da8d24f3c62b35e89aaaef0b42549ad2212075aa92e04f35b2e"
+  },
+  "preview": {
+    "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/renders/fireplace-no-ripple-preview.mp4",
+    "sha256": "26a6efb87fad04c3d0f682755a26fc506cad97e2cee29408cfa558ee9c26b2a6"
+  },
+  "latest_user_feedback": {
+    "quote": "why does it freeze 2 seconds after",
+    "source": "Parent relayed latest direct user response to the preview. This supersedes the proposed hold workaround; it is not accepted."
+  },
+  "method": "Read the current full script/storyboard, Scene01 context and confirmed cue timing. Opened all four chronological pages, current native detail frames at 0, .366667, .500, .733333, 1.500 and 2.300 seconds, frame comparison, and a fresh unscaled native character crop for every unique even frame0\u201318. Compared with original mascot, identity example and paint references already opened in this continuing independent review. Inspected actual rendered preview samples at frames0,3,10,18,24,36,48,56,60,69 plus full-resolution frame36. This is frame-based visual inspection, not a real-time playback or audio-listening claim. Repair receipt supplies exact source mapping and pair-hash verification; not treated as semantic proof.",
+  "coverage": {
+    "source_frames": 70,
+    "fps": 30,
+    "duration_sec": 2.3333333333333335,
+    "all_chronological_pages_opened": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg"
+    ],
+    "fresh_native_unique_crop": {
+      "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/reviews/independent/native-unique-states.jpg",
+      "crop_xywh": [
+        300,
+        1000,
+        450,
+        620
+      ],
+      "row_major_source_frames": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ]
+    },
+    "preview_sample_frames": [
+      0,
+      3,
+      10,
+      18,
+      24,
+      36,
+      48,
+      56,
+      60,
+      69
+    ]
+  },
+  "observations": [
+    {
+      "topic": "Repeated ripple removed",
+      "frames": [
+        0,
+        18,
+        20,
+        69
+      ],
+      "time_sec": [
+        0,
+        0.6,
+        0.6666666666666666,
+        2.3
+      ],
+      "observed": "The short source arm raise is preserved, but the repeated left/right layer wave from original frames20\u201341 and later40-to62 pose jump are absent. Initial retained frames contain small single connected tip follow-through; there is no continuing traveling wave after the raised-arm pose."
+    },
+    {
+      "topic": "Freeze \u2014 blocker",
+      "frames": [
+        18,
+        69
+      ],
+      "time_sec": [
+        0.6,
+        2.3333333333333335
+      ],
+      "observed": "The entire painted scene, including Sol and the separate hearth fire, holds source18/19 from .600 through2.333 seconds (1.733 seconds). Newly repeated output20\u201369 comprises1.667 seconds. This is plainly a still pose; it is not continuous restrained motion or listening idle. The latest user response rejects this tradeoff."
+    },
+    {
+      "topic": "Identity, eyes and contours",
+      "frames": [
+        0,
+        10,
+        12,
+        14,
+        16,
+        18,
+        69
+      ],
+      "time_sec": [
+        0,
+        0.3333333333333333,
+        0.4,
+        0.466667,
+        0.533333,
+        0.6,
+        2.3
+      ],
+      "observed": "Retained states preserve broad cream/orange/red layering, short attached arms, stubby supported feet and the mouthless face. Both eyes briefly close in frames12\u201317 and return to navy ovals at18. No detached Sol flecks, later red emission residue, mouth or obvious contour repair cut appears in retained states. The held tip leans slightly left versus the original approved last image; character identity and intended small near-fire raised-arm gesture remain recognizable. This observation does not override the freeze rejection."
+    },
+    {
+      "topic": "Setting and object continuity",
+      "frames": [
+        0,
+        18,
+        69
+      ],
+      "time_sec": [
+        0,
+        0.6,
+        2.3
+      ],
+      "observed": "Christmas tree, presents, three stockings, wreath, logs, basket, rug and framing remain consistent. No large whole-room geometry warp is evident in the retained short motion. Hearth movement also stops at the hold; that is part of the rejected defect."
+    },
+    {
+      "topic": "Script and voice scope",
+      "frames": [
+        3,
+        18,
+        56,
+        69
+      ],
+      "time_sec": [
+        0.1,
+        0.6,
+        1.8666666666666667,
+        2.3
+      ],
+      "observed": "Current Scene01 has only Sol asking Who actually discovered fire? Existing cue is .080\u20131.886 seconds at1x; no Narrator turn or upward-attention requirement occurs here. The preview edit uses that unchanged recording and caption .080\u20131.846313. This review does not claim audible sync or audio quality from frame inspection."
+    },
+    {
+      "topic": "Rendered preview caption/crop",
+      "frames": [
+        0,
+        3,
+        10,
+        18,
+        24,
+        36,
+        48,
+        56,
+        60,
+        69
+      ],
+      "time_sec": [
+        0,
+        0.1,
+        0.3333333333333333,
+        0.6,
+        0.8,
+        1.2,
+        1.6,
+        1.8666666666666667,
+        2,
+        2.3
+      ],
+      "observed": "Actual preview samples show the complete two-line white/orange caption below the feet, clear margins and no framing jump; caption is absent at frame0 and in sampled tail frames56/60/69. No mouth or particles reintroduced in these rendered samples. The long whole-scene stillness remains visible."
+    }
+  ],
+  "disposition": "Do not register a pass or select this candidate for production. Preserve source, preview and diagnostic evidence. Parent is pursuing an independently reviewable replacement using the already-approved frame pair. This report neither authorizes nor approves new Scene02 monkey stills or animation.",
+  "evidence_hashes": {
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/sequence-01.jpg": "9b77426586898aa6cec39c2d1028d5ff4d93aff41e7332fa883e4f9bfc7eeaa3",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/sequence-02.jpg": "4c4c4263b84901099bbd1beaece6ad69ba421736fcc2a13ecc87da37e80c671a",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/sequence-03.jpg": "8af5c3b96fc5b12da39147a149ff47ab54888cea82377874592a20d4e4a749ae",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/sequence-04.jpg": "45057211f88f202e5890520faea329803e00117706ad4bced017bf6eea716143",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/frame-comparison.jpg": "5fc7d07dc384bfa7367c7c33e0715d512569bba73a6230e1b420c983f814a2d7",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/detail/frame-000001.jpg": "2da27ae75fb01a7883c0e7fed4415f2bd1937449f602a60a94d3660c3fc98789",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/detail/frame-000004.jpg": "94d8ebc7bf13cb44430bea1d361105f6bebad84336bb21e932fe1422b924ecba",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/detail/frame-000005.jpg": "54578f9df7114a6c85420717ff26ac7c53fd84c720ac993a5c725386ef2baed3",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/detail/frame-000006.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/detail/frame-000008.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/detail/frame-000010.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/script-storyboard.txt": "9608440ffa8697abf52bf627adf6cf17480567ce6d1cbbb8316187765a364b55",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/script-context.json": "0dfab368faf8268c92cd0c44bd9992ef830f4204bcf7d5e6323faa6662411325",
+    "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01/clip/0a1a71ca680d88f8498c/evidence/voice-cues.json": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+  },
+  "supplemental_evidence_hashes": {
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/reviews/independent/native-unique-states.jpg": "758a05082a7dc3904ae9458b893cf3d13cf210dd01d6d55b4db0ce9d32130e47",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/reviews/independent/preview-samples.jpg": "bd7fa643d91f5d34fb99ebddec08b920cc46ee7ebd83535a9ae7fd2f04596575",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/reviews/independent/preview-native36.jpg": "51d05abe7c0b9e4cc7f85edc9bb084183e0148d1868c4023eaab5a70f053645a",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/reviews/repair.json": "34cd20c7e69a7990d72f3b40e5b63dfc4f09e62f70ef88d72a67f030d49cc2fe"
+  },
+  "limitations": [
+    "No audio listening or real-time playback claim.",
+    "No review or approval of the proposed monkey Scene02.",
+    "This record is a factual diagnostic of a rejected hold workaround; clean-frame findings do not establish user acceptance or production approval."
+  ]
+}

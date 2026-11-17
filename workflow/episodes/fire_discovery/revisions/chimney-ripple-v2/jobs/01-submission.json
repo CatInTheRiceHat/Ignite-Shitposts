@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "id": "ac7d0103-d482-4ec6-8817-e8f759cbf7e5",
+      "type": "video",
+      "status": "pending",
+      "model": "gemini_omni_flash_1_2",
+      "params": {
+        "prompt": "Animate the supplied first image to the supplied last image as one quiet3-second painted shot. Preserve exactly the Christmas room, locked camera, character design, colors and object positions in those two images.\n\nSol is a solid painted mascot, NOT a simulation of real fire. His interior red/orange/cream regions stay joined and stable like paint on one compact form. Keep his original broad cream face, normal navy oval eyes, short rounded arms and tiny supported feet. The area under his two eyes stays completely blank and mouthless. No torso waves, jelly deformation, flowing bands, texture swimming, face drift, elongated arms, sparks, particles or detached flame flicks.\n\nOne action: during0.0–1.2s lift only his short arm nearest the hearth through a small direct questioning arc, arriving at the supplied last-frame arm position. Keep feet planted. Allow a tiny connected tip follow-through that settles by1.8s, without leaning the whole body back and forth. A brief natural paired blink may close and reopen his original dark oval eyes once. Keep that restrained questioning pose thereafter with a barely perceptible attached tip movement. Do not restart the gesture or add a nod.\n\nThe separate wood fire in the fireplace gently flickers from beginning to end, attached to the same logs, with subtle local warm light changes. Sol stays filled and solid. Hearth flicker continues even when Sol's arm rests; do not freeze the full image for a long hold. Room, stockings, tree, rug, window and paper texture remain stable. No camera movement.\n\nSoft matte gouache paint, layered colors and subtle paper texture across everything, matching the exact supplied artwork. Animate on twos at final30fps: unchanged complete two-frame states,15 updates per second, normal-speed action, no interpolation or blending. This cadence is not a request for a long frozen shot. No speech, music, sound effects, text or captions. End in the supplied last-frame composition.",
+        "aspect_ratio": "9:16",
+        "duration": 3,
+        "reference_images": [
+          "a1492bc0-9dd6-499d-921b-a3aa526cf882",
+          "f7c04fcd-f429-4b12-a01f-5e216895b0f2"
+        ],
+        "mode": "image-to-video",
+        "resolution": "1080p"
+      }
+    }
+  ]
+}

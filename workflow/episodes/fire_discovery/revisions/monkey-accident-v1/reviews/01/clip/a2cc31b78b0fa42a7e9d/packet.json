@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "packet_id": "a2cc31b78b0fa42a7e9d8de1dd61edf6987345dfae3a0ad9a571b663c5686506",
+  "binding": {
+    "scene": "01",
+    "stage": "clip",
+    "contract_sha256": "2116ff4097af5979410094519a5ce434c730d19cc2d28a396647d86a69ca32d6",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/keyframes/01-first.png",
+        "sha256": "0ee6b0d1079f52f483521dc02949625d8f3923bdcffbd49f4e4b6de6735a6f7d"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/keyframes/01-last.png",
+        "sha256": "98e9c4f09b3640f770b8651a0cbc46942d8f2434518ffa03c7a109c73cdfe475"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/script.txt",
+      "sha256": "d556042e5f86f7cbd348d87d9b8eb1be1fcc8c3c161d96fc522635f0d85b7a75"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "audio_sources": {
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+        "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+      },
+      "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+        "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+        "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+      },
+      "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+        "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+        "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+      },
+      "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+        "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+        "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+      },
+      "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+        "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+        "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+      },
+      "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+        "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+        "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+      },
+      "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+        "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+        "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+      },
+      "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+        "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v1/clips/01-no-ripple.mp4",
+      "sha256": "c1c792235d317da8d24f3c62b35e89aaaef0b42549ad2212075aa92e04f35b2e"
+    }
+  },
+  "created_at": "2026-11-17T00:42:02.717008+00:00",
+  "contract": {
+    "policy": {
+      "version": 1,
+      "user_frame_approval_required": true,
+      "independent_clip_review_required": true,
+      "checks": {
+        "reference_match": "Where Sol is visible, compare the COMPLETE original mascot at a similar size: silhouette, tip/lobes, red/orange/cream contour paths and widths, face/eye proportions and limbs. Do not pass a generic flame character. Where Sol is off-screen, compare the planned setting/props and approved frame pair without requiring him. Keep user design approval separate. Allow the latest requested small action-driven body/flame wobble; judge identity by recognizable compact design, coherent colored layers and settled endpoints, rather than requiring a rigid silhouette at every intermediate pose.",
+        "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals, with reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to those original ovals. Keep the face attached to the body. Intentional scripted gaze shifts may move the original ovals coherently as a pair inside the face; preserve their normal design, size and spacing. No whites, highlights, extra pupils, unrelated expressive eye morphs, winks or facial-feature drift. No independent face slide/rotation, neck or body reshaping to fake a separate head turn.",
+        "flame_and_limbs": "Preserve the recognizable original flame design, red/orange/cream layer relationships, reference compact form and stubby limb lengths/attachment points. Allow small coordinated body/tip/lobe flex and soft follow-through tied to the main action, settling to reference endpoint proportions. Do not reject that requested bounce as a deformation by itself. Reject inflated or remodeled anatomy, independent layer slippage, uncontrolled stretching, new limbs or a different mascot. Keep feet supported unless a step/hop is scripted. Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+        "framing_and_props": "Match the active scene first/last crops, camera, required character/prop counts and physical attachments. Apply only episode-specific requirements; an earlier episode does not supply mandatory props for a new story.",
+        "contacts_and_action": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement. Verify stable prop contact and sequential placement/support/release/withdrawal where applicable.",
+        "mechanical_direction": "Inspect consecutive real frames for the planned direction, rigid connections when present, and causal order of physical events. Do not infer correct movement or causality from a prompt, label, endpoint or successful decode.",
+        "object_continuity": "Maintain the identity and count of planned objects. A tracking mark, when present, stays attached to the same object and cannot jump, multiply or fade to fake movement. Fire may flicker or fuel may glow only as the approved action requires. Anchor actual fire to its ignition/fuel contact; any animated local lighting follows the two-frame cadence without unplanned whole-scene brightness pulsing. A transient painted effect must disappear completely when the shot requires it. Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+        "start_end_states": "The actual first/last footage frames match the user-approved stills and the required resulting pose/mechanism state.",
+        "performance_and_timing": "Inspect actual source-frame pairs on final 30 fps timeline: each pose/painted state unchanged for two frames, 15 pose updates per second at normal speed; longer holds use complete pairs. Apply to Sol, visible human hands, moving props, flames and animated local lighting. Background and painted surface texture stay stable. Reject interpolation, blending, optical-flow smoothing and motion blur concealing steps. Check source cadence before smooth editorial transforms, then final playback/crops. Verify planned action and ending hold against actual voice timestamps; no default Narrator face turn. Sol may be absent. Judge small bouncy body/flame follow-through as intended Sol performance under the latest user clarification. It must be connected to the action, readable on twos and settled at the approved end; a brief natural blink is permitted; unrelated eye morphs, prolonged squinting and facial sliding remain failures. During visible Narrator turns, maintain above-camera gaze and gentle listening idle throughout; that requested idle is intentional, not an unrequested sway. Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+        "clean_footage": "No unintended text, logos, props, narrator on screen, audio or other generation artifacts. Inspect all frames, not only the endpoints. Reject all detached Sol sparks, flecks, droplets or flame particles under the latest particle-free direction.",
+        "painted_art_style": "Visible soft gouache-like brushwork, layered color, subtle paper texture and expressive painted shapes cover Sol, props and environment consistently. Forms use light/color without inked outlines. Compare the selected graphic references. A smooth logo-like mascot with only a grain overlay fails even if its geometry is correct. Preserve the source character and clear mechanical contacts through the paint.",
+        "script_and_narrator_attention": "Read the actual complete script/storyboard and the bound per-scene dialogue/attention context, not only the video prompt. Match every spoken turn to the visible beat. Whenever Narrator speaks and Sol is visible, establish his gaze UP to the fixed above-camera voice before the first word and maintain it through the whole turn, with gentle coherent flame/body listening idle and no repeated arm gestures. Intentional paired eye-gaze adjustment is allowed while preserving the normal oval design, size, navy fill and spacing; no unmotivated feature drift or separate head. Compare actual voice cues/recordings when bound; otherwise label speech timing provisional and do not claim final synchronization. For Sol-off-screen cutaways, verify the mechanism follows the scripted explanation without inventing an invisible gaze. Evidence must include the actual script, script-context JSON and chronological/detail frames at relevant times."
+      },
+      "review_rules": [
+        "A technical probe or contact-sheet extraction is preparation, never a visual approval.",
+        "The user must see and explicitly approve BOTH first and last stills before video generation. The generator cannot approve them on the user's behalf.",
+        "A dedicated reviewer inspects actual evidence independently of generation. Every required check needs pass, fail or uncertain with evidence.",
+        "Fail, uncertain, missing evidence, missing user frame approval or a changed input blocks production approval.",
+        "Reviewing a clip does not authorize another paid generation. Preserve rejected takes.",
+        "Character geometry and painted art style must each pass. Approval of one does not establish the other or approve the complete frame pair.",
+        "Record frame-index/timestamp evidence for exact two-frame cadence, facial anchoring and hand-prop contact. Prompt wording or 30 fps metadata alone does not prove these checks passed.",
+        "Latest user direction supersedes the earlier rigid-body/no-bounce default: allow small coherent movement-triggered Sol wobble, but preserve original eyes, stubby anatomy, settled endpoints and approved soft paint. Historical rejections retain their original contracts.",
+        "Latest user clarification: allow a brief natural blink that returns to the original open navy oval design. Model preference is Omni Flash 1.2 after the comparison. Preserve material observations, but do not apply the superseded blanket no-blink rule.",
+        "Every review must bind the actual script/storyboard and available voice-cue/audio sources. A pass requires script plus actual timeline evidence for script_and_narrator_attention; a changed script, cue file or recording invalidates prior decisions. Never infer speech timing from silent media.",
+        "User approved the displayed02/05 body-tilt still pairs and requested flowing bouncy pose transitions. Still acceptance does not prove upward attention, listening idle or dialogue timing in generated clips; inspect those with script/timeline evidence.",
+        "Latest user request scraps all Sol particles and uses gentle connected wiggle only. Earlier tiny-flick permissions are superseded; preserve historical rejected takes. Review every scene with actual script, voice cues and recorded audio hashes."
+      ],
+      "script_review_required": true
+    },
+    "scene": {
+      "id": "01",
+      "first_frame": "Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.",
+      "last_frame": "The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.",
+      "action": "At normal speed, lift only the short near-fire arm once into a compact questioning gesture during0.0–0.6s. A brief natural blink returns immediately to the original navy ovals. Settle in that clean actual source pose from0.600s through the2.333s edit. Keep the whole painted frame stable during this complete-pair hold. No traveling wave through the flame layers, jelly-like body warping, surface ripple, secondary gesture or later pose jump. The character stays mouthless with supported feet and original proportions.",
+      "framing_prompt": "Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.",
+      "camera": {
+        "shot_size": "Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.",
+        "movement": "Fixed source camera",
+        "editing": "No automatic push."
+      },
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Who actually discovered fire?"
+        }
+      ],
+      "performance_beats": [
+        {
+          "cue": "0.0–0.6s",
+          "body": "One compact near-fire arm raise with supported feet.",
+          "gaze": "Fireplace, as in existing approved first pose."
+        },
+        {
+          "cue": "0.6–2.333s",
+          "body": "Deliberate stable questioning pose; no body waves.",
+          "gaze": "Same fireplace-facing direction."
+        }
+      ],
+      "sol_visible": true,
+      "image_prompts": {
+        "first": "Create a complete new vertical painted scene: Sol beside a fireplace in a detailed Christmas living room.\n\nA richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.\n\nMedium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.\n\nExactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.\n\nPreserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.",
+        "last": "Use the supplied Christmas first frame as the exact composition reference. Create its matching last still, changing only Sol's small near-fire arm gesture.\n\nThe same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.\n\nPreserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.\n\nKeep the warm lighting, every background object, framing, floor contact and Sol design consistent with the supplied first frame."
+      },
+      "video_prompt": "Over the first1.6s, lift only the short arm nearest the fireplace along one small direct path toward the burning logs as Sol asks his question. Add gentle connected body/tip wiggle that follows the gesture and settles, keeping both feet supported. Preserve Sol's original small dark oval eyes, mouthless face and short limbs. The low fire flickers while attached to its three logs. Keep all Christmas decorations, tree lights, snowy window view, rug, furniture and camera stable. End in the supplied small questioning pose by2.0s and hold through the3s source tail. No walking, hopping, independent face turn or emitted particles.\n\nPreserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.\n\nAnimate on twos at final30fps: every source pose or painted state stays unchanged for two consecutive frames,15 updates per second at normal speed; longer holds use complete pairs. Apply to Sol, wood fire and local animated light. Background, Christmas lights and paint texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify during editing. No generated speech, music, effects, text or captions.",
+      "start_sec": 0,
+      "end_sec": 2.3333333333333335,
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": null,
+        "coverage": "Only Sol speaks; no Narrator attention cue in this scene.",
+        "final_voice_alignment_verified": false
+      },
+      "timing_status": "Actual existing voice windows retained; alignment to replacement animation unverified."
+    },
+    "style": {
+      "still": "workflow/assets/reference-art/Mascot.png",
+      "identity_examples": [
+        "workflow/assets/reference-art/Microphone.png"
+      ],
+      "paint": "workflow/assets/reference-art/Spring.jpg",
+      "paint_examples": [
+        "workflow/assets/reference-art/Spring.jpg",
+        "workflow/assets/reference-art/Practical Learning.jpg",
+        "workflow/assets/reference-art/Thank You.jpg"
+      ],
+      "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "frame_pair_approved": false
+    },
+    "composition_rules": {
+      "captions": "Important action stays above y=76%; lower foreground near y=80–90% stays quiet for editable captions.",
+      "character_count": "One Sol in01, no Sol in02/03/04, exactly three in05. Only foreground-right Sol speaks in05.",
+      "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
+      "narrator_eyeline": "MANDATORY whenever Narrator speaks with Sol visible: gaze UP to the fixed voice just above camera before the first word and throughout the turn, with gentle listening idle. A short silent gaze transition may precede voice onset; final windows follow real normal-rate recordings.",
+      "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+    },
+    "script": {
+      "source": {
+        "path": "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/script.txt",
+        "sha256": "d556042e5f86f7cbd348d87d9b8eb1be1fcc8c3c161d96fc522635f0d85b7a75"
+      },
+      "scene_script_excerpt": "SCENE 01 — A question beside the Christmas fireplace — edit2.333s (0.000–2.333s)\nSetting: A richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.\nFraming: Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.\nFirst frame: Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.\nAction: At normal speed, lift only the short near-fire arm once into a compact questioning gesture during0.0–0.6s. A brief natural blink returns immediately to the original navy ovals. Settle in that clean actual source pose from0.600s through the2.333s edit. Keep the whole painted frame stable during this complete-pair hold. No traveling wave through the flame layers, jelly-like body warping, surface ripple, secondary gesture or later pose jump. The character stays mouthless with supported feet and original proportions.\nLast frame: The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.\nSol: “Who actually discovered fire?”\nSpeaker cues: Existing01-01-sol at local0.080–1.886s, unchanged1x.\nNarrator attention: Only Sol speaks; no Narrator attention cue in this scene.\nNext cut: Hard cut from the richly decorated Christmas fireplace to the approved golden late-afternoon natural-fire landscape, introducing historical context.\nSource selection: original frames0–19 then hold18/19 through70frames at30fps. No re-generation. Full-frame hold includes hearth fire; this is a motion-cleanup preview for review.\nMotion: exact unchanged two-frame states at30fps, normal-speed action and1x speech.\n\n",
+      "dialogue": [
+        {
+          "speaker": "Sol",
+          "text": "Who actually discovered fire?"
+        }
+      ],
+      "narrator_attention": {
+        "required": false,
+        "gaze_target": null,
+        "coverage": "Only Sol speaks; no Narrator attention cue in this scene.",
+        "final_voice_alignment_verified": false
+      },
+      "timing": {
+        "source": {
+          "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+          "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+        },
+        "cues_confirmed": true,
+        "alignment_verifiable": true,
+        "basis": "confirmed cues and recordings"
+      },
+      "audio_sources": {
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+          "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+        },
+        "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+          "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+          "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+        },
+        "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+          "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+          "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+        },
+        "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+          "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+        },
+        "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+          "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+        },
+        "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+          "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+          "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+        },
+        "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+          "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+        },
+        "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+          "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+        },
+        "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+          "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+        },
+        "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+          "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+        },
+        "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+          "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+          "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+        }
+      }
+    }
+  },
+  "technical": {
+    "decode": "passed",
+    "duration_sec": 2.333333,
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "audio_streams": 0
+  },
+  "coverage": {
+    "source_frames": 70,
+    "all_frames_extracted": true,
+    "source_timestamps": "evidence/frame-index.json",
+    "sequence_pages": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg"
+    ],
+    "full_resolution_samples": [
+      {
+        "index": 0,
+        "time_sec": 0.0,
+        "image": "evidence/detail/frame-000001.jpg"
+      },
+      {
+        "index": 4,
+        "time_sec": 0.133333,
+        "image": "evidence/detail/frame-000002.jpg"
+      },
+      {
+        "index": 7,
+        "time_sec": 0.233333,
+        "image": "evidence/detail/frame-000003.jpg"
+      },
+      {
+        "index": 11,
+        "time_sec": 0.366667,
+        "image": "evidence/detail/frame-000004.jpg"
+      },
+      {
+        "index": 15,
+        "time_sec": 0.5,
+        "image": "evidence/detail/frame-000005.jpg"
+      },
+      {
+        "index": 22,
+        "time_sec": 0.733333,
+        "image": "evidence/detail/frame-000006.jpg"
+      },
+      {
+        "index": 30,
+        "time_sec": 1.0,
+        "image": "evidence/detail/frame-000007.jpg"
+      },
+      {
+        "index": 45,
+        "time_sec": 1.5,
+        "image": "evidence/detail/frame-000008.jpg"
+      },
+      {
+        "index": 60,
+        "time_sec": 2.0,
+        "image": "evidence/detail/frame-000009.jpg"
+      },
+      {
+        "index": 69,
+        "time_sec": 2.3,
+        "image": "evidence/detail/frame-000010.jpg"
+      }
+    ],
+    "sampling_is_not_approval": true
+  },
+  "evidence": [
+    "evidence/detail-index.json",
+    "evidence/detail/frame-000001.jpg",
+    "evidence/detail/frame-000002.jpg",
+    "evidence/detail/frame-000003.jpg",
+    "evidence/detail/frame-000004.jpg",
+    "evidence/detail/frame-000005.jpg",
+    "evidence/detail/frame-000006.jpg",
+    "evidence/detail/frame-000007.jpg",
+    "evidence/detail/frame-000008.jpg",
+    "evidence/detail/frame-000009.jpg",
+    "evidence/detail/frame-000010.jpg",
+    "evidence/first.jpg",
+    "evidence/frame-comparison.jpg",
+    "evidence/frame-index.json",
+    "evidence/frames/frame-000001.jpg",
+    "evidence/frames/frame-000002.jpg",
+    "evidence/frames/frame-000003.jpg",
+    "evidence/frames/frame-000004.jpg",
+    "evidence/frames/frame-000005.jpg",
+    "evidence/frames/frame-000006.jpg",
+    "evidence/frames/frame-000007.jpg",
+    "evidence/frames/frame-000008.jpg",
+    "evidence/frames/frame-000009.jpg",
+    "evidence/frames/frame-000010.jpg",
+    "evidence/frames/frame-000011.jpg",
+    "evidence/frames/frame-000012.jpg",
+    "evidence/frames/frame-000013.jpg",
+    "evidence/frames/frame-000014.jpg",
+    "evidence/frames/frame-000015.jpg",
+    "evidence/frames/frame-000016.jpg",
+    "evidence/frames/frame-000017.jpg",
+    "evidence/frames/frame-000018.jpg",
+    "evidence/frames/frame-000019.jpg",
+    "evidence/frames/frame-000020.jpg",
+    "evidence/frames/frame-000021.jpg",
+    "evidence/frames/frame-000022.jpg",
+    "evidence/frames/frame-000023.jpg",
+    "evidence/frames/frame-000024.jpg",
+    "evidence/frames/frame-000025.jpg",
+    "evidence/frames/frame-000026.jpg",
+    "evidence/frames/frame-000027.jpg",
+    "evidence/frames/frame-000028.jpg",
+    "evidence/frames/frame-000029.jpg",
+    "evidence/frames/frame-000030.jpg",
+    "evidence/frames/frame-000031.jpg",
+    "evidence/frames/frame-000032.jpg",
+    "evidence/frames/frame-000033.jpg",
+    "evidence/frames/frame-000034.jpg",
+    "evidence/frames/frame-000035.jpg",
+    "evidence/frames/frame-000036.jpg",
+    "evidence/frames/frame-000037.jpg",
+    "evidence/frames/frame-000038.jpg",
+    "evidence/frames/frame-000039.jpg",
+    "evidence/frames/frame-000040.jpg",
+    "evidence/frames/frame-000041.jpg",
+    "evidence/frames/frame-000042.jpg",
+    "evidence/frames/frame-000043.jpg",
+    "evidence/frames/frame-000044.jpg",
+    "evidence/frames/frame-000045.jpg",
+    "evidence/frames/frame-000046.jpg",
+    "evidence/frames/frame-000047.jpg",
+    "evidence/frames/frame-000048.jpg",
+    "evidence/frames/frame-000049.jpg",
+    "evidence/frames/frame-000050.jpg",
+    "evidence/frames/frame-000051.jpg",
+    "evidence/frames/frame-000052.jpg",
+    "evidence/frames/frame-000053.jpg",
+    "evidence/frames/frame-000054.jpg",
+    "evidence/frames/frame-000055.jpg",
+    "evidence/frames/frame-000056.jpg",
+    "evidence/frames/frame-000057.jpg",
+    "evidence/frames/frame-000058.jpg",
+    "evidence/frames/frame-000059.jpg",
+    "evidence/frames/frame-000060.jpg",
+    "evidence/frames/frame-000061.jpg",
+    "evidence/frames/frame-000062.jpg",
+    "evidence/frames/frame-000063.jpg",
+    "evidence/frames/frame-000064.jpg",
+    "evidence/frames/frame-000065.jpg",
+    "evidence/frames/frame-000066.jpg",
+    "evidence/frames/frame-000067.jpg",
+    "evidence/frames/frame-000068.jpg",
+    "evidence/frames/frame-000069.jpg",
+    "evidence/frames/frame-000070.jpg",
+    "evidence/last.jpg",
+    "evidence/paint.jpg",
+    "evidence/reference.jpg",
+    "evidence/script-context.json",
+    "evidence/script-storyboard.txt",
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/voice-cues.json"
+  ],
+  "evidence_sha256": {
+    "evidence/detail-index.json": "739d8771861d083343aef44d1f0c6ef9a01b13a530b1226a6c2a5054123b62a7",
+    "evidence/detail/frame-000001.jpg": "2da27ae75fb01a7883c0e7fed4415f2bd1937449f602a60a94d3660c3fc98789",
+    "evidence/detail/frame-000002.jpg": "7412f35659b626b5fcb3f47f1349d77708c941471629d11ebe2178b2b1e4ba96",
+    "evidence/detail/frame-000003.jpg": "5e792b33c143f6063f129a23fc154b7b80088969b450a9ca30b25c6c01f5df77",
+    "evidence/detail/frame-000004.jpg": "94d8ebc7bf13cb44430bea1d361105f6bebad84336bb21e932fe1422b924ecba",
+    "evidence/detail/frame-000005.jpg": "54578f9df7114a6c85420717ff26ac7c53fd84c720ac993a5c725386ef2baed3",
+    "evidence/detail/frame-000006.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "evidence/detail/frame-000007.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "evidence/detail/frame-000008.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "evidence/detail/frame-000009.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "evidence/detail/frame-000010.jpg": "256aec7beb38911309707c7c04909720744fd90a7d8ee140ce2c5ab117f95fd6",
+    "evidence/first.jpg": "9b1e32c44dd8f7b396d30666a48ec9df6b343e881a826596227d94caf4397f4e",
+    "evidence/frame-comparison.jpg": "5fc7d07dc384bfa7367c7c33e0715d512569bba73a6230e1b420c983f814a2d7",
+    "evidence/frame-index.json": "68701a0f83c31a2bf3806d76ffb348c64df551245a1c1c8b099f97f497dacbdb",
+    "evidence/frames/frame-000001.jpg": "48ef9353e1d260687671ed954b03c89c957d03d151dac57490b25cbccca2d744",
+    "evidence/frames/frame-000002.jpg": "48ef9353e1d260687671ed954b03c89c957d03d151dac57490b25cbccca2d744",
+    "evidence/frames/frame-000003.jpg": "47f40a57085a87367bf9163bb896a10abd7035c7f3b00bc8fb2b1ca4bb4ad0bc",
+    "evidence/frames/frame-000004.jpg": "47f40a57085a87367bf9163bb896a10abd7035c7f3b00bc8fb2b1ca4bb4ad0bc",
+    "evidence/frames/frame-000005.jpg": "eb8764b65f13694d5934021f5cde6b00d67d8d38d11fb54040289891e78ae09a",
+    "evidence/frames/frame-000006.jpg": "eb8764b65f13694d5934021f5cde6b00d67d8d38d11fb54040289891e78ae09a",
+    "evidence/frames/frame-000007.jpg": "a691cb83b09b1dc8f54a082875d7a2c8de2df92efde19278d753918381b76ed7",
+    "evidence/frames/frame-000008.jpg": "a691cb83b09b1dc8f54a082875d7a2c8de2df92efde19278d753918381b76ed7",
+    "evidence/frames/frame-000009.jpg": "0bb51ea814c44de2d591ad3591e59536750227ea30729c8aa79026190e3f5358",
+    "evidence/frames/frame-000010.jpg": "0bb51ea814c44de2d591ad3591e59536750227ea30729c8aa79026190e3f5358",
+    "evidence/frames/frame-000011.jpg": "596ed771bba2e95b3a1b919b7fac70c62bf96f490e4ca29192e96c4e691e1e09",
+    "evidence/frames/frame-000012.jpg": "596ed771bba2e95b3a1b919b7fac70c62bf96f490e4ca29192e96c4e691e1e09",
+    "evidence/frames/frame-000013.jpg": "4bd9a02c5ce1a25a55f100976e83a3982fcc7a1850f454d08f677e0c684a414d",
+    "evidence/frames/frame-000014.jpg": "4bd9a02c5ce1a25a55f100976e83a3982fcc7a1850f454d08f677e0c684a414d",
+    "evidence/frames/frame-000015.jpg": "d4d56b553224847e7bcd6bcdc0bf1384d33c6c1571104bbcbdcf6f3935828f7b",
+    "evidence/frames/frame-000016.jpg": "d4d56b553224847e7bcd6bcdc0bf1384d33c6c1571104bbcbdcf6f3935828f7b",
+    "evidence/frames/frame-000017.jpg": "cc9215057b19f77f0e727aac9fe9d57c9326792930c8c43fdb5696973d7b2807",
+    "evidence/frames/frame-000018.jpg": "cc9215057b19f77f0e727aac9fe9d57c9326792930c8c43fdb5696973d7b2807",
+    "evidence/frames/frame-000019.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000020.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000021.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000022.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000023.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000024.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000025.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000026.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000027.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000028.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000029.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000030.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000031.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000032.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000033.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000034.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000035.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000036.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000037.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000038.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000039.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000040.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000041.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000042.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000043.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000044.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000045.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000046.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000047.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000048.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000049.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000050.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000051.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000052.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000053.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000054.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000055.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000056.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000057.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000058.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000059.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000060.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000061.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000062.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000063.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000064.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000065.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000066.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000067.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000068.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000069.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/frames/frame-000070.jpg": "a7b12a6e06552de5f58d786e9f4a99fea00d89c5901e9590b44fe7af27c1f834",
+    "evidence/last.jpg": "89189c23138341c7dc3f474cc793b8c427c000080cb7c625b12eb2d1e0c95961",
+    "evidence/paint.jpg": "7df5af3ac758a9a2a751be5efe5bb3c3d419cba2170c6b19bd375b2d9916e187",
+    "evidence/reference.jpg": "aff34853c89c3c55b8af6a867726f50a754851b9276e944d76726bf93a38f432",
+    "evidence/script-context.json": "f64cefff27e148e016b74d7a63fb69dfb51e99561e221f94b8b07d494dc5891e",
+    "evidence/script-storyboard.txt": "d556042e5f86f7cbd348d87d9b8eb1be1fcc8c3c161d96fc522635f0d85b7a75",
+    "evidence/sequence-01.jpg": "9b77426586898aa6cec39c2d1028d5ff4d93aff41e7332fa883e4f9bfc7eeaa3",
+    "evidence/sequence-02.jpg": "4c4c4263b84901099bbd1beaece6ad69ba421736fcc2a13ecc87da37e80c671a",
+    "evidence/sequence-03.jpg": "8af5c3b96fc5b12da39147a149ff47ab54888cea82377874592a20d4e4a749ae",
+    "evidence/sequence-04.jpg": "45057211f88f202e5890520faea329803e00117706ad4bced017bf6eea716143",
+    "evidence/voice-cues.json": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+  },
+  "state": "awaiting independent visual review"
+}

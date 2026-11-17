@@ -1,0 +1,16 @@
+{
+  "job_id": "ac7d0103-d482-4ec6-8817-e8f759cbf7e5",
+  "raw": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/raw/01-omni.mp4",
+  "clip": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-scene.mp4",
+  "raw_fps": "24/1",
+  "raw_duration_sec": "3.029333",
+  "width": 1080,
+  "height": 1920,
+  "frames": 90,
+  "fps": 30,
+  "frame_pair_mismatches": [],
+  "longest_full_frame_hold_frames": 2,
+  "sha256": "147de08e8bbbee45b5af260611f7401f20bb956aa1097d1067e79db8e6045fac",
+  "conversion": "Normal-speed15fps sampling then exact duplicate states at30fps; losslessH264; no frozen tails, blending, interpolation or optical flow; native audio discarded.",
+  "visual_review": "pending independent actual-frame inspection"
+}

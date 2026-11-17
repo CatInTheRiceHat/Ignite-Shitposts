@@ -1,0 +1,102 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/script.txt",
+    "sha256": "d556042e5f86f7cbd348d87d9b8eb1be1fcc8c3c161d96fc522635f0d85b7a75"
+  },
+  "scene_script_excerpt": "SCENE 01 — A question beside the Christmas fireplace — edit2.333s (0.000–2.333s)\nSetting: A richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with a cluster of differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang across the mantel above the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.\nFraming: Medium-wide full-body portrait view from slightly above Sol eye height, angled gently downward. Sol stands on the rug just in front of the hearth apron at x=47%, feet y=82%, height about24%. The fireplace occupies screen-right, firebox centered x=83%, y=60%; the Christmas tree fills the left background from y=12% to y=66%. A snowy window and armchair sit between tree and fireplace, with garland, three stockings and a wreath above the fire. Keep the visible room, framed object positions, fixed camera and clear gap around Sol. Lower floor area remains available for editable captions.\nFirst frame: Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.\nAction: At normal speed, lift only the short near-fire arm once into a compact questioning gesture during0.0–0.6s. A brief natural blink returns immediately to the original navy ovals. Settle in that clean actual source pose from0.600s through the2.333s edit. Keep the whole painted frame stable during this complete-pair hold. No traveling wave through the flame layers, jelly-like body warping, surface ripple, secondary gesture or later pose jump. The character stays mouthless with supported feet and original proportions.\nLast frame: The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.\nSol: “Who actually discovered fire?”\nSpeaker cues: Existing01-01-sol at local0.080–1.886s, unchanged1x.\nNarrator attention: Only Sol speaks; no Narrator attention cue in this scene.\nNext cut: Hard cut from the richly decorated Christmas fireplace to the approved golden late-afternoon natural-fire landscape, introducing historical context.\nSource selection: original frames0–19 then hold18/19 through70frames at30fps. No re-generation. Full-frame hold includes hearth fire; this is a motion-cleanup preview for review.\nMotion: exact unchanged two-frame states at30fps, normal-speed action and1x speech.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "Who actually discovered fire?"
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": null,
+    "coverage": "Only Sol speaks; no Narrator attention cue in this scene.",
+    "final_voice_alignment_verified": false
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "01",
+  "first_frame": "Exactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms rest low at the outside red flanks, pointing gently downward and leaving the lower cream face completely clear. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.",
+  "action": "At normal speed, lift only the short near-fire arm once into a compact questioning gesture during0.0–0.6s. A brief natural blink returns immediately to the original navy ovals. Settle in that clean actual source pose from0.600s through the2.333s edit. Keep the whole painted frame stable during this complete-pair hold. No traveling wave through the flame layers, jelly-like body warping, surface ripple, secondary gesture or later pose jump. The character stays mouthless with supported feet and original proportions.",
+  "last_frame": "The same Sol in exactly the same Christmas room, camera, scale, facing direction and supported foot positions. Only the short arm nearest the fireplace is raised a little toward the burning logs in one compact questioning gesture; the other arm stays low. Keep the normal original oval eyes, mouthless face, short limbs and all flame layers unchanged. The tree, presents, garland, stockings, wreath, snowy window, firewood basket, throw and rug retain their exact positions.",
+  "performance_beats": [
+    {
+      "cue": "0.0–0.6s",
+      "body": "One compact near-fire arm raise with supported feet.",
+      "gaze": "Fireplace, as in existing approved first pose."
+    },
+    {
+      "cue": "0.6–2.333s",
+      "body": "Deliberate stable questioning pose; no body waves.",
+      "gaze": "Same fireplace-facing direction."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "id": "ef6fd28d-a754-423e-8c94-9fb9fa64aaed",
+      "type": "image",
+      "status": "pending",
+      "model": "nano_banana_2_1",
+      "params": {
+        "prompt": "Use the supplied first frame as the exact character and composition reference. Create the matching last still AFTER the accidental twig drop and small ignition.\n\nKeep the exact same monkey identity, camera, framing, seated foot positions, banana, tree, log, stone and surrounding landscape. The one charred twig is now lying diagonally in the small dry leaf patch immediately below the log. A small warm orange flame, only about one hand tall, is rooted at the twig ember touching those dry leaves. The monkey has drawn its tail safely back toward its own stone, pulled the same banana close to its chest, raised its shoulders and leaned its upper body slightly away in a surprised comic reaction, looking directly at the little flame. Both feet remain supported, both hands still hold the same banana, and the monkey is unhurt. Only a small local amber reflection appears beside the new flame; preserve the golden afternoon light everywhere else. No spreading wildfire, huge fireball, extra props or new character.\n\nExactly one friendly storybook monkey, cocoa-brown fur painted in simple soft masses, a light tan muzzle and belly, two rounded ears, dark expressive eyes, a small natural monkey mouth, four ordinary monkey limbs and one long attached curved tail. It is an animal, not Sol or a flame mascot. It wears no clothes, hat or accessories. No other characters.\n\nSoft matte gouache illustration: visible layered brushwork, broad readable shapes, gently softened painted edges, subtle paper texture and convincing overlapping depth. Paint the monkey, leaves, wood, stone and surroundings together. Warm late-afternoon sunlight, cool sage shadows. No ink outlines, glossy3D rendering, plastic surfaces, text, captions or watermark.\n\nThe supplied first frame controls ALL monkey anatomy, proportions, face, banana, paint finish and the exact woodland composition. Retain the visible background objects and lighting unchanged; only the specified reaction, tail position, dropped twig and small new flame differ. The banana stays in both hands. Make the first-to-last cause and effect readable without captions.",
+        "aspect_ratio": "9:16",
+        "reference_images": [
+          "637fda74-fd3a-4144-9f0e-3ab3f1be75b1"
+        ],
+        "resolution": "2k",
+        "thinking_level": "medium"
+      }
+    }
+  ],
+  "adjustments": {
+    "medias[0].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+    }
+  }
+}

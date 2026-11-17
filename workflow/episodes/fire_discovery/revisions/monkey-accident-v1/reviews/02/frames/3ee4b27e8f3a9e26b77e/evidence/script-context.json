@@ -1,0 +1,100 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/script.txt",
+    "sha256": "e72fa932c171a6b977cf2ebd14be31d1397685d44092289fe486e6b863166dfb"
+  },
+  "scene_script_excerpt": "SCENE 02 — A monkey accidentally spreads an ember — edit4.800s (2.333–7.133s)\nSetting and framing: A sheltered subtropical woodland clearing in golden late-afternoon light. Frame it with a broad tree trunk on the far left, an arch of leafy branches high overhead, layered sage foliage and a distant opening to blue hills. Ferns, roots, scattered broad dry ochre leaves, a few smooth stones and a low naturally charred fallen log make the place feel lived-in by wildlife, without any human-made objects. Keep foreground action distinct from the layered detailed background. Static medium-wide full-body portrait9:16 shot, camera at the seated monkey eye height with a slight downward angle. One small brown monkey sits on a low gray stone at x34%, feet near y73%, body and head together about37% of image height. Its long tail curves rightward behind it. A small charred log rests on bare earth at x61%, y67%; a small patch of dry leaves is immediately in front of it at x64%, y73%. Keep the full monkey, both hands, tail, twig and leaf patch in frame; quiet earth across the lowest17% for editable captions.\nCharacter: Exactly one friendly storybook monkey, cocoa-brown fur painted in simple soft masses, a light tan muzzle and belly, two rounded ears, dark expressive eyes, a small natural monkey mouth, four ordinary monkey limbs and one long attached curved tail. It is an animal, not Sol or a flame mascot. It wears no clothes, hat or accessories. No other characters.\nFirst frame: The monkey is comfortably seated and distracted by one partly peeled banana held in both hands, looking down at the fruit. Its tail tip curves behind it close to the cool dark end of one short charred twig that rests loosely across the low log. The far end of that twig has one tiny clearly visible red-orange ember and a faint wisp of smoke from an earlier natural fire; the glowing tip points away from the animal. The dry leaf patch below is entirely unlit. There are NO visible flames anywhere. Make the gap between twig and leaves readable. The monkey and tail are unharmed.\nAction: Begin at the supplied first frame with the monkey distracted by its banana and the tiny glowing twig still on the log. During0.5–1.5s the monkey absentmindedly sweeps its single tail once; the tail brushes only the cool dark rear end of the twig and accidentally knocks that one twig off the low log into the adjacent dry leaves. Show an uninterrupted short fall and ground contact, without teleporting or changing the twig count. The existing ember contacts the leaves, a little smoke appears, then one small flame catches at that contact around2.2s. The monkey notices it, draws its tail back, pulls the same banana toward its chest and leans its upper body a little away in one surprised reaction by3.0s. Keep its supported seated lower body, anatomy and banana consistent. Hold the readable surprised pose through5s with only a quiet natural blink and small attached fire flicker. Keep the fire small and the monkey unhurt. This is an imagined comic accident with an existing natural ember, not a claim that this monkey invented fire.\nLast frame: Keep the exact same monkey identity, camera, framing, seated foot positions, banana, tree, log, stone and surrounding landscape. The one charred twig is now lying diagonally in the small dry leaf patch immediately below the log. A small warm orange flame, only about one hand tall, is rooted at the twig ember touching those dry leaves. The monkey has drawn its tail safely back toward its own stone, pulled the same banana close to its chest, raised its shoulders and leaned its upper body slightly away in a surprised comic reaction, looking directly at the little flame. Both feet remain supported, both hands still hold the same banana, and the monkey is unhurt. Only a small local amber reflection appears beside the new flame; preserve the golden afternoon light everywhere else. No spreading wildfire, huge fireball, extra props or new character.\nNarrator: “We don't know. Natural fires existed long before people.”\nSpeaker cue: Existing02-01-narrator, local0.800–4.596s, unchanged1x. Sol is absent.\nStory scope: A playful hypothetical accident involving an existing ember; no claim about the first discovery or monkey fire-making.\nGeneration:5s; approved first/last pair required before animation.\nMotion: Locked camera. Animate at normal speed on twos: unchanged consecutive frame pairs at final30fps,15 pose updates per second, with longer holds in complete pairs. Stable painted texture and background; no rippling paint, liquid body deformation, interpolation, frame blending or concealing blur. Only the one tail action, falling twig, small ignition and one reaction. No generated speech, music, effects, captions or text.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people."
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "reason": "Sol is absent; the monkey reacts to the small fire rather than the offscreen voice.",
+    "coverage": "Compare the visible action with the script; no visible Sol attention cue required"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "02",
+  "first_frame": "The monkey is comfortably seated and distracted by one partly peeled banana held in both hands, looking down at the fruit. Its tail tip curves behind it close to the cool dark end of one short charred twig that rests loosely across the low log. The far end of that twig has one tiny clearly visible red-orange ember and a faint wisp of smoke from an earlier natural fire; the glowing tip points away from the animal. The dry leaf patch below is entirely unlit. There are NO visible flames anywhere. Make the gap between twig and leaves readable. The monkey and tail are unharmed.",
+  "action": "Begin at the supplied first frame with the monkey distracted by its banana and the tiny glowing twig still on the log. During0.5–1.5s the monkey absentmindedly sweeps its single tail once; the tail brushes only the cool dark rear end of the twig and accidentally knocks that one twig off the low log into the adjacent dry leaves. Show an uninterrupted short fall and ground contact, without teleporting or changing the twig count. The existing ember contacts the leaves, a little smoke appears, then one small flame catches at that contact around2.2s. The monkey notices it, draws its tail back, pulls the same banana toward its chest and leans its upper body a little away in one surprised reaction by3.0s. Keep its supported seated lower body, anatomy and banana consistent. Hold the readable surprised pose through5s with only a quiet natural blink and small attached fire flicker. Keep the fire small and the monkey unhurt. This is an imagined comic accident with an existing natural ember, not a claim that this monkey invented fire.",
+  "last_frame": "Keep the exact same monkey identity, camera, framing, seated foot positions, banana, tree, log, stone and surrounding landscape. The one charred twig is now lying diagonally in the small dry leaf patch immediately below the log. A small warm orange flame, only about one hand tall, is rooted at the twig ember touching those dry leaves. The monkey has drawn its tail safely back toward its own stone, pulled the same banana close to its chest, raised its shoulders and leaned its upper body slightly away in a surprised comic reaction, looking directly at the little flame. Both feet remain supported, both hands still hold the same banana, and the monkey is unhurt. Only a small local amber reflection appears beside the new flame; preserve the golden afternoon light everywhere else. No spreading wildfire, huge fireball, extra props or new character.",
+  "performance_beats": [
+    {
+      "cue": "0.5–1.5s",
+      "body": "One absent-minded tail sweep knocks the glowing twig into leaves.",
+      "gaze": "Banana until the flame catches; then the small flame."
+    },
+    {
+      "cue": "2.2–3.0s",
+      "body": "One compact surprised lean; banana held at chest; settle."
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "reviewer": "/root/clip_reviewer \u2014 independent actual-footage reviewer",
+  "status": "diagnostic_and_edit_recommendation_only",
+  "user_feedback": "theres a weird ripple animaiton when sol is looking at the chimney",
+  "scope": "Opening01 at0\u20132.333s. Reassessment of generated motion in response to user feedback; prior particle/mouth passes are not acceptance of this ripple.",
+  "method": "Read current shared checklist and episode feedback. Visually inspected all45 chronological native pair states of original and clean-v7 in four1:1 body/nearby-background crop sheets each; inspected targeted native final-export states; compared source18 with approved final still. No real-time playback/audio listening claimed. Shared inspector flags consulted as candidates only. No source footage edited or generated.",
+  "sources": [
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene.mp4",
+      "sha256": "f11bf3e63620fae72afc583e59fb43193f77768d3d6d6ff699360fc4117c0306"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene-clean-v7.mp4",
+      "sha256": "bec7bb00f80e009689930c539eee6327319ed0f1783b87000f00feace937a9ee"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/renders/fire-discovery-scene-refresh-v6-final.mp4",
+      "sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3"
+    }
+  ],
+  "diagnosis": [
+    {
+      "region_xyxy": [
+        330,
+        1100,
+        660,
+        1520
+      ],
+      "source_frames_inclusive": [
+        18,
+        41
+      ],
+      "final_frames_inclusive": [
+        18,
+        41
+      ],
+      "time_sec_inclusive": [
+        0.6,
+        1.366667
+      ],
+      "confidence": "high that deformation exists; likely match to reported ripple",
+      "observation": "After arm lift, upper red/orange/cream contours roll into a stronger lean, reverse, and sweep back again while lower body/eye region moves much less. Left lobe rises into a vertical flap around28\u201340. This is non-rigid flame-layer/body deformation rather than a compact single pose settle. Main repeated wave is20\u201341;18/19 is the last complete open-eyed raised-arm state before it."
+    },
+    {
+      "region_xyxy": [
+        330,
+        1100,
+        710,
+        1580
+      ],
+      "source_frames_inclusive": [
+        0,
+        19
+      ],
+      "time_sec_inclusive": [
+        0,
+        0.633333
+      ],
+      "observation": "A short direct near-fire arm raise and brief paired blink occur. There is one small connected tip follow-through as the gesture finishes, but no subsequent back-and-forth wave.18/19 reopens normal navy ovals with mouthless face, compact limbs, broad cream layer and supported feet."
+    },
+    {
+      "region_xyxy": [
+        330,
+        1100,
+        710,
+        1580
+      ],
+      "source_frames": [
+        40,
+        62
+      ],
+      "final_frames": [
+        40,
+        42
+      ],
+      "time_sec": [
+        1.333333,
+        1.4
+      ],
+      "observation": "Cleanup-v7 skips original42\u201361 and substitutes62, producing a visible change from leaning tip to upright settled tip, followed by a full-scene hold through output63. This adds a stop to the earlier deformation. It did not create the underlying20\u201341 wave, which exists in raw footage."
+    },
+    {
+      "region": "room and hearth",
+      "observation": "Native sheets show no broad wave or structural warp in rug, gift box, chair or hearth stone matching the mascot ripple. Small texture/lighting variation exists, and hearth flame legitimately changes. Background repair boxes are away from the face/layers and do not explain the large contour sweep. Full-frame holds also pause hearth flame."
+    },
+    {
+      "region": "face surface",
+      "observation": "Cream shading bands/edges travel with the non-rigid upper/lower shape changes. No separate circular water-ripple effect or independent face-turn was established. The supported diagnosis is excessive contour/layer undulation, not a claimed specific rendering filter."
+    }
+  ],
+  "available_clean_ranges": [
+    {
+      "source_frames_inclusive": [
+        0,
+        11
+      ],
+      "use": "Low-arm beginning/partial compact raise; no complete raised-arm payoff yet."
+    },
+    {
+      "source_frames_inclusive": [
+        12,
+        17
+      ],
+      "use": "Brief blink plus arm raise; unsuitable as a frozen final state because eyes are closed."
+    },
+    {
+      "source_frames_inclusive": [
+        18,
+        19
+      ],
+      "use": "Recommended complete held final pair. Open eyes, mouthless, no emitted fleck, raised near-fire arm; slight attached tip lean differs from the approved ending but preserves design and gesture."
+    },
+    {
+      "source_frames_inclusive": [
+        20,
+        41
+      ],
+      "use": "Exclude for this correction: enters/repeats exaggerated contour sweep; raw22\u201341 also emits a particle."
+    },
+    {
+      "source_frames_inclusive": [
+        42,
+        61
+      ],
+      "use": "Do not restore raw states: ribbon-overlap emission and mouth52\u201355; v7 currently replaces them."
+    },
+    {
+      "source_frames_inclusive": [
+        62,
+        85
+      ],
+      "use": "Quiet clean raised-arm ending range, but cutting early moving pose directly to it changes tip lean. Not needed if18/19 is held."
+    }
+  ],
+  "recommended_edit": {
+    "source": "original01-scene.mp4 (0\u201319 is also unchanged in clean-v7)",
+    "retain_source_frames_inclusive": [
+      0,
+      19
+    ],
+    "replace_output_frames_inclusive": [
+      20,
+      69
+    ],
+    "repeat_source_pair": [
+      18,
+      19
+    ],
+    "edit_frames": 70,
+    "edit_duration_sec": 2.333333,
+    "speed": 1,
+    "interpolation": false,
+    "voice_and_caption_timing": "unchanged",
+    "tradeoff": "Gesture ends0.667s, followed by1.667s newly repeated frames, giving a total1.733s settled pose including original18/19. Whole-frame hold also freezes hearth flicker. This is deliberate short-shot staging, not continuous new idle. Final held tip lean differs from approved final still, but comparison shows same character proportions and near-fire raised-arm gesture.",
+    "next_review": "Render a reversible candidate and inspect actual0\u201319 progression plus held pose under current captions/voice timing. Do not label it user-approved or fully reviewed before that inspection.",
+    "regeneration_needed_for_first_candidate": false,
+    "regeneration_condition": "If the user rejects even the small initial attached motion or requires a continuously animated completed gesture with stable layers and hearth flicker, this take contains no verified continuous path achieving that; regenerate from the approved pair with explicit stable filled layers and arm-only action."
+  },
+  "evidence_index": {
+    "native_pair_sheets": "Each page is4 columns x3 rows, row-major, unscaled crop x300,y1000,w450,h620. Page1 even frames0\u201322;page2 24\u201346;page3 48\u201370;page4 72\u201388 then padding.",
+    "final_motion_diagnostic_frames_row_major": [
+      0,
+      8,
+      12,
+      16,
+      18,
+      20,
+      26,
+      30,
+      34,
+      40,
+      42,
+      62
+    ],
+    "candidate_hold_states_frames_row_major": [
+      0,
+      10,
+      18,
+      20,
+      62,
+      78
+    ]
+  },
+  "evidence": [
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/final-motion-diagnostic.jpg",
+      "sha256": "fb07671216b7a4df0fd421b2e09cf806177c8c1f82b3efca353ee44ff534ce65"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/candidate-hold-states.jpg",
+      "sha256": "4f2f0ec1a076666af240f52e010e7a25d3816499390a5c077a9dabf8ade60db4"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/source18-native.png",
+      "sha256": "1748285f78022501a86565a485b8bb9bddbe35ac2ed6dc5fdff90e8eebb40983"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/source18-versus-approved-last.jpg",
+      "sha256": "18b81803251cbeb3e23324ca3ce84c82f99ddeb34922508cc21c91c13e715f0c"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/clean-native-pairs-01.jpg",
+      "sha256": "ef19d415785af3f08a4e20b333e0cf3f36642644de1228faf843c1fd3a4bc146"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/clean-native-pairs-02.jpg",
+      "sha256": "e51b820672c5e7401725f71e1ad6b1a130a0cd5d1837f16299d4faa6440e6469"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/clean-native-pairs-03.jpg",
+      "sha256": "d8f0787d4bff1921a19fb8da88bbec8dd77f99e9ae47a4c88fbd576ca55ff1f6"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/clean-native-pairs-04.jpg",
+      "sha256": "a07da2a87526e483e5a1c27fe6199da943e5b516e8414bb43674fb2b223750b0"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/original-native-pairs-01.jpg",
+      "sha256": "7135a3d1a4a8cbed44296336b459b96c9a8c7fa6eb20f9ffa848dc22315990b2"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/original-native-pairs-02.jpg",
+      "sha256": "73452c99df6cd91840f4c97ce3e37416d348f96797bf6a0a8439b20804919ffb"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/original-native-pairs-03.jpg",
+      "sha256": "310cff422840699bfe8a5c187c20fa292d60b1f400f55a4806cc8d588054beea"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/chimney-ripple-v1/original-native-pairs-04.jpg",
+      "sha256": "3f609e61cc6ee7425c4f7fff5f49f8aa84375f43fc7844e35a74ef4b022a82b0"
+    }
+  ],
+  "summary": "Use the clean first arm raise through18/19, then a complete-pair hold of18/19. This removes the generated second wave and the v7 jump into62. Recommendation is grounded in actual clean states and is not a new production approval."
+}
