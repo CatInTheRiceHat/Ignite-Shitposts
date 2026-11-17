@@ -1,0 +1,24 @@
+{
+  "status": "complete: source gates, final visual review, full decode and unchanged audio verified",
+  "output": "renders/fire-discovery-scene-refresh-v6-final.mp4",
+  "sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
+  "bytes": 27731923,
+  "duration_sec": 25.8,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "frames": 774,
+  "full_audio_video_decode": "passed",
+  "audio_packets_and_timestamps_identical_to_corrected_v5": true,
+  "video_packets_identical_to_production_render": true,
+  "audio_codec": "aac",
+  "audio_sample_rate": "48000",
+  "source_reviews": "../production-gate.json",
+  "cadence": "All five sources passed exact native pair checks; smooth planned03 editorial camera transform is separate.",
+  "manual_audio_listening_claimed": false,
+  "final_visual_review": "passed; ../final-independent-visual-review.json",
+  "completed_copy": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+  "completed_sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3"
+}

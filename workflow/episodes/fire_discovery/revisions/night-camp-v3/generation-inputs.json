@@ -1,0 +1,103 @@
+{
+  "scope": "Episode-only request: vary lighting/time of day, include an unmistakably nighttime cozy campfire, add action and more Sols. Shared guidelines retain reusable art direction only.",
+  "reference_inputs": [
+    {
+      "media_id": "32eb483f-3828-4c01-b964-62503b693684",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/32eb483f-3828-4c01-b964-62503b693684.png",
+      "source_path": "workflow/assets/reference-art/Mascot.png",
+      "role": "identity"
+    },
+    {
+      "media_id": "bb3b0905-041a-4456-9587-74d7276cdaef",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/bb3b0905-041a-4456-9587-74d7276cdaef.png",
+      "source_path": "workflow/assets/reference-art/Microphone.png",
+      "role": "limb anatomy only"
+    },
+    {
+      "media_id": "f882fffb-183a-4cda-972a-c5cf0e1e38bc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/f882fffb-183a-4cda-972a-c5cf0e1e38bc.jpg",
+      "source_path": "workflow/assets/reference-art/Spring.jpg",
+      "role": "painted style only"
+    },
+    {
+      "media_id": "f71d56dd-c10a-452d-bb46-901270659d55",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/f71d56dd-c10a-452d-bb46-901270659d55.jpg",
+      "source_path": "workflow/assets/reference-art/Practical Learning.jpg",
+      "role": "painted style only"
+    },
+    {
+      "media_id": "184b0d32-8932-4f79-92b3-b5b42431b63c",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/184b0d32-8932-4f79-92b3-b5b42431b63c.jpg",
+      "source_path": "workflow/assets/reference-art/Thank You.jpg",
+      "role": "painted style only"
+    },
+    {
+      "media_id": "36d81324-54f7-449e-872c-377cbf644030",
+      "source_path": "workflow/episodes/fire_discovery/keyframes/05-last-body-up-tilt-eye-finish-v1.png",
+      "role": "coherent upward body pose only; do not inherit woodland, framing or limb lengths"
+    }
+  ],
+  "new_requests": [
+    {
+      "index": 1,
+      "scene": "02",
+      "endpoint": "first",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "medium",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "prompt": "Create a vertical painted natural landscape in distinct warm late-afternoon light.\n\nUninhabited dry grassland in warm late-afternoon sunlight. Low sun from off-screen upper-left gives the straw-gold grasses and dusty ground warm honey light and long soft shadows to the right. Distant muted blue hills and peach-gold haze beneath a broad pale warm sky. This is a clear late-afternoon landscape; only the small branch fire gives localized orange light.\n\nWide elevated three-quarter view across an open grassy basin. A fallen branch and small natural fire occupy x=56%, y=60%; distant layered blue hills lie below the upper third. Static camera, no zoom. Quiet light-colored lower fifth for captions.\n\nNo people or Sol. An isolated dry fallen branch lies on bare earth among sparse straw-gold grass, with a small orange fire already rooted on its center. A single soft gray plume rises above it. The surroundings remain mostly unburned, with no campsite, buildings, tools or stone ring.\n\nSoft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.\n\nNo characters, people, campsite, structures or human-made objects.\n\nReference roles: Image1 is the earlier landscape layout reference; change its cool overcast light to warm late-afternoon sunlight. Image2 supplies painted finish only, without its characters or props.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "61cb1925-cd4f-46c4-8f63-64d34b526296"
+          },
+          {
+            "role": "image",
+            "value": "f882fffb-183a-4cda-972a-c5cf0e1e38bc"
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "scene": "05",
+      "endpoint": "first",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "medium",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "prompt": "Create one complete new vertical painted scene of EXACTLY THREE original Sol mascots sharing a cozy campfire at NIGHT.\n\nA cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.\n\nStatic medium-wide full-body view, camera slightly above the front Sols eye height and angled gently downward. Exactly three Sols gather around a small low campfire centered x=50%, wood base y=73%, flame top y=58%. Speaking Sol is foreground-right x=77%, feet y=77%, height about30%. Toasting friend is foreground-left x=21%, feet y=76%, height about30%. Warming friend is farther back x=49%, feet y=56%, height about23%, separated above the fire. Same world-size through perspective. Clear gaps keep every face and both feet readable. Tent small in the upper-right background; quiet lower fifth for editable captions.\n\nThe foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow suspended just above the campfire. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.\n\nEach of the exactly three characters is the original Sol mascot: compact broad flame body, asymmetric tip, rounded side lobes, substantial red outer layer, orange layer and broad cream inner flame with its lobed crown and rounded lower face. Preserve the original two small close-spaced low-set opaque navy oval eyes, short rounded arms and tiny stubby feet. Keep all faces mouthless, the normal oval eye design unchanged, and the face attached to its coherent filled flame layers. All feet have solid ground contact. Sols emit no particles or detached flame pieces.\n\nSoft matte gouache brushwork, layered painted color, subtle paper texture and broad readable shapes across every subject, prop and surface. Define forms through light and color with softly painted edges, coherent perspective and contact shadows. No ink outlines, gloss, plastic rendering or photographic fire. No text, captions or watermark.\n\nReference roles: Image1 controls the original mascot design for ALL THREE Sols. Image2 controls short rounded arm anatomy only, without its microphone or cable. Image3 supplies gouache finish and the idea of a small group only; use the new night campsite, not its spring setting or props.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "32eb483f-3828-4c01-b964-62503b693684"
+          },
+          {
+            "role": "image",
+            "value": "bb3b0905-041a-4456-9587-74d7276cdaef"
+          },
+          {
+            "role": "image",
+            "value": "f882fffb-183a-4cda-972a-c5cf0e1e38bc"
+          }
+        ]
+      }
+    }
+  ],
+  "retained_pair": "01 copied byte-for-byte from scene-replacements-v2, still unapproved",
+  "requests_recorded_before_submission": [
+    "../../jobs/higgsfield/night-camp-v3-first-request.json",
+    "../../jobs/higgsfield/night-camp-v3-second-request.json",
+    "../../jobs/higgsfield/night-camp-v3-last-request.json",
+    "../../jobs/higgsfield/night-camp-v3-correction-request.json"
+  ],
+  "reference_notes": "Second batch corrects a mouth in the first05 candidate; corrected first05 is used as continuity input to the last05 request. No videos submitted.",
+  "estimated_credits_per_image": 2,
+  "submitted_image_jobs": 6,
+  "actual_billing_verified": false
+}

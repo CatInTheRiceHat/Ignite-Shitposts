@@ -1,0 +1,25 @@
+{
+  "status": "Audio source and timeline verified for unchanged stream reuse",
+  "audio_master": "renders/fire-discovery-thunder-sync-v5-review.mp4",
+  "source_sha256": "db2915e95d98f68fbce297100b7e9b82e2b4bdafb8e6c82a2f7fc74c9fbf8434",
+  "duration_sec": 25.8,
+  "tracks_unchanged": true,
+  "speech_playback_rate": 1,
+  "music": "Hide and Sneak 4",
+  "flash_frame": 292,
+  "flash_time_sec": 9.733333333333333,
+  "sting_track_start_sec": 9.533333333333333,
+  "sting_impact_time_sec": 9.722333333333333,
+  "offset_from_flash_sec": -0.011,
+  "right_voice_window_sec": [
+    24.6,
+    25.5
+  ],
+  "right_caption_window_sec": [
+    24.6,
+    25.7
+  ],
+  "picture_end_sec": 25.8,
+  "source_verification": "reviews/thunder-sync-v5/verification.json",
+  "manual_audio_listening_claimed": false
+}

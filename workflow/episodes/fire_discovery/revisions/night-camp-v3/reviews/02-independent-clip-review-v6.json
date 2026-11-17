@@ -1,0 +1,211 @@
+{
+  "packet_id": "521939c3cee62b383013da2692b0b1e489850b395ae48424952a467e0124fdcf",
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "method": "Independent visual inspection of every chronological sequence page, approved endpoint comparison, original Mascot/Microphone and Spring paint reference, and stated native detail frames. Additional Scene01 all45 native pair-state crops inspected. Original lantern reference sampled at1fps as contextual reference. Matching cadence receipts inspected. No real-time video playback or manual audio listening claimed; source visual alignment uses actual bound storyboard/cues.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Sol is absent as scripted. Golden empty grassland, bare earth, distant blue hills, warm sky and isolated fallen branch/fire match the approved pair throughout.",
+      "timestamps_sec": [
+        0,
+        2.5,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "No Sol, face or other character is visible in any of the150 chronological frames.",
+      "timestamps_sec": [
+        0,
+        2.5,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "No mascot anatomy is present. The separate natural wood fire is assessed under action and continuity.",
+      "timestamps_sec": [
+        0,
+        2.5,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed elevated landscape composition preserves branch location, grasses, hill layers and open light lower fifth. No people, tent, tools, stone ring or extra fire patch appears.",
+      "timestamps_sec": [
+        0,
+        2.5,
+        4.5,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Small orange wood fire stays at the same branch contact while its tongues change and smoke rises. Tiny orange tips occasionally separate immediately above this natural fire (e.g.1.867 and2.867); they remain attributable to the wood-fire flicker and never create another ignition or moving fuel. The explicit Sol-particle ban is inapplicable because Sol is absent.",
+      "timestamps_sec": [
+        0.8,
+        1.866667,
+        2.5,
+        2.866667,
+        4.5
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Chronological frames show smoke flowing upward and flame movement above the fixed branch; no reversed burn/spread, sudden ignition, lightning or human action contradicts the historical explanation.",
+      "timestamps_sec": [
+        0.8,
+        2,
+        3.5,
+        4.5
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "The same branch, terrain and distant hills retain identity/count/position. Flame base stays on wood and smoke remains one rising plume. No new fire patch, object duplication or whole-scene brightness pumping is visible.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        2.5,
+        4.5,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "First/last generated frames preserve the approved warm landscape, branch and rooted fire. The final smoke plume is higher, as specified. Used4.8s edit ends on the same continuous state.",
+      "timestamps_sec": [
+        0,
+        4.766667,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Matching150-frame cadence receipt has zero pair mismatches, consistent with visible paired states on all8 chronological pages. Flame/smoke move at normal duration while background remains stable; no motion-blended intermediary is visible. The0.8\u20134.596 Narrator window lies inside the4.8s picture. No playback or final audio mix approval claimed.",
+      "timestamps_sec": [
+        0.8,
+        2.5,
+        4.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/frame-index.json",
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "No text, logos, visible Narrator, faces or unintended new objects in all150 chronological frames. Small upper fire-tip separations belong to the existing wood fire rather than a mascot or a new flame patch.",
+      "timestamps_sec": [
+        0,
+        1.866667,
+        2.866667,
+        4.966667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native2.5/4.5s details show matte layered gouache-style shapes and brush texture across ground, grass and clouds, with softly painted hills. Flame/smoke remain illustrated, not photographic, consistent with the selected paint reference.",
+      "timestamps_sec": [
+        2.5,
+        4.5
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read actual complete storyboard and bound context. The off-screen Narrator says We do not know. Natural fires existed long before people at0.8\u20134.596; an uninhabited pre-existing branch fire supports that explanation through the cue. Sol is absent throughout, so no gaze is invented. This verifies visual coverage against confirmed timing only, not final audio playback.",
+      "timestamps_sec": [
+        0.8,
+        2.5,
+        4.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    }
+  },
+  "summary": "PASS: actual generated visual behavior and source cadence support the bound storyboard/cues. Final assembled audiovisual/crop review remains separate."
+}

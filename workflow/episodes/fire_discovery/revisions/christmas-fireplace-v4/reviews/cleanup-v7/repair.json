@@ -1,0 +1,225 @@
+{
+  "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene.mp4",
+  "output": "workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/clips/01-scene-clean-v7.mp4",
+  "source_sha256": "f11bf3e63620fae72afc583e59fb43193f77768d3d6d6ff699360fc4117c0306",
+  "output_sha256": "bec7bb00f80e009689930c539eee6327319ed0f1783b87000f00feace937a9ee",
+  "frames": 90,
+  "duration_sec": 3,
+  "paired_holds": {
+    "22": 20,
+    "24": 20,
+    "42": 62,
+    "44": 62,
+    "46": 62,
+    "48": 62,
+    "50": 62,
+    "52": 62,
+    "54": 62,
+    "56": 62,
+    "58": 62,
+    "60": 62
+  },
+  "source_frame_mapping": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    20,
+    21,
+    20,
+    21,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "background_repairs": [
+    {
+      "source_pair": 26,
+      "box": [
+        430,
+        1040,
+        472,
+        1130
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 28,
+      "box": [
+        432,
+        1008,
+        474,
+        1094
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 30,
+      "box": [
+        432,
+        986,
+        472,
+        1068
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 32,
+      "box": [
+        430,
+        954,
+        470,
+        1028
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 34,
+      "box": [
+        430,
+        954,
+        472,
+        1028
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 36,
+      "box": [
+        426,
+        930,
+        468,
+        996
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 38,
+      "box": [
+        426,
+        896,
+        466,
+        958
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    },
+    {
+      "source_pair": 40,
+      "box": [
+        432,
+        874,
+        470,
+        930
+      ],
+      "background_donors": [
+        0
+      ],
+      "protected_body_pixels_changed": 0
+    }
+  ],
+  "decoded_output_matches_selected_and_repaired_yuv_exactly": true,
+  "pair_mismatches": [],
+  "first_and_last_source_frames_unchanged": true,
+  "method": "Local same-take static-background replacement outside protected Sol silhouette. Complete-pair source holds remove reviewed emission/mouth states; settle mode also excludes ribbon-overlap states42\u201360. No redraw, interpolation, optical flow, speed change or audio edits.",
+  "visual_review": "pending fresh independent review"
+}

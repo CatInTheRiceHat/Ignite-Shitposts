@@ -1,0 +1,97 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/revisions/night-camp-v3/script.txt",
+    "sha256": "9c87920ec1dfdfedf3e989ae625215a556b8c3194410c2b15a8b303c04b98576"
+  },
+  "scene_script_excerpt": "SCENE 01 — A question beside the fireplace — edit2.333s (0.000–2.333s)\nSetting: A small lived-in room with a simple ochre plaster wall, a broad charcoal-gray stone fireplace on screen-right, a recessed dark firebox containing three short stacked logs and one low contained faceless wood fire, a flat slate hearth and muted blue-gray wooden floor. Cool soft window light enters from off-screen left; the hearth gives a restrained warm tint to the nearby stones and Sol. No decorations, text, tools or extra characters.\nFraming: Medium-wide full-body view at Sol face height, slight downward angle; Sol x=30%, height40%, feet y=74%; fireplace at x=72%, logs y=64%. Fixed camera; lower fifth quiet for captions.\nFirst frame: Sol stands on the flat hearth apron, clear of the firebox, in a shallow three-quarter orientation toward the logs with both eyes visible. Both short arms are held low and slightly forward as if enjoying the warmth; feet rest flat and separated beneath the body.\nAction: Over the first1.6s, lift only the short arm nearest the fireplace along a small direct path toward the burning logs as Sol asks his question. Gentle connected body/tip wiggle follows the gesture and settles. Do not walk, hop or turn the face independently. The low fire flickers within the same log contact; no flying sparks. End in the supplied small questioning pose.\nLast frame: The same Sol, room and framing. The arm nearest the fireplace is now raised a little toward the logs in one compact questioning gesture. The other arm stays low, both feet supported and gaze directed toward the fire; original anatomy and eye design unchanged.\nSol: “Who actually discovered fire?”\nSpeaker cues: Existing01-01-sol at local0.080–1.886s, unchanged1x.\nNarrator attention: Only Sol speaks; no Narrator attention cue in this scene.\nNext cut: Hard cut from the contained household fire to an empty landscape showing natural fire; the cut introduces historical context, not an adjacent room.\nGeneration length: 3s, trimmed to actual voice timing after review.\nMotion: Animate on twos at final30fps: each source pose or painted state stays unchanged for two consecutive frames, 15 updates per second, at normal speed; longer holds use complete pairs. Apply this to Sol when present, actual fire and animated local light. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing blur. Enforce and verify exact source pairs in editing.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "Who actually discovered fire?"
+    }
+  ],
+  "narrator_attention": {
+    "required": false,
+    "gaze_target": null,
+    "coverage": "Only Sol speaks; no Narrator attention cue in this scene.",
+    "final_voice_alignment_verified": false
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "01",
+  "first_frame": "Sol stands on the flat hearth apron, clear of the firebox, in a shallow three-quarter orientation toward the logs with both eyes visible. Both short arms are held low and slightly forward as if enjoying the warmth; feet rest flat and separated beneath the body.",
+  "action": "Over the first1.6s, lift only the short arm nearest the fireplace along a small direct path toward the burning logs as Sol asks his question. Gentle connected body/tip wiggle follows the gesture and settles. Do not walk, hop or turn the face independently. The low fire flickers within the same log contact; no flying sparks. End in the supplied small questioning pose.",
+  "last_frame": "The same Sol, room and framing. The arm nearest the fireplace is now raised a little toward the logs in one compact questioning gesture. The other arm stays low, both feet supported and gaze directed toward the fire; original anatomy and eye design unchanged.",
+  "performance_beats": [
+    {
+      "body": "Over the first1.6s, lift only the short arm nearest the fireplace along a small direct path toward the burning logs as Sol asks his question. Gentle connected body/tip wiggle follows the gesture and settles. Do not walk, hop or turn the face independently. The low fire flickers within the same log contact; no flying sparks. End in the supplied small questioning pose.",
+      "cue": "Existing01-01-sol at local0.080–1.886s, unchanged1x.",
+      "gaze": "Only Sol speaks; no Narrator attention cue in this scene."
+    }
+  ]
+}

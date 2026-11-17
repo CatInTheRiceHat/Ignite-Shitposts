@@ -1,0 +1,21 @@
+{
+  "scene": "05",
+  "revision": "night-camp-v3",
+  "index": 5,
+  "job_id": "51e0d5e8-450e-43cf-a487-ed5ee695ab81",
+  "status": "completed",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/hf_20261116_185845_51e0d5e8-450e-43cf-a487-ed5ee695ab81.mp4",
+  "raw": "workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/raw/05-omni.mp4",
+  "clip": "workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/05-scene.mp4",
+  "raw_fps": "24/1",
+  "raw_duration_sec": 6.037333,
+  "raw_dimensions": [
+    1080,
+    1920
+  ],
+  "frames": 180,
+  "fps": 30,
+  "frame_pair_mismatches": [],
+  "sha256": "cc01c367acea68e13bdaa18cc13d13e279faa6462b59718f7e89f56328f3541e",
+  "conversion": "Normal speed15fps sampling then exact duplicate states at30fps; lossless H264; provider audio discarded."
+}

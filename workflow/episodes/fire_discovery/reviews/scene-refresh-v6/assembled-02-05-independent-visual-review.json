@@ -1,0 +1,78 @@
+{
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "scope": "Supplemental visual assembly review of unchanged scenes02\u201305 in draft-v6. Draft-v6 still contains rejected old01 and is not an approved final deliverable. Fresh v7 opening must be checked in the final assembled export.",
+  "method": "Opened all three 2fps sheets and native samples at5.6667,9.7333,17.3333,25.3333,25.7667. Compared crop/caption placement against current script and selected source reviews. No real-time playback or manual audio listening claimed.",
+  "verdict": "pass_for_inspected_02_to_05_visual_scope",
+  "findings": [
+    {
+      "topic": "captions",
+      "observed": "Text is readable, within picture boundaries, and avoids branch/fire/hand and all three faces. White fill/orange outline remains legible over golden grassland and cool dark shots. Wording follows current dialogue.",
+      "times_sec": [
+        5.666667,
+        17.333333,
+        25.333333
+      ]
+    },
+    {
+      "topic": "lightning",
+      "observed": "Complete lightning bolt and contact fire remain visible under the assembled crop at9.7333. No caption covers the flash.",
+      "times_sec": [
+        9.733333
+      ]
+    },
+    {
+      "topic": "contacts",
+      "observed": "Ember contact and hand release remain readable under framing; caption by feeding them wood sits below action.",
+      "times_sec": [
+        17.333333
+      ]
+    },
+    {
+      "topic": "attention_and_ending",
+      "observed": "All three Sols retain upward listening attention in the ending; final Right caption is present25.3333 and cleared by25.7667 while the clean scene continues. Feet, flame tips and skewer remain in frame.",
+      "times_sec": [
+        25.333333,
+        25.766667
+      ]
+    }
+  ],
+  "limitations": [
+    "Not a new canonical clip gate or whole-final-export approval.",
+    "Final source-pose cadence and audio preservation require parent technical checks. Shared video-style-guide explicitly allows smooth editorial camera transforms after paired source holds; such a push is not a source-cadence failure.",
+    "Source inspection was frame-by-frame; assembly inspection is2fps plus stated native samples."
+  ],
+  "evidence": [
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/sequence-01.jpg",
+      "sha256": "47a41d3af1c8398ce24edc0a4be8dc7a793c1185d85b0b45df5c9f63ab3ee050"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/sequence-02.jpg",
+      "sha256": "5a63adc9ff8e8a2115918b4e1adcb16cbac680cbaedf9209a01425f50aa4d958"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/sequence-03.jpg",
+      "sha256": "e243212bec36613a448a57c12e02582c7682161c61edf6acd722c1f7d6371ecd"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/detail-04.jpg",
+      "sha256": "45da7f02b91ab7288f02f315fd36620fb3bdacb0db7aa71ccb816961ddb186cc"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/detail-06.jpg",
+      "sha256": "202e9f8fce41c0b2a4f09e68089bef1d3b8a0bd3ab96c7ae805f7bcac5e83e1c"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/detail-10.jpg",
+      "sha256": "e30824ecd65e5671b2f13f87f2b4ca01df6caf38a106568f32d0bd074a1cfd2f"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/detail-14.jpg",
+      "sha256": "fcca085c3f3fd6a13be67ad37a90ea179c8441bc000dd5b9859eda4f6bd12327"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/assembled-draft-v6/detail-15.jpg",
+      "sha256": "bbeb44e344ce7abf0f176b255517f92e53abb83ebacd34164821324d82b0ce64"
+    }
+  ]
+}

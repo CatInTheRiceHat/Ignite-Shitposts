@@ -157,6 +157,25 @@ class ClipReviewTests(unittest.TestCase):
                     Image.new('RGB', (64, 112), '#001122').save(self.episode / f'keyframes/{mutation}.png')
                 self.assertFalse(review.frame_gate(self.episode, '01')['approved'])
 
+    def test_voice_timed_edit_uses_declared_whole_second_source_duration(self):
+        self.plan['clips'][0]['end_sec'] = 70 / 30
+        self.plan['clips'][0]['generation_settings'] = {'duration': 3}
+        self.save_plan()
+        self.approve()
+        request = review.video_request(self.episode, '01', 'start-id', 'end-id')
+        self.assertEqual(request['params']['duration'], 3)
+        self.assertEqual(self.plan['clips'][0]['end_sec'], 70 / 30)
+
+    def test_declared_source_duration_still_enforces_model_bounds_and_coverage(self):
+        self.plan['clips'][0]['end_sec'] = 4.8
+        for duration in (3, 4.8, 11, True, float('nan')):
+            with self.subTest(duration=duration):
+                self.plan['clips'][0]['generation_settings'] = {'duration': duration}
+                self.save_plan()
+                self.approve()
+                with self.assertRaises(ValueError):
+                    review.video_request(self.episode, '01', 'start-id', 'end-id')
+
     def test_paired_frame_duration_over_ten_is_not_silently_submitted(self):
         self.plan['clips'][0]['end_sec'] = 11
         self.save_plan()

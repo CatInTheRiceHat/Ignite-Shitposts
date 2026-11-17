@@ -483,10 +483,16 @@ def video_request(episode, scene_id, start_media_id, end_media_id):
         raise ValueError('Supply the uploaded media IDs for the exact approved first and last files')
     ctx = context(episode, scene_id, 'frames')
     settings = read(WORKFLOW / 'config/generation.json')['video']
-    duration = ctx['scene']['end_sec'] - ctx['scene']['start_sec']
+    edit_duration = ctx['scene']['end_sec'] - ctx['scene']['start_sec']
+    # Voice-timed edits can be fractional and shorter than the generated source.
+    duration = ctx['scene'].get('generation_settings', {}).get('duration', edit_duration)
     bounds = settings['paired_frame_duration_sec']
-    if not float(duration).is_integer() or not bounds['min'] <= duration <= bounds['max']:
+    if (isinstance(duration, bool) or not isinstance(duration, (int, float))
+            or not math.isfinite(duration) or not float(duration).is_integer()
+            or not bounds['min'] <= duration <= bounds['max']):
         raise ValueError('Split this scene before requesting a paired-frame video; supported whole seconds: 3–10')
+    if duration + 1e-6 < edit_duration:
+        raise ValueError('Generation duration must cover the full scene edit at normal speed')
     return {'params': {'model': settings['model'], 'mode': settings['mode'],
                        'resolution': settings['resolution'], 'aspect_ratio': settings['aspect_ratio'],
                        'duration': duration, 'count': 1, 'prompt': ctx['scene']['video_prompt'],

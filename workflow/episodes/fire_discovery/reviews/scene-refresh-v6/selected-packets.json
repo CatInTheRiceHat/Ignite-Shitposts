@@ -1,0 +1,37 @@
+[
+  {
+    "scene": "01",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/01/clip/84cb8b94666a7405bdb3/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/01/clip/84cb8b94666a7405bdb3/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/01/clip/84cb8b94666a7405bdb3/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "02",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/02/clip/f5c4a7f5cc94d8b29fe2/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/02/clip/f5c4a7f5cc94d8b29fe2/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/02/clip/f5c4a7f5cc94d8b29fe2/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "03",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/03/clip/5d5b2ed1b4e5a7524574/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/03/clip/5d5b2ed1b4e5a7524574/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/03/clip/5d5b2ed1b4e5a7524574/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "04",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/04/clip/a9db8d8549aea5e6e77f/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/04/clip/a9db8d8549aea5e6e77f/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/04/clip/a9db8d8549aea5e6e77f/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  },
+  {
+    "scene": "05",
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/05/clip/73fc295518d91f0f4cb2/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/05/clip/73fc295518d91f0f4cb2/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/05/clip/73fc295518d91f0f4cb2/evidence/frame-comparison.jpg",
+    "status": "awaiting independent visual review"
+  }
+]

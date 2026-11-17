@@ -1,0 +1,74 @@
+{
+  "status": "All three replacement scene pairs approved; video production in progress.",
+  "selected_pairs": {
+    "01": {
+      "first": "keyframes/01-first.png",
+      "last": "keyframes/01-last.png",
+      "first_sha256": "0ee6b0d1079f52f483521dc02949625d8f3923bdcffbd49f4e4b6de6735a6f7d",
+      "last_sha256": "98e9c4f09b3640f770b8651a0cbc46942d8f2434518ffa03c7a109c73cdfe475",
+      "comparison": "reviews/01-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/reviews/01/frames/9e6e4df6e9bf3aa84c20/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/reviews/01/frames/9e6e4df6e9bf3aa84c20/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/christmas-fireplace-v4/reviews/01/frames/9e6e4df6e9bf3aa84c20/evidence/frame-comparison.jpg",
+        "status": "both exact stills approved by user"
+      },
+      "job_ids": {
+        "first": "a1492bc0-9dd6-499d-921b-a3aa526cf882",
+        "last": "f7c04fcd-f429-4b12-a01f-5e216895b0f2"
+      },
+      "approved": true,
+      "approval_user_message": "awesome",
+      "approval_context": "Reply to explicit question asking approval of both displayed Christmas frames."
+    },
+    "02": {
+      "first": "keyframes/02-first.png",
+      "last": "keyframes/02-last.png",
+      "first_sha256": "a94c013227d99120d77c37cd30a1f2e44acf614f24e97afe0f63cb840aefd97f",
+      "last_sha256": "3886551b7d192ee25b2c4d9023596549487290c8dfdda40061df9fbe3bfec9ca",
+      "comparison": "../night-camp-v3/reviews/02-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/02/frames/7aea88c52d1e211e2ad9/evidence/frame-comparison.jpg",
+        "status": "both exact stills approved by user"
+      },
+      "job_ids": {
+        "first": "c638e28a-939a-4fee-b92f-2774898ab08b",
+        "last": "bfb47309-9dae-4e21-9648-b4c23be6a315"
+      },
+      "approved": true,
+      "approval_user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok",
+      "approval_source_episode": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3",
+      "reuse": "Copied byte-for-byte; actual approval gate and scene contract remain in night-camp-v3."
+    },
+    "05": {
+      "first": "keyframes/05-first.png",
+      "last": "keyframes/05-last.png",
+      "first_sha256": "b3bcfaa9a90171724e38ccafb799e6644b07f3f13615c3c6c49128ca0920d4bb",
+      "last_sha256": "e0ccf5cac57bddf95d041063102518590cf3cc31a012a000f9e566d66ad28e60",
+      "comparison": "../night-camp-v3/reviews/05-pair.jpg",
+      "packet": {
+        "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/packet.json",
+        "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/review-request.txt",
+        "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3/reviews/05/frames/82c1506cfcce869f9a95/evidence/frame-comparison.jpg",
+        "status": "both exact stills approved by user"
+      },
+      "job_ids": {
+        "first": "913589b9-71a1-4754-b6a1-0176afd54822",
+        "last": "35a62922-b25a-4a5f-be84-02ada128a0db"
+      },
+      "approved": true,
+      "approval_user_message": "hmm we need more stimulation can u add more details in the background perchance can you regenerate the fireplace and set it during chrismta and shiii and then the rest areok",
+      "approval_source_episode": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/night-camp-v3",
+      "reuse": "Copied byte-for-byte; actual approval gate and scene contract remain in night-camp-v3."
+    }
+  },
+  "new_image_jobs": 3,
+  "new_successful_images": 3,
+  "new_selected_images": 2,
+  "unused_pose_candidate": 1,
+  "retained_approved_images": 4,
+  "new_video_jobs": 0,
+  "guideline_scope": "Christmas setting and richer background detail saved only in episode feedback, script and prompts."
+}

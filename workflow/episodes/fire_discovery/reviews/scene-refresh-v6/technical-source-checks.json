@@ -1,0 +1,86 @@
+{
+  "audio_tracks_and_caption_cues_identical_to_v5": true,
+  "duration_sec": 25.8,
+  "sources": [
+    {
+      "scene": "01",
+      "source": "revisions/christmas-fireplace-v4/clips/01-scene-clean-v7.mp4",
+      "sha256": "bec7bb00f80e009689930c539eee6327319ed0f1783b87000f00feace937a9ee",
+      "cadence": {
+        "requested": true,
+        "passed": true,
+        "basis": "Native decoded frame hashes without pixel-format reduction",
+        "frames": 90,
+        "fps": 30.0,
+        "mismatched_pair_start_frames": [],
+        "complete_pairs": true,
+        "regular_frame_times": true
+      },
+      "selected_frames": 70
+    },
+    {
+      "scene": "02",
+      "source": "revisions/night-camp-v3/clips/02-scene.mp4",
+      "sha256": "e01037f09fc7c3bc5228038203a1a433ca33b17250c0c7eec27b0f987c525861",
+      "cadence": {
+        "requested": true,
+        "passed": true,
+        "basis": "Native decoded frame hashes without pixel-format reduction",
+        "frames": 150,
+        "fps": 30.0,
+        "mismatched_pair_start_frames": [],
+        "complete_pairs": true,
+        "regular_frame_times": true
+      },
+      "selected_frames": 144
+    },
+    {
+      "scene": "03",
+      "source": "clips/edit-v4/03-lightning-with-sting-gap.mp4",
+      "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365",
+      "cadence": {
+        "requested": true,
+        "passed": true,
+        "basis": "Native decoded frame hashes without pixel-format reduction",
+        "frames": 206,
+        "fps": 30.0,
+        "mismatched_pair_start_frames": [],
+        "complete_pairs": true,
+        "regular_frame_times": true
+      },
+      "selected_frames": 206
+    },
+    {
+      "scene": "04",
+      "source": "clips/edit-v2/04-tight.mp4",
+      "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b",
+      "cadence": {
+        "requested": true,
+        "passed": true,
+        "basis": "Native decoded frame hashes without pixel-format reduction",
+        "frames": 198,
+        "fps": 30.0,
+        "mismatched_pair_start_frames": [],
+        "complete_pairs": true,
+        "regular_frame_times": true
+      },
+      "selected_frames": 198
+    },
+    {
+      "scene": "05",
+      "source": "revisions/night-camp-v3/clips/05-scene.mp4",
+      "sha256": "cc01c367acea68e13bdaa18cc13d13e279faa6462b59718f7e89f56328f3541e",
+      "cadence": {
+        "requested": true,
+        "passed": true,
+        "basis": "Native decoded frame hashes without pixel-format reduction",
+        "frames": 180,
+        "fps": 30.0,
+        "mismatched_pair_start_frames": [],
+        "complete_pairs": true,
+        "regular_frame_times": true
+      },
+      "selected_frames": 156
+    }
+  ]
+}

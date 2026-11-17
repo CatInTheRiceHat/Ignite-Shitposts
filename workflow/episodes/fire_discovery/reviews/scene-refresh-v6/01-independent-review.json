@@ -1,0 +1,220 @@
+{
+  "packet_id": "84cb8b94666a7405bdb36511208b968553cc0c7f7c398eff75badf658be057e1",
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "method": "Independent actual-frame review against the current root script/storyboard and confirmed voice-cue metadata. Opened every chronological sequence page and the cited native detail frames; compared the approved endpoint pair, original Mascot/Microphone design and Spring paint reference already inspected in this review session. Lantern motion reference was sampled at1fps earlier in this same session. Exact native decoded pair-hash cadence receipts were inspected separately. No real-time playback or manual audio listening is claimed. Visual timing is cue-relative; final mix/crops/captions require separate assembled-export review. Additional native crop sheet01-v7-native-repairs.jpg extracted from actual v7 covers every even source state20\u201342, and was visually inspected; it is supplemental outside-packet evidence, not an automatic detector pass.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "One Sol preserves the approved Christmas pair design: broad cream inner flame, original dark oval eyes, attached red/orange flame layers, compact arms and stubby feet. Native eye edges have a thin pale antialias rim, not an added sclera or changed eye design.",
+      "timestamps_sec": [
+        0,
+        1,
+        1.5,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "Normal paired navy oval eyes stay anchored to the cream face. The brief paired blink around0.400\u20130.567 returns to the same oval design; no brows, pupils, independent face turn or mouth is present, including the formerly defective52\u201355 interval.",
+      "timestamps_sec": [
+        0.4,
+        0.6,
+        1,
+        1.733333,
+        1.8
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "Connected silhouette and original compact limbs are preserved. The prior emission onset22\u201325 now repeats clean20;26\u201340 has no visible detached red trail in native inspection;42\u201361 repeats clean62 with no blade/residue or mouth. Raised near-fire arm remains short and connected.",
+      "timestamps_sec": [
+        0.666667,
+        0.8,
+        1,
+        1.333333,
+        1.4,
+        1.8,
+        2.066667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed full-body Christmas-room composition retains Sol on the rug with clear lower caption area. Tree, presents and ribbon, chair, snowy window, garland, three stockings, wreath, hearth logs and basket remain stable without crop or scale change.",
+      "timestamps_sec": [
+        0,
+        1,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Both stubby feet retain rug support while the near-fire arm lifts directly toward the hearth. No walking, floating, prop intersection or repaired contour notch is visible. The40\u219242 transition (replacement source62) produces a small coherent tip/body settle with unchanged foot support.",
+      "timestamps_sec": [
+        0,
+        0.866667,
+        1.333333,
+        1.4,
+        2.3
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The gesture points toward the right-hand fireplace. Hearth flame remains rooted to the same logs; no mechanical system requires a directional test.",
+      "timestamps_sec": [
+        0.866667,
+        1.5,
+        2.3
+      ],
+      "evidence": [
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Exactly one Sol and the same decorations persist. All inspected repaired states keep the gift bow/ribbon separate from the mascot edge. No detached Sol flecks or mouth recur in the clean held state or tail.",
+      "timestamps_sec": [
+        0.8,
+        1,
+        1.4,
+        1.8,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "First state matches the low-arm approved pose, last state the compact raised-arm pose. Final pose is established before the2.333s edit cut and remains through source2.967.",
+      "timestamps_sec": [
+        0,
+        2,
+        2.3,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Purposeful arm lift and connected tip wiggle lead into the questioning pose during Sol cue0.080\u20131.886. Complete-pair holds20\u201325 and42\u201363 are deliberate: the latter also pauses hearth flicker1.400\u20132.133. The40\u219242 tip settle is visible but compact/coherent, with no pose teleport or facial discontinuity. Normal source speed and exact paired states are verified by the native cadence receipt; no audio listening claim.",
+      "timestamps_sec": [
+        0.08,
+        0.6,
+        0.866667,
+        1.333333,
+        1.4,
+        1.886,
+        2.133333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/voice-cues.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All90 chronological frames inspected. No rendered caption/UI/watermark, mouth, detached Sol particle, faint red trail, gift-ribbon residue or obvious cleanup seam remains. Native inspection covered every even repair-state20\u201342 plus held-state45, specifically distinguishing actual connected lobe from stray emissions.",
+      "timestamps_sec": [
+        0.666667,
+        0.8,
+        1,
+        1.333333,
+        1.4,
+        1.8,
+        2.966667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native frames retain layered warm gouache-like color, brush and paper texture on the room, mascot and props. Stable paint texture and color-defined forms match the accepted pair and Spring finish; no repair introduced a flat patch or ink outline.",
+      "timestamps_sec": [
+        1,
+        1.5
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000008.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current root scene and confirmed cues. Only Sol asks Who actually discovered fire? at0.080\u20131.886; no Narrator gaze requirement applies. Sol gestures toward the hearth during that line and holds before the2.333 edit cut. All behavior fits this cue window; actual final audio mix is outside this silent-source review.",
+      "timestamps_sec": [
+        0.08,
+        0.866667,
+        1.886,
+        2.3
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg"
+      ]
+    }
+  },
+  "summary": "PASS for cleaned-v7 selected source. Earlier original and clean-v6 rejections remain valid for their different video hashes. This candidate removes their red emissions/residue and mouth through adjacent original clean paired states plus localized background cleanup. Small40\u219242 settling change and0.733s full-scene hold42\u201363 are disclosed and acceptable as staged complete-pair holds. No remaining source visual blocker found. Final assembled export still requires crop/caption/mix checks."
+}

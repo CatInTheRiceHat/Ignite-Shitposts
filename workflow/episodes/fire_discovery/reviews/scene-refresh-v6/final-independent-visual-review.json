@@ -1,0 +1,406 @@
+{
+  "reviewer": "/root/clip_reviewer \u2014 dedicated independent actual-footage reviewer",
+  "verdict": "pass_for_final_visual_scope",
+  "source": {
+    "path": "workflow/episodes/fire_discovery/renders/fire-discovery-scene-refresh-v6-final.mp4",
+    "sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
+    "frames": 774,
+    "duration_sec": 25.8,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  "scope": "Independent final-export visual check for cleanup survival, caption/crop placement, the exact lightning flash, and the final listening pose/tail. Complements the five already recorded full chronological source reviews; not a manual audio review.",
+  "method": "Opened all3 final2fps contact sheets. Opened the listed native full-frame JPEG samples and a diagnostic1:1 native crop montage from actual opening JPEGs (no resizing or repaired pixels). Native flash frames290\u2013295 and ending740,760,770\u2013773 were opened individually. Reviewed against the current root script, actual voice-cue windows and source reports. No real-time video playback or manual listening is claimed.",
+  "coverage": {
+    "all_sequence_pages": [
+      "sequence-01.jpg",
+      "sequence-02.jpg",
+      "sequence-03.jpg"
+    ],
+    "native_full_frames": [
+      {
+        "frame": 42,
+        "time_sec": 1.4,
+        "image": "detail-008.jpg"
+      },
+      {
+        "frame": 69,
+        "time_sec": 2.3,
+        "image": "detail-015.jpg"
+      },
+      {
+        "frame": 70,
+        "time_sec": 2.3333333333333335,
+        "image": "detail-016.jpg"
+      },
+      {
+        "frame": 290,
+        "time_sec": 9.666666666666666,
+        "image": "detail-020.jpg"
+      },
+      {
+        "frame": 291,
+        "time_sec": 9.7,
+        "image": "detail-021.jpg"
+      },
+      {
+        "frame": 292,
+        "time_sec": 9.733333333333333,
+        "image": "detail-022.jpg"
+      },
+      {
+        "frame": 293,
+        "time_sec": 9.766666666666667,
+        "image": "detail-023.jpg"
+      },
+      {
+        "frame": 294,
+        "time_sec": 9.8,
+        "image": "detail-024.jpg"
+      },
+      {
+        "frame": 295,
+        "time_sec": 9.833333333333334,
+        "image": "detail-025.jpg"
+      },
+      {
+        "frame": 740,
+        "time_sec": 24.666666666666668,
+        "image": "detail-032.jpg"
+      },
+      {
+        "frame": 760,
+        "time_sec": 25.333333333333332,
+        "image": "detail-034.jpg"
+      },
+      {
+        "frame": 770,
+        "time_sec": 25.666666666666668,
+        "image": "detail-035.jpg"
+      },
+      {
+        "frame": 771,
+        "time_sec": 25.7,
+        "image": "detail-036.jpg"
+      },
+      {
+        "frame": 772,
+        "time_sec": 25.733333333333334,
+        "image": "detail-037.jpg"
+      },
+      {
+        "frame": 773,
+        "time_sec": 25.766666666666666,
+        "image": "detail-038.jpg"
+      }
+    ],
+    "native_opening_crop_frames": [
+      {
+        "frame": 20,
+        "time_sec": 0.6666666666666666,
+        "image": "detail-003.jpg"
+      },
+      {
+        "frame": 24,
+        "time_sec": 0.8,
+        "image": "detail-004.jpg"
+      },
+      {
+        "frame": 26,
+        "time_sec": 0.8666666666666667,
+        "image": "detail-005.jpg"
+      },
+      {
+        "frame": 40,
+        "time_sec": 1.3333333333333333,
+        "image": "detail-007.jpg"
+      },
+      {
+        "frame": 42,
+        "time_sec": 1.4,
+        "image": "detail-008.jpg"
+      },
+      {
+        "frame": 44,
+        "time_sec": 1.4666666666666666,
+        "image": "detail-009.jpg"
+      },
+      {
+        "frame": 50,
+        "time_sec": 1.6666666666666667,
+        "image": "detail-010.jpg"
+      },
+      {
+        "frame": 54,
+        "time_sec": 1.8,
+        "image": "detail-011.jpg"
+      },
+      {
+        "frame": 60,
+        "time_sec": 2.0,
+        "image": "detail-012.jpg"
+      },
+      {
+        "frame": 62,
+        "time_sec": 2.066666666666667,
+        "image": "detail-013.jpg"
+      },
+      {
+        "frame": 68,
+        "time_sec": 2.2666666666666666,
+        "image": "detail-014.jpg"
+      },
+      {
+        "frame": 69,
+        "time_sec": 2.3,
+        "image": "detail-015.jpg"
+      }
+    ],
+    "crop_box_xyxy": [
+      300,
+      1000,
+      780,
+      1700
+    ],
+    "source_reviews": [
+      "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/01-independent-review.json",
+      "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/02-independent-review.json",
+      "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/03-independent-review.json",
+      "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/04-independent-review.json",
+      "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/05-independent-review.json"
+    ]
+  },
+  "checks": [
+    {
+      "id": "opening_cleanup",
+      "verdict": "pass",
+      "frames": [
+        20,
+        24,
+        26,
+        40,
+        42,
+        44,
+        50,
+        54,
+        60,
+        62,
+        68,
+        69
+      ],
+      "observed": "No mouth, detached Sol fleck, faint red trail, blade above gift bow, widened ribbon residue or damaged contour reappears after rendering. Original cream face, navy eyes, connected flame layers, short raised arm and supported feet remain intact.40\u219242 is the same small coherent settling transition seen in the passed source; subsequent clean hold is preserved.",
+      "evidence": [
+        "independent-opening-native-crops.jpg",
+        "detail-008.jpg",
+        "detail-015.jpg"
+      ]
+    },
+    {
+      "id": "opening_cut_and_captions",
+      "verdict": "pass",
+      "frames": [
+        42,
+        69,
+        70
+      ],
+      "observed": "Who actually discovered fire? is readable on two lines below Sol, within picture boundaries and clear of his feet/face. It has cleared before frame69. Frame70 is the intended clean grassland hard cut at2.333s; no black/old-opening overlap is visible.",
+      "evidence": [
+        "detail-008.jpg",
+        "detail-015.jpg",
+        "detail-016.jpg",
+        "sequence-01.jpg"
+      ]
+    },
+    {
+      "id": "all_scene_crop_and_caption_samples",
+      "verdict": "pass",
+      "times_sec": [
+        0,
+        2.333333,
+        7.133333,
+        14,
+        20.6,
+        25.766667
+      ],
+      "observed": "All3 sheets show the intended five-shot order and readable complete caption phrases with clear lower-picture placement. Grassland fire, lightning contact, hand/twig contact and all three campfire Sols remain visible. No caption crops, overlay on faces/contact, accidental border, watermark or unrelated inserted frame was observed in reviewed samples.",
+      "evidence": [
+        "sequence-01.jpg",
+        "sequence-02.jpg",
+        "sequence-03.jpg"
+      ]
+    },
+    {
+      "id": "exact_lightning_flash",
+      "verdict": "pass",
+      "frames": [
+        290,
+        291,
+        292,
+        293,
+        294,
+        295
+      ],
+      "observed": "No bolt/fire in290\u2013291; complete branching bolt and initial rooted contact flame in292\u2013293 at9.733\u20139.767; bolt absent and rooted fire persists in294\u2013295. The full fixed bolt/contact remain readable under the editorial crop. No caption obscures the effect. Smooth planned camera scale is allowed after paired source holds by the shared guide.",
+      "evidence": [
+        "detail-020.jpg",
+        "detail-021.jpg",
+        "detail-022.jpg",
+        "detail-023.jpg",
+        "detail-024.jpg",
+        "detail-025.jpg"
+      ]
+    },
+    {
+      "id": "ending_attention_and_tail",
+      "verdict": "pass",
+      "frames": [
+        740,
+        760,
+        770,
+        771,
+        772,
+        773
+      ],
+      "observed": "All three Sols maintain upward listening attention, original mouthless faces and coherent compact bodies. Campfire flecks belong to the separate wood fire; none originate from a Sol. Skewer/marshmallow, limbs and supported feet remain intact and in frame. Right. is readable740/760/770, clears771, and clean picture continues through773; final image is neither black nor prematurely cut.",
+      "evidence": [
+        "detail-032.jpg",
+        "detail-034.jpg",
+        "detail-035.jpg",
+        "detail-036.jpg",
+        "detail-037.jpg",
+        "detail-038.jpg"
+      ]
+    }
+  ],
+  "technical_context": "Parent reports complete decode and exact preservation of corrected-v5 audio packet bytes/timestamps plus production video packets. Those checks are separate from this visual judgment; this reviewer independently verified the final file SHA256 and inspected actual derived images. Source-pose cadence was independently checked in the source-review phase.",
+  "limitations": [
+    "Final assembly was inspected using all2fps pages plus specified native frames, not all774 exported frames individually. All source chronological pages were inspected in canonical per-clip reviews.",
+    "No manual audio listening, exact heard word synchronization, subjective sound-balance assessment or real-time playback is claimed."
+  ],
+  "blockers": [],
+  "summary": "Final visual review passes for the stated scope. No cleanup regression, caption/crop blocker, missing flash, mouth/Sol particle or damaged final listening pose was found. The final file is ready from this independent visual review perspective.",
+  "evidence": [
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/sequence-01.jpg",
+      "sha256": "e91fbecf60b73b384b32bd43ceb07abaa590ae9044602b1459f4e5c00411795c"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/sequence-02.jpg",
+      "sha256": "ea132545f5c499b9bc6e41dcc51fa37f57c2ff6a2fc3b3e1a0221afb948f0abc"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/sequence-03.jpg",
+      "sha256": "e243212bec36613a448a57c12e02582c7682161c61edf6acd722c1f7d6371ecd"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-003.jpg",
+      "sha256": "1f4d0c08561f95ed9309d57e94c9da7017419216f65f69b8d2bc6dfe864b35d3"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-004.jpg",
+      "sha256": "6c35dd1dd44db9670819a7e5e6fbb8cedd214264d5c83638c554d3681319bb54"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-005.jpg",
+      "sha256": "f7cbb80517e3c076d691bb8d98871a1a828c08c20e18a8b380e0fde4412c57d7"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-007.jpg",
+      "sha256": "7e2012a4c8fdc829252973c54b5933539ee7b6d23a345c675fcb9db02923c51a"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-008.jpg",
+      "sha256": "e7c4d301e598f2cd9164dc4167bf24b24ea505ecc1db8fa1910bd487fdfdcf08"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-009.jpg",
+      "sha256": "8bde8f1211af64945926c3ca907e922eeac117733b22ee4ac10ae5ccfa0bc921"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-010.jpg",
+      "sha256": "6c6fddb6a56519256db1520c93a3909c9c71f8c61b030264c3fde2a43c8a35ee"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-011.jpg",
+      "sha256": "e232d5d6c43c5a11bb2d0f1dbf9707ffef546931dc82bf949de099957cfdbb8a"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-012.jpg",
+      "sha256": "e51bf53486a52b5c869f6f8c834aaf226ace8bae58f4127140de904e6dc56c34"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-013.jpg",
+      "sha256": "8a364bfa75ab841f89dd52534abaaf6a6da459a0cfa9c18befe878b0c0464319"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-014.jpg",
+      "sha256": "f52112199a882fd0b237046c3f3170e1009340b203f6808f65bae35903d8d495"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-015.jpg",
+      "sha256": "280e7b7c63a63137a7927ca93607a330729310b25f633c59453a8bf48a0ffffc"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-016.jpg",
+      "sha256": "0996daa545323afe72c8e250eee63193ec8154790480734093a745edbb2dff80"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-020.jpg",
+      "sha256": "9583b390826eb3286d2c47df484e5f849a9f69632abf1fa207fd42212c799931"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-021.jpg",
+      "sha256": "e0da1bd6279d51ddae4b086ce497ee8360521a2995db7ae5d73e03156a7507e9"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-022.jpg",
+      "sha256": "ad67e906616a55d228acbb3af18c73da3d73e290bad9ca2c5a53e08f2f108b80"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-023.jpg",
+      "sha256": "ea9236ff2d856d0e7753fbaa6ec151a3da09a4b400cdf7f484cc0b37823f7f05"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-024.jpg",
+      "sha256": "ca358a615c25cb321d8e21adda16af6b0ed9bcf8618527337db5a1b4b8956b6a"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-025.jpg",
+      "sha256": "066203b6f1c3d13d8fa71585806a4dd8d526c9bd49626fe6ee6d7b175ed965c8"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-032.jpg",
+      "sha256": "7520a44c2903a576a650980157aeb0da0eb0eab98f42b1989b5116405326d533"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-034.jpg",
+      "sha256": "fcca085c3f3fd6a13be67ad37a90ea179c8441bc000dd5b9859eda4f6bd12327"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-035.jpg",
+      "sha256": "8a490b89ade1b7967fdeb45686df3fc7948b938d695df7ecf6a33765126623b6"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-036.jpg",
+      "sha256": "dcccc5c3ca0e2a97a9aaa4c11d25b849c31f94990bef98e485710c683f2dead0"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-037.jpg",
+      "sha256": "a182a95178393e0ef2faefba05dffa517ed2443d5264bfa271c3c5e2e665c15d"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/detail-038.jpg",
+      "sha256": "bbeb44e344ce7abf0f176b255517f92e53abb83ebacd34164821324d82b0ce64"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/independent-opening-native-crops.jpg",
+      "sha256": "3f2c608d85922114f82302b0d0b574d35aa688681cfe5fd56dbe53445cb0d931"
+    },
+    {
+      "path": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-output/frame-index.json",
+      "sha256": "120ae46d22cb53d7ee8da1efeda6786f3c05263a911d0a2c6098a89dc69a1df3"
+    }
+  ]
+}

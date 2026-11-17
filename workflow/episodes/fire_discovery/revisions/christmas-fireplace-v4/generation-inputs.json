@@ -1,0 +1,62 @@
+{
+  "scope": "Elaine requests more visual stimulation and background detail, specifically regenerate the fireplace at Christmas. The rest are okay: preserve approved02/05 pairs exactly. Scope is this episode, not shared art guidelines.",
+  "reference_inputs": [
+    {
+      "media_id": "32eb483f-3828-4c01-b964-62503b693684",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/32eb483f-3828-4c01-b964-62503b693684.png",
+      "source_path": "workflow/assets/reference-art/Mascot.png",
+      "role": "identity"
+    },
+    {
+      "media_id": "bb3b0905-041a-4456-9587-74d7276cdaef",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/bb3b0905-041a-4456-9587-74d7276cdaef.png",
+      "source_path": "workflow/assets/reference-art/Microphone.png",
+      "role": "limb anatomy only"
+    },
+    {
+      "media_id": "f882fffb-183a-4cda-972a-c5cf0e1e38bc",
+      "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3LwjHyX5ojjt0AFNy0f4NnyMetX/f882fffb-183a-4cda-972a-c5cf0e1e38bc.jpg",
+      "source_path": "workflow/assets/reference-art/Spring.jpg",
+      "role": "painted style only"
+    }
+  ],
+  "new_requests": [
+    {
+      "index": 1,
+      "scene": "01",
+      "endpoint": "first",
+      "params": {
+        "model": "nano_banana_2_1",
+        "resolution": "2k",
+        "thinking_level": "medium",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "prompt": "Create a complete new vertical painted scene: Sol beside a fireplace in a detailed Christmas living room.\n\nA richly detailed, cozy cottage living room decorated for Christmas. On screen-left, a deep green fir tree has red and gold baubles, a small gold star and warm little string lights, with four differently wrapped presents tucked around its base. On screen-right, a broad charcoal-gray stone fireplace contains three short stacked logs and a low warm wood fire. The mantel carries a lush evergreen garland with red bows; three red-and-cream stockings hang from the mantel sides, clear of the dark fire opening. A wreath with a red ribbon hangs above it. A small window in the back wall shows still snowy fir trees in cool blue winter daylight. A few warm string lights cross the upper wall. A basket of split firewood sits to the right of the hearth, and a folded knitted throw lies over the edge of a background chair. A muted red-and-cream woven rug and warm wooden floor complete the room. Warm amber hearth and tree light mix with cool window fill; no floating particles. These decorations belong to this specific Christmas opening.\n\nMedium-wide full-body portrait view, camera at Sol eye height with a gentle downward angle. Sol stands on the floor just in front of the hearth apron at x=43%, feet y=78%, height about30%. The fireplace is on screen-right, its firebox centered x=76%, y=60%; the Christmas tree fills the left background from y=15% to y=66%. Frame the decorated mantel, wreath, snowy window and presents so they read as layered background details. Keep a clear gap around Sol and both feet; lower fifth is a calm area of rug/floor for editable captions. Fixed camera.\n\nExactly one original Sol stands in a shallow three-quarter orientation toward the fire on screen-right, with both original dark oval eyes visible. Both short rounded arms are low and gently forward, enjoying the warmth. His two tiny feet rest flat on the floor. All Christmas decorations are already in place and tree lights glow steadily. He wears no costume or accessories.\n\nPreserve the original mascot design: compact broad flame silhouette, asymmetric main tip and rounded side lobes, substantial red outer layer, original orange layer and broad cream inner flame with its lobed crown and rounded lower face. Two small close-spaced low-set tall oval eyes are completely opaque navy #1C2447, without highlights or extra pupils. Short rounded arms and tiny red stubby feet keep their original proportions and attachment points. The cream face is completely mouthless and blank beneath the eye pair. Sol has no hat, clothing, ornaments or particles; the Christmas decorations belong to the room.\n\nSoft matte gouache brushwork, visible layered paint and subtle paper texture cover Sol, every decoration, furniture, fire and surrounding surfaces alike. Use softly painted edges and coherent perspective/contact shadows. Keep the background rich with distinct Christmas objects, rendered as readable painted shapes, and preserve clear contrast around Sol. No inked outlines, glossy plastic, photographic fire, text, captions or watermark.\n\nReference roles: image1 controls the original Sol identity; image2 controls short rounded arm anatomy only, without microphone or cable; image3 supplies the layered gouache finish only. Generate this new Christmas room with EXACTLY ONE Sol, without inheriting spring scenery or extra characters.",
+        "medias": [
+          {
+            "role": "image",
+            "value": "32eb483f-3828-4c01-b964-62503b693684"
+          },
+          {
+            "role": "image",
+            "value": "bb3b0905-041a-4456-9587-74d7276cdaef"
+          },
+          {
+            "role": "image",
+            "value": "f882fffb-183a-4cda-972a-c5cf0e1e38bc"
+          }
+        ]
+      }
+    }
+  ],
+  "requests_recorded_before_submission": [
+    "../../jobs/higgsfield/christmas-v4-first-request.json",
+    "../../jobs/higgsfield/christmas-v4-pose-request.json",
+    "../../jobs/higgsfield/christmas-v4-last-request.json"
+  ],
+  "estimated_credits_per_image": 2,
+  "actual_billing_verified": false,
+  "submitted_image_jobs": 3,
+  "selected_first_job": "a1492bc0-9dd6-499d-921b-a3aa526cf882",
+  "new_video_jobs": 0
+}

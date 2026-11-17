@@ -1,0 +1,50 @@
+{
+  "completed_at": "2026-11-17T00:31:45.375486+00:00",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+  "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-scene-refresh-v6-final.mp4",
+  "sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
+  "prior_completed_sha256": "987fd5b8e60a78ed0cbda059653eab634d39f1416a70d87977db847fb30d9b25",
+  "prior_copy_archived_to": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/archive/completed-before-scene-refresh-v6.mp4",
+  "source_review_gate": {
+    "approved": true,
+    "scenes": [
+      {
+        "approved": true,
+        "scene": "01",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "02",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "03",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "04",
+        "stage": "clip",
+        "reason": "independent review passed"
+      },
+      {
+        "approved": true,
+        "scene": "05",
+        "stage": "clip",
+        "reason": "independent review passed"
+      }
+    ]
+  },
+  "final_visual_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-independent-visual-review.json",
+  "audio": "Exact corrected v5 AAC packets and timestamps retained; speech1x, music, aligned bomboclat and full Right release unchanged.",
+  "duration_sec": 25.8,
+  "format": "1080x1920,30fps,H264/AAC",
+  "user_final_playback_acceptance": "pending user viewing; no further frame approval needed for these unchanged approved images",
+  "quicktime_opened_file": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-scene-refresh-v6-final.mp4",
+  "quicktime_open_command_exit_code": 0
+}
