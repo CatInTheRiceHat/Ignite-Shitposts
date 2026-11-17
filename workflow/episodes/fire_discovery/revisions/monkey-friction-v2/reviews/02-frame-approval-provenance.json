@@ -1,0 +1,30 @@
+{
+  "user_message": "okay sure",
+  "in_response_to": "Approve both for animation? after showing the new first/last pair and opening in Preview.",
+  "approved_frames": {
+    "first": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-first-v2.png",
+      "sha256": "4de32def65c8c39ff24053d8e248cc7e1ad26981b28227293a54b5208c06c4e3"
+    },
+    "last": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-last-v2.png",
+      "sha256": "bb1657fac38db89fcb1fcb6916c69eaeb43589b4e590e1ed9249eed6aec1905c"
+    }
+  },
+  "packet": {
+    "packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02/frames/711a3ca454f897d62917/packet.json",
+    "request": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02/frames/711a3ca454f897d62917/review-request.txt",
+    "comparison": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02/frames/711a3ca454f897d62917/evidence/frame-comparison.jpg",
+    "status": "awaiting user approval of both frames"
+  },
+  "gate": {
+    "approved": true,
+    "scene": "02",
+    "packet_id": "711a3ca454f897d629173f2a5fab09ca74532b252e0fcd554ad7235ab85ca8d9",
+    "reason": "both exact stills approved by user"
+  },
+  "generation_job_inputs": {
+    "first": "920bf419-89b0-4906-bd2f-aff6d6d8950f",
+    "last": "438464fe-6a39-4bc6-9bab-93955efea217"
+  }
+}

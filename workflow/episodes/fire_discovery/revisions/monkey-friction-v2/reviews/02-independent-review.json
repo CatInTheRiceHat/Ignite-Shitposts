@@ -1,0 +1,385 @@
+{
+  "packet_id": "7211d1e503da76601e96fb633e250a74555b2045abfa03809c2b7fd3eec78e02",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T01:57:34.492173+00:00",
+  "method": "Read current workflow AGENTS/checklist/clip-review guide and the actual full script plus scene context/cues. Inspected the current frame comparison, all8 chronological pages, native frames0/15/22/30/75/143 and supplemental native-scale every-pair contact crops0–70 and ignition crops64–92. Compared the approved monkey endpoints and previously inspected original identity/paint/lantern reference roles; no Sol is required in this shot. Inspected six actual captioned-preview checkpoints. The technical cadence receipt is kept separate from visual conclusions. No real-time playback, manual audio listening or final-assembly approval is claimed. Automatic inspector candidates were not treated as defect verdicts.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Sol is absent as planned. The approved monkey identity, tan muzzle/belly, rounded ears, single curved tail, supported seated body, gray stone and woodland camera remain recognizable from first through last. The natural monkey mouth and eye whites/pupils are appropriate to this animal and are not Sol redesigns.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        1,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol is absent throughout. His navy-oval eye requirement does not apply to the approved monkey; its ordinary natural eyes remain attached to its face and are assessed under reference_match.",
+      "timestamps_sec": [
+        0,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "No Sol is visible. The separate burning sticks are planned fuel fire, not mascot particles. Monkey limb count, seated support, grips and single tail are assessed below.",
+      "timestamps_sec": [
+        0,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Locked full-body portrait framing preserves the monkey, both hands, two held sticks, seat, feet and single tail. The crossing is in open space above the grips; no supporting log, banana, third stick or extra hand appears. Small attached wood nubs already exist in the approved endpoints and are not new props. Lower ground remains clear enough for the caption samples.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "fail",
+      "observed": "The contract requires continuous wood contact during short rubbing strokes. Source frames12–21 (0.400–0.733333s, end exclusive) instead lift the moving stick away so the shafts become separated near-parallel objects with visible air between them; native frame15 is decisive. Contact returns around22 but the shaft and near hand are heavily smeared at22–25. Later short crossed strokes do not erase the first contact break. Supported feet and both grips are retained.",
+      "timestamps_sec": [
+        0.366667,
+        0.4,
+        0.5,
+        0.7,
+        0.733333,
+        0.8,
+        1.0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000004.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "fail",
+      "observed": "The first stroke is a lift-away and return arc, not a contact-preserving slide along the other piece of wood. This contradicts the explicit rubbing action. Later causal order is otherwise readable: smoke precedes both tip flames at source68/69 (2.266667s), and the monkey then reacts with surprise by3.0s. This is the approved imagined cartoon vignette; no historical realism objection is being introduced.",
+      "timestamps_sec": [
+        0.4,
+        0.5,
+        0.733333,
+        2.2,
+        2.266667,
+        2.5,
+        3.0
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000010.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Exactly two sticks remain in their respective gripping hands; no third stick, extra hand, loose supporting log or replacement object appears. Both orange flames begin on and remain rooted at the two upper wood ends; the larger right and smaller left flame match the supplied final state. The single tail and supported feet persist. Motion smear is separately blocking under clean_footage/performance.",
+      "timestamps_sec": [
+        0,
+        1,
+        2.266667,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "The first source state has the approved unlit crossed sticks, curious monkey and forest composition. The selected ending has both wood-tip flames, supported seated body, single tail and surprised natural monkey mouth, matching the approved result. These correct endpoints do not validate intermediate contact.",
+      "timestamps_sec": [
+        0,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "fail",
+      "observed": "The technical receipt establishes144 frames at30fps, identical consecutive pairs and maximum full-frame hold2; these are not a semantic motion pass. Actual paired states22–25 (0.733333–0.866667s) and48–51 (1.600–1.733333s) visibly smear the moving shaft/near-hand edges and conceal the crisp stepped contact. The first rubbing stroke also opens a gap. No long full-scene freeze is present; later flame flicker continues. Confirmed Narrator cue is0.800–4.596s at1x; visual reaction and tail fit4.8s, but the rubbing is defective.",
+      "timestamps_sec": [
+        0.4,
+        0.733333,
+        0.8,
+        1.6,
+        1.666667,
+        2.5,
+        4.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/script-context.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "fail",
+      "observed": "Moving wood and the near hand show conspicuous blurred/smeared contours, especially source22–25 and48–51; these are visible actual source artifacts, not inspector flags inferred from motion scores. The rest of the shot has no unintended lettering/logo, visible Narrator or extra character. Monkey mouth is expressly planned and Sol is absent. Source review does not claim audio listening.",
+      "timestamps_sec": [
+        0.733333,
+        0.8,
+        1.6,
+        1.666667,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000006.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "The approved warm painted monkey, layered foliage/wood, matte rocks and textured earth retain the soft illustrated treatment and atmospheric depth established in the approved pair and graphic paint references. There is no new glossy/vector makeover or broad traveling background/body ripple. Local motion smear is a separate clean-motion failure.",
+      "timestamps_sec": [
+        0,
+        1,
+        2.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000007.jpg",
+        "evidence/detail/frame-000010.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/sequence-07.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "fail",
+      "observed": "Read the complete current storyboard and bound scene context with confirmed voice cues. Narrator local0.800–4.596s accompanies the intended imagined two-stick action; Sol is absent so no upward Sol gaze is required. The monkey appropriately looks toward the contact/flames and reaches surprise by3.0s. However source12–21 opens the required continuous rubbing contact and return states smear the mechanism, so the planned action is not fulfilled despite matching endpoints. This verdict is about actual contact, not the unchanged narration or historical accuracy. No manual audio listening or final full-episode synchronization approval is claimed.",
+      "timestamps_sec": [
+        0.4,
+        0.5,
+        0.733333,
+        0.8,
+        2.266667,
+        3.0,
+        4.5,
+        4.766667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/detail/frame-000005.jpg",
+        "evidence/detail/frame-000006.jpg"
+      ]
+    }
+  },
+  "supplemental_evidence": {
+    "contact-pairs-01.jpg": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02-independent-evidence/contact-pairs-01.jpg",
+      "sha256": "1bac8d139151dcd51b1a372d8869caaae56ce20de252a732c2deec36cca8812f",
+      "crop_xywh": [
+        340,
+        960,
+        320,
+        440
+      ],
+      "source_frames": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34
+      ],
+      "layout": "6 columns x3 rows; row-major; native scale"
+    },
+    "contact-pairs-02.jpg": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02-independent-evidence/contact-pairs-02.jpg",
+      "sha256": "2bcb18bf17cb38fa2605f1cd673ab07d772b639a1c7ab7e46be1bafd153c3244",
+      "crop_xywh": [
+        340,
+        960,
+        320,
+        440
+      ],
+      "source_frames": [
+        36,
+        38,
+        40,
+        42,
+        44,
+        46,
+        48,
+        50,
+        52,
+        54,
+        56,
+        58,
+        60,
+        62,
+        64,
+        66,
+        68,
+        70
+      ],
+      "layout": "6 columns x3 rows; row-major; native scale"
+    },
+    "ignition-pairs.jpg": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02-independent-evidence/ignition-pairs.jpg",
+      "sha256": "5d9a8f71693bd20b241286e105d75cff9e71aa026e831b7a58dbe8e4df710525",
+      "crop_xywh": [
+        280,
+        800,
+        400,
+        600
+      ],
+      "source_frames": [
+        64,
+        66,
+        68,
+        70,
+        72,
+        74,
+        76,
+        78,
+        80,
+        82,
+        84,
+        86,
+        88,
+        90,
+        92
+      ],
+      "layout": "5 columns x3 rows; row-major; native scale"
+    },
+    "preview-checkpoints.jpg": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/02-independent-evidence/preview-checkpoints.jpg",
+      "sha256": "f1df5e78b48b6667dcd04fadcee1dff1a8cad6788c0ea2b7161637dd06566b51",
+      "source_frames": [
+        0,
+        15,
+        30,
+        75,
+        135,
+        143
+      ],
+      "layout": "3 columns x2 rows; row-major;360x640 each",
+      "observed": "Actual rendered caption samples fit below the supported feet and do not obscure the stick contact; source15 still visibly separates the sticks. This limited overlay check cannot rescue the failed source; no audio listening."
+    }
+  },
+  "source_sha256": "3134dccd1911d42a4bdeba0673d7e86c9e24b72840071ec45a878a5920e533fc",
+  "local_edit_assessment": {
+    "verdict": "No normal-rate local selection can supply the requested4.8s clean shot without adding synthetic/frozen/repeated material.",
+    "confirmed_contact_break": {
+      "frames_inclusive": [
+        12,
+        21
+      ],
+      "interval_sec_end_exclusive": [
+        0.4,
+        0.7333333333333333
+      ],
+      "duration_sec": 0.3333333333333333
+    },
+    "clear_smear_ranges_inclusive": [
+      [
+        22,
+        25
+      ],
+      [
+        48,
+        51
+      ]
+    ],
+    "raw_duration_sec": 5.0,
+    "selected_duration_sec": 4.8,
+    "maximum_if_only_contact_break_removed_from_entire_raw_sec": 4.666666666666667,
+    "explanation": "Even using all5.0s of the raw source and deleting only the0.333333s contact break leaves4.666667s, below the required4.8s, before removing visible smear. The selected144-frame clip would leave4.466667s. The clean later ignition/reaction cannot replace the missing rubbing action; a loop or hold risks the already-rejected freeze/repetition. No splice is represented as tested or approved.",
+    "usable_material": "First unlit setup and later tip ignition/reaction are coherent; later crossed strokes contain smear and are not an uninterrupted clean4.8s alternative.",
+    "suggested_motion": "Retain the approved endpoints. Keep the right-hand stick fixed; move only the left-hand stick through2–3 tiny lengthwise back-and-forth slides with the visible X contact continuously pressed. Keep hands below contact, shafts rigid and both grips fixed; no lift-away, striking arc or concealing blur. Then show smoke, both wood-tip flames and one surprised reaction.",
+    "authorization": "Diagnostic recommendation only. Reviewer findings and approved stills do not authorize a paid regeneration."
+  },
+  "summary": "REJECT: source12–21 breaks the required wood contact;22–25 and48–51 smear the stick/hand motion. Correct endpoints, stable object count, valid paired cadence and readable flame payoff do not cure those defects. A normal-rate4.8s clean selection is not available. Preserve this take and retry the simpler fixed-stick/contact-preserving slide only after generation is separately authorized."
+}

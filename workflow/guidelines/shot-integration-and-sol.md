@@ -64,6 +64,29 @@ Describe prop support and contact explicitly: what is held, where contact occurs
 
 ## Plan the edit
 
+### Visual interest and curiosity
+
+Elaine's direction for every shot: make it stimulating and nice to look at,
+with plenty of action that makes viewers think, “omg thats cool whats happening
+there.” Build that curiosity into the visible scene and let the action and
+explanation answer it.
+
+Plan an eye-catching situation, a readable progression of physical action and
+a satisfying visible result. Use expressive performances, prop interactions,
+moving mechanisms and reveals as appropriate to the subject. One main action
+can contain several connected stages; it is not a limit of one tiny gesture
+followed by a long hold. Keep the composition attractive and the focal action
+clear at phone size, with enough time to understand each change. Vary the
+action and framing across shots so each gives viewers something new to watch.
+
+Record what catches the eye, what makes the viewer curious and how the action
+develops in each storyboard entry. Preserve Sol's identity, the painted finish
+and the exact motion cadence. During Narrator turns, keep Sol's required upward
+attention and listening idle; the demonstrated subject or a planned cutaway
+can carry the larger action.
+
+### Shot planning details
+
 For each clip, record its ID, teaching purpose, provisional edit duration, setting, framing, source asset or intended generation method, speaker-labeled dialogue, first frame, one main visible action and last frame. State what will be visible rather than using a vague instruction such as “show how it works.” Choose Sol's role per clip: asking, demonstrating or responding. A mechanism view can omit him when that improves the explanation.
 
 Make framing specific: shot size; camera height relative to Sol or the mechanism; viewing angle and camera side; subject placement; approximate subject size within the vertical frame; foreground, background, and crop boundaries; and the exact starting and ending view for any camera move. Identify the feature that should attract attention first. Keep expression shots large enough for Sol's eye shapes to read, and reserve a stated caption area that does not cover his face or the mechanism.

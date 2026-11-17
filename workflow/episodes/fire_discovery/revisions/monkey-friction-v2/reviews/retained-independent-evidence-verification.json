@@ -1,0 +1,122 @@
+{
+  "scope": "Identity verification only; visual judgments recorded separately after current script inspection.",
+  "current_script_sha256": "736e485c114ff7bf1c14aa5743246f3ea74e45e8cfd2579b4654a93666b05b96",
+  "scenes": [
+    {
+      "scene": "01",
+      "packet_id": "7f91e1d4545d8b300b0df4d7b3c487e82f4ee8aba2f73eaffece59835caaf2c9",
+      "prior_packet_id": "487e7bfe1584c131e6857e5f8f05af38ffff48082386b2f30232aa63351caa28",
+      "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-accident-v1/reviews/01-independent-continuous-motion-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4",
+        "sha256": "f75ff9b7487b8c12402d978cdea68361504ef953f9f850b120dd829d5ee2a53a"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 89,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "script_current": true,
+      "voice_cues_identical": true,
+      "audio_sources_identical": true,
+      "frame_hashes_identical": true,
+      "reference_hashes_identical": true,
+      "all_prior_coverage_images_identical": true
+    },
+    {
+      "scene": "03",
+      "packet_id": "e19b09aaaa898c79e44aaeffc56cb4509a58e090bd3b887e68a6f6331dfe5893",
+      "prior_packet_id": "5d5b2ed1b4e5a752457446b8bf1187ba32ce15f42c24d58a11ea4b2b58d00bdc",
+      "prior_report": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/03-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v4/03-lightning-with-sting-gap.mp4",
+        "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 241,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "script_current": true,
+      "voice_cues_identical": true,
+      "audio_sources_identical": true,
+      "frame_hashes_identical": true,
+      "reference_hashes_identical": true,
+      "all_prior_coverage_images_identical": true
+    },
+    {
+      "scene": "04",
+      "packet_id": "d2f23e21d714d2f8f0926e1923bd7f6e0f04dbd9981fe06a6e54b8c34cfa4b61",
+      "prior_packet_id": "a9db8d8549aea5e6e77f13166b83ddc85179ab1865956c6ea5fef155867d94cf",
+      "prior_report": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/04-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v2/04-tight.mp4",
+        "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 232,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "script_current": true,
+      "voice_cues_identical": true,
+      "audio_sources_identical": true,
+      "frame_hashes_identical": true,
+      "reference_hashes_identical": true,
+      "all_prior_coverage_images_identical": true
+    },
+    {
+      "scene": "05",
+      "packet_id": "2db20f5864c43f8b6537fba5de2f0849fc284b44aa7bf231ddb9cf3cdc21a5ba",
+      "prior_packet_id": "73fc295518d91f0f4cb20fdfb4df27b3a3890b648c59e2b9dab8e305a4c40241",
+      "prior_report": "workflow/episodes/fire_discovery/reviews/scene-refresh-v6/05-independent-review.json",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/05-scene.mp4",
+        "sha256": "cc01c367acea68e13bdaa18cc13d13e279faa6462b59718f7e89f56328f3541e"
+      },
+      "media_identical_verified": true,
+      "image_count_verified_identical": 211,
+      "image_mismatches": [],
+      "scene_fields_compared": [
+        "dialogue",
+        "narrator_attention",
+        "timing",
+        "first_frame",
+        "action",
+        "last_frame",
+        "performance_beats"
+      ],
+      "scene_field_changes": [],
+      "script_current": true,
+      "voice_cues_identical": true,
+      "audio_sources_identical": true,
+      "frame_hashes_identical": true,
+      "reference_hashes_identical": true,
+      "all_prior_coverage_images_identical": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "decision_by": "codex-primary",
+  "scope": "Routine artistic selection, not a new user instruction or an independent review pass.",
+  "user_requirement": "Fire starts at the actual rubbed crossing; the prior remote-tip ignition was rejected.",
+  "assistant_added_constraint": "Always keep flame crown below both upper ends.",
+  "selected_behavior": "Modest natural height flicker rooted at X, both remote ends unlit, final tiny approved contact-flame state.",
+  "reason": "Actual review found correct central ignition and a modest flame, with an over-specific prompt height mismatch. Accept height variation while preserving causal contact and repairing the genuine near-extinguished ending.",
+  "preserved_original_contract": "history/before-clean-tail-selection/",
+  "preserved_failed_report": "reviews/02-fight-cloud-v2-independent-review.json",
+  "paid_regeneration": false,
+  "independent_new_review_required": true
+}

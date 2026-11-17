@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "id": "945c9d9e-dc38-4823-a61a-1b08cb21b841",
+      "type": "video",
+      "status": "pending",
+      "model": "gemini_omni_flash_1_2",
+      "params": {
+        "prompt": "Begin with the two unlit sticks crossed and touching as in the first frame. During0.3–2.2s the monkey playfully rubs their upper lengths together in short back-and-forth strokes, one stick per hand, keeping both grips readable and the wood contact continuous. The sticks remain two distinct objects throughout; no separate prop enters. A faint wisp appears on the rubbed wood, then the upper ends catch little orange flames around2.4s. The monkey stops rubbing, lifts its shoulders and leans back slightly in one surprised reaction by3.2s. End with the same crossed shafts and both small flames attached to the rubbed upper ends shown in the last frame. Retain supported feet and the single tail. Continue a brief natural blink/breath and gentle wood-flame flicker through5s without freezing the whole scene. No extra hand, third stick, grip teleportation, banana, log, huge fire or body/texture ripple. This is a playful imagined cartoon accident, not an asserted historical discovery.\n\nExactly one friendly cocoa-brown storybook monkey with the same tan muzzle and belly, rounded ears, expressive dark eyes, small natural monkey mouth, ordinary compact monkey limbs and one attached long curved tail as the supplied scene. Preserve its proportions and painting. No clothes or accessories; no other characters.\n\nSoft matte gouache illustration, layered brushwork, broad readable shapes, softly painted edges and subtle paper texture. Preserve the same monkey, warm afternoon light and woodland; no inked outlines, glossy3D surfaces, text or watermark.\n\nStatic camera. Normal-speed action on twos at final30fps: identical consecutive two-frame states,15 updates per second. Keep painted texture/background stable; no interpolation, blending, optical flow or concealing blur. No generated speech, music, effects, text or captions.",
+        "aspect_ratio": "9:16",
+        "duration": 5,
+        "reference_images": [
+          "920bf419-89b0-4906-bd2f-aff6d6d8950f",
+          "438464fe-6a39-4bc6-9bab-93955efea217"
+        ],
+        "mode": "image-to-video",
+        "resolution": "1080p"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "prompt": "Edit the supplied unlit monkey-and-two-sticks scene into the FIRST frame of a funny fast-rubbing cartoon scene. Keep the same character, woodland, camera and crossed-stick setup.\n\nThe monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and64% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey\u2019s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "920bf419-89b0-4906-bd2f-aff6d6d8950f"
+      }
+    ]
+  }
+}

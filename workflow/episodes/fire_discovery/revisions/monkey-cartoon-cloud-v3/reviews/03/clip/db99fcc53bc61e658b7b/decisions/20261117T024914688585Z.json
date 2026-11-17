@@ -1,0 +1,350 @@
+{
+  "packet_id": "db99fcc53bc61e658b7b9a5512890f0c979acce7875678aebe97fd4179f47860",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T02:49:08.520069+00:00",
+  "method": "Read the complete stable current script fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741 and actual per-scene speaker/action context. Verified retained scene excerpt, dialogue, attention, timing, first/action/last and performance beats unchanged from the prior actual-footage review; verified source bytes, all current image evidence and actual reference/still/audio/cue hashes. Every chronological page was actually inspected in that prior continuing review and all images are byte-identical here, so those observations are reused explicitly. Reopened the targeted current page listed below during this revision check. Current script update only changes Scene02 cloud action. Current shared cartoon-effects guidance does not change the retained shot contracts. No pass is inferred from a prompt/probe alone; no real-time playback, manual audio listening or new assembled-output approval is claimed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg",
+    "evidence/sequence-11.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Character-free storm-tree cutaway matches approved endpoints: the same dead tree and dry lower branch in a cool painted landscape, no Sol or incidental characters.",
+      "timestamps_sec": [
+        0,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol is entirely off screen. No mascot eyes or anatomy require review in this landscape cutaway.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is entirely off screen. No mascot eyes or anatomy require review in this landscape cutaway.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed tree composition leaves branch contact readable; tree, terrain and cloud framing stay stable. The editorial push is outside this source; no source crop cuts the strike contact.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Tree remains unlit through2.567. One complete branching bolt appears for frames78–79 at2.600–2.633 at the dry branch region. A small flame first appears at contact in that same pair, then stays rooted after the bolt disappears at2.667. This is causal ignition at contact within two-frame resolution; no separate delayed ignition pair is claimed.",
+      "timestamps_sec": [
+        2.566667,
+        2.6,
+        2.633333,
+        2.666667,
+        3
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The full fixed bolt connects sky toward the dry lower branch as a single flash. It does not sweep, draw itself over time, reverse direction or float away. Subsequent wood fire flickers upward from the same branch.",
+      "timestamps_sec": [
+        2.6,
+        2.633333,
+        2.666667,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Tree and branch remain rigid and in the same position. Fire persists at one contact region with no second fire patch or background/prop morph; small fire flecks belong to the wood fire, with no mascot present.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Unlit opening and burning-branch ending match approved story states. Last selected frame retains the same fire and landscape; source is already the actual206-frame trimmed/extended edit selection.",
+      "timestamps_sec": [
+        0,
+        2.566667,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Quiet unlit hold supports offscreen Sol question0.080–1.837 and Narrator Yes onset2.0. One-pair bolt at2.600 is positioned at the supplied sting-impact cue. Actual flame flicker then continues through Narrator resume about3.756 and line end6.613, with selected cut6.867. Native pair hashes confirm cadence; audio impact heard timing is not independently claimed.",
+      "timestamps_sec": [
+        0.08,
+        1.837,
+        2,
+        2.6,
+        3.756,
+        6.613
+      ],
+      "evidence": [
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All206 frames inspected. No baked captions, UI, watermark, added character or sweeping bolt. No unplanned whole-image flash/pulse or morphing tree was observed. The intended bolt is confined to one unchanged pair.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        2.666667,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native3s detail shows textured painted tree bark, clouds and ground with soft layered colors; fire is integrated in the same painted treatment. No inked diagram or separately styled mechanism.",
+      "timestamps_sec": [
+        3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete cartoon fight-cloud revision storyboard and bound Scene03 context. The selected-source timing in the actual storyboard is authoritative: Sol offscreen0.080–1.837s; Narrator2.000–6.613s with the sting gap; fixed bolt/source78–79 at2.600–2.633s; fire continues through6.867s. The unchanged historical performance-beat prose still mentions the pre-trim3.8s source event, but the explicit current edited-source instructions and actual frames place it at2.6s. This source supports the spoken lightning explanation. Sol is absent; no invented upward gaze. Cue-relative visual timing is checked, not audible impact sync.",
+      "timestamps_sec": [
+        0.08,
+        1.837,
+        2,
+        2.6,
+        3.756,
+        6.613
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    }
+  },
+  "summary": "PASS for unchanged retained Scene03 under the current stable storyboard. Existing actual-frame observations and cadence evidence remain valid after verified asset/context identity. Scene02 and the new assembled output require their own actual-media review.",
+  "reused_evidence": {
+    "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/03-independent-review.json",
+    "prior_report_sha256": "d50005f58dddb02125a94dc70e9b345231581d64f70e19a70421cd3aa9ced431",
+    "prior_packet_id": "e19b09aaaa898c79e44aaeffc56cb4509a58e090bd3b887e68a6f6331dfe5893",
+    "all_image_evidence_identical_count": 241,
+    "prior_full_page_coverage_reused": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg",
+      "evidence/sequence-05.jpg",
+      "evidence/sequence-06.jpg",
+      "evidence/sequence-07.jpg",
+      "evidence/sequence-08.jpg",
+      "evidence/sequence-09.jpg",
+      "evidence/sequence-10.jpg",
+      "evidence/sequence-11.jpg"
+    ],
+    "targeted_pages_reopened_this_revision": [
+      "evidence/sequence-04.jpg"
+    ],
+    "initial_reviewed_packet": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/03/clip/0f949dc38f035375739d/packet.json"
+  },
+  "verification_receipt": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/retained-independent-evidence-verification.json",
+  "limitations": [
+    "Source-level visual/cue compatibility only; new final crops, captions and audio mix are not approved by this retained-source report.",
+    "No manual audio listening or real-time playback claimed.",
+    "Scene02 first cloud take is user-rejected; its replacement has not been reviewed by this report."
+  ],
+  "type": "independent_clip_review",
+  "decision": "passed",
+  "binding": {
+    "scene": "03",
+    "stage": "clip",
+    "contract_sha256": "f4c56e29901c786931dd0b4567e57a4ace86abab7c077f53feccc7c6806762dc",
+    "frames": {
+      "first": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-first.png",
+        "sha256": "ab1b9116a83d682e885d4edd2929f0f0ef37fdb7e04ce3e980184ee298238cb1"
+      },
+      "last": {
+        "path": "workflow/episodes/fire_discovery/keyframes/03-last.png",
+        "sha256": "9b41ad9bbf1820f018c4add0407fe1ea0a17081ed8e1da5668e79ee8db89dc20"
+      }
+    },
+    "references": {
+      "still": {
+        "path": "workflow/assets/reference-art/Mascot.png",
+        "sha256": "1579aea9aad7f23c8d3fd6759ec19d811a71d8accf66342ea26bc31e94283605"
+      },
+      "motion": {
+        "path": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+        "sha256": "e59990fb6233816700dbd183b2b685aa0acaa79600a45464172c9a9b3f6a226e"
+      },
+      "paint": {
+        "path": "workflow/assets/reference-art/Spring.jpg",
+        "sha256": "bb71cc10276f463fe129652b6d767550df2f3f2f36245f9b53626b97bedc4654"
+      },
+      "identity_example_01": {
+        "path": "workflow/assets/reference-art/Microphone.png",
+        "sha256": "de446891cbfce53a1e14826b747b3167b132ab30a0404bda3ebb101d3cd8801d"
+      }
+    },
+    "script": {
+      "path": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/script.txt",
+      "sha256": "fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741"
+    },
+    "voice_cues": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "audio_sources": {
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+        "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+      },
+      "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+        "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+        "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+      },
+      "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+        "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+        "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+      },
+      "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+        "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+        "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+      },
+      "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+        "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+        "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+      },
+      "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+        "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+      },
+      "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+        "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+      },
+      "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+        "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+      },
+      "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+        "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+      },
+      "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+        "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+        "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+      }
+    },
+    "clip": {
+      "path": "workflow/episodes/fire_discovery/clips/edit-v4/03-lightning-with-sting-gap.mp4",
+      "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365"
+    }
+  },
+  "recorded_at": "2026-11-17T02:49:14.688199+00:00"
+}

@@ -1,0 +1,7 @@
+{
+  "job_id": "9cbffcbb-98f5-4870-946e-6b1f19019eca",
+  "path": "keyframes/02-first.png",
+  "decision": "rejected",
+  "observation": "Three separate working sticks: horizontal in left hand, diagonal in right hand, third long base on log. User requested two.",
+  "repair": "Simplify to exactly two short handheld sticks; remove support log and loose foreground wood. Keep original monkey/forest reference."
+}

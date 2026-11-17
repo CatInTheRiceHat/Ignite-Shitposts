@@ -1,0 +1,102 @@
+{
+  "source": {
+    "path": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/script.txt",
+    "sha256": "736e485c114ff7bf1c14aa5743246f3ea74e45e8cfd2579b4654a93666b05b96"
+  },
+  "scene_script_excerpt": "SCENE 05 — Three Sols at a cozy night campfire — edit5.200s (20.600–25.800s)\nSetting: A cozy campsite well after nightfall on an open ridge. Deep navy night sky, a small fixed painted crescent and a few subdued stars; distant dark blue hills, one small muted canvas tent at upper-right, packed mauve-gray earth. A low wood campfire casts a strong intimate amber pool of light around the group, with gentle cool blue moonlight on the outer silhouettes. Keep cream faces readable and navy eyes dark. Calm, warm, friendly atmosphere.\nFraming: Static medium-wide full-body view from slightly above the Sols, angled downward. Exactly three Sols gather around a low campfire centered x=50%, stone base y=54%, flame top y=39%. Speaking Sol is foreground-right x=78%, feet y=67%, height about26%. Toasting friend is foreground-left x=23%, feet y=70%, height about26%. Warming friend is farther back x=35%, feet y=41%, height about20%, separated above-left of the fire. Same world-size through perspective. Clear gaps keep all faces and feet readable. Tent sits in the upper-right background; dark quiet lower third for editable captions.\nFirst frame: The foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow held in front of the stone ring, ready to toast. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.\nAction: During local0.0–2.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080–2.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0–3.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0–4.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.\nLast frame: Exactly the same three Sols, campsite, sizes, positions, foot contacts, fire, stones, wood, tent and night lighting. The foreground-left friend now holds the skewer slightly lifted, with its single lightly toasted marshmallow clear of the flame. The rear friend holds both short arms a little forward in a warming pose. The foreground-right speaking Sol holds both short arms slightly open in a low understanding gesture. All THREE compact bodies and their attached faces tilt gently backward/up together to look toward the fixed Narrator point just above camera, keeping original normal navy oval eyes and tiny limbs unchanged. All three remain firmly on the ground.\nSol: “So finding fire wasn't the same as making it.”\nNarrator: “Right.”\nSpeaker cues: Existing05-01-sol at0.080–2.914s; original-release05-02-narrator at4.000–4.900s. Unchanged1x; preserve final picture through5.2s.\nNarrator attention: ALL THREE visible Sols must look above camera by local3.6s and maintain that gaze with gentle listening idle through Narrator4.0–4.9s and the ending. Only foreground-right Sol speaks; the two friends are silent.\nNext cut: Hold all three upward listening poses through the complete Right release and existing music fade. Preserve the full5.2s picture ending.\nGeneration length:6s; trim to actual voice timing after review.\nMotion: exact unchanged two-frame states at30fps, normal-speed action and1x speech.\n\n",
+  "dialogue": [
+    {
+      "speaker": "Sol",
+      "text": "So finding fire wasn't the same as making it."
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Right."
+    }
+  ],
+  "narrator_attention": {
+    "required": true,
+    "gaze_target": "Fixed point just above camera",
+    "coverage": "ALL THREE visible Sols must look above camera by local3.6s and maintain that gaze with gentle listening idle through Narrator4.0–4.9s and the ending. Only foreground-right Sol speaks; the two friends are silent.",
+    "final_voice_alignment_verified": false,
+    "idle": "Gentle connected flame/body idle while listening; no repeated arm gesture"
+  },
+  "timing": {
+    "source": {
+      "path": "workflow/episodes/fire_discovery/audio/voice-cues.json",
+      "sha256": "f2e03178c8b5923bea1270d7a96c629e6b12dc4148bbaff12f2bcfa3f8ee4f33"
+    },
+    "cues_confirmed": true,
+    "alignment_verifiable": true,
+    "basis": "confirmed cues and recordings"
+  },
+  "audio_sources": {
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/01-01-sol.wav",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25"
+    },
+    "workflow/episodes/fire_discovery/audio/01-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/01-01-sol.wav",
+      "sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/02-01-narrator.wav",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016"
+    },
+    "workflow/episodes/fire_discovery/audio/02-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/02-01-narrator.wav",
+      "sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/03-01-sol.wav",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b"
+    },
+    "workflow/episodes/fire_discovery/audio/03-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-01-sol.wav",
+      "sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f"
+    },
+    "workflow/episodes/fire_discovery/audio/03-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/03-02-narrator.wav",
+      "sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/04-01-narrator.wav",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253"
+    },
+    "workflow/episodes/fire_discovery/audio/04-01-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/04-01-narrator.wav",
+      "sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e"
+    },
+    "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/trimmed-v2/05-01-sol.wav",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480"
+    },
+    "workflow/episodes/fire_discovery/audio/05-01-sol.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-01-sol.wav",
+      "sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d"
+    },
+    "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/sound-v4/05-02-narrator-full-release.wav",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f"
+    },
+    "workflow/episodes/fire_discovery/audio/05-02-narrator.wav": {
+      "path": "workflow/episodes/fire_discovery/audio/05-02-narrator.wav",
+      "sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401"
+    }
+  },
+  "scene_id": "05",
+  "first_frame": "The foreground-left Sol holds one slim wooden skewer in its tiny rounded arm, with one white marshmallow held in front of the stone ring, ready to toast. The rear Sol holds its short rounded arms low, ready to extend them toward the warmth. The foreground-right speaking Sol watches the toasting friend, both arms low. All three have supported stubby feet, shallow three-quarter orientations and both original dark oval eyes visible. The low faceless wood fire stays on three pieces of charred wood inside a simple stone ring.",
+  "action": "During local0.0–2.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080–2.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0–3.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0–4.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.",
+  "last_frame": "Exactly the same three Sols, campsite, sizes, positions, foot contacts, fire, stones, wood, tent and night lighting. The foreground-left friend now holds the skewer slightly lifted, with its single lightly toasted marshmallow clear of the flame. The rear friend holds both short arms a little forward in a warming pose. The foreground-right speaking Sol holds both short arms slightly open in a low understanding gesture. All THREE compact bodies and their attached faces tilt gently backward/up together to look toward the fixed Narrator point just above camera, keeping original normal navy oval eyes and tiny limbs unchanged. All three remain firmly on the ground.",
+  "performance_beats": [
+    {
+      "body": "During local0.0–2.4s, the left friend raises its one marshmallow skewer into the warm air over the fire with a small arm lift and stick rotation, turns it once, then holds the lightly toasted marshmallow clear of the flame. The rear friend extends both short arms a small direct distance toward the warmth and settles. During its existing0.080–2.914s sentence, the right speaking Sol watches the toasting friend and opens its short arms once into a small low understanding gesture. Tiny attached body/tip follow-through; keep everyone grounded. During local3.0–3.6s, ALL THREE tilt their coherent bodies and attached faces gently upward toward the fixed Narrator point above camera. The skewer settles and stays still. All three maintain upward gaze and gentle listening idle throughout Arthur at4.0–4.9s, the edited ending5.2s, and the remaining source tail to6s. The campfire flickers softly while rooted on its wood; stable tent, stars, hills, ground and camera. No extra characters or speech.",
+      "cue": "Existing05-01-sol at0.080–2.914s; original-release05-02-narrator at4.000–4.900s. Unchanged1x; preserve final picture through5.2s.",
+      "gaze": "ALL THREE visible Sols must look above camera by local3.6s and maintain that gaze with gentle listening idle through Narrator4.0–4.9s and the ending. Only foreground-right Sol speaks; the two friends are silent."
+    }
+  ]
+}

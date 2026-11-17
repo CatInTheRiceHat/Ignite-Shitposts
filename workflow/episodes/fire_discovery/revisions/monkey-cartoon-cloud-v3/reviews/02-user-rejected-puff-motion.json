@@ -1,0 +1,18 @@
+{
+  "job_id": "2ca98963-b371-4ea9-b195-9815d31d05b3",
+  "clip": "clips/02-scene.mp4",
+  "user_messages": [
+    "the cloud thing",
+    "should be like",
+    "yk a cartoon fighting cloud",
+    "its like that",
+    "but it just look slike the same cloud is appearing again and again"
+  ],
+  "decision": "user rejected motion",
+  "actual_frame_observations": [
+    "Cloud repeatedly clears and reappears near0.533/0.600s and1.8/1.867s in the selected clip.",
+    "First take also grows an oversized flame above the sticks around2.667\u20133.267s; revise to keep the small supplied contact flame."
+  ],
+  "evidence_packet": "reviews/02/clip/8c1bfcaa9c433f842262/packet.json",
+  "replacement_request": "Same approved stills; sustained changing fight cloud, clears only once, tiny contact flame."
+}

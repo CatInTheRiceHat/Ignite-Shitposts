@@ -25,6 +25,11 @@ Explain each necessary connection: which part moves, what moves it, where it goe
 
 Give each shot one clear teaching purpose and one main visible action. Closely connected stages may form that action. State what the viewer learns or recognizes from the beat, and make each shot contribute something distinct rather than repeating a small lean, upward look and hold. Multiple spoken lines can share a clip when they support the same action.
 
+Make every shot visually stimulating and attractive, with plenty of purposeful
+action that sparks curiosity about what is happening. Write the eye-catching
+situation, the developing action and its visible payoff into the storyboard,
+following [visual interest and curiosity](shot-integration-and-sol.md#visual-interest-and-curiosity).
+
 Choose shot size, composition and camera behavior to reveal the explanation. A close-up can clarify a contact, a controlled push can reveal a detail, and quieter staging can serve listening, anticipation or a readable payoff. State whether a camera move belongs in generation or editing. Sol can ask, demonstrate or react when that role helps the beat; he may be absent from a mechanism-focused cutaway. Follow the [shot guide](shot-integration-and-sol.md#plan-the-edit) for detailed staging and [purposeful performance](shot-integration-and-sol.md#purposeful-performance-and-prop-contact).
 
 ## Speakers and script format

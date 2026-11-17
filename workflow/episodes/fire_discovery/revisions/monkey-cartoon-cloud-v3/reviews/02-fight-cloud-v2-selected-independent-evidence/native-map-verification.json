@@ -1,0 +1,19 @@
+{
+  "independently_verified": true,
+  "selected_frames": 144,
+  "raw_paired_frames": 150,
+  "source_ranges_inclusive": [
+    [
+      0,
+      139
+    ],
+    [
+      146,
+      149
+    ]
+  ],
+  "all_selected_decoded_frame_hashes_match_source": true,
+  "all_pairs_identical": true,
+  "longest_full_frame_run": 2,
+  "sha256": "c3dbae1a4d4c87e883f28c5cc2f7603e3caf6b3861b9de387ffc57b142fc7d56"
+}

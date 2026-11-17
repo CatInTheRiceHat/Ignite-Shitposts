@@ -1,0 +1,84 @@
+{
+  "soundtrack_source": "renders/fire-discovery-scene-refresh-v6-final.mp4",
+  "strategy": "Mux unchanged existing AAC packets over newly reviewed picture after render.",
+  "audio_tracks_identical": true,
+  "audio_source_hashes_verified": [
+    {
+      "id": "01-01-sol",
+      "sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25",
+      "start": 0.08,
+      "duration": 1.8063125,
+      "playbackRate": 1
+    },
+    {
+      "id": "02-01-narrator",
+      "sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016",
+      "start": 3.133333,
+      "duration": 3.795729166666667,
+      "playbackRate": 1
+    },
+    {
+      "id": "03-01-sol",
+      "sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b",
+      "start": 7.213333,
+      "duration": 1.7567083333333333,
+      "playbackRate": 1
+    },
+    {
+      "id": "03-02-narrator",
+      "sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f",
+      "start": 9.133333,
+      "duration": 4.613354166666666,
+      "playbackRate": 1
+    },
+    {
+      "id": "04-01-narrator",
+      "sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253",
+      "start": 14.08,
+      "duration": 6.3036875,
+      "playbackRate": 1
+    },
+    {
+      "id": "05-01-sol",
+      "sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480",
+      "start": 20.68,
+      "duration": 2.8336041666666665,
+      "playbackRate": 1
+    },
+    {
+      "id": "05-02-narrator",
+      "sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f",
+      "start": 24.6,
+      "duration": 0.9,
+      "playbackRate": 1
+    },
+    {
+      "id": "lightning-bomboclat",
+      "sha256": "b2941aab7a92f8f11158e80a656fbba1a3de3c153cde893f2eb94d7e723e2b01",
+      "start": 9.533333333333333,
+      "duration": 1.0163125,
+      "playbackRate": 1
+    },
+    {
+      "id": "music-bed-v4",
+      "sha256": "885cd683c450e3330681090276eddf077a724972824b68c143ad52bcc4243baf",
+      "start": 0,
+      "duration": 25.8,
+      "playbackRate": 1
+    }
+  ],
+  "caption_style_and_timing_identical": true,
+  "all_scene_durations_identical": true,
+  "frames": 774,
+  "fps": 30,
+  "duration_sec": 25.8,
+  "flash_frame": 292,
+  "flash_time_sec": 9.733333333333333,
+  "sting_impact_time_sec": 9.722333,
+  "final_right_voice": [
+    24.6,
+    25.5
+  ],
+  "final_caption_end_sec": 25.7,
+  "verification_scope": "Metadata/source hash verification now; actual final picture/audio packet comparison and visual assembly review pending."
+}

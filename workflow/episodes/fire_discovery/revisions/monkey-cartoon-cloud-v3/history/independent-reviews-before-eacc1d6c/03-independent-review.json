@@ -1,0 +1,244 @@
+{
+  "packet_id": "db99fcc53bc61e658b7b9a5512890f0c979acce7875678aebe97fd4179f47860",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T02:49:08.520069+00:00",
+  "method": "Read the complete stable current script fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741 and actual per-scene speaker/action context. Verified retained scene excerpt, dialogue, attention, timing, first/action/last and performance beats unchanged from the prior actual-footage review; verified source bytes, all current image evidence and actual reference/still/audio/cue hashes. Every chronological page was actually inspected in that prior continuing review and all images are byte-identical here, so those observations are reused explicitly. Reopened the targeted current page listed below during this revision check. Current script update only changes Scene02 cloud action. Current shared cartoon-effects guidance does not change the retained shot contracts. No pass is inferred from a prompt/probe alone; no real-time playback, manual audio listening or new assembled-output approval is claimed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg",
+    "evidence/sequence-11.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Character-free storm-tree cutaway matches approved endpoints: the same dead tree and dry lower branch in a cool painted landscape, no Sol or incidental characters.",
+      "timestamps_sec": [
+        0,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "Sol is entirely off screen. No mascot eyes or anatomy require review in this landscape cutaway.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "Sol is entirely off screen. No mascot eyes or anatomy require review in this landscape cutaway.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Fixed tree composition leaves branch contact readable; tree, terrain and cloud framing stay stable. The editorial push is outside this source; no source crop cuts the strike contact.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Tree remains unlit through2.567. One complete branching bolt appears for frames78–79 at2.600–2.633 at the dry branch region. A small flame first appears at contact in that same pair, then stays rooted after the bolt disappears at2.667. This is causal ignition at contact within two-frame resolution; no separate delayed ignition pair is claimed.",
+      "timestamps_sec": [
+        2.566667,
+        2.6,
+        2.633333,
+        2.666667,
+        3
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "The full fixed bolt connects sky toward the dry lower branch as a single flash. It does not sweep, draw itself over time, reverse direction or float away. Subsequent wood fire flickers upward from the same branch.",
+      "timestamps_sec": [
+        2.6,
+        2.633333,
+        2.666667,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Tree and branch remain rigid and in the same position. Fire persists at one contact region with no second fire patch or background/prop morph; small fire flecks belong to the wood fire, with no mascot present.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        3,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000011.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Unlit opening and burning-branch ending match approved story states. Last selected frame retains the same fire and landscape; source is already the actual206-frame trimmed/extended edit selection.",
+      "timestamps_sec": [
+        0,
+        2.566667,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "Quiet unlit hold supports offscreen Sol question0.080–1.837 and Narrator Yes onset2.0. One-pair bolt at2.600 is positioned at the supplied sting-impact cue. Actual flame flicker then continues through Narrator resume about3.756 and line end6.613, with selected cut6.867. Native pair hashes confirm cadence; audio impact heard timing is not independently claimed.",
+      "timestamps_sec": [
+        0.08,
+        1.837,
+        2,
+        2.6,
+        3.756,
+        6.613
+      ],
+      "evidence": [
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All206 frames inspected. No baked captions, UI, watermark, added character or sweeping bolt. No unplanned whole-image flash/pulse or morphing tree was observed. The intended bolt is confined to one unchanged pair.",
+      "timestamps_sec": [
+        0,
+        2.6,
+        2.666667,
+        6.833333
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native3s detail shows textured painted tree bark, clouds and ground with soft layered colors; fire is integrated in the same painted treatment. No inked diagram or separately styled mechanism.",
+      "timestamps_sec": [
+        3
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/paint.jpg",
+        "evidence/detail/frame-000011.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete cartoon fight-cloud revision storyboard and bound Scene03 context. The selected-source timing in the actual storyboard is authoritative: Sol offscreen0.080–1.837s; Narrator2.000–6.613s with the sting gap; fixed bolt/source78–79 at2.600–2.633s; fire continues through6.867s. The unchanged historical performance-beat prose still mentions the pre-trim3.8s source event, but the explicit current edited-source instructions and actual frames place it at2.6s. This source supports the spoken lightning explanation. Sol is absent; no invented upward gaze. Cue-relative visual timing is checked, not audible impact sync.",
+      "timestamps_sec": [
+        0.08,
+        1.837,
+        2,
+        2.6,
+        3.756,
+        6.613
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-11.jpg"
+      ]
+    }
+  },
+  "summary": "PASS for unchanged retained Scene03 under the current stable storyboard. Existing actual-frame observations and cadence evidence remain valid after verified asset/context identity. Scene02 and the new assembled output require their own actual-media review.",
+  "reused_evidence": {
+    "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/03-independent-review.json",
+    "prior_report_sha256": "d50005f58dddb02125a94dc70e9b345231581d64f70e19a70421cd3aa9ced431",
+    "prior_packet_id": "e19b09aaaa898c79e44aaeffc56cb4509a58e090bd3b887e68a6f6331dfe5893",
+    "all_image_evidence_identical_count": 241,
+    "prior_full_page_coverage_reused": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg",
+      "evidence/sequence-05.jpg",
+      "evidence/sequence-06.jpg",
+      "evidence/sequence-07.jpg",
+      "evidence/sequence-08.jpg",
+      "evidence/sequence-09.jpg",
+      "evidence/sequence-10.jpg",
+      "evidence/sequence-11.jpg"
+    ],
+    "targeted_pages_reopened_this_revision": [
+      "evidence/sequence-04.jpg"
+    ],
+    "initial_reviewed_packet": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/03/clip/0f949dc38f035375739d/packet.json"
+  },
+  "verification_receipt": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/retained-independent-evidence-verification.json",
+  "limitations": [
+    "Source-level visual/cue compatibility only; new final crops, captions and audio mix are not approved by this retained-source report.",
+    "No manual audio listening or real-time playback claimed.",
+    "Scene02 first cloud take is user-rejected; its replacement has not been reviewed by this report."
+  ]
+}

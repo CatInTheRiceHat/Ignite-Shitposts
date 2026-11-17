@@ -1,12 +1,41 @@
-ACTIVE REVISION — MONKEY ACCIDENT02 AND FIREPLACE RIPPLE01
+ACTIVE REVISION — CONTINUOUS FIGHT-CLOUD MONKEY02 / CORRECTED FIREPLACE01
 
-Elaine requested these changes after viewing the delivered scene-refresh-v6 cut. Current completed MP4 and root edit are preserved; no new full-film export yet.
+Current production folder: revisions/monkey-cartoon-cloud-v3/.
+The exact new first/last pair was shown together and opened in Preview.
+Elaine replied “wait this is wonderful awesome” and “yeah make sure to add
+this to the guidelines too of what i want for cartoony”. Initially treated
+only as a guideline request; on resuming recognized the affirmative reply
+to the preceding BOTH-frame approval question and recorded the actual words.
+Current stills remain02-first-v3.png and02-last-v3.png. No new images needed.
 
-Scene02: revisions/monkey-accident-v1/keyframes/02-first.png and02-last.png are generated with Nano Banana2.1. Elaine selected “Revise the frames”; clarification of the desired change is pending. Neither image is approved for animation. Review sheet: revisions/monkey-accident-v1/reviews/02-first-last-review.jpg. Frame packet: revisions/monkey-accident-v1/reviews/02/frames/3ee4b27e8f3a9e26b77e/packet.json. Do not animate until approved; use canonical gate/video-request and current Omni Flash settings afterward. Planned action: tail knocks existing ember-bearing twig into leaves, small flame, surprised monkey. All dialogue and soundtrack timing retained.
+First Omni job2ca98963-b371-4ea9-b195-9815d31d05b3 is USER-REJECTED: cloud
+repeatedly clears and respawns; it also briefly grows an oversized flame.
+Preserved raw/02-omni.mp4 and clips/02-scene.mp4, with actual review packet.
+Elaine explicitly requests a continuously moving cartoon fighting cloud.
+New motion/script/prompts prepared: one sustained churning, tumbling cloud,
+changing lobes and speed strokes, clears once at2.3–2.7s; tiny central flame
+below unlit upper ends, one surprised recoil. New job38021f66-556b-4e58-a775-
+d287b0119273 rendering; target clips/02-fight-cloud-v2.mp4. Original pre-change
+documents preserved under history/before-fight-cloud-motion/.
 
-Scene01: the chimney-ripple-v1 whole-frame hold was rejected after Elaine noticed the freeze. Fresh Omni job ac7d0103-d482-4ec6-8817-e8f759cbf7e5 completed from the same exact approved pair. Selected source: revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4,70frames/2.333s, original0–19+30–79. Trimmed closed-eye dwell and unused tail only, no frozen replacements or changed source pixels. Longest full-frame hold is the required2frames. Captioned preview: revisions/chimney-ripple-v2/renders/fireplace-corrected-preview.mp4, with existing1x Sol voice/music. Current candidate packet: revisions/monkey-accident-v1/reviews/01/clip/487e7bfe1584c131e685/packet.json. Dedicated review passed all12 checks; canonical gate approved. Report: revisions/monkey-accident-v1/reviews/01-independent-continuous-motion-review.json. Corrected preview opened in QuickTime. Raw-source flaws and rejected candidates preserved. No new02 animation; user requested frame revisions, then to see the pair first. Both were redisplayed. Elaine replied “yay coool”; confirmation of both exact monkey frames for animation has been requested and remains pending.
+Stable script SHAfb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741.
+Exact original frame approvals carried into this context for all five scenes.
+Dedicated reviewer is re-binding unchanged retained01/03/04/05 to this stable
+script, with prior actual evidence verified byte-identical. New02 needs actual
+independent review. Do not approve it from the prompt or technical properties.
 
-The proposal's full script, shot plan and separate10-image/5-video prompt record are in revisions/monkey-accident-v1/. New01 animation reuses its approved images; new02 animation awaits pair approval. Other retained prompt blocks are archival. Scene ideas remain episode-specific; reusable stable-layer/no-ripple art critique added to shared checklist.
+Scene01: revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4,
+70frames/2.333s, original0–19+30–79; continuous motion, brief blink, no frozen
+substitutions. Retain03 lightning,04 ember tending,05 three-Sol night campfire.
+All scene durations, captions and9 audio tracks match the old delivered cut.
+Preserve exact existing AAC soundtrack on final mux; impact9.722333s matches
+flash9.733333s, Right24.6–25.5s, caption to25.7s and picture to25.8s.
+New full revision edit.json is ready with02 pointing to the incoming clip.
+
+Existing completed MP4/root edit unchanged pending passing replacement.
+After checks, archive the old completed copy before replacing its title-only
+filename, and open the final result in QuickTime. Feedback entries42–44 and
+shared style/checklist include the reusable cartoon/fight-cloud preferences.
 
 PREVIOUS COMPLETED DELIVERY (PRESERVED)
 

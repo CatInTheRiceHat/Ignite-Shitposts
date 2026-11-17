@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "prompt": "Edit the supplied image into the matching ending of this cartoon. Preserve the same monkey, two crossed wooden sticks, woodland background and camera.\n\nRemove the big cream cloud so we can see exactly two hands firmly gripping the lower ends of the sticks. Leave only two tiny cream dust puffs beside the hands. The monkey looks at the sticks with a surprised open mouth and a slight backward lean, still seated with supported feet.\n\nPut a TINY match-sized orange flame directly ON THE FRONT SEAM WHERE THE TWO SHAFTS CROSS, around x44%, y60.5% of the full picture. Its base is attached to that seam. Make it only about1.5% of the full image height, roughly40pixels high in this2k portrait. Its top remains well BELOW BOTH free upper wooden ends. The flame is a small orange teardrop sitting on the central X joint, not in the wide V space above the crossing. Both upper shafts and tips remain entirely brown and unlit. No floating flame, no tip flames, no flame growing upward between the free upper ends, no sparks. A pin-sized char mark only at the central joint.\n\nKeep the original two-stick geometry, exactly two arms/hands, monkey face and proportions, single attached tail, sitting stone and planted feet. Same soft matte painted gouache finish and natural afternoon light. Preserve the whole forest and framing. No text or watermark.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "0feae87f-69e1-4a34-9640-1153bfe6eee4"
+      }
+    ]
+  }
+}

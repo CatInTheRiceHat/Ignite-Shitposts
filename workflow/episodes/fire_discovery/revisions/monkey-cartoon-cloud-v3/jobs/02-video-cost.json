@@ -1,0 +1,15 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Cost preflight for gemini_omni_flash_1_2: 16.25 credits (16.25 exact). No job submitted."
+    }
+  ],
+  "structuredContent": {
+    "cost": {
+      "credits": 16.25,
+      "credits_exact": 16.25
+    }
+  },
+  "isError": false
+}

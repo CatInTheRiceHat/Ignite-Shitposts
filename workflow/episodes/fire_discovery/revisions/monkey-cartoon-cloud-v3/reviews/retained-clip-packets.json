@@ -1,0 +1,41 @@
+{
+  "script_sha256": "eacc1d6cad6c2bcc1cf762f10eef5a22bbff71c13a50139522a2b9d128e8fa80",
+  "scenes": [
+    {
+      "scene": "01",
+      "packet_id": "5c557cbd98a02ad3be2147d2bcf45f0120c182b9382da5643a1d9237da92a923",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/01/clip/5c557cbd98a02ad3be21",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4",
+        "sha256": "f75ff9b7487b8c12402d978cdea68361504ef953f9f850b120dd829d5ee2a53a"
+      }
+    },
+    {
+      "scene": "03",
+      "packet_id": "b0d3196f0295442eae20edb5f367acbfbe193e9309b1edaa0c0e0f024c53718d",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/03/clip/b0d3196f0295442eae20",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v4/03-lightning-with-sting-gap.mp4",
+        "sha256": "0c76b903a843e2cc08d35b5131d681128410b3a5c326157c315cddde7b8a3365"
+      }
+    },
+    {
+      "scene": "04",
+      "packet_id": "86832cb2b9ebfc573ba82256007ea78f4b3cb5d651531ddc4125d663591368c5",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/04/clip/86832cb2b9ebfc573ba8",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/clips/edit-v2/04-tight.mp4",
+        "sha256": "45d9a205c23626cdaaf38b753137d16ac104a11fc375e26ab166396fe6942e2b"
+      }
+    },
+    {
+      "scene": "05",
+      "packet_id": "6695bcba04f516fd7f5ab9e7b0572422572563cc2101cb7b87ea7aabed947390",
+      "packet_directory": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/05/clip/6695bcba04f516fd7f5a",
+      "clip": {
+        "path": "workflow/episodes/fire_discovery/revisions/night-camp-v3/clips/05-scene.mp4",
+        "sha256": "cc01c367acea68e13bdaa18cc13d13e279faa6462b59718f7e89f56328f3541e"
+      }
+    }
+  ]
+}

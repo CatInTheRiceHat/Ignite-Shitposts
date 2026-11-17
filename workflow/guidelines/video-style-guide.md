@@ -69,12 +69,51 @@ During editing, enforce two-frame source-pose holds on the final 30 fps timeline
 
 A purposeful digital push or crop can remain smooth over the stepped footage when the shot plan explicitly assigns it to editing. Check the crop throughout the move, keeping the face, limbs and important contacts visible. Do not apply the same move during generation. Record exact cadence as unverified until actual footage has been edited and checked.
 
+## Cartoon exaggeration and action effects
+
+Elaine wants visibly cartoony performance: readable effort, exaggerated bursts
+of rapid movement, and a clear reaction when the action produces a result.
+Use compact painted motion clouds, a few curved speed strokes and small puffs
+when they help communicate how energetically a character is moving. A cloud
+can briefly surround fast hands, then clear to reveal the outcome. Treat this
+as a reusable visual vocabulary; choose effects that fit each action instead
+of repeating the same effect in every shot.
+
+For sustained frantic action, use the motion of a classic cartoon fight cloud:
+keep one active cloud present while its lobes tumble over each other, fold,
+bulge and change silhouette, with brief speed strokes and small escaping
+puffs. Let it break apart and clear once when the action ends. Elaine rejected
+an identical cloud repeatedly appearing and disappearing; inspect the actual
+sequence for continuous internal change and evolving contours.
+
+Keep effects localized to the action, with a clear onset and finish. Preserve
+the face, silhouette and readable cause and effect; reveal the hands and prop
+contact clearly as the cloud clears. Keep the actual limb and prop counts,
+shapes and physical contacts coherent throughout. An effect must not conceal
+broken anatomy or an incorrect mechanism. Paint clouds and motion strokes
+with the same soft gouache brushwork, layered color and paper texture as the
+rest of the scene.
+
+Fast cartoon acting happens inside normal 1x clip and voice playback. Apply
+the exact on-twos cadence to the character, props and every effect state;
+use crisp painted shapes with a stable background, without blended frames
+or photographic motion blur. Generate the effect as part of the complete
+scene. Specify its visible starting and ending states in the storyboard.
+
+Keep each character's identity rules. Sol expresses effort and surprise through
+his supported body poses and compact gestures, retaining his original eyes,
+mouthless face and connected flame layers. Action clouds are deliberate scene
+effects; they do not authorize particles or detached flame pieces emitted by
+Sol. Other characters retain their own established facial designs. Specific
+characters, props, locations and ignition details stay in episode documents.
+
 ## Particle-free Sol movement
 
 Elaine's latest direction is “scrap the fire particles” and use “just wiggle animation for sol.” Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact. This supersedes the earlier allowance for tiny bounce-triggered flicks. Keep gesture transitions soft and connected, using a low-amplitude body/tip wiggle rather than an airborne bounce. Preserve the face, nested layers, anatomy and approved ending poses.
 
 ## Pacing, motion, and type
 
+- Make every shot stimulating and nice to look at, with plenty of purposeful action that makes viewers curious about what is happening. Follow the [shot guide's visual interest and curiosity direction](shot-integration-and-sol.md#visual-interest-and-curiosity) when staging performances, interactions and reveals.
 - Open on the question or a surprising image. Use a close-up or controlled camera push when it reveals an important detail, and a stable view when it serves listening, anticipation or a readable payoff. Hold the reveal long enough to read it.
 - Vary clip lengths around the action and dialogue. Keep several lines in one scene when they share an action; use a shorter reaction or cutaway when it adds something. Establish the exact first and last frames of every planned clip. Use normal voice playback and set final timing from the actual recordings.
 - Export vertical at **1080 × 1920, 30 fps**. Keep draft durations provisional; the [script guide](video-script-guide.md#dialogue-density-and-timing) owns timing to real normal-rate recordings and removal of unnecessary holds or repeated reactions. The default deliverable remains complete generated clips, including the painted mechanism and motion.

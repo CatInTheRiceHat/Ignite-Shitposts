@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (Nano Banana 2.1 backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 91e54062-6c52-4858-8065-00c8320ac5a4  \"Create the matching FIRST frame of this supplied monkey cartoon. Keep the two wooden sticks EXACTLY as drawn: same lengths, thicknesses, upper endpoints, lower grips, diagonal angles and exposed X-shaped crossing. Keep the whole woodland, monkey size, sitting stone, supported feet, tail and locked camera unchanged.\n\nREMOVE the tiny flame completely. There is no flame, ember, orange glow, firelight or burning smoke anywhere. Restore brown wood at the small fire contact. The monkey is focused on rubbing, with its mouth closed and eyes looking at the sticks.\n\nAdd a compact fluffy cream cartoon speed cloud around its hands and lower forearms, below the exposed wood crossing. The cloud is approximately one monkey-head wide, centered near x42%, y65%, with a few rounded lobes, 2–3 curved soft ochre speed strokes and little cream puffs to convey incredibly fast arm rubbing. Exactly two underlying arms enter the cloud. Leave the face, tail, feet, both upper stick shafts and their X crossing clearly visible. The X stays above the cloud; the entire sticks remain unlit. The cloud is a comic motion symbol, not fire smoke. Preserve the same soft matte gouache painting, colors and background; no photographic blur, duplicate arms or extra sticks. No text.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "91e54062-6c52-4858-8065-00c8320ac5a4",
+        "type": "image",
+        "status": "pending",
+        "model": "nano_banana_2_1",
+        "params": {
+          "prompt": "Create the matching FIRST frame of this supplied monkey cartoon. Keep the two wooden sticks EXACTLY as drawn: same lengths, thicknesses, upper endpoints, lower grips, diagonal angles and exposed X-shaped crossing. Keep the whole woodland, monkey size, sitting stone, supported feet, tail and locked camera unchanged.\n\nREMOVE the tiny flame completely. There is no flame, ember, orange glow, firelight or burning smoke anywhere. Restore brown wood at the small fire contact. The monkey is focused on rubbing, with its mouth closed and eyes looking at the sticks.\n\nAdd a compact fluffy cream cartoon speed cloud around its hands and lower forearms, below the exposed wood crossing. The cloud is approximately one monkey-head wide, centered near x42%, y65%, with a few rounded lobes, 2–3 curved soft ochre speed strokes and little cream puffs to convey incredibly fast arm rubbing. Exactly two underlying arms enter the cloud. Leave the face, tail, feet, both upper stick shafts and their X crossing clearly visible. The X stays above the cloud; the entire sticks remain unlit. The cloud is a comic motion symbol, not fire smoke. Preserve the same soft matte gouache painting, colors and background; no photographic blur, duplicate arms or extra sticks. No text.",
+          "aspect_ratio": "9:16",
+          "reference_images": [
+            "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+          ],
+          "resolution": "2k",
+          "thinking_level": "medium"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}

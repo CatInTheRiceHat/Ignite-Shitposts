@@ -1,0 +1,19 @@
+SCENE02 — CORRECTED MOTION PROPOSAL
+
+Status: prepared only; no retry job submitted. Existing exact first/last pair remains approved.
+Model: Gemini Omni Flash1.2, image-to-video,5s,1080p,9:16.
+Estimated additional cost:16.25credits.
+
+Problem observed in actual source15/.500s: the shafts visibly separate rather than rub in contact; repeated lifts/swipes occur in the opening. Native source22/.733s also has smeared moving-stick/hand edges.
+
+Correction: anchor the right-hand stick, slide the other only along its length while maintaining the X contact. Preserve the same approved first/last images, actor, forest, voice, scene duration and final flame reaction. No new artwork requested.
+
+BEGIN PROPOSED VIDEO PROMPT
+Animate exactly the supplied first and last images. The monkey RUBS the two crossed sticks together; it does not tap them or lift them apart. Keep the stick held in the monkey's right hand almost stationary at its supplied upward-left diagonal. Slide the stick in its left hand a short distance forward and backward ALONG ITS OWN LENGTH, pressed against the stationary stick at the visible X crossing. The shafts stay visibly touching at that crossing during every rubbing stroke. Use three small controlled sliding strokes during0.3–2.2s. No striking arc, separate vertical stick pose, air gap, changing grip or hand swap. Preserve exactly two sticks and one stick per hand.
+
+A tiny wisp appears on the rubbed upper wood, and both exposed upper ends catch small flames around2.4s. The monkey stops sliding, keeps both crossed sticks in its hands, raises its shoulders and makes one compact surprised reaction by3.2s. End in the supplied final pose with both small flames rooted to the wood. Keep the seated stone contact, planted feet, attached tail and forest unchanged. Gentle flame flicker and a brief natural blink/breath continue to5s; no prolonged whole-frame freeze.
+
+Preserve the exact supplied monkey proportions and soft matte gouache painting. Background shapes and paint texture remain stable. Keep moving stick and hand edges crisp at each held pose; no smeared paint, motion blur, embossed or sharpened contour artifacts, extra limbs or extra sticks. Static camera. Normal-speed action on twos at30fps, identical complete two-frame states,15 updates per second. No interpolation or blending. No generated speech, music, sound effects, text or captions.
+END PROPOSED VIDEO PROMPT
+
+Authorization requirement from workflow/AGENTS.md: “Reviewer findings and still approvals do not authorize paid regeneration.”

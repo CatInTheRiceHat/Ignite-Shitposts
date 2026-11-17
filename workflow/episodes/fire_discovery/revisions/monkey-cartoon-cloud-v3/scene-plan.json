@@ -1,0 +1,375 @@
+{
+  "episode": "fire_discovery_monkey_cartoon_cloud_v3",
+  "title": "How Fire Was Discovered",
+  "status": "Clean-tail candidate selected; independent final review pending. Existing completed MP4 preserved.",
+  "target_duration_sec": 30,
+  "estimated_duration_sec": 25.8,
+  "spoken_word_count": 54,
+  "timing_status": "Existing normal-rate voice tracks and25.8s soundtrack retained as timing targets. New02 animation and full assembly timing pending.",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "aspect_ratio": "9:16"
+  },
+  "speakers": {
+    "Sol": {
+      "provider": "Higgsfield",
+      "model": "seed_audio",
+      "voice": "Sol",
+      "voice_id": "68b3ae01-976b-4d18-995f-3d60c00d0b55",
+      "voice_type": "element",
+      "role": "Sol character dialogue",
+      "speech_rate": 0,
+      "playback_rate": 1
+    },
+    "Narrator": {
+      "provider": "Higgsfield",
+      "voice": "Arthur",
+      "voice_type": "preset",
+      "role": "off-screen Narrator",
+      "speech_rate": 0,
+      "playback_rate": 1,
+      "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
+      "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
+      "model": "seed_audio",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+    }
+  },
+  "voice_config": "workflow/config/voices.json",
+  "prompt_document": "higgsfield-prompts.txt",
+  "prompt_counts": {
+    "image": 10,
+    "video": 5
+  },
+  "character_identity_rule": "Match the original Sol artwork: recognizable compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream layer relationships, short rounded arms and tiny stubby feet at their original lengths and attachment points. Keep both original eye ovals uniformly navy #1C2447, with the normal open-eye design unchanged in shape, size, low placement and close spacing, without highlights, whites, extra pupils or drift. A brief natural blink is allowed, returning promptly to the original open ovals. Keep him completely mouthless and blank beneath the eyes; no nose, eyebrows, fingers, elongated limbs or separate humanoid torso. Keep the face attached to the body with no separate head or neck. Scripted gaze shifts may move the original ovals coherently as a pair within the face while preserving their normal shape, size and spacing. Settled endpoints retain the reference body form; small coordinated bouncy flame-like flex during the action preserves his recognizable design. Actual wood fire remains separate.",
+  "painted_art_direction": "Match the approved Ignite artwork: soft, matte gouache-like brushwork, broad simplified shapes, restrained detail, layered color, softened painted edges and subtle paper texture. Paint all subjects and surroundings together with coherent perspective and lighting. Build rounded forms and space through overlapping painted layers, gentle shading and contact shadows. No glossy rendering, generic vector shapes, inked outlines, heavy grain or decorative clutter.",
+  "art_direction_reference": {
+    "still": "workflow/assets/reference-art/Mascot.png",
+    "identity_examples": [
+      "workflow/assets/reference-art/Microphone.png"
+    ],
+    "paint": "workflow/assets/reference-art/Spring.jpg",
+    "paint_examples": [
+      "workflow/assets/reference-art/Spring.jpg",
+      "workflow/assets/reference-art/Practical Learning.jpg",
+      "workflow/assets/reference-art/Thank You.jpg"
+    ],
+    "motion": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+    "frame_pair_approved": false
+  },
+  "composition_rules": {
+    "captions": "Important action stays above y=76%; lower foreground near y=80\u201390% stays quiet for editable captions.",
+    "character_count": "One Sol in01, one monkey and no Sol in02, no Sol in03/04, three Sols in05. Sol identity rules apply only to Sol.",
+    "eyes": "Keep the normal open-eye design as the original navy #1C2447 ovals with their reference shape, size, low resting placement and close spacing. Scripted upward glances may shift the pair coherently within the face. A brief natural blink may close/reopen both eyes, returning promptly to the same gaze and original oval design. No whites, highlights, extra pupils, eyebrows, winks, unrelated eye morphs or facial-feature drift.",
+    "narrator_eyeline": "MANDATORY whenever Narrator speaks with Sol visible: gaze UP to the fixed voice just above camera before the first word and throughout the turn, with gentle listening idle. A short silent gaze transition may precede voice onset; final windows follow real normal-rate recordings.",
+    "fire_distinction": "Sol remains the solid reference mascot. Actual fire is a separate faceless painted flame attached to the planned wood or embers, with only localized reflected warmth after ignition."
+  },
+  "historical_scope": "Replace repeated clips in this video by generating new scenes from first/last stills; specific scene choices do not belong in shared art-style guidelines.",
+  "production_notes": [
+    "Scene02 uses the exact approved cartoon-cloud pair and selected continuously churning fight-cloud clip; independent final review required.",
+    "Scene01 retains the reviewed continuous-motion chimney-ripple-v2 selection; Scenes03\u201305 retain existing media.",
+    "Historical approvals of unchanged stills carried with hash provenance; current02 real affirmative reply recorded.",
+    "Generated native audio discarded. Preserve all original1x speech, captions, aligned bomboclat/music and complete Right release.",
+    "Exact paired source cadence at30fps; source02 uses real0\u2013139+146\u2013149 selection, no frozen filler; retained03 editorial push stays separate.",
+    "Actual independent gates must pass before final production export."
+  ],
+  "sources": [
+    {
+      "id": "pab",
+      "title": "Fire 400 ka \u2014 Pathways to Ancient Britain",
+      "url": "https://www.pabproject.org/research-projects/fire-400-ka/",
+      "supports": "The research team distinguishes likely use of wildfires and maintained embers from intentional ignition. Early dates are uncertain; no first discoverer is identified."
+    },
+    {
+      "id": "barnham",
+      "title": "Davis et al. \u2014 Earliest evidence of making fire",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41372405/",
+      "supports": "The study reports evidence interpreted as deliberate fire-making at Barnham around 400,000 years ago. This evidence date is not a known first invention or discoverer."
+    },
+    {
+      "id": "wonderwerk",
+      "title": "Berna et al. \u2014 Fire evidence at Wonderwerk Cave",
+      "url": "https://www.pnas.org/content/pnas/109/20/E1215.full.pdf",
+      "supports": "Burned bone and plant ash document burning in an archaeological context around one million years ago. This does not identify a person or establish the first ignition method."
+    }
+  ],
+  "clips": [
+    {
+      "id": "02",
+      "sol_visible": false,
+      "title": "A cartoon hand cloud reveals fire at the rubbing point",
+      "action": "From the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0\u20132.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3\u20132.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. A modest orange flame catches at the central rubbed X. Its base stays at that exact wood contact, with BOTH remote upper ends remaining unlit. Allow natural flame-height flicker, including brief crowns at or above the tip heights, while keeping the fire compact and rooted at the crossing. Settle to the supplied tiny contact flame in the ending. No large flare, separate torch-tip ignition or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.",
+      "dialogue": [
+        {
+          "speaker": "Narrator",
+          "text": "We don't know. Natural fires existed long before people."
+        }
+      ],
+      "next_cut": "Cut to retained lightning03 as the skit returns to naturally occurring fire.",
+      "start_sec": 2.3333333333333335,
+      "end_sec": 7.133333333333333,
+      "setting_and_framing": "Keep the supplied woodland clearing, broad left tree trunk, arching leafy canopy, sage ferns, winding roots, distant blue hills and golden afternoon light. Keep the same monkey seated on the same gray stone on the left. The ground immediately in front of the monkey is clear earth with a few flat leaves; remove the old fallen log and all loose background sticks from this foreground action area. Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+      "first_frame": "The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey\u2019s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.",
+      "last_frame": "The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.",
+      "motion_prompt_action": "From the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0\u20132.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3\u20132.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. A modest orange flame catches at the central rubbed X. Its base stays at that exact wood contact, with BOTH remote upper ends remaining unlit. Allow natural flame-height flicker, including brief crowns at or above the tip heights, while keeping the fire compact and rooted at the crossing. Settle to the supplied tiny contact flame in the ending. No large flare, separate torch-tip ignition or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.",
+      "performance_beats": [
+        {
+          "cue": "0.0\u20132.3s",
+          "body": "Continuously churning fight cloud, evolving lobes and speed strokes around extremely fast hands; exposed X contact stays pressed.",
+          "gaze": "Stick contact."
+        },
+        {
+          "cue": "2.3\u20132.7s",
+          "body": "Cloud breaks apart and clears once; tiny contact flame appears below both unlit upper tips."
+        },
+        {
+          "cue": "2.7\u20135.0s",
+          "body": "One surprised recoil, then settled breath/blink and tiny flame flicker."
+        }
+      ],
+      "camera": {
+        "shot_size": "Medium-wide full-body monkey and two-stick contact.",
+        "height_and_angle": "Seated monkey eye height, slightly downward.",
+        "movement": "Locked, no editorial push.",
+        "start_view": "Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+        "end_view": "Same camera, hands visible after cloud clears; tiny fire at central X below unlit upper tips."
+      },
+      "clean_first_frame": "The monkey is already absorbed in comically fast rubbing, leaning forward slightly and watching the crossed wood with focused curiosity. Add one compact fluffy cream-and-pale-beige CARTOON SPEED CLOUD around its two hands and forearms. The cloud is an expressive dust puff symbolizing rapid hand movement, not smoke from a fire. It sits below the exposed X crossing, over the hand area around42% across and65% down the picture, about one monkey-head wide. Give it a few rounded scalloped lobes, two or three soft curved ochre motion strokes and tiny nearby cream puffs. The monkey\u2019s face, eyes, feet, tail, two stick shafts and their X contact ABOVE the cloud remain visible. Exactly two forearms enter the little cloud; do not draw duplicate hands or extra arms. Both wooden sticks are completely unlit and still touch at the X. No ember, glow, orange light, spark or flame anywhere.",
+      "clean_last_frame": "The small cartoon speed cloud has cleared, leaving a few tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.",
+      "framing_prompt": "Keep the supplied locked medium-wide full-body portrait camera and subject scale. Both hands and the two touching sticks sit clearly in front of the monkey\u2019s belly, above the quiet lowest17% reserved for captions. The crossing of the sticks must be visible in open space between the hands and the stick tips, not hidden by a fist. Keep supported feet and the single tail entirely visible.",
+      "identity_references": [
+        "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-first-v2.png"
+      ],
+      "identity_examples": [],
+      "style_references": [
+        "workflow/assets/reference-art/Spring.jpg"
+      ],
+      "previous_reference": "Use earlier unlit two-stick first for monkey/woodland/stick geometry only. Do not use the rejected tip-fire ending as a flame reference.",
+      "motion_reference": "workflow/episodes/sol_kling_test/clips/sol-lantern-kling.mp4",
+      "planned_outputs": {
+        "first": "keyframes/02-first-v3.png",
+        "last": "keyframes/02-last-v3.png",
+        "video": "clips/02-fight-cloud-v2-selected.mp4"
+      },
+      "generation_settings": {
+        "image_model": "nano_banana_2_1",
+        "video_model": "gemini_omni_flash_1_2",
+        "mode": "image-to-video",
+        "resolution": "1080p",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "input_roles": [
+          "start_image",
+          "end_image"
+        ],
+        "approval_status": "Approved exact pair; canonical gate passed.",
+        "audio_policy": "Request no speech/music/effects; mute or discard provider audio during assembly. Use the separate Arthur/Sol takes. No unsupported sound toggle."
+      },
+      "timing_status": "Existing Narrator local0.800\u20134.596s retained at1x; future5s source/4.8s edit must be reviewed.",
+      "planned_method": "Generate complete first/last stills, obtain approval, animate whole scene in Higgsfield, then assemble.",
+      "reference_views": [],
+      "cartoon_accents": [
+        {
+          "effect": "compact cream dust cloud at hands",
+          "scope": "User explicitly requested cartoon cloud to communicate extremely fast rubbing; episode-specific."
+        },
+        {
+          "effect": "short curved painted ochre motion strokes and tiny cream puffs",
+          "scope": "Intentional cartoon action symbols; not photographic blur or extra limbs."
+        }
+      ],
+      "image_prompts": {
+        "first": "Use IMAGE1 as the base. Make exactly one local cartoon-effect edit. Keep IMAGE1's monkey, face, posture, TWO WOODEN STICKS AND THEIR EXACT LENGTHS, forest, lighting, tail, feet and camera unchanged. All wood remains unlit.\n\nReplace IMAGE1's sweeping yellow arcs and the small low dust puff with IMAGE2's compact fluffy cream HAND CLOUD. The new cloud must COVER BOTH VISIBLE FISTS COMPLETELY at the center of the monkey's belly, hiding the fast hands inside. It is centered on the fists, higher than the current low puff. Use the same cloud size and scalloped cream shape as IMAGE2, spanning about x30\u201356% and y61\u201370% of the portrait. Two forearms enter it; the exposed stick X and both upper stick ends remain completely visible above the cloud. A few short curved ochre strokes stay INSIDE the cloud, like IMAGE2. No giant sweeping arcs outside it, no cloud below the knees, no added hands, no fire or glow. Copy only IMAGE2's hand-cloud effect; retain IMAGE1's longer stick geometry and everything else.",
+        "last": "Make one precise small correction to this supplied picture. The existing orange flame is too tall and too high. Erase that flame and place a much smaller match flame directly on the dark X-shaped wood joint BELOW it. In this1536x2752 image, the new flame's BASE is near(690,1665) and its TIP near(690,1625). It is about40pixels tall and22pixels wide. The small flame sits on the front dark contact seam of the crossed sticks. The area of the previous flame above y1620 returns to the original green background and brown wooden shafts. Both upper wooden tips extend conspicuously HIGHER than the entire tiny new flame, and both are completely unlit. Preserve every other part: same monkey face, two hands gripping exactly two sticks, remaining cream motion-cloud puffs, tail, feet, stone, woodland, camera and painted finish. No additional flames, sparks, text or new objects."
+      },
+      "video_prompt": "Animate the supplied first and last frames as one5-second painted cartoon shot. The main performance is a frantic, continuously evolving cartoon fight cloud around fast rubbing hands; this is not an actual fight and there are no additional characters.\n\nFrom the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0\u20132.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3\u20132.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. A modest orange flame catches at the central rubbed X. Its base stays at that exact wood contact, with BOTH remote upper ends remaining unlit. Allow natural flame-height flicker, including brief crowns at or above the tip heights, while keeping the fire compact and rooted at the crossing. Settle to the supplied tiny contact flame in the ending. No large flare, separate torch-tip ignition or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\n\nKeep the same cocoa-brown monkey, exactly two arms and two wooden sticks, single tail, planted feet, sitting stone and woodland. Stable stick lengths and firm crossing contact; the cloud is intentional cartoon shorthand, not a way to add extra limbs or separate the sticks. Keep the camera and forest fixed. Paint all motion, clouds and fire in the same soft matte gouache finish.\n\nNormal1x playback and voices; the hand performance itself is fast. Use crisp animation on twos at final30fps,15 changing painted states per second, including every cloud lobe and speed stroke. No blended frames, photographic motion blur, camera movement, generated text, speech, music or sound effects.",
+      "continuity_from": {
+        "scene": "01",
+        "scope": "Hard cut to a different setting; no fireplace-frame geometry or props reused."
+      },
+      "lighting": "Golden afternoon throughout; only the last gains small local firelight. No light/smoke/embers in the first.",
+      "motion_cadence": {
+        "generation_request": "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+        "editing_check": "Generation should aim for this motion quality. Enforce and verify the exact two-frame cadence during editing. Inspect consecutive source-state pairs before any smooth editorial transform, then final playback, facial anchoring, contact and camera crops.",
+        "delivery_fps": 30,
+        "pose_hold_frames": 2,
+        "pose_updates_per_second": 15,
+        "playback_rate": 1,
+        "confirmed": false
+      },
+      "image_generation": {
+        "first": "match corrected ending geometry, remove fire, restore cartoon hand cloud",
+        "last": "localized generated flame correction; see jobs/02-last-v3-request.json and generation-inputs.json"
+      },
+      "narrator_attention": {
+        "required": false,
+        "reason": "Sol is absent; monkey looks at the stick contact and new flame."
+      },
+      "cast": [
+        {
+          "character": "monkey",
+          "count": 1,
+          "identity": "Exactly one friendly cocoa-brown storybook monkey with the same tan muzzle and belly, rounded ears, expressive dark eyes, small natural monkey mouth, ordinary compact monkey limbs and one attached long curved tail as the supplied scene. Preserve its proportions and painting. No clothes or accessories; no other characters."
+        }
+      ],
+      "selection_note": "Real5s source conformed to30fps paired states; select source0\u2013139 +146\u2013149 for4.8s, removing the near-extinguished transition. No altered pixels or frozen filler. Modest central-flame height variation accepted as natural flicker; user ignition-location requirement remains fixed at X."
+    }
+  ],
+  "motion_and_editing": {
+    "shared_motion_rules": [
+      "Animate on twos: hold each animated pose or painted state unchanged for two consecutive frames of the final 30 fps timeline, then advance to the next pose. Longer holds use complete two-frame pairs. Action stays normal speed. Apply to every moving subject, props, fire and local lighting in this shot. Background and painted texture stay stable. No interpolation, blending, optical flow or concealing motion blur. Generation aims for this quality; enforce and verify exact cadence during editing.",
+      "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
+      "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact."
+    ],
+    "character_motion_request": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement. Painted layers stay coherent without traveling waves. Preserve ongoing hearth flicker; no prolonged full-frame freeze to hide defective motion.",
+    "cadence_confirmed": false,
+    "exact_cadence": {
+      "delivery_fps": 30,
+      "pose_hold_frames": 2,
+      "pose_updates_per_second": 15,
+      "playback_rate": 1,
+      "longer_holds": "Multiple complete two-frame pairs",
+      "implementation": "Retained sources already conformed. Regenerated01 and new02 require exact paired-state verification and actual visual review."
+    },
+    "scene_02_editorial_camera": "Locked camera. User-requested cartoon speed cloud and strokes are generated within the whole clip; no separate animation/compositing workflow.",
+    "scene_03_generated_camera": "Generation: stable low three-quarter medium-wide camera for the strike and ignition.",
+    "scene_03_editorial_camera": "Editing only: after a brief matching opening, make one controlled digital push from 100% to 110%, anchored near x=65%, y=62%, then hold. Keep the burning branch visible. Generate no additional zoom; raw endpoint assets remain uncropped. Keep the digital move smooth over stepped source footage; enforce source-state pairs first and check crops throughout the full move.",
+    "latest_user_clarification": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?",
+    "narrator_attention": "Mandatory gaze up and gentle idle while Narrator speaks with Sol visible; verify with the actual complete script and bound voice cues/recordings. Planned speech windows remain provisional.",
+    "bounce_flame_accents": "Superseded: Sol emits no particles or detached flecks.",
+    "scene_02_effect_scope": "Only this monkey scene: cream hand cloud and painted speed strokes. Fast gestures at1x; exact two-frame cadence preserved. Sol particle rules remain unchanged elsewhere."
+  },
+  "sol_performance_rule": "Move Sol through each short gesture with a gentle connected body-and-tip wiggle, then settle into the supplied ending pose. Keep both feet supported. His filled red/orange/cream layers, face and original lobes move together as one compact painted form. No particles, sparks, brush-flecks, droplets, detached flame shapes, airborne hops or body splitting. During Narrator speech, establish body-led attention UP toward the fixed point just above camera before the first word and maintain it with quiet connected listening idle. Keep the normal-height close-spaced navy oval eyes unchanged; a brief natural blink is allowed. No extra gestures, windup, repeated nodding or camera movement.",
+  "resolved_user_preferences": {
+    "video_model": {
+      "value": "gemini_omni_flash_1_2",
+      "user_message": "i like omni flash."
+    },
+    "brief_natural_blink": {
+      "allowed": true,
+      "user_message": "Allow a brief natural blink"
+    },
+    "bouncy_sol": true,
+    "local_code_eye_cleanup_authorized": true,
+    "narrator_attention": {
+      "required_when_sol_visible": true,
+      "gaze": "UP to fixed Narrator point just above camera before and throughout speech",
+      "idle": "Gentle connected body/tip/lobe listening idle",
+      "review": "Actual script plus speaker cues and timeline frames; actual voice timings for final synchronization",
+      "user_messages": [
+        "yo in the scene can u make sure sols eyes glance up whenever the narrator is talkig",
+        "and this is a must for everything else can we make sure that when u review it u also review it with the script so that when narrator is spaeking sol is looking up and idle animationing idk"
+      ]
+    },
+    "eye_squishing": "rejected",
+    "flowy_pose_transitions": {
+      "required": true,
+      "user_message": "yayyyyy thats cool make sure whenever sol moves poses and shit make him like bounce to that new pose like make him super flowy and animated shoukld we move onto the video generation ow?"
+    },
+    "flame_accents": {
+      "user_message": "wait i dont like the visual flames coming out i dont like them big but subtle ones look very cute can u look over that",
+      "allow": "tiny subtle sparse painted flicks",
+      "reduce": "large eye-sized drops, bulbous flares and repeated busy pairs",
+      "review_only": true,
+      "superseded_by": "flame_particles.enabled=false; no emitted flicks"
+    },
+    "bounce_triggered_flame_flicks": {
+      "user_message": "like the flicks should happen when theres the bounce animation yk like flame flickers but yeah can we do the video clips",
+      "required": true,
+      "superseded_by": "flame_particles.enabled=false; no emitted flicks"
+    },
+    "flame_particles": {
+      "enabled": false,
+      "user_message": "wait can we scrap the fire particles lol so just wiggle animation for sol"
+    }
+  },
+  "user_selected_animation": {
+    "scene": "01",
+    "job_id": "8e8a5789-baa6-4cb8-be45-9ca6a60f7a26",
+    "path": "clips/01-scene-omni-v3-twos.mp4",
+    "user_message": "i like omni flash.",
+    "motion_preference": "Bouncy flame-like movement; brief natural blinks allowed.",
+    "production_approved": false
+  },
+  "pending_user_choice": null,
+  "review_requirements": {
+    "script_required": true,
+    "check": "script_and_narrator_attention",
+    "script_bound_by_hash": true,
+    "voice_cues_and_available_recordings_bound": true,
+    "actual_voice_timing": "provisional until recorded voices and final edit are checked"
+  },
+  "final_edit_duration_sec": 25.8,
+  "sound_edit": {
+    "user_request": "Bomboclat sound at lightning, background music, extend the ending so Right is not cut off.",
+    "lightning_frame": 292,
+    "lightning_sec": 9.733333333333333,
+    "sting_source": "assets/meme sounds/bomboclat-with-thunder.mp3",
+    "sting_source_sha256": "8e3663992d860bcefe614a365a3233808c80b1df697fc34309cde0e64d8e1e6a",
+    "sting_duration_sec": 1.0163125,
+    "sting_volume": 0.55,
+    "music_source": "assets/music/Hide and Sneak 4.mp3",
+    "music_source_sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23",
+    "music_processing": "Source gain0.1,0.35s fade-in,1.2s fade-out,6dB dip during sting; edit gain1. Previous quiet bed replaced, not stacked.",
+    "narrator_gap": {
+      "utterance": "03-02-narrator",
+      "source_split_sec": 0.4,
+      "inserted_silence_sec": 1.2,
+      "original_spoken_samples_preserved": true
+    },
+    "right_release": {
+      "source": "audio/05-02-narrator.wav",
+      "kept_sec": 0.9,
+      "unchanged_source_prefix": true
+    },
+    "tree_source_exact_frames": [
+      36,
+      241
+    ],
+    "tree_output_frames": 206,
+    "ending_original_frames": 134,
+    "ending_added_hold_frames": 22,
+    "ending_pair_mismatches": [],
+    "new_duration_sec": 25.8,
+    "new_frames": 774,
+    "status": "Prepared; export verification pending."
+  },
+  "feedback_record": "../../feedback.txt",
+  "thunder_sync": {
+    "status": "Export complete; decode, loudness, picture preservation and numerical cue alignment passed.",
+    "source": "renders/fire-discovery-sound-v4-review.mp4",
+    "output": "renders/fire-discovery-thunder-sync-v5-review.mp4",
+    "sha256": "db2915e95d98f68fbce297100b7e9b82e2b4bdafb8e6c82a2f7fc74c9fbf8434",
+    "picture_duration_sec": 25.8,
+    "previous_file_start_sec": 9.733333333333333,
+    "file_start_sec": 9.533333333333333,
+    "advance_frames": 6,
+    "advance_sec": 0.2,
+    "internal_impact_sec": 0.189,
+    "impact_measurement": "First1ms RMS window over -24dBFS after low-level lead-in",
+    "flash_sec": 9.733333333333333,
+    "flash_frame": 292,
+    "impact_global_sec": 9.722333333333333,
+    "impact_offset_sec": -0.010999999999999233,
+    "final_effect_correlation": 0.9933068470319492,
+    "measured_lufs": "-16.02",
+    "true_peak_dbtp": "-3.04",
+    "video_packet_hash_unchanged": true,
+    "speech_playback_rate": 1,
+    "manual_listening_claimed": false,
+    "completed_delivery_preserved": true
+  },
+  "pending_scene_revision": {
+    "scene": "02",
+    "revision": "monkey-cartoon-cloud-v3",
+    "user_requests": [
+      "why did the fire come on top",
+      "cartoonishly animate",
+      "hands rub really fast",
+      "cartoon cloud showing arms moving incredibly fast"
+    ],
+    "approval_status": "new pair unapproved"
+  },
+  "episode_revision_direction": "Retain corrected01 and existing03\u201305; new02 uses user-requested rapid-rubbing cartoon cloud and central-contact fire, with free stick tips unlit."
+}

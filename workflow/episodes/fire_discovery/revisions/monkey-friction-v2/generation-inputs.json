@@ -1,0 +1,44 @@
+{
+  "revision": "monkey-friction-v2",
+  "request": "how about the monkey rubs two sticks and then they light up",
+  "model": "nano_banana_2_1",
+  "settings": {
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1
+  },
+  "first_reference": {
+    "job_id": "637fda74-fd3a-4144-9f0e-3ab3f1be75b1",
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-accident-v1/keyframes/02-first.png",
+    "role": "monkey design, woodland layout and paint only; superseded banana/ember action not retained"
+  },
+  "last_reference": {
+    "job_id": "920bf419-89b0-4906-bd2f-aff6d6d8950f",
+    "path": "keyframes/02-first-v2.png",
+    "role": "exact monkey, two sticks, hand grips, forest, paint and camera continuity"
+  },
+  "approval_status": "both exact images awaiting user approval; no video submitted",
+  "first_attempt": {
+    "job_id": "9cbffcbb-98f5-4870-946e-6b1f19019eca",
+    "path": "keyframes/02-first.png",
+    "status": "rejected for three sticks"
+  },
+  "last_attempt": {
+    "job_id": "6944b42f-9307-4fca-99f6-7eb4073fb769",
+    "path": "keyframes/02-last.png",
+    "status": "superseded: isolated tip flame needs contact-root correction"
+  },
+  "selected_first": {
+    "job_id": "920bf419-89b0-4906-bd2f-aff6d6d8950f",
+    "path": "keyframes/02-first-v2.png",
+    "status": "generated and visually inspected: exactly two handheld crossing sticks, no fire"
+  },
+  "selected_last": {
+    "job_id": "438464fe-6a39-4bc6-9bab-93955efea217",
+    "path": "keyframes/02-last-v2.png",
+    "reference_job_id": "6944b42f-9307-4fca-99f6-7eb4073fb769",
+    "role": "local flame-root correction; exact existing monkey/forest/two sticks preserved",
+    "status": "generated and inspected: exactly two sticks with both upper ends aflame; the endpoint wording now describes the actual rendered result"
+  }
+}

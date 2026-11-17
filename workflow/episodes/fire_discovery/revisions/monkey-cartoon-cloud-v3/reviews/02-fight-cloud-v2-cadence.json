@@ -1,0 +1,11 @@
+{
+  "sha256": "3bac71ab8d26f3b1a61d1dad9cc7e8b6074475cf44e0ceeac971adedd1e2f417",
+  "frames": 144,
+  "duration_sec": 4.8,
+  "fps": 30,
+  "pair_mismatches": [],
+  "longest_identical_frame_run": 2,
+  "playback_rate": 1,
+  "conversion": "fps=15,fps=30; first144 frames; no blending or interpolation; lossless intra-frame encoding",
+  "native_audio_removed": true
+}

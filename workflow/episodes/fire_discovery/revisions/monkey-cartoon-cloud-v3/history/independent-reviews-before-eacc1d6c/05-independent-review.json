@@ -1,0 +1,291 @@
+{
+  "packet_id": "65edc9b67e23a751a63c0b6b5a3bf3d36dcdd1031fa31f1cf36350b4d13b4928",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T02:49:08.520731+00:00",
+  "method": "Read the complete stable current script fb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741 and actual per-scene speaker/action context. Verified retained scene excerpt, dialogue, attention, timing, first/action/last and performance beats unchanged from the prior actual-footage review; verified source bytes, all current image evidence and actual reference/still/audio/cue hashes. Every chronological page was actually inspected in that prior continuing review and all images are byte-identical here, so those observations are reused explicitly. Reopened the targeted current page listed below during this revision check. Current script update only changes Scene02 cloud action. Current shared cartoon-effects guidance does not change the retained shot contracts. No pass is inferred from a prompt/probe alone; no real-time playback, manual audio listening or new assembled-output approval is claimed.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Exactly three recognizable Sols retain broad cream faces, substantial red/orange flame layers, asymmetrical tips/lobes and short rounded limbs. Native details match the approved pair and original compact mascot geometry; no mouth develops.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4,
+        5
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "pass",
+      "observed": "All three retain navy oval eye pairs attached to their bodies. Brief paired blinks during the first3.3s return to normal open ovals. During the later upward shift, eyes tilt coherently with whole bodies and remain open through4.0–4.9 and5.2. Thin perimeter edges are inherited from the approved still treatment, with no new whites or pupils.",
+      "timestamps_sec": [
+        0,
+        0.5,
+        1.5,
+        3.333333,
+        3.5,
+        4,
+        4.9,
+        5.166667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "pass",
+      "observed": "Compact colored layers stay connected in all three Sols, with short arms and supported stubby feet. Small body/tip flex remains attached. No particles are seen leaving any Sol. Orange floating accents are localized above the separate campfire and already present in the approved first/last stills.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/sequence-09.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Static camera preserves exactly three separated full-body Sols, center stone-ring fire, three logs, single skewer/marshmallow, upper-right tent, crescent and stars. Their feet and face gaps remain readable; lower third stays dark and quiet for captions.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        4,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/sequence-09.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Left friend retains both short hands on the same skewer while lifting/turning its single marshmallow a small amount near the fire and settling. Rear friend brings its attached short arms forward in a warming gesture; lower-face red shape at1.5 is the near hand, not a mouth. Right Sol opens low arms. Grounded body-led upward shifts settle before Narrator.",
+      "timestamps_sec": [
+        0,
+        0.8,
+        1.5,
+        2.4,
+        3.333333,
+        4
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Skewer turns as one held object; marshmallow stays on its end, changes from white to lightly toasted and ends clear of flame. No object teleportation, interpenetrating hand release or unsupported feet is visible. Campfire remains rooted on the logs.",
+      "timestamps_sec": [
+        0,
+        0.8,
+        1.5,
+        2.5,
+        4
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-04.jpg",
+        "evidence/detail/frame-000013.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "Three Sols, one marshmallow/skewer, log/stone fire, tent and moon/star background retain count and placement. Local fire flicker does not become whole-scene pulsing. Separate orange fire accents remain around the fuel fire and do not originate from Sol bodies.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/sequence-09.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "The source starts with arms-low main Sol/ready-to-toast friend and ends with toasted marshmallow, rear warming arms and low-open speaking arms. All three end looking up with fixed foot contacts as in approved last still. Same state is available throughout edited5.2s end and source6s tail.",
+      "timestamps_sec": [
+        0,
+        5.166667,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "All90 complete pairs match in the matching180-frame cadence receipt, consistent with all9 chronological pages. Small gestures occur during Sol0.08–2.914. Upward attention is established for all three by3.333, before the3.6 deadline and Narrator4.0 onset. Small connected tip/body idle continues through4.9 and5.2 without repeated arm gestures. Source audio is absent; this is cue-relative visual review, not final mix playback.",
+      "timestamps_sec": [
+        0.08,
+        1.5,
+        2.9,
+        3.333333,
+        3.6,
+        4,
+        4.9,
+        5.166667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-03.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/frame-index.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "No mouths, detached Sol flecks, text, logo, extra character or visible Narrator in180 chronological frames; native samples clarify the rear hand and campfire embers. No added generation audio is present in the conformed source receipt.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4,
+        5,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000015.jpg",
+        "evidence/sequence-09.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native details show layered warm painted color on each Sol, brushwork on logs/stones and tent fabric, and textured ground under stable cool night fill. The broad painted forms/cream faces remain consistent with approved stills and Spring reference, with no glossy material change.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        4,
+        5
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000001.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/detail/frame-000015.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete cartoon fight-cloud revision storyboard and bound Scene05 context. Foreground-right Sol gestures once during local0.080–2.914s while the silent friends toast and warm themselves. All three look upward by3.333s, before the3.6s deadline and Narrator Right at4.000–4.900s. Their coherent upward attention and slight connected listening idle continue through edited5.2s and remaining6s source tail. The skewer stays settled during Right. Original normal eyes, mouthless faces, stubby limbs and supported feet remain intact. No audio listening is claimed.",
+      "timestamps_sec": [
+        0.08,
+        1.5,
+        2.9,
+        3,
+        3.333333,
+        3.6,
+        4,
+        4.5,
+        4.9,
+        5.166667,
+        5.966667
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000013.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-09.jpg"
+      ]
+    }
+  },
+  "summary": "PASS for unchanged retained Scene05 under the current stable storyboard. Existing actual-frame observations and cadence evidence remain valid after verified asset/context identity. Scene02 and the new assembled output require their own actual-media review.",
+  "reused_evidence": {
+    "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-friction-v2/reviews/05-independent-review.json",
+    "prior_report_sha256": "420d7614cc879e7852da9b6322bdddbe624ecb42446630a0b6295a86e998633c",
+    "prior_packet_id": "2db20f5864c43f8b6537fba5de2f0849fc284b44aa7bf231ddb9cf3cdc21a5ba",
+    "all_image_evidence_identical_count": 211,
+    "prior_full_page_coverage_reused": [
+      "evidence/sequence-01.jpg",
+      "evidence/sequence-02.jpg",
+      "evidence/sequence-03.jpg",
+      "evidence/sequence-04.jpg",
+      "evidence/sequence-05.jpg",
+      "evidence/sequence-06.jpg",
+      "evidence/sequence-07.jpg",
+      "evidence/sequence-08.jpg",
+      "evidence/sequence-09.jpg"
+    ],
+    "targeted_pages_reopened_this_revision": [
+      "evidence/sequence-07.jpg"
+    ],
+    "initial_reviewed_packet": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/05/clip/8415ac7d566e9ac37416/packet.json"
+  },
+  "verification_receipt": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/retained-independent-evidence-verification.json",
+  "limitations": [
+    "Source-level visual/cue compatibility only; new final crops, captions and audio mix are not approved by this retained-source report.",
+    "No manual audio listening or real-time playback claimed.",
+    "Scene02 first cloud take is user-rejected; its replacement has not been reviewed by this report."
+  ]
+}

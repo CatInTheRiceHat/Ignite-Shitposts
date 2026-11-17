@@ -1,0 +1,43 @@
+{
+  "revision": "monkey-cartoon-cloud-v3",
+  "image_model": "nano_banana_2_1",
+  "settings": {
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1
+  },
+  "last_reference": {
+    "job_id": "ff8b6e99-bbca-4b10-90b0-1d40b3641633",
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/keyframes/02-last-v2.png",
+    "role": "localized flame shrinking/lowering correction; preserved earlier oversized flame is not selected"
+  },
+  "frame_approval_status": "Recorded actual affirmative reply to the displayed BOTH-frame question; canonical gate passed.",
+  "video_submitted": true,
+  "original_identity_reference": {
+    "job_id": "920bf419-89b0-4906-bd2f-aff6d6d8950f",
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-friction-v2/keyframes/02-first-v2.png",
+    "role": "unlit monkey/woodland/two-stick geometry only"
+  },
+  "selected_jobs": {
+    "first": "7ec798b1-6c7f-4e21-9db7-b92b0ad13f5d",
+    "last": "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+  },
+  "selected_paths": {
+    "first": "keyframes/02-first-v3.png",
+    "last": "keyframes/02-last-v3.png"
+  },
+  "first_references": [
+    {
+      "job_id": "91e54062-6c52-4858-8065-00c8320ac5a4",
+      "path": "keyframes/02-first-v2.png",
+      "role": "base unlit monkey/two-stick scene"
+    },
+    {
+      "job_id": "0feae87f-69e1-4a34-9640-1153bfe6eee4",
+      "path": "keyframes/02-first.png",
+      "role": "compact hand-cloud effect"
+    }
+  ],
+  "video_job_id": "2ca98963-b371-4ea9-b195-9815d31d05b3"
+}

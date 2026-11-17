@@ -1,0 +1,16 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "prompt": "Create the matching LAST frame from the supplied cartoon speed-cloud first frame. The hands have stopped, the small cream cloud clears, and one tiny flame has appeared at the central rubbed X contact.\n\nThe small cartoon speed cloud has cleared, leaving only two tiny cream puffs drifting beside the hands. Exactly two hands now visibly hold the same two cool lower stick ends. The shafts still meet at the same X-shaped crossing. ONE tiny warm orange flame is rooted at the frayed wood exactly at this CENTRAL CROSSING, immediately above the hands, approximately44% across and60% down the full image. The flame is short: its crown stays BELOW both free upper stick ends. Those two upper ends remain clearly visible ABOVE the flame, intact brown wood with no fire or glow. Only the central X contact has a small charred mark. The monkey looks directly at this central flame, raises its shoulders and leans back a little in a surprised comic reaction with a small open mouth. Keep its supported seated position, proportions and single tail. Keep hands away from the tiny flame. Preserve the entire woodland and camera. No fire at the remote upper tips, no two torch flames, no large flare or wildfire.\n\nPreserve the same cocoa-brown storybook monkey, tan muzzle and belly, rounded ears, two normal monkey arms/hands, supported feet and one attached curved tail. Exactly two brown sticks, one in each hand, crossing in an X above the grips. No Sol, extra character, extra hand, banana, support log or third stick.\n\nSoft matte gouache brushwork, layered color, softened painted edges and subtle paper texture cover the monkey, wood, effect and woodland together. Preserve the golden afternoon light, distant blue hills, arching canopy, sage foliage, roots, gray sitting stone and foreground leaves. Stable painted background, no glossy3D rendering, embossed edges, inked outlines, text or watermark.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "0feae87f-69e1-4a34-9640-1153bfe6eee4"
+      }
+    ]
+  }
+}

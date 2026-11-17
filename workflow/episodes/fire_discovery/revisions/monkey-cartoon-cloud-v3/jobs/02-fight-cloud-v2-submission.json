@@ -1,0 +1,38 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Submitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- 38021f66-556b-4e58-a775-d287b0119273  \"Animate the supplied first and last frames as one5-second painted cartoon shot. The main performance is a frantic, continuously evolving cartoon fight cloud around fast rubbing hands; this is not an actual fight and there are no additional characters.\n\nFrom the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\n\nKeep the same cocoa-brown monkey, exactly two arms and two wooden sticks, single tail, planted feet, sitting stone and woodland. Stable stick lengths and firm crossing contact; the cloud is intentional cartoon shorthand, not a way to add extra limbs or separate the sticks. Keep the camera and forest fixed. Paint all motion, clouds and fire in the same soft matte gouache finish.\n\nNormal1x playback and voices; the hand performance itself is fast. Use crisp animation on twos at final30fps,15 changing painted states per second, including every cloud lobe and speed stroke. No blended frames, photographic motion blur, camera movement, generated text, speech, music or sound effects.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "38021f66-556b-4e58-a775-d287b0119273",
+        "type": "video",
+        "status": "pending",
+        "model": "gemini_omni_flash_1_2",
+        "params": {
+          "prompt": "Animate the supplied first and last frames as one5-second painted cartoon shot. The main performance is a frantic, continuously evolving cartoon fight cloud around fast rubbing hands; this is not an actual fight and there are no additional characters.\n\nFrom the first frame, one compact classic CARTOON FIGHT CLOUD churns continuously around the monkey's fast-working hands. For0.0–2.3s it stays present and energetic: irregular cream lobes rapidly roll over one another, squash, bulge, fold inward and emerge elsewhere; little puffs peel away while fresh lobes form. Short curved ochre speed strokes whip briefly through the changing cloud. Every new pose changes the cloud silhouette and its internal swirl. Do not repeat a puff cycle, pulse an identical sticker, open expanding smoke rings, or disappear and respawn the whole cloud. This is one sustained frantic action. The two hands rub extremely fast inside it; the monkey's forearms make tiny rapid strokes and its shoulders show concentrated effort. Exactly two sticks stay in contact at their exposed X above the cloud. Keep the monkey's face, supported feet and single tail readable. At2.3–2.7s, the cloud breaks apart and clears ONCE, revealing the two hands still holding the lower stick ends. One TINY match-sized flame catches at the central rubbed X, matching the supplied ending flame's small size. Its base stays at that exact wood contact and its crown always stays below BOTH unlit free upper tips. Never grow a large flare, torch flame or fire beside the monkey's face. The monkey stops rubbing and gives one surprised recoil by3.3s, then settles into the supplied ending pose. Preserve slight breathing, a brief blink and tiny contact-flame flicker through5s. No whole-scene freeze.\n\nKeep the same cocoa-brown monkey, exactly two arms and two wooden sticks, single tail, planted feet, sitting stone and woodland. Stable stick lengths and firm crossing contact; the cloud is intentional cartoon shorthand, not a way to add extra limbs or separate the sticks. Keep the camera and forest fixed. Paint all motion, clouds and fire in the same soft matte gouache finish.\n\nNormal1x playback and voices; the hand performance itself is fast. Use crisp animation on twos at final30fps,15 changing painted states per second, including every cloud lobe and speed stroke. No blended frames, photographic motion blur, camera movement, generated text, speech, music or sound effects.",
+          "aspect_ratio": "9:16",
+          "duration": 5,
+          "reference_images": [
+            "7ec798b1-6c7f-4e21-9db7-b92b0ad13f5d",
+            "9255a8d5-9e8f-4bbc-bcc0-75b466eef8fc"
+          ],
+          "mode": "image-to-video",
+          "resolution": "1080p"
+        }
+      }
+    ]
+  },
+  "isError": false
+}

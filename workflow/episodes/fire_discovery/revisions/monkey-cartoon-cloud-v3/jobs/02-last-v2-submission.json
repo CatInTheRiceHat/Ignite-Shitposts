@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "This tool provides an auto-updating generation widget for these jobs. Do not call job_display, show_generations, or show_generation_by_ids to display these jobs again, either before or after completion, unless the user explicitly requests a separate display. If you need to await completion, use jobs_wait with timeout_seconds <= 15. Use job_display only if the user explicitly requests a separate re-display of one specific job."
+    },
+    {
+      "type": "text",
+      "text": "Note: adjustments applied — medias[0].role: \"image\" → \"image_references\" (Nano Banana 2.1 backend expects schema-key media roles).\n\nSubmitted 1 job. If a widget is visible, it polls automatically — do not call job_status or show_generations as a follow-up poll. In text-only clients, use job_status with sync:true to poll for completion.\n- ff8b6e99-bbca-4b10-90b0-1d40b3641633  \"Edit the supplied image into the matching ending of this cartoon. Preserve the same monkey, two crossed wooden sticks, woodland background and camera.\n\nRemove the big cream cloud so we can see exactly two hands firmly gripping the lower ends of the sticks. Leave only two tiny cream dust puffs beside the hands. The monkey looks at the sticks with a surprised open mouth and a slight backward lean, still seated with supported feet.\n\nPut a TINY match-sized orange flame directly ON THE FRONT SEAM WHERE THE TWO SHAFTS CROSS, around x44%, y60.5% of the full picture. Its base is attached to that seam. Make it only about1.5% of the full image height, roughly40pixels high in this2k portrait. Its top remains well BELOW BOTH free upper wooden ends. The flame is a small orange teardrop sitting on the central X joint, not in the wide V space above the crossing. Both upper shafts and tips remain entirely brown and unlit. No floating flame, no tip flames, no flame growing upward between the free upper ends, no sparks. A pin-sized char mark only at the central joint.\n\nKeep the original two-stick geometry, exactly two arms/hands, monkey face and proportions, single attached tail, sitting stone and planted feet. Same soft matte painted gouache finish and natural afternoon light. Preserve the whole forest and framing. No text or watermark.\""
+    },
+    {
+      "type": "text",
+      "text": "If the user requests a combined display of multiple generations, including jobs submitted through separate generate_* calls, collect all requested job IDs, wait for the complete set with jobs_wait, then call show_generation_by_ids with jobs: [{\"index\":0,\"job_id\":\"<first actual job ID>\"},{\"index\":1,\"job_id\":\"<second actual job ID>\"}, ...]. job_display accepts only one id: never pass ids to it or loop over it to show a group. Do not create an extra display when the existing generation widgets already satisfy the request."
+    }
+  ],
+  "structuredContent": {
+    "results": [
+      {
+        "id": "ff8b6e99-bbca-4b10-90b0-1d40b3641633",
+        "type": "image",
+        "status": "pending",
+        "model": "nano_banana_2_1",
+        "params": {
+          "prompt": "Edit the supplied image into the matching ending of this cartoon. Preserve the same monkey, two crossed wooden sticks, woodland background and camera.\n\nRemove the big cream cloud so we can see exactly two hands firmly gripping the lower ends of the sticks. Leave only two tiny cream dust puffs beside the hands. The monkey looks at the sticks with a surprised open mouth and a slight backward lean, still seated with supported feet.\n\nPut a TINY match-sized orange flame directly ON THE FRONT SEAM WHERE THE TWO SHAFTS CROSS, around x44%, y60.5% of the full picture. Its base is attached to that seam. Make it only about1.5% of the full image height, roughly40pixels high in this2k portrait. Its top remains well BELOW BOTH free upper wooden ends. The flame is a small orange teardrop sitting on the central X joint, not in the wide V space above the crossing. Both upper shafts and tips remain entirely brown and unlit. No floating flame, no tip flames, no flame growing upward between the free upper ends, no sparks. A pin-sized char mark only at the central joint.\n\nKeep the original two-stick geometry, exactly two arms/hands, monkey face and proportions, single attached tail, sitting stone and planted feet. Same soft matte painted gouache finish and natural afternoon light. Preserve the whole forest and framing. No text or watermark.",
+          "aspect_ratio": "9:16",
+          "reference_images": [
+            "0feae87f-69e1-4a34-9640-1153bfe6eee4"
+          ],
+          "resolution": "2k",
+          "thinking_level": "medium"
+        }
+      }
+    ],
+    "adjustments": {
+      "medias[0].role": {
+        "requested": "image",
+        "used": "image_references",
+        "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+      }
+    }
+  },
+  "isError": false
+}
