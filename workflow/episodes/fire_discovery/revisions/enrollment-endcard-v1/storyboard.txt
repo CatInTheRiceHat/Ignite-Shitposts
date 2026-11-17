@@ -1,0 +1,16 @@
+STATIC ENROLLMENT END CARD — AFTER SCENE05
+
+From25.466667s through28.466667s (frames764–853): one still, no animation.
+Locked medium-wide full-body portrait, slightly above eye level and angled
+down. Sol stands at center-left in a blue-hour woodland clearing, holding
+a stick beside the small stone-ring fire. Both short arms and stubby feet
+are visible. Dark navy oval eyes; blank mouthless cream face. Separate fire
+on the logs, spare wood on the ground. Soft painted treeline and hills.
+Lower ground remains clear for editable two-line text:
+Enroll now!
+Link in description
+
+No speech during the card. All original Sol/Arthur turns finish before it.
+The existing soundtrack ends with the preceding scene; the card is silent.
+Image: endcard.png. Prompt and reference roles: prompt.txt / request.json.
+Original five-scene script.txt and recorded cues remain unchanged.

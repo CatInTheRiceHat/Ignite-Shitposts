@@ -341,25 +341,37 @@ WORKFLOW AND EPISODE REVISION NOTES
     caption-size guidance under her standing request to save modifications.
     Recheck all16 actual phrases and long-line wraps in the new export.
 
+51. The saved enrollment-endcard-v1 request records Elaine's instruction to
+    end every video with a Higgsfield-generated still of Sol doing something
+    related to the episode and an enrollment call to action. On resuming with
+    “wait uh can u finishw hat u started”, continued both the70px captions
+    and that prepared card. Nano Banana2.1 job
+    007f7a6e-24e7-46c0-9950-4846205e7e56 generated one painted campfire still.
+    The planned three-second hold and editable “Enroll now! / Link in
+    description” copy follow the saved request. No new animated clip or
+    spoken line. Saved the reusable end-card direction in the style guide;
+    the fire setting, copy and duration are documented in the episode.
+
 IMPLEMENTATION / REVIEW STATUS
 
-Current revision: monkey-cartoon-cloud-v3. Final v10 increases captions from
-56px to64px, retaining the12px orange outline, placement, words and timings.
-All16 actual caption phrases passed independent readability/margin review.
-The no-poof monkey ending and0.2s opening trim remain. Exact v9 AAC packets
-and timestamps are retained, so music, normal-rate voices, lightning sync and
-complete Right release are unchanged. Source gates and final review passed.
-Delivered25.466667s /764frames /1080x1920 /30fps:
-workflow/completed/How Fire Was Discovered.mp4.
-SHA256: 838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54.
-Receipts: revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/.
-Prior completed copy: renders/archive/completed-before-captions-v10.mp4.
-Shared checklist and style guide now record the larger-caption reference,
-brisk entrances/exits, continuous changing fight cloud and visible payoff
-without a late poof or frozen filler. Episode-specific settings, sound and
-delivery details stay in this full feedback log, linked from the checklist.
-New render opened in QuickTime. No manual audio listening is claimed;
-user playback acceptance remains open.
+Current delivery: enrollment-v12,28.466667s /854frames /1080x1920 /30fps.
+Dialogue captions are70px (25% above original56px), with12px orange outline
+and10% side margins. All16 phrases and the enrollment copy pass independent
+one/two-line readability review. Append a3s static Higgsfield-painted Sol
+campfire card after the full ending dialogue, with editable Enroll now! /
+Link in description. The card is silent and contains no new animation.
+Corrected its narrow side borders with a7.5px top/bottom crop; no regeneration.
+The original five scenes, no-poof cut,0.2s opening trim and all1195 AAC packets
+and timestamps are retained. Full decode and independent targeted review pass.
+All90 static-card frames were checked for stability. No manual listening claim.
+Delivered: workflow/completed/How Fire Was Discovered.mp4.
+SHA256: 2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60.
+Receipts: revisions/enrollment-endcard-v1/review/.
+Prior completed copy: renders/archive/completed-before-enrollment-v12.mp4.
+Canonical root and revision edits, complete selected-cut storyboard and
+shared caption/end-card guidelines are updated. User playback acceptance
+is not inferred from the independent review.
+
 Earlier implementation history follows.
 
 The resumed-v3 cut addressed mouths, remaining Sol emission buds and faint

@@ -1,0 +1,18 @@
+{
+  "status": "complete; technical and independent targeted visual checks passed",
+  "completed": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+  "sha256": "2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60",
+  "bytes": 25086691,
+  "duration_sec": 28.466666666666665,
+  "frames": 854,
+  "source_render": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-enrollment-v12-fullbleed-final.mp4",
+  "reviewed_edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit-enrollment-v12.json",
+  "canonical_edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit.json",
+  "previous_completed": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/archive/completed-before-enrollment-v12.mp4",
+  "previous_sha256": "838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54",
+  "verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/review/verification.json",
+  "independent_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/review/independent-review.json",
+  "artwork": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/endcard.png",
+  "prompt": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/prompt.txt",
+  "user_playback_acceptance": "pending; not inferred"
+}
