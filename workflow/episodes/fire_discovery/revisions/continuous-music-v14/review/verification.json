@@ -1,0 +1,54 @@
+{
+  "status": "complete; technical checks passed",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-continuous-music-v14-final.mp4",
+  "sha256": "e5b00e0eda2c0e9d61d39e854e2aaa297045dc22f1fa45d15514d25dfc30a8cf",
+  "bytes": 28812528,
+  "previous_export": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-captions-no-endcard-v13-final.mp4",
+  "previous_sha256": "d5ee59c977607061d0c320b7f5261e41d66455b93b9d82c2702a116a3158e4ce",
+  "full_decode_passed": true,
+  "video_packets_and_timestamps_identical": true,
+  "video_packet_count": 764,
+  "frames": 764,
+  "duration_sec": 25.466666666666665,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "shots_captions_timing_unchanged": true,
+  "all_eight_nonmusic_track_settings_and_sources_unchanged": true,
+  "dialogue_playback_rate": 1,
+  "music_source": "/Users/elaine/Documents/Ignite Shitposts/workflow/assets/music/Hide and Sneak 4.mp3",
+  "music_source_sha256": "c0f8a615c072dd60533577dbd18d7b6b833cdd9d12fd5e25490a0c7ed41f0d23",
+  "music_source_interval_sec": [
+    0,
+    25.466666666666665
+  ],
+  "music_playback_rate": 1,
+  "music_source_gain": 0.1,
+  "music_fades_sec": {
+    "in": 0.05,
+    "out": 0.25
+  },
+  "music_internal_edits_or_ducks": 0,
+  "music_gain_constant_between_fades": true,
+  "music_bed": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/audio/sound-v14/hide-and-sneak-continuous.wav",
+  "music_bed_sha256": "18d9f0b3ee776f05b5e987b9659d5da7b5bae8afbe42eb0931f1dd4d5b75ecc6",
+  "minimum_interior_50ms_music_rms_dbfs": -57.330772399902344,
+  "preserved_master_gain_estimated_from_previous_mix": 2.3855131813379744,
+  "previous_mix_reconstruction_correlation": 0.9998960339476399,
+  "final_decoded_mix_correlation": 0.9999900752278236,
+  "final_decoded_background_correlation": 0.9999348220742752,
+  "final_sample_peak_dbfs": -2.7840077877044678,
+  "manual_audio_listening_claimed": false,
+  "delivery": {
+    "status": "complete; current file overwritten",
+    "completed": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+    "sha256": "e5b00e0eda2c0e9d61d39e854e2aaa297045dc22f1fa45d15514d25dfc30a8cf",
+    "reviewed_edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit-continuous-music-v14.json",
+    "canonical_edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit.json",
+    "previous_delivery": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-captions-no-endcard-v13-final.mp4",
+    "caption_review_retained": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/captions-no-endcard-v13/review/visual-review.json",
+    "user_playback_acceptance": "not inferred"
+  }
+}

@@ -1,0 +1,28 @@
+HOW FIRE WAS DISCOVERED — COMPLETED WITH ENROLLMENT CARD
+
+Delivered: ../../completed/How Fire Was Discovered.mp4
+28.466667seconds,854frames,1080x1920,30fps,H264/AAC.
+SHA256: 2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60
+
+Captions are70px,25% above the original56px, with12px orange outlines
+and10% side margins. All16 phrases pass one/two-line readability review.
+The no-poof monkey ending,0.2s opening trim and original five scene timings
+remain. Original1195 AAC packets and timestamps are identical, retaining
+normal-rate voices, music, lightning sync and full final Right release.
+
+A three-second Higgsfield/Nano Banana2.1 painted still follows at25.466667s.
+Sol holds firewood beside the campfire; editable text reads Enroll now! /
+Link in description. The card is silent and static, with no new animation.
+Its image fills9:16 with a7.5px top/bottom crop and no side borders.
+
+Full decode, all764 original picture-frame comparisons and independent
+caption/card inspection passed. All90 card frames were checked for stability.
+No manual audio-listening claim; user playback acceptance remains pending.
+
+Reviewed edit: edit-enrollment-v12.json. Canonical edit.json and revision
+edit.json now select it, with refreshed verification links only. Complete
+selected-cut storyboard: script-with-endcard-v12.txt. Original source scripts,
+media and approvals remain preserved.
+Evidence: revisions/enrollment-endcard-v1/review/. Earlier completed file:
+renders/archive/completed-before-enrollment-v12.mp4. Saved shared caption
+and enrollment-card guidance; episode-specific details stay in feedback.txt.

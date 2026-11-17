@@ -1,5 +1,5 @@
 {
-  "id": "fire-discovery-enrollment-v12",
+  "id": "fire-discovery-continuous-music-v14",
   "title": "How Fire Was Discovered",
   "hook": "How Fire Was Discovered",
   "format": {
@@ -19,13 +19,13 @@
     "orange": "#F07B2A"
   },
   "captionStyle": {
-    "fontSize": 70,
+    "fontSize": 105,
     "fill": "#FFFFFF",
     "outline": "#F07B2A",
     "outlineWidth": 12,
     "leftPercent": 10,
     "rightPercent": 10,
-    "topPercent": 84
+    "topPercent": 82
   },
   "shots": [
     {
@@ -100,46 +100,18 @@
         "playbackRate": 1,
         "trimBefore": 0
       }
-    },
-    {
-      "id": "endcard",
-      "label": "Enrollment end card",
-      "duration": 3,
-      "scene": {
-        "type": "layers",
-        "camera": {
-          "from": {
-            "x": 540,
-            "y": 640,
-            "scale": 1
-          },
-          "to": {
-            "x": 540,
-            "y": 640,
-            "scale": 1
-          },
-          "start": 0,
-          "end": 3
-        },
-        "layers": [
-          {
-            "id": "painted-endcard",
-            "src": "revisions/enrollment-endcard-v1/endcard.png",
-            "x": 0,
-            "y": -7.5,
-            "width": 1080,
-            "height": 1935
-          }
-        ],
-        "annotations": []
-      }
     }
   ],
   "captions": [
     {
       "start": 0.08,
+      "end": 0.579292,
+      "text": "Who actually"
+    },
+    {
+      "start": 0.579292,
       "end": 1.846313,
-      "text": "Who actually discovered fire?"
+      "text": "discovered fire?"
     },
     {
       "start": 2.933333,
@@ -158,8 +130,13 @@
     },
     {
       "start": 6.8799996666666665,
+      "end": 7.516874666666666,
+      "text": "Like when lightning"
+    },
+    {
+      "start": 7.516874666666666,
       "end": 8.596708666666666,
-      "text": "Like when lightning hits a tree?"
+      "text": "hits a tree?"
     },
     {
       "start": 8.799999666666666,
@@ -178,8 +155,13 @@
     },
     {
       "start": 13.746666666666668,
+      "end": 14.306666666666668,
+      "text": "Our ancestors"
+    },
+    {
+      "start": 14.306666666666668,
       "end": 14.986666666666666,
-      "text": "Our ancestors could keep"
+      "text": "could keep"
     },
     {
       "start": 14.986666666666666,
@@ -198,8 +180,13 @@
     },
     {
       "start": 18.517312666666665,
+      "end": 19.137312666666666,
+      "text": "was a"
+    },
+    {
+      "start": 19.137312666666666,
       "end": 20.010354666666668,
-      "text": "was a different skill."
+      "text": "different skill."
     },
     {
       "start": 20.346666666666668,
@@ -215,11 +202,6 @@
       "start": 24.266666666666666,
       "end": 25.366666666666667,
       "text": "Right."
-    },
-    {
-      "start": 25.466666666666665,
-      "end": 28.466666666666665,
-      "text": "Enroll now!\nLink in description"
     }
   ],
   "voiceover": null,
@@ -313,15 +295,15 @@
       "source_sha256": "b2941aab7a92f8f11158e80a656fbba1a3de3c153cde893f2eb94d7e723e2b01"
     },
     {
-      "id": "music-bed-no-poof-v9",
+      "id": "music-bed-continuous-v14",
       "speaker": "Music",
-      "src": "audio/sound-v9/hide-and-sneak-bed-no-poof.wav",
+      "src": "audio/sound-v14/hide-and-sneak-continuous.wav",
       "start": 0,
       "duration": 25.466666666666665,
       "trimBefore": 0,
       "volume": 1,
       "playbackRate": 1,
-      "source_sha256": "d452f99f306bfefd78d36248561c7a3d659602481f378a0696882144701d3a29"
+      "source_sha256": "18d9f0b3ee776f05b5e987b9659d5da7b5bae8afbe42eb0931f1dd4d5b75ecc6"
     }
   ],
   "generation": {
@@ -389,11 +371,12 @@
   },
   "timing": {
     "confirmed": true,
-    "note": "70px captions (25% above original56px),12px orange outline and10% side margins. The five reviewed scenes and original soundtrack retain exact v10 timing. Append a silent three-second static enrollment card after the complete final dialogue; no animation or new voice.",
-    "audio_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/review/verification.json",
+    "note": "105px captions, 50% above the preceding70px delivery; unchanged12px orange outline and10% side margins. Top82% gives the larger two-line captions bottom clearance. Four long cues split at the existing measured word boundaries; wording and original cue windows unchanged. Remove the three-second enrollment still. All five scene timings and audio tracks retained at1x. Music-only correction: one uninterrupted original Hide and Sneak segment across the full25.466667s, with50ms entrance/250ms end fades, no internal cuts or volume dips. Video packets/captions and nonmusic source tracks/timing remain unchanged.",
+    "audio_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/continuous-music-v14/review/verification.json",
     "original_audio_master_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/scene-refresh-v6/audio-master-checks.json",
     "assembled_voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json",
-    "caption_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/review/independent-review.json"
+    "caption_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/captions-no-endcard-v13/review/visual-review.json",
+    "audio_master_gain": 2.3855131813379744
   },
-  "selected_cut_storyboard": "script-with-endcard-v12.txt"
+  "selected_cut_storyboard": "script-continuous-music-v14.txt"
 }

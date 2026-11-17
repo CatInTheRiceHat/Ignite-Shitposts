@@ -1,28 +1,27 @@
-HOW FIRE WAS DISCOVERED — COMPLETED WITH ENROLLMENT CARD
+HOW FIRE WAS DISCOVERED — CONTINUOUS BACKGROUND MUSIC
 
-Delivered: ../../completed/How Fire Was Discovered.mp4
-28.466667seconds,854frames,1080x1920,30fps,H264/AAC.
-SHA256: 2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60
+Delivered and overwritten: ../../completed/How Fire Was Discovered.mp4
+25.466667seconds,764frames,1080x1920,30fps,H264/AAC.
+SHA256: e5b00e0eda2c0e9d61d39e854e2aaa297045dc22f1fa45d15514d25dfc30a8cf
 
-Captions are70px,25% above the original56px, with12px orange outlines
-and10% side margins. All16 phrases pass one/two-line readability review.
-The no-poof monkey ending,0.2s opening trim and original five scene timings
-remain. Original1195 AAC packets and timestamps are identical, retaining
-normal-rate voices, music, lightning sync and full final Right release.
+Music-only correction. One uninterrupted0–25.466667s section of the same
+Hide and Sneak track runs beneath the full existing video. No internal music
+cuts, restarts or volume dips.50ms entrance and250ms end fades only.
 
-A three-second Higgsfield/Nano Banana2.1 painted still follows at25.466667s.
-Sol holds firewood beside the campfire; editable text reads Enroll now! /
-Link in description. The card is silent and static, with no new animation.
-Its image fills9:16 with a7.5px top/bottom crop and no side borders.
+All764 compressed video packets AND their timestamps are identical to the
+previous delivery: clips, framing, timing,105px captions and the no-card ending
+are unchanged. All seven voice takes and the lightning effect retain their
+sources, source hashes, gains, starts, trims, durations and1x playback.
+The previous overall mix gain was matched; only the music bed was replaced.
 
-Full decode, all764 original picture-frame comparisons and independent
-caption/card inspection passed. All90 card frames were checked for stability.
-No manual audio-listening claim; user playback acceptance remains pending.
+Full decode passed. Exported mix correlation with the prepared audio is
+0.99999008; recovered background correlation is
+0.99993482. Sample peak is
+-2.78dBFS, with no clipping. No manual listening claimed.
 
-Reviewed edit: edit-enrollment-v12.json. Canonical edit.json and revision
-edit.json now select it, with refreshed verification links only. Complete
-selected-cut storyboard: script-with-endcard-v12.txt. Original source scripts,
-media and approvals remain preserved.
-Evidence: revisions/enrollment-endcard-v1/review/. Earlier completed file:
-renders/archive/completed-before-enrollment-v12.mp4. Saved shared caption
-and enrollment-card guidance; episode-specific details stay in feedback.txt.
+Canonical edit: edit.json; selected version: edit-continuous-music-v14.json.
+Storyboard: script-continuous-music-v14.txt; visual scene directions unchanged.
+Receipt: revisions/continuous-music-v14/review/verification.json.
+Previous delivery: renders/fire-discovery-captions-no-endcard-v13-final.mp4.
+Prior canonical metadata: revisions/continuous-music-v14/previous-delivery/.
+The existing caption/source reviews remain applicable to the identical picture.

@@ -352,7 +352,57 @@ WORKFLOW AND EPISODE REVISION NOTES
     spoken line. Saved the reusable end-card direction in the style guide;
     the fire setting, copy and duration are documented in the episode.
 
+52. Elaine requests removal of the “enroll now link in description still
+    photo at the end of the video” and explicitly asks to overwrite the
+    current video. Remove the entire three-second enrollment end card from
+    this episode. Preserve the complete final Right and existing campfire
+    ending; retain the earlier card artwork and export as history.
+
+53. Elaine additionally requests captions “50% bigger”. Increase the
+    current70px delivery to105px, preserving the12px orange outline and
+    all dialogue. Four long captions need shorter groups at the existing
+    measured word onsets to retain one/two lines. Keep10% side margins;
+    move their top to82% so the larger text retains bottom clearance.
+    Original scene and audio timings stay unchanged. Elaine replied “okay”
+    after the stated end-card removal,105px size and caption-break plan.
+
+54. Elaine reports that the music is not continuous, then explicitly says
+    to leave the clips alone and “just overlay background music”, confirming
+    “correct”. Replace only the music with one continuous section of the same
+    original Hide and Sneak track across the complete existing edit. No music
+    splices at scene cuts or internal gain dip. Preserve video packets and
+    timestamps,105px captions, all voice/effect takes and their timing. Only
+    short outer-edge fades are used. This is episode-scoped audio feedback.
+
 IMPLEMENTATION / REVIEW STATUS
+
+Current delivery: continuous-music-v14,25.466667s /764frames /1080x1920 /30fps.
+Same completed filename overwritten. All764 video packets and timestamps are
+byte-identical to v13; no clips, captions or visual timing changed. Music is
+one continuous original source segment, with no internal cuts/restarts/ducks.
+Seven voice takes and lightning effect retain their exact saved source/edit
+settings. Full decode and mix/background-correlation checks passed. No manual
+listening claim. Evidence: revisions/continuous-music-v14/review/verification.json.
+SHA256: e5b00e0eda2c0e9d61d39e854e2aaa297045dc22f1fa45d15514d25dfc30a8cf.
+
+
+Previous delivery: captions-no-endcard-v13,25.466667s /764frames /1080x1920 /30fps.
+105px captions (50% above previous70px),12px orange outline,10% side margins,
+top82%. Four long cues split at existing measured word boundaries; all20
+caption groups passed targeted visual inspection, with every word retained.
+The enrollment still is removed; the complete final Right and campfire ending
+remain. Full decode passed and all1195 AAC packets/timestamps match the prior
+export exactly. Original picture compared across all764frames above captions;
+minimum SSIM0.982679. Original five source clips and approvals remain.
+Overwrote workflow/completed/How Fire Was Discovered.mp4 as explicitly requested.
+SHA256: d5ee59c977607061d0c320b7f5261e41d66455b93b9d82c2702a116a3158e4ce.
+Receipts: revisions/captions-no-endcard-v13/review/. Prior delivery preserved
+in renders/fire-discovery-enrollment-v12-fullbleed-final.mp4, with prior edit
+and handoff under revisions/captions-no-endcard-v13/previous-delivery/.
+Primary-assistant targeted review; no new independent source review or manual
+audio listening claimed. User playback acceptance is not inferred.
+
+Previous delivered revision follows as history.
 
 Current delivery: enrollment-v12,28.466667s /854frames /1080x1920 /30fps.
 Dialogue captions are70px (25% above original56px), with12px orange outline
