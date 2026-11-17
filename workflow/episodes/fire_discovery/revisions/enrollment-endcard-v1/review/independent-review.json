@@ -1,0 +1,156 @@
+{
+  "reviewer": "final_visual_review independent agent",
+  "reviewed_at_utc": "2026-11-17T03:50:19.336054+00:00",
+  "verdict": "pass",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-enrollment-v12-fullbleed-final.mp4",
+  "output_sha256": "2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60",
+  "scope": "Targeted review of enlarged dialogue captions, static enrollment illustration, end-card framing/copy and transition. Existing five source clips retain their independent reviews; this report does not replace exhaustive source-motion review.",
+  "method": "Read episode script, saved voice timing metadata, end-card storyboard/prompt and current critique/identity/style instructions. Opened all three actual-output caption contact sheets, native caption/transition details, generated source illustration and three identity/style references. Reopened corrected contact sheets and native card start/middle/end after full-width layout fix. Independently decoded all90 end-card frames at360x640 for a static-image difference check. No audio listening or realtime playback claim.",
+  "references_inspected": [
+    "workflow/assets/reference-art/Mascot.png",
+    "workflow/assets/reference-art/Microphone.png",
+    "workflow/assets/reference-art/Spring.jpg"
+  ],
+  "source_image": "workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/endcard.png",
+  "current_evidence_inspected": [
+    "packet.json",
+    "verification.json",
+    "captions-01.jpg",
+    "captions-02.jpg",
+    "captions-03.jpg",
+    "detail/frame-024.jpg",
+    "detail/frame-027.jpg",
+    "detail/frame-029.jpg"
+  ],
+  "earlier_candidate_native_details_inspected": [
+    "../history/before-fullbleed/review/detail/frame-008.jpg",
+    "../history/before-fullbleed/review/detail/frame-012.jpg",
+    "../history/before-fullbleed/review/detail/frame-018.jpg",
+    "../history/before-fullbleed/review/detail/frame-020.jpg",
+    "../history/before-fullbleed/review/detail/frame-023.jpg",
+    "../history/before-fullbleed/review/detail/frame-024.jpg"
+  ],
+  "checks": {
+    "all_dialogue_captions": {
+      "verdict": "pass",
+      "observed": "All16 phrases are readable in360x640 panels, with white interiors and substantial orange outlines. Each is one or two lines. No cropped letters, three-line wrap or collision with a face, hand contact, burning wood or other main action was observed. The longest lightning question wraps as Like when lightning / hits a tree? with room on both sides. Several phrases end with one-word second lines, which remain readable and within the requested two-line limit.",
+      "timestamps_sec": [
+        0.9333333333333333,
+        3.2333333333333334,
+        4.6,
+        5.933333333333334,
+        7.733333333333333,
+        9.0,
+        11.333333333333334,
+        12.766666666666667,
+        14.366666666666667,
+        15.333333333333334,
+        16.433333333333334,
+        18.0,
+        19.233333333333334,
+        21.1,
+        22.5,
+        24.8
+      ],
+      "evidence": [
+        "captions-01.jpg",
+        "captions-02.jpg",
+        "captions-03.jpg"
+      ]
+    },
+    "endcard_identity": {
+      "verdict": "pass",
+      "observed": "One recognizable Sol preserves the asymmetric tall central tip, rounded side lobes, substantial connected red/orange layers and broad cream lobed face. Two low-set dark tall oval eyes have no white highlights or pupils; area below is blank and mouthless. Two short rounded arms, two immediately attached stubby red feet, and no fingers or separate head are visible. The body and feet sit over soft ground-contact shading. No particles originate from Sol. Small flame accents are localized to the separate wood fire.",
+      "timestamps_sec": [
+        25.466667,
+        26.966667,
+        28.433333
+      ],
+      "evidence": [
+        "detail/frame-024.jpg",
+        "detail/frame-027.jpg",
+        "detail/frame-029.jpg"
+      ]
+    },
+    "paint_and_episode_relevance": {
+      "verdict": "pass",
+      "observed": "Matte layered color, soft painted edge/shading treatment and restrained paper texture unify Sol, wood, stones, trees and hills. No inked outline, glossy plastic material or photographic fire. Warm local campfire light is balanced with the cool twilight clearing. Sol holds a brown branch beside a stone-ring campfire with spare wood at his feet, which clearly relates to tending fire. Actual still shows holding/preparing the wood rather than the prompt-specific instant of inserting it; no moving action is claimed.",
+      "timestamps_sec": [
+        25.466667,
+        26.966667,
+        28.433333
+      ],
+      "evidence": [
+        "detail/frame-024.jpg",
+        "detail/frame-027.jpg",
+        "detail/frame-029.jpg"
+      ]
+    },
+    "enrollment_text_and_crop": {
+      "verdict": "pass",
+      "observed": "Enroll now! / Link in description is exactly two readable lines on quiet dark lower ground. It clears Sol, both feet, held stick, spare wood and fire. Strong white/orange treatment is legible at phone size with side and bottom margins. Corrected image fills both vertical edges; the prior cream hairlines are gone. The tiny top/bottom crop removes no relevant subject.",
+      "timestamps_sec": [
+        25.466667,
+        26.966667,
+        28.433333
+      ],
+      "evidence": [
+        "captions-03.jpg",
+        "detail/frame-024.jpg",
+        "detail/frame-027.jpg",
+        "detail/frame-029.jpg"
+      ]
+    },
+    "ending_transition": {
+      "verdict": "pass",
+      "observed": "Right remains readable during the final three-Sol listening composition; the earlier-candidate native frame763 showed the clean caption-free ending immediately before the card. Corrected output retains the same original shot/caption timing per verification. At frame764 the new card starts cleanly and remains in the same composition at809 and853. Existing cue metadata places the final spoken release before the25.466667s card start. No Narrator speech occurs during the still, so an animated listening idle is not required on it.",
+      "timestamps_sec": [
+        24.8,
+        25.433333,
+        25.466667,
+        26.966667,
+        28.433333
+      ],
+      "evidence": [
+        "captions-03.jpg",
+        "detail/frame-024.jpg",
+        "detail/frame-027.jpg",
+        "detail/frame-029.jpg",
+        "verification.json"
+      ]
+    },
+    "static_card_duration": {
+      "verdict": "pass",
+      "observed": "Independently decoded90 frames beginning at source frame764 with timestamps reset and passthrough output. At360x640 the maximum whole-image mean absolute RGB difference from the first card frame was0.0118374 on a0\u2013255 scale, consistent with a static hold and negligible codec variation. Start/middle/final native samples show no layout or content change.",
+      "timestamps_sec": [
+        25.466667,
+        26.966667,
+        28.433333
+      ],
+      "evidence": [
+        "detail/frame-024.jpg",
+        "detail/frame-027.jpg",
+        "detail/frame-029.jpg"
+      ],
+      "decoded_frames": 90,
+      "comparison_resolution": [
+        360,
+        640
+      ],
+      "max_mean_absolute_rgb_difference": 0.01183738425925926
+    }
+  },
+  "correction_verified": "Initial contain-fit cream side hairlines removed using a1080x1935 layer at y=-7.5. Original candidate retained; no artwork regeneration.",
+  "blocking_issues": [],
+  "limits": [
+    "This is a targeted still/sample-based final review, not an exhaustive re-review of every existing animated source frame.",
+    "Speech preservation and soundtrack timing rely on the supplied exact AAC packet/timestamp verification and unchanged cue metadata; no manual listening performed.",
+    "Final user playback acceptance is not inferred from this independent review."
+  ],
+  "supplemental_current_cut_script": {
+    "path": "workflow/episodes/fire_discovery/script-with-endcard-v12.txt",
+    "sha256": "b2a81fa7d382f8c98938c6e3fca294272683b6056d34263f1e80417e8c4fe56d",
+    "reviewed": true,
+    "observed": "Complete current-cut storyboard includes revised scene windows, retained original spoken turns, selected no-poof monkey ending and the silent static enrollment card after25.466667s. Used as supplemental timing context alongside original source contracts."
+  }
+}

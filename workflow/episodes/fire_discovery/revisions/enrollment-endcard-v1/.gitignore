@@ -1,0 +1,6 @@
+# Generated/downloaded artwork and visual review evidence stay local.
+/endcard.png
+/review/**/*.jpg
+/review/**/*.png
+/history/**/review/**/*.jpg
+/history/**/review/**/*.png

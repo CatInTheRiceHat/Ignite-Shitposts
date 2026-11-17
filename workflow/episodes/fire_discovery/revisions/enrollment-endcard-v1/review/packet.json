@@ -1,0 +1,226 @@
+{
+  "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-enrollment-v12-fullbleed-final.mp4",
+  "sha256": "2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60",
+  "edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit-enrollment-v12.json",
+  "edit_sha256": "ce13eefeacd1cf3c4f9e76d341d5389757c9a79aa2db3fa453882309884e99ea",
+  "script": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/script.txt",
+  "voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json",
+  "endcard_storyboard": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/storyboard.txt",
+  "pages": [
+    "captions-01.jpg",
+    "captions-02.jpg",
+    "captions-03.jpg"
+  ],
+  "samples": [
+    {
+      "frame": 28,
+      "time_sec": 0.9333333333333333,
+      "kind": "caption",
+      "caption_index": 1,
+      "text": "Who actually discovered fire?",
+      "file": "detail/frame-001.jpg"
+    },
+    {
+      "frame": 97,
+      "time_sec": 3.2333333333333334,
+      "kind": "caption",
+      "caption_index": 2,
+      "text": "We don't know.",
+      "file": "detail/frame-002.jpg"
+    },
+    {
+      "frame": 138,
+      "time_sec": 4.6,
+      "kind": "caption",
+      "caption_index": 3,
+      "text": "Natural fires existed",
+      "file": "detail/frame-003.jpg"
+    },
+    {
+      "frame": 178,
+      "time_sec": 5.933333333333334,
+      "kind": "caption",
+      "caption_index": 4,
+      "text": "long before people.",
+      "file": "detail/frame-004.jpg"
+    },
+    {
+      "frame": 232,
+      "time_sec": 7.733333333333333,
+      "kind": "caption",
+      "caption_index": 5,
+      "text": "Like when lightning hits a tree?",
+      "file": "detail/frame-008.jpg"
+    },
+    {
+      "frame": 270,
+      "time_sec": 9.0,
+      "kind": "caption",
+      "caption_index": 6,
+      "text": "Yes.",
+      "file": "detail/frame-009.jpg"
+    },
+    {
+      "frame": 340,
+      "time_sec": 11.333333333333334,
+      "kind": "caption",
+      "caption_index": 7,
+      "text": "Lightning's heat can set",
+      "file": "detail/frame-010.jpg"
+    },
+    {
+      "frame": 383,
+      "time_sec": 12.766666666666667,
+      "kind": "caption",
+      "caption_index": 8,
+      "text": "dry wood alight.",
+      "file": "detail/frame-011.jpg"
+    },
+    {
+      "frame": 431,
+      "time_sec": 14.366666666666667,
+      "kind": "caption",
+      "caption_index": 9,
+      "text": "Our ancestors could keep",
+      "file": "detail/frame-012.jpg"
+    },
+    {
+      "frame": 460,
+      "time_sec": 15.333333333333334,
+      "kind": "caption",
+      "caption_index": 10,
+      "text": "embers glowing",
+      "file": "detail/frame-013.jpg"
+    },
+    {
+      "frame": 493,
+      "time_sec": 16.433333333333334,
+      "kind": "caption",
+      "caption_index": 11,
+      "text": "by feeding them wood.",
+      "file": "detail/frame-014.jpg"
+    },
+    {
+      "frame": 540,
+      "time_sec": 18.0,
+      "kind": "caption",
+      "caption_index": 12,
+      "text": "Making fire themselves",
+      "file": "detail/frame-015.jpg"
+    },
+    {
+      "frame": 577,
+      "time_sec": 19.233333333333334,
+      "kind": "caption",
+      "caption_index": 13,
+      "text": "was a different skill.",
+      "file": "detail/frame-016.jpg"
+    },
+    {
+      "frame": 633,
+      "time_sec": 21.1,
+      "kind": "caption",
+      "caption_index": 14,
+      "text": "So finding fire wasn't",
+      "file": "detail/frame-017.jpg"
+    },
+    {
+      "frame": 675,
+      "time_sec": 22.5,
+      "kind": "caption",
+      "caption_index": 15,
+      "text": "the same as making it.",
+      "file": "detail/frame-018.jpg"
+    },
+    {
+      "frame": 744,
+      "time_sec": 24.8,
+      "kind": "caption",
+      "caption_index": 16,
+      "text": "Right.",
+      "file": "detail/frame-020.jpg"
+    },
+    {
+      "frame": 809,
+      "time_sec": 26.966666666666665,
+      "kind": "caption",
+      "caption_index": 17,
+      "text": "Enroll now!\nLink in description",
+      "file": "detail/frame-027.jpg"
+    },
+    {
+      "frame": 202,
+      "time_sec": 6.733333333333333,
+      "kind": "transition",
+      "file": "detail/frame-005.jpg"
+    },
+    {
+      "frame": 203,
+      "time_sec": 6.766666666666667,
+      "kind": "transition",
+      "file": "detail/frame-006.jpg"
+    },
+    {
+      "frame": 204,
+      "time_sec": 6.8,
+      "kind": "transition",
+      "file": "detail/frame-007.jpg"
+    },
+    {
+      "frame": 728,
+      "time_sec": 24.266666666666666,
+      "kind": "transition",
+      "file": "detail/frame-019.jpg"
+    },
+    {
+      "frame": 755,
+      "time_sec": 25.166666666666668,
+      "kind": "transition",
+      "file": "detail/frame-021.jpg"
+    },
+    {
+      "frame": 760,
+      "time_sec": 25.333333333333332,
+      "kind": "transition",
+      "file": "detail/frame-022.jpg"
+    },
+    {
+      "frame": 763,
+      "time_sec": 25.433333333333334,
+      "kind": "transition",
+      "file": "detail/frame-023.jpg"
+    },
+    {
+      "frame": 764,
+      "time_sec": 25.466666666666665,
+      "kind": "transition",
+      "file": "detail/frame-024.jpg"
+    },
+    {
+      "frame": 765,
+      "time_sec": 25.5,
+      "kind": "transition",
+      "file": "detail/frame-025.jpg"
+    },
+    {
+      "frame": 766,
+      "time_sec": 25.533333333333335,
+      "kind": "transition",
+      "file": "detail/frame-026.jpg"
+    },
+    {
+      "frame": 852,
+      "time_sec": 28.4,
+      "kind": "transition",
+      "file": "detail/frame-028.jpg"
+    },
+    {
+      "frame": 853,
+      "time_sec": 28.433333333333334,
+      "kind": "transition",
+      "file": "detail/frame-029.jpg"
+    }
+  ],
+  "verification": "verification.json",
+  "scope": "70px captions and static3s enrollment card; original five scenes and exact AAC soundtrack retained."
+}

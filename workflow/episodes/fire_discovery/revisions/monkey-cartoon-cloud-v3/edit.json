@@ -1,5 +1,5 @@
 {
-  "id": "fire-discovery-captions-v10",
+  "id": "fire-discovery-enrollment-v12",
   "title": "How Fire Was Discovered",
   "hook": "How Fire Was Discovered",
   "format": {
@@ -19,12 +19,12 @@
     "orange": "#F07B2A"
   },
   "captionStyle": {
-    "fontSize": 64,
+    "fontSize": 70,
     "fill": "#FFFFFF",
     "outline": "#F07B2A",
     "outlineWidth": 12,
     "leftPercent": 10,
-    "rightPercent": 16,
+    "rightPercent": 10,
     "topPercent": 84
   },
   "shots": [
@@ -99,6 +99,39 @@
         "muted": true,
         "playbackRate": 1,
         "trimBefore": 0
+      }
+    },
+    {
+      "id": "endcard",
+      "label": "Enrollment end card",
+      "duration": 3,
+      "scene": {
+        "type": "layers",
+        "camera": {
+          "from": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "to": {
+            "x": 540,
+            "y": 640,
+            "scale": 1
+          },
+          "start": 0,
+          "end": 3
+        },
+        "layers": [
+          {
+            "id": "painted-endcard",
+            "src": "revisions/enrollment-endcard-v1/endcard.png",
+            "x": 0,
+            "y": -7.5,
+            "width": 1080,
+            "height": 1935
+          }
+        ],
+        "annotations": []
       }
     }
   ],
@@ -182,6 +215,11 @@
       "start": 24.266666666666666,
       "end": 25.366666666666667,
       "text": "Right."
+    },
+    {
+      "start": 25.466666666666665,
+      "end": 28.466666666666665,
+      "text": "Enroll now!\nLink in description"
     }
   ],
   "voiceover": null,
@@ -277,7 +315,7 @@
     {
       "id": "music-bed-no-poof-v9",
       "speaker": "Music",
-      "src": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/audio/sound-v9/hide-and-sneak-bed-no-poof.wav",
+      "src": "audio/sound-v9/hide-and-sneak-bed-no-poof.wav",
       "start": 0,
       "duration": 25.466666666666665,
       "trimBefore": 0,
@@ -322,7 +360,7 @@
       "Use only passing clips in production. Preserve failed and uncertain takes."
     ],
     "no_automatic_model_fallback": true,
-    "verification": "Nano Banana 2.1 image ID, reference inputs, 2k/9:16 and supported settings verified with Higgsfield models_get on 2026-11-14. Omni Flash 1.2 video ID, paired-frame roles, 3–10 second limit and 1080p output verified with Higgsfield models_search.",
+    "verification": "Nano Banana 2.1 image ID, reference inputs, 2k/9:16 and supported settings verified with Higgsfield models_get on 2026-11-14. Omni Flash 1.2 video ID, paired-frame roles, 3\u201310 second limit and 1080p output verified with Higgsfield models_search.",
     "character_references_config": "sol-references.json"
   },
   "cast": {
@@ -351,10 +389,11 @@
   },
   "timing": {
     "confirmed": true,
-    "note": "Retain v9 no-poof frame selection, opening trim, complete normal-rate speech and all cue timings. Caption size56→64px only, with unchanged12px outline and placement. Final output uses exact v9 AAC packets.",
-    "audio_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/verification.json",
+    "note": "70px captions (25% above original56px),12px orange outline and10% side margins. The five reviewed scenes and original soundtrack retain exact v10 timing. Append a silent three-second static enrollment card after the complete final dialogue; no animation or new voice.",
+    "audio_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/review/verification.json",
     "original_audio_master_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/scene-refresh-v6/audio-master-checks.json",
-    "caption_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/independent-review.json",
-    "assembled_voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json"
-  }
+    "assembled_voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json",
+    "caption_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/enrollment-endcard-v1/review/independent-review.json"
+  },
+  "selected_cut_storyboard": "script-with-endcard-v12.txt"
 }

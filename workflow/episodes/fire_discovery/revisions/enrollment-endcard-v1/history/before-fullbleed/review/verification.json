@@ -1,0 +1,36 @@
+{
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-enrollment-v12-final.mp4",
+  "sha256": "290e5c0290f22619eab78b41b8dc2295d67db2078436ce20b38ff49d6e8dd407",
+  "bytes": 29526610,
+  "full_decode_passed": true,
+  "frames": 854,
+  "duration_sec": 28.466666666666665,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "caption_font_size": 70,
+  "original_font_size": 56,
+  "increase_percent": 25,
+  "caption_outline_px": 12,
+  "caption_side_margins_percent": 10,
+  "first_five_shots_unchanged": true,
+  "dialogue_caption_words_and_timing_unchanged": true,
+  "all_audio_edit_settings_unchanged": true,
+  "aac_packets_and_timestamps_identical": true,
+  "aac_packet_count": 1195,
+  "uncaptioned_picture_compared_frames": 764,
+  "ssim_min": 0.986596,
+  "ssim_mean": 0.9967669777486912,
+  "baseline_sha256": "838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54",
+  "endcard_frames": [
+    764,
+    853
+  ],
+  "endcard_duration_sec": 3,
+  "endcard_image_sha256": "a28c2c8921279d450eee65c71335aec055677f2ffd80faa80100c30efe13871a",
+  "endcard_audio": "Silent after the unchanged original soundtrack ends.",
+  "manual_audio_listening_claimed": false,
+  "independent_visual_review": "pending"
+}

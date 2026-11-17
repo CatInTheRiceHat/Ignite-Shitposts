@@ -1,35 +1,28 @@
-HOW FIRE WAS DISCOVERED — COMPLETED, LARGER CAPTIONS
+HOW FIRE WAS DISCOVERED — COMPLETED WITH ENROLLMENT CARD
 
 Delivered: ../../completed/How Fire Was Discovered.mp4
-25.466667 seconds,764frames,1080x1920,30fps,H264/AAC.
-SHA256: 838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54
+28.466667seconds,854frames,1080x1920,30fps,H264/AAC.
+SHA256: 2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60
 
-Captions enlarged56→64px, about14%, with the same12px orange outline,
-white fill, safe-area placement, words and timing. All16 actual rendered
-phrases passed independent readability, wrapping and margin review.
-Some long phrases naturally use two lines; no clipping or action collision.
+Captions are70px,25% above the original56px, with12px orange outlines
+and10% side margins. All16 phrases pass one/two-line readability review.
+The no-poof monkey ending,0.2s opening trim and original five scene timings
+remain. Original1195 AAC packets and timestamps are identical, retaining
+normal-rate voices, music, lightning sync and full final Right release.
 
-No-poof cut and0.2s opening trim preserved. Scene02 retains source6–139,
-ending with visible flame at output203 before the tree at204/6.8s. Full
-Narrator take ends6.729062s. Original source/storyboard remain preserved;
-editorial overrides govern the final selected outpoints.
+A three-second Higgsfield/Nano Banana2.1 painted still follows at25.466667s.
+Sol holds firewood beside the campfire; editable text reads Enroll now! /
+Link in description. The card is silent and static, with no new animation.
+Its image fills9:16 with a7.5px top/bottom crop and no side borders.
 
-Original v9 soundtrack copied packet-for-packet: all1195 AAC hashes and
-PTS/DTS/durations match. Flash9.4s and impact9.389s stay aligned. Right
-voice24.266667–25.166667s; caption to25.366667s; picture to25.466667s.
-No speech acceleration, sound edits or cue timing changes in this revision.
+Full decode, all764 original picture-frame comparisons and independent
+caption/card inspection passed. All90 card frames were checked for stability.
+No manual audio-listening claim; user playback acceptance remains pending.
 
-Canonical root and revision edit.json select this version. Reviewed render
-configuration remains edit-captions-v10.json; canonical timing receipt links
-were refreshed after review without changing media instructions.
-Full decode, all-frame uncaptained-picture comparison and independent
-caption review passed. Evidence: revisions/monkey-cartoon-cloud-v3/reviews/
-captions-v10/. Prior completed file: renders/archive/
-completed-before-captions-v10.mp4. No manual listening claim.
-
-Elaine's full feedback is in feedback.txt, entries48–49 for these requests.
-Shared video-style-guide.md and checklist.md now consolidate caption size,
-brisk shot timing, continuously evolving fight clouds and a visible payoff
-without a late poof/freeze. Specific scenes and sound cues remain episode
-notes per her earlier scope clarification. New render opened in QuickTime;
-final user playback acceptance pending.
+Reviewed edit: edit-enrollment-v12.json. Canonical edit.json and revision
+edit.json now select it, with refreshed verification links only. Complete
+selected-cut storyboard: script-with-endcard-v12.txt. Original source scripts,
+media and approvals remain preserved.
+Evidence: revisions/enrollment-endcard-v1/review/. Earlier completed file:
+renders/archive/completed-before-enrollment-v12.mp4. Saved shared caption
+and enrollment-card guidance; episode-specific details stay in feedback.txt.
