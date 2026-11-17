@@ -1,0 +1,27 @@
+{
+  "frames_row_major": [
+    0,
+    16,
+    18,
+    20,
+    24,
+    26,
+    40,
+    68
+  ],
+  "times_sec": [
+    0.0,
+    0.5333333333333333,
+    0.6,
+    0.6666666666666666,
+    0.8,
+    0.8666666666666667,
+    1.3333333333333333,
+    2.2666666666666666
+  ],
+  "full_decode": "passed",
+  "voice_rate": 1,
+  "music": "existing unchanged bed",
+  "source_clip": "clips/01-selected-brief-blink.mp4",
+  "visual_review": "Inspected all eight extracted checkpoints: normal dark eyes reopen after a short blink, mouthless face, compact supported limbs, coherent filled layers, changing hearth flame. Caption clears feet and stays inside the portrait frame. These sampled checks supplement the dedicated reviewer, not replace all-frame review."
+}

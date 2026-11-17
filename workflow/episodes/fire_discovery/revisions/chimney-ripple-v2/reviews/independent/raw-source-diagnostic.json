@@ -1,0 +1,99 @@
+{
+  "reviewer": "/root/clip_reviewer \u2014 independent actual-footage reviewer",
+  "created_at": "2026-11-17T00:51:31.846570+00:00",
+  "scope": "Raw regenerated3s source diagnostic; no canonical pass registered",
+  "packet_id": "84979d94a609eeeff4e6727b9b75b798174a003c2a399f1e4a0c4f26ecce7b4c",
+  "clip": {
+    "path": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/clips/01-scene.mp4",
+    "sha256": "147de08e8bbbee45b5af260611f7401f20bb956aa1097d1067e79db8e6045fac"
+  },
+  "status": "requires_edit_before_selection",
+  "method": "Read full current script and actual speaker context; opened approved-frame/reference comparison and all5 chronological pages, native detail22/30/45, and unscaled native character crops of all45 even source states0\u201388. Inspected native16/18/30/32 including hearth for proposed cut, and full native86 for transient corruption. Existing unchanged original identity/paint/motion references were already visually inspected during this continuing dedicated review. No real-time playback or audio listening claim.",
+  "findings": [
+    {
+      "verdict": "fail",
+      "issue": "Prolonged blink",
+      "source_frames": [
+        16,
+        35
+      ],
+      "time_sec": [
+        0.5333333333333333,
+        1.2
+      ],
+      "observed": "Closing/closed/reopening interval runs20frames/.667s. Fully closed pair states18\u201333 persist during low-arm pause. Original navy ovals return at36. This exceeds the planned brief blink and delays the gesture.",
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000006.jpg",
+        "evidence/detail/frame-000007.jpg"
+      ]
+    },
+    {
+      "verdict": "fail",
+      "issue": "Transient generated smudging near source tail",
+      "source_frames": [
+        86,
+        87
+      ],
+      "time_sec": [
+        2.8666666666666667,
+        2.933333333333333
+      ],
+      "observed": "One full pair has visibly softened/doubled eye edges, patchy cream-face edge and room texture/edge smudging. Adjacent88/89 returns clean. Outside originally intended0\u201369 edit, but prevents a clean full90-frame source verdict.",
+      "evidence": [
+        "evidence/sequence-05.jpg"
+      ],
+      "supplemental_native": "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/reviews/independent/source86.jpg"
+    },
+    {
+      "verdict": "pass",
+      "issue": "Ripple and freeze targeted findings",
+      "source_frames": [
+        0,
+        89
+      ],
+      "time_sec": [
+        0,
+        2.966666666666667
+      ],
+      "observed": "Repeated independent rolling layer wave from earlier source is absent. Motion follows one compact arm rise and settles; cream/orange/red layers remain connected. Hearth changes through full3s without a prolonged full-frame hold. This does not waive listed blink and tail defects."
+    },
+    {
+      "verdict": "pass",
+      "issue": "Mouth/particles/anatomy targeted findings",
+      "source_frames": [
+        0,
+        89
+      ],
+      "time_sec": [
+        0,
+        2.966666666666667
+      ],
+      "observed": "No mouth, detached Sol sparks/flecks/droplets, torn silhouette, new limb or unsupported step observed across all45 native pair states. Original open-eye design is preserved outside blink and the noted transient86/87 rendering defect."
+    }
+  ],
+  "recommended_selection": {
+    "mapping": "retain original0\u201319 then30\u201379, exact70frames/2.333s",
+    "cut": "source18/19\u219230/31",
+    "reason": "Both arms remain low on each side of this cut, with close face/body/foot alignment. Subsequent32\u201338 retains real arm onset. Hearth changes only its local flame shape while fixed fuel contact/logs/camera remain consistent. This is cleaner than16/17\u219232/33, which skips more arm onset. No holding or speed change is needed.",
+    "resulting_blink": "output16\u201325 transition10frames/.333s; fully closed output18\u201323; original open ovals resumeoutput26.",
+    "tail": "Ends at source79, excluding flawed86/87.",
+    "qualification": "Requires actual selected-file review and fresh packet before canonical approval."
+  },
+  "voice_scope": "Only Sol speaks local.080\u20131.886, unchanged1x. No Narrator gaze requirement in this shot. No audible synchronization claim.",
+  "evidence_hashes": {
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/reviews/independent/blink-cut-comparison.jpg": "83b2f1e8ab5e413c1a85b2f79dc434eda17588d37a555f5b16ef8ab5446cc95f",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/reviews/independent/source86.jpg": "1a8c69f996144e2d6bcef9068f45e3dcfa44de91dae8045cdeaa4d25b3baac04",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/reviews/independent/native-pairs-01.jpg": "b40e698c04c78c395ca4620aacdccb53c7dacdd7f5f22b253207540dc1b6d744",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/reviews/independent/native-pairs-02.jpg": "0bf3eb1ea4bebaaeddebb5730b560335335324b61e0c9b1d616dab6b3586c152",
+    "workflow/episodes/fire_discovery/revisions/chimney-ripple-v2/reviews/independent/native-pairs-03.jpg": "8ff3566c66e3601e7865c0199ec332315c6630ece9546a3ad716d6b4772ed887"
+  },
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg"
+  ]
+}

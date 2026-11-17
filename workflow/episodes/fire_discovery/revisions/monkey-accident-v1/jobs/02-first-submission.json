@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "id": "637fda74-fd3a-4144-9f0e-3ab3f1be75b1",
+      "type": "image",
+      "status": "pending",
+      "model": "nano_banana_2_1",
+      "params": {
+        "prompt": "Create one complete vertical painted storybook frame immediately BEFORE a monkey accidentally knocks an existing glowing twig into dry leaves.\n\nA sheltered subtropical woodland clearing in golden late-afternoon light. Frame it with a broad tree trunk on the far left, an arch of leafy branches high overhead, layered sage foliage and a distant opening to blue hills. Ferns, roots, scattered broad dry ochre leaves, a few smooth stones and a low naturally charred fallen log make the place feel lived-in by wildlife, without any human-made objects. Keep foreground action distinct from the layered detailed background.\n\nStatic medium-wide full-body portrait9:16 shot, camera at the seated monkey eye height with a slight downward angle. One small brown monkey sits on a low gray stone at x34%, feet near y73%, body and head together about37% of image height. Its long tail curves rightward behind it. A small charred log rests on bare earth at x61%, y67%; a small patch of dry leaves is immediately in front of it at x64%, y73%. Keep the full monkey, both hands, tail, twig and leaf patch in frame; quiet earth across the lowest17% for editable captions.\n\nExactly one friendly storybook monkey, cocoa-brown fur painted in simple soft masses, a light tan muzzle and belly, two rounded ears, dark expressive eyes, a small natural monkey mouth, four ordinary monkey limbs and one long attached curved tail. It is an animal, not Sol or a flame mascot. It wears no clothes, hat or accessories. No other characters.\n\nThe monkey is comfortably seated and distracted by one partly peeled banana held in both hands, looking down at the fruit. Its tail tip curves behind it close to the cool dark end of one short charred twig that rests loosely across the low log. The far end of that twig has one tiny clearly visible red-orange ember and a faint wisp of smoke from an earlier natural fire; the glowing tip points away from the animal. The dry leaf patch below is entirely unlit. There are NO visible flames anywhere. Make the gap between twig and leaves readable. The monkey and tail are unharmed.\n\nSoft matte gouache illustration: visible layered brushwork, broad readable shapes, gently softened painted edges, subtle paper texture and convincing overlapping depth. Paint the monkey, leaves, wood, stone and surroundings together. Warm late-afternoon sunlight, cool sage shadows. No ink outlines, glossy3D rendering, plastic surfaces, text, captions or watermark.\n\nThe attached image supplies the matte gouache painting finish only. Do not reproduce its flame characters, spring scene or flower accessories.",
+        "aspect_ratio": "9:16",
+        "reference_images": [
+          "f882fffb-183a-4cda-972a-c5cf0e1e38bc"
+        ],
+        "resolution": "2k",
+        "thinking_level": "medium"
+      }
+    }
+  ],
+  "adjustments": {
+    "medias[0].role": {
+      "requested": "image",
+      "used": "image_references",
+      "reason": "Nano Banana 2.1 backend expects schema-key media roles"
+    }
+  }
+}

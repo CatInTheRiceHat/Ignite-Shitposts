@@ -1,0 +1,10 @@
+{
+  "scene": "01",
+  "source_decision": "revisions/christmas-fireplace-v4/reviews/01/frames/9e6e4df6e9bf3aa84c20/decisions/20261116T185312526404Z.json",
+  "user_message": "awesome",
+  "approved_still_hashes": {
+    "first": "0ee6b0d1079f52f483521dc02949625d8f3923bdcffbd49f4e4b6de6735a6f7d",
+    "last": "98e9c4f09b3640f770b8651a0cbc46942d8f2434518ffa03c7a109c73cdfe475"
+  },
+  "scope": "Carry forward existing approval of unchanged exact images into the consolidated selected-edit record; no new user approval inferred."
+}

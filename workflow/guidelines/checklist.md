@@ -107,6 +107,11 @@ Run this short review on the complete prompt set before generation. Follow the l
 
 ## Style and staging
 
+- [ ] Keep Sol's painted interior stable through movement. Elaine flagged a
+  rippling/waving deformation: gentle attached tip follow-through must not
+  become a traveling wave through his red/orange/cream layers, a jelly-like
+  body warp or texture swimming. Check every intermediate pose.
+
 - [ ] Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact. Follow the [particle-free movement rule](video-style-guide.md#particle-free-sol-movement).
 
 - [ ] Latest instruction: use a gentle connected body/tip wiggle through Sol's pose changes and listening idle. Keep feet supported, face and layers coherent, and emit no particles. Check the approved body tilt with the actual dialogue; still approval alone does not prove upward attention.

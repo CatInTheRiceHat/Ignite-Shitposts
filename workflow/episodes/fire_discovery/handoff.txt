@@ -1,3 +1,15 @@
+ACTIVE REVISION — MONKEY ACCIDENT02 AND FIREPLACE RIPPLE01
+
+Elaine requested these changes after viewing the delivered scene-refresh-v6 cut. Current completed MP4 and root edit are preserved; no new full-film export yet.
+
+Scene02: revisions/monkey-accident-v1/keyframes/02-first.png and02-last.png are generated with Nano Banana2.1. Elaine selected “Revise the frames”; clarification of the desired change is pending. Neither image is approved for animation. Review sheet: revisions/monkey-accident-v1/reviews/02-first-last-review.jpg. Frame packet: revisions/monkey-accident-v1/reviews/02/frames/3ee4b27e8f3a9e26b77e/packet.json. Do not animate until approved; use canonical gate/video-request and current Omni Flash settings afterward. Planned action: tail knocks existing ember-bearing twig into leaves, small flame, surprised monkey. All dialogue and soundtrack timing retained.
+
+Scene01: the chimney-ripple-v1 whole-frame hold was rejected after Elaine noticed the freeze. Fresh Omni job ac7d0103-d482-4ec6-8817-e8f759cbf7e5 completed from the same exact approved pair. Selected source: revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4,70frames/2.333s, original0–19+30–79. Trimmed closed-eye dwell and unused tail only, no frozen replacements or changed source pixels. Longest full-frame hold is the required2frames. Captioned preview: revisions/chimney-ripple-v2/renders/fireplace-corrected-preview.mp4, with existing1x Sol voice/music. Current candidate packet: revisions/monkey-accident-v1/reviews/01/clip/487e7bfe1584c131e685/packet.json. Dedicated review passed all12 checks; canonical gate approved. Report: revisions/monkey-accident-v1/reviews/01-independent-continuous-motion-review.json. Corrected preview opened in QuickTime. Raw-source flaws and rejected candidates preserved. No new02 animation; user requested frame revisions, then to see the pair first. Both were redisplayed. Elaine replied “yay coool”; confirmation of both exact monkey frames for animation has been requested and remains pending.
+
+The proposal's full script, shot plan and separate10-image/5-video prompt record are in revisions/monkey-accident-v1/. New01 animation reuses its approved images; new02 animation awaits pair approval. Other retained prompt blocks are archival. Scene ideas remain episode-specific; reusable stable-layer/no-ripple art critique added to shared checklist.
+
+PREVIOUS COMPLETED DELIVERY (PRESERVED)
+
 HOW FIRE WAS DISCOVERED — COMPLETED SCENE REFRESH
 
 Delivered: ../../completed/How Fire Was Discovered.mp4

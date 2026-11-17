@@ -1,0 +1,35 @@
+{
+  "scene": "02",
+  "version": "monkey-accident-v1",
+  "status": "awaiting_explicit_both_frame_animation_confirmation_after_redisplay",
+  "video_generated": false,
+  "packet": "reviews/02/frames/3ee4b27e8f3a9e26b77e/packet.json",
+  "method": "Primary visual inspection of both generated images at720x1280 and the labeled pair sheet; compared painted treatment to Spring reference and lantern artwork. No motion or user approval inferred.",
+  "images": {
+    "first": {
+      "path": "keyframes/02-first.png",
+      "sha256": "7a8be4adb71cdb54ef0e1f3d969b761e5989b1865de4752771d6edd1ab71310f"
+    },
+    "last": {
+      "path": "keyframes/02-last.png",
+      "sha256": "ac01a2a1dc3684d8d94049de0b081af845b902c884e9c7cea0def37379129eed"
+    }
+  },
+  "observations": [
+    "One cocoa-brown monkey on a gray rock holds a peeled banana; the same tree arch, hillside opening, foliage, log, stone and camera remain across both images.",
+    "First: no open flame, small glowing twig tip, curled tail near the log. Last: twig on dry leaves, small flame at leaf contact, tail withdrawn and surprised face.",
+    "Monkey eye whites and small mouth change with the surprised expression; this animal is not Sol, so Sol-only face restrictions do not apply.",
+    "Layered matte painted leaves, fur, bark and soil match the requested storybook direction.",
+    "Action remains above lower caption area; actual moving tail/twig clearance must be verified on the future generated clip."
+  ],
+  "motion_checks_pending": [
+    "Continuous tail contact with the cool twig end",
+    "Twig lands before leaf ignition; keep existing ember cause readable",
+    "Single tail and stable anatomy throughout",
+    "No background swimming, uncontrolled wildfire, camera drift or new props",
+    "Exact30fps paired states and actual1x Narrator synchronization"
+  ],
+  "user_message": "Revise the frames",
+  "clarification_pending": "Use both monkey frames exactly as shown and animate, or still revise?",
+  "latest_user_message": "yay coool"
+}

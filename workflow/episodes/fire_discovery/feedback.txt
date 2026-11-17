@@ -165,10 +165,52 @@ WORKFLOW AND EPISODE REVISION NOTES
     and the complete Right release. Final25.8s export delivered as
     completed/How Fire Was Discovered.mp4; earlier completed copy archived.
 
+33. Elaine requests replacing the open-grassland fire shot with a monkey
+    accidentally starting a flame. Current interpretation: a playful monkey
+    knocks an existing glowing twig into dry leaves and reacts to the little
+    flame, preserving the natural-fire narration and the finding/making
+    distinction. New02 first/last pair has been generated and is awaiting explicit approval
+    before video generation.
+    This scene idea stays in episode feedback and revision docs.
+
+34. Elaine flags a weird ripple animation while Sol looks at the chimney in
+    the Christmas opening. Inspect the actual intermediate motion; keep
+    stable painted layers and compact anatomy rather than sweeping waves
+    through his body. A reversible no-ripple preview keeps original frames0–19, then holds
+    clean18/19 through2.333s. This also holds the hearth from0.600s; no
+    new pixels, speech-speed change or replacement full export. Actual
+    source and captioned-preview review are being recorded.
+
+35. Elaine noticed the long freeze in the ripple-cleanup preview: “why does
+    it freeze 2 seconds after”. The freeze was introduced by the edit's
+   1.733s whole-scene hold. That workaround is rejected. Regenerate01 from
+    the unchanged approved pair, with a compact arm gesture, coherent painted
+    interior and continuing hearth flicker. No replacement stills are needed.
+    New Omni Flash job: ac7d0103-d482-4ec6-8817-e8f759cbf7e5 completed.
+    Source has continuous fire and stable layers. Select0–19+30–79 to shorten
+    a prolonged blink and omit the unused tail; no frozen substitutions.
+    Corrected preview: revisions/chimney-ripple-v2/renders/
+    fireplace-corrected-preview.mp4. Dedicated candidate review passed all12 checks; canonical gate approved.
+    Corrected preview opened in QuickTime.
+
+36. Elaine chose “Revise the frames” for the new monkey02 first/last pair.
+    This is not approval. Asked which part should change: ignition action,
+    monkey appearance or setting. Keep this pair as revision history and
+    do not animate it while the requested correction is unspecified. Elaine
+    then asked to see the frames first; displayed both as a labeled comparison
+    and in the Higgsfield gallery, with full-size individual links.
+
 IMPLEMENTATION / REVIEW STATUS
 
-Current: scene-refresh-v6 is delivered and all source/final visual checks passed.
-See reviews/scene-refresh-v6/delivery.json and final-output/verification.json.
+Current revision: monkey-accident-v1 Scene02 pair is awaiting Elaine’s specific
+revision direction or approval after redisplay; no new02
+clip has been generated. chimney-ripple-v1 is the rejected freeze preview; chimney-ripple-v2
+contains the fresh-animation job and review outputs.
+The completed scene-refresh-v6 delivery is preserved while these changes are
+reviewed. Its earlier checks passed at delivery; Elaine subsequently flagged the
+opening ripple, now tracked in item34. See revisions/monkey-accident-v1/ and
+revisions/chimney-ripple-v1/. Earlier delivery evidence remains in
+reviews/scene-refresh-v6/delivery.json and final-output/verification.json.
 Earlier implementation history follows.
 
 The resumed-v3 cut addressed mouths, remaining Sol emission buds and faint

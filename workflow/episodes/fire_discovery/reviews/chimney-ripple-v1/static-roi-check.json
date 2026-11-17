@@ -1,0 +1,38 @@
+{
+  "window_static": {
+    "bounds": [
+      370,
+      300,
+      630,
+      700
+    ],
+    "max_mean_rgb_difference_vs_frame0": 2.346923076923077
+  },
+  "stockings_static": {
+    "bounds": [
+      740,
+      750,
+      1050,
+      900
+    ],
+    "max_mean_rgb_difference_vs_frame0": 3.01615770609319
+  },
+  "hearth_stone": {
+    "bounds": [
+      700,
+      1050,
+      790,
+      1240
+    ],
+    "max_mean_rgb_difference_vs_frame0": 5.6450487329434695
+  },
+  "floor_static": {
+    "bounds": [
+      50,
+      1700,
+      350,
+      1850
+    ],
+    "max_mean_rgb_difference_vs_frame0": 7.420192592592593
+  }
+}
