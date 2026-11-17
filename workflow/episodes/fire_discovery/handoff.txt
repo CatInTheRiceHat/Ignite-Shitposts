@@ -1,58 +1,35 @@
-ACTIVE REVISION — CONTINUOUS FIGHT-CLOUD MONKEY02 / CORRECTED FIREPLACE01
-
-Current production folder: revisions/monkey-cartoon-cloud-v3/.
-The exact new first/last pair was shown together and opened in Preview.
-Elaine replied “wait this is wonderful awesome” and “yeah make sure to add
-this to the guidelines too of what i want for cartoony”. Initially treated
-only as a guideline request; on resuming recognized the affirmative reply
-to the preceding BOTH-frame approval question and recorded the actual words.
-Current stills remain02-first-v3.png and02-last-v3.png. No new images needed.
-
-First Omni job2ca98963-b371-4ea9-b195-9815d31d05b3 is USER-REJECTED: cloud
-repeatedly clears and respawns; it also briefly grows an oversized flame.
-Preserved raw/02-omni.mp4 and clips/02-scene.mp4, with actual review packet.
-Elaine explicitly requests a continuously moving cartoon fighting cloud.
-New motion/script/prompts prepared: one sustained churning, tumbling cloud,
-changing lobes and speed strokes, clears once at2.3–2.7s; tiny central flame
-below unlit upper ends, one surprised recoil. New job38021f66-556b-4e58-a775-
-d287b0119273 rendering; target clips/02-fight-cloud-v2.mp4. Original pre-change
-documents preserved under history/before-fight-cloud-motion/.
-
-Stable script SHAfb82f7eb875711f2a566bff26ceee80c699a80c78811d5e40e2958329632d741.
-Exact original frame approvals carried into this context for all five scenes.
-Dedicated reviewer is re-binding unchanged retained01/03/04/05 to this stable
-script, with prior actual evidence verified byte-identical. New02 needs actual
-independent review. Do not approve it from the prompt or technical properties.
-
-Scene01: revisions/chimney-ripple-v2/clips/01-selected-brief-blink.mp4,
-70frames/2.333s, original0–19+30–79; continuous motion, brief blink, no frozen
-substitutions. Retain03 lightning,04 ember tending,05 three-Sol night campfire.
-All scene durations, captions and9 audio tracks match the old delivered cut.
-Preserve exact existing AAC soundtrack on final mux; impact9.722333s matches
-flash9.733333s, Right24.6–25.5s, caption to25.7s and picture to25.8s.
-New full revision edit.json is ready with02 pointing to the incoming clip.
-
-Existing completed MP4/root edit unchanged pending passing replacement.
-After checks, archive the old completed copy before replacing its title-only
-filename, and open the final result in QuickTime. Feedback entries42–44 and
-shared style/checklist include the reusable cartoon/fight-cloud preferences.
-
-PREVIOUS COMPLETED DELIVERY (PRESERVED)
-
-HOW FIRE WAS DISCOVERED — COMPLETED SCENE REFRESH
+HOW FIRE WAS DISCOVERED — COMPLETED, LARGER CAPTIONS
 
 Delivered: ../../completed/How Fire Was Discovered.mp4
-Render history: renders/fire-discovery-scene-refresh-v6-final.mp4
-Current editable selection: edit.json (same as edit-scene-refresh-v6.json).
+25.466667 seconds,764frames,1080x1920,30fps,H264/AAC.
+SHA256: 838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54
 
-25.8s,1080x1920,30fps,H264/AAC. Christmas fireplace01; golden grassland02; retained lightning03 and ember tending04; three-Sol night campfire05.
+Captions enlarged56→64px, about14%, with the same12px orange outline,
+white fill, safe-area placement, words and timing. All16 actual rendered
+phrases passed independent readability, wrapping and margin review.
+Some long phrases naturally use two lines; no clipping or action collision.
 
-All five sources passed canonical independent review. Opening uses clean-v7; earlier clean-v6 is rejected for remaining ribbon/particle residue and remains history only. Source states hold exact pairs at30fps;03 retains its intentional smooth editorial push.
+No-poof cut and0.2s opening trim preserved. Scene02 retains source6–139,
+ending with visible flame at output203 before the tree at204/6.8s. Full
+Narrator take ends6.729062s. Original source/storyboard remain preserved;
+editorial overrides govern the final selected outpoints.
 
-The corrected v5 AAC soundtrack is byte-for-byte unchanged. Bomboclat impact9.722333s aligns with flash9.733333s (11ms early). All speech stays1x, background music remains, Right voice24.6–25.5s, caption through25.7s, final picture through25.8s.
+Original v9 soundtrack copied packet-for-packet: all1195 AAC hashes and
+PTS/DTS/durations match. Flash9.4s and impact9.389s stay aligned. Right
+voice24.266667–25.166667s; caption to25.366667s; picture to25.466667s.
+No speech acceleration, sound edits or cue timing changes in this revision.
 
-Full-file decode and final independent visual inspection passed. No manual audio listening claimed. User playback acceptance is pending viewing.
+Canonical root and revision edit.json select this version. Reviewed render
+configuration remains edit-captions-v10.json; canonical timing receipt links
+were refreshed after review without changing media instructions.
+Full decode, all-frame uncaptained-picture comparison and independent
+caption review passed. Evidence: revisions/monkey-cartoon-cloud-v3/reviews/
+captions-v10/. Prior completed file: renders/archive/
+completed-before-captions-v10.mp4. No manual listening claim.
 
-Evidence: reviews/scene-refresh-v6/delivery.json, production-gate.json, technical-source-checks.json, audio-master-checks.json, final-independent-visual-review.json and final-output/verification.json. Older completed copy is preserved in renders/archive/completed-before-scene-refresh-v6.mp4.
-
-User feedback is in feedback.txt; specific scene ideas stay outside shared art guidelines. The reusable inspect-video tool is used locally; no website/app.
+Elaine's full feedback is in feedback.txt, entries48–49 for these requests.
+Shared video-style-guide.md and checklist.md now consolidate caption size,
+brisk shot timing, continuously evolving fight clouds and a visible payoff
+without a late poof/freeze. Specific scenes and sound cues remain episode
+notes per her earlier scope clarification. New render opened in QuickTime;
+final user playback acceptance pending.

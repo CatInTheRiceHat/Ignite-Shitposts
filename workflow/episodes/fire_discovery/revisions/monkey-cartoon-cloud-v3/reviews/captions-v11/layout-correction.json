@@ -1,0 +1,9 @@
+{
+  "reason": "At70px original74%-width area makes longest phrase three lines. Increase width to80%, retaining10% side margins, so it stays two lines.",
+  "font_size": 70,
+  "caption_left_percent": 10,
+  "caption_right_percent": 10,
+  "long_phrase_width": 845.6,
+  "available_width": 864,
+  "prior_render_not_selected": true
+}

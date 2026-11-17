@@ -1,0 +1,248 @@
+{
+  "packet_id": "adb63381675497182255d904234fead3e141f4fe5e99481c56c63e86c76e00c9",
+  "reviewer": "/root/clip_reviewer — dedicated independent actual-footage reviewer",
+  "created_at": "2026-11-17T03:05:12.216080+00:00",
+  "method": "Canonical episode-root binding of the already-passed exact revision footage. Verified actual full-script bytes eacc1d6cad6c2bcc1cf762f10eef5a22bbff71c13a50139522a2b9d128e8fa80 and all per-scene context/requirements identical, allowing only script source path. Actual media, every current image evidence file, references/stills/voice cues/audio files match the passed revision by hash. Reuse the dedicated reviewer’s prior actual chronological/native/transition inspection explicitly; no new visual work is claimed for this path-only promotion. The source verdict remains based on inspected real frames, not metadata alone. No final assembled-output or manual audio listening approval.",
+  "coverage_reviewed": [
+    "evidence/sequence-01.jpg",
+    "evidence/sequence-02.jpg",
+    "evidence/sequence-03.jpg",
+    "evidence/sequence-04.jpg",
+    "evidence/sequence-05.jpg",
+    "evidence/sequence-06.jpg",
+    "evidence/sequence-07.jpg",
+    "evidence/sequence-08.jpg",
+    "evidence/sequence-09.jpg",
+    "evidence/sequence-10.jpg"
+  ],
+  "checks": {
+    "reference_match": {
+      "verdict": "pass",
+      "observed": "Same anonymous cropped hand, charred bough, ember bed and single twig as the approved endpoints. Native twig includes a short cut side nub already present in approved first.jpg; it does not become an extra branch/tool or change shape.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4.5,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/first.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "eyes": {
+      "verdict": "not_applicable",
+      "observed": "No Sol, mascot face or mascot anatomy is present. The anonymous human hand is evaluated under contacts/action.",
+      "timestamps_sec": [
+        0,
+        3.5,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "flame_and_limbs": {
+      "verdict": "not_applicable",
+      "observed": "No Sol, mascot face or mascot anatomy is present. The anonymous human hand is evaluated under contacts/action.",
+      "timestamps_sec": [
+        0,
+        3.5,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "framing_and_props": {
+      "verdict": "pass",
+      "observed": "Close elevated three-quarter view keeps the twig/ember contact visible in the center, with the hand entering upper right. Hand clears the frame and the lower ground stays clear for captions; fixed bough, rocks and grasses persist.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        4.5,
+        5.066667,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "contacts_and_action": {
+      "verdict": "pass",
+      "observed": "Tip starts visibly above embers, lowers with stable far-end grip and reaches the ember bed around1.067–1.2. Twig remains securely against the bed/bough while fingers open around2.933–3.6 and withdraw. Tip and shaft stay stationary after release. First tiny flame appears4.133, well after placement/release; hand clears fully by5.067.",
+      "timestamps_sec": [
+        0,
+        1.066667,
+        1.2,
+        1.5,
+        2.933333,
+        3.5,
+        3.6,
+        4.133333,
+        5.066667
+      ],
+      "evidence": [
+        "evidence/first.jpg",
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/sequence-05.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "mechanical_direction": {
+      "verdict": "pass",
+      "observed": "Hand lowers the twig toward the embers, releases only once it is supported, then withdraws up/right. There is no pushing through the ground, floating twig or movement after release. Flame rises from the blunt tip/ember contact.",
+      "timestamps_sec": [
+        1.2,
+        3.5,
+        4.133333,
+        4.5,
+        5.066667
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-08.jpg"
+      ]
+    },
+    "object_continuity": {
+      "verdict": "pass",
+      "observed": "One hand and one twig remain throughout. The pre-existing tiny twig nub is stable, not a generated extra prong. Charred bough, ember stones and ground remain fixed. Fire base stays at the placed twig contact through final frame.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4.5,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/first.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "start_end_states": {
+      "verdict": "pass",
+      "observed": "Starts with gripping hand and hovering twig over glow-only embers, ends with hand absent and a supported twig carrying a small rooted flame. These match the approved endpoint story states.",
+      "timestamps_sec": [
+        0,
+        5.066667,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/frame-comparison.jpg",
+        "evidence/first.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "performance_and_timing": {
+      "verdict": "pass",
+      "observed": "The lowering, supported contact, release, withdrawal and delayed ignition are distinct chronological beats. Source remains normal-speed30fps with exact unchanged pairs per native hash receipt; action and final flame fit Narrator0.080–6.384 before the6.6s cut.",
+      "timestamps_sec": [
+        0.08,
+        1.2,
+        3.5,
+        4.133333,
+        5.066667,
+        6.384
+      ],
+      "evidence": [
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-08.jpg",
+        "evidence/sequence-10.jpg",
+        "evidence/voice-cues.json"
+      ]
+    },
+    "clean_footage": {
+      "verdict": "pass",
+      "observed": "All198 chronological frames inspected. No baked text, watermark, second hand, tool multiplication or facial flame appears. Native contact/release/ignition details show no visible hand/twig fusion or prop morph.",
+      "timestamps_sec": [
+        0,
+        1.5,
+        3.5,
+        4.5,
+        6.566667
+      ],
+      "evidence": [
+        "evidence/sequence-01.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000014.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    },
+    "painted_art_style": {
+      "verdict": "pass",
+      "observed": "Native detail shows consistent paper/brush texture, layered gray ground and bark, softly modeled hand and warm contact flame. Color defines edges without an added inked diagram treatment.",
+      "timestamps_sec": [
+        1.5,
+        3.5,
+        4.5
+      ],
+      "evidence": [
+        "evidence/paint.jpg",
+        "evidence/frame-comparison.jpg",
+        "evidence/detail/frame-000008.jpg",
+        "evidence/detail/frame-000012.jpg",
+        "evidence/detail/frame-000014.jpg"
+      ]
+    },
+    "script_and_narrator_attention": {
+      "verdict": "pass",
+      "observed": "Read the current complete cartoon fight-cloud revision storyboard and bound Scene04 context. Narrator local0.080–6.384s explains keeping embers alive with wood. The actual lowered twig contacts the bed before release, remains supported after withdrawal and catches at the contact afterward, completing within6.6s. Sol is absent. The tiny cut side nub belongs to the approved one-shaft twig despite unbranched shorthand in the script; no additional tool or new prong appears. This is a source visual review, not final audio playback.",
+      "timestamps_sec": [
+        0.08,
+        1.2,
+        3.5,
+        4.133333,
+        6.384
+      ],
+      "evidence": [
+        "evidence/script-storyboard.txt",
+        "evidence/script-context.json",
+        "evidence/voice-cues.json",
+        "evidence/sequence-02.jpg",
+        "evidence/sequence-06.jpg",
+        "evidence/sequence-07.jpg",
+        "evidence/sequence-10.jpg"
+      ]
+    }
+  },
+  "summary": "PASS exact source Scene04 at canonical episode root. Prior independent actual-footage findings remain valid after verified path-only context promotion; final output reviewed separately.",
+  "reused_evidence": {
+    "prior_report": "workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/04-independent-review.json",
+    "prior_report_sha256": "faa29e14bacaf1fea970e993972e42ee00aaaa2985b27b87b863a2733bbc7edf",
+    "prior_packet_id": "86832cb2b9ebfc573ba82256007ea78f4b3cb5d651531ddc4125d663591368c5",
+    "current_image_count_verified_identical": 232,
+    "all_prior_coverage_identical": true,
+    "root_promotion_changes_media": false
+  },
+  "verification_receipt": "workflow/episodes/fire_discovery/reviews/cartoon-cloud-v7/root-source-review-equivalence.json",
+  "limitations": [
+    "Retained source visual review only; final assembled captions/crops/audio mix require separate review.",
+    "No manual audio listening or real-time playback claimed."
+  ]
+}

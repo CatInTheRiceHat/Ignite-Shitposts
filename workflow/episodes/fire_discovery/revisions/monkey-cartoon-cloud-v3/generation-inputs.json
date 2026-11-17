@@ -44,5 +44,6 @@
     "id": "2ca98963-b371-4ea9-b195-9815d31d05b3",
     "status": "user rejected recurring cloud puffs"
   },
-  "selected_video_path": "clips/02-fight-cloud-v2.mp4"
+  "selected_video_path": "clips/02-fight-cloud-v2-selected.mp4",
+  "selection_receipt": "reviews/02-fight-cloud-v2-selection.json"
 }

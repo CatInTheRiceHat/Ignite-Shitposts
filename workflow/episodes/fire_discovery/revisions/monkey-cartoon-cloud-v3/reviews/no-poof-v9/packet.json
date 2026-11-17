@@ -1,0 +1,168 @@
+{
+  "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-no-poof-v9-final.mp4",
+  "sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+  "baseline_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/independent-review.json",
+  "script": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/script.txt",
+  "editorial_override": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/timing.json",
+  "pages": [
+    "no-poof-review-01.jpg",
+    "no-poof-review-02.jpg",
+    "no-poof-review-03.jpg"
+  ],
+  "detail": [
+    {
+      "frame": 70,
+      "time_sec": 2.3333333333333335,
+      "file": "detail/frame-001.jpg"
+    },
+    {
+      "frame": 88,
+      "time_sec": 2.933333333333333,
+      "file": "detail/frame-002.jpg"
+    },
+    {
+      "frame": 134,
+      "time_sec": 4.466666666666667,
+      "file": "detail/frame-003.jpg"
+    },
+    {
+      "frame": 160,
+      "time_sec": 5.333333333333333,
+      "file": "detail/frame-004.jpg"
+    },
+    {
+      "frame": 180,
+      "time_sec": 6.0,
+      "file": "detail/frame-005.jpg"
+    },
+    {
+      "frame": 190,
+      "time_sec": 6.333333333333333,
+      "file": "detail/frame-006.jpg"
+    },
+    {
+      "frame": 194,
+      "time_sec": 6.466666666666667,
+      "file": "detail/frame-007.jpg"
+    },
+    {
+      "frame": 196,
+      "time_sec": 6.533333333333333,
+      "file": "detail/frame-008.jpg"
+    },
+    {
+      "frame": 198,
+      "time_sec": 6.6,
+      "file": "detail/frame-009.jpg"
+    },
+    {
+      "frame": 200,
+      "time_sec": 6.666666666666667,
+      "file": "detail/frame-010.jpg"
+    },
+    {
+      "frame": 202,
+      "time_sec": 6.733333333333333,
+      "file": "detail/frame-011.jpg"
+    },
+    {
+      "frame": 203,
+      "time_sec": 6.766666666666667,
+      "file": "detail/frame-012.jpg"
+    },
+    {
+      "frame": 204,
+      "time_sec": 6.8,
+      "file": "detail/frame-013.jpg"
+    },
+    {
+      "frame": 205,
+      "time_sec": 6.833333333333333,
+      "file": "detail/frame-014.jpg"
+    },
+    {
+      "frame": 206,
+      "time_sec": 6.866666666666666,
+      "file": "detail/frame-015.jpg"
+    },
+    {
+      "frame": 208,
+      "time_sec": 6.933333333333334,
+      "file": "detail/frame-016.jpg"
+    },
+    {
+      "frame": 280,
+      "time_sec": 9.333333333333334,
+      "file": "detail/frame-017.jpg"
+    },
+    {
+      "frame": 281,
+      "time_sec": 9.366666666666667,
+      "file": "detail/frame-018.jpg"
+    },
+    {
+      "frame": 282,
+      "time_sec": 9.4,
+      "file": "detail/frame-019.jpg"
+    },
+    {
+      "frame": 283,
+      "time_sec": 9.433333333333334,
+      "file": "detail/frame-020.jpg"
+    },
+    {
+      "frame": 284,
+      "time_sec": 9.466666666666667,
+      "file": "detail/frame-021.jpg"
+    },
+    {
+      "frame": 409,
+      "time_sec": 13.633333333333333,
+      "file": "detail/frame-022.jpg"
+    },
+    {
+      "frame": 410,
+      "time_sec": 13.666666666666666,
+      "file": "detail/frame-023.jpg"
+    },
+    {
+      "frame": 607,
+      "time_sec": 20.233333333333334,
+      "file": "detail/frame-024.jpg"
+    },
+    {
+      "frame": 608,
+      "time_sec": 20.266666666666666,
+      "file": "detail/frame-025.jpg"
+    },
+    {
+      "frame": 728,
+      "time_sec": 24.266666666666666,
+      "file": "detail/frame-026.jpg"
+    },
+    {
+      "frame": 748,
+      "time_sec": 24.933333333333334,
+      "file": "detail/frame-027.jpg"
+    },
+    {
+      "frame": 760,
+      "time_sec": 25.333333333333332,
+      "file": "detail/frame-028.jpg"
+    },
+    {
+      "frame": 762,
+      "time_sec": 25.4,
+      "file": "detail/frame-029.jpg"
+    },
+    {
+      "frame": 763,
+      "time_sec": 25.433333333333334,
+      "file": "detail/frame-030.jpg"
+    }
+  ],
+  "voice_cues": "voice-cues-assembled.json",
+  "candidate_edit": "root-edit-candidate.json",
+  "verification": "verification.json",
+  "scope": "Latest explicit user direction removes final poof. v8 frames204\u2013207 omitted; selected-source6\u2013139 retained. Original approved source and its historical script remain preserved; ending trimmed by editorial instruction."
+}

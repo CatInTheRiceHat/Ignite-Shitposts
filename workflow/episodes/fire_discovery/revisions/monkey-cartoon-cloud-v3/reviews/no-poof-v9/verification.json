@@ -1,0 +1,32 @@
+{
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-no-poof-v9-final.mp4",
+  "sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+  "bytes": 30541864,
+  "decode_passed": true,
+  "video_frames": 764,
+  "duration_sec": 25.466666666666665,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "baseline_sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+  "baseline_frame_mapping": "0–203 +208–767",
+  "all_frames_compared": true,
+  "frame_ssim_min": 0.98916,
+  "frame_ssim_mean": 0.994651727748691,
+  "picture_note": "Normal CRF16 re-encode; temporal frame mapping verified, not pixel identity.",
+  "audio_expected_samples": 1222400,
+  "audio_rate": 48000,
+  "audio_correlation_outside_music_join": 0.9999959754982571,
+  "sting_best_lag_samples": 0,
+  "sting_correlation": 0.9999963722558126,
+  "spoken_content_removed": false,
+  "speech_metadata_and_rates_preserved": true,
+  "all_captions_preserved_and_later_cues_shifted": true,
+  "playback_rate": 1,
+  "manual_audio_listening_claimed": false,
+  "final_visual_review_pending": false,
+  "final_visual_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/independent-review.json",
+  "final_visual_review_sha256": "0a2955ce94e77407da40fbcdff3523ef63e62ebe03b8c531e43836847eec7429"
+}

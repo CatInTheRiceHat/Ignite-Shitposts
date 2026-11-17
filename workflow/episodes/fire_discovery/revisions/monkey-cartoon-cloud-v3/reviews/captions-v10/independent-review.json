@@ -1,0 +1,155 @@
+{
+  "review_type": "independent_caption_only_visual_review",
+  "reviewer": "dedicated clip_reviewer sub-agent",
+  "created_at": "2026-11-17T03:34:14.701970+00:00",
+  "status": "pass",
+  "video": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-captions-v10-final.mp4",
+    "sha256": "838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54",
+    "frames": 764,
+    "fps": 30,
+    "duration_seconds": 25.466666666666665
+  },
+  "baseline": {
+    "video_sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+    "review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/independent-review.json",
+    "review_sha256": "0a2955ce94e77407da40fbcdff3523ef63e62ebe03b8c531e43836847eec7429"
+  },
+  "scope": "Caption font 56\u219264px only, same 12px outline, placement, words and cues. Prior source/motion and no-poof assembly findings reused; no repeated source review.",
+  "edit": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit-captions-v10.json",
+    "sha256": "5c275f3980cbb63a3dd560fa96df8e34d62b22f0ffa8482719af2f511de921d5",
+    "independent_comparison": "Shots, audioTracks and all 16 caption strings/times exactly equal v9 candidate. Only captionStyle.fontSize differs within caption styling, 56\u219264."
+  },
+  "actual_inspection": {
+    "all_three_chronological_pages_opened": true,
+    "all_16_caption_samples_read": true,
+    "native_caption_crops_opened": [
+      1,
+      5,
+      7,
+      9,
+      11,
+      12,
+      14,
+      15
+    ],
+    "sanity_frames_seen_in_sheets": [
+      202,
+      203,
+      204,
+      205,
+      280,
+      281,
+      282,
+      283,
+      284,
+      744,
+      760,
+      762,
+      763
+    ],
+    "manual_audio_listening": false,
+    "real_time_playback": false,
+    "all764_frames_individually_reviewed": false
+  },
+  "findings": [
+    {
+      "check": "Caption legibility and margins",
+      "result": "pass",
+      "observation": "All 16 samples retain complete correct text, clear white lettering and visible orange outline. Both one-line and two-line captions fit safely inside the portrait frame. No glyph, punctuation or outline clipping; no collision with faces, feet, flame contact, branch ignition or ember mechanism in sampled output."
+    },
+    {
+      "check": "Native long-phrase wrapping",
+      "result": "pass",
+      "observation": "Native crops confirm complete visible lines, separation and intact margins. Two-line opening stays below Sol’s feet. Long woodland, tree, ember and campfire phrases remain legible.",
+      "nonblocking_cosmetic_note": "Automatic wrapping leaves short second lines in Our ancestors could / keep, by feeding them / wood., So finding fire / wasn't, and the same as making / it. This is less balanced but fully readable; not a clipping or timing blocker."
+    },
+    {
+      "check": "No-poof cut and flash unchanged",
+      "result": "pass",
+      "observation": "Monkey frame 203 remains lit with no terminal cream puff; 204 is the clean tree cut. Bolt absent 280/281, present 282/283, gone 284 with branch flame retained. Enlarged captions do not occupy the flash gap."
+    },
+    {
+      "check": "Full Right and final tail",
+      "result": "pass",
+      "observation": "Larger Right. is clear at 744 and 760; absent 762/763 with intact final campfire picture and established upward listening poses. No new end truncation."
+    }
+  ],
+  "technical_receipt": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/verification.json",
+    "sha256_at_review": "143ea6d454dc323e171261eb27093be5f024216530dd3f55c9db27444f53db0d",
+    "read_findings": {
+      "decode_passed": true,
+      "aac_packets_hashes_and_timestamps_identical": true,
+      "aac_packet_count": 1195,
+      "uncaptioned_area_ssim_min": 0.982625,
+      "uncaptioned_area_ssim_mean": 0.9889318115183247,
+      "uncaptioned_area_all_frames_compared": true
+    },
+    "attribution": "Producer receipt establishes identical 1195 AAC packets/timestamps to v9 and all-frame comparison outside captions. Reviewer independently recomputed final MP4/edit hashes and exact edit-field comparison; no audio listening claimed."
+  },
+  "evidence": [
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-review-01.jpg",
+      "sha256": "998b1e1361cd3caf868b96c91cc563d89e789fc9318ff94e14fe0aa014b75210",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-review-02.jpg",
+      "sha256": "1980cba2867f2e0eb36139ed65872be09843b5012fd10fa8daf609ebb83bad03",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-review-03.jpg",
+      "sha256": "0ef551243557c2630e061204d49e7cf5dc72b2dd998863d1fd25cfdeef3da340",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-01.jpg",
+      "sha256": "d5b40c806444b41bd68b6aa923b024837e90f791cf616fc8c815cdeba68a812f",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-05.jpg",
+      "sha256": "e124eaf93330a53e1cde9e249b2ff15cef44a150bc7dfb83ba7518d78ee21151",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-07.jpg",
+      "sha256": "9ce8a272f228779d6a93ddb214de0e73bd952726c94ee7cccc6c0bbb07d93f3f",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-09.jpg",
+      "sha256": "26413c76ce9ebc1ecb0c3173b6fa348ad32e4b52b1cc5b79c4028b2eccc5d021",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-11.jpg",
+      "sha256": "a86e032d40231e71d411d3d21d67c1b271b65ab1f73a061367d51c3b8dbeb041",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-12.jpg",
+      "sha256": "82e17230b8bb3be432d6c9440d24f6901502e75ee4b5adbd58dcdd0bc033c391",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-14.jpg",
+      "sha256": "40bc787f84921506eb7472b7c2bec751f1ab332e327f8b9dbebe1657540a74ca",
+      "inspection": "actual image opened and visually inspected"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/caption-15.jpg",
+      "sha256": "0f8256692df9cf9e506cfe7d35bc5b4f0fbd32bb9f7bacf5952a4e2cda664a10",
+      "inspection": "actual image opened and visually inspected"
+    }
+  ],
+  "blocking_issues": [],
+  "limitations": [
+    "One actual sample for each caption plus native long-phrase crops and targeted cut/flash/tail frames; not individual visual inspection of every output frame.",
+    "Ordinary fresh-render encoding differences remain; no picture pixel-identity claim. No manual audio listening or real-time playback."
+  ],
+  "conclusion": "Pass for the exact hashed final output: larger captions are readable and safely placed, with preserved corrected cuts and ending."
+}

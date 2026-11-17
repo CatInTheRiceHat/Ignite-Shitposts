@@ -1,0 +1,617 @@
+{
+  "confirmed": true,
+  "playback_rate": 1,
+  "basis": "Actual normal-rate WAVs. Existing silence trims retained except full quiet release restored for Right. A1.2s gap was inserted after Yes for the requested lightning meme. All word positions remapped; spoken samples unchanged. Final auditory playback remains a separate review.",
+  "utterances": [
+    {
+      "scene": "01",
+      "turn": 1,
+      "speaker": "Sol",
+      "text": "Who actually discovered fire?",
+      "source_audio": "audio/trimmed-v2/01-01-sol.wav",
+      "source_sha256": "daf4466f57a5a820e972bf6fe0d405c0baa31e1dc140098842609b127b021d25",
+      "original_audio": "audio/01-01-sol.wav",
+      "original_sha256": "fc6493a8f7c70b092ea0bba38c54ab5f0cc7874eeabd17ee82c069e4eecc2997",
+      "generation_job_id": "b5179dd0-85e0-4a05-8857-88f9a919d1c0",
+      "original_duration": 2.0372916666666665,
+      "duration": 1.8063125,
+      "removed_seconds": 0.2309791666666665,
+      "cuts": [
+        [
+          0,
+          0.200708
+        ],
+        [
+          2.007021,
+          2.0372916666666665
+        ]
+      ],
+      "kept": [
+        [
+          0.200708,
+          2.007021
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.159292,
+          "word": " Who",
+          "probability": 0.508460521697998
+        },
+        {
+          "start": 0.159292,
+          "end": 0.499292,
+          "word": " actually",
+          "probability": 0.9910370111465454
+        },
+        {
+          "start": 0.499292,
+          "end": 0.979292,
+          "word": " discovered",
+          "probability": 0.9979038238525391
+        },
+        {
+          "start": 0.979292,
+          "end": 1.439292,
+          "word": " fire?",
+          "probability": 0.9702243208885193
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 0.08,
+      "local_end_sec": 1.8863125,
+      "start_sec": 0.08,
+      "end_sec": 1.8863125,
+      "measured_start_sec": 0.08,
+      "measured_end_sec": 1.8863125
+    },
+    {
+      "scene": "02",
+      "turn": 1,
+      "speaker": "Narrator",
+      "text": "We don't know. Natural fires existed long before people.",
+      "source_audio": "audio/trimmed-v2/02-01-narrator.wav",
+      "source_sha256": "0c09417471221d0f6359acd8755deba5c15b8338aa5ae840590c79565912b016",
+      "original_audio": "audio/02-01-narrator.wav",
+      "original_sha256": "a1b209248ad78cedad2a94c09064608c1abf72a915553cb87b4dfb5ed6b1381f",
+      "generation_job_id": "575146da-3e30-441d-90ee-622d4dcc7a57",
+      "original_duration": 3.980916666666667,
+      "duration": 3.795729166666667,
+      "removed_seconds": 0.18518750000000006,
+      "cuts": [
+        [
+          0,
+          0.053437500000000006
+        ],
+        [
+          3.849167,
+          3.980916666666667
+        ]
+      ],
+      "kept": [
+        [
+          0.053437500000000006,
+          3.849167
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.086563,
+          "word": " We",
+          "probability": 0.8007807731628418
+        },
+        {
+          "start": 0.086563,
+          "end": 0.306562,
+          "word": " don't",
+          "probability": 0.9933151602745056
+        },
+        {
+          "start": 0.306562,
+          "end": 0.546562,
+          "word": " know.",
+          "probability": 0.9985325336456299
+        },
+        {
+          "start": 1.086562,
+          "end": 1.406562,
+          "word": " Natural",
+          "probability": 0.9884922504425049
+        },
+        {
+          "start": 1.406562,
+          "end": 1.726562,
+          "word": " fires",
+          "probability": 0.9899464249610901
+        },
+        {
+          "start": 1.726562,
+          "end": 2.306563,
+          "word": " existed",
+          "probability": 0.9978154897689819
+        },
+        {
+          "start": 2.306563,
+          "end": 2.706562,
+          "word": " long",
+          "probability": 0.9992572665214539
+        },
+        {
+          "start": 2.706562,
+          "end": 3.106563,
+          "word": " before",
+          "probability": 0.999035120010376
+        },
+        {
+          "start": 3.106563,
+          "end": 3.566563,
+          "word": " people.",
+          "probability": 0.9881181120872498
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 0.7999996666666664,
+      "local_end_sec": 4.595728833333333,
+      "start_sec": 3.133333,
+      "end_sec": 6.929062166666666,
+      "measured_start_sec": 3.133333,
+      "measured_end_sec": 6.929062166666666
+    },
+    {
+      "scene": "03",
+      "turn": 1,
+      "speaker": "Sol",
+      "text": "Like when lightning hits a tree?",
+      "source_audio": "audio/trimmed-v2/03-01-sol.wav",
+      "source_sha256": "cdc8470c49f3e63d9b0991ed67479b0a8f54b004217d1b92eedf297fd33f491b",
+      "original_audio": "audio/03-01-sol.wav",
+      "original_sha256": "2fbc25435bd3ea6b477200c2965fc3218d8cb0c3cbcb168fc6522efe53aff0af",
+      "generation_job_id": "0278dedb-2b3c-47e9-99c2-1b2df7295a55",
+      "original_duration": 2.1173333333333333,
+      "duration": 1.7567083333333333,
+      "removed_seconds": 0.360625,
+      "cuts": [
+        [
+          0,
+          0.223125
+        ],
+        [
+          1.9798330000000002,
+          2.1173333333333333
+        ]
+      ],
+      "kept": [
+        [
+          0.223125,
+          1.9798330000000002
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.176875,
+          "word": " Like",
+          "probability": 0.7137385606765747
+        },
+        {
+          "start": 0.176875,
+          "end": 0.336875,
+          "word": " when",
+          "probability": 0.9634696245193481
+        },
+        {
+          "start": 0.336875,
+          "end": 0.636875,
+          "word": " lightning",
+          "probability": 0.9665289521217346
+        },
+        {
+          "start": 0.636875,
+          "end": 1.016875,
+          "word": " hits",
+          "probability": 0.996927797794342
+        },
+        {
+          "start": 1.016875,
+          "end": 1.196875,
+          "word": " a",
+          "probability": 0.9703428149223328
+        },
+        {
+          "start": 1.196875,
+          "end": 1.456875,
+          "word": " tree?",
+          "probability": 0.9986080527305603
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 0.07999966666666758,
+      "local_end_sec": 1.836708000000001,
+      "start_sec": 7.213333,
+      "end_sec": 8.970041333333334,
+      "measured_start_sec": 7.213333,
+      "measured_end_sec": 8.970041333333334
+    },
+    {
+      "scene": "03",
+      "turn": 2,
+      "speaker": "Narrator",
+      "text": "Yes. Lightning's heat can set dry wood alight.",
+      "source_audio": "audio/sound-v4/03-02-narrator-with-sting-gap.wav",
+      "source_sha256": "58697484e327508953a5a4dafb33af67d3e10dd64253822351b699c3a5360b1f",
+      "original_audio": "audio/03-02-narrator.wav",
+      "original_sha256": "d805b54cc2013f49d2ce1f0cd2e9e5c8c5f44921f8704b912774f077717982bd",
+      "generation_job_id": "58b9533d-1242-4519-8a10-0333e1aba0a2",
+      "original_duration": 5.68,
+      "duration": 4.613354166666666,
+      "removed_seconds": 2.266645833333333,
+      "cuts": [
+        [
+          0,
+          0.429729
+        ],
+        [
+          0.981146,
+          1.375229
+        ],
+        [
+          4.237167,
+          5.68
+        ]
+      ],
+      "kept": [
+        [
+          0.429729,
+          0.981146
+        ],
+        [
+          1.375229,
+          4.237167
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.230271,
+          "word": " Yes,",
+          "probability": 0.819125235080719
+        },
+        {
+          "start": 1.7561879999999999,
+          "end": 2.456188,
+          "word": " lightning's",
+          "probability": 0.6669006943702698
+        },
+        {
+          "start": 2.456188,
+          "end": 2.6361879999999998,
+          "word": " heat",
+          "probability": 0.9747151136398315
+        },
+        {
+          "start": 2.6361879999999998,
+          "end": 3.116188,
+          "word": " can",
+          "probability": 0.9894472360610962
+        },
+        {
+          "start": 3.116188,
+          "end": 3.376188,
+          "word": " set",
+          "probability": 0.996134877204895
+        },
+        {
+          "start": 3.376188,
+          "end": 3.676188,
+          "word": " dry",
+          "probability": 0.9770911335945129
+        },
+        {
+          "start": 3.676188,
+          "end": 3.9761879999999996,
+          "word": " wood",
+          "probability": 0.5336259603500366
+        },
+        {
+          "start": 3.9761879999999996,
+          "end": 4.316188,
+          "word": " alight."
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 1.9999996666666675,
+      "local_end_sec": 6.613353833333334,
+      "start_sec": 9.133333,
+      "end_sec": 13.746687166666668,
+      "measured_start_sec": 9.133333,
+      "measured_end_sec": 13.746687166666668,
+      "editorial_inserted_silence": {
+        "at_source_sec": 0.4,
+        "duration_sec": 1.2,
+        "purpose": "Let the requested lightning meme play without overlapping the explanation.",
+        "spoken_samples_unchanged": true
+      }
+    },
+    {
+      "scene": "04",
+      "turn": 1,
+      "speaker": "Narrator",
+      "text": "Our ancestors could keep embers glowing by feeding them wood. Making fire themselves was a different skill.",
+      "source_audio": "audio/trimmed-v2/04-01-narrator.wav",
+      "source_sha256": "2a0777915b144c8f74eaaae57ab65648f197b98dabf8060f57d9e8ffcb3ba253",
+      "original_audio": "audio/04-01-narrator.wav",
+      "original_sha256": "bb33e314e4829eea7c829aec6b0fc45065ee4d5930c1fddab4c5df9ab209bf5e",
+      "generation_job_id": "7190664e-702e-4950-abf0-a66db1f7d70c",
+      "original_duration": 7.127541666666667,
+      "duration": 6.3036875,
+      "removed_seconds": 0.823854166666667,
+      "cuts": [
+        [
+          3.6895830000000003,
+          4.3789370000000005
+        ],
+        [
+          6.993042,
+          7.127541666666667
+        ]
+      ],
+      "kept": [
+        [
+          0,
+          3.6895830000000003
+        ],
+        [
+          4.3789370000000005,
+          6.993042
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.16,
+          "word": " Our",
+          "probability": 0.9144519567489624
+        },
+        {
+          "start": 0.16,
+          "end": 0.56,
+          "word": " ancestors",
+          "probability": 0.9977744221687317
+        },
+        {
+          "start": 0.56,
+          "end": 1.04,
+          "word": " could",
+          "probability": 0.9958666563034058
+        },
+        {
+          "start": 1.04,
+          "end": 1.24,
+          "word": " keep",
+          "probability": 0.9985591769218445
+        },
+        {
+          "start": 1.24,
+          "end": 1.66,
+          "word": " embers",
+          "probability": 0.9272435903549194
+        },
+        {
+          "start": 1.66,
+          "end": 1.94,
+          "word": " glowing",
+          "probability": 0.9908013939857483
+        },
+        {
+          "start": 1.94,
+          "end": 2.48,
+          "word": " by",
+          "probability": 0.9842569231987
+        },
+        {
+          "start": 2.48,
+          "end": 2.78,
+          "word": " feeding",
+          "probability": 0.9992741942405701
+        },
+        {
+          "start": 2.78,
+          "end": 3.1,
+          "word": " them",
+          "probability": 0.9963853359222412
+        },
+        {
+          "start": 3.1,
+          "end": 3.38,
+          "word": " wood.",
+          "probability": 0.9923793077468872
+        },
+        {
+          "start": 3.770646,
+          "end": 4.070646,
+          "word": " Making",
+          "probability": 0.990725576877594
+        },
+        {
+          "start": 4.070646,
+          "end": 4.350646,
+          "word": " fire",
+          "probability": 0.9972549080848694
+        },
+        {
+          "start": 4.350646,
+          "end": 4.770646,
+          "word": " themselves",
+          "probability": 0.9980069994926453
+        },
+        {
+          "start": 4.770646,
+          "end": 5.270646,
+          "word": " was",
+          "probability": 0.9957734942436218
+        },
+        {
+          "start": 5.270646,
+          "end": 5.390646,
+          "word": " a",
+          "probability": 0.9985961318016052
+        },
+        {
+          "start": 5.390646,
+          "end": 5.630646,
+          "word": " different",
+          "probability": 0.9910203814506531
+        },
+        {
+          "start": 5.630646,
+          "end": 5.970646,
+          "word": " skill.",
+          "probability": 0.9983515739440918
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 0.08000000000000007,
+      "local_end_sec": 6.3836875,
+      "start_sec": 14.08,
+      "end_sec": 20.3836875,
+      "measured_start_sec": 14.08,
+      "measured_end_sec": 20.3836875
+    },
+    {
+      "scene": "05",
+      "turn": 1,
+      "speaker": "Sol",
+      "text": "So finding fire wasn't the same as making it.",
+      "source_audio": "audio/trimmed-v2/05-01-sol.wav",
+      "source_sha256": "fbde09f53cc08be6cd35efbe2cc52f8320b989d9fc276814fa5c9d6f584b9480",
+      "original_audio": "audio/05-01-sol.wav",
+      "original_sha256": "d73021c50c8021ae1af51365a0375b706c8435b33cf4926a1ac1b08566a7070d",
+      "generation_job_id": "21257960-9b13-4a48-9f1b-195b39a999c4",
+      "original_duration": 3.379,
+      "duration": 2.8336041666666665,
+      "removed_seconds": 0.5453958333333335,
+      "cuts": [
+        [
+          0,
+          0.212792
+        ],
+        [
+          3.046396,
+          3.379
+        ]
+      ],
+      "kept": [
+        [
+          0.212792,
+          3.046396
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.207208,
+          "word": " So",
+          "probability": 0.809478223323822
+        },
+        {
+          "start": 0.207208,
+          "end": 0.527208,
+          "word": " finding",
+          "probability": 0.8951016664505005
+        },
+        {
+          "start": 0.527208,
+          "end": 0.987208,
+          "word": " fire",
+          "probability": 0.978532612323761
+        },
+        {
+          "start": 0.987208,
+          "end": 1.547208,
+          "word": " wasn't",
+          "probability": 0.995508462190628
+        },
+        {
+          "start": 1.547208,
+          "end": 1.687208,
+          "word": " the",
+          "probability": 0.9950628876686096
+        },
+        {
+          "start": 1.687208,
+          "end": 1.907208,
+          "word": " same",
+          "probability": 0.9992576241493225
+        },
+        {
+          "start": 1.907208,
+          "end": 2.067208,
+          "word": " as",
+          "probability": 0.9971574544906616
+        },
+        {
+          "start": 2.067208,
+          "end": 2.447208,
+          "word": " making",
+          "probability": 0.9981194138526917
+        },
+        {
+          "start": 2.447208,
+          "end": 2.687208,
+          "word": " it.",
+          "probability": 0.9935412406921387
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 0.0799999999999983,
+      "local_end_sec": 2.9136041666666648,
+      "start_sec": 20.68,
+      "end_sec": 23.513604166666667,
+      "measured_start_sec": 20.68,
+      "measured_end_sec": 23.513604166666667
+    },
+    {
+      "scene": "05",
+      "turn": 2,
+      "speaker": "Narrator",
+      "text": "Right.",
+      "source_audio": "audio/sound-v4/05-02-narrator-full-release.wav",
+      "source_sha256": "098394767be8658f80a20c5d02141a593226bd536a456793c66d41682251546f",
+      "original_audio": "audio/05-02-narrator.wav",
+      "original_sha256": "3e43ba5d35a970ce53638ab6ed0653c56389bc8a9c58297fa8a1aef01311c401",
+      "generation_job_id": "4994cc3b-ca69-43d4-b8b9-6c9a09266288",
+      "original_duration": 1.88,
+      "duration": 0.9,
+      "removed_seconds": 0.9799999999999999,
+      "cuts": [
+        [
+          0.9,
+          1.88
+        ]
+      ],
+      "kept": [
+        [
+          0,
+          0.9
+        ]
+      ],
+      "words": [
+        {
+          "start": 0,
+          "end": 0.18,
+          "word": " Right.",
+          "probability": 0.8501638770103455
+        }
+      ],
+      "playback_rate": 1,
+      "local_start_sec": 4.0,
+      "local_end_sec": 4.9,
+      "start_sec": 24.6,
+      "end_sec": 25.5,
+      "measured_start_sec": 24.6,
+      "measured_end_sec": 25.5
+    }
+  ]
+}

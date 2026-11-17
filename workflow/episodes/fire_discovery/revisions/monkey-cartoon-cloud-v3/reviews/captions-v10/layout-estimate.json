@@ -1,0 +1,128 @@
+{
+  "note": "Font-metric screening only; actual browser-rendered output still requires review.",
+  "font_size": 64,
+  "caption_width": 799.2,
+  "rows": [
+    {
+      "text": "Who actually discovered fire?",
+      "estimated_lines": [
+        "Who actually",
+        "discovered fire?"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "We don't know.",
+      "estimated_lines": [
+        "We don't know."
+      ],
+      "line_count": 1
+    },
+    {
+      "text": "Natural fires existed",
+      "estimated_lines": [
+        "Natural fires",
+        "existed"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "long before people.",
+      "estimated_lines": [
+        "long before people."
+      ],
+      "line_count": 1
+    },
+    {
+      "text": "Like when lightning hits a tree?",
+      "estimated_lines": [
+        "Like when lightning",
+        "hits a tree?"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "Yes.",
+      "estimated_lines": [
+        "Yes."
+      ],
+      "line_count": 1
+    },
+    {
+      "text": "Lightning's heat can set",
+      "estimated_lines": [
+        "Lightning's heat",
+        "can set"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "dry wood alight.",
+      "estimated_lines": [
+        "dry wood alight."
+      ],
+      "line_count": 1
+    },
+    {
+      "text": "Our ancestors could keep",
+      "estimated_lines": [
+        "Our ancestors could",
+        "keep"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "embers glowing",
+      "estimated_lines": [
+        "embers glowing"
+      ],
+      "line_count": 1
+    },
+    {
+      "text": "by feeding them wood.",
+      "estimated_lines": [
+        "by feeding them",
+        "wood."
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "Making fire themselves",
+      "estimated_lines": [
+        "Making fire",
+        "themselves"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "was a different skill.",
+      "estimated_lines": [
+        "was a different skill."
+      ],
+      "line_count": 1
+    },
+    {
+      "text": "So finding fire wasn't",
+      "estimated_lines": [
+        "So finding fire",
+        "wasn't"
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "the same as making it.",
+      "estimated_lines": [
+        "the same as making",
+        "it."
+      ],
+      "line_count": 2
+    },
+    {
+      "text": "Right.",
+      "estimated_lines": [
+        "Right."
+      ],
+      "line_count": 1
+    }
+  ]
+}

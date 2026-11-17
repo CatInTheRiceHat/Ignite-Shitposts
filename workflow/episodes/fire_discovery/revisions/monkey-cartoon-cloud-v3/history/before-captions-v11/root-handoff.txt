@@ -1,0 +1,35 @@
+HOW FIRE WAS DISCOVERED — COMPLETED, LARGER CAPTIONS
+
+Delivered: ../../completed/How Fire Was Discovered.mp4
+25.466667 seconds,764frames,1080x1920,30fps,H264/AAC.
+SHA256: 838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54
+
+Captions enlarged56→64px, about14%, with the same12px orange outline,
+white fill, safe-area placement, words and timing. All16 actual rendered
+phrases passed independent readability, wrapping and margin review.
+Some long phrases naturally use two lines; no clipping or action collision.
+
+No-poof cut and0.2s opening trim preserved. Scene02 retains source6–139,
+ending with visible flame at output203 before the tree at204/6.8s. Full
+Narrator take ends6.729062s. Original source/storyboard remain preserved;
+editorial overrides govern the final selected outpoints.
+
+Original v9 soundtrack copied packet-for-packet: all1195 AAC hashes and
+PTS/DTS/durations match. Flash9.4s and impact9.389s stay aligned. Right
+voice24.266667–25.166667s; caption to25.366667s; picture to25.466667s.
+No speech acceleration, sound edits or cue timing changes in this revision.
+
+Canonical root and revision edit.json select this version. Reviewed render
+configuration remains edit-captions-v10.json; canonical timing receipt links
+were refreshed after review without changing media instructions.
+Full decode, all-frame uncaptained-picture comparison and independent
+caption review passed. Evidence: revisions/monkey-cartoon-cloud-v3/reviews/
+captions-v10/. Prior completed file: renders/archive/
+completed-before-captions-v10.mp4. No manual listening claim.
+
+Elaine's full feedback is in feedback.txt, entries48–49 for these requests.
+Shared video-style-guide.md and checklist.md now consolidate caption size,
+brisk shot timing, continuously evolving fight clouds and a visible payoff
+without a late poof/freeze. Specific scenes and sound cues remain episode
+notes per her earlier scope clarification. New render opened in QuickTime;
+final user playback acceptance pending.

@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "review_type": "independent_final_assembly_visual_review",
+  "reviewer": "dedicated clip_reviewer sub-agent",
+  "created_at": "2026-11-17T03:09:47.002569+00:00",
+  "status": "pass",
+  "approved_scope": "Final assembled picture, captions, crops, hard cuts and ending for the exact hashed MP4. Source clip approvals remain separate canonical reports.",
+  "video": {
+    "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-cartoon-cloud-v7-final.mp4",
+    "sha256": "f9d5963edce149f23059d41d76e055063778bb4efcd0749581c2d7ec99961cb1",
+    "frames": 774,
+    "fps": 30,
+    "picture_duration_seconds": 25.8,
+    "dimensions": [
+      1080,
+      1920
+    ]
+  },
+  "context": {
+    "script": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/script.txt",
+    "script_sha256": "eacc1d6cad6c2bcc1cf762f10eef5a22bbff71c13a50139522a2b9d128e8fa80",
+    "episode_root_script_same_bytes": true,
+    "edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/edit.json",
+    "edit_sha256": "572bf404d0353a99eb43ee792ebd4814e15c97ed16bf3d178264f2abf5417901",
+    "assembly_packet": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/packet.json",
+    "assembly_packet_sha256": "7ccf4266ff97669b18d4b5c39b97aec8be9c906e92ce7cac98297a22e2f7d5e9"
+  },
+  "inspection_scope": {
+    "chronological_pages_opened": 11,
+    "changed_scenes": "All six changed-scenes pages: every paired state output 0\u2013212, covering all selected Scene01 and Scene02 source states.",
+    "whole_film": "All three whole-film sample pages spanning 0\u201325.7667 seconds.",
+    "ending": "Both dense ending pages, every paired state output 720\u2013772; final output 773 separately opened at native dimensions.",
+    "native_details_opened_output_frames": [
+      68,
+      210,
+      212,
+      290,
+      292,
+      293,
+      294,
+      764,
+      773
+    ],
+    "cut_montage_output_frames": [
+      213,
+      214,
+      419,
+      420,
+      617,
+      618
+    ],
+    "cut_montage_note": "Actual decoded detail JPEGs shown at reduced size in reviewer-cuts.jpg; their file hashes are retained below. These six were not separately inspected at native size in this assembly pass.",
+    "full_frame_by_frame_output_claim": false,
+    "audio_listening_performed": false,
+    "real_time_video_playback_performed": false,
+    "method": "Chronological actual-output still inspection with dense changed-scene and ending coverage, native key-frame inspection, and previously completed independent source reviews. No prompt, detector score or probe was treated as semantic visual proof."
+  },
+  "findings": [
+    {
+      "check": "Opening fireplace motion and design",
+      "result": "pass",
+      "frames": [
+        0,
+        68
+      ],
+      "seconds": [
+        0,
+        2.266667
+      ],
+      "evidence": [
+        "changed-scenes-01.jpg",
+        "changed-scenes-02.jpg",
+        "detail/frame-003.jpg"
+      ],
+      "observation": "Compact arm raise, brief blink and reopening remain readable. Interior flame layers and normal oval eyes stay coherent; no newly introduced mouth, detached Sol emission or surface ripple was observed. Hearth states continue changing after the gesture; the rejected long full-frame freeze is absent. Final pose is fully framed with supported feet."
+    },
+    {
+      "check": "Opening caption and first hard cut",
+      "result": "pass",
+      "seconds": [
+        0.08,
+        2.6
+      ],
+      "evidence": [
+        "changed-scenes-01.jpg",
+        "changed-scenes-02.jpg"
+      ],
+      "observation": "Question caption stays below feet and within the portrait safe margins, clears before the cut, and Scene02 begins cleanly at output 70 / 2.3333 seconds. No blank frame or overlay carried into the monkey scene appears in inspected states."
+    },
+    {
+      "check": "Fight cloud and readable action",
+      "result": "pass",
+      "seconds": [
+        2.333333,
+        5.333333
+      ],
+      "evidence": [
+        "changed-scenes-02.jpg",
+        "changed-scenes-03.jpg",
+        "changed-scenes-04.jpg",
+        "changed-scenes-05.jpg"
+      ],
+      "observation": "The intentional cream cloud stays active through distinct changing lobe/stroke states and clears once to reveal the surprised monkey. The output preserves the inspected source behavior rather than repeating one identical appearing/disappearing puff. Two held sticks and feet remain readable outside the intentionally occluded interval. Monkey mouth and eye expression are appropriate; no Sol appears here."
+    },
+    {
+      "check": "Ignition and corrected small-flame ending",
+      "result": "pass",
+      "seconds": [
+        4.733333,
+        7.133333
+      ],
+      "evidence": [
+        "changed-scenes-04.jpg",
+        "changed-scenes-05.jpg",
+        "changed-scenes-06.jpg",
+        "detail/frame-009.jpg",
+        "detail/frame-010.jpg"
+      ],
+      "observation": "Flame remains rooted at the crossing, with remote wood ends unlit. Intermediate flame height varies modestly under the current clarified contract. At output 210 and 212 the final tiny flame is clearly present, with consistent grip, body and camera. The former near-extinguished ending is absent.",
+      "nonblocking_observation": "The selected tail makes a quick flame shrink at output 210 / 7.0 seconds and restores a few small cream endpoint puffs. This documented source edit remains visible but does not restart the full cloud, shift the body or create a frozen filler state."
+    },
+    {
+      "check": "Lightning flash and push crop",
+      "result": "pass",
+      "seconds": [
+        9.666667,
+        9.8
+      ],
+      "evidence": [
+        "detail/frame-013.jpg",
+        "detail/frame-014.jpg",
+        "detail/frame-015.jpg",
+        "detail/frame-016.jpg",
+        "whole-film-02.jpg"
+      ],
+      "observation": "No bolt at 290, bolt and first branch flame at both 292 and 293, bolt gone while branch flame persists at 294. Flash stays in frame with the branch/fire location readable. Caption-free sting gap preserves visibility. Later push retains the tree and flame without clipping the meaningful action."
+    },
+    {
+      "check": "Retained ember action and scene cuts",
+      "result": "pass",
+      "seconds": [
+        7.1,
+        20.6
+      ],
+      "evidence": [
+        "whole-film-02.jpg",
+        "reviewer-cuts.jpg"
+      ],
+      "observation": "The final monkey frame cuts directly to the unlit tree at 213\u2192214; burning tree cuts to the ember/twig scene at 419\u2192420; the lit twig endpoint cuts to campfire at 617\u2192618. These are clean storyboard hard cuts with intact picture and no carried caption. Retained hand/ember sequence remains legible and later fire is rooted at the placed wood contact."
+    },
+    {
+      "check": "Whole-edit caption readability",
+      "result": "pass",
+      "seconds": [
+        0,
+        25.766667
+      ],
+      "evidence": [
+        "whole-film-01.jpg",
+        "whole-film-02.jpg",
+        "whole-film-03.jpg",
+        "ending-01.jpg",
+        "ending-02.jpg",
+        "detail/frame-025.jpg"
+      ],
+      "observation": "Sampled caption phrases are complete, high contrast and inside the portrait safe margins; they do not obscure faces, stick contact, branch fire or ember mechanism. No crop or caption overflow was observed. Caption timing was assessed against the actual edit cues, not by listening."
+    },
+    {
+      "check": "Narrator gaze and full ending",
+      "result": "pass",
+      "seconds": [
+        24,
+        25.8
+      ],
+      "evidence": [
+        "whole-film-03.jpg",
+        "ending-01.jpg",
+        "ending-02.jpg",
+        "detail/frame-025.jpg",
+        "detail/frame-027.jpg"
+      ],
+      "observation": "All three Sols maintain the established upward listening pose before and through Right. Gentle body/fire changes continue; normal eyes, connected body layers and short limbs are preserved. Right. is visible at output 738 / 24.6 seconds through 770 / 25.6667 seconds and has cleared by 772 / 25.7333. Last frame 773 has intact campfire picture and no caption truncation. The rear low-face orange shape is the established rounded hand, not a mouth; separate campfire sparks are not Sol emissions."
+    }
+  ],
+  "technical_evidence": {
+    "receipt": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-output-verification.json",
+    "receipt_sha256": "4f2d2f04509fdd989651afdbb77b0f0915e436b4172f88d42fc72c20c5807dfb",
+    "receipt_findings_reviewed": "Whole final A/V decode passed; all 774 picture packets and timestamps equal the rendered picture; all 1211 AAC packets and timestamps equal the previously delivered v6 soundtrack. This assembly review did not independently listen to that unchanged audio.",
+    "independent_hash_verification": "Reviewer recomputed this final MP4 SHA256 and script hashes, matching the packet and episode-root script.",
+    "source_review_equivalence": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/cartoon-cloud-v7/root-source-review-equivalence.json",
+    "source_review_equivalence_sha256": "2cc8594d20d77e7c521a1f0da55b7b71b39b0573c78386ec9e0aa5cffec685c3",
+    "source_status": "All five canonical root source clip gates passed following independent review and exact source/context/evidence verification. No media or contract changes were made by this assembly review."
+  },
+  "evidence": [
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/changed-scenes-01.jpg",
+      "sha256": "b011fd518e80a3b752e81536a5c4c6892f51c21067ab9b362f508e17a05568c8",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/changed-scenes-02.jpg",
+      "sha256": "3240bb2b0a86396e21b19cfc180024aa69bff75dd7d01b1212676b67c959b8e4",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/changed-scenes-03.jpg",
+      "sha256": "fad4ff783ad848db91f2238f23eb184b7b564e2c7322fff53be548a448ffde3c",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/changed-scenes-04.jpg",
+      "sha256": "c04e2ed396cfb204ce346cd4919ace5e7b604366b637ca360a0dbeeb5a61f445",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/changed-scenes-05.jpg",
+      "sha256": "5dd784d4f78fb55a935ceede851532753ddb967aeb446e82ecacd72630a041c0",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/changed-scenes-06.jpg",
+      "sha256": "a0a4a35a73c0945a7df45e35cfcc1d74b31a588a7490935c9c91c674c05c55e4",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/whole-film-01.jpg",
+      "sha256": "c39e19ca32f4b39069bee13fb467cff7f257eaca24e070a517d94d7a1ac82c1a",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/whole-film-02.jpg",
+      "sha256": "211f76fa554ecdb6bfc7d13bcc768df5866a2e8bf9f61f6fb3b8c42737cbae7c",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/whole-film-03.jpg",
+      "sha256": "a48cb971c1ea90f7435686e01429ec31ea820ac812488f8b45d098638e5f2b18",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/ending-01.jpg",
+      "sha256": "0e3612f87d607e177e3e88d8841184b63ea9cc10377b7e2f1dded128ad9e7a8a",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/ending-02.jpg",
+      "sha256": "67168eb7d9cf159f60fac70caa6e7c21127c36c71b19edf819afbedd7b9f4380",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-003.jpg",
+      "sha256": "d011cae73171501d92ac0838a4f39be512202cda3df348b70ded06a6641cc9c5",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-009.jpg",
+      "sha256": "2c2babd20a25bddb9be25c25cfa1653d62d124715b33d4e368f488a90ffbf9c0",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-010.jpg",
+      "sha256": "33b7d3bfdcea1930c382641db2558f7b823f14b0bb5788f78363f66740139276",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-013.jpg",
+      "sha256": "b325200b4c00cf20eff8fdbf1b10134c9526740e4a2fdf2f20cf9b96a71c66c1",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-014.jpg",
+      "sha256": "9601d53a3ebe51ed5b5b4f408e514e8ff8d5acdc93dc5ac341f67fa28fd08a28",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-015.jpg",
+      "sha256": "4a9f404d973f96d945c176d079f2f4928c63de5ca283c538214e47d1fdbd1a93",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-016.jpg",
+      "sha256": "fbcf21c61f4d86937b14bb6f7022482501f09ea4ace87e055f92049768815405",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-025.jpg",
+      "sha256": "a15ba0184c58c1883d7f5c2d1bcd0cf906790523a6842980c05c60cb50e23e40",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-027.jpg",
+      "sha256": "bbeb44e344ce7abf0f176b255517f92e53abb83ebacd34164821324d82b0ce64",
+      "inspection": "opened actual image; visual inspection"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/reviewer-cuts.jpg",
+      "sha256": "a67295a7c476418303391f613c3ba82580f58300d5553ecc7bdca5f02cb1e554",
+      "inspection": "opened actual image; visual inspection"
+    }
+  ],
+  "montage_input_hashes": [
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-011.jpg",
+      "sha256": "1521315135404eb802d7ef2c0525d059e2bc83b915448b8ec108b94a2b184b23"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-012.jpg",
+      "sha256": "8f266da3337c776e5c534b98da0954db21a40696bddc19e2851a65912ae916bc"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-017.jpg",
+      "sha256": "5b063bf2fdff204b24ea801206d959440f767eabe726e238c3a9ae5d112611c2"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-018.jpg",
+      "sha256": "862ddeb7c4de92308358dd554a21abdde6fa3d2b7d811f03efb0447c2ef9a505"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-019.jpg",
+      "sha256": "e5a7c2820951f5b6f7f535eb4422438e518cdea25e92cdc92c8295609a5d3231"
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/final-assembly/detail/frame-020.jpg",
+      "sha256": "76df891490e8d6032bd3a1b775e1573a98d781310c95a8f3cbfad2b55b3c8aba"
+    }
+  ],
+  "blocking_issues": [],
+  "limitations": [
+    "This is a visual assembly check using decoded still sequences; it is not a manual audio-listening or real-time playback review.",
+    "Every output frame was made available, but this review did not separately inspect all 774 frames. Dense every-pair coverage was used for changed scenes and final ending, with whole-film samples and native key frames; prior canonical source reviews supply the complete source-level coverage.",
+    "Intentional cream action cloud conceals portions of the monkey hands and sticks during rapid rubbing; hidden geometry is not asserted visible."
+  ],
+  "conclusion": "No new assembly blocker found. Exact final MP4 passes this independent visual assembly scope."
+}

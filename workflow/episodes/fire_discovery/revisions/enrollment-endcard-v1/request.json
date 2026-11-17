@@ -1,0 +1,30 @@
+{
+  "params": {
+    "model": "nano_banana_2_1",
+    "resolution": "2k",
+    "thinking_level": "medium",
+    "aspect_ratio": "9:16",
+    "count": 1,
+    "prompt": "Create one finished vertical painted storybook end-card illustration for an episode about discovering and keeping fire.\n\nScene: a cozy woodland clearing at blue-hour twilight. Exactly ONE original Sol stands beside a small orderly stone-ring campfire, carefully feeding one short brown stick into the glowing logs with his near short rounded arm. His hand stays on the cool end away from the fire. The other rounded arm is low beside his body. Both tiny stubby feet are planted on the ground. Sol looks at the little fire with his two normal small dark oval eyes and an attentive body lean; he has no mouth. The wood fire is separate from his body and remains a compact faceless painted flame rooted on the logs. A small neat pile of spare sticks sits by his feet. No other character.\n\nComposition: locked medium-wide full-body portrait, camera slightly above Sol eye level, with a gentle downward angle. Sol occupies the center-left around x42%, his feet at y62%, body height about30% of the image. The small campfire is on the right around x69%, y60%. Keep all of Sol including his arms and feet, the stick he holds and the fire fully visible and separated. Layer a dark teal treeline, softly painted distant hills and a little twilight sky behind them. Warm campfire light falls gently on Sol and the ground; cool blue twilight fills the background. The lower third from y72% to y94% is quiet uncluttered deep-blue/brown painted ground, reserved for editable enrollment text added later. Do NOT generate letters, captions, logos, a sign or a watermark.\n\nIdentity reference1 is the original Mascot.png: preserve its complete compact broad flame design, asymmetric main tip and rounded side lobes, substantial filled red outer layer, orange middle layer and BROAD CREAM inner flame with lobed crown and low rounded face. Keep the original two low-set close-spaced small tall navy oval eyes, uniformly opaque #1C2447, with no highlights, whites or pupils. Do not replace the cream layer with a narrow droplet mask. Preserve short rounded arms and tiny red stubby feet at their original lengths and attachment points. No fingers, longer limbs, separate head/neck, nose, eyebrows, mouth, clothing or floating pieces. Reference2 supplies the compact arm anatomy only; do not copy its microphone or cable. No particles, sparks or droplets emitted by Sol. Do not redraw the mascot as realistic fire.\n\nReference3 supplies the soft matte gouache surface finish ONLY, not its unrelated scene or character count. Paint Sol, wood, stones, fire and surroundings together using visible soft brushwork, layered colors, subtle paper texture, softened edges, coherent perspective and gentle grounded contact shadows. Define forms through light and color, without black lines or inked outlines. No smooth vector mascot over a painted background, glossy plastic or photographic flames. Preserve the original mascot geometry while painting its surfaces. A warm, welcoming and readable finished image at phone size.",
+    "medias": [
+      {
+        "role": "image",
+        "value": "32eb483f-3828-4c01-b964-62503b693684"
+      },
+      {
+        "role": "image",
+        "value": "bb3b0905-041a-4456-9587-74d7276cdaef"
+      },
+      {
+        "role": "image",
+        "value": "f882fffb-183a-4cda-972a-c5cf0e1e38bc"
+      }
+    ]
+  },
+  "reference_paths": [
+    "workflow/assets/reference-art/Mascot.png",
+    "workflow/assets/reference-art/Microphone.png",
+    "workflow/assets/reference-art/Spring.jpg"
+  ],
+  "user_request": "At end of every video add a Higgsfield-generated still of Sol doing something related to episode; enrollment call to action."
+}

@@ -1,0 +1,359 @@
+{
+  "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-captions-v10-final.mp4",
+  "sha256": "838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54",
+  "baseline": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-no-poof-v9-final.mp4",
+  "baseline_sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+  "baseline_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/independent-review.json",
+  "edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit-captions-v10.json",
+  "edit_sha256": "5c275f3980cbb63a3dd560fa96df8e34d62b22f0ffa8482719af2f511de921d5",
+  "script": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/script.txt",
+  "voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json",
+  "scope": "Only caption font size56\u219264; same outlines, position, words and timing. Re-rendered original selected footage, then copied exact v9 AAC packets.",
+  "pages": [
+    "caption-review-01.jpg",
+    "caption-review-02.jpg",
+    "caption-review-03.jpg"
+  ],
+  "detail": [
+    {
+      "frame": 29,
+      "time_sec": 0.9666666666666667,
+      "file": "detail/frame-001.jpg"
+    },
+    {
+      "frame": 70,
+      "time_sec": 2.3333333333333335,
+      "file": "detail/frame-002.jpg"
+    },
+    {
+      "frame": 98,
+      "time_sec": 3.2666666666666666,
+      "file": "detail/frame-003.jpg"
+    },
+    {
+      "frame": 139,
+      "time_sec": 4.633333333333334,
+      "file": "detail/frame-004.jpg"
+    },
+    {
+      "frame": 179,
+      "time_sec": 5.966666666666667,
+      "file": "detail/frame-005.jpg"
+    },
+    {
+      "frame": 202,
+      "time_sec": 6.733333333333333,
+      "file": "detail/frame-006.jpg"
+    },
+    {
+      "frame": 203,
+      "time_sec": 6.766666666666667,
+      "file": "detail/frame-007.jpg"
+    },
+    {
+      "frame": 204,
+      "time_sec": 6.8,
+      "file": "detail/frame-008.jpg"
+    },
+    {
+      "frame": 205,
+      "time_sec": 6.833333333333333,
+      "file": "detail/frame-009.jpg"
+    },
+    {
+      "frame": 232,
+      "time_sec": 7.733333333333333,
+      "file": "detail/frame-010.jpg"
+    },
+    {
+      "frame": 271,
+      "time_sec": 9.033333333333333,
+      "file": "detail/frame-011.jpg"
+    },
+    {
+      "frame": 280,
+      "time_sec": 9.333333333333334,
+      "file": "detail/frame-012.jpg"
+    },
+    {
+      "frame": 281,
+      "time_sec": 9.366666666666667,
+      "file": "detail/frame-013.jpg"
+    },
+    {
+      "frame": 282,
+      "time_sec": 9.4,
+      "file": "detail/frame-014.jpg"
+    },
+    {
+      "frame": 283,
+      "time_sec": 9.433333333333334,
+      "file": "detail/frame-015.jpg"
+    },
+    {
+      "frame": 284,
+      "time_sec": 9.466666666666667,
+      "file": "detail/frame-016.jpg"
+    },
+    {
+      "frame": 341,
+      "time_sec": 11.366666666666667,
+      "file": "detail/frame-017.jpg"
+    },
+    {
+      "frame": 383,
+      "time_sec": 12.766666666666667,
+      "file": "detail/frame-018.jpg"
+    },
+    {
+      "frame": 431,
+      "time_sec": 14.366666666666667,
+      "file": "detail/frame-019.jpg"
+    },
+    {
+      "frame": 460,
+      "time_sec": 15.333333333333334,
+      "file": "detail/frame-020.jpg"
+    },
+    {
+      "frame": 494,
+      "time_sec": 16.466666666666665,
+      "file": "detail/frame-021.jpg"
+    },
+    {
+      "frame": 541,
+      "time_sec": 18.033333333333335,
+      "file": "detail/frame-022.jpg"
+    },
+    {
+      "frame": 578,
+      "time_sec": 19.266666666666666,
+      "file": "detail/frame-023.jpg"
+    },
+    {
+      "frame": 634,
+      "time_sec": 21.133333333333333,
+      "file": "detail/frame-024.jpg"
+    },
+    {
+      "frame": 676,
+      "time_sec": 22.533333333333335,
+      "file": "detail/frame-025.jpg"
+    },
+    {
+      "frame": 744,
+      "time_sec": 24.8,
+      "file": "detail/frame-026.jpg"
+    },
+    {
+      "frame": 760,
+      "time_sec": 25.333333333333332,
+      "file": "detail/frame-027.jpg"
+    },
+    {
+      "frame": 762,
+      "time_sec": 25.4,
+      "file": "detail/frame-028.jpg"
+    },
+    {
+      "frame": 763,
+      "time_sec": 25.433333333333334,
+      "file": "detail/frame-029.jpg"
+    }
+  ],
+  "caption_samples": [
+    {
+      "index": 0,
+      "text": "Who actually discovered fire?",
+      "frame": 29,
+      "full_frame": "detail/frame-001.jpg",
+      "native_caption_crop": "caption-01.jpg",
+      "cue": {
+        "start": 0.08,
+        "end": 1.846313,
+        "text": "Who actually discovered fire?"
+      }
+    },
+    {
+      "index": 1,
+      "text": "We don't know.",
+      "frame": 98,
+      "full_frame": "detail/frame-003.jpg",
+      "native_caption_crop": "caption-02.jpg",
+      "cue": {
+        "start": 2.933333,
+        "end": 3.579895,
+        "text": "We don't know."
+      }
+    },
+    {
+      "index": 2,
+      "text": "Natural fires existed",
+      "frame": 139,
+      "full_frame": "detail/frame-004.jpg",
+      "native_caption_crop": "caption-03.jpg",
+      "cue": {
+        "start": 4.019895,
+        "end": 5.239896,
+        "text": "Natural fires existed"
+      }
+    },
+    {
+      "index": 3,
+      "text": "long before people.",
+      "frame": 179,
+      "full_frame": "detail/frame-005.jpg",
+      "native_caption_crop": "caption-04.jpg",
+      "cue": {
+        "start": 5.239896,
+        "end": 6.689063,
+        "text": "long before people."
+      }
+    },
+    {
+      "index": 4,
+      "text": "Like when lightning hits a tree?",
+      "frame": 232,
+      "full_frame": "detail/frame-010.jpg",
+      "native_caption_crop": "caption-05.jpg",
+      "cue": {
+        "start": 6.8799996666666665,
+        "end": 8.596708666666666,
+        "text": "Like when lightning hits a tree?"
+      }
+    },
+    {
+      "index": 5,
+      "text": "Yes.",
+      "frame": 271,
+      "full_frame": "detail/frame-011.jpg",
+      "native_caption_crop": "caption-06.jpg",
+      "cue": {
+        "start": 8.799999666666666,
+        "end": 9.249999666666668,
+        "text": "Yes."
+      }
+    },
+    {
+      "index": 6,
+      "text": "Lightning's heat can set",
+      "frame": 341,
+      "full_frame": "detail/frame-017.jpg",
+      "native_caption_crop": "caption-07.jpg",
+      "cue": {
+        "start": 10.556187666666666,
+        "end": 12.176187666666667,
+        "text": "Lightning's heat can set"
+      }
+    },
+    {
+      "index": 7,
+      "text": "dry wood alight.",
+      "frame": 383,
+      "full_frame": "detail/frame-018.jpg",
+      "native_caption_crop": "caption-08.jpg",
+      "cue": {
+        "start": 12.176187666666667,
+        "end": 13.373353666666667,
+        "text": "dry wood alight."
+      }
+    },
+    {
+      "index": 8,
+      "text": "Our ancestors could keep",
+      "frame": 431,
+      "full_frame": "detail/frame-019.jpg",
+      "native_caption_crop": "caption-09.jpg",
+      "cue": {
+        "start": 13.746666666666668,
+        "end": 14.986666666666666,
+        "text": "Our ancestors could keep"
+      }
+    },
+    {
+      "index": 9,
+      "text": "embers glowing",
+      "frame": 460,
+      "full_frame": "detail/frame-020.jpg",
+      "native_caption_crop": "caption-10.jpg",
+      "cue": {
+        "start": 14.986666666666666,
+        "end": 15.686666666666667,
+        "text": "embers glowing"
+      }
+    },
+    {
+      "index": 10,
+      "text": "by feeding them wood.",
+      "frame": 494,
+      "full_frame": "detail/frame-021.jpg",
+      "native_caption_crop": "caption-11.jpg",
+      "cue": {
+        "start": 15.686666666666667,
+        "end": 17.226666666666667,
+        "text": "by feeding them wood."
+      }
+    },
+    {
+      "index": 11,
+      "text": "Making fire themselves",
+      "frame": 541,
+      "full_frame": "detail/frame-022.jpg",
+      "native_caption_crop": "caption-12.jpg",
+      "cue": {
+        "start": 17.517312666666665,
+        "end": 18.517312666666665,
+        "text": "Making fire themselves"
+      }
+    },
+    {
+      "index": 12,
+      "text": "was a different skill.",
+      "frame": 578,
+      "full_frame": "detail/frame-023.jpg",
+      "native_caption_crop": "caption-13.jpg",
+      "cue": {
+        "start": 18.517312666666665,
+        "end": 20.010354666666668,
+        "text": "was a different skill."
+      }
+    },
+    {
+      "index": 13,
+      "text": "So finding fire wasn't",
+      "frame": 634,
+      "full_frame": "detail/frame-024.jpg",
+      "native_caption_crop": "caption-14.jpg",
+      "cue": {
+        "start": 20.346666666666668,
+        "end": 21.89387466666667,
+        "text": "So finding fire wasn't"
+      }
+    },
+    {
+      "index": 14,
+      "text": "the same as making it.",
+      "frame": 676,
+      "full_frame": "detail/frame-025.jpg",
+      "native_caption_crop": "caption-15.jpg",
+      "cue": {
+        "start": 21.89387466666667,
+        "end": 23.140270666666666,
+        "text": "the same as making it."
+      }
+    },
+    {
+      "index": 15,
+      "text": "Right.",
+      "frame": 744,
+      "full_frame": "detail/frame-026.jpg",
+      "native_caption_crop": "caption-16.jpg",
+      "cue": {
+        "start": 24.266666666666666,
+        "end": 25.366666666666667,
+        "text": "Right."
+      }
+    }
+  ],
+  "verification": "verification.json"
+}

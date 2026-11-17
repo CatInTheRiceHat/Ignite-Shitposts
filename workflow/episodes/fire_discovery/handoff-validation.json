@@ -1,72 +1,35 @@
 {
-  "status": "complete: source gates, final visual review, full decode and unchanged audio verified",
-  "output": "renders/fire-discovery-scene-refresh-v6-final.mp4",
-  "sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
-  "bytes": 27731923,
-  "duration_sec": 25.8,
+  "status": "complete",
+  "completed_at": "2026-11-17T03:34:41.746039+00:00",
+  "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
+  "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-captions-v10-final.mp4",
+  "sha256": "838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54",
+  "bytes": 29082589,
+  "duration_sec": 25.466666666666665,
+  "frames": 764,
   "dimensions": [
     1080,
     1920
   ],
   "fps": 30,
-  "frames": 774,
-  "full_audio_video_decode": "passed",
-  "audio_packets_and_timestamps_identical_to_corrected_v5": true,
-  "video_packets_identical_to_production_render": true,
-  "audio_codec": "aac",
-  "audio_sample_rate": "48000",
-  "source_reviews": "../production-gate.json",
-  "cadence": "All five sources passed exact native pair checks; smooth planned03 editorial camera transform is separate.",
+  "prior_completed_archive": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/archive/completed-before-captions-v10.mp4",
+  "prior_completed_sha256": "598b92485e05491927df60a482031e57378ab6313b87dd5818496a43a8f90626",
+  "final_visual_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/independent-review.json",
+  "final_visual_review_sha256": "db26efb72911c1f210f798e430a674b5c1c9dc6648938310fa55650a621f1883",
+  "technical_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/verification.json",
+  "render_verification": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-captions-v10-picture.verification.json",
+  "production_source_gate": "Passed by canonical Remotion final render before exporting; source clips and source contracts unchanged.",
+  "change": "Caption font56→64px; outline12px, position, cue timings, selected footage and exact v9 AAC soundtrack retained.",
+  "guidelines_updated": [
+    "/Users/elaine/Documents/Ignite Shitposts/workflow/guidelines/video-style-guide.md",
+    "/Users/elaine/Documents/Ignite Shitposts/workflow/guidelines/checklist.md"
+  ],
+  "episode_feedback_entries": [
+    48,
+    49
+  ],
   "manual_audio_listening_claimed": false,
-  "final_visual_review": "passed; ../final-independent-visual-review.json",
-  "completed_copy": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
-  "completed_sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
-  "delivery": {
-    "completed_at": "2026-11-17T00:31:45.375486+00:00",
-    "output": "/Users/elaine/Documents/Ignite Shitposts/workflow/completed/How Fire Was Discovered.mp4",
-    "source": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-scene-refresh-v6-final.mp4",
-    "sha256": "1b0c97ca16b76561a7ec509286cd17de027f0a4322d33f3d61b785473cd001d3",
-    "prior_completed_sha256": "987fd5b8e60a78ed0cbda059653eab634d39f1416a70d87977db847fb30d9b25",
-    "prior_copy_archived_to": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/archive/completed-before-scene-refresh-v6.mp4",
-    "source_review_gate": {
-      "approved": true,
-      "scenes": [
-        {
-          "approved": true,
-          "scene": "01",
-          "stage": "clip",
-          "reason": "independent review passed"
-        },
-        {
-          "approved": true,
-          "scene": "02",
-          "stage": "clip",
-          "reason": "independent review passed"
-        },
-        {
-          "approved": true,
-          "scene": "03",
-          "stage": "clip",
-          "reason": "independent review passed"
-        },
-        {
-          "approved": true,
-          "scene": "04",
-          "stage": "clip",
-          "reason": "independent review passed"
-        },
-        {
-          "approved": true,
-          "scene": "05",
-          "stage": "clip",
-          "reason": "independent review passed"
-        }
-      ]
-    },
-    "final_visual_review": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/reviews/scene-refresh-v6/final-independent-visual-review.json",
-    "audio": "Exact corrected v5 AAC packets and timestamps retained; speech1x, music, aligned bomboclat and full Right release unchanged.",
-    "duration_sec": 25.8,
-    "format": "1080x1920,30fps,H264/AAC",
-    "user_final_playback_acceptance": "pending user viewing; no further frame approval needed for these unchanged approved images"
-  }
+  "quicktime_opened_path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/renders/fire-discovery-captions-v10-final.mp4",
+  "quicktime_open_returncode": 0,
+  "user_playback_acceptance": "Pending viewing."
 }

@@ -1,0 +1,77 @@
+{
+  "review_type": "independent_poof_cutpoint_diagnostic",
+  "created_at": "2026-11-17T03:25:29.174911+00:00",
+  "baseline_video_sha256": "30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6",
+  "latest_user_instruction": "ultimately what im trying to say: remove the poof",
+  "decision": "Remove the four endpoint frames rather than add a hold. The clarified user instruction supersedes the earlier request to prolong the flame and the historical tiny-flame/puff ending.",
+  "observed_last_clean_pair": {
+    "v8_output_frames": [
+      202,
+      203
+    ],
+    "selected_source_frames": [
+      138,
+      139
+    ],
+    "observation": "Visible contact-rooted flame, consistent monkey pose/grips; no renewed cream endpoint puffs. Some established wispy gray smoke remains above the flame; that is distinct from the cream endpoint poof."
+  },
+  "observed_poof_pairs": {
+    "v8_output_frames": [
+      204,
+      205,
+      206,
+      207
+    ],
+    "selected_source_frames": [
+      140,
+      141,
+      142,
+      143
+    ],
+    "observation": "Abrupt flame shrink coincides with renewed cream puffs around the crossed sticks/hands. Native 204 was reopened; 206/207 were seen in the prior targeted final sheets and the source-tail review."
+  },
+  "recommended_cut": {
+    "retain_v8_ranges_inclusive": [
+      [
+        0,
+        203
+      ],
+      [
+        208,
+        767
+      ]
+    ],
+    "remove_v8_frames_inclusive": [
+      204,
+      207
+    ],
+    "cut_into_tree_at_seconds": 6.8,
+    "new_picture_frames": 764,
+    "new_duration_seconds": 25.466666666666665,
+    "new_monkey_duration_seconds": 4.466666666666667,
+    "normal_rate": 1
+  },
+  "voice_headroom": {
+    "narrator_take_end_seconds": 6.729062166666666,
+    "narrator_last_word_end_seconds": 6.499896,
+    "new_cut_seconds": 6.8,
+    "take_tail_to_cut_seconds": 0.0709378333333337,
+    "last_word_to_cut_seconds": 0.30010400000000015,
+    "spoken_samples_need_removal": false,
+    "basis": "Previously read actual assembled cue file and source word positions; no new audio listening."
+  },
+  "additional_pre204_issue": "None identified in the previously inspected dense source/baseline frames; this diagnosis reopens native 202 and204 specifically. It does not claim a fresh complete re-review of all prior footage.",
+  "evidence": [
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/detail/frame-013.jpg",
+      "sha256": "1d5e21e7682ddbd94e71d7086b894de61e84be622dedbff136464499aa68f0c8",
+      "actual_native_image_reopened": true
+    },
+    {
+      "path": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/detail/frame-014.jpg",
+      "sha256": "ab8cd760517c5508f0d632c54830503a01e0b03f336027debc1bdefb30885eec",
+      "actual_native_image_reopened": true
+    }
+  ],
+  "final_output_review": "Pending actual revised export; diagnostic recommendation is not a final-output pass."
+}

@@ -1,0 +1,38 @@
+HOW FIRE WAS DISCOVERED — COMPLETED
+
+Delivered: ../../completed/How Fire Was Discovered.mp4
+25.6 seconds, 768 frames, 1080x1920, 30fps, H264/AAC.
+SHA256: 30d11f5ad40a55da773b83afd79616a5ca292de532d55cb603a03b76cd524cc6
+
+Current canonical edit: edit.json. Source script, shot plan and prompts are
+at the episode root. Source storyboard timing remains untrimmed; edit.json
+and revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/timing.json own
+the delivered timeline. All five source review gates passed.
+
+Scene01 has continuous fireplace motion without the prior ripple/freeze.
+Scene02 has one varied, continuously churning cartoon fight cloud, central
+stick-contact ignition and the selected tiny-flame ending. Six opening
+frames (0.2s) are trimmed so the scene enters during action. This scope was
+stated as an assumption after the optional scope question went unanswered.
+Sources and earlier edits remain preserved; no new generation was needed.
+
+Speech remains complete at1x. Sound and captions after the trim advance
+0.2s together. Flash9.533333s; main bomboclat impact9.522333s (11ms early).
+Right voice24.4–25.3s, caption through25.5s, final picture through25.6s.
+Music-only cut uses a10ms fade out/in; no spoken audio crosses that join.
+
+Full decode, all-frame temporal comparison, audio signal comparison and
+independent targeted visual review passed. No manual listening claimed.
+Exact final review, technical proof, assembled voice cues and delivery
+receipt: revisions/monkey-cartoon-cloud-v3/reviews/start-trim-v8/.
+Reviewed edit metadata is preserved there as reviewed-edit.json; current
+edits differ only in updated timing receipt pointers.
+
+Earlier delivered copy preserved at:
+renders/archive/completed-before-cartoon-cloud-v8.mp4.
+Untrimmed25.8s v7 baseline remains in the revision renders folder.
+
+All feedback is in feedback.txt. Shared guides contain reusable painted
+cartoon and continuous fight-cloud motion preferences; specific monkey,
+Christmas and campfire scene requests remain episode-specific.
+Final title-only MP4 opened in QuickTime; user playback acceptance pending.

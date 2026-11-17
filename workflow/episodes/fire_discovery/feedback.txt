@@ -274,22 +274,92 @@ WORKFLOW AND EPISODE REVISION NOTES
     and changing speed strokes; clear it only once for the final reveal.
     Keep the same approved first/last images. Also keep the contact flame tiny
     throughout; the first take briefly grew an oversized flare. New Omni5s job
-    38021f66-556b-4e58-a775-d287b0119273 is rendering. Save reusable changing-cloud
+    38021f66-556b-4e58-a775-d287b0119273 completed. Saved reusable changing-cloud
     motion in shared style/checklist; specific scene action remains here.
+
+45. Production review of the revised fight-cloud take found continuous
+    evolving cloud motion and correct central-X ignition. The first144-frame
+    selection ended on a near-extinguished transition. Selected real paired
+    source0–139 plus146–149 for4.8s: clean tiny-flame ending, no changed pixels,
+    frozen filler, frame blending or playback-speed change. Independent review
+    passed the repaired selection. Modest natural height flicker was retained;
+    the assistant-added always-below-tips threshold was over-specific, while
+    the user's actual contact-rooted ignition requirement remains satisfied.
+    The stricter original contract and failed review are preserved. All five
+    final source clips pass; full25.8s export and exact AAC soundtrack copy
+    verified, and assembled-output visual review passed. The later opening
+    trim and current delivery are recorded below.
+
+46. Elaine requests a small trim at the start as well as the earlier tail trim:
+    “ok so yk how i said trim a little of the clip before it ends how about
+    trim a little when it starts”. With the optional scope question unanswered,
+    the assistant stated the reversible assumption that this means monkey02.
+    Removed six frames / 0.2 seconds from that scene's opening, so it begins
+    during the active cloud. No spoken content is removed; Narrator still
+    starts 0.6 seconds into the scene. All later sound and captions advance
+    together by 0.2 seconds. Final cut is 25.6 seconds; lightning at9.533333s
+    and main bomboclat impact at9.522333s remain aligned. Full Right release
+    remains24.4–25.3s, caption to25.5s, picture to25.6s. Technical verification
+    and independent targeted visual review passed. Saved the title-only MP4
+    to completed/, preserved the older delivery, and opened it in QuickTime.
+    This is episode editing feedback, not a new shared art-style requirement.
+
+47. Elaine first asks to let the monkey hold the visible fire longer before
+    the poof because it feels jarring, then clarifies: “ultimately what im
+    trying to say: remove the poof”. The latest direction is removal, not
+    delaying the puff or extending a freeze. The four final monkey frames in
+    v8 (204–207 globally) shrink the fire and reintroduce cream puffs. Remove
+    those frames and cut to the next shot while the flame is still burning.
+    Keep the existing0.2s opening trim and the fast fight cloud earlier in the
+    shot. This is an editorial trim of unchanged source footage; the original
+    supplied tiny-flame/puff endpoint remains historical and is excluded from
+    this final selection. Full Narrator take ends6.729062s before the new6.8s
+    cut. Shift later sound and captions together by4/30s; no words removed or
+    speech speed changed. No extra generation or freeze is needed. Specific
+    correction belongs to this episode; shared cartoon style stays unchanged.
+
+48. Elaine requests “lastly can you make captions a bit bigger”. Increase
+    the current caption font from56px to64px (about14%) while keeping the
+    white fill,12px orange outline, existing position and exact caption words
+    and timing. Check long phrases, phone readability and final Right.
+
+49. Elaine asks “ok once ur done can u add all of these modificatiosn into
+    guidelines”. Consolidate the reusable visual preferences: larger readable
+    captions, brisk shot entrances/exits, continuously changing fight clouds,
+    and a clear visible payoff without an unmotivated ending poof or freeze.
+    Preserve her earlier guideline-scope clarification: particular monkey,
+    Christmas/campfire settings, sound cues and delivery details remain in
+    this complete episode feedback record, linked from the shared checklist.
+    Shared changes are in video-style-guide.md and checklist.md. The64px
+    choice is the assistant's concrete implementation of “a bit bigger”, not
+    a separate exact numerical instruction attributed to Elaine.
+
+50. Elaine refines the caption request: “howa bout 25% bigger”. The assistant
+    stated that this means25% above the original56px size, giving70px. This
+    supersedes the prior64px/about14% trial. Keep the same12px orange outline,
+    white fill, safe-area position, caption words and timing. Update the shared
+    caption-size guidance under her standing request to save modifications.
+    Recheck all16 actual phrases and long-line wraps in the new export.
 
 IMPLEMENTATION / REVIEW STATUS
 
-Current revision: monkey-cartoon-cloud-v3 replaces the old tip-fire pair with
-Elaine's rapid-rubbing cartoon hand cloud and fire at the actual X contact.
-The selected new frame pair has recorded approval and passed the canonical
-frame gate. First cloud motion was rejected by the user for recurring puffs.
-Revised fight-cloud job38021f66-556b-4e58-a775-d287b0119273 is rendering;
-actual review and final assembly remain pending.
-Selected files:02-first-v3.png and02-last-v3.png in that revision.
-Both displayed as a labeled pair and opened in Preview.
-The previous monkey-friction-v2 clip and unsubmitted retry remain history.
-Corrected continuous-motion01 remains selected; retained03–05 are unchanged.
-The existing completed scene-refresh-v6 MP4 is preserved while02 is revised.
+Current revision: monkey-cartoon-cloud-v3. Final v10 increases captions from
+56px to64px, retaining the12px orange outline, placement, words and timings.
+All16 actual caption phrases passed independent readability/margin review.
+The no-poof monkey ending and0.2s opening trim remain. Exact v9 AAC packets
+and timestamps are retained, so music, normal-rate voices, lightning sync and
+complete Right release are unchanged. Source gates and final review passed.
+Delivered25.466667s /764frames /1080x1920 /30fps:
+workflow/completed/How Fire Was Discovered.mp4.
+SHA256: 838acc0f8b02105da2ffae148080524f14d92ac589869e4f0bd255e180062e54.
+Receipts: revisions/monkey-cartoon-cloud-v3/reviews/captions-v10/.
+Prior completed copy: renders/archive/completed-before-captions-v10.mp4.
+Shared checklist and style guide now record the larger-caption reference,
+brisk entrances/exits, continuous changing fight cloud and visible payoff
+without a late poof or frozen filler. Episode-specific settings, sound and
+delivery details stay in this full feedback log, linked from the checklist.
+New render opened in QuickTime. No manual audio listening is claimed;
+user playback acceptance remains open.
 Earlier implementation history follows.
 
 The resumed-v3 cut addressed mouths, remaining Sol emission buds and faint
