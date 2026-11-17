@@ -1,0 +1,13 @@
+{
+  "requests": [
+    "Remove the enrollment still at the end and overwrite the current video.",
+    "Make captions50% bigger."
+  ],
+  "prior_delivery_sha256": "2dbbbbd8e28e7500f8b851e88558771c7b8fe6f390d39cad02f0a9c8179e7d60",
+  "prior_export": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-enrollment-v12-fullbleed-final.mp4",
+  "previous_caption_px": 70,
+  "new_caption_px": 105,
+  "endcard_removed": true,
+  "new_duration_seconds": 25.466666666666665,
+  "preservation": "Existing v12 render and card artwork retained; prior canonical edit and handoff copied to previous-delivery."
+}

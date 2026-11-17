@@ -1,0 +1,154 @@
+{
+  "status": "pass",
+  "reviewer": "primary assistant; targeted assembled-output visual review",
+  "scope": "105px captions and removal of enrollment still; original source clip approvals retained.",
+  "video_sha256": "d5ee59c977607061d0c320b7f5261e41d66455b93b9d82c2702a116a3158e4ce",
+  "script": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/script-no-endcard-v13.txt",
+  "method": "Viewed all four caption contact sheets at360x640 per frame, both ending/transition sheets, and the native1080x1920 first-scene105px preview. Checked against selected storyboard and saved actual voice cues. Full-frame comparison and audio packet equality verified separately.",
+  "caption_observations": [
+    {
+      "caption_index": 1,
+      "frame": 9,
+      "time_sec": 0.3,
+      "text": "Who actually",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 2,
+      "frame": 36,
+      "time_sec": 1.2,
+      "text": "discovered fire?",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 3,
+      "frame": 97,
+      "time_sec": 3.2333333333333334,
+      "text": "We don't know.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 4,
+      "frame": 138,
+      "time_sec": 4.6,
+      "text": "Natural fires existed",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 5,
+      "frame": 178,
+      "time_sec": 5.933333333333334,
+      "text": "long before people.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 6,
+      "frame": 215,
+      "time_sec": 7.166666666666667,
+      "text": "Like when lightning",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 7,
+      "frame": 241,
+      "time_sec": 8.033333333333333,
+      "text": "hits a tree?",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 8,
+      "frame": 270,
+      "time_sec": 9.0,
+      "text": "Yes.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 9,
+      "frame": 340,
+      "time_sec": 11.333333333333334,
+      "text": "Lightning's heat can set",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 10,
+      "frame": 383,
+      "time_sec": 12.766666666666667,
+      "text": "dry wood alight.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 11,
+      "frame": 420,
+      "time_sec": 14.0,
+      "text": "Our ancestors",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 12,
+      "frame": 439,
+      "time_sec": 14.633333333333333,
+      "text": "could keep",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 13,
+      "frame": 460,
+      "time_sec": 15.333333333333334,
+      "text": "embers glowing",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 14,
+      "frame": 493,
+      "time_sec": 16.433333333333334,
+      "text": "by feeding them wood.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 15,
+      "frame": 540,
+      "time_sec": 18.0,
+      "text": "Making fire themselves",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 16,
+      "frame": 564,
+      "time_sec": 18.8,
+      "text": "was a",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 17,
+      "frame": 587,
+      "time_sec": 19.566666666666666,
+      "text": "different skill.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 18,
+      "frame": 633,
+      "time_sec": 21.1,
+      "text": "So finding fire wasn't",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 19,
+      "frame": 675,
+      "time_sec": 22.5,
+      "text": "the same as making it.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    },
+    {
+      "caption_index": 20,
+      "frame": 744,
+      "time_sec": 24.8,
+      "text": "Right.",
+      "result": "Readable white/orange text; one or two lines; no clipping or focal-action obstruction."
+    }
+  ],
+  "ending_observation": "Frames722,728,734,740,746,752,755,760,763 retain the three-Sol campfire shot. Upward listening posture persists through the Narrator turn24.266667\u201325.166667s. Small pose/flame changes remain between samples. Right caption stays readable; last frame763 is the campfire with no enrollment card or text.",
+  "limitations": "Targeted visual sample review, not a new exhaustive source review or manual audio listening. Existing unchanged source approvals remain valid.",
+  "manual_audio_listening_claimed": false,
+  "user_playback_acceptance": "not inferred"
+}

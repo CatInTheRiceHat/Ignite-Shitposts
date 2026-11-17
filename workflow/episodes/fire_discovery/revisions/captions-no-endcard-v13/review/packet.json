@@ -1,0 +1,249 @@
+{
+  "video": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/renders/fire-discovery-captions-no-endcard-v13-final.mp4",
+  "sha256": "d5ee59c977607061d0c320b7f5261e41d66455b93b9d82c2702a116a3158e4ce",
+  "edit": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/edit-captions-no-endcard-v13.json",
+  "script": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/script-no-endcard-v13.txt",
+  "voice_cues": "/Users/elaine/Documents/Ignite Shitposts/workflow/episodes/fire_discovery/revisions/monkey-cartoon-cloud-v3/reviews/no-poof-v9/voice-cues-assembled.json",
+  "pages": [
+    "caption-01.jpg",
+    "caption-02.jpg",
+    "caption-03.jpg",
+    "caption-04.jpg",
+    "ending_or_transition-01.jpg",
+    "ending_or_transition-02.jpg"
+  ],
+  "samples": [
+    {
+      "frame": 9,
+      "kind": "caption",
+      "caption_index": 1,
+      "text": "Who actually",
+      "time_sec": 0.3,
+      "file": "detail/frame-001.jpg"
+    },
+    {
+      "frame": 36,
+      "kind": "caption",
+      "caption_index": 2,
+      "text": "discovered fire?",
+      "time_sec": 1.2,
+      "file": "detail/frame-002.jpg"
+    },
+    {
+      "frame": 97,
+      "kind": "caption",
+      "caption_index": 3,
+      "text": "We don't know.",
+      "time_sec": 3.2333333333333334,
+      "file": "detail/frame-003.jpg"
+    },
+    {
+      "frame": 138,
+      "kind": "caption",
+      "caption_index": 4,
+      "text": "Natural fires existed",
+      "time_sec": 4.6,
+      "file": "detail/frame-004.jpg"
+    },
+    {
+      "frame": 178,
+      "kind": "caption",
+      "caption_index": 5,
+      "text": "long before people.",
+      "time_sec": 5.933333333333334,
+      "file": "detail/frame-005.jpg"
+    },
+    {
+      "frame": 215,
+      "kind": "caption",
+      "caption_index": 6,
+      "text": "Like when lightning",
+      "time_sec": 7.166666666666667,
+      "file": "detail/frame-009.jpg"
+    },
+    {
+      "frame": 241,
+      "kind": "caption",
+      "caption_index": 7,
+      "text": "hits a tree?",
+      "time_sec": 8.033333333333333,
+      "file": "detail/frame-010.jpg"
+    },
+    {
+      "frame": 270,
+      "kind": "caption",
+      "caption_index": 8,
+      "text": "Yes.",
+      "time_sec": 9.0,
+      "file": "detail/frame-011.jpg"
+    },
+    {
+      "frame": 340,
+      "kind": "caption",
+      "caption_index": 9,
+      "text": "Lightning's heat can set",
+      "time_sec": 11.333333333333334,
+      "file": "detail/frame-012.jpg"
+    },
+    {
+      "frame": 383,
+      "kind": "caption",
+      "caption_index": 10,
+      "text": "dry wood alight.",
+      "time_sec": 12.766666666666667,
+      "file": "detail/frame-013.jpg"
+    },
+    {
+      "frame": 420,
+      "kind": "caption",
+      "caption_index": 11,
+      "text": "Our ancestors",
+      "time_sec": 14.0,
+      "file": "detail/frame-014.jpg"
+    },
+    {
+      "frame": 439,
+      "kind": "caption",
+      "caption_index": 12,
+      "text": "could keep",
+      "time_sec": 14.633333333333333,
+      "file": "detail/frame-015.jpg"
+    },
+    {
+      "frame": 460,
+      "kind": "caption",
+      "caption_index": 13,
+      "text": "embers glowing",
+      "time_sec": 15.333333333333334,
+      "file": "detail/frame-016.jpg"
+    },
+    {
+      "frame": 493,
+      "kind": "caption",
+      "caption_index": 14,
+      "text": "by feeding them wood.",
+      "time_sec": 16.433333333333334,
+      "file": "detail/frame-017.jpg"
+    },
+    {
+      "frame": 540,
+      "kind": "caption",
+      "caption_index": 15,
+      "text": "Making fire themselves",
+      "time_sec": 18.0,
+      "file": "detail/frame-018.jpg"
+    },
+    {
+      "frame": 564,
+      "kind": "caption",
+      "caption_index": 16,
+      "text": "was a",
+      "time_sec": 18.8,
+      "file": "detail/frame-019.jpg"
+    },
+    {
+      "frame": 587,
+      "kind": "caption",
+      "caption_index": 17,
+      "text": "different skill.",
+      "time_sec": 19.566666666666666,
+      "file": "detail/frame-020.jpg"
+    },
+    {
+      "frame": 633,
+      "kind": "caption",
+      "caption_index": 18,
+      "text": "So finding fire wasn't",
+      "time_sec": 21.1,
+      "file": "detail/frame-021.jpg"
+    },
+    {
+      "frame": 675,
+      "kind": "caption",
+      "caption_index": 19,
+      "text": "the same as making it.",
+      "time_sec": 22.5,
+      "file": "detail/frame-022.jpg"
+    },
+    {
+      "frame": 744,
+      "kind": "caption",
+      "caption_index": 20,
+      "text": "Right.",
+      "time_sec": 24.8,
+      "file": "detail/frame-027.jpg"
+    },
+    {
+      "frame": 202,
+      "kind": "ending_or_transition",
+      "time_sec": 6.733333333333333,
+      "file": "detail/frame-006.jpg"
+    },
+    {
+      "frame": 203,
+      "kind": "ending_or_transition",
+      "time_sec": 6.766666666666667,
+      "file": "detail/frame-007.jpg"
+    },
+    {
+      "frame": 204,
+      "kind": "ending_or_transition",
+      "time_sec": 6.8,
+      "file": "detail/frame-008.jpg"
+    },
+    {
+      "frame": 722,
+      "kind": "ending_or_transition",
+      "time_sec": 24.066666666666666,
+      "file": "detail/frame-023.jpg"
+    },
+    {
+      "frame": 728,
+      "kind": "ending_or_transition",
+      "time_sec": 24.266666666666666,
+      "file": "detail/frame-024.jpg"
+    },
+    {
+      "frame": 734,
+      "kind": "ending_or_transition",
+      "time_sec": 24.466666666666665,
+      "file": "detail/frame-025.jpg"
+    },
+    {
+      "frame": 740,
+      "kind": "ending_or_transition",
+      "time_sec": 24.666666666666668,
+      "file": "detail/frame-026.jpg"
+    },
+    {
+      "frame": 746,
+      "kind": "ending_or_transition",
+      "time_sec": 24.866666666666667,
+      "file": "detail/frame-028.jpg"
+    },
+    {
+      "frame": 752,
+      "kind": "ending_or_transition",
+      "time_sec": 25.066666666666666,
+      "file": "detail/frame-029.jpg"
+    },
+    {
+      "frame": 755,
+      "kind": "ending_or_transition",
+      "time_sec": 25.166666666666668,
+      "file": "detail/frame-030.jpg"
+    },
+    {
+      "frame": 760,
+      "kind": "ending_or_transition",
+      "time_sec": 25.333333333333332,
+      "file": "detail/frame-031.jpg"
+    },
+    {
+      "frame": 763,
+      "kind": "ending_or_transition",
+      "time_sec": 25.433333333333334,
+      "file": "detail/frame-032.jpg"
+    }
+  ]
+}

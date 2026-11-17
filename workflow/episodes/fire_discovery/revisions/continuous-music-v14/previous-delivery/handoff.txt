@@ -1,0 +1,28 @@
+HOW FIRE WAS DISCOVERED — LARGER CAPTIONS, NO ENROLLMENT CARD
+
+Delivered and overwritten: ../../completed/How Fire Was Discovered.mp4
+25.466667 seconds,764 frames,1080x1920,30fps,H264/AAC.
+SHA256: d5ee59c977607061d0c320b7f5261e41d66455b93b9d82c2702a116a3158e4ce
+
+Captions are105px,50% above the preceding70px delivery, with the existing
+12px orange outline and10% side margins. Their top is82% for bottom clearance.
+Four long cues split at saved measured word onsets;20 total groups, all with
+one/two-line readability. Every dialogue word and original cue window remains.
+
+The three-second enrollment still is removed. The original five scenes,
+no-poof monkey ending,0.2s opening trim and full final Right release remain.
+All1195 AAC packets and timestamps are identical to the preceding delivery.
+Normal-rate voices, music and lightning synchronization are preserved.
+
+Full decode passed. All764 frames were compared above the captions, with
+minimum SSIM0.982679. Primary-assistant visual review covered every
+caption group and sampled the final Narrator turn and last frame. No manual
+listening or new independent source review is claimed; source clips are unchanged.
+The source production gate passed for all five scenes before this render.
+
+Canonical edit: edit.json; selected version: edit-captions-no-endcard-v13.json.
+Complete selected-cut storyboard: script-no-endcard-v13.txt.
+Evidence: revisions/captions-no-endcard-v13/review/.
+Prior edit/handoff: revisions/captions-no-endcard-v13/previous-delivery/.
+Prior export: renders/fire-discovery-enrollment-v12-fullbleed-final.mp4.
+The old card artwork is retained as history. User playback acceptance is not inferred.
