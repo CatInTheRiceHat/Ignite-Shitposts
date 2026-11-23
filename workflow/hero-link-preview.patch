@@ -1,0 +1,11 @@
+--- a/index.html
++++ b/index.html
+@@ -23,7 +23,7 @@
+     <meta property="og:url" content="https://ignitefindyourfire.org/" />
+     <meta property="og:title" content="Ignite Education" />
+     <meta property="og:description" content="Ignite Education is a student-led team building free courses in practical life skills. Explore our course plans and pre-enroll." />
+-    <meta property="og:image" content="https://ignitefindyourfire.org/mascots/Socials%20Logo.png" />
++    <meta property="og:image" content="https://ignitefindyourfire.org/backgrounds/Hero.jpg?v=cada5551" />
+ 
+     <!-- Structured Data -->
+     <script type="application/ld+json">
