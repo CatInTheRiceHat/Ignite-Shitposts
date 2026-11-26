@@ -1,0 +1,114 @@
+WHY DOES COFFEE DRY INTO A RING? — SCRIPT V1 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-26: first cut built and delivered. renders/coffee-v1.mp4 (36.6 s, 24 fps, 1080x1920),
+copied to completed/"Why Does Coffee Dry Into A Ring?.mp4". Nothing in it is approved by Elaine yet; she
+read the script ("this is lovely") and asked for the video as a test of the unattended run.
+Topic: sheet "Ignite Shitposts Tracker", tab "Cofounder Reimbursement", row 3. Row filled in on delivery:
+Music "A Little Lesson", description, Status "In Progress" (she marks Done after uploading).
+Seven shots (clips 01 and 02 are each split in two):
+  01a  clips/01a-paint-v1.mp4               overhead to medium; Sol taps the ring, looks up
+  01b  clips/01b-paint-v1.mp4               Sol listens, one nod with a blink (painted first; its frame at 3.0 s
+                                            is refs/style-ref-v1.png, the style reference for every other clip)
+  02a  clips/02a-paint-v1.mp4               Sol leans on the dropper bottle, it tips, a drop lands, he lets go
+                                            and it stands back up (painted about 0.5 s later than the skeleton)
+  02b  clips/02b-paint-v2.mp4               the drop keeps its outline and only flattens. v1 is kept but not
+                                            used: the painter made the drop spread wider, which is wrong here
+  03   clips/03-paint-v1.mp4                specks circulate inside the drop
+  04   clips/04-paint-v1.mp4                specks pile up into the ring; Sol leans over and looks up at the end
+  05   clips/05-paint-v1-eyesopen-end.mp4   pull back, two nods. The painter kept his eyes shut from 6.9 s to
+                                            the last frame; fix_blinks.py (REF_TIME=6.80) reopens them for the
+                                            last 9 frames only, so the blink during the nods stays
+Skeletons: skeleton/01a-v2, 01b-v1, 02a-v2, 02b-v2, 03-v2, 04-v3, 05-v3 (render_clip.py, headless Blender).
+Narrator: audio/raw (as generated), audio/trim (ends trimmed), audio/edit (used): 01b has 0.7 s cut from a
+1.2 s mid-sentence pause, 05 has 0.35 s cut before "Got it?". Takes 02 runs across the 02a/02b cut.
+Edit: edit.json, built with scripts/episode_edit.py. Sound effects are the candle set, timed to the paint.
+Checks: check_faces.py on every painted clip. 02a "MOUTH 3.88-3.96" was looked at and is a false alarm
+(plain face). Blinks in 01b, 02b-v2 and 05 are left in. Ending: no black, picture and sound end together.
+Credits: about 102 in total (narrator 2, paint 83, one repaint of 02b 11, rounding). Balance after: 738.
+
+About 33 seconds, 5 shots, about 70 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  Narrator: "Sol, why are you staring at the table?"
+      Sol is crouched beside a dried coffee ring on a white saucer. He taps the dark
+      rim with one arm, then the empty middle, then looks up.
+    Narrator: "Ohh, you want to know why coffee dries into a ring, not a blob."
+      Sol nods.
+02  Narrator: "Watch. A fresh drop dries fastest at the edge."
+      Sol sets a fresh drop on the saucer with a dropper. The camera dives in to
+      table level. The drop's rim thins and shimmers as water leaves there first.
+    Narrator: "But the edge is stuck to the saucer, so it can't shrink inward."
+03  Narrator: "So water rushes out from the middle to refill it."
+      Side cutaway of the drop: water flows outward along the bottom, then up the rim.
+      Tiny brown coffee specks ride along. Sol watches and his gaze follows the flow.
+04  Narrator: "And it carries every coffee speck with it, and dumps them at the edge."
+      Overhead: the specks stream outward and pile up in a dark line at the rim while
+      the middle clears and goes pale. Sol leans over and pushes his own little
+      pile of specks along with his arm, then looks up.
+05  Narrator: "So the ring isn't a mess. It's every speck, delivered to the edge. Got it?"
+      Sol points at the finished ring, then nods twice.
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Same pipeline as the candle episode: narrator takes first, gray Blender skeleton per clip
+(skeleton/rig.py and clips.py), check the gray frames, Higgsfield paint (Gemini Omni Flash
+1.2, mode edit) with the same style frame and Sol turnaround every time, check every
+painted frame, assemble, check the ending, deliver to completed/. Smooth motion, 720p final.
+
+------------------------------------------------------------------------------
+CLIP 01 — the ring — about 6.5s
+------------------------------------------------------------------------------
+Teaching purpose: the puzzle. The middle is empty and the edge is dark.
+Set: cozy table, white saucer with a dried coffee ring, a coffee cup, a dropper bottle.
+Camera: starts overhead and arcs down to a medium shot of Sol and the saucer.
+Action: Sol taps the rim, taps the pale middle, looks up at the Narrator, nods.
+Narrator: "Sol, why are you staring at the table?" then "Ohh, you want to know why coffee
+  dries into a ring, not a blob."
+
+------------------------------------------------------------------------------
+CLIP 02 — edge dries first, and it is stuck — about 6s
+------------------------------------------------------------------------------
+Teaching purpose: evaporation is fastest at the edge, and the edge stays pinned.
+Set: same table. A fresh drop on a clean saucer; Sol holds the dropper.
+Camera: dives from medium to table level, ending on the drop's rim.
+Action: Sol squeezes out one drop and steps back. The rim shimmers and thins; the edge
+  visibly stays put while the top gets flatter.
+Narrator: "Watch. A fresh drop dries fastest at the edge." "But the edge is stuck to the
+  saucer, so it can't shrink inward."
+
+------------------------------------------------------------------------------
+CLIP 03 — water rushes outward — about 6s
+------------------------------------------------------------------------------
+Teaching purpose: the flow that refills the edge.
+Set: side cutaway of the drop (clear dome shape), brown specks inside.
+Camera: slow slide along the cutaway, following the flow.
+Action: arrows of water flow out along the base, up the rim; specks ride along. Sol, small
+  in frame beside the cutaway, follows the flow with his eyes.
+Narrator: "So water rushes out from the middle to refill it."
+
+------------------------------------------------------------------------------
+CLIP 04 — specks pile up — about 7s
+------------------------------------------------------------------------------
+Teaching purpose: the specks are what makes the ring.
+Set: overhead of the drop, drying.
+Camera: slow overhead push in, then a small tilt back.
+Action: specks stream outward and pile into a dark line; the centre goes pale. Sol leans
+  over the edge of frame and pushes his own small pile of specks outward with an arm.
+Narrator: "And it carries every coffee speck with it, and dumps them at the edge."
+Note: the specks are coffee, not particles coming off Sol.
+
+------------------------------------------------------------------------------
+CLIP 05 — Sol gets it — about 5s
+------------------------------------------------------------------------------
+Teaching purpose: answer the opening question with the opening scene.
+Set: as clip 01, the finished ring.
+Camera: starts close on the ring, pulls back and rises to show Sol.
+Action: Sol points at the ring, looks up, nods twice. End on the second nod; no black.
+Narrator: "So the ring isn't a mess. It's every speck, delivered to the edge. Got it?"
+
+Accuracy: the "coffee ring effect" (Deegan et al., Nature 1997): evaporation is faster at the
+  pinned contact line, which drives an outward flow that carries suspended particles to the edge.

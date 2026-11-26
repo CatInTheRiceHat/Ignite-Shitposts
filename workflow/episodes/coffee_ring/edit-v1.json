@@ -1,0 +1,42 @@
+{
+  "out": "coffee-v1.mp4",
+  "music": {"file": "A Little Lesson.mp3", "start": 0.6, "gain": 0.1},
+  "voice_dir": "audio/edit",
+  "sfx_dir": "../candle_flame_up/audio/sfx",
+  "clips": [
+    ["01a-paint-v1.mp4", 3.3],
+    ["01b-paint-v1.mp4", 7.0],
+    ["02a-paint-v1.mp4", 4.9],
+    ["02b-paint-v2.mp4", 4.9],
+    ["03-paint-v1.mp4", 3.6],
+    ["04-paint-v1.mp4", 5.1],
+    ["05-paint-v1-eyesopen-end.mp4", 7.8]
+  ],
+  "voice": [
+    {"take": "01a.wav", "clip": 0, "start": 0.12, "phrases": [[0.0, 0.39, "Sol,"], [0.85, 2.55, "why are you staring at the table?"]]},
+    {"take": "01b.wav", "clip": 1, "start": 0.12, "phrases": [[0.0, 0.31, "Ohh,"], [0.98, 1.85, "you want to know"], [2.33, 4.7, "why coffee dries into a ring,"], [5.23, 5.86, "not a blob."]]},
+    {"take": "02.wav", "clip": 2, "start": 0.15, "phrases": [[0.0, 0.45, "Watch."], [1.5, 4.39, "A fresh drop dries fastest at the edge."], [4.98, 6.85, "But the edge is stuck to the saucer,"], [7.57, 9.14, "so it can't shrink inward."]]},
+    {"take": "03.wav", "clip": 4, "start": 0.25, "phrases": [[0.0, 1.86, "So water rushes out from the middle"], [2.25, 3.05, "to refill it."]]},
+    {"take": "04.wav", "clip": 5, "start": 0.25, "phrases": [[0.0, 2.4, "And it carries every coffee speck with it,"], [2.9, 4.38, "and dumps them at the edge."]]},
+    {"take": "05.wav", "clip": 6, "start": 0.12, "phrases": [[0.0, 0.92, "So the ring"], [1.2, 2.07, "isn't a mess."], [2.66, 3.74, "It's every speck,"], [4.27, 5.58, "delivered to the edge."], [6.08, 6.42, "Got it?"]]}
+  ],
+  "sfx": [
+    ["squeaks-tiny.mp3", 1.08, 1.19, 0, 0.5, 0.35],
+    ["squeaks-tiny.mp3", 1.64, 1.76, 0, 1.1, 0.35],
+    ["boing.mp3", 0.0, 0.24, 0, 2.0, 0.3],
+    ["squeaks-tiny.mp3", 2.48, 2.56, 1, 6.1, 0.4],
+    ["squeaks-tiny.mp3", 1.08, 1.19, 2, 0.8, 0.35],
+    ["twinkle.mp3", 0.0, 1.24, 2, 2.1, 0.25],
+    ["boing.mp3", 0.0, 0.24, 2, 2.9, 0.3],
+    ["squeaks-tiny.mp3", 1.96, 2.09, 3, 0.7, 0.35],
+    ["twinkle.mp3", 0.0, 1.24, 4, 0.5, 0.2],
+    ["squeaks-tiny.mp3", 1.08, 1.19, 5, 1.1, 0.35],
+    ["squeaks-tiny.mp3", 1.64, 1.76, 5, 1.8, 0.35],
+    ["squeaks-tiny.mp3", 1.96, 2.09, 5, 2.5, 0.35],
+    ["boing.mp3", 0.0, 0.24, 5, 4.7, 0.3],
+    ["squeaks-tiny.mp3", 0.5, 0.74, 6, 1.2, 0.35],
+    ["boing.mp3", 0.0, 0.24, 6, 3.7, 0.3],
+    ["squeaks-tiny.mp3", 2.48, 2.56, 6, 6.85, 0.4],
+    ["squeaks-tiny.mp3", 2.81, 2.91, 6, 7.33, 0.4]
+  ]
+}

@@ -1,0 +1,8 @@
+RENDERED ./01a-skeleton-v1.mp4 {'scene': 'coffee_01a', 'objects': 30, 'frames': 99}
+RENDERED ./01b-skeleton-v1.mp4 {'scene': 'coffee_01b', 'objects': 30, 'frames': 210}
+RENDERED ./02a-skeleton-v1.mp4 {'scene': 'coffee_02a', 'objects': 36, 'frames': 147}
+RENDERED ./02b-skeleton-v1.mp4 {'scene': 'coffee_02b', 'objects': 30, 'frames': 147}
+RENDERED ./03-skeleton-v1.mp4 {'scene': 'coffee_03', 'objects': 94, 'frames': 108}
+RENDERED ./04-skeleton-v1.mp4 {'scene': 'coffee_04', 'objects': 95, 'frames': 153}
+RENDERED ./05-skeleton-v1.mp4 {'scene': 'coffee_05', 'objects': 30, 'frames': 225}
+ALLDONE

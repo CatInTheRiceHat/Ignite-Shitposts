@@ -383,6 +383,80 @@ additional aesthetic preferences attributed to Elaine.
   - She said "just saying in the future have these changes" and "dont build", so the candle cut was not
     rebuilt and nothing was added to `completed/` this time.
 
+- Automation, scripts and the tracker sheet (Elaine, 2026-11-26, coffee-ring test run):
+  - Topics come from her Google Sheet "Ignite Shitposts Tracker", tab "Cofounder Reimbursement" (columns
+    Topic, Music, Description, Status). She wants an episode made every night at 12 am, unattended.
+  - Scripts: "i dont accept any script changes so its all on you", then after reading the coffee draft
+    "this is lovely i dont think i need any supervision for scripts now". Write scripts without her review.
+  - Fixes: "fix all changes and trust urself". Fix problems found in the gray frames and carry on.
+  - When a video is finished, fill in that topic's row: the music used, a description, and the status.
+    Status is "In Progress", not "Done": "nvm mark it in progress cuz i need to upload it". She sets Done.
+  - The description follows her candle example: a short blurb, then the hashtags on their own line in the
+    same cell ("do ctrl to make a line between the tags and stuff"), e.g.
+    "#science #physics #education #animation #cool".
+  - Credits: a cap per night, and skip the night when the balance is too low (her choice from the options).
+  - She will not read run reports ("i will not read the reports lol but its good"); they are for debugging.
+
+- Coffee cut v1 sent back (Elaine, 2026-11-26). She asked for the video to be redone and these notes kept:
+  - New backdrop every video: "we should try to change the scene up every video cuz then it will get boring
+    so see for each video u can set up a different backdrop". Coffee v1 reused the candle's night desk.
+  - The narration must say what the captions say: "make sure the audio s [legible] becase the first one i saw
+    it said authur smth smth and that clearly doesnt match with the captions". Cause found: take 01b came back
+    from the voice model as "Oh, Arthur Artenberg, you want to know why coffee dries into a ring, not a blob".
+    Nobody had listened to it. Every take and the finished cut are now transcribed and compared with the script
+    (`scripts/check_narration.py`); a take that differs is regenerated, never cut around.
+  - The demonstration must be consistent and close up: "the demonstration of the coffee is inconsistent. lets
+    maybe do like close up scientific shots of whats happening". In v1 the drop was a dark dome in one clip, a
+    flat puddle in the next, an amber dome with swirls in the third, and the ring had gaps in some clips and
+    none in others.
+  - No morphing, nothing that does not make sense: "a problem i seee all the time is clips that morph or dont
+    make sense for example sol is supposed to use the dropper but the cap magically disappears and he just like
+    gets the bottle and shit". Applies to every clip, not only this one.
+  - Post-check: "as a post check [procedure] be sure to analyze all the frames of the final clip ok?" Every
+    frame of the final cut is looked at before delivery, not a sample.
+
+- Coffee redo, technical findings (reviewer notes, not Elaine's words; 2026-11-26):
+  - The voice model can add words. Take 01b of cut v1 said "Oh, Arthur Artenberg, you want to know...". A
+    silence detector cannot see this; only a transcript can. `scripts/check_narration.py` passed all seven
+    redo takes and the finished cut.
+  - Props stay put when they are one piece and are named with their place in the prompt. The dropper bottle
+    of v1 lost its cap; the one-piece mug of v2 kept its handle and its spot in all six clips.
+  - Colour in the skeleton holds shape and place, but not colour: the drop came back dark brown in one clip and
+    amber in its neighbours. Repainting that clip with a frame of the neighbouring clip as the image reference
+    fixed it.
+  - Describing a prop that is out of frame makes the painter add it. Prompts now list only what each clip shows.
+  - The painter still adds room objects from the style frame (a moka pot slid into clip 06 as the camera
+    pulled back). It stayed in one place, so it was left in.
+  - A 15-character caption can be wider than the frame ("know why coffee"). `episode_edit.py` now measures
+    the width and stops if a caption does not fit.
+  - In a top-down close-up, put the subject in the upper half of the frame: captions sit at 82% of the height.
+  - Painted action drifts from the skeleton: in clip 01 the nod came about 0.9 s early, so the take was moved.
+
+- Coffee cut v3, one more note (Elaine, 2026-11-26): "theres a weird flash but i think we can fix it easily
+  without redoing the thing", with a screenshot of Sol's eyes half shut and striped. Three frames of clip 01
+  where a blink started and never closed. Fixed in the edit (cut v4), no repaint.
+  - Reviewer finding: `check_faces.py` had flagged those exact frames and they were looked at and passed as
+    "in-between frames". A blink that closes fully is fine; an eye that is striped, split or half drawn for a
+    few frames is a flicker and must be repaired. Every flagged span is now looked at frame by frame at full
+    size, not on a contact sheet.
+
+- After coffee cut v4 (Elaine, 2026-11-26): "this is great!" She is happy with it; that is not a formal approval
+  of a cut. Three things she wants in the next videos:
+  - More dynamic angles: "I rly love dynamic angles so see if u can make the video more lively and cool with
+    like different angle shots."
+  - Anime-style expressions for Sol: "I also like to take inspo of like anime and what kind of expressions
+    their characters do so lets see if we can apply that onto sol the next time."
+  - More adventurous backgrounds that fit the topic: "please experiment with more backgrounds. for example
+    since we tlaking about coffee we can set this at a cafe instead of a kitchen which would liven up the
+    video."
+  - Asked how far anime expressions may go on his face (1 body and camera only, 2 eyes can change shape,
+    3 eyes plus anime marks such as sparkles or a sweat drop). Her answer: "yeah that would be cute i also
+    love bouncy animation and like dynamic animations so". She did not name a number. Reading used until she
+    corrects it: yes to expressive eyes and to small anime marks, still no mouth. This loosens the earlier
+    "eyes unchanged" and "nothing else on his face" rules for PLANNED expressions only.
+  - Bouncy, dynamic animation: "i also love bouncy animation and like dynamic animations". Squash and stretch,
+    anticipation, overshoot and settle on Sol and on props he moves.
+
 ## Keeping this useful
 
 When Elaine gives a critique, record the concrete visual problem and turn it

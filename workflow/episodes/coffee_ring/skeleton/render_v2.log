@@ -1,0 +1,5 @@
+RENDERED ./02a-skeleton-v2.mp4 {'scene': 'coffee_02a', 'objects': 36, 'frames': 147}
+RENDERED ./02b-skeleton-v2.mp4 {'scene': 'coffee_02b', 'objects': 30, 'frames': 147}
+RENDERED ./03-skeleton-v2.mp4 {'scene': 'coffee_03', 'objects': 94, 'frames': 108}
+RENDERED ./04-skeleton-v3.mp4 {'scene': 'coffee_04', 'objects': 95, 'frames': 153}
+ALLDONE

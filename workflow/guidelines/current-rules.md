@@ -1,6 +1,6 @@
 # Elaine's current rules: read this first
 
-Updated 2026-11-25 (later), after the candle episode ("Why does a flame always point up?").
+Updated 2026-11-26, after the coffee-ring episode; first written after the candle episode ("Why does a flame always point up?").
 
 This page collects everything Elaine has asked for into one place, sorted by topic, so a new episode can
 start from here. Where this page and an older guide disagree, **this page wins**; the
@@ -25,11 +25,16 @@ making the candle episode, not preferences she stated. The dated history behind 
 - **Sol is mouthless, always.** "sol is a mouthless charcter it must only express emotions through
   motion so no random mouths popping up". Happiness is arms up, a bounce, a tilt, a nod. Never a smile.
 - **Face:** plain cream with two navy (#1C2447) oval eyes close together and low on the face, and
-  nothing else. Eyes that are "so far apart" are wrong.
+  nothing else. Eyes that are "so far apart" are wrong. This is his resting face. Planned anime expressions
+  (section 4) may change the eyes or add a small mark for a beat; anything unplanned is still a glitch.
 - **Cartoony blinks are wanted.** "i like the cartoony blinks" (2026-11-25). Leave the painter's short
   closed-eye blinks in. Do not repair them out with `fix_blinks.py`. They are quick flat closed-eye lines
   and still read as blinks, not a mouth. Eyes must be back to the open navy ovals right after, and still
   nothing else on the face.
+- **A blink closes fully or it is a glitch.** She sent back "a weird flash" (2026-11-26): three frames where
+  his eyes were half shut and striped. A clean blink (open, flat closed line, open) stays. Eyes that are
+  striped, split or half drawn for a few frames get repaired in the edit: lay the eye area of the last good
+  frame over them. No repaint needed.
 - **No particles** come off Sol, ever: "scrap the fire particles".
 - **A logo version exists** (body only, no arms or legs), saved at her request beside the full model.
 
@@ -46,6 +51,10 @@ making the candle episode, not preferences she stated. The dated history behind 
   document she can read through: "storyboarding and scripting ... that includes how the clips will be
   filmed".
 - About 30 to 40 seconds, vertical 9:16.
+- **The narration must say exactly what the captions say.** "make sure the audio s [legible] becase the first
+  one i saw it said authur smth smth and that clearly doesnt match with the captions" (2026-11-26). The voice
+  model sometimes adds or changes words. Transcribe every take and the finished cut with
+  `scripts/check_narration.py` and compare with the script. Regenerate a take that differs; do not cut around it.
 
 ## 3. Look
 
@@ -53,6 +62,14 @@ making the candle episode, not preferences she stated. The dated history behind 
   bit too hard to perfect". Matte brushwork, layered colour, paper texture, no inked outlines.
 - **One paint style across the whole episode.** "the paint styles are a bit off depending on the
   scenes". Give every paint pass the same style reference frame, including scenes set somewhere else.
+- **A different backdrop for every video.** "we should try to change the scene up every video cuz then it will
+  get boring so see for each video u can set up a different backdrop" (2026-11-26). Pick a place that suits the
+  topic and build that set in the skeleton; do not reuse the last episode's room. Inside one episode the room
+  and the paint style still stay the same from clip to clip.
+- **Be adventurous with the place, and make it the lively version.** "please experiment with more backgrounds.
+  for example since we tlaking about coffee we can set this at a cafe instead of a kitchen which would liven
+  up the video" (2026-11-26). Ask where the topic would naturally happen and pick the place with the most life
+  in it: a café over a kitchen, a skate park over a pavement, a concert stage over a bedroom.
 - **Not bland.** She called an early flat render "so bland". Shots need lively staging, depth and
   lighting.
 - **"make it stimulating ... and cute".** Add small delightful extras where they fit the scene. Her
@@ -67,6 +84,24 @@ making the candle episode, not preferences she stated. The dated history behind 
   smooth painted motion, no stepping conform.
 - **Dynamic camera.** "can these camera angles be dynamic". Plan one purposeful move per shot (push,
   arc, crane, slide) and animate it in the Blender skeleton so the paint pass follows it.
+- **A different angle for each shot.** "I rly love dynamic angles so see if u can make the video more lively and
+  cool with like different angle shots" (2026-11-26). Vary the viewpoint from clip to clip, not only the move:
+  low and looking up, high and looking down, over Sol's shoulder, a tight close-up, a wide establishing shot,
+  a tilted angle for a surprise. The coffee episode stayed near eye level for most shots; do not repeat that.
+  The close-up science shots still keep a slow, steady camera so the demonstration is easy to read.
+- **Anime-style expression for Sol.** "I also like to take inspo of like anime and what kind of expressions
+  their characters do so lets see if we can apply that onto sol the next time" (2026-11-26). Borrow anime's
+  acting: big clear poses, a sharp anticipation before a move, a jolt of surprise, a slump, a proud puff-up, a
+  curious tilt, a held beat, a snap zoom on a reaction. He still has no mouth.
+- **Expressive eyes and small anime marks are welcome.** Asked whether his eyes may change shape and whether
+  marks like sparkles or a sweat drop may be added, she said "yeah that would be cute" (2026-11-26). She did
+  not pick between the two, so this is a reading: both are allowed, used for a beat and then back to his
+  normal eyes. Happy arcs, wide surprised eyes, narrowed determined eyes; a sparkle, a sweat drop, shock lines
+  beside him. Marks are drawn near him for a moment; they are not fire particles coming off his body, which
+  stay banned.
+- **Bouncy, dynamic animation.** "i also love bouncy animation and like dynamic animations" (2026-11-26).
+  Squash and stretch on every hop and landing, a wind-up before a move, overshoot and a springy settle after
+  it. Props he moves get the same treatment as long as they stay physically believable.
 - **Emotion comes from movement**, since he has no mouth: tilts, bounces, arm raises, nods.
 
 ## 5. Props and physics
@@ -80,6 +115,13 @@ Props must behave like real objects. Each rule below came from a clip she sent b
 - **Show Sol moving the prop, in its own shot.** "in the candle scene we dont see the spiral in the
   background and in the 2nd scene we see sol pull it to it ... or push the paper spiral". Do not tease a
   prop in the background of a close-up it is not part of.
+- **Nothing morphs and everything makes sense.** "a problem i seee all the time is clips that morph or dont
+  make sense for example sol is supposed to use the dropper but the cap magically disappears and he just like
+  gets the bottle" (2026-11-26). A prop keeps every part it started with, in the same place, for the whole
+  video. If the story says Sol uses a thing, he visibly uses that thing the way it works.
+- **Show the science close up, and keep it looking the same.** "the demonstration of the coffee is inconsistent.
+  lets maybe do like close up scientific shots of whats happening" (2026-11-26). The thing being explained
+  fills the frame in its own close-up shots, and it is the same object, size, colour and shape in every clip.
 - **Nothing stays off-balance by itself.** "dont make the lamp stand up automatically sol should tilt
   it with his hand and when he raises his hand up it should topple down". A tilted prop stays tilted
   only while his hand is on it, and falls back when he lets go.
@@ -116,7 +158,8 @@ Props must behave like real objects. Each rule below came from a clip she sent b
 The candle episode folder (`episodes/candle_flame_up/`) is the worked example; copy its scripts.
 
 1. **Script** in the interactive format, with the filming plan per clip. Get her read on it.
-2. **Narrator takes** first. Trim dead air; clip lengths come from the real takes.
+2. **Narrator takes** first. **Transcribe each take and compare it with its line** (`check_narration.py`);
+   regenerate any take that differs. Trim dead air; clip lengths and caption times come from the real takes.
 3. **Skeleton** per clip with `skeleton/rig.py` and `skeleton/clips.py`: gray room and props, the real
    coloured 3D Sol, camera move keyed in. Render 720 by 1280 at 30 fps.
 4. **Check the gray frames before paying for paint.** Is his hand actually on the prop? Is anything
@@ -125,14 +168,46 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
 5. **Paint** each clip at 720p with the same two image references every time: the episode's style frame
    and Sol's turnaround sheet.
 6. **Check every painted frame**, not a sample: run `check_faces.py`, then look at the frames around
-   each action.
+   each action. Look at every span it flags frame by frame at full size; a contact sheet is too small to
+   judge an eye.
 7. **Repair small slips** in post (`remove_mouth.py`; `fix_flame_ball.py` for the space flame); repaint
    anything bigger. Leave the cartoony blinks alone.
 8. **Assemble** with `build_edit.py`: takes, captions, music, sound effects. Time sound effects to the
    painted clip, which can drift from the skeleton by half a second or more.
 9. **Check the ending** for black frames and for sound running past the picture.
-10. **Deliver** (section 9).
-11. **Log** her notes and the new file names in the episode's `script.txt` and the checklist.
+10. **Post-check the final cut, every frame.** "as a post check [procedure] be sure to analyze all the frames of
+    the final clip" (2026-11-26). Run `scripts/frame_review.py` on the cut: it lays out every frame, in order
+    and with its time, on contact sheets. Look at all of them, and transcribe the cut's audio. Look for a prop
+    that changes, loses a part, moves by itself or appears from nowhere; Sol off-model (a mouth, wide eyes,
+    long limbs, particles); the demonstration looking different from clip to clip; an action that does not
+    read; captions that do not match the voice. Anything found is fixed or repainted before delivery, and the
+    post-check is run again on the new cut.
+11. **Deliver** (section 9).
+12. **Log** her notes and the new file names in the episode's `script.txt` and the checklist.
+
+### Avoiding morphs and mismatched demonstrations *(working practice)*
+
+- Give Sol simple one-piece props and simple actions (tap, nudge, point, lean in, hop, nod). A prop with a part
+  that comes off or opens (a dropper and its cap, a lid, a pen and its cap) is where the painter loses track.
+- Model the thing being explained in its real colours in the skeleton, the way Sol is, and reuse that same
+  object in every clip. A gray stand-in gets a new look in every paint pass.
+- Keep the camera still or slow in the close-up science shots, so a change that should not happen is easy to see.
+- Pause-based caption timing is a guess. Take word times from the transcript instead.
+- In each paint prompt describe only what that clip shows. A prop that is named but out of frame gets painted in.
+- When one clip's version of the demonstration comes back a different colour, repaint it with a frame of the
+  neighbouring clip as the image reference.
+- Keep the subject of a close-up in the upper half of the frame; the captions sit at 82% of its height.
+- The coffee episode is the worked example for all of this: `episodes/coffee_ring/skeleton/clips_v2.py`,
+  `prompts/build_v2.py`, `edit.json`.
+
+### Planned expressions *(working practice)*
+
+- Write each expression into the script with its clip and time, so the review knows what is meant to be there.
+- His eyes are part of the art on the 3D model, so a changed eye needs its own face texture in the skeleton;
+  do not leave it to the painter to invent.
+- Name it in that clip's prompt ("from 2.0 to 2.6 seconds his eyes are two happy upward arcs, then they return
+  to navy ovals") and keep the plain-face wording for every other moment.
+- `check_faces.py` will flag these moments. A flag at a planned time is expected; a flag anywhere else is not.
 
 ### Paint prompt rules *(working practice)*
 
@@ -163,6 +238,31 @@ it and tell her. Keep the working versions in the episode's `renders/` folder.
 
 Candle episode: she chose the title **Why Does A Flame Always Point Up?** (2026-11-25). The finished cut is
 not in `completed/` under that name yet; see the note at the end of this page.
+
+## 10. Topics, the tracker sheet and working unattended
+
+Elaine, 2026-11-26.
+
+- **Topics come from her sheet**, "Ignite Shitposts Tracker", tab "Cofounder Reimbursement": columns Topic,
+  Music, Description, Status. Take the first row whose Status is "Not Done". Never touch the other tab
+  ("Ignite Spendings").
+- **Scripts need no review.** "i dont think i need any supervision for scripts now". Write the script in the
+  interactive format and go on; `episodes/coffee_ring/script.txt` is the one she read and liked.
+- **Fix and continue.** "fix all changes and trust urself". When the gray frames show a problem, fix it and
+  carry on without asking. Still stop for anything that is not about the episode itself.
+- **When the video is in `completed/`, fill in its row:** Music (the song used), Description, and Status
+  **"In Progress"**. Never "Done": "mark it in progress cuz i need to upload it". She sets Done after uploading.
+- **Description format** (her candle row is the model): a short blurb that opens with the question, names Sol
+  and the Narrator and gives the answer in plain sentences, then a line break inside the cell, then the
+  hashtags on their own line, e.g. `#science #physics #education #animation #cool`.
+- **Use her Music cell if it is filled in**; otherwise pick a song from `assets/music/` and write it back.
+- **Credits:** keep to a cap per night and skip the night if the balance is too low. A full episode's paint
+  pass is about 83 credits at 720p (about 37 s at 2.25 credits a second), plus about 2 for the narrator.
+  The coffee episode cost about 102 for its first version and about 114 for the redo.
+- *(working practice)* Sheet edits go through Composio (`GOOGLESHEETS_VALUES_UPDATE`); the Drive connector
+  can only read. Skeleton clips render headless with `episodes/<name>/skeleton/render_clip.py`. Cuts are
+  built with `scripts/episode_edit.py <episode>` from the episode's `edit.json`. Paint one clip first and
+  pass one of its frames as the style reference for the rest, so the room matches.
 
 ## Still to do on the candle episode
 

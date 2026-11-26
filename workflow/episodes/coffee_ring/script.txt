@@ -1,0 +1,104 @@
+WHY DOES COFFEE DRY INTO A RING? — SCRIPT V2 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-26: REDO delivered, then one fix. Elaine: "theres a weird flash but i think we can fix it easily
+without redoing the thing" (her screenshot: Sol's eyes striped, half shut). It was three frames of clip 01
+(6.38-6.46 s) where the painter drew a blink that never closed. clips/v2-01-paint-v1-noflicker.mp4 has the eye
+area of the frame before laid over those three frames; nothing else in the clip changed. Current cut:
+renders/coffee-v4.mp4, which is what completed/ holds now. v3 is kept. The lines below describe v3.
+renders/coffee-v3.mp4 (38.96 s, 24 fps, 1080x1920) was in
+completed/"Why Does Coffee Dry Into A Ring?.mp4", replacing the copy of cut v1 that was there (v1 is kept as
+renders/coffee-v1.mp4; its script is script-v1.txt and its edit is edit-v1.json). Not approved by Elaine yet.
+Why it was redone, in her words (guidelines/checklist.md): a different backdrop for every video; the narration
+must match the captions (v1 take 01b said "Arthur Artenberg"); the coffee demonstration was inconsistent, use
+close-up scientific shots; clips must not morph (the dropper's cap vanished); post-check every frame.
+What v2 changed: a sunny morning kitchen instead of the candle's night desk; a one-piece mug instead of the
+dropper bottle; the drop, its specks and the ring are one object in real coffee colours in every clip; three
+close-up shots carry the explanation; every take transcribed and checked before use.
+Clips used (edit.json):
+  01  clips/v2-01-paint-v1-noflicker.mp4   (v4; v3 used v2-01-paint-v1.mp4) first 8.0 s used. Painted first; frame 5.0 s is refs/style-ref-v2-kitchen.png
+  02  clips/v2-02-paint-v1.mp4
+  03  clips/v2-03-paint-v2.mp4          v1 kept, not used: its drop was dark brown, the neighbours' amber. v2 was
+                                        painted with a frame of clip 04 (refs/drop-ref-v2-from-clip04.png) as reference
+  04  clips/v2-04-paint-v1.mp4
+  05  clips/v2-05-paint-v1-rot180.mp4   the painted clip turned 180 degrees so the ring sits above the captions
+  06  clips/v2-06-paint-v1.mp4
+Skeletons: skeleton/v2-01-skeleton-v2, v2-02 to v2-04 -v1, v2-05-v2 (water fades gradually), v2-06-v1.
+Cuts: coffee-v2.mp4 (kept) had two captions wider than the frame and captions over the ring in clip 05;
+coffee-v3.mp4 fixes both in the edit. Music "A Little Lesson". Sound effects are the candle set.
+Post-check: all 935 frames of v2 looked at on contact sheets (renders/review-coffee-v2/); for v3 every frame
+outside clip 05 was proved identical above the caption band, and all of clip 05 and all 45 captions were looked
+at (renders/review-coffee-v3/). check_narration.py: the cut's audio matches the script word for word.
+Known and left in: Sol blinks often in clip 01 (six times) and nods three times, not two, at the end; the mug's
+blue differs a little from clip to clip; the moka pot slides into clip 06 from the left as the camera pulls
+back; vapour wisps in clip 03 drift in front of Sol.
+Credits: about 114 for the redo (narrator 2, six clips 90, clip 03 again 18); about 216 for both versions.
+Balance after: 625.
+
+About 39 seconds, 6 shots, 73 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+Takes: audio/v2/edit/ (trimmed). Each was transcribed with scripts/check_narration.py and matches its line.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  Narrator: "Sol, what are you staring at?"
+      Close on a dried coffee ring on a white kitchen counter. Sol leans over it and taps toward it twice,
+      then looks up.
+    Narrator: "Oh, you want to know why coffee dries into a ring, not a blob."
+      Sol nods.
+02  Narrator: "Watch a fresh drop."
+      Sol hops over and nudges his coffee mug. The mug rocks once and one drop hops out onto the counter.
+03  Narrator: "It dries fastest at its edge. But the edge is stuck to the counter, so it can't shrink inward."
+      CLOSE-UP. The drop fills the frame. Vapour rises from its rim only. Its outline stays put while its
+      top slowly sinks. Sol watches from behind.
+04  Narrator: "So water rushes out from the middle to refill it, and it carries every coffee speck with it."
+      CLOSE-UP, lower. The dark specks inside the drop drift outward toward the rim.
+05  Narrator: "Then the water dries away, and the specks stay, piled at the edge."
+      CLOSE-UP from straight above. The last specks reach the rim, the water thins away, the ring is left.
+06  Narrator: "So the ring isn't a mess. It's every speck, delivered to the edge. Got it?"
+      Close on the new ring, pull back to Sol. He points at it, looks up, nods twice.
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Set: a bright kitchen in the morning. White stone counter, sage-green tiled wall, a window with sunlight,
+  a moka pot back left, a potted herb back right, a pale blue mug (one piece, handle on its right).
+Fixed places on the counter: old ring A front-left, fresh drop B front-centre, Sol back-left, mug back-right.
+The drop's outline (radius R) never changes once it has landed; only its height does. The specks are the
+  same 64 specks in every clip (same seed). The ring is the same shape for A and B.
+Skeleton: skeleton/clips_v2.py with rig.py, rendered headless by render_clip.py (CLIPS=clips_v2.py).
+  Sol is the approved 3D model in colour; the coffee and the mug are in colour too; the room is gray.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p. Clip 01 first; one of its frames is the style reference for
+  the other five, with Sol's turnaround sheet.
+Edit: edit.json, built with scripts/episode_edit.py. Caption times come from the transcript's word times.
+Checks: check_faces.py on every painted clip; check_narration.py on every take and on the cut;
+  frame_review.py on the final cut, every frame looked at.
+
+CLIP 01 — the question — 8.6s
+  Camera: opens low and close on ring A with Sol looming behind it, pulls back and up to a medium shot.
+  Action: 0.5-1.6 two taps toward the ring. 2.3-3.0 looks up. Listens. 7.85-8.4 one nod.
+  Narrator 0.30-2.02 and 3.30-7.70.
+CLIP 02 — a fresh drop — 3.6s
+  Camera: medium on Sol and the mug, then pushes down to where the drop lands.
+  Action: 0.25-0.65 hop toward the mug. 0.45-1.05 his arm nudges it; it rocks to 10 degrees and settles.
+    0.82-1.45 one drop arcs from the rim to B. 1.45-1.75 it settles into a dome. Sol hops back and looks at it.
+  Narrator 0.20-1.34.
+CLIP 03 — close-up 1: dries at the edge, edge stuck — 8.0s
+  Camera: low and close, a slow slide. The drop is about two thirds of the frame width.
+  Action: vapour wisps rise from the rim only (0.2-6.3). The dome sinks from 0.14 to 0.085; outline fixed.
+  Narrator 0.25-7.25.
+CLIP 04 — close-up 2: the flow carries the specks — 6.8s
+  Camera: lower still, a slow slide the other way.
+  Action: specks drift outward, about three quarters of the way to the rim. Dome 0.085 to 0.06.
+  Narrator 0.25-6.11.
+CLIP 05 — close-up 3: the ring is left — 5.8s
+  Camera: straight above, a slow push in. Nothing else in frame.
+  Action: 0.2-2.9 the last specks reach the rim. 2.0-3.5 the ring builds. 0.4-3.9 the water thins away.
+  Narrator 0.25-4.81.
+CLIP 06 — Sol gets it — 6.7s
+  Camera: opens close on ring B with Sol and the mug behind, pulls back and up.
+  Action: 0.7-3.3 points at the ring. 3.4-4.2 looks up. 5.4-6.5 two nods. Ends on the second nod, no black.
+  Narrator 0.20-4.90.
+
+Accuracy: the coffee-ring effect (Deegan et al., Nature 1997). Evaporation is fastest at the pinned edge of
+  the drop, which drives an outward flow that carries suspended particles to the edge.
