@@ -94,11 +94,26 @@ making the candle episode, not preferences she stated. The dated history behind 
   acting: big clear poses, a sharp anticipation before a move, a jolt of surprise, a slump, a proud puff-up, a
   curious tilt, a held beat, a snap zoom on a reaction. He still has no mouth.
 - **Expressive eyes and small anime marks are welcome.** Asked whether his eyes may change shape and whether
-  marks like sparkles or a sweat drop may be added, she said "yeah that would be cute" (2026-11-26). She did
-  not pick between the two, so this is a reading: both are allowed, used for a beat and then back to his
-  normal eyes. Happy arcs, wide surprised eyes, narrowed determined eyes; a sparkle, a sweat drop, shock lines
-  beside him. Marks are drawn near him for a moment; they are not fire particles coming off his body, which
-  stay banned.
+  marks may be added, she said "yeah that would be cute", then gave her own list (2026-11-26): "some examples of
+  eye shapes include like this >< and then like the OO eyes when sol is surprised and then the inners are white
+  and then like u can do sparkles and then like the ||| lines for worried". So:
+
+  | Feeling | What it looks like |
+  | --- | --- |
+  | Squeezed shut: effort, a flinch, glee | `> <` eyes with rounded tips ("like rounded tips") |
+  | Surprised | `O O` eyes: round navy rings with white inside |
+  | Delighted, amazed | sparkles |
+  | Worried, dread | a dark blue-purple shade that "starts from the top of sol to bottom": deep indigo at his flame tip, fading as it goes down ("i think i like B but lets make the purple like bluer and darker"), with thin lines hanging "on the side" of his face above one eye |
+  | Shocked | the worried shade and lines with the `O O` eyes, as in her anime references |
+
+  These are her examples, not the whole list; others in the same spirit are fine. Each is used for a beat, then
+  his normal navy ovals return. Still no mouth. Marks are drawn on or near him for a moment; they are not fire
+  particles coming off his body, which stay banned.
+- **Every change of emotion gets a bounce.** "everytime u swap emotions make sure theres a bounce that acts as a
+  trnasition between one emotion to the other" (2026-11-26). Never swap his expression on a still body. He dips
+  into a squash, the face changes at the bottom of the dip, he springs up past his normal height and settles,
+  and the new eyes pop slightly big and settle with him. `assets/sol-3d/eyes/eyes_rig.py` does this
+  (`emotion_at`); use it for every swap.
 - **Bouncy, dynamic animation.** "i also love bouncy animation and like dynamic animations" (2026-11-26).
   Squash and stretch on every hop and landing, a wind-up before a move, overshoot and a springy settle after
   it. Props he moves get the same treatment as long as they stay physically believable.
@@ -148,7 +163,8 @@ Props must behave like real objects. Each rule below came from a clip she sent b
 - **When she sends a clip back, regenerate that clip** with the fix in the skeleton and the prompt:
   "regenerate the clip but without the mouth in the prompt and the 3d preview".
 - **Keep everything.** Version new files; never overwrite earlier takes, cuts or the approved Sol.
-- **Never record an approval she did not give.** Only the 3D Sol model is approved. About candle cut v6
+- **Never record an approval she did not give.** Two things are approved: the 3D Sol model (2026-11-25) and the
+  separate-eyes version of it with its expressions and emotion bounce (2026-11-26). No clip or cut is. About candle cut v6
   she said "the rest is good" after asking for one last change; no clip or cut is formally approved.
 - **Write her feedback down** in the [checklist](checklist.md) as it comes, in her words, separate from
   technical findings, and fold lasting rules into this page.
@@ -203,8 +219,10 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
 ### Planned expressions *(working practice)*
 
 - Write each expression into the script with its clip and time, so the review knows what is meant to be there.
-- His eyes are part of the art on the 3D model, so a changed eye needs its own face texture in the skeleton;
-  do not leave it to the painter to invent.
+- Use the separate-eyes model for this (`assets/sol-3d/eyes/`, her idea: "rigg the eyes like seperately like
+  attach a 3d polygon on top"). `pose_eyes()` sets the expression, the blink and where he is looking, per
+  frame. Do not leave an expression to the painter to invent. She approved this model on 2026-11-26 ("OH ITS
+  PERFECT."); the frozen copy is `assets/sol-3d/eyes/approved-2026-11-26/`.
 - Name it in that clip's prompt ("from 2.0 to 2.6 seconds his eyes are two happy upward arcs, then they return
   to navy ovals") and keep the plain-face wording for every other moment.
 - `check_faces.py` will flag these moments. A flag at a planned time is expected; a flag anywhere else is not.
@@ -251,10 +269,29 @@ Elaine, 2026-11-26.
 - **Fix and continue.** "fix all changes and trust urself". When the gray frames show a problem, fix it and
   carry on without asking. Still stop for anything that is not about the episode itself.
 - **When the video is in `completed/`, fill in its row:** Music (the song used), Description, and Status
-  **"In Progress"**. Never "Done": "mark it in progress cuz i need to upload it". She sets Done after uploading.
+  **"In Progress"** ("mark it in progress cuz i need to upload it").
+- **Mark it "Done" yourself after uploading** (Elaine, 2026-11-26: "once ur done with uploading it looks
+  great please mark done by urself ok"). Only when the video is public on YouTube and Instagram and both
+  posts read back right. If an upload fails or looks wrong, leave "In Progress" and tell her.
 - **Description format** (her candle row is the model): a short blurb that opens with the question, names Sol
   and the Narrator and gives the answer in plain sentences, then a line break inside the cell, then the
-  hashtags on their own line, e.g. `#science #physics #education #animation #cool`.
+  hashtags on their own line.
+- **Different hashtags for each video** (Elaine, 2026-11-26: "put different hashtags on the video
+  description"). Do not reuse the candle row's `#science #physics #education #animation #cool`. Pick five
+  that fit that video's topic, e.g. coffee: `#coffee #coffeering #fluiddynamics #sciencefacts #didyouknow`.
+  *(working practice)* Five, because the same description is used as the Instagram caption.
+- *(working practice)* **Uploading.** YouTube ("Ignite Education") and Instagram (`ignitefindyourfire`) are
+  connected through Composio. Check what is already posted first (`YOUTUBE_LIST_CHANNEL_VIDEOS` with
+  `mine`, `INSTAGRAM_GET_IG_USER_MEDIA`) so nothing is posted twice. YouTube:
+  `YOUTUBE_MULTIPART_UPLOAD_VIDEO` with `--file`, run from inside `completed/`, title = the file's title,
+  description = the sheet's Description cell. **YouTube is always "not made for kids"** (Elaine,
+  2026-11-26: "for the youtube always rembmer to put not for kids"): the upload tool has no field for it,
+  so after every upload read the video back (`YOUTUBE_GET_VIDEO_DETAILS_BATCH`, part `status`) and confirm
+  `selfDeclaredMadeForKids` is false; if it is not, set it with `composio proxy` (videos.update, part
+  `status`) before making the video public. Instagram: `INSTAGRAM_POST_IG_USER_MEDIA` (`video_file`,
+  `media_type` REELS, caption = the same description) then `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`. Build the
+  payload in Python so the caption is not wrapped in quotes. Instagram captions cannot be changed through
+  the connector after posting. Posting publicly needs her go-ahead. Then set Status "Done" (rule above).
 - **Use her Music cell if it is filled in**; otherwise pick a song from `assets/music/` and write it back.
 - **Credits:** keep to a cap per night and skip the night if the balance is too low. A full episode's paint
   pass is about 83 credits at 720p (about 37 s at 2.25 credits a second), plus about 2 for the narrator.

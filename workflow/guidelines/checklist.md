@@ -390,10 +390,16 @@ additional aesthetic preferences attributed to Elaine.
     "this is lovely i dont think i need any supervision for scripts now". Write scripts without her review.
   - Fixes: "fix all changes and trust urself". Fix problems found in the gray frames and carry on.
   - When a video is finished, fill in that topic's row: the music used, a description, and the status.
-    Status is "In Progress", not "Done": "nvm mark it in progress cuz i need to upload it". She sets Done.
+    Status is "In Progress" until it is uploaded: "nvm mark it in progress cuz i need to upload it".
+    Once I have uploaded it to YouTube and Instagram and both posts look right, I mark it "Done" myself
+    (Elaine, later 2026-11-26: "once ur done with uploading it looks great please mark done by urself ok").
   - The description follows her candle example: a short blurb, then the hashtags on their own line in the
-    same cell ("do ctrl to make a line between the tags and stuff"), e.g.
-    "#science #physics #education #animation #cool".
+    same cell ("do ctrl to make a line between the tags and stuff").
+  - Each video gets its own hashtags that fit its topic (Elaine, 2026-11-26: "put different hashtags on the
+    video description"). Do not repeat the candle row's "#science #physics #education #animation #cool".
+    Upload steps are in current-rules.md section 10.
+  - YouTube uploads are always set to "not made for kids" (Elaine, 2026-11-26: "for the youtube always
+    rembmer to put not for kids"). Check the setting on the uploaded video before it goes public.
   - Credits: a cap per night, and skip the night when the balance is too low (her choice from the options).
   - She will not read run reports ("i will not read the reports lol but its good"); they are for debugging.
 
@@ -454,8 +460,29 @@ additional aesthetic preferences attributed to Elaine.
     love bouncy animation and like dynamic animations so". She did not name a number. Reading used until she
     corrects it: yes to expressive eyes and to small anime marks, still no mouth. This loosens the earlier
     "eyes unchanged" and "nothing else on his face" rules for PLANNED expressions only.
+  - Her own examples of the expressions (2026-11-26, a later message): "some examples of eye shapes include like
+    this >< and then like the OO eyes when sol is surprised and then the inners are white and then like u can
+    do sparkles and then like the ||| lines for worried". This confirms both expressive eyes and anime marks.
   - Bouncy, dynamic animation: "i also love bouncy animation and like dynamic animations". Squash and stretch,
     anticipation, overshoot and settle on Sol and on props he moves.
+
+- Separate eyes (Elaine, 2026-11-26): "oh wait i have an idea for the eyes part do u think u can rigg the eyes
+  like seperately like attach a 3d polygon on top when u do the blender thing". Asked whether to build it and
+  show a sheet: "yeah sure". Built as `assets/sol-3d/eyes/sol-eyes.blend` with the sheet
+  `sol-eyes-expressions.png`. She has not said whether she approves the result.
+  - After the first sheet (2026-11-26): "can we make the squeezed shut things like rounded tips"; "also for the
+    anime worried try making a pruple gradient that starts from the top of sol to bottom"; "and then the dashed
+    lines go on the side like this", with an anime reference (blue-purple shade over the upper face, round white
+    eyes) and a second one (thin lines hanging at the upper side of the face above one eye). Done in sheet
+    version 2. Open: which purple shade she wants, face only or from his flame tip.
+  - Her picks after sheet version 2 (2026-11-26): "i think i like B but lets make the purple like bluer and
+    darker and i think it wold look SUPERB". B is the shade that runs from his flame tip down. Done in sheet
+    version 3: a deep indigo blue at the tip, also applied to the back of his body.
+  - A rule for every expression change (2026-11-26): "everytime u swap emotions make sure theres a bounce that
+    acts as a trnasition between one emotion to the other". Built into `eyes_rig.py` (`emotion_at`).
+  - APPROVED (2026-11-26): shown sheet version 3 and the bounce test clip, and asked to say so if it looked
+    right, she answered "OH ITS PERFECT." This approves the separate-eyes model, its expressions and the
+    emotion bounce. Frozen in `assets/sol-3d/eyes/approved-2026-11-26/`. It does not approve any clip or cut.
 
 ## Keeping this useful
 

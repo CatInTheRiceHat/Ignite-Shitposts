@@ -40,6 +40,25 @@ the body (`RIG_Sol_body`) leans.
 - Eyes, layers and colours come from the art on his front. Do not redraw them.
 - No brown streak along his sides: near the outline, colour comes only from clean interior red.
 
+## Separate eyes (approved 2026-11-26)
+
+Elaine asked for eyes rigged separately so Sol can make anime-style expressions: "rigg the eyes like seperately
+like attach a 3d polygon on top". `../assets/sol-3d/eyes/sol-eyes.blend` is the approved Sol with his eyes
+painted out of the front art and rebuilt as separate pieces that hug his face. She approved it on 2026-11-26
+after the third sheet and the bounce test clip: "OH ITS PERFECT." The frozen copy is
+`../assets/sol-3d/eyes/approved-2026-11-26/`.
+
+![expression sheet](../assets/sol-3d/eyes/sol-eyes-expressions.png)
+
+- Expressions: normal (the exact eyes of the art), blink, glances, `> <` with round tips, `O O` with white
+  inside, sparkles, worried (a deep indigo shade from his flame tip down, thin lines at the side of his face),
+  shocked (worried plus `O O`).
+- Every change of expression goes through a bounce. `eyes_rig.py` has `emotion_at()` for that; the test clip
+  is `../assets/sol-3d/eyes/sol-eyes-emotion-bounce-test.mp4`.
+- Use this file for new skeletons. The original `sol.blend` stays as the plain reference and for the logo.
+- Give the painter the expression sheet as an image reference when a clip uses an expression, along with the
+  turnaround sheet.
+
 ## Using him
 
 - **Skeleton clips:** append the `SOL` collection instead of building a gray stand-in. Whether a coloured
