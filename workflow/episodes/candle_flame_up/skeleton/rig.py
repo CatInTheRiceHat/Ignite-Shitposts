@@ -29,6 +29,10 @@ def new_scene(name, nframes):
     sc.frame_start, sc.frame_end = 1, nframes
     sc.render.resolution_x, sc.render.resolution_y, sc.render.resolution_percentage = 1080, 1920, 100
     sc.render.engine = 'BLENDER_EEVEE'
+    try:
+        sc.eevee.taa_render_samples = 12                 # a blockout does not need 64 samples a frame
+    except Exception:
+        pass
     sc.view_settings.view_transform = 'Standard'
     w = bpy.data.worlds.get("skeleton_world") or bpy.data.worlds.new("skeleton_world")
     w.use_nodes = True
@@ -101,6 +105,20 @@ def cone(name, key, loc, r1, r2, depth, parent=None, scale=(1, 1, 1), rot=(0, 0,
     return mesh_obj(name, bm, key, loc, scale, rot, parent, smooth)
 
 
+def torus(name, key, loc, R, r, parent=None, rot=(0, 0, 0), scale=(1, 1, 1)):
+    """Ring lying flat (its hole points up +Z) around the object origin."""
+    bm = bmesh.new()
+    U, V = 32, 12
+    vs = [[bm.verts.new(((R + r * math.cos(2 * math.pi * j / V)) * math.cos(2 * math.pi * i / U),
+                         (R + r * math.cos(2 * math.pi * j / V)) * math.sin(2 * math.pi * i / U),
+                         r * math.sin(2 * math.pi * j / V))) for j in range(V)] for i in range(U)]
+    for i in range(U):
+        for j in range(V):
+            bm.faces.new((vs[i][j], vs[(i + 1) % U][j], vs[(i + 1) % U][(j + 1) % V], vs[i][(j + 1) % V]))
+    bmesh.ops.recalc_face_normals(bm, faces=bm.faces[:])
+    return mesh_obj(name, bm, key, loc, scale, rot, parent)
+
+
 def box(name, key, loc, size, parent=None, rot=(0, 0, 0)):
     bm = bmesh.new()
     bmesh.ops.create_cube(bm, size=1.0)
@@ -158,6 +176,10 @@ def build_candle(x=0.0, y=0.0, z=0.0, height=0.52):
     px = 0.22
     piv = empty("RIG_candle_pivot", (x + px, y, z))
     cone("PRP_dish", "prop", (-px, 0, 0), 0.21, 0.24, 0.05, parent=piv)
+    # The dish has ONE ring handle and it is modelled, so the painter cannot invent one and let it drift
+    # (Elaine, 2026-11-25: "the handle morphs to the other side"). It sits on the dish's left (-X) edge,
+    # which is where the painter already put it in the clips she kept, so every clip agrees.
+    torus("PRP_dish_handle", "prop", (-2 * px - 0.075, 0, 0.045), 0.07, 0.016, parent=piv, rot=(math.radians(90), 0, 0))
     cone("PRP_candle", "paper", (-px, 0, 0.05), 0.11, 0.11, height, parent=piv)
     cone("PRP_wick", "dark", (-px, 0, 0.05 + height), 0.008, 0.008, 0.05, parent=piv)
     tip = empty("RIG_wick_tip", (-px, 0, 0.09 + height), parent=piv)

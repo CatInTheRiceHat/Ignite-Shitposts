@@ -1,5 +1,9 @@
 # Elaine's critique checklist
 
+**For the current rules in one place, read [current-rules.md](current-rules.md) first.** This checklist is
+the dated history behind them. Several older items below (on-twos, paired stills, flat Sol, Sol's voice)
+are superseded; the current-rules page lists which.
+
 Updated: 2026-11-16. This is the project's running memory of Elaine's reusable
 art-direction feedback. Read it before writing prompts, generating frames or reviewing clips.
 Update it when Elaine gives new critiques, following the maintenance rules below.
@@ -315,6 +319,69 @@ additional aesthetic preferences attributed to Elaine.
   rounded leg shape, and the arms are that same shape, longer. She also flagged a brown streak along
   the sides (logo edge fringe smeared on the seam), now fixed. Whether this model replaces the gray
   Sol stand-in in skeleton clips is still her call.
+
+- Latest clip notes (Elaine, 2026-11-25, on candle cut v4):
+  1. **Props must not morph.** "the handle like morphs to the other side which isnt realistic": the
+     painter invented a handle on the candle dish and let it drift. Anything the painter might invent
+     (handles, straps, knobs) gets modelled in the skeleton in one fixed place, and the prompt says it
+     stays there.
+  2. **Sol is mouthless, always.** "sol is a mouthless charcter it must only express emotions through
+     motion so no random mouths popping up." Check EVERY painted frame, not a sample: the mouth showed
+     up only in the last second of one clip (the cheer). Happiness is arms up, a bounce, a tilt, never
+     a smile. (My reading: closed-eye lines on a nod read as a mouth too, so keep his eyes open and
+     keep nods shallow enough that his face stays in view.) `episodes/candle_flame_up/remove_mouth.py`
+     paints a mouth out of finished frames when a repaint is not worth the credits.
+  3. **Space helmets leave his legs out.** Floating Sols "need to have their legs hanging out so
+     theyre not like trapped in bubbles", like `Ignite Website/public/courses/Introductory Physics and
+     Astronomy.jpg`: a clear bubble over his body that stops at a gray collar ring, legs dangling below,
+     a small antenna pack on the side.
+
+- Follow-up on the same notes (2026-11-25, candle cut v5):
+  - Elaine: "regenerate the clip but without the mouth in the prompt and the 3d preview." Paint prompts
+    now never use the word mouth, not even "no mouth", and carry no mood words ("happily"). They say what
+    his face IS: plain cream with two navy oval eyes and nothing else. That repaint came back mouthless.
+  - Technical findings (mine, not Elaine's): the painter still slips in 3-8 frame blinks, turned a foot
+    strap into sandals, drew the helmet Sols' legs long and thin until told "short stubs", added Sol to
+    a close-up he was not in, and would not hold a round blue flame in three passes. A nod that bows
+    his face away from camera gets his eyes drawn shut; a face-forward dip does not.
+  - Tools in `episodes/candle_flame_up/`: `check_faces.py` (scans every frame for mouths and closed
+    eyes; it over-flags, so use it to know where to look), `fix_blinks.py`, `remove_mouth.py`,
+    `fix_flame_ball.py`. Post repairs are a fallback; with credits available, repaint first.
+
+- More clip notes (Elaine, 2026-11-25, on candle cut v5):
+  - "the spiral kind of shifts towards sols hand which is unrealistic and i would prefer if in the
+    candle scene we dont see the spiral in the bakground and in the 2nd scnee we see sol pull it to
+    it ... or push the paper spiral." A prop must not slide or morph toward a character. Do not tease
+    a prop in the background of a close-up it is not part of; show the character visibly moving it in
+    its own shot. (Done as two shots: candle alone, then Sol walking the stand over.)
+  - "make the last clip sol nodding its head": the last clip ends on a real head nod.
+  - "when the clip ends cut the black": the video must end the moment the last clip ends, with no
+    black tail. (My reading: there were no black frames in the file, but the sound ran 25 ms past the
+    picture, which some players show as black; picture and sound now end on the same frame. If she
+    meant "cut TO black", that is still open.)
+
+- Last-clip candle (Elaine, 2026-11-25, on candle cut v6): "dont make the lamp stand up automatically
+  sol should tilt it with his hand and when he raises his hand up it should topple down." A prop
+  only stays in an off-balance pose while a character is visibly holding it; when the hand leaves,
+  it falls back under gravity. She then said "the rest is good" about cut v6 (her words; not
+  recorded as a formal approval of any clip).
+  - Technical findings (mine): in the candle clips the arm on the candle's side is `arm_r`; the
+    older code raised the far arm. Stand Sol a little clear of the prop so the short arm shows.
+    State the rule in the paint prompt ("the candle leans ONLY while his arm is holding the
+    handle") and number the beats. The painter delayed the drop by about 0.7 s against the gray
+    clip, so time sound effects to the painted clip, not the skeleton.
+
+- Delivery and finish (Elaine, 2026-11-25, after candle cut v7):
+  - "i like the cartoony blinks": keep the painter's short closed-eye blinks; stop painting them out.
+  - "yes no black at last clip": end on the last frame of the last clip, no black.
+  - "for the 720 thing i lwk couldnt tell it was low quality lets just keep it like this": 720p paint,
+    upscaled in the edit, is the final quality. No 1080p pass.
+  - "when ur done with a video please make sure to think of a good headline for it and put completed clip
+    into the completed folder and rename it to the title u want me to put in as the youtube headline", for
+    example "why flame tips always stand up or smth". She chose "Why Does A Flame Always Point Up?" for the
+    candle episode. Applies to every finished video from now on. See current-rules.md section 9.
+  - She said "just saying in the future have these changes" and "dont build", so the candle cut was not
+    rebuilt and nothing was added to `completed/` this time.
 
 ## Keeping this useful
 

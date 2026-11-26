@@ -2,6 +2,10 @@
 
 These requirements record the user's current production instructions.
 
+**Read `guidelines/current-rules.md` first.** It is the one-page summary of everything Elaine has asked
+for and the step-by-step way an episode is made. Where an older line in this file disagrees with it
+(on-twos, paired stills, Sol's voice), that page wins.
+
 Current episode: **How Fire Was Discovered**, episodes/fire_discovery/.
 The earlier escalator draft remains preserved; shared Sol/gouache rules carry
 forward, while its scene layout and mechanical props do not.

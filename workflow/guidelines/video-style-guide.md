@@ -47,6 +47,9 @@ This supersedes the earlier blanket “no bounce,” rigid-body and no-tip-follo
 
 ## Motion style
 
+> **Superseded 2026-11-25.** Elaine: "lets just remove the 2 frame choppy step." Motion is smooth now; the
+> on-twos cadence below no longer applies. See [current-rules.md](current-rules.md#4-motion-and-camera).
+
 At the existing **30 fps export**, animation on twos means **15 pose updates per second**, with normal-speed playback. Use this shared motion block in generation prompts, tailoring the named subjects to what is visible:
 
 ```text

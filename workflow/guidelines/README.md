@@ -2,6 +2,10 @@
 
 Read these before writing or generating an episode:
 
+**Start here: [Elaine's current rules](current-rules.md).** One page with everything she has asked for,
+sorted by topic, plus the step-by-step way an episode is made. Where it disagrees with the older guides
+below (on-twos motion, paired stills, Sol's voice, fixed cameras), the current-rules page wins.
+
 **Sol himself:** use the approved [3D Sol model](sol-3d-model.md) (2026-11-25) as the character reference.
 It has the full Sol and a body-only logo version, with turnaround pictures in `sol-3d/`.
 

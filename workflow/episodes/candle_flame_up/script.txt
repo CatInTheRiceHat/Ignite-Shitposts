@@ -1,11 +1,23 @@
 WHY DOES A FLAME ALWAYS POINT UP? — SCRIPT V2 (NARRATOR ONLY, INTERACTIVE)
 
-Status 2026-11-25: rewritten after Elaine's notes. Sol is silent and round (gumdrop),
-the Narrator talks to him and reacts to what he does, cameras move. Draft build at
-720p. Nothing here is approved. V1 (two voices) is kept as script-v1-two-voices.txt,
-audio/raw/ and clips/01-paint-v1*.mp4.
+Status 2026-11-25 (late night): current cut is renders/candle-v7-draft.mp4 (37.2 s, 24 fps, smooth motion).
+Six shots now: clip 02 is split in two at Elaine's request.
+  01   clips/01-paint-v5.mp4          Sol wiggles the candle, looks up, nods
+  02a  clips/02a-paint-v7.mp4         candle close-up ALONE: no stand, no spiral, no Sol (4.25 s used)
+  02b  clips/02b-paint-v7.mp4         Sol, one arm on the stand's pole, walks the stand left until the
+                                      spiral hangs over the flame; it spins; arms up
+  03   clips/03-paint-v4-eyes.mp4     incense smoke; a painter blink painted back open
+  04   clips/04-paint-v6-final.mp4    space: helmets with legs out; flame redrawn as a little blue ball
+  05   clips/05-paint-v8.mp4          lifts the dish by its handle so the candle leans, lets go and raises
+                                      that arm, the candle drops back flat; looks up, two real head nods;
+                                      three painter blinks painted back open; the video ends when this clip
+                                      ends, picture and sound on the same frame
+The cut from 02a to 02b sits in the narrator's pause between "hot air rises." and "Slide that paper
+spiral over it." (take 02a.wav runs across the cut).
+Skeletons: skeleton/*-skeleton-v5.mp4 (01), -v7 (02a, 02b), -v4 (03), -v6 (04), -v8 (05).
+Music: BAREFOOT IN THE PARK. Nothing in the video is approved yet. Earlier cuts are kept in renders/.
 
-About 37 seconds, 5 clips, 30 fps on twos. 76 spoken words.
+About 37 seconds, 6 shots. 76 spoken words.
 Voice: Narrator = Arthur (config/voices.json). Sol has no voice.
 Takes: audio/v2/trim/ (dead air trimmed, speed untouched). Times below are measured.
 
@@ -32,8 +44,9 @@ DIALOGUE AND WHAT SOL DOES (read this first)
       Space station. Sol looks up and shrugs, turns to the candle in its glass box,
       watches the flame round off into a blue ball, leans in and touches the glass.
 05  Narrator: "So for a flame, up is just where the hot air goes. Got it?"
-      Sol tips the candle once more, sweeps his other arm up toward the spinning
-      spiral, looks up at the Narrator and nods.
+      Sol lifts the dish by its handle so the candle leans once more. He lets go and
+      raises that same arm to point up, and the candle drops back flat. He looks up
+      at the Narrator and nods twice.
 
 ------------------------------------------------------------------------------
 HOW IT IS FILMED
@@ -121,7 +134,9 @@ CLIP 05 — Sol gets it — 5.6s
 Teaching purpose: answer the opening question with the same action that asked it.
 Set: desk, as clip 01, with the spiral now spinning over the candle.
 Camera: starts close on Sol and the candle, pulls back and rises to show the spiral.
-Action: 0.3-1.1 Sol tips the candle, flame stays up. 1.7-2.8 his far arm sweeps straight
-  up toward the spiral. 3.3-3.9 he looks up at the Narrator. 4.65-5.2 one nod.
+Action: 0.3-1.1 Sol's near arm lifts the dish handle; the candle leans, flame stays up.
+  The candle leans only while his arm is on the handle. About 2.7 (in the painted clip) he
+  lets go, the candle drops flat with a tiny bounce and stays upright, and he raises that
+  arm to point up. 3.3-3.9 he looks up at the Narrator. 4.65-5.45 two nods.
 Narrator: "So for a flame, up is just where the hot air goes. Got it?" 0.2-4.8
 End: stop after the nod. No end card unless Elaine asks for one.

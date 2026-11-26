@@ -1,5 +1,10 @@
 # Ignite production instructions for Claude
 
+**Read `workflow/guidelines/current-rules.md` first.** It is the one-page summary of everything Elaine
+has asked for (Sol, script, look, motion, props, sound, pipeline) and the step-by-step way an episode is
+made. Where an older line in this file disagrees with it (on-twos, paired stills, Sol's voice), that page
+wins. Fold new lasting feedback into it as well as the checklist.
+
 Current episode: **How Fire Was Discovered**, workflow/episodes/fire_discovery/.
 The user changed the story topic; preserve the earlier escalator episode.
 

@@ -1,5 +1,9 @@
 # Ignite Shorts workspace
 
+**Read `workflow/guidelines/current-rules.md` first.** It is the one-page summary of everything Elaine has
+asked for and the step-by-step way an episode is made. Where an older line in this file disagrees with it
+(on-twos, paired stills, Sol's voice), that page wins.
+
 - Current episode: **How Fire Was Discovered**, in workflow/episodes/fire_discovery/.
   The user switched from the escalator topic. Preserve that earlier draft and
   use the new episode script and prompts for current work.
