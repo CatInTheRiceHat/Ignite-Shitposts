@@ -1,0 +1,268 @@
+IGNITE x SOL: "DUE IN 5 MINUTES"
+Script v4 (shooting script)
+
+(Elaine's script, pasted 2026-11-26, kept word for word. Production notes are in script.txt.)
+
+====================================================================
+SPECS
+====================================================================
+Format:      Vertical 9:16 (1080 x 1920). This is the master.
+Length:      About 40 seconds
+Narrator:    Arthur (only voice). Sol is silent and answers by acting.
+Course:      Scientific Research & Data Analysis (developer: Daniya Shivapur)
+Ending:      Sol nods on the last clip and holds.
+Captions:    Must match the narration below word for word. Any take that
+             differs gets regenerated, not cut around.
+Pacing:      Narration is never sped up. If a take runs long, extend the
+             clip or cut Tip 5's clip slightly, don't speed the voice.
+
+Framing rule for every clip: keep Sol and the main action in the center
+third of the frame, and keep captions out of the bottom fifth and the
+right edge (platform buttons cover those areas). This also lets you
+reframe to 16:9 and 1:1 later if you run Google Ads.
+
+
+====================================================================
+THE STORY IN ONE LINE
+====================================================================
+Sol's science project is due in five minutes. Arthur gives him five
+tips, Sol runs around the house making one piece of the poster per tip,
+and in the final shot every piece is on the finished poster.
+
+Opening question: Will the project be ready in time?
+Ending answer:    "So, is it ready now?" Sol nods.
+
+
+====================================================================
+CHARACTER NOTES
+====================================================================
+- Sol: flame mascot, no mouth, no eyebrows. Emotion comes from the
+  eyes, body (hops, leans, nods) and flame color.
+- Use ONLY expressions from expression sheet v3, by exact name:
+    Normal / Blink / Looking to the side / Looking up /
+    > < squeezed shut / O O surprised / Sparkles /
+    Surprised, mid-bounce / Worried / Shocked: worried + O O /
+    Worried, from the side / Shocked, other side
+- Flame color arc (this is the real storytelling):
+    Orange (start) -> snaps PURPLE at the shock (0:03) -> stays purple
+    through the setup -> fades back to orange tip by tip -> one quick
+    purple flicker at Tip 5 -> full, brightest orange with Sparkles at
+    the end.
+- "Shocked" is used only once (Clip 1) so the hook hits hard.
+- Goggles: either Sol wears them in EVERY clip (to match the course
+  card art) or in none. Never some clips and not others.
+- Props: one simple prop per clip. Actions stick to tap, nudge, point,
+  lean in, hop, nod.
+
+
+====================================================================
+LOCK THIS FIRST: THE FINISHED POSTER (seen in Clip 8)
+====================================================================
+Design and lock the finished poster before generating any clips. Every
+piece in Clips 3 to 7 has to match it exactly.
+
+Trifold poster, left to right:
+  TOP (across the whole poster):  "Does salt make ice melt faster?"
+  LEFT PANEL:   "Changed: amount of salt"
+                "Measured: minutes to melt"
+                Three small labels: "Trial 1" "Trial 2" "Trial 3"
+  CENTER PANEL: Simple bar graph (2 bars: plain ice vs salted ice,
+                salted bar is shorter = melts faster)
+  RIGHT PANEL:  "What went wrong" page (from the notebook)
+
+
+====================================================================
+CLIP BY CLIP
+====================================================================
+
+--------------------------------------------------------------------
+CLIP 1: HOOK                                          0:00 to 0:05
+--------------------------------------------------------------------
+SET:     Bedroom desk. Blank trifold poster standing on the desk. Wall
+         clock visible in the background.
+CAMERA:  Medium wide, eye level, static.
+ACTION:  Sol looks at the blank poster, looks up at the clock, then
+         nods.
+EXPRESSIONS:
+  0:00  Looking to the side (at the poster)
+  0:02  Looking up (at the clock)
+  0:03  Shocked: worried + O O   (flame snaps to purple)
+  0:04  Nod, in Worried
+NARRATION:
+  "Sol, what are you doing? Wait, your science project's due in five
+  minutes?"
+
+--------------------------------------------------------------------
+CLIP 2: SETUP                                         0:05 to 0:08
+--------------------------------------------------------------------
+SET:     Same bedroom desk.
+CAMERA:  Slow push in toward Sol.
+ACTION:  Sol leans in toward camera, bracing himself.
+EXPRESSIONS:
+  0:05  Worried (full purple)
+  0:07  > < squeezed shut
+NARRATION:
+  "Okay, here are five things that'll save it."
+
+--------------------------------------------------------------------
+CLIP 3: TIP 1, THE QUESTION                           0:08 to 0:13
+--------------------------------------------------------------------
+SET:     Whiteboard in the hallway.
+CAMERA:  Medium, slight low angle.
+PROP:    Marker.
+ACTION:  Sol taps the whiteboard. "Does salt make ice melt faster?"
+         appears in big letters. He taps it again.
+EXPRESSIONS:
+  0:08  Worried
+  0:11  Blink
+  0:12  Normal   (purple starts to fade)
+NARRATION:
+  "First, write your question at the top so judges know what you were
+  testing."
+
+--------------------------------------------------------------------
+CLIP 4: TIP 2, CHANGED AND MEASURED                   0:13 to 0:17
+--------------------------------------------------------------------
+SET:     Kitchen counter. Two bowls of ice and a kitchen timer.
+CAMERA:  Top-down.
+PROP:    Salt shaker.
+ACTION:  Sol nudges the salt shaker and a label "Changed: amount of
+         salt" pops up. Then he points at the timer and a label
+         "Measured: minutes to melt" pops up.
+EXPRESSIONS:
+  0:13  Looking to the side (left, at the salt)
+  0:15  Looking to the side (right, at the timer)
+  Flame: about half purple
+NARRATION:
+  "Second, say the one thing you changed and what you measured."
+
+--------------------------------------------------------------------
+CLIP 5: TIP 3, HOW MANY TIMES                         0:17 to 0:22
+--------------------------------------------------------------------
+SET:     Open freezer, cold fog rolling out.
+CAMERA:  Medium, eye level.
+PROP:    Freezer door.
+ACTION:  Sol nudges the freezer door open. Inside are three ice trays
+         labeled "Trial 1," "Trial 2," "Trial 3."
+EXPRESSIONS:
+  0:17  Looking to the side
+  0:19  O O surprised
+  0:21  Normal   (flame mostly orange)
+NARRATION:
+  "Third, say how many times you ran it, because one try could just be
+  luck."
+
+--------------------------------------------------------------------
+CLIP 6: TIP 4, MAKE A GRAPH                           0:22 to 0:27
+--------------------------------------------------------------------
+SET:     A wall covered in sticky notes full of handwritten numbers.
+CAMERA:  Wide.
+ACTION:  Sol pushes against the wall. The sticky notes fall away and
+         reveal the bar graph underneath (same graph as the poster).
+EXPRESSIONS:
+  0:22  > < squeezed shut (pushing)
+  0:24  Surprised, mid-bounce   (flame orange)
+NARRATION:
+  "Fourth, turn your numbers into a graph, since nobody reads a wall of
+  numbers."
+
+--------------------------------------------------------------------
+CLIP 7: TIP 5, WHAT WENT WRONG                        0:27 to 0:31
+--------------------------------------------------------------------
+SET:     Kitchen counter, later. A small puddle where one ice cube
+         melted early. Open notebook next to it.
+CAMERA:  Close.
+PROP:    Notebook.
+ACTION:  Sol looks down at the puddle, then taps the notebook. "What
+         went wrong" appears on the page.
+EXPRESSIONS:
+  0:28  Worried   (quick purple flicker)
+  0:30  Blink
+  0:31  Normal    (back to orange)
+NARRATION:
+  "And fifth, write down what went wrong, because real scientists
+  always do."
+
+--------------------------------------------------------------------
+CLIP 8: PAYOFF                                        0:31 to 0:40
+--------------------------------------------------------------------
+SET:     Back at the bedroom desk. The poster is finished with all five
+         pieces (see "Lock this first" above).
+CAMERA:  Wide.
+ON SCREEN: Course card + sign-up link appear at 0:33. The link is
+         on screen only, not spoken.
+ACTION:  Sol hops next to the finished poster, then looks up at the
+         camera and nods. Hold on the nod to the end.
+EXPRESSIONS:
+  0:32  Surprised, mid-bounce
+  0:34  Sparkles   (full, brightest orange)
+  0:37  Looking up
+  0:38  Nod, in Sparkles, held to the end
+NARRATION:
+  "Ignite's free Scientific Research and Data Analysis course teaches
+  you how real research works, from collecting data to analyzing it.
+  So, is it ready now?"
+
+
+====================================================================
+FULL NARRATION / CAPTION TEXT (word for word)
+====================================================================
+Sol, what are you doing? Wait, your science project's due in five
+minutes?
+
+Okay, here are five things that'll save it.
+
+First, write your question at the top so judges know what you were
+testing.
+
+Second, say the one thing you changed and what you measured.
+
+Third, say how many times you ran it, because one try could just be
+luck.
+
+Fourth, turn your numbers into a graph, since nobody reads a wall of
+numbers.
+
+And fifth, write down what went wrong, because real scientists always
+do.
+
+Ignite's free Scientific Research and Data Analysis course teaches you
+how real research works, from collecting data to analyzing it. So, is
+it ready now?
+
+Word count: 112 (about 37 seconds of speech at a natural pace)
+
+
+====================================================================
+GENERATION NOTES
+====================================================================
+- Hard cuts between scenes. Start Sol already in place in each scene,
+  so you never have to generate him walking between rooms.
+- Keep lighting and color style consistent across all sets so the
+  house reads as one place.
+- Every take gets transcribed and compared to the caption text above.
+  If a word is different, regenerate the take.
+
+
+====================================================================
+IF YOU RUN GOOGLE ADS (optional)
+====================================================================
+- 9:16 stays the master. Only make other versions if you run a
+  Performance Max campaign, which wants a 16:9, a 1:1 and a 9:16.
+- 16:9: extend the background out to the sides (outpaint/reframe).
+  Don't crop.
+- 1:1: crop to the center of the 9:16 frame.
+- The center-third framing rule above is what makes both of these
+  work.
+- Google Ads accounts have to be owned by someone 18 or older.
+
+
+====================================================================
+CHECK BEFORE GENERATING
+====================================================================
+[ ] Course card is tagged "College & professional." Confirm with Daniya
+    that the course is open to middle schoolers. If it isn't, the
+    science-project premise needs to change.
+[ ] Confirm the course is free (the narration says "free").
+[ ] Goggles: all clips or none.
+[ ] Finished poster design locked.

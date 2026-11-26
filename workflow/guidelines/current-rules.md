@@ -118,6 +118,16 @@ making the candle episode, not preferences she stated. The dated history behind 
   Squash and stretch on every hop and landing, a wind-up before a move, overshoot and a springy settle after
   it. Props he moves get the same treatment as long as they stay physically believable.
 - **Emotion comes from movement**, since he has no mouth: tilts, bounces, arm raises, nods.
+- **He stands on the ground.** "sol is floating which goes against nature" (2026-11-26). His feet touch the surface
+  and his shadow in every frame; after a hop he comes back down. *(working practice)* The painter can leave him in
+  the air after a hop: prefer a squash-and-spring with his feet planted, and measure his feet after any hop
+  (`episodes/due_in_5_minutes/fix_float.py --measure`; the same script lands him).
+- **He faces what he is reacting to.** "sol is also looking the wrong way" (2026-11-26). *(working practice)* A Sol
+  standing at the side of the frame and facing straight ahead reads as looking out of frame: turn him toward the
+  camera or the prop.
+- **Distress is for the moment of distress only.** "during the tip sequences sol still has the purple gradient
+  distressed emotion even though he should be calm during thes parts" (2026-11-26). The indigo shade and worry lines
+  come off as soon as the scene moves on; do not let them linger or fade across later shots.
 
 ## 5. Props and physics
 
@@ -227,6 +237,41 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   to navy ovals") and keep the plain-face wording for every other moment.
 - `check_faces.py` will flag these moments. A flag at a planned time is expected; a flag anywhere else is not.
 
+### Words on screen, reaching arms, and ads *(working practice, from the "Due in 5 Minutes" ad, 2026-11-26)*
+
+- **Never let the painter write words.** Draw each piece of lettering once as a PNG, put it on a plane in the
+  Blender scene, render that plane alone in the shot's perspective, and lay it over the painted clip. The skeleton
+  and the prompt keep every board, card and page blank. Lock the camera off in any shot with lettering, and keep
+  lettering behind Sol with his silhouette from the skeleton. Worked example:
+  `episodes/due_in_5_minutes/overlays/` (`make_art.py`, `composite.py`) and `skeleton/render_clip.py` (`MODE=ovl`,
+  `MODE=mask`).
+- **Do not have Sol reach for anything with an arm.** Three paints in a row gave him a long arm or a detached arm
+  nub when he reached for a prop, even with the prop within reach and "never stretch" in the prompt. Stage the
+  action with his body instead: a hop beside the thing, a bump with his side, a lean. Say in the prompt that both
+  arm nubs stay tucked at his sides.
+- **Check for eyebrows.** The painter adds brow strokes to worried and upward-looking faces. He has none.
+  `episodes/due_in_5_minutes/fix_brows.py` paints them out, and with `--redraw` lays clean navy ovals back where a
+  brow has fused with the eye.
+- **Render the skeleton at 24 fps** (`SKEL_FPS=24` with the ad's `rig.py`). The painter returns 24 fps; a 30 fps
+  skeleton dropped to 24 makes a camera move hitch six times a second.
+- **Check handwriting fonts letter by letter.** Gochi Hand's "lt" read as a capital H ("saH", "meH"); Patrick
+  Hand does not. An independent frame-by-frame reviewer caught that, two one-frame caption faults and a label drawn
+  over Sol, so run one on the cut before delivering.
+- **Leave a tint out if it should be barely there.** A faint indigo tip in the skeleton came back as the full
+  worried look. State a tint that must hold as a rule of its own ("from the first frame to the last").
+- **A long shot needs a camera move.** Elaine on the 9-second locked-off payoff: "kind of scuffed ... for this long
+  duration can we just replace this clip with like a 3d like motion that looks through his poster and then pivot to
+  him" (2026-11-26). For a moving camera, render the lettering for every frame (`MODE=ovlseq`); it tracked the painted
+  cards exactly. Keep Sol clear of all lettering so nothing has to be cut out around him.
+- **Do not redraw his eyes frame by frame.** She saw them "jitter and move position". Prefer a repaint; if a repair is
+  unavoidable, smooth the eye positions over time and watch it at speed.
+- **Check where the painter put Sol against the caption band.** It can draw him smaller and lower than the skeleton;
+  `composite.py`'s `reframe` pushes in on him.
+- **Ads:** captions go in a band centred at 70% of the height, at most 840 px wide (`caption_y`, `caption_max_width`
+  in `edit.json`), to stay clear of the bottom fifth and the right edge where the platform's buttons sit. An ad has
+  no tracker row, no description and no upload unless she asks. The songs in `assets/music/` are game soundtracks:
+  for a paid ad, build a cut without music as well (`"music": null`) and tell her.
+
 ### Paint prompt rules *(working practice)*
 
 - Never write the word "mouth", not even "no mouth", and no mood words such as "happily". Say what his
@@ -261,9 +306,17 @@ not in `completed/` under that name yet; see the note at the end of this page.
 
 Elaine, 2026-11-26.
 
-- **Topics come from her sheet**, "Ignite Shitposts Tracker", tab "Cofounder Reimbursement": columns Topic,
-  Music, Description, Status. Take the first row whose Status is "Not Done". Never touch the other tab
-  ("Ignite Spendings").
+- **Topics come from her sheet**, "Ignite Shitposts Tracker", tab **"General"** (it was called "Cofounder
+  Reimbursement" until 2026-11-26): columns Topic, Music, Description, Status. Take the first row whose Status is
+  "Not Done".
+- **Ads go on the "Advertisements" tab**, same four columns (Elaine, 2026-11-26: "do the advertisement tabs and then
+  like name the advertisement something and then put a description with the link to the webiste ... and the link to
+  the form"). For each ad fill the next row: **Topic** = a name for the ad; **Music** = the song used;
+  **Description** = the blurb, then `Website: https://ignitefindyourfire.org/` and
+  `Sign up: https://forms.ignitefindyourfire.org/t/oqB8WMKbJ6us` each on its own line, then the five hashtags on the
+  last line; **Status** as for episodes. *(working practice)* Her form link came with `?gclid=xxxxx` on the end, a
+  placeholder for Google's click id; the sheet has the link without it. An ad is not a topic: never take the next
+  episode from this tab. Worked example: row 2, "Due in 5 Minutes".
 - **Scripts need no review.** "i dont think i need any supervision for scripts now". Write the script in the
   interactive format and go on; `episodes/coffee_ring/script.txt` is the one she read and liked.
 - **Fix and continue.** "fix all changes and trust urself". When the gray frames show a problem, fix it and
@@ -292,6 +345,9 @@ Elaine, 2026-11-26.
   `media_type` REELS, caption = the same description) then `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`. Build the
   payload in Python so the caption is not wrapped in quotes. Instagram captions cannot be changed through
   the connector after posting. Posting publicly needs her go-ahead. Then set Status "Done" (rule above).
+- **Show her the caption before posting.** "wait before u post ... can i take a look at caption" (Elaine, 2026-11-26,
+  the ad's Instagram Reel). Write the caption, show it to her, and post only after she says so. The sheet's
+  Description cell is the caption.
 - **Use her Music cell if it is filled in**; otherwise pick a song from `assets/music/` and write it back.
 - **Credits:** keep to a cap per night and skip the night if the balance is too low. A full episode's paint
   pass is about 83 credits at 720p (about 37 s at 2.25 credits a second), plus about 2 for the narrator.

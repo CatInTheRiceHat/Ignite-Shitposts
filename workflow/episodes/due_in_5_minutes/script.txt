@@ -1,0 +1,174 @@
+DUE IN 5 MINUTES — AD FOR "SCIENTIFIC RESEARCH & DATA ANALYSIS" — PRODUCTION NOTES
+
+Elaine's shooting script (v4, pasted 2026-11-26) is kept word for word in script-v4-elaine.txt. This file records how
+it was made and what differs from it. She said: "heres the thing i want you to make its for an ad so you dont need a
+description". So: no tracker-sheet row, no description, no upload. Not approved by Elaine yet.
+
+Title:  Science Project Due In 5 Minutes? Do These 5 Things
+Cut:    see STATUS at the end of this file for the current cut and what is in completed/.
+
+------------------------------------------------------------------------------
+DECISIONS MADE WHERE THE SCRIPT LEFT A CHOICE
+------------------------------------------------------------------------------
+Goggles: NONE, in every clip. The script allows all clips or none. His eyes carry every expression in this ad
+  (rings, chevrons, sparkles, worry lines), and goggles would sit on top of them. The course card art shows him in
+  goggles; that is the only place.
+Length: 46.3 s, not 40. Arthur's takes hold 40.6 s of speech once dead air is trimmed, and the script says the voice
+  is never sped up ("extend the clip"). Nothing is sped up or stretched.
+Clip 8 is two shots (08 and 09). Its narration is 10.6 s plus the nod, and a paint clip can be at most 10 s. Shot 08
+  is the wide on the finished poster; shot 09 cuts closer for "So, is it ready now?" and the nod.
+Clip 4 is a high angle, not straight top-down: from straight above his face cannot be seen, and the script gives
+  him two expressions in that clip.
+Sign-up link on the card: ignitefindyourfire.org/program (the site's courses page; /apply redirects there).
+Poster locked before any paint: header board "Does salt make ice melt faster?"; left wing: peach card
+  "Changed: amount of salt", blue card "Measured: minutes to melt", three green tags Trial 1/2/3; middle: bar graph,
+  plain ice tall and blue, salted ice shorter and yellow, y axis "minutes to melt"; right wing: the yellow notebook
+  page "What went wrong".
+Still Elaine's to confirm before the ad runs (script, "check before generating"): that the course is open to middle
+  schoolers (the site's Moodle catalog preview tags it "College & professional") and that it is free (the site's FAQ
+  says the courses are planned as free). The narration and the card both say "free".
+Music: the cut uses a song from assets/music/ as usual. Those are game soundtracks; a paid ad normally needs music
+  she has the rights to. A cut with no music (voice and sound effects only) is built beside it.
+
+------------------------------------------------------------------------------
+HOW IT IS MADE
+------------------------------------------------------------------------------
+Voice: Arthur (config/voices.json), ten takes in audio/raw/, dead air trimmed into audio/edit/ by audio/trim_takes.py
+  (pauses over 0.3 s shortened; nothing sped up). Every take was transcribed and matches its line.
+Skeleton: skeleton/rig.py + clips.py, rendered headless by render_clip.py. Sol is the approved SEPARATE-EYES model
+  (assets/sol-3d/eyes/sol-eyes.blend): every expression, blink and glance in the script is keyed, with the bounce
+  between emotions (eyes_rig.emotion_at). The rooms are blocked in simple real colours, one palette for the house.
+Lettering: NEVER painted. make_art.py draws each piece once (overlays/art/); the same file is used where Sol makes
+  the piece and on the finished poster. The pieces sit on OVL_ planes in the Blender scenes, are rendered alone in
+  each shot's perspective (render_clip.py MODE=ovl) and laid over the painted clip by overlays/composite.py, which
+  also adds the pop-up labels (clips 4, 5), the course card (clips 8, 9), a slow push on the locked-off shots, and
+  keeps lettering behind Sol with his silhouette from the skeleton (MODE=mask). Every camera with lettering is
+  locked off. Fonts: Patrick Hand (OFL, overlays/fonts/) for the handwriting (Gochi Hand was dropped: its "lt" read as "H"); Rammetto One and Poppins on the card.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p. Image references: a style frame, Sol's turnaround sheet and the
+  expression sheet. Clip 01 was painted first (style reference: the coffee episode's kitchen frame, treatment only);
+  its frame at 1.0 s is refs/style-frame-clip01.png, the style reference for every other clip. Prompts:
+  prompts/build.py writes prompts/0N-paint.txt.
+Edit: make_edit.py writes edit.json (captions are the script's words, timed from Whisper's word times), built with
+  scripts/episode_edit.py. Captions sit in a band centred at 70% of the height and at most 840 px wide, out of the
+  bottom fifth and off the right edge (script, framing rule). Sound effects are the candle set.
+
+------------------------------------------------------------------------------
+SHOTS (times on each clip's own clock; voice start in brackets)
+------------------------------------------------------------------------------
+01 hook, 6.3 s. Bedroom desk, blank trifold, wall clock; locked-off medium wide. "Sol, what are you doing?" [0.25]
+   "Wait, your science project's due in five minutes?" [2.5]. Looks at the poster, up at the clock (1.7), Shocked +
+   hop + indigo snap (2.55), Worried (4.7), nod (5.5).
+02 setup, 3.0 s. Slow push in. "Okay, here are five things that'll save it." [0.2]. Worried, full indigo; leans in;
+   > < squeezed shut (1.95).
+03 tip 1, 5.4 s. Hallway whiteboard, slight low angle. "First, write your question at the top so judges know what
+   you were testing." [0.2]. Hop-tap (1.28-1.76), the question is written on from 1.52; blink (3.25); Normal and the
+   indigo fading (3.7); second hop-tap (4.15).
+04 tip 2, 4.0 s. Kitchen counter from high above. "Second, say the one thing you changed and what you measured."
+   [0.12]. Bumps the salt shaker with his side (0.95-1.5), label "Changed" pops (1.9); turns and hops toward the
+   timer (2.45), label "Measured" pops (3.3). About half indigo.
+05 tip 3, 4.85 s. Freezer on the counter, eye level. "Third, say how many times you ran it, because one try could
+   just be luck." [0.2]. Nudges the door (0.45), it swings open (0.75-1.7), fog; O O surprised (1.45); tags
+   Trial 1, 2, 3 pop (1.7, 2.0, 2.3); Normal (3.3).
+06 tip 4, 5.15 s. Wall of sticky notes, wide. "Fourth, turn your numbers into a graph, since nobody reads a wall
+   of numbers." [0.2]. Pushes, > < (0-1.1); the notes fall from 1.1 and the graph is underneath; Surprised
+   mid-bounce (2.0); graph labels fade in (3.0); Normal (3.9).
+07 tip 5, 5.0 s. Kitchen counter, close from above. "And fifth, write down what went wrong, because real scientists
+   always do." [0.2]. Looks down at the puddle; Worried with a quick indigo flicker (1.0); one hop beside the
+   notebook (1.66), the heading appears (1.95); blink (2.72); Normal, looking up (2.9).
+08 payoff, a move across the poster, 9.3 s (from cut v6; the locked-off wide it replaced is in the take list).
+   "Ignite's free Scientific Research and Data Analysis course teaches you how real research works, from collecting
+   data to analyzing it." [0.25]. The camera opens on the whole finished poster (the question readable), glides in
+   and travels across it: the "What went wrong" page (2.0), the graph (4.1), the Changed and Measured cards and the
+   three trials (6.0), then swings left to Sol (7.5), sparkle eyes, two bounces with his feet planted, a blink (8.1).
+   The course card pops in at 1.6. He stands clear of every piece of lettering. Lettering is a per-frame pass
+   (MODE=ovlseq). In the edit a push-in on him (5.9-7.1 s, 1.3x) lifts his face clear of the captions.
+09 payoff, the nod, 3.3 s. "So, is it ready now?" [0.25]. Looking up; Sparkles and two nods (1.95-2.9); holds to the
+   last frame. No black.
+
+------------------------------------------------------------------------------
+TAKES OF EACH CLIP (nothing is deleted)
+------------------------------------------------------------------------------
+01 skeleton v1 -> 01-paint-v1: replaced after Elaine's notes (he faced out of frame; new action).
+   skeleton v2-24fps (beside the poster, turned to it, arm nub up at it, then the freak-out) -> 01-paint-v2 (used)
+02 skeleton v1 (30 fps) -> 02-paint-v1: not used, the push-in hitched six times a second (30 fps dropped to 24).
+   skeleton v2-24fps -> 02-paint-v2: REJECTED, the indigo faded in instead of being there from frame one.
+   skeleton v2-24fps -> 02-paint-v3 (used): smooth push, indigo from the first frame.
+03 skeleton v1 -> 03-paint-v1: replaced after Elaine's notes (worried and indigo during a tip).
+   skeleton v2-24fps (calm, no tint) -> 03-paint-v2 (used)
+04 skeleton v2 -> 04-paint-v1: REJECTED, his arm grew long reaching for the shaker and the timer.
+   skeleton v3 (props nearer): rendered, never painted.
+   skeleton v4 (no arm reach: a body bump and a hop) -> 04-paint-v2: replaced after Elaine's notes (indigo tip).
+   skeleton v5-24fps (the same, no tint) -> 04-paint-v3 (used)
+05 skeleton v2 -> 05-paint-v1: REJECTED, a faint tint came back as a deep purple tip with bold lines, a second
+   "Shocked" (the script allows it once). skeleton v3 (no tint) -> 05-paint-v2 (used).
+06 skeleton v2 -> 06-paint-v1 (used)
+07 skeleton v1 -> 07-paint-v1: REJECTED, long arm, and a notebook page lifted as if turned.
+   skeleton v2 (short pat) -> 07-paint-v2: REJECTED, his arm nub came off his body.
+   skeleton v3 (a hop, arms at his sides) -> 07-paint-v3; the painter drew eyebrows during the worried beat, so
+   07-paint-v3-nobrows (fix_brows.py --redraw, 0.8-3.1 s: brows painted out, clean navy ovals laid back), then
+   07-paint-v3-fixed (the same from 3.1 s to the end, where the painter had put white highlights in his eyes).
+   Replaced after Elaine's notes (he floated after the hop; worried flicker during a tip).
+   skeleton v4-24fps (calm, no tint, no hop: a squash and spring with his feet planted) -> 07-paint-v4 (used)
+08 skeleton v1 (locked-off wide) -> 08-paint-v1, then -nobrows and -cleaneyes (eye repairs). REPLACED in cut v6:
+   Elaine found it "kind of scuffed" (flicker beside Sol; "sol's eyes like jitter and move position", which was my
+   frame-by-frame eye redraw) and asked for a camera move across the poster instead.
+   skeleton v2-24fps (the move) -> 08-paint-v2 (used, eyes untouched: they are the painter's own)
+09 skeleton v1 -> 09-paint-v1 (used)
+clips/0N-comp.mp4 are the painted clips with the lettering laid on; they are what the cut uses.
+
+------------------------------------------------------------------------------
+ELAINE'S NOTES ON CUT V4 (2026-11-26) AND WHAT CHANGED IN V5
+------------------------------------------------------------------------------
+"sol is floating which goes against nature" (notebook shot)  -> clip 7 repainted with his feet planted (no hop)
+"sol is also looking the wrong way" (the hook)               -> clip 1 restaged: he faces the poster, then the camera
+"he should start by pointing at the poster at the beginning and then freaking out" -> clip 1's new action
+"during the tip sequences sol still has the purple gradient distressed emotion even though he should be calm"
+                                                             -> clips 3, 4 and 7 repainted calm, no indigo, no lines
+                                                                (this replaces the script's "fades back tip by tip"
+                                                                and the flicker at tip 5; clip 5 already had none)
+"weird fuzzyness here" (payoff, around his eyes)             -> clip 8: clean sparkle eyes laid back
+The indigo now belongs to the hook (from the shock at 2.5 s) and the setup (clip 2) only.
+
+------------------------------------------------------------------------------
+ELAINE'S NOTES ON CUT V5 (2026-11-26) AND WHAT CHANGED IN V6/V7
+------------------------------------------------------------------------------
+"the 2nd to last clip is kind of scuffed because thers like flickering weirdness nex to sol. for this long duration
+can we just replace this clip with like a 3d like motion that looks through his poster and then pivot to him with
+sparkle eyes? we sitll need the free course thing on top"; "just replace the 2nd to last clip";
+"also sol's eyes like jitter and move position"            -> clip 8 replaced by the camera move (see shot 08)
+"also make the spacing the same" (the FREE COURSE badge)   -> course card redrawn: the badge's letters have the same
+                                                              padding on all four sides, and the four spaces in the
+                                                              text column are equal
+Only clip 8 and the card changed. v6 had the captions right under his eyes at the end of the new shot (the painter
+drew him smaller and lower than the skeleton); v7 adds the push-in that fixes it. v6 was never delivered.
+
+------------------------------------------------------------------------------
+STATUS (2026-11-26)
+------------------------------------------------------------------------------
+Current cut: renders/due-in-5-v7.mp4 (46.29 s, 24 fps, 1080x1920) and renders/due-in-5-v7-nomusic.mp4.
+In completed/: "Science Project Due In 5 Minutes? Do These 5 Things.mp4" (v7, music "試験中… (P3R ver.) 4") and
+"... (no music).mp4" (v7, voice and sound effects only). Not approved by Elaine.
+Cuts: v1 (first assembly; reviewed frame by frame by an independent reviewer, findings below), v2 (clip 1 push
+re-aimed), v3 (clip 5 repainted), v4 (review fixes; the first cut Elaine saw), v5 (her first notes), v6 and v7 (her second notes). All kept.
+Checks on v7 (and v4, v5 before it): check_narration.py PASS (the cut's audio is the script word for word); length, sound and ending checks
+PASS; every frame laid out in renders/review-due-in-5-v7/. The full independent frame review was done on v1; for v4
+and v5 every shot that changed was checked again (strips, zoomed faces, the exact frames the review named).
+What the v1 review found and what was done:
+  fixed   handwriting "lt" read as "H" ("saH", "meH") -> Patrick Hand, all lettering re-rendered
+  fixed   "What went" ran off the notebook page -> smaller heading
+  fixed   the "Measured" label popped over Sol's flame tip in clip 4 -> both labels moved up and apart
+  fixed   ghosts of letters on Sol's flame in clip 9 -> the blue card and green tags are drawn only where the painted
+          card is visible
+  fixed   one frame with two captions (5.00 s) and one caption frame carried across a cut (23.54 s)
+  fixed   push-in hitch in clip 2 -> skeleton rendered at 24 fps (SKEL_FPS=24) and repainted
+  fixed   clip 5's second "Shocked", Sol clipped at the left edge in clips 1 and 5, highlight eyes at the end of clip 7
+Known and left in (v7): in clip 9 the "Measured" card is half hidden behind Sol (a clean edge); clip 5 is painted
+  flatter than the other shots; the wall clock's hands differ from shot to shot; in clip 3 the painter gave him > <
+  eyes for the instant of each tap; in clip 1 the pointing arm is a short nub; the last two seconds of clip 8 are
+  pushed in 1.3x in the edit, so they are a little softer than the rest; clips 5 and 6 still come from 30 fps
+  skeletons.
+Posted (2026-11-26): Instagram Reel https://www.instagram.com/reel/DgONIqPKdzW/ (cut v7 with music; caption = the
+  Description cell of row 2 of the sheet's "Advertisements" tab, shown to Elaine and approved before posting; read back
+  and matches). YouTube: Elaine uploaded it herself. The sheet's Status was already "Done" (hers).
+Credits: 245.25 in all (624.75 before, 379.5 after). Up to cut v4: 173.25 (narrator about 2, nine clips 113,
+  repaints 58). Cut v5, her first notes: 49.5 (clips 1, 3, 4 and 7). Cuts v6/v7, her second notes: 22.5 (clip 8).

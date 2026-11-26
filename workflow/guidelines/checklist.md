@@ -484,6 +484,34 @@ additional aesthetic preferences attributed to Elaine.
     right, she answered "OH ITS PERFECT." This approves the separate-eyes model, its expressions and the
     emotion bounce. Frozen in `assets/sol-3d/eyes/approved-2026-11-26/`. It does not approve any clip or cut.
 
+## "Due in 5 Minutes" ad, cut v4: Elaine's notes (2026-11-26)
+
+Her words, on the first cut she saw (`episodes/due_in_5_minutes/renders/due-in-5-v4.mp4`):
+
+- **Sol must stand on the ground.** "sol is floating which goes against nature" (the notebook shot: after his hop the
+  painter left him hanging above his shadow). Check: in every frame his feet touch the surface and his shadow.
+- **Sol must face what he is reacting to.** "sol is also looking the wrong way" (the hook: he stood at the left of
+  the frame facing straight ahead, which reads as looking out of frame, away from the poster). Check: his face points
+  at the prop or at the camera, never at the frame edge behind him.
+- **The hook's action.** "i think he should start by pointing at the poster at the beginning and then freaking out".
+- **Calm during the tips.** "during the tip sequences sol still has the purple gradient distressed emotion even though
+  he should be calm during thes parts". This replaces her script's "fades back to orange tip by tip" and the purple
+  flicker at tip 5: the indigo and the worry lines belong to the hook and the setup only.
+- **No fuzz on his face.** "weird fuzzyness here" (the payoff shot: smudges above his sparkle eyes, left over from
+  painting out eyebrow strokes). Check his eye area at full size after any repair.
+
+Her words on cut v5, the same day:
+
+- **A long hold on one locked-off shot reads as scuffed.** "the 2nd to last clip is kind of scuffed because thers like
+  flickering weirdness nex to sol. for this long duration can we just replace this clip with like a 3d like motion that
+  looks through his poster and then pivot to him with sparkle eyes?" Check: a shot of nine seconds gets a camera move
+  with something new to look at along the way, and nothing is cut out or keyed around Sol.
+- **His eyes must not jitter.** "sol's eyes like jitter and move position" (my frame-by-frame redraw of his eyes in
+  that shot). Check: play any repaired eye stretch at speed; if the eyes shift from frame to frame, do not ship it.
+- **Even spacing on graphics.** "make the spacing the same" (the FREE COURSE badge on the course card).
+
+Technical findings from the independent frame review of cut v1 are in that episode's `script.txt`, not here.
+
 ## Keeping this useful
 
 When Elaine gives a critique, record the concrete visual problem and turn it

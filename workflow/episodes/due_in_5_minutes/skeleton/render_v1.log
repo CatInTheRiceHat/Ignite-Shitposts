@@ -1,0 +1,10 @@
+RENDERED ./01-skeleton-v1.mp4 {'scene': 'ad_1', 'objects': 86, 'frames': 189}
+RENDERED ./02-skeleton-v1.mp4 {'scene': 'ad_2', 'objects': 86, 'frames': 90}
+RENDERED ./03-skeleton-v1.mp4 {'scene': 'ad_3', 'objects': 50, 'frames': 162}
+RENDERED ./04-skeleton-v1.mp4 {'scene': 'ad_4', 'objects': 64, 'frames': 123}
+RENDERED ./05-skeleton-v1.mp4 {'scene': 'ad_5', 'objects': 118, 'frames': 146}
+RENDERED ./06-skeleton-v1.mp4 {'scene': 'ad_6', 'objects': 226, 'frames': 155}
+RENDERED ./07-skeleton-v1.mp4 {'scene': 'ad_7', 'objects': 48, 'frames': 150}
+RENDERED ./08-skeleton-v1.mp4 {'scene': 'ad_8', 'objects': 106, 'frames': 279}
+RENDERED ./09-skeleton-v1.mp4 {'scene': 'ad_9', 'objects': 106, 'frames': 99}
+ALLDONE

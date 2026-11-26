@@ -18,6 +18,11 @@ edit.json:
   "voice_dir", "sfx_dir": folders relative to the episode
   "voice":  [{"take": wav, "clip": index, "start": seconds into that clip, "phrases": [[from, to, text], ...]}]
   "sfx":    [[file, slice start, slice end, clip index, seconds into that clip, volume], ...]
+Optional (added for the "Due in 5 Minutes" ad, 2026-11-26; the defaults are the usual look):
+  "caption_y":         top of the 300 px caption strip, default 1424 (captions centred at 82% of the height). The ad
+                       uses a higher band so captions stay out of the bottom fifth, where platform buttons sit.
+  "caption_max_width": widest caption in px, default 960.   "caption_max_chars": default 15.
+  "music": null        builds a cut with no music (voice and sound effects only).
 
 After building it checks the result and prints PASS/FAIL lines: length, picture and sound ending together, and no
 black at the end. It exits 1 if a check fails.
@@ -32,14 +37,15 @@ if OUT.exists():
     sys.exit(f"{OUT} already exists; pick a new name (earlier cuts are never overwritten)")
 OUT.parent.mkdir(parents=True, exist_ok=True)
 FONTDIR = WF / "assets" / "fonts"
-MUSIC = WF / "assets" / "music" / CFG["music"]["file"]
-MUSIC_START, MUSIC_GAIN = CFG["music"].get("start", 0.0), CFG["music"].get("gain", 0.16)
+HAS_MUSIC = bool(CFG.get("music"))
+MUSIC = WF / "assets" / "music" / CFG["music"]["file"] if HAS_MUSIC else None
+MUSIC_START, MUSIC_GAIN = (CFG["music"].get("start", 0.0), CFG["music"].get("gain", 0.16)) if HAS_MUSIC else (0.0, 0.0)
 CLIPS = [tuple(c) for c in CFG["clips"]]
 VOICE = [(v["take"], v["clip"], v["start"], [tuple(p) for p in v["phrases"]]) for v in CFG["voice"]]
 SFX = [tuple(s) for s in CFG.get("sfx", [])]
 VOICE_DIR, SFX_DIR = EP / CFG["voice_dir"], EP / CFG.get("sfx_dir", "audio/sfx")
-MAX_CHARS = 15          # per caption line group at this size
-MAX_WIDTH = 960         # px at 1080 wide, outline included. 15 characters of wide letters ("know why coffee") overflow
+MAX_CHARS = CFG.get("caption_max_chars", 15)          # per caption line group at this size
+MAX_WIDTH = CFG.get("caption_max_width", 960)         # px at 1080 wide, outline included. 15 characters of wide letters ("know why coffee") overflow
                         # the frame, so a group is also split when it would be wider than this (coffee cut v2, 2026-11-26)
 from PIL import Image, ImageDraw, ImageFont
 font = ImageFont.truetype(str(FONTDIR / "RammettoOne-Regular.ttf"), 105)
@@ -110,7 +116,10 @@ for f, _ in CLIPS:
     cmd += ["-i", str(EP / "clips" / f)]
 for take, *_ in VOICE:
     cmd += ["-i", str(VOICE_DIR / take)]
-cmd += ["-ss", str(MUSIC_START), "-i", str(MUSIC)]
+if HAS_MUSIC:
+    cmd += ["-ss", str(MUSIC_START), "-i", str(MUSIC)]
+else:
+    cmd += ["-f", "lavfi", "-t", f"{total + 1:.2f}", "-i", "anullsrc=r=48000:cl=stereo"]     # silence as long as the picture
 CAP0 = len(CLIPS) + len(VOICE) + 1
 for f, _, _ in caps:
     cmd += ["-i", str(f)]
@@ -124,7 +133,7 @@ for i, (_, d) in enumerate(CLIPS):
 fc.append("".join(f"[v{i}]" for i in range(nv)) + f"concat=n={nv}:v=1:a=0[vc]")
 prev = "vc"
 for i, (f, a_, b_) in enumerate(caps):
-    fc.append(f"[{prev}][{CAP0 + i}:v]overlay=0:1424:enable='between(t,{a_:.3f},{b_:.3f})'[c{i}]")
+    fc.append(f"[{prev}][{CAP0 + i}:v]overlay=0:{CFG.get('caption_y', 1424)}:enable='gte(t,{a_:.3f})*lt(t,{b_:.3f})'[c{i}]")
     prev = f"c{i}"
 fc.append(f"[{prev}]null[vout]")
 for j, (take, ci, start, _) in enumerate(VOICE):

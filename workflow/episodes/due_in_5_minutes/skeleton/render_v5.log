@@ -1,0 +1,5 @@
+RENDERED ./01-skeleton-v2-24fps.mp4 {'scene': 'ad_1', 'objects': 86, 'frames': 151}
+RENDERED ./03-skeleton-v2-24fps.mp4 {'scene': 'ad_3', 'objects': 50, 'frames': 130}
+RENDERED ./04-skeleton-v5-24fps.mp4 {'scene': 'ad_4', 'objects': 64, 'frames': 96}
+RENDERED ./07-skeleton-v4-24fps.mp4 {'scene': 'ad_7', 'objects': 48, 'frames': 120}
+ALLDONE
