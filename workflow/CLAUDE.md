@@ -20,14 +20,31 @@ For images use **Nano Banana 2.1**, ID `nano_banana_2_1`, at 2k and 9:16.
 Read its settings from the same config. Do not pass GPT-specific `quality`
 or `output_format` options. Changing the model does not authorize generation.
 
-The order is mandatory: generate both stills; show BOTH to the user; wait for
-explicit approval of that exact pair; then generate the Higgsfield clip.
+For the older paired-stills method only: generate both stills, show BOTH to the
+user, wait for explicit approval of that exact pair, then generate the clip.
+The Blender-skeleton pipeline below replaces it for current shots.
+Keep the choppy on-twos look (each pose held 2 frames at 30 fps; Elaine
+reconfirmed 2026-11-25).
 Run independent actual-footage review before production use. Read
 `workflow/config/sol-references.json`: use Mascot.png and the additional mascot
-examples for Sol's design. V4 establishes the accepted identity direction;
-its surface still needs visible gouache brushwork, layered color and paper
-texture on both Sol and the scene, with no inked outlines. Use the supplied
-graphic examples for finish and the lantern video as a painted movement reference subordinate to the current cadence. Keep
+examples for Sol's design. V4 establishes the accepted identity direction.
+
+**Art direction: painted gouache, NOT Arcane** (Elaine, 2026-11-25: "lets just
+keep this painted gouache painting… arcane style is a bit too hard to perfect").
+The Arcane trial (options B/C, ink linework) is dropped. Use visible matte
+gouache brushwork, layered color and paper texture on Sol and the whole scene,
+with no inked outlines, per the supplied graphic examples and
+`guidelines/video-style-guide.md`. Elaine also called the first lantern render
+"so bland": shots need livelier staging, depth and lighting, not a flat static
+layout.
+
+**Pipeline (Elaine, 2026-11-25):** animate a gray Blender skeleton clip, then
+give that clip to Higgsfield (Gemini Omni Flash 1.2, mode `edit`, skeleton as
+`video_references`, Mascot.png as `image_references`) to render the painted
+video. Do not make intermediate stills/photos for this pipeline unless asked.
+Sol's identity geometry is unchanged (compact red/orange/cream flame layers,
+low navy #1C2447 oval eyes, mouthless face, short rounded arms, tiny stubby feet,
+no particles). Keep
 the normal original oval eye design unchanged, with a brief natural blink allowed. The frame pair remains unapproved.
 Keep every mascot feature consistent across clips, including the original
 eyes, short rounded arms and stubby feet; paint must preserve their design.
