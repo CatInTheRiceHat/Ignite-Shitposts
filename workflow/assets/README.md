@@ -28,5 +28,5 @@ The zipper episode keeps renderer-ready copies in
 `npm run setup-assets -- zipper_demo` to copy the shared Sol,
 painted reference and Nunito font; modified destination artwork is preserved.
 
-Downloaded music stays local and is ignored by Git. The root `music/` path
-is a compatibility link to this folder's `music/` directory.
+Downloaded music stays local and is ignored by Git. (The old root `music/`
+compatibility link was removed on 2026-11-25.)

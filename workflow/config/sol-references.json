@@ -49,5 +49,17 @@
   "identity_direction_reference": "workflow/episodes/escalator/keyframes/01-first-nano-v4.png",
   "identity_direction_status": "Elaine said the v4 design is good; preserve its geometry while improving the painted surface.",
   "current_frame_paint_status": "V4 identity direction accepted, painted surface not yet satisfactory.",
-  "flame_accents": "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact."
+  "flame_accents": "Sol emits no particles, sparks, flecks, droplets or detached flame accents at any time. All wiggle and tip follow-through stays attached to his continuous filled body. The separate wood fire may flicker only at its fixed fuel contact.",
+  "model_3d": {
+    "blend": "workflow/assets/sol-3d/sol.blend",
+    "turnaround": "workflow/assets/sol-3d/sol-turnaround.png",
+    "approved_copy": "workflow/assets/sol-3d/approved-2026-11-25/",
+    "approved": true,
+    "approval": "Elaine, 2026-11-25: \"YES ... that is what i want, lets save that\"",
+    "notes": "Logo.png traced and inflated, logo art on the front; legs read exactly off Mascot.png; arms are the same leg shape 1.9x longer. See workflow/assets/sol-3d/README.md.",
+    "guideline": "workflow/guidelines/sol-3d-model.md",
+    "logo_blend": "workflow/assets/sol-3d/sol-logo.blend",
+    "logo_turnaround": "workflow/assets/sol-3d/sol-logo-turnaround.png",
+    "logo_note": "Body only, no arms or legs. Elaine, 2026-11-25: \"make the logo one which is just purely what we just have without arms and legs ... and save that one too\"."
+  }
 }

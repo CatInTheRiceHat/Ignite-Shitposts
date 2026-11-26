@@ -27,3 +27,4 @@ workflow/vendor/**/out/**/*.png
 workflow/vendor/**/out/**/*.jpg
 workflow/episodes/**/jobs/useapi/
 workflow/episodes/**/keyframes/blocking/useapi/
+_to-delete/

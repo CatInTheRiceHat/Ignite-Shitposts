@@ -106,6 +106,11 @@ Run this short review on the complete prompt set before generation. Follow the l
   original tall navy ovals. Pitch the compact body, filled flame layers and
   attached face coherently together, with feet supported; no separate head,
   face slide, eye squash or body stretch. Review the new pose before animation.
+- Latest correction (2026-11-25, lantern v2 gouache render): Elaine says the
+  eyes are "so far apart" and it looks wrong. In Mascot.png the two tall navy
+  ovals sit close together near the centre of the cream face, low down, with a
+  gap of about two eye-widths between them; the render pushed them out toward the edges of
+  a wider cream shape. Reject any take whose eye gap is wider than the reference.
 - [ ] Keep Sol mouthless and his limbs stubby. Props from identity examples
   appear only when the scene calls for them.
 - [ ] Paint the flame itself in the same storybook treatment as the scene.
@@ -260,6 +265,56 @@ additional aesthetic preferences attributed to Elaine.
 - Latest clarification: Elaine accepts the v4 mascot-design direction but says
   its surface lacks the painted look. Preserve v4 geometry and use the supplied
   gouache art direction on Sol and the surroundings. The frame pair is not approved.
+
+- Latest camera direction (2026-11-25, candle episode storyboard): Elaine asked
+  for camera angles to "be dynamic" instead of the locked shots in the first
+  draft. Plan a purposeful move per shot (push, arc, crane, slide) and animate
+  it in the Blender skeleton so the paint pass follows it. This supersedes the
+  blanket fixed-camera default for new Blender-pipeline shots; the ban on
+  unrelated or unplanned camera movement stays.
+
+- Latest direction (Elaine, 2026-11-25, after candle clip 01 v1):
+  1. **Sol is round.** She wants the mascot round and pointed me to the mascot
+     images in the Ignite Website repo (`~/Documents/Ignite Website/public/mascots/`:
+     Curious, Puzzled, Celebrate, Microphone, Artist and the rest). Those show a
+     plump, rounded, softly shaded body with small round arm nubs and stubby feet.
+     Use them as identity references alongside Mascot.png. (My reading: this
+     replaces the earlier "keep him flat, avoid inflated anatomy" caution; the
+     eyes, layers, mouthless face and limb rules are unchanged.)
+  2. **Sol is silent.** Cut Sol's voice entirely; only the Narrator speaks. Sol
+     answers by acting.
+  3. **Scripts are interactive.** The Narrator talks TO Sol and reacts to what he
+     does. Her example: Narrator "What are you doing, Sol?", Sol wiggles the
+     candle and looks up as if to show the Narrator what the flame is doing,
+     Narrator "Ohhh, you must be wondering why it's standing up still", Sol nods.
+     (My reading: Sol looks up when he is addressed or answering, and looks at the
+     prop while he is demonstrating; one scripted nod as an answer is fine.)
+
+- Latest motion direction (Elaine, 2026-11-25, after the candle v2 draft): "lets
+  just remove the 2 frame choppy step." Drop the on-twos conform. Deliver the
+  painted motion smooth, at the frames the model returns, and key new Blender
+  skeletons smoothly instead of stepped. This supersedes every on-twos rule in
+  this checklist and in the style guide, including her reconfirmation earlier
+  the same day.
+- Paint consistency (Elaine, same message): "the paint styles are a bit off
+  depending on the scenes." Every clip in an episode must share one paint
+  finish and one way of drawing Sol. Give every paint pass the same style
+  reference frame, including scenes set somewhere else, and compare one frame
+  from each clip side by side before assembling.
+
+- 3D Sol reference model (Elaine, 2026-11-25): she asked for "a sol 3d model or smth so we can
+  always have the right reference", built BEFORE any more video. Her method: "trace over the mascot
+  outline and then u just inflate the thing", applied to Logo.png (the body with no legs), "except
+  the legs". Legs are "like Mascot.png ... tapered at the ends and it should be same shape for arms":
+  widest where they join the body, tapering to a rounded tip. Earlier hand-built attempts were
+  rejected ("this does NOT look like sol"). The model lives in `assets/sol-3d/` (`sol.blend`,
+  `sol-turnaround.png`, `prepare_sol.py`, `build_sol_model.py`, `README.md`).
+  APPROVED 2026-11-25: "YES ... that is what i want, lets save that". Frozen copy in
+  `assets/sol-3d/approved-2026-11-25/`. On the way she rejected limbs that were narrowed or made into
+  tapered ovals ("not too pointy look at the reference"): the legs must be the mascot's own blunt,
+  rounded leg shape, and the arms are that same shape, longer. She also flagged a brown streak along
+  the sides (logo edge fringe smeared on the seam), now fixed. Whether this model replaces the gray
+  Sol stand-in in skeleton clips is still her call.
 
 ## Keeping this useful
 

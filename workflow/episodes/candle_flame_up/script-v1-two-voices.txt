@@ -1,0 +1,211 @@
+WHY DOES A FLAME ALWAYS POINT UP? — DRAFT 1 SCRIPT, STORYBOARD AND FILMING PLAN
+
+Status: 2026-11-25. Elaine said to start and asked for dynamic camera angles.
+All 7 voice takes recorded (audio/raw/). Clip 01 skeleton and paint pass v1 done
+(skeleton/01-skeleton-v1.mp4, clips/01-paint-v1.mp4, on-twos preview with voice
+beside it). Clip 01 is NOT approved yet. Clips 02-05 not started.
+Measured takes: 01 Sol 3.28s, 02 Narrator 7.87s, 03 Narrator 7.24s, 04 Sol 1.66s,
+04 Narrator 6.57s, 05 Sol 2.35s, 05 Narrator 1.88s. Clip 04 needs about 9s, not 8.
+Target: about 31 seconds, 5 clips, 1080x1920, 30 fps. 87 spoken words.
+All timings are provisional until the real Arthur and Sol takes are recorded.
+
+Voices: Narrator = Arthur, Sol = custom Higgsfield voice "Sol" (config/voices.json).
+Art: painted gouache, no ink outlines. Sol per Mascot.png, close-set navy oval eyes,
+mouthless, short rounded arms, stubby feet, no particles.
+
+THE IDEA IN ONE LINE
+A flame points up because the hot air it makes rises and cooler air slides in
+underneath. Take away "up" (in orbit) and the flame turns into a little blue ball.
+
+------------------------------------------------------------------------------
+DIALOGUE ONLY (read this first)
+------------------------------------------------------------------------------
+01  Sol:      "Why does a candle flame always point up, even when I tip it?"
+02  Narrator: "Because the flame heats the air around it. Hot air is lighter, so it
+               rises, and you can see it spin this paper spiral."
+03  Narrator: "Cooler air slides in at the bottom to replace it. That rising stream
+               pulls the flame into a teardrop."
+04  Sol:      "What if there's no up?"
+    Narrator: "In orbit, hot air doesn't rise. The flame just sits there as a little
+               blue ball."
+05  Sol:      "So up is just where the hot air goes."
+    Narrator: "Exactly."
+
+------------------------------------------------------------------------------
+HOW EVERY CLIP GETS FILMED (same recipe for all five)
+------------------------------------------------------------------------------
+1. Voices first. Record the Arthur and Sol takes, trim dead air, measure the real
+   cue times. Clip lengths below get adjusted to those before any animation.
+2. Blender skeleton. Build the shot in gray: a flat gray Sol stand-in with the
+   mascot silhouette, arm and foot nubs, and two dark eye ovals placed at the
+   Mascot.png spacing (so the painter has no room to spread the eyes apart), plus
+   gray blocks for the props. Animate the camera in Blender too (Elaine, 2026-11-25:
+   dynamic camera angles), so the paint pass follows a planned move instead of
+   inventing one. Key every pose and camera position on twos: constant
+   interpolation, a new pose every 2 frames at 30 fps, no in-betweens, no motion blur.
+   Render one gray 1080x1920 clip per scene.
+3. Higgsfield paint pass. Gemini Omni Flash 1.2, mode edit, the gray clip as the
+   video reference, Mascot.png as the image reference, prompt = the scene's setting
+   and lighting below plus the shared gouache and motion blocks. No stills made in
+   between. Last quote was 13 credits per clip; balance is 361.75.
+4. Conform. The last render came back at 24 fps with no held frames, so the on-twos
+   cadence gets enforced in the edit (30 fps, every state held exactly 2 frames,
+   1x speed, no blending) and checked frame by frame.
+5. Review the actual footage against this script: eyes, mouthless face, arms, feet,
+   no particles, upward gaze during Narrator lines. Then captions, voices, music.
+
+Room continuity: clips 01, 02, 03 and 05 are the same desk. Each paint pass is a
+separate job, so the room could drift between them. Plan: paint 01 first, and once
+you accept it, pass a frame from that clip as an extra reference for 02, 03 and 05.
+
+------------------------------------------------------------------------------
+CLIP 01 — Sol tips the candle — about 4.0s
+------------------------------------------------------------------------------
+Teaching purpose: show the puzzle. The candle leans, the flame doesn't.
+Setting: a cozy wooden desk at night by a frosty window. One short cream candle in
+  a small brass dish holder, a stack of two books, a pencil cup, a paper spiral
+  hanging on a thread above the candle (it matters in clip 02). Warm candle pool on
+  the desk, cool blue window light behind. No floating particles.
+Framing: medium shot at desk level, camera slightly above Sol's eye height.
+  Camera move: starts wider and a little to Sol's left, then pushes in and arcs
+  about 20 degrees around toward the candle as he tips it, ending close on the
+  leaning candle and upright flame with Sol still in frame. Positions below are
+  for the END of the move.
+  Sol at x=36%, feet on the desk at y=72%, height about 26%. Candle at x=62%, flame
+  around y=48%. Lower fifth quiet for captions.
+First frame: Sol stands three-quarter toward the candle, both eyes visible, arms
+  low. Candle upright, flame a steady upright teardrop.
+Action: Sol reaches the near arm to the brass dish and pushes it once (0.4–1.4s) so
+  the candle leans about 25 degrees away from him. The flame stays straight up the
+  whole time, hinged at the wick. Sol leans his own body the same way to compare,
+  with a small tip wobble that settles by 2.4s, then holds, looking at the flame.
+  One brief blink allowed.
+Speaker attention: only Sol speaks. No upward look needed.
+Sol: "Why does a candle flame always point up, even when I tip it?"
+Last frame: candle leaning, flame vertical, Sol leaning with one arm still on the
+  dish, feet flat.
+Next cut: hard cut to a close-up of the same flame, upright again.
+Blender: 120 frames. Gray Sol, gray cylinder candle on a dish that pivots at its
+  base edge, a small teardrop for the flame parented to the wick but with rotation
+  locked to world-up. Spiral hangs still.
+
+------------------------------------------------------------------------------
+CLIP 02 — Hot air spins the spiral — about 7.5s
+------------------------------------------------------------------------------
+Teaching purpose: hot air rises, and here is proof you can see.
+Setting: same desk, candle upright. Sol is out of frame.
+Framing: close-up, low angle looking slightly up. Flame at x=50%, y=64%. The paper
+  spiral (cream paper, orange underside) hangs above it, filling y=18%–46%. Dark
+  blue window behind so the pale paper reads.
+  Camera move: starts tight on the flame alone, then cranes straight up and tilts
+  with the rising air to find the spiral just as it starts turning (about 2.5s),
+  and ends with flame low and spiral filling the top half. Positions above are
+  for the END of the move.
+First frame: flame steady. Spiral hanging completely still.
+Action: 0–2.5s the spiral stays still while a soft warm shimmer builds above the
+  flame tip. At about 2.5s (on "so it rises") the spiral starts to turn, slowly at
+  first, then up to a steady spin by 4.5s and keeps going to the end. The thread
+  twists a little. Flame flickers only at its tip, base fixed on the wick.
+Speaker attention: Sol is off screen, so no gaze cue.
+Narrator: "Because the flame heats the air around it. Hot air is lighter, so it
+  rises, and you can see it spin this paper spiral."
+Last frame: spiral mid-spin, flame steady.
+Next cut: cut down to the base of the flame.
+Blender: 226 frames. Gray teardrop flame, gray helix strip for the spiral with a
+  stepped Z rotation that eases in from frame 76. No Sol.
+
+------------------------------------------------------------------------------
+CLIP 03 — Cool air slides in underneath — about 6.5s
+------------------------------------------------------------------------------
+Teaching purpose: the other half of the loop. Air comes in low, goes out high, and
+  that stream is what stretches the flame.
+Setting: same desk. An incense stick in a tiny clay holder stands a hand-width to
+  the left of the candle, giving off one thin pale thread of smoke. Sol is out of
+  frame.
+Framing: tight close-up at wick height, level camera. Wick at x=56%, y=66%. Incense
+  tip at x=24%, y=62%. Room above the flame to see the smoke get carried up.
+  Camera move: starts on the incense tip, slides sideways with the smoke thread to
+  the base of the flame, then tilts up a little as the smoke gets swept upward.
+  Positions above are for the END of the move.
+First frame: the smoke thread rises straight up from the incense tip, not yet near
+  the candle.
+Action: 0–2.5s the smoke thread bends sideways, low, toward the base of the flame
+  (on "slides in at the bottom"). 2.5–4.5s it reaches the base, turns the corner and
+  gets swept straight up along the side of the flame. As it does, the flame visibly
+  stretches a little taller and narrower into a clean teardrop. Holds that state to
+  the end with the smoke flowing along the same path.
+Speaker attention: Sol is off screen, so no gaze cue.
+Narrator: "Cooler air slides in at the bottom to replace it. That rising stream
+  pulls the flame into a teardrop."
+Last frame: smoke path in an L shape, in low and out high. Tall teardrop flame.
+Next cut: hard cut to space.
+Blender: 196 frames. Gray teardrop with a stepped scale change (wider to taller),
+  a gray curve for the smoke thread whose control points are keyed along the L path.
+Note: the smoke is incense smoke from its own stick. It is not coming off Sol.
+
+------------------------------------------------------------------------------
+CLIP 04 — No up, blue ball — about 8.0s
+------------------------------------------------------------------------------
+Teaching purpose: the test. Remove rising air and the teardrop goes away.
+Setting: inside a small space-station module. Cream padded walls, a round window
+  with the blue curve of Earth, a floating pencil and a floating paper spiral
+  drifting slowly. On a workbench, a clear sealed experiment box holding a short
+  candle. Cool white cabin light, the flame adding a faint blue glow on the glass.
+Framing: medium shot, camera slightly above Sol. Sol stands on the workbench at
+  x=30%, feet at y=70% tucked under a small foot strap (he stays planted, no
+  floating), height about 24%. Experiment box at x=64%, flame at y=50%. Window
+  upper right.
+  Camera move: a slow weightless drift, orbiting about 30 degrees around the
+  experiment box with a slight roll, pushing in on the flame as it turns into the
+  blue ball. Sol stays in frame the whole time. Positions above are for the
+  START of the move.
+First frame: Sol faces the box, near arm half raised toward it. The candle flame is
+  a normal small orange teardrop that is just starting to shrink.
+Action: 0–1.6s Sol finishes a small questioning arm lift toward the box while he
+  speaks. 1.6–2.4s he tilts his whole body back to look up at the Narrator point
+  above camera and settles, arms lowering. From 2.4s to about 5.0s the flame rounds
+  off and dims from orange teardrop to a small soft blue ball sitting on the wick,
+  then stays that way. Pencil and spiral keep drifting slowly. Sol keeps a gentle
+  listening idle, looking up, to the end.
+Speaker attention: Sol's line 0.1–1.5s. Gaze up ready by 2.4s. Narrator 2.6–7.6s
+  (provisional). Sol keeps looking up for the whole Narrator line.
+Sol: "What if there's no up?"
+Narrator: "In orbit, hot air doesn't rise. The flame just sits there as a little
+  blue ball."
+Last frame: blue ball flame, Sol tilted up, feet under the strap, arms low.
+Next cut: hard cut back to the desk.
+Blender: 240 frames. Gray Sol with a stepped body pitch for the look up (whole body
+  and face together, eyes not reshaped). Flame proxy morphs from teardrop to sphere.
+  Two small drifting props on slow stepped paths.
+Accuracy note: real candle tests in orbit were done in sealed boxes like this, and
+  the flames came out round, dim and blue because fresh air only reaches them slowly.
+
+------------------------------------------------------------------------------
+CLIP 05 — Sol gets it — about 5.0s
+------------------------------------------------------------------------------
+Teaching purpose: answer the opening question with the same action that asked it.
+Setting and framing: same desk as clip 01. Candle upright, spiral spinning steadily
+  above it.
+  Camera move: starts close on Sol's arm and the candle dish, then pulls back and
+  rises as his other arm sweeps up, revealing the spinning spiral above, and ends
+  on a medium shot holding Sol, candle and spiral together.
+First frame: Sol beside the candle, near arm already on the brass dish.
+Action: 0–1.2s Sol tips the candle again, the flame stays vertical. 1.2–2.6s he
+  lifts his other arm and sweeps it once straight up along the path from the flame
+  to the spinning spiral, small tip wobble, settle. 2.8–3.4s he tilts his body up
+  toward the Narrator point and holds a gentle listening idle through "Exactly."
+Speaker attention: Sol's line 0.1–2.6s. Gaze up ready by 3.4s. Narrator 3.6–4.4s
+  (provisional). Hold the picture to 5.0s.
+Sol: "So up is just where the hot air goes."
+Narrator: "Exactly."
+Last frame: candle leaning, flame up, spiral spinning, Sol looking up, feet flat.
+End: stop after the full "Exactly." No end card unless you want one.
+Blender: 150 frames. Reuse the clip 01 scene file, new pose and camera keys.
+
+------------------------------------------------------------------------------
+THINGS FOR ELAINE TO DECIDE
+------------------------------------------------------------------------------
+1. Topic and dialogue: keep, change, or swap the topic.
+2. Space clip: is Sol in the station OK, or should clip 04 be a cutaway with no Sol?
+3. End card: none (like the fire video) or an enrollment still.
+4. Reusing a frame of the accepted clip 01 as a room reference for 02, 03 and 05.

@@ -51,6 +51,28 @@ eyes, short rounded arms and stubby feet; paint must preserve their design.
 Never record frame approval on the user's behalf. Preserve all existing media.
 
 
+**Sol and script direction (Elaine, 2026-11-25):** Sol is ROUND and plump, a gumdrop-like body (her words: "a gumdrop shape"), like the
+mascot images in `~/Documents/Ignite Website/public/mascots/`; use those as
+identity references. Sol is SILENT: no Sol voice, Narrator only. Scripts are
+interactive: the Narrator talks to Sol and reacts to what he does, and Sol
+answers by acting (demonstrating, looking up, a nod). Shots use planned dynamic
+camera moves animated in the Blender skeleton. Details in
+`workflow/guidelines/checklist.md`.
+
+**Motion update (Elaine, 2026-11-25, later the same day):** "lets just remove the
+2 frame choppy step." NO on-twos stepping any more: smooth painted motion, smooth
+skeleton keys. This supersedes the on-twos lines above and the cadence parts of
+the motion policy below. Also keep one paint style across every clip of an
+episode by passing the same style reference frame to each paint pass.
+
+**3D Sol model (Elaine, 2026-11-25):** `workflow/assets/sol-3d/` holds a 3D Sol made her way:
+Logo.png's real outline traced and inflated, the logo art wrapped on the front, separate legs and
+arms sharing Mascot.png's tapered leg shape. Use it (and `sol-turnaround.png`) as the Sol reference
+and do not rebuild Sol by hand. APPROVED by Elaine 2026-11-25 ("that is what i want, lets save that");
+the frozen copy is `assets/sol-3d/approved-2026-11-25/`. Read `guidelines/sol-3d-model.md` first. A body-only logo
+version is saved beside it as `sol-logo.blend`. Legs are read exactly off Mascot.png (blunt
+rounded tips, not pointy); arms are that same shape, longer. Not yet used in any clip.
+
 ## Exact motion policy
 
 Follow workflow/guidelines/video-style-guide.md#motion-style from the repository

@@ -20,9 +20,9 @@ python3 workflow/scripts/shorts.py check calculus_pilot
 New episodes start with a 30-second target and painted 9:16 visuals. New skits
 use Arthur as the off-screen Narrator and the user's Higgsfield custom voice
 **Sol** for Sol, as recorded in the [shared voice cast](workflow/config/voices.json).
-Existing episode overrides are preserved. The root `music/` and
-`zack-d-films-ai-video-generator/` links keep older paths working; use the
-canonical folders under `workflow/` for new work.
+Existing episode overrides are preserved. Everything lives under `workflow/`;
+the old root shortcut links (`music/`, `scripts/`, `zack-d-films-ai-video-generator/`
+and so on) were removed on 2026-11-25, so use the `workflow/...` paths.
 
 The [workspace move record](workflow/migration/workspace-2026-11-13/README.md)
 lists the initial consolidation. The [Remotion move record](workflow/migration/workspace-2026-11-13-remotion/README.md)

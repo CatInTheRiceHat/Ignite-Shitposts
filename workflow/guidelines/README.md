@@ -2,6 +2,9 @@
 
 Read these before writing or generating an episode:
 
+**Sol himself:** use the approved [3D Sol model](sol-3d-model.md) (2026-11-25) as the character reference.
+It has the full Sol and a body-only logo version, with turnaround pictures in `sol-3d/`.
+
 Start with [Elaine's critique checklist](checklist.md), the running record of
 her current feedback. Read it before each prompt or media review and update it
 when she gives new critiques. Her later clarifications take precedence over

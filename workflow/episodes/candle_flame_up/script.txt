@@ -1,0 +1,127 @@
+WHY DOES A FLAME ALWAYS POINT UP? — SCRIPT V2 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-25: rewritten after Elaine's notes. Sol is silent and round (gumdrop),
+the Narrator talks to him and reacts to what he does, cameras move. Draft build at
+720p. Nothing here is approved. V1 (two voices) is kept as script-v1-two-voices.txt,
+audio/raw/ and clips/01-paint-v1*.mp4.
+
+About 37 seconds, 5 clips, 30 fps on twos. 76 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice.
+Takes: audio/v2/trim/ (dead air trimmed, speed untouched). Times below are measured.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  Narrator: "What are you doing, Sol?"
+      Sol is wiggling a candle back and forth. The flame stays straight up.
+      He looks up and holds the candle tipped, showing the Narrator.
+    Narrator: "Ohh, you must be wondering why the flame is still standing straight up."
+      Sol nods.
+02  Narrator: "It's the air. The flame heats it, and hot air rises. Slide that paper
+               spiral over it."
+      Sol watches the flame, then shuffles over and pushes the wire stand so the
+      paper spiral hangs above the flame. It starts to spin. He throws his arms up.
+    Narrator: "See? The rising air spins it."
+03  Narrator: "Down low, cooler air slides in to replace it. That upward stream
+               stretches the flame into a teardrop."
+      On "Down low" Sol ducks to desk level. Incense smoke bends in toward the base
+      of the flame, turns the corner and shoots up. Sol's gaze follows it up while
+      the flame stretches taller.
+04  Narrator: "But what if there's no up? In orbit, hot air doesn't rise, so the
+               flame becomes a little blue ball."
+      Space station. Sol looks up and shrugs, turns to the candle in its glass box,
+      watches the flame round off into a blue ball, leans in and touches the glass.
+05  Narrator: "So for a flame, up is just where the hot air goes. Got it?"
+      Sol tips the candle once more, sweeps his other arm up toward the spinning
+      spiral, looks up at the Narrator and nods.
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+1. Narrator takes first; clip lengths come from the real takes.
+2. Gray Blender skeleton per clip: skeleton/rig.py (round gumdrop Sol with close-set
+   eyes, arm nubs, feet; candle, stand, spiral, desk, space set) and skeleton/clips.py
+   (poses, timing, camera move). Everything keyed on twos with stepped keys and
+   verified: each frame pair is pixel-identical. Output skeleton/0N-skeleton-v2.mp4.
+3. Higgsfield paint pass: Gemini Omni Flash 1.2, mode edit, the gray clip as the video
+   reference, Mascot.png as the image reference. Draft pass at 720p (2.25 credits per
+   second, about 83 credits for the whole video; 1080p would be about 120).
+   Clip 01 is painted first and one of its frames is passed to 02, 03 and 05 so the
+   desk room matches.
+4. Conform each painted clip to 30 fps on twos (the model returns 24 fps with no
+   holds), lay the Narrator takes, captions and music, export.
+5. Review the real footage against this script.
+
+Sol and the Narrator: Sol looks UP when he is being spoken to or answering, and looks
+at the prop while he is demonstrating. That is my reading of Elaine's clip 01 example.
+
+------------------------------------------------------------------------------
+CLIP 01 — "What are you doing, Sol?" — 7.0s
+------------------------------------------------------------------------------
+Teaching purpose: the puzzle. The candle leans, the flame does not.
+Set: cozy desk at night, frosty window. Candle in a brass dish. A wire stand with the
+  paper spiral stands behind and to the right, spiral still.
+Camera: starts wide and left, pushes in and arcs right to a medium shot of Sol and the
+  candle (0-3s), then keeps creeping in.
+Action: 0.1-1.35 Sol tips the candle, lets it back, tips it again. 1.45-2.15 he tilts
+  back and looks up, candle still tipped, far arm popping up once. Holds, listening.
+  6.4-6.95 one nod.
+Narrator: "What are you doing, Sol?" 0.15-1.35
+Narrator: "Ohh, you must be wondering why the flame is still standing straight up." 2.5-6.35
+
+------------------------------------------------------------------------------
+CLIP 02 — hot air spins the spiral — 9.2s
+------------------------------------------------------------------------------
+Teaching purpose: hot air rises, and you can see it turn something.
+Set: same desk. Sol now on the right, next to the stand.
+Camera: starts tight on the flame, then pulls back and cranes up (2.6-5.8s) to hold
+  the spiral, candle and Sol together.
+Action: Sol watches the flame, eyes drifting up on "hot air rises". 4.5-6.0 he
+  shuffles left pushing the stand until the spiral hangs over the flame. 6.1 the spiral
+  starts turning, full speed by 7.1. 6.9-7.7 both arms up, looking at the spiral.
+Narrator: "It's the air. The flame heats it, and hot air rises. Slide that paper spiral
+  over it." 0.15-6.2
+Narrator: "See? The rising air spins it." 6.6-8.9
+
+------------------------------------------------------------------------------
+CLIP 03 — cool air slides in underneath — 7.6s
+------------------------------------------------------------------------------
+Teaching purpose: the other half of the loop. In low, out high, and that stream is what
+  stretches the flame.
+Set: same desk. An incense stick in a small dish stands left of the candle, giving off
+  one thin thread of smoke. Sol stands left of the incense. Spiral spinning above.
+Camera: slides right from the incense toward the flame (0.2-3.2s), then pulls back and
+  tilts up as the smoke climbs.
+Action: 0.35-1.0 Sol ducks low. 0.6-2.8 the smoke bends sideways toward the base of the
+  flame. 2.9-4.5 it turns the corner and streams up the side of the flame. 4.0-5.5 the
+  flame stretches taller and Sol straightens, following the smoke up.
+Narrator: "Down low, cooler air slides in to replace it. That upward stream stretches
+  the flame into a teardrop." 0.2-7.1
+Note: the smoke is from the incense stick, not from Sol.
+
+------------------------------------------------------------------------------
+CLIP 04 — no up, blue ball — 7.6s
+------------------------------------------------------------------------------
+Teaching purpose: the test. Take away rising air and the teardrop goes away.
+Set: small space-station module, round window with Earth, a floating pencil and paper
+  spiral. Sol stands on a workbench with his feet under a strap. A short candle sits in
+  a clear sealed box beside him.
+Camera: slow weightless drift, orbiting right and pushing in.
+Action: 0.4-1.5 Sol looks up and shrugs. 1.6-2.4 he turns to the box. 2.6-5.0 the flame
+  rounds off from orange teardrop to a small dim blue ball. 5.0-5.8 Sol leans in and
+  rests an arm on the glass.
+Narrator: "But what if there's no up? In orbit, hot air doesn't rise, so the flame
+  becomes a little blue ball." 0.2-6.9
+Accuracy: real candle tests in orbit were done in sealed boxes and gave round, dim, blue
+  flames.
+
+------------------------------------------------------------------------------
+CLIP 05 — Sol gets it — 5.6s
+------------------------------------------------------------------------------
+Teaching purpose: answer the opening question with the same action that asked it.
+Set: desk, as clip 01, with the spiral now spinning over the candle.
+Camera: starts close on Sol and the candle, pulls back and rises to show the spiral.
+Action: 0.3-1.1 Sol tips the candle, flame stays up. 1.7-2.8 his far arm sweeps straight
+  up toward the spiral. 3.3-3.9 he looks up at the Narrator. 4.65-5.2 one nod.
+Narrator: "So for a flame, up is just where the hot air goes. Got it?" 0.2-4.8
+End: stop after the nod. No end card unless Elaine asks for one.
