@@ -1,0 +1,6 @@
+OVLSEQ {'scene': 'due_5', 'objects': 89, 'frames': 110}
+OVLSEQ {'scene': 'due_7', 'objects': 43, 'frames': 127}
+OVLSEQ {'scene': 'due_8', 'objects': 66, 'frames': 240}
+OVERLAYS ['OVL_plan_a', 'OVL_plan_b'] {}
+MASK {'scene': 'due_5', 'objects': 89, 'frames': 110}
+MASK {'scene': 'due_5', 'objects': 89, 'frames': 110}

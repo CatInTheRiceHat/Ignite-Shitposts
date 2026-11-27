@@ -28,3 +28,12 @@ workflow/vendor/**/out/**/*.jpg
 workflow/episodes/**/jobs/useapi/
 workflow/episodes/**/keyframes/blocking/useapi/
 _to-delete/
+
+# Completed delivery copies stay local (the folder moved here from workflow/completed/ on 2026-11-26,
+# where workflow/.gitignore already kept its MP4s out of git).
+/completed/*.mp4
+
+# Per-frame lettering passes (about 600 MB of PNGs for one ad). Rebuilt exactly by
+# skeleton/render_clip.py with MODE=ovlseq, so they stay local like renders/ and clips/.
+workflow/episodes/all_due_this_week/overlays/*/seq/
+workflow/episodes/all_due_this_week/overlays/*/seq-v1/

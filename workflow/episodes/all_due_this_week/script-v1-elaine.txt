@@ -1,0 +1,322 @@
+IGNITE x SOL: "ALL DUE THIS WEEK"
+Resilience & Stress Management ad, script v1 (shooting script)
+
+(Elaine's script, pasted 2026-11-26, kept word for word. Production notes are in script.txt.)
+
+====================================================================
+SPECS
+====================================================================
+Format:      LANDSCAPE 16:9 (1920 x 1080). Built for landscape, not
+             cropped from vertical.
+Where it runs: YouTube, the Ignite website, school presentations,
+             Google in-stream ads.
+Length:      About 40 seconds
+Narrator:    Arthur (only voice). Sol is silent and answers by acting.
+Course:      Resilience & Stress Management (developer: Emma Zhou)
+Ending:      Sol nods on the last clip and holds.
+Captions:    Must match the narration below word for word. Any take that
+             differs gets regenerated, not cut around.
+Pacing:      Narration is never sped up. If a take runs long, extend the
+             clip.
+
+
+====================================================================
+THE STORY IN ONE LINE
+====================================================================
+Sol has way too much due this week. Arthur gives him five tips from the
+course, and each one clears part of the pile, until the week looks
+doable.
+
+Opening question: Is all of this due this week? (Sol nods, purple)
+Ending question:  Does this week feel doable now? (Sol nods, orange)
+
+
+====================================================================
+THE LANDSCAPE LAYOUT (use in every clip)
+====================================================================
+- SOL ON THE LEFT THIRD. THE STRESS ON THE RIGHT TWO THIRDS.
+- The right side is where each tip does its work: sorting, shrinking,
+  lighting up, getting replaced.
+- Across the video the right side goes from cluttered to calm. The
+  final frame should feel almost empty and balanced.
+- Captions: lower third, centered. Nothing important in the bottom
+  10% of the frame.
+
+Note: this layout does NOT crop well to 9:16. If you also want a
+vertical version, stack it instead (Sol on the bottom, stress on top)
+and regenerate the clips.
+
+
+====================================================================
+CHARACTER NOTES
+====================================================================
+- Sol: flame mascot, no mouth, no eyebrows. Emotion comes from the
+  eyes, body (hops, leans, nods) and flame color.
+- Use ONLY expressions from expression sheet v3, by exact name:
+    Normal / Blink / Looking to the side / Looking up /
+    > < squeezed shut / O O surprised / Sparkles /
+    Surprised, mid-bounce / Worried / Shocked: worried + O O /
+    Worried, from the side / Shocked, other side
+- Flame color arc (same system as the science ad, so the two read as
+  a series):
+    Starts already part purple -> full purple at the shock (0:04) ->
+    the breathing tip (Clip 4) is where most of the purple drains ->
+    one quick purple flicker at Tip 5 -> full, brightest orange with
+    Sparkles at the end.
+- "Shocked" is used only once (Clip 1).
+- Props: one simple prop per clip. Actions stick to tap, nudge, point,
+  lean in, hop, nod.
+
+
+====================================================================
+LOCK THIS FIRST: THE PILE (before and after)
+====================================================================
+BEFORE (Clips 1 and 2), a messy stack on the right side of Sol's desk:
+  - A worksheet stack labeled "Math homework"
+  - A calendar page that says "TEST FRIDAY"
+  - A blank poster board labeled "Group project"
+  - Piano sheet music
+  - A soccer ball on top
+
+AFTER (Clip 8), the same desk, right side now calm:
+  - The math homework in one neat, short stack with a check mark
+  - A sticky note on the desk: "Plan B"
+  - The calendar page pinned to the wall, small, not on the desk
+  - Everything else gone (put away)
+  - The end card (below) slides in over this empty space at 0:34
+
+
+====================================================================
+LOCK THIS FIRST: THE END CARD (Clip 8, right two thirds)
+====================================================================
+- Rounded orange card, same orange as the Ignite site, slides in from
+  the right at 0:34 and covers the right two thirds of the frame.
+- Top of the card: the course art (Sol meditating by the pond).
+- Under it: "Resilience & Stress Management"
+- Big text: "Join Ignite today!"
+- Small text: "Link in description"
+- Sol stays visible on the left third the whole time and does his
+  final nod NEXT TO the card. The nod is the last thing that happens,
+  so the episode still ends on Sol nodding.
+- The card text is on screen only, not narrated, so it doesn't affect
+  the caption match.
+- "Link in description" only works on YouTube. For the website or a
+  presentation, swap that line for:
+    forms.ignitefindyourfire.org/t/oqB8WMKbJ6us
+  (or a short link like ignitefindyourfire.org/join if you set one up)
+- Link for the YouTube description / ad settings:
+    https://forms.ignitefindyourfire.org/t/oqB8WMKbJ6us
+  Don't paste the "?gclid=..." part anywhere. Google Ads adds it to
+  the link by itself when someone clicks the ad.
+
+
+====================================================================
+CLIP BY CLIP
+====================================================================
+
+--------------------------------------------------------------------
+CLIP 1: HOOK                                          0:00 to 0:05
+--------------------------------------------------------------------
+SET:     Bedroom desk. Sol on the left. The full "before" pile on the
+         right.
+CAMERA:  Wide, eye level, static.
+ACTION:  Sol points at the pile. One more worksheet drops onto the top
+         of it. Sol nods.
+EXPRESSIONS:
+  0:00  Worried (flame already partly purple)
+  0:02  Looking to the side (at the pile)
+  0:03  Shocked: worried + O O   (as the extra sheet lands, flame goes
+        full purple)
+  0:04  Nod, in Worried
+NARRATION:
+  "Sol, what's all that? Wait, is all of this due this week?"
+
+--------------------------------------------------------------------
+CLIP 2: SETUP                                         0:05 to 0:08
+--------------------------------------------------------------------
+SET:     Same bedroom desk.
+CAMERA:  Slow push in on Sol (pile stays visible on the right).
+ACTION:  Sol leans in toward camera, bracing himself.
+EXPRESSIONS:
+  0:05  Worried (full purple)
+  0:07  > < squeezed shut
+NARRATION:
+  "Okay, here are five things that'll help."
+
+--------------------------------------------------------------------
+CLIP 3: TIP 1, CONTROL / INFLUENCE / ACCEPT           0:08 to 0:14
+--------------------------------------------------------------------
+SET:     Bedroom floor. Three open cardboard boxes in a row on the
+         right, labeled "Control," "Influence," "Accept."
+CAMERA:  Wide, slightly high angle so all three boxes read clearly.
+PROP:    One item at a time from the pile.
+ACTION:  Sol nudges the math homework into "Control," points the group
+         project poster into "Influence," and the "TEST FRIDAY" page
+         floats into "Accept." Each box gives a small bounce as it
+         lands.
+EXPRESSIONS:
+  0:08  Looking to the side (at the boxes)
+  0:11  Normal
+  0:13  Blink
+  Flame: still purple
+NARRATION:
+  "First, sort it into what you control, what you can influence, and
+  what you have to accept."
+
+--------------------------------------------------------------------
+CLIP 4: TIP 2, SLOW BREATHS                           0:14 to 0:19
+--------------------------------------------------------------------
+SET:     The pond garden from the course card art: Sol sitting on the
+         mossy rock, fall leaves, stone lantern, the pond filling the
+         right side of the frame. (Empty on purpose. This is the
+         calmest frame in the video, and it previews the end card.)
+CAMERA:  Medium, static, soft warm light. A leaf drifts down onto the
+         water during the second breath.
+ACTION:  Sol's flame slowly swells and shrinks three times, like
+         breathing. With each breath, purple drains out of the flame.
+EXPRESSIONS:
+  0:14  > < squeezed shut (eyes closed, first breath in)
+  0:16  Blink
+  0:18  Normal   (flame mostly orange now)
+NARRATION:
+  "Second, take a few slow breaths so your body can calm down."
+
+--------------------------------------------------------------------
+CLIP 5: TIP 3, ONE THING FIRST                        0:19 to 0:23
+--------------------------------------------------------------------
+SET:     Kitchen table. On the right: three items in a row (math
+         homework, group project poster, piano sheet music).
+CAMERA:  Medium, eye level.
+ACTION:  Sol points at the math homework. It lights up; the other two
+         dim and slide slightly back.
+EXPRESSIONS:
+  0:19  Looking to the side
+  0:21  O O surprised (as the homework lights up)
+  0:22  Normal
+NARRATION:
+  "Third, pick the one thing that matters most and start there."
+
+--------------------------------------------------------------------
+CLIP 6: TIP 4, BACKUP PLAN                            0:23 to 0:28
+--------------------------------------------------------------------
+SET:     The hallway whiteboard (same one from the science ad, so the
+         series connects). On the right side of the board: "Plan A:
+         finish project Thursday."
+CAMERA:  Medium, slight low angle.
+PROP:    Marker.
+ACTION:  Sol taps the board under Plan A. "Plan B: ask my group to
+         split the poster" appears. Sol hops.
+EXPRESSIONS:
+  0:23  Looking to the side (reading Plan A)
+  0:25  Normal (tap)
+  0:26  Surprised, mid-bounce (hop)
+  Flame: orange
+NARRATION:
+  "Fourth, have a backup plan, so one thing going wrong doesn't wreck
+  everything."
+
+--------------------------------------------------------------------
+CLIP 7: TIP 5, LET IT BE MESSY                        0:28 to 0:33
+--------------------------------------------------------------------
+SET:     Desk, close. On the right: a sketch for the group poster.
+         Wobbly lines, crossed-out words, labeled "Rough draft."
+CAMERA:  Close on Sol and the sketch together.
+PROP:    The rough-draft sketch.
+ACTION:  Sol looks at the messy sketch and hesitates. Then he taps it
+         and slides it forward like it's done.
+EXPRESSIONS:
+  0:28  Worried   (quick purple flicker: the urge to make it perfect)
+  0:30  Blink
+  0:31  Normal    (back to orange)
+NARRATION:
+  "And fifth, let your first try be messy. Rough drafts are supposed
+  to be rough."
+
+--------------------------------------------------------------------
+CLIP 8: PAYOFF                                        0:33 to 0:40
+--------------------------------------------------------------------
+SET:     Back at the bedroom desk, same angle as Clip 1. The "after"
+         version of the desk (see "Lock this first").
+CAMERA:  Wide, same framing as Clip 1 so the before/after is obvious.
+ON SCREEN: The orange end card slides in on the right at 0:34 (see
+         "Lock this first: the end card"). Card text is on screen only,
+         not spoken.
+ACTION:  Sol hops once. The end card slides in beside him. He looks up
+         at the camera and nods. Hold on Sol's nod with the card on
+         screen to the end.
+EXPRESSIONS:
+  0:33  Surprised, mid-bounce
+  0:35  Sparkles   (full, brightest orange)
+  0:37  Looking up
+  0:38  Nod, in Sparkles, held to the end
+NARRATION:
+  "Ignite's free Resilience and Stress Management course teaches all of
+  this and more. So, does this week feel doable now?"
+
+
+====================================================================
+FULL NARRATION / CAPTION TEXT (word for word)
+====================================================================
+Sol, what's all that? Wait, is all of this due this week?
+
+Okay, here are five things that'll help.
+
+First, sort it into what you control, what you can influence, and what
+you have to accept.
+
+Second, take a few slow breaths so your body can calm down.
+
+Third, pick the one thing that matters most and start there.
+
+Fourth, have a backup plan, so one thing going wrong doesn't wreck
+everything.
+
+And fifth, let your first try be messy. Rough drafts are supposed to
+be rough.
+
+Ignite's free Resilience and Stress Management course teaches all of
+this and more. So, does this week feel doable now?
+
+Word count: 107 (about 36 seconds of speech at a natural pace)
+
+
+====================================================================
+WHERE EACH TIP COMES FROM IN THE COURSE
+====================================================================
+Tip 1  Control / Influence / Accept   -> Week 1, "Control, Influence,
+                                          Accept"
+Tip 2  Slow breaths                   -> Week 2, "Stress Management
+                                          Techniques" (CONFIRM, see
+                                          checklist)
+Tip 3  One thing first                -> Week 3, "Getting Priorities
+                                          Straight"
+Tip 4  Backup plan                    -> Week 3, "Plan A, B, & C"
+Tip 5  Let it be messy                -> Week 4, "Perfectionism" and
+                                          "A Very Rough Draft"
+
+
+====================================================================
+GENERATION NOTES
+====================================================================
+- Hard cuts between scenes. Start Sol already in place in each scene.
+- Clips 1 and 8 must use the exact same camera angle so the before
+  and after reads instantly.
+- The whiteboard in Clip 6 should match the science ad's whiteboard.
+- Keep lighting and color style consistent so the house reads as one
+  place (and the same house as the science ad).
+- Every take gets transcribed and compared to the caption text above.
+  If a word is different, regenerate the take.
+
+
+====================================================================
+CHECK BEFORE GENERATING
+====================================================================
+[ ] Ask Emma whether slow breathing is one of the Week 2 techniques.
+    The last line says the course "teaches all of this," so it has to
+    be true. If breathing isn't in there, swap Tip 2 for one of her
+    actual Week 2 techniques.
+[ ] The course is asynchronous (lessons plus weekend mentor office
+    hours). The narration doesn't claim live classes, so keep it
+    that way if you edit the last line.
+[ ] "Before" and "after" pile designs locked.
+[ ] Goggles: all clips or none.

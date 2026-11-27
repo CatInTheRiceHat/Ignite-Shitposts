@@ -1,0 +1,489 @@
+{
+ "out": "all-due-this-week-v4-web.mp4",
+ "width": 1920,
+ "height": 1080,
+ "caption_size": 72,
+ "caption_stroke": 9,
+ "music": {
+  "file": "No More What Ifs -instrumental version- 4.mp3",
+  "start": 0.0,
+  "gain": 0.1
+ },
+ "voice_dir": "audio/edit",
+ "sfx_dir": "../candle_flame_up/audio/sfx",
+ "caption_y": 745,
+ "caption_max_width": 1500,
+ "caption_max_chars": 34,
+ "clips": [
+  [
+   "01-comp.mp4",
+   4.83
+  ],
+  [
+   "02-comp.mp4",
+   3.5
+  ],
+  [
+   "03-comp.mp4",
+   5.33
+  ],
+  [
+   "04-comp.mp4",
+   5.0
+  ],
+  [
+   "05-comp.mp4",
+   4.58
+  ],
+  [
+   "06-comp.mp4",
+   5.5
+  ],
+  [
+   "07-comp.mp4",
+   5.29
+  ],
+  [
+   "08-comp-web.mp4",
+   10.0
+  ]
+ ],
+ "voice": [
+  {
+   "take": "01a.wav",
+   "clip": 0,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     1.2,
+     "Sol, what's all that?"
+    ]
+   ]
+  },
+  {
+   "take": "01b.wav",
+   "clip": 0,
+   "start": 1.98,
+   "phrases": [
+    [
+     0.0,
+     0.38,
+     "Wait,"
+    ],
+    [
+     0.38,
+     2.02,
+     "is all of this due this week?"
+    ]
+   ]
+  },
+  {
+   "take": "02.wav",
+   "clip": 1,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     0.86,
+     "Okay,"
+    ],
+    [
+     0.86,
+     3.16,
+     "here are five things that'll help."
+    ]
+   ]
+  },
+  {
+   "take": "03.wav",
+   "clip": 2,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     0.72,
+     "First,"
+    ],
+    [
+     0.72,
+     2.12,
+     "sort it into what you control,"
+    ],
+    [
+     2.62,
+     3.76,
+     "what you can influence,"
+    ],
+    [
+     3.76,
+     5.08,
+     "and what you have to accept."
+    ]
+   ]
+  },
+  {
+   "take": "04.wav",
+   "clip": 3,
+   "start": 0.25,
+   "phrases": [
+    [
+     0.0,
+     0.4,
+     "Second,"
+    ],
+    [
+     0.86,
+     2.76,
+     "take a few slow breaths so your"
+    ],
+    [
+     2.76,
+     4.22,
+     "body can calm down."
+    ]
+   ]
+  },
+  {
+   "take": "05.wav",
+   "clip": 4,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     0.78,
+     "Third,"
+    ],
+    [
+     0.78,
+     2.18,
+     "pick the one thing that matters"
+    ],
+    [
+     2.18,
+     4.16,
+     "most and start there."
+    ]
+   ]
+  },
+  {
+   "take": "06.wav",
+   "clip": 5,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     0.54,
+     "Fourth,"
+    ],
+    [
+     1.02,
+     2.2,
+     "have a backup plan,"
+    ],
+    [
+     2.2,
+     3.36,
+     "so one thing going wrong"
+    ],
+    [
+     3.36,
+     5.08,
+     "doesn't wreck everything."
+    ]
+   ]
+  },
+  {
+   "take": "07.wav",
+   "clip": 6,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     0.48,
+     "And fifth,"
+    ],
+    [
+     0.96,
+     2.42,
+     "let your first try be messy."
+    ],
+    [
+     2.9,
+     4.0,
+     "Rough drafts are supposed to"
+    ],
+    [
+     4.0,
+     4.64,
+     "be rough."
+    ]
+   ]
+  },
+  {
+   "take": "08a.wav",
+   "clip": 7,
+   "start": 0.2,
+   "phrases": [
+    [
+     0.0,
+     2.42,
+     "Ignite's free Resilience and"
+    ],
+    [
+     2.42,
+     3.7,
+     "Stress Management course"
+    ],
+    [
+     3.7,
+     6.24,
+     "teaches all of this and more."
+    ]
+   ]
+  },
+  {
+   "take": "08b.wav",
+   "clip": 7,
+   "start": 6.5,
+   "phrases": [
+    [
+     0.0,
+     1.98,
+     "So, does this week feel"
+    ],
+    [
+     1.98,
+     2.98,
+     "doable now?"
+    ]
+   ]
+  }
+ ],
+ "sfx": [
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   0,
+   0.58,
+   0.35
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.64,
+   1.76,
+   0,
+   1.03,
+   0.35
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   0,
+   1.93,
+   0.28
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   0,
+   4.08,
+   0.35
+  ],
+  [
+   "squeaks-tiny.mp3",
+   0.5,
+   0.74,
+   1,
+   2.4,
+   0.35
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   2,
+   1.55,
+   0.35
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   2,
+   2.28,
+   0.24
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.64,
+   1.76,
+   2,
+   2.95,
+   0.35
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   2,
+   3.63,
+   0.24
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   2,
+   4.2,
+   0.14
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   2,
+   5.18,
+   0.2
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   3,
+   3.1,
+   0.12
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   4,
+   1.0,
+   0.35
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   4,
+   1.75,
+   0.24
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   4,
+   1.9,
+   0.28
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   5,
+   1.55,
+   0.28
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   5,
+   1.8,
+   0.35
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   5,
+   2.0,
+   0.16
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   5,
+   3.0,
+   0.28
+  ],
+  [
+   "squeaks-tiny.mp3",
+   0.5,
+   0.74,
+   6,
+   0.6,
+   0.25
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   6,
+   3.05,
+   0.35
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   6,
+   4.35,
+   0.35
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   7,
+   0.36,
+   0.28
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   7,
+   1.05,
+   0.22
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   7,
+   2.0,
+   0.2
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   7,
+   2.1,
+   0.35
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.81,
+   2.91,
+   7,
+   2.75,
+   0.35
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   7,
+   9.2,
+   0.35
+  ]
+ ]
+}

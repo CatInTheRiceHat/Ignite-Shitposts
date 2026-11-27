@@ -1,6 +1,6 @@
 """Render a short test clip of Sol changing emotion, with the bounce between each one.
 
-Run:  Blender -b sol-eyes.blend --python render_demo.py -- <frames_dir>
+Run:  Blender -b sol-eyes.blend --python render_demo.py -- <frames_dir> [v3|v4|burst]     (24 fps)
 """
 import bpy, math, os, sys
 
@@ -8,9 +8,13 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = sys.argv[sys.argv.index("--") + 1]
 os.makedirs(OUT, exist_ok=True)
 exec(compile(open(os.path.join(HERE, "eyes_rig.py")).read(), "eyes_rig.py", "exec"))
-FPS = 30
-TIMELINE = [(0.0, "normal"), (1.0, "squeeze"), (2.1, "surprised"), (3.2, "shocked"), (4.4, "worried"), (5.6, "sparkle"), (6.8, "normal")]
-END = 7.8
+FPS = 24
+# which run: "v3" is the approved first set; "v4" walks through the emotions added later on 2026-11-26
+SETS = {"v3": ([(0.0, "normal"), (1.0, "squeeze"), (2.1, "surprised"), (3.2, "shocked"), (4.4, "worried"), (5.6, "sparkle"), (6.8, "normal")], 7.8),
+        "v4": ([(0.0, "normal"), (0.9, "angry"), (2.1, "furious"), (3.4, "sad"), (4.5, "crying"), (5.8, "happy"), (6.8, "joy"),
+                (8.1, "awe"), (9.6, "idea"), (10.8, "confused"), (12.0, "panic"), (13.2, "asleep"), (14.6, "normal")], 15.6),
+        "burst": ([(0.0, "normal"), (0.8, "excited"), (2.2, "laughing"), (3.6, "amazed"), (5.0, "normal")], 5.8)}
+TIMELINE, END = SETS[sys.argv[sys.argv.index("--") + 2] if len(sys.argv) > sys.argv.index("--") + 2 else "v4"]
 
 sc = bpy.data.scenes.new("demo")
 bpy.context.window.scene = sc
@@ -28,8 +32,8 @@ sun.data.energy, sun.data.angle = 2.0, math.radians(25)
 sun.rotation_euler = (math.radians(50), 0, math.radians(-25))
 sc.collection.objects.link(sun)
 cam = bpy.data.objects.new("cam", bpy.data.cameras.new("cam"))
-cam.data.type, cam.data.ortho_scale = 'ORTHO', 1.3
-cam.location, cam.rotation_euler = (0, -3, 0.52), (math.radians(90), 0, 0)
+cam.data.type, cam.data.ortho_scale = 'ORTHO', 1.62
+cam.location, cam.rotation_euler = (0, -3, 0.60), (math.radians(90), 0, 0)
 sc.collection.objects.link(cam); sc.camera = cam
 eyes = find_eyes(bpy.data.objects)
 body = eyes["rig"].parent
@@ -39,10 +43,10 @@ for f in range(n):
     expr, squash, size, gloom = emotion_at(t, TIMELINE)
     # a natural blink while he is at rest, so the clip also shows blinking
     blink = 0.0
-    for b0 in (0.45, 7.3):
+    for b0 in (0.45, END - 0.5):
         if b0 <= t < b0 + 0.2:
             blink = math.sin((t - b0) / 0.2 * math.pi)
-    pose_eyes(eyes, expr, size=size, gloom=gloom, blink=blink if expr == "normal" else 0.0)
+    pose_eyes(eyes, expr, size=size, gloom=gloom, blink=blink if expr == "normal" else 0.0, t=t)       # t: the marks move
     body.scale = squash_scale(squash)
     sc.render.filepath = os.path.join(OUT, f"f_{f:04d}.png")
     bpy.ops.render.render(write_still=True)

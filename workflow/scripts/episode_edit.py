@@ -23,6 +23,9 @@ Optional (added for the "Due in 5 Minutes" ad, 2026-11-26; the defaults are the 
                        uses a higher band so captions stay out of the bottom fifth, where platform buttons sit.
   "caption_max_width": widest caption in px, default 960.   "caption_max_chars": default 15.
   "music": null        builds a cut with no music (voice and sound effects only).
+Optional (added for the landscape "All Due This Week" ad, 2026-11-26; the defaults are the vertical look):
+  "width", "height":   frame size, default 1080 x 1920.   "caption_size": font size in px, default 105.
+  "caption_stroke":    outline width in px, default 12.
 
 After building it checks the result and prints PASS/FAIL lines: length, picture and sound ending together, and no
 black at the end. It exits 1 if a check fails.
@@ -48,11 +51,13 @@ MAX_CHARS = CFG.get("caption_max_chars", 15)          # per caption line group a
 MAX_WIDTH = CFG.get("caption_max_width", 960)         # px at 1080 wide, outline included. 15 characters of wide letters ("know why coffee") overflow
                         # the frame, so a group is also split when it would be wider than this (coffee cut v2, 2026-11-26)
 from PIL import Image, ImageDraw, ImageFont
-font = ImageFont.truetype(str(FONTDIR / "RammettoOne-Regular.ttf"), 105)
+FW, FH = CFG.get("width", 1080), CFG.get("height", 1920)
+STROKE = CFG.get("caption_stroke", 12)
+font = ImageFont.truetype(str(FONTDIR / "RammettoOne-Regular.ttf"), CFG.get("caption_size", 105))
 
 
 def width(text):
-    return font.getlength(text) + 2 * 12
+    return font.getlength(text) + 2 * STROKE
 
 
 def chunks(text):
@@ -99,14 +104,14 @@ for take, ci, start, phrases in VOICE:
 # This ffmpeg build has no subtitle/drawtext filter, so each caption is a transparent PNG overlay.
 capdir = EP / "renders" / ("captions-" + OUT.stem)
 capdir.mkdir(parents=True, exist_ok=True)
-wide = [(round(width(t)), t) for _, _, t in events if width(t) > 1040]
+wide = [(round(width(t)), t) for _, _, t in events if width(t) > FW - 40]
 if wide:
     sys.exit(f"caption wider than the frame: {wide}")
 caps = []
 for i, (a_, b_, txt) in enumerate(events):
-    im = Image.new("RGBA", (1080, 300), (0, 0, 0, 0))
-    ImageDraw.Draw(im).text((540, 150), txt, font=font, fill="#FFFFFF", anchor="mm",
-                            stroke_width=12, stroke_fill="#F07B2A")
+    im = Image.new("RGBA", (FW, 300), (0, 0, 0, 0))
+    ImageDraw.Draw(im).text((FW // 2, 150), txt, font=font, fill="#FFFFFF", anchor="mm",
+                            stroke_width=STROKE, stroke_fill="#F07B2A")
     f = capdir / f"cap{i:02d}.png"
     im.save(f)
     caps.append((f, a_, b_))
@@ -129,7 +134,7 @@ for f, a_, b_, *_ in SFX:
 nv = len(CLIPS)
 fc = []
 for i, (_, d) in enumerate(CLIPS):
-    fc.append(f"[{i}:v]fps=24,trim=duration={d},setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,setsar=1[v{i}]")
+    fc.append(f"[{i}:v]fps=24,trim=duration={d},setpts=PTS-STARTPTS,scale={FW}:{FH}:flags=lanczos,setsar=1[v{i}]")
 fc.append("".join(f"[v{i}]" for i in range(nv)) + f"concat=n={nv}:v=1:a=0[vc]")
 prev = "vc"
 for i, (f, a_, b_) in enumerate(caps):

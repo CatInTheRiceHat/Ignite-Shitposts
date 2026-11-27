@@ -104,7 +104,7 @@ Mandatory script review: read the actual script/storyboard and per-scene speaker
 
 ## Completed exports
 
-Put a copy of each completed episode MP4 in `workflow/completed/`, named only
+Put a copy of each completed episode MP4 in `completed/` at the repository root (beside `workflow/`; Elaine moved it out of `workflow/` on 2026-11-26), named only
 with the episode title, for example `How Fire Was Discovered.mp4`. Omit version
 numbers and draft/review/final suffixes from these delivery filenames. Preserve
 the episode's original renders and edit history. Flag differing filename

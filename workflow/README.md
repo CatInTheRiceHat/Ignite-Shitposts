@@ -9,7 +9,7 @@ depends on the terminal's current directory.
 
 | Folder | Contents |
 | --- | --- |
-| [completed/](completed/) | Latest completed episode MP4s, named only with the episode title |
+| [../completed/](../completed/) | Latest completed episode MP4s, named only with the episode title (at the repository root since 2026-11-26) |
 | [guidelines/](guidelines/README.md) | Script structure, painted style, Sol rules and shot planning |
 | [episodes/](episodes/README.md) | Episode edits, scripts, plans, prompts, artwork, media, renders and custom compositions |
 | [assets/](assets/README.md) | Shared character/style references, reference artwork, fonts and music |

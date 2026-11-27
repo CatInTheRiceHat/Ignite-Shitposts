@@ -1,7 +1,7 @@
 """Render the expression sheet for Sol's separate eyes.
 
-Run:  Blender -b sol-eyes.blend --python render_expressions.py -- <out_dir>
-Writes one PNG per pose into out_dir; make_sheet.py lays them out with labels.
+Run:  Blender -b sol-eyes.blend --python render_expressions.py -- <out_dir> [pose names, to render only those]
+Writes one PNG per pose into out_dir; make_sheet.py <out_dir> <sheet.png> lays them out with labels.
 """
 import bpy, math, os, sys
 
@@ -27,7 +27,7 @@ sun.data.energy, sun.data.angle = 2.0, math.radians(25)
 sun.rotation_euler = (math.radians(50), 0, math.radians(-25))
 sc.collection.objects.link(sun)
 cam = bpy.data.objects.new("cam", bpy.data.cameras.new("cam"))
-cam.data.type, cam.data.ortho_scale = 'ORTHO', 1.18
+cam.data.type, cam.data.ortho_scale = 'ORTHO', 1.62          # wide enough for the marks that float around him
 sc.collection.objects.link(cam)
 sc.camera = cam
 eyes = find_eyes(bpy.data.objects)
@@ -36,26 +36,29 @@ body_rig = eyes["rig"].parent
 
 def view(deg):
     a = math.radians(deg)
-    cam.location = (3 * math.sin(a), -3 * math.cos(a), 0.5)
+    cam.location = (3 * math.sin(a), -3 * math.cos(a), 0.60)
     cam.rotation_euler = (math.radians(90), 0, a)
 
 
-POSES = [("01-normal", dict(expr="normal"), 0), ("02-blink", dict(expr="normal", blink=1.0), 0),
-         ("03-look-side", dict(expr="normal", look=(-1, 0)), 0), ("04-look-up", dict(expr="normal", look=(0, 1)), 0),
-         ("05-squeeze", dict(expr="squeeze"), 0), ("06-surprised", dict(expr="surprised"), 0),
-         ("07-sparkle", dict(expr="sparkle"), 0), ("08-worried", dict(expr="worried"), 0),
-         ("09-shocked", dict(expr="shocked"), 0), ("10-squeeze-34", dict(expr="squeeze"), -38),
-         ("11-worried-34", dict(expr="worried"), 38), ("12-shocked-34", dict(expr="shocked"), -38)]
-for name, kw, deg in POSES:
+# every expression from the front, then the extras: blink, glances, three-quarter views, one mid-bounce
+POSES = [(name, dict(expr=name), 0) for name in EXPRESSIONS]
+POSES += [("blink", dict(expr="normal", blink=1.0), 0), ("look-side", dict(expr="normal", look=(-1, 0)), 0),
+          ("look-up", dict(expr="normal", look=(0, 1)), 0), ("angry-34", dict(expr="angry"), -38),
+          ("furious-34", dict(expr="furious"), 38), ("sad-34", dict(expr="sad"), -38), ("awe-34", dict(expr="awe"), 38)]
+ONLY = [a for a in sys.argv[sys.argv.index("--") + 2:]]
+for k, (name, kw, deg) in enumerate(POSES):
+    if ONLY and name not in ONLY:
+        continue
     pose_eyes(eyes, **kw)
     body_rig.scale = (1, 1, 1)
     view(deg)
-    sc.render.filepath = os.path.join(OUT, name + ".png")
+    sc.render.filepath = os.path.join(OUT, f"{k + 1:02d}-{name}.png")
     bpy.ops.render.render(write_still=True)
-# and one squashed, to show the eyes ride the body when he bounces
-pose_eyes(eyes, "surprised")
-body_rig.scale = (1.12, 1.12, 0.86)
-view(0)
-sc.render.filepath = os.path.join(OUT, "13-surprised-squash.png")
-bpy.ops.render.render(write_still=True)
+if not ONLY:
+    # and one squashed, to show the eyes ride the body when he bounces
+    pose_eyes(eyes, "surprised")
+    body_rig.scale = (1.12, 1.12, 0.86)
+    view(0)
+    sc.render.filepath = os.path.join(OUT, f"{len(POSES) + 1:02d}-surprised-squash.png")
+    bpy.ops.render.render(write_still=True)
 print("RENDERED", len(POSES) + 1)

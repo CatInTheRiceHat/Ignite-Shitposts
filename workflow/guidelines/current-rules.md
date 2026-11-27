@@ -89,6 +89,10 @@ making the candle episode, not preferences she stated. The dated history behind 
   low and looking up, high and looking down, over Sol's shoulder, a tight close-up, a wide establishing shot,
   a tilted angle for a surprise. The coffee episode stayed near eye level for most shots; do not repeat that.
   The close-up science shots still keep a slow, steady camera so the demonstration is easy to read.
+- **No cut between two shots with the same framing.** On the stress ad: "the cut from first clip to 2nd clip is a bit
+  unusual ... starting the camera from a close up of sol's face and zooming out instead ... removes the uneessesary
+  choppyness" (2026-11-26). Clip 2 had opened on clip 1's own wide framing. *(working practice)* When two clips share a
+  set, change the shot size at the cut: open the second one close and pull back, or the other way round.
 - **Anime-style expression for Sol.** "I also like to take inspo of like anime and what kind of expressions
   their characters do so lets see if we can apply that onto sol the next time" (2026-11-26). Borrow anime's
   acting: big clear poses, a sharp anticipation before a move, a jolt of surprise, a slump, a proud puff-up, a
@@ -226,6 +230,13 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
 - The coffee episode is the worked example for all of this: `episodes/coffee_ring/skeleton/clips_v2.py`,
   `prompts/build_v2.py`, `edit.json`.
 
+- **More emotions (Elaine, 2026-11-26, later).** "can you make an angry and sad emotion for sol 3d ... and all other
+  emotions that one could need". Her directions: angry is "the OO circle eyes but like they're cut so like its two
+  semicircles that rotate down into the middle", with "the red gradient instead of purple"; the anger mark is
+  "thin"; sad, crying, gloomy and heartbroken use "the same [eyes] as bashful"; smug is the half eye turned 180; every mark has a dark outline and is drawn large; the stars are inflated solids, not flat; awe uses yellow four-point stars around him, "just the stars", no lines. All built into the eyes model:
+  38 expressions with marks that move, sheet `assets/sol-3d/eyes/sol-eyes-expressions-v9.png`, list in that
+  folder's README. **She has not approved the new set yet**; the approved six are unchanged.
+
 ### Planned expressions *(working practice)*
 
 - Write each expression into the script with its clip and time, so the review knows what is meant to be there.
@@ -272,6 +283,37 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   no tracker row, no description and no upload unless she asks. The songs in `assets/music/` are game soundtracks:
   for a paid ad, build a cut without music as well (`"music": null`) and tell her.
 
+### Landscape ads and end cards *(from the "All Due This Week" ad, 2026-11-26)*
+
+- **Her landscape layout** (her script): "SOL ON THE LEFT THIRD. THE STRESS ON THE RIGHT TWO THIRDS", captions in the
+  "lower third, centered", "Nothing important in the bottom 10% of the frame". *(working practice)* Put his feet about
+  70% of the way down the frame so the captions have the surface under him; captions Rammetto One 72 px with a 9 px
+  outline, centred at y = 895 of 1080 (`width`, `height`, `caption_size`, `caption_stroke` in `edit.json`).
+- **Her end card** (her reusable prompt, `episodes/all_due_this_week/end-card-prompt-elaine.txt`): a rounded card in the
+  site orange; the course's ORIGINAL card art on top, uncropped; the course name "exactly as written on the course
+  card"; big "Join Ignite today!"; small "Link in description" (YouTube) or the sign-up address without "https://"
+  (website, presentations); never "?gclid=..."; "Same fonts as the Ignite course cards. No em dashes, no extra slogans,
+  no emojis"; 16:9 on the right two thirds, 9:16 on the top two thirds; a transparent PNG at full frame size; it slides
+  in over about half a second and holds. `overlays/make_end_card.py` builds it. *(working practice)* Stop the card above
+  the caption band while the narrator is still talking under it.
+- *(working practice)* **Check the course before the ad says "teaches all of this".** Course outlines are in Drive
+  (search the course name); the Resilience outline is Emma Zhou's doc.
+- *(working practice)* **Lettering as a per-frame holdout pass** (`render_clip.py MODE=ovlseq` in that episode): every
+  lettering plane is rendered for every frame with everything in front of it cut out, so words follow a moving camera or
+  prop and hide behind whatever passes. It tracked the painted props to within a frame; where the painter moves a prop a
+  frame or two early, remap those frames (`seq_map` in `composite.py`).
+- *(working practice)* **A thing that goes into a box must stay in sight**, or the painter forgets it and paints the box
+  empty. Keep boxes low. Do not squash a box to make it bounce: the painter drew flaps opening. Turn a lettered prop's
+  blank back to the camera before it flies.
+- *(working practice)* **The style frame sets how a clip STARTS.** A clip that must open on purple Sol, or on a changed
+  prop, needs a reference frame that shows that (the last frame of the clip before). A clip that must hold sparkle eyes
+  to its end painted right once a sparkle-eyes frame of the same shot was the reference.
+- *(working practice)* **Never give a frame of an earlier take of the same shot as the style reference when the layout
+  changed**: the painter brought the old props back and doubled them. To carry a room's paint across, give a SWATCH: two
+  strips of wall and floor cut from the good take, with "paint only, no objects".
+- *(working practice)* **A missing colour shade can be laid on in the edit** (`composite.py` "tint": Sol-coloured pixels
+  inside his skeleton silhouette, fading from his tip). Cheaper than a repaint and it matched the painted purple.
+
 ### Paint prompt rules *(working practice)*
 
 - Never write the word "mouth", not even "no mouth", and no mood words such as "happily". Say what his
@@ -291,7 +333,9 @@ When a video is done, always do both of these without being asked (Elaine, 2026-
 
 1. **Think of a good title.** It is the YouTube headline: a plain question or hook a viewer would click,
    in title case, like "Why Does A Flame Always Point Up?". Tell her the title.
-2. **Put the finished video in `workflow/completed/`, named exactly as the title** with `.mp4` after it,
+2. **Put the finished video in `completed/` at the top of the repository** (`Ignite Shitposts/completed/`, beside
+   `workflow/`, not inside it: Elaine moved the folder there on 2026-11-26, "im gonna move the completed clips folder out
+   and put it outside workspace"), **named exactly as the title** with `.mp4` after it,
    for example `completed/Why Does A Flame Always Point Up?.mp4`. That folder already holds her earlier
    finished videos. The file is the final cut, with voice, captions, music and sound effects, ending on the
    last frame with no black.
@@ -349,6 +393,9 @@ Elaine, 2026-11-26.
   the ad's Instagram Reel). Write the caption, show it to her, and post only after she says so. The sheet's
   Description cell is the caption.
 - **Use her Music cell if it is filled in**; otherwise pick a song from `assets/music/` and write it back.
+- **Do not reuse a song.** "can we change the music as well thats why the spreadsheet exists" (2026-11-26, when the
+  stress ad came with the coffee episode's song). *(my reading of it)* Before picking, read the Music column of both
+  tabs and choose a song that is not in either.
 - **Credits:** keep to a cap per night and skip the night if the balance is too low. A full episode's paint
   pass is about 83 credits at 720p (about 37 s at 2.25 credits a second), plus about 2 for the narrator.
   The coffee episode cost about 102 for its first version and about 114 for the redo.

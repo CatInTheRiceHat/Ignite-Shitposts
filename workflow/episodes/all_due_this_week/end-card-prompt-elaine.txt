@@ -1,0 +1,61 @@
+IGNITE END CARD: REUSABLE PROMPT
+Copy everything below the line, fill in the [BRACKETS], and attach the
+course (outline or course card screenshot).
+
+(Elaine's prompt, pasted 2026-11-26 while the "All Due This Week" ad was being made, kept word for word.
+Filled in for this ad: Course = Resilience & Stress Management; Aspect ratio = 16:9 landscape; Where it will
+run = YouTube/social, with a website/presentation version beside it. Built by overlays/make_end_card.py.)
+
+--------------------------------------------------------------------
+
+Make the end card for an Ignite ad, based on the attached course.
+
+INPUTS
+- Course: [COURSE NAME]
+- Aspect ratio: [16:9 landscape OR 9:16 vertical]
+- Where it will run: [YouTube/social OR website/presentation]
+
+STEP 1: FIND THE ORIGINAL ART
+Find the original image file used on this course's card (the
+illustration of Sol at the top of the card) in the Ignite course
+assets, website files, or Drive. Use that file, not a screenshot of
+the card. Don't redraw, regenerate, or edit the art. If you can't find
+it, tell me where you looked and ask me for it.
+
+STEP 2: BUILD THE CARD
+- Rounded card filled with the Ignite site orange.
+- Top: the original course art from Step 1, uncropped, with rounded
+  corners to match the card.
+- Under the art: the course name, exactly as written on the course
+  card.
+- Big text: "Join Ignite today!"
+- Small text under it:
+    YouTube/social -> "Link in description"
+    Website/presentation -> the sign-up URL, written without
+    "https://" and without anything after a "?":
+    forms.ignitefindyourfire.org/t/oqB8WMKbJ6us
+    (If a short link like ignitefindyourfire.org/join exists, use
+    that instead. It's much easier to read and type off a screen.)
+- The full link for video descriptions and ad settings is:
+    https://forms.ignitefindyourfire.org/t/oqB8WMKbJ6us
+  Never show "?gclid=..." on the card. Google Ads adds that to the
+  link by itself when someone clicks the ad.
+- Same fonts as the Ignite course cards. No em dashes, no extra
+  slogans, no emojis.
+
+STEP 3: SIZE AND PLACEMENT
+- 16:9 (1920 x 1080): the card covers the right two thirds of the
+  frame. Leave the left third clear, because Sol stands there and nods
+  next to the card.
+- 9:16 (1080 x 1920): the card covers the top two thirds of the frame.
+  Leave the bottom third clear for Sol. Keep all card text out of the
+  bottom fifth and the right edge (platform buttons cover those).
+- Transparent background outside the card, so it can sit on top of
+  the final shot.
+
+STEP 4: DELIVER
+- A PNG of the card with a transparent background, at the full frame
+  size above.
+- One line on how it animates in: slides in from the right (16:9) or
+  up from the bottom (9:16) over about half a second, then holds to
+  the end of the video.

@@ -522,3 +522,50 @@ every episode. Keep reviewer observations distinct from Elaine's preferences.
 Do not invent the additional notes she has not supplied yet, or mark an item
 passed without inspecting the relevant result. Update the affected episode
 prompts and storyboard when an authorized change is ready to apply.
+
+## Sol's emotions: Elaine's directions, 2026-11-26
+
+- Angry eyes are the round "O O" eyes cut in half: "two semicircles that rotate down into the middle". Angry uses a
+  **red** gradient from his flame tip, not the purple one.
+- Sad, crying, gloomy and heartbroken: the same closed eyes as bashful (her last word after trying half rings and
+  "u u"). Smug: the half eye turned 180, flat edge at the bottom ("upsidedown gumdrops").
+- Awe stars: "make the star shape and then inflate them". Solid puffy four-point stars, upright, thin dark edge.
+  Flat stars were rejected twice ("look weird", "still kind of fucked").
+- The yellow dashes (excited, laughing, amazed) are tapered like the bar of an exclamation mark and sit close to
+  his body.
+- Every mark (tears, notes, the laughing dashes and so on) has a dark outline, and all marks are large ("can you
+  make all particle effects larger").
+- The anger mark is **thin**, like her reference (four thin red curves with a dark edge).
+- Awe: yellow four-point stars around him, "just the stars", no radiating lines.
+- She wants the full range of emotes ("all other emotions that one could need"), in the spirit of a game's reaction
+  list she showed. Built in `assets/sol-3d/eyes/` (sheet v4, 38 expressions). She has not approved the new set.
+- *(technical)* Marks are our own shapes, not that game's icons. Floating marks sit on a plane in front of Sol.
+- The light bulb on the idea face: "the lightbulb is rly weird", "can we make the metal part like a octagon like
+  rectangle octagon" (v10, cut corners), then "lets make it a trapezoid the longer side is toucing the circle and then
+  move the lightbulb closer to ignite". Now a trapezoid base, wide at the glass, with the bulb nearer his body
+  (`sol-eyes-idea-bulb-v11.png`). Her answer: "good!"
+- On the whole set of emotions and marks, after the bulb: "ok i think the sprites are done" (2026-11-26). She is
+  finished changing them. No frozen approved copy has been made of the 38-expression set, and sheet v9 predates the
+  bulb change.
+
+## Shower-curtain episode: Elaine, 2026-11-26
+
+- Asked to "render one video in blender", she wanted one clip, not the episode: "wait dude just do one clip",
+  "its ok u dont have to do a lot", "just send one clip". Only clip 1's skeleton exists
+  (`episodes/shower_curtain/skeleton/01-skeleton-v1.mp4`). On seeing it: "ooh lovely". That is a reaction, not an
+  approval of the clip.
+- *(technical)* In that clip the curtain's hem swings out through the tub rim for a few frames when Sol shoves it.
+  Narrator takes for all six planned clips are in `episodes/shower_curtain/audio/`.
+
+- "All Due This Week" ad, Resilience & Stress-Management (Elaine, 2026-11-26): "lets make antoher ad", with shooting
+  script v1 (landscape 16:9; Sol on the left third, the stress on the right two thirds; captions lower third) and, for
+  the card, "for the ending card can u look at the last 5 minute animation thing so u can copy", followed by her
+  reusable end-card prompt. Both are kept word for word in `episodes/all_due_this_week/`. Lasting rules from them are in
+  current-rules.md ("Landscape ads and end cards"). No notes from her on the cut yet; nothing is approved.
+  - Technical findings (not her words): paint v1 of clip 3 lost the homework from its box and grew box flaps; a style
+    reference from an earlier take doubled props; the painter dropped sparkle eyes for the last nod and started two
+    clips with orange Sol where purple was wanted; Arthur's take 06 began with a sentence of gibberish.
+  - Her note on cut v1 (2026-11-26): "i think its rly good the cut from first clip to 2nd clip is a bit unusual i think we
+    can resolve this by starting the camera from a close up of sol's face and zooming out instead yk so it removes the
+    uneessesary choppyness yk", then "after that its good". Clip 2 reshot: it opens close on Sol's face and pulls back
+    (cut v2). "After that its good" is her view of the rest of the cut; it is not recorded as an approval.

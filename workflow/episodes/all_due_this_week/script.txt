@@ -1,0 +1,189 @@
+ALL DUE THIS WEEK — AD FOR "RESILIENCE & STRESS-MANAGEMENT" — PRODUCTION NOTES
+
+Elaine's shooting script (v1, pasted 2026-11-26 with "lets make antoher ad") is kept word for word in
+script-v1-elaine.txt, and her reusable end-card prompt (pasted the same hour) in end-card-prompt-elaine.txt. About the
+card she said: "for the ending card can u look at the last 5 minute animation thing so u can copy". This file records
+how the ad was made and where it differs from the script. Not approved by Elaine yet.
+
+Title:  Everything Due This Week? Do These 5 Things
+Format: LANDSCAPE 16:9, 1920 x 1080, 24 fps, 44.1 s. The first landscape film in this folder.
+Cut:    see STATUS at the end of this file.
+
+------------------------------------------------------------------------------
+THE SCRIPT'S "CHECK BEFORE GENERATING" LIST
+------------------------------------------------------------------------------
+Slow breathing in Week 2: CONFIRMED from Emma Zhou's own course outline in Drive ("Resilience & Stress-Management
+  Asynchronous Course Outline - Emma Zhou"). Week 2, "Stress Management Pt. 2: Response", teaches "box breathing
+  (guided practice)" as the first immediate-action method. Tip 2 stands. The same outline has Control / Influence /
+  Accept (Week 1), "Plan A, B, C" (Week 3 homework) and "Perfectionism: A Very Rough Draft" (Week 4). Emma was not asked.
+Asynchronous: the narration is unchanged and claims no live classes.
+Pile designs: locked before any paint (below).
+Goggles: NONE, in every clip, as in the science ad.
+
+------------------------------------------------------------------------------
+DECISIONS MADE WHERE THE SCRIPT LEFT A CHOICE, AND WHERE THE AD DIFFERS FROM IT
+------------------------------------------------------------------------------
+Length: 44.1 s, not 40. Arthur's ten takes hold 37.4 s of speech once dead air is trimmed, and the script says the
+  voice is never sped up ("extend the clip"). Nothing is sped up or stretched.
+The pile (BEFORE): a thick stack of worksheets with a yellow sticky note "Math homework"; the piano music standing
+  behind a soccer ball on top of it; the group-project poster board (white, blue sticky note "Group project") leaning on
+  the wall; the calendar page (red band, "TEST FRIDAY" ringed in red) leaning in front of the poster.
+The desk (AFTER): the homework in one short neat stack with a green check mark over its note; a pencil cup with a pink
+  "Plan B" sticky note (a note lying flat on the desk cannot be read from eye level); the calendar page small, pinned to
+  the wall with a red pin. The end card covers all of this from 1.4 s into the clip.
+End card: built to her end-card prompt, with the last ad's fonts and orange (overlays/make_end_card.py):
+  - site orange #F07B2A, rounded; the course's own card art UNCROPPED on top (Ignite Website/public/courses/
+    Resilience & Stress Management.jpg), rounded corners; Poppins for the course name and the small line, Rammetto One
+    for "Join Ignite today!".
+  - The course name is written "Resilience & Stress-Management", WITH the hyphen, because her prompt says "exactly as
+    written on the course card" and both the website's card and Emma's outline write it that way. Her script wrote it
+    without the hyphen. One word in make_end_card.py changes it.
+  - The card is on the right two thirds but stops at y = 824 of 1080, not at the bottom: the narrator is still talking
+    while it is up, and the captions (which must be on screen word for word) need the strip under it.
+  - art/end_card.png says "Link in description" (YouTube); art/end_card_web.png says
+    forms.ignitefindyourfire.org/t/oqB8WMKbJ6us (website, presentations). A cut exists with each.
+  - It slides in from the right over half a second, 1.0 s into clip 8, and holds to the last frame.
+Flame colour: the script is followed (part purple, full purple at the shock, still purple in tip 1, draining during the
+  breaths, a flicker at tip 5). This is not what her notes on the science ad asked for ("during the tip sequences sol
+  ... should be calm"): here the purple in tip 1 is what the breathing clip drains, so it was kept. If she wants the
+  tips calm in this ad too, clips 3 and 7 change (clip 3's purple is laid on in the edit and comes off for free).
+Clip 3: each thing turns half round in the air and lands with its blank back to the camera, so no lettering has to
+  ride a spinning prop. The boxes are low, so every thing stays in sight in its box.
+Clip 5: "lights up" and "dim" are done in the edit (a warm glow around the homework, the other two darkened) from
+  masks of the skeleton, not by the painter. The poster and the music lean on small wooden props.
+Clip 6: Sol hop-taps the board's lower left corner (his arm cannot reach the lettering); "Plan B" is written on under
+  Plan A. A door and a potted plant fill the right of the hallway.
+Clip 7: he nudges the sketch with his side (no arm reach) and it slides away across the desk.
+Clip 8: one paint clip, 10.0 s, the same camera as clip 1.
+Captions: Rammetto One 72 px, white with a 9 px orange outline, centred at y = 895: the lower third, above the bottom
+  10% of the frame. Up to 34 characters, because the frame is wide.
+Music: "No More What Ifs" (the instrumental version in assets/music/), Elaine's pick, from cut v4. Before it: v1 "A
+  Little Lesson" (the coffee episode's song), v2 and v3 "Days of Sisters" (my pick). Those are game soundtracks; a paid ad normally needs music she has the rights to,
+  so a cut with no music (voice and sound effects only) is built beside it.
+
+------------------------------------------------------------------------------
+HOW IT IS MADE
+------------------------------------------------------------------------------
+Voice: Arthur (config/voices.json), ten takes in audio/raw/, dead air trimmed into audio/edit/ by audio/trim_takes.py.
+  Every take was transcribed. Take 06 first came back with a sentence of gibberish in front of the line
+  (audio/rejected/06-take1-extra-words.wav) and was regenerated. The cut's audio is the script word for word.
+Skeleton: skeleton/rig.py + clips.py, rendered headless by render_clip.py, 1280 x 720 at 24 fps. Sol is the APPROVED
+  separate-eyes model (assets/sol-3d/eyes/approved-2026-11-26/): its six expressions are the script's list. Every
+  expression, blink and glance is keyed, with the bounce between emotions. Sol stands on the left third in every
+  clip, his feet about 70% of the way down the frame, so the captions have the surface under him.
+Lettering: NEVER painted. overlays/make_art.py draws each piece once (overlays/art/, ink only); the same file is used
+  every time the piece appears. The pieces sit on OVL_ planes in the Blender scenes and are rendered as a pass for
+  EVERY frame with everything in front of them cut out (render_clip.py MODE=ovlseq, a holdout pass: new in this ad),
+  so lettering follows a moving camera (clip 2) or a moving prop (clips 3, 5, 7) and hides behind whatever passes in
+  front. The whiteboard uses single planes (MODE=ovl) so "Plan B" can be wiped on. overlays/composite.py lays it all
+  over the painted clips and adds the glow, the tint, the slow push on the locked-off shots and the end card.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p, 16:9. Image references: a style frame, Sol's turnaround sheet and the
+  approved expression sheet. Clip 1 was painted first with the science ad's style frame (the same house); its frame at
+  0.125 s is refs/style-frame-clip01.png, the style frame for the rest. Clip 4 also got the course's card art.
+  Prompts: prompts/build.py writes prompts/0N-paint.txt; media ids are in prompts/media.json.
+Edit: make_edit.py writes edit.json (captions are the script's words, timed from Whisper's word times), built with
+  scripts/episode_edit.py, which gained optional width / height / caption_size / caption_stroke for landscape.
+  Sound effects are the candle set.
+
+------------------------------------------------------------------------------
+SHOTS (times on each clip's own clock; voice start in brackets)
+------------------------------------------------------------------------------
+01 hook, 4.83 s (the paint from 0.667 s on). The desk wide, locked off. "Sol, what's all that?" [0.2] "Wait, is all of
+   this due this week?" [1.98]. Part purple and worried; he turns to the pile and holds a nub up at it; one more sheet
+   drops onto the soccer ball (1.93): Shocked, a hop, full purple; Worried (3.6); nod (4.0).
+02 setup, 3.5 s. Opens CLOSE on Sol's face and pulls back until the pile is in frame (from cut v2; the script and cut
+   v1 had a push in). "Okay, here are five things that'll help." [0.2]. Worried, purple; leans in; > < squeezed shut (2.45).
+03 tip 1, 5.33 s. His bedroom floor from a slightly high angle. "First, sort it into what you control, what you can
+   influence, and what you have to accept." [0.2]. He bumps the homework and it hops into "Control" (1.75-2.3); he
+   holds a nub up at the poster and it hops into "Influence" (3.05-3.65); the calendar page floats into "Accept"
+   (4.1-5.2). Each box gives a tiny hop. Purple-topped, no lines.
+04 tip 2, 5.0 s. The pond garden of the course card, locked off. "Second, take a few slow breaths so your body can
+   calm down." [0.25]. Three breaths (0.2-1.7, 1.8-3.3, 3.4-4.9); the purple drains with each; > <, then a flat closed
+   line, then open ovals (3.6). A maple leaf lands on the water (3.1) and a ring spreads.
+05 tip 3, 4.58 s. The kitchen table, eye level. "Third, pick the one thing that matters most and start there." [0.2].
+   He holds a nub up at the homework; at 1.75 it lights up and the other two slide back and dim; O O and a hop (1.9);
+   Normal (3.1).
+06 tip 4, 5.5 s. The hallway whiteboard, slight low angle. "Fourth, have a backup plan, so one thing going wrong
+   doesn't wreck everything." [0.2]. Reads Plan A; hop-tap (1.55); "Plan B" is written on (2.0-2.9); O O hop (3.0);
+   Normal, looking up (4.2).
+07 tip 5, 5.29 s. The desk, close, from above. "And fifth, let your first try be messy. Rough drafts are supposed to be
+   rough." [0.2]. Worried with a purple flicker, leaning in and pulling back (0.45-1.95); blink (2.15); orange; he
+   nudges the sketch and it slides away (3.0-3.5); looks up (3.9).
+08 payoff, 10.0 s. The desk wide, clip 1's camera, tidy. "Ignite's free Resilience and Stress Management course teaches
+   all of this and more." [0.2] "So, does this week feel doable now?" [6.5]. Hop, O O (0.36); the end card slides in
+   (1.0-1.5); Sparkles (2.0), two bounces; looks up (6.3); nod in Sparkles (9.2); holds. No black.
+
+------------------------------------------------------------------------------
+TAKES OF EACH CLIP (nothing is deleted)
+------------------------------------------------------------------------------
+01 skeleton v1 -> 01-paint-v1 (used from 0.667 s: the painter began him plain orange and brought the purple in over the
+   first two thirds of a second; the script starts him "already part purple").
+02 skeleton v1 -> 02-paint-v1: REJECTED, he started orange and the extra sheet was missing from the ball.
+   skeleton v1 -> 02-paint-v2 (cut v1): style reference = the last moment of clip 1, so he is purple from frame one.
+   skeleton v2 (opens close on his face, pulls back: her note on cut v1) -> 02-paint-v3, then 02-paint-v3-eyes (used):
+   three frames (35-37) where his eyes were half shut and striped, repaired by fix_eyes.py.
+03 skeleton v1 (tall boxes, the boxes squash) -> 03-paint-v1: REJECTED, the homework vanished from its box at 3.9 s and
+   the painter drew flaps opening on the boxes.
+   skeleton v2 (low boxes, a tiny rigid hop) -> 03-paint-v2: props right, but painted flat, with a pale wall.
+   skeleton v2 -> 03-paint-v3 (style reference = a frame of paint v1): REJECTED, a second homework stack and a second
+   poster appeared, and the boxes went tall again.
+   skeleton v2 -> 03-paint-v4 (used; the usual style frame plus refs/swatch-clip03-wall-floor.png, two strips of wall
+   and floor paint): props right, paint matches. Sol came back plain orange, so his purple top is laid on in the edit
+   (composite.py "tint"). 03-paint-v4-eyes (used) has three striped-eye frames (33-35) repaired by fix_eyes.py. Used to
+   5.33 s: after that the painter put white glints in his eyes.
+04 skeleton v1 -> 04-paint-v1 (used)
+05 skeleton v1 -> 05-paint-v1 (used)
+06 skeleton v1 -> 06-paint-v1 (used)
+07 skeleton v1: never painted (framed too high). skeleton v2 -> 07-paint-v1 (used)
+08 skeleton v1 -> 08-paint-v1: REJECTED, the sparkles left his eyes for the final nod, and the homework stack changed
+   shape in the last second. skeleton v1 -> 08-paint-v2 (used): style reference = a sparkle-eyes frame of paint v1.
+clips/0N-comp.mp4 are the painted clips with the lettering laid on; they are what the cut uses. 08-comp-web.mp4 has the
+card with the sign-up address.
+
+------------------------------------------------------------------------------
+ELAINE'S NOTES ON CUT V1 (2026-11-26) AND WHAT CHANGED IN V2
+------------------------------------------------------------------------------
+"i think its rly good the cut from first clip to 2nd clip is a bit unusual i think we can resolve this by starting the
+camera from a close up of sol's face and zooming out instead yk so it removes the uneessesary choppyness yk"
+                                   -> clip 2 reshot: it opens close on Sol's face and pulls back to show the pile
+"after that its good"              -> nothing else changed at her request (not recorded as an approval)
+"oh yeah btw can we change the music as well thats why the spreadsheet exists"
+                                   -> the tracker sheet's Music column shows "A Little Lesson" was the coffee episode's
+                                      song; the ad now uses "Days of Sisters", which no video has used
+
+------------------------------------------------------------------------------
+THE INDEPENDENT FRAME REVIEW OF CUT V1 AND WHAT CHANGED IN V3
+------------------------------------------------------------------------------
+A fresh reviewer read all 1058 frames of cut v1. Clean: Sol on model in every clip, every hop lands, captions word for
+word and clear of the bottom 10%, lettering spelled right, layout, the end card, the ending.
+  fixed   "Rough draft" and "Our Big Idea" read as "Rouqh" and "Biq" on the sketch (Patrick Hand's g at that size)
+          -> the sketch's words are in Caveat Brush; lettering pass of clip 7 re-rendered
+  fixed   "homework" hung off the bottom of its sticky note on the tidy desk (clip 8, the second before the card)
+          -> that lettering is smaller and higher; lettering pass of clip 8 re-rendered
+  fixed   three frames of striped eyes in clip 3 -> fix_eyes.py; two frames of eye glints at its end -> clip ends earlier
+  moot    the purple dipping at the clip 1 to clip 2 cut: clip 2 was reshot for her note
+Known and left in (v3): in clip 3 the three things show blank backs once they turn in the air (by design, so no words
+  ride a spinning prop), and for a frame or two the edge of a label is cut where the painted prop is a little off the
+  skeleton's; the poster and the calendar lift off while Sol stands still (the script has them fly and float); the
+  purple flicker in clip 7 lasts 1.4 s and is deep; one blink in clip 6 stutters for a frame; single half-drawn eye
+  frames inside the squash at some expression swaps; a small dark blue smudge between his feet late in clip 1; clips
+  3, 5 and 7 are painted a little flatter than clips 1, 2, 6 and 8, and clip 4 is in the course-card look (asked for).
+
+------------------------------------------------------------------------------
+STATUS (2026-11-26)
+------------------------------------------------------------------------------
+Current cut: renders/all-due-this-week-v4.mp4 (44.0 s, 24 fps, 1920x1080) and -v4-web; the no-music cut is
+  -v3-nomusic (the same picture).
+In completed/ (now at the repository root: she moved the folder out of workflow/ on 2026-11-26): "Everything Due This
+  Week? Do These 5 Things.mp4" (v4, music "No More What Ifs"), "... (no music).mp4" (v3) and "... (website card).mp4"
+  (v4, the end card shows the sign-up address). Not approved by Elaine.
+Cuts: draft-a (assembly check), v1 (the first cut Elaine saw), v2 (her notes: clip 2 and the music), v3 (review
+  fixes), v4 (her song: "can we do no more what ifs royal version as the music so just regenerate the video again with
+  that song"). All kept in renders/.
+Checks on v3 and v4: the cut's audio is the script word for word (check_narration.py reports one FAIL line only because
+  Whisper writes "backup" as "back up"); length, sound and ending checks PASS; every frame laid out in
+  renders/review-all-due-this-week-v3/.
+Tracker sheet: "Advertisements" row 3 filled in (name, music, description with the website and sign-up links, five
+  hashtags), Music "No More What Ifs (instrumental)", Status "In Progress". Not uploaded anywhere.
+Credits: 194.5 in all (376.3 before, 181.8 after). Narrator about 12; first paint of the eight clips about 102; repaints about
+  79 (clip 2 twice, clip 3 three times, clip 8 once).
