@@ -1,5 +1,5 @@
 {
- "out": "group-project-v7-nomusic.mp4",
+ "out": "group-project-v8-nomusic.mp4",
  "width": 1080,
  "height": 1080,
  "caption_size": 76,
@@ -17,7 +17,7 @@
   ],
   [
    "02-comp.mp4",
-   6.5
+   6.7917
   ],
   [
    "03-comp.mp4",
@@ -25,7 +25,7 @@
   ],
   [
    "04-comp.mp4",
-   3.2083
+   3.5833
   ],
   [
    "04b-comp.mp4",
@@ -37,7 +37,7 @@
   ],
   [
    "06-comp.mp4",
-   4.5
+   5.2917
   ],
   [
    "07-comp.mp4",
@@ -61,12 +61,12 @@
     ],
     [
      1.24,
-     1.94,
+     2.04,
      "the sandcastle"
     ],
     [
-     1.94,
-     3.12,
+     2.04,
+     3.14,
      "challenge going?"
     ]
    ]
@@ -78,22 +78,22 @@
    "phrases": [
     [
      0.0,
-     0.28,
+     0.32,
      "Wait,"
     ],
     [
-     0.78,
-     1.38,
+     0.84,
+     1.4,
      "are you building"
     ],
     [
-     1.38,
-     2.06,
+     1.4,
+     2.3,
      "the whole thing"
     ],
     [
-     2.06,
-     2.96,
+     2.3,
+     3.24,
      "by yourself?"
     ]
    ]
@@ -101,16 +101,16 @@
   {
    "take": "02a.wav",
    "clip": 1,
-   "start": 1.4,
+   "start": 1.25,
    "phrases": [
     [
      0.0,
-     0.44,
+     0.74,
      "And that's"
     ],
     [
-     0.44,
-     1.16,
+     0.74,
+     1.5,
      "your team?"
     ]
    ]
@@ -118,21 +118,21 @@
   {
    "take": "02b.wav",
    "clip": 1,
-   "start": 3.2,
+   "start": 3.3,
    "phrases": [
     [
      0.0,
-     0.46,
+     0.8,
      "Okay,"
     ],
     [
-     0.94,
-     1.92,
+     0.8,
+     1.94,
      "here are five things"
     ],
     [
-     1.92,
-     3.08,
+     1.94,
+     3.22,
      "that'll fix this."
     ]
    ]
@@ -140,21 +140,21 @@
   {
    "take": "03.wav",
    "clip": 2,
-   "start": 0.5,
+   "start": 0.25,
    "phrases": [
     [
      0.0,
-     0.78,
+     0.88,
      "First,"
     ],
     [
-     0.78,
-     1.6,
+     0.88,
+     1.76,
      "split the project"
     ],
     [
-     1.6,
-     3.08,
+     1.76,
+     3.34,
      "into small pieces."
     ]
    ]
@@ -162,21 +162,21 @@
   {
    "take": "04.wav",
    "clip": 3,
-   "start": 0.45,
+   "start": 0.05,
    "phrases": [
     [
      0.0,
-     0.74,
+     0.46,
      "Second,"
     ],
     [
-     0.74,
-     1.52,
+     1.02,
+     2.18,
      "put one name on"
     ],
     [
-     1.52,
-     2.36,
+     2.18,
+     3.2,
      "each piece."
     ]
    ]
@@ -188,22 +188,22 @@
    "phrases": [
     [
      0.0,
-     0.44,
+     0.46,
      "Third,"
     ],
     [
-     0.98,
-     1.8,
+     1.0,
+     1.82,
      "set a deadline"
     ],
     [
-     1.8,
-     2.78,
+     1.82,
+     2.52,
      "before the"
     ],
     [
-     2.78,
-     3.88,
+     2.52,
+     3.7,
      "real deadline."
     ]
    ]
@@ -211,26 +211,26 @@
   {
    "take": "06.wav",
    "clip": 6,
-   "start": 1.08,
+   "start": 0.4,
    "phrases": [
     [
      0.0,
-     0.66,
+     0.38,
      "Fourth,"
     ],
     [
-     0.66,
-     1.4,
+     1.04,
+     2.06,
      "keep everything in"
     ],
     [
-     1.4,
-     2.2,
+     2.06,
+     3.34,
      "one doc the whole"
     ],
     [
-     2.2,
-     3.24,
+     3.34,
+     4.64,
      "team can see."
     ]
    ]
@@ -242,27 +242,27 @@
    "phrases": [
     [
      0.0,
-     0.44,
+     0.54,
      "And fifth,"
     ],
     [
-     1.04,
-     1.62,
+     1.24,
+     1.96,
      "ask one"
     ],
     [
-     1.62,
-     2.7,
+     1.96,
+     3.6,
      "specific person,"
     ],
     [
-     2.7,
-     4.02,
+     3.6,
+     4.82,
      "instead of saying,"
     ],
     [
-     4.48,
-     5.26,
+     4.82,
+     5.78,
      "can someone."
     ]
    ]
@@ -274,37 +274,37 @@
    "phrases": [
     [
      0.55,
-     1.62,
+     1.34,
      "Ignite's free Social"
     ],
     [
-     1.62,
-     2.88,
+     1.34,
+     2.58,
      "Impact and Project"
     ],
     [
-     2.88,
-     3.96,
+     2.58,
+     3.66,
      "Development course"
     ],
     [
-     3.96,
-     5.22,
+     3.66,
+     5.04,
      "teaches you how to"
     ],
     [
-     5.22,
-     6.22,
+     5.04,
+     6.4,
      "take an idea and"
     ],
     [
-     6.22,
-     7.42,
+     6.4,
+     7.22,
      "actually make"
     ],
     [
-     7.42,
-     8.2,
+     7.22,
+     7.98,
      "it happen."
     ]
    ]

@@ -1,5 +1,19 @@
 # Ignite video script guide
 
+> **Current additions, 2026-11-27 (Elaine). These come first; [current-rules.md](current-rules.md) section 2 has them
+> in her words and wins wherever this older guide disagrees (Sol has no voice, no paired stills, no on-twos).**
+>
+> - **Gemini 4 Neon writes the script and the animation plan** for every topic, from the full text of these
+>   guidelines; the draft is checked against them and sent back with specific notes until it passes.
+> - **Be more scientific.** Name the real process in real words (scatter, reflect, refract, absorb), each explained
+>   in passing, and say why the result follows. A real term replaces a vague phrase such as "bounces" or "traps".
+> - **End on a definite conclusion.** The last line states the answer to the title question outright, as a fact.
+>   No recap, no question, no slogan, no "Got it?".
+> - **Make it funny.** The Narrator teases or quips about what Sol does and Sol gets comic beats; a joke never
+>   replaces a step of the explanation. (This overrides "avoid forced jokes" below: jokes are wanted.)
+> - **The opening can be a friendly remark to Sol** before the thing that needs explaining happens to him.
+> - **Show Elaine the script before building.** No takes, skeleton clips or paint until she says go.
+
 Current production order: prepare first and last stills (generate or reuse) -> show BOTH to the user ->
 explicit approval of that exact pair -> Gemini Omni Flash 1.2 clip ->
 independent actual-footage review. Shared settings: `../config/generation.json`.

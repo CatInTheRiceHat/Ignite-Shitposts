@@ -727,3 +727,52 @@ Her words, in the order she sent them, each with what was done. These are Elaine
   Blender skeleton clip, not laid over the painted clip afterwards. (Not applied to the Whole Group Project ad, which
   was finished with overlays; she said "in the future".)
 
+## Wet-shirt script (the first one written by Gemini 4 Neon): Elaine's notes (2026-11-27)
+
+She had asked for Neon to write every script from now on (current-rules.md, section 2). Neon's third draft was shown
+to her as a table of lines and actions. It opened on Sol beside a shirt on a drying rack in a garden, a sprinkler
+wetting the shirt, and the line "Whoa, Sol! That water didn't stain your shirt."; it ended "Your shirt never changed
+color because wet fabric traps more light." Her message, whole:
+
+> "hmm can we start out with woah sol nice shirt and then he gets sprayed with water by a car and then we do like
+> the explanation thing also be more scientific and lets have a definative conclusion mk update the script
+> guidelines and generate again"
+
+Before that, when the build had already started: "wait bro dont make the oh no", "wait can i see the script".
+
+- [ ] Does the script open the way she asked for this episode: the Narrator says "Woah Sol, nice shirt", and then
+  Sol is sprayed with water by a passing car? (Episode direction. Read as: Sol is wearing the shirt.)
+- [ ] Is it scientific: are the real processes named in real words (scatter, reflect, refract, absorb), with the
+  reason the wet case differs, and nothing left as a vague "bounces" or "traps"?
+- [ ] Does the last line state the answer outright, as a definite conclusion?
+- [ ] Was the script shown to her, and did she say to build, before any take was recorded or clip painted?
+
+A few minutes later, while Neon was rewriting: "wait yo can u tell neon to add some humor to this shit lol".
+
+- [ ] Is it funny: does the Narrator tease or quip about what Sol does, and does Sol get a comic beat, without a
+  joke replacing or bending the science?
+
+Technical notes from checking Neon's drafts (mine, not hers): windows timed too short for Arthur's real pace; three
+close-ups in a row without Sol; a missing reason in the explanation; hops; five faces in four seconds. All were sent
+back to Neon and fixed; the notes are in `episodes/wet_shirt/neon/`.
+
+## "Whole Group Project" ad, cut v7: Elaine's notes (2026-11-27)
+
+Her words, each with what was done. Elaine's notes, not reviewer findings.
+
+- **"smudging here. can we try to rig this in 3d instead? like make the hash marks vibrate and the arms move rly fast"**
+  (Sol flapping his nubs in the "ask one person" shot; the smudge was where a painted-out mouth had been). Effects like
+  motion lines are built and animated in the Blender skeleton, not left for the painter to invent: three curved hash
+  marks beside each nub that shake, and the nubs flap six times a second.
+- **"same with this please just put the text in blender"** (the "1st" on the ribbon). The lettering is on the ribbon in
+  the skeleton clip itself.
+- **"noooooooouuu wheres the flowers and the sparkles looooll"** (the cheer at the very end, Ring Sol and our Sol with
+  happy eyes and nothing round them). The happy ending has flowers AND sparkles floating round the Sols, our Sol
+  included, to the last frame.
+- **"this doesnt make sense can we like make sol like hold his hands on his sides like hes confident after hearing the 5
+  tips"** (the glare with nubs out at "that'll fix this"). There he stands tall with both nubs on his sides, confident,
+  plain eyes; no glare.
+- **"yo i changed the voice so in higgsfield u can now see we use eleven labs but i kept arthur. can we redo the voice
+  lines for those"** (same evening). The Narrator is still Arthur, now on Eleven v4 (stability 0.5, similarity 0.75, as
+  in her own Higgsfield tests). All ten lines of this ad were re-recorded. `config/voices.json` carries the setting.
+

@@ -1,6 +1,6 @@
 # Elaine's current rules: read this first
 
-Updated 2026-11-27, with Elaine's notes on the shower-curtain script and on its first cut (camera and emotions, section 4); before that 2026-11-26, after the coffee-ring episode; first written after the candle episode ("Why does a flame always point up?").
+Updated 2026-11-27 (late), with Elaine's notes on the first Neon-written script (more science, a definite conclusion, section 2); earlier that day with her notes on the shower-curtain script and on its first cut (camera and emotions, section 4); before that 2026-11-26, after the coffee-ring episode; first written after the candle episode ("Why does a flame always point up?").
 
 This page collects everything Elaine has asked for into one place, sorted by topic, so a new episode can
 start from here. Where this page and an older guide disagree, **this page wins**; the
@@ -52,6 +52,33 @@ making the candle episode, not preferences she stated. The dated history behind 
   `sol-3d-model.md`, `assets/sol-3d/eyes/README.md`, the emotion sound list, the shower-curtain script as the
   format and the coffee-ring script as the one she liked; the request builder is saved in that episode's
   `neon/` folder. Neon's answers and each round of feedback are kept there too. `agy` needs a Google sign-in.
+- **Be more scientific.** Elaine, 2026-11-27, on the first wet-shirt script: "also be more scientific". That script
+  said light "bounces" and "goes deeper" and "wet fabric traps more light" without ever naming what happens.
+  *(my reading)* Name the real process and use its real words, each explained in passing the first time: light
+  scatters, reflects, refracts (bends), is absorbed; say what property differs and why that changes the result (for
+  the shirt: how much light bends and bounces at a boundary depends on how different the two materials are, and
+  water is far closer to cotton than air is). Give one concrete figure or comparison where it helps. Still plain
+  sentences for a curious middle or high school student, and still correct: a real term replaces a vague phrase, it
+  is not piled on top. The "Accuracy" note at the end of the script says what was simplified.
+- **End on a definite conclusion.** Elaine, the same message: "lets have a definative conclusion". The last line
+  states the answer to the title question outright, as a fact a viewer could repeat: what is really happening and
+  what is not ("the cloth is not a darker colour; less light is coming back to your eyes"). *(my reading)* Not a
+  recap of the steps, not a soft "just", not a question, not a slogan. It goes with the ending order in section 4:
+  Sol listens through it, nods when it is over, then the pleased face.
+- **Make it funny.** Elaine, 2026-11-27, while the wet-shirt rewrite was being written: "can u tell neon to add
+  some humor to this". *(my reading)* The Narrator gets a dry, teasing sense of humour about what Sol does (one or
+  two short quips that react to him, never a pun for its own sake), and Sol's physical comedy carries the rest: the
+  goober gags of section 4. A joke never replaces a step of the explanation and never costs it accuracy, and the
+  last line stays the definite conclusion. This replaces the older guide's "avoid forced jokes" as the default:
+  jokes are wanted, as long as they come from the situation.
+- **A friendly opening before the trouble.** Her opening for the wet-shirt episode: "woah sol nice shirt and then
+  he gets sprayed with water by a car and then we do like the explanation thing". *(my reading)* The Narrator can
+  open by greeting Sol or remarking on what he has or is doing, a calm beat, and then the thing that needs
+  explaining happens TO Sol, big and funny. The splash itself is that episode's idea, not a rule.
+- *(working practice)* **Time lines at Arthur's real pace when planning:** about 2.3 words a second plus about 0.3 s
+  at each comma or full stop inside a line. Neon's first draft allowed 4.4 s for a 16-word line that takes about 7.
+  And **no more than two close-ups in a row without Sol**, with different framings; three in a row (17 s) left the
+  Narrator talking to nobody.
 - **Sol is silent.** "we will cut the sol voice entirely so like sol will just be a silent character and
   it will just be the narrator just educating us". Narrator only (Arthur, `config/voices.json`).
 - **Scripts are interactive.** The Narrator talks to Sol and reacts to what he does; Sol answers by
@@ -71,7 +98,9 @@ making the candle episode, not preferences she stated. The dated history behind 
 - **Each script also says how the clips are filmed** (set, camera, action, timing per clip), in one
   document she can read through: "storyboarding and scripting ... that includes how the clips will be
   filmed".
-- About 30 to 40 seconds, vertical 9:16.
+- About 30 to 40 seconds, vertical 9:16. *(my reading)* Up to about 50 seconds and about 105 words when the fuller science
+  she asked for on 2026-11-27 needs it (the first try at squeezing it into 45 gave run-on lines with the commas taken
+  out); say the runtime in the script's header.
 - **The narration must say exactly what the captions say.** "make sure the audio s [legible] becase the first
   one i saw it said authur smth smth and that clearly doesnt match with the captions" (2026-11-26). The voice
   model sometimes adds or changes words. Transcribe every take and the finished cut with
@@ -246,6 +275,9 @@ Props must behave like real objects. Each rule below came from a clip she sent b
 
 ## 6. Sound and edit
 
+- **The Narrator is Arthur on Eleven v4** (Elaine, 2026-11-27: "i changed the voice so in higgsfield u can now see we use
+  eleven labs but i kept arthur"). Model `elevenlabs_v4`, stability 0.5, similarity 0.75, same Arthur voice id
+  (`config/voices.json`). He reads slower than on seed_audio, so record the takes before timing the skeleton.
 - **A pause after every narrator line, and whole takes.** Elaine, 2026-11-27: "after every time arthur says smth there
   needs to be a pause ... be really aware of like the pauses make sure that the video flows nicely", and "the 'second'
   from arthur is cut off. make sure that you put full audio for each thing". About a second of quiet between lines; no
@@ -507,6 +539,16 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   the camera moves, keep the voice where it is and start that caption a few tenths later (`CAPTION_FROM` in
   `group_project/make_edit.py`). If the painter frames a Sol on the edge of the square, slide the square (`crop_pan` in
   `overlays/composite.py`); the 16:9 paint has room on both sides.
+- **Effects are rigged in Blender, not left to the painter** (Elaine on cut v7: "can we try to rig this in 3d instead?
+  like make the hash marks vibrate and the arms move rly fast"). Motion lines, like every other mark, are objects in the
+  skeleton that the painter copies (`hash_marks()` / `hash_at()` in `group_project/skeleton/clips.py`); a fast action is
+  animated fast in the skeleton (six flaps a second), not asked for in words. When the painter makes up an effect it also
+  makes up the face that goes with it (an open mouth).
+- **A happy ending has its flowers and sparkles** (Elaine: "wheres the flowers and the sparkles"). On the last cheer
+  every Sol in view, our Sol included, has `marks=("flowers", "stars")`, and the prompt says they stay to the last frame.
+- **When the narrator offers help, Sol looks confident, not cross** (Elaine, of a glare at "here are five things that'll
+  fix this": "this doesnt make sense ... hold his hands on his sides like hes confident"). Nubs on his sides, tall,
+  plain eyes.
 - **One re-roll can fix a paint, two can give two new faults.** A paint that comes back flat, or redraws the set, is
   re-submitted as it is; but check every re-roll against the accessories (a hat appeared on our Sol in two re-rolls of
   one shot). A mouth on a turned face: `group_project/fix_mouth_below_eyes.py` (it finds the eyes and fills the patch

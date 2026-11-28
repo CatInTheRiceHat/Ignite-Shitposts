@@ -523,3 +523,29 @@ Tracker sheet: unchanged (row 4 of Advertisements, "In Progress"). Not uploaded 
 STILL OPEN FOR ELAINE: the course name / last line, and whether "1:1" meant square (see above).
 Credits: about 190 more on paint for v6 and v7 (13 jobs) plus seven narrator takes.
 
+CUT v8 (2026-11-27): ELAINE'S NOTES ON v7 AND THE NEW VOICE
+Her words are in guidelines/checklist.md ("Whole Group Project" ad, cut v7).
+  clip 2  "hold his hands on his sides like hes confident": from 4.4 s he plants both nubs on his sides and stands tall
+          with plain eyes (no glare). 02-skeleton-v5 -> 02-paint-v4 (the castle behind him vanishes at 4.7 s) and
+          02-paint-v5 (its teammates came back unpainted). splice_clip2.py: close-ups from v5, teammates from v4, joined
+          in the whip pans -> clips/02-paint-v5v4.mp4 (used).
+  clip 7  "rig this in 3d ... make the hash marks vibrate and the arms move rly fast": three curved hash marks beside each
+          nub are a rig in the skeleton (hash_marks) and shake; the nubs flap six times a second. 07-skeleton-v8 ->
+          07-paint-v9 and -v10 (used: steadier sky and sea). Neither has a mouth, so no repair is needed.
+  clip 8  "just put the text in blender": "1st" is on the ribbon in the skeleton (SHOWOVL=first) and is painted with it;
+          nothing is laid over it (composite.py --no-badge). "wheres the flowers and the sparkles": every Sol has flowers
+          and sparkles on the cheer. 08-skeleton-v5 -> 08-paint-v3 (used) and -v4 (rejected: smiles on the cheer).
+          The painted "1st" is clean while the ribbon is on screen (0.5 to 2.0 s); behind the end card it wobbles.
+Narration: all ten lines re-recorded with Eleven v4, Arthur, stability 0.5, similarity 0.75 (her new setting; config/
+  voices.json). mp3 originals in audio/raw-eleven/, the seed_audio takes in audio/raw-seed/ and audio/edit-seed/.
+  Arthur reads slower: the last frame of clip 4 is held 0.27 s and of clip 6 0.80 s so the lines fit with their pauses.
+  Pauses between lines: 1.26, 2.21, 0.85, 0.82, 0.76, 4.25, 1.30, 1.05, 1.71 s.
+
+STATUS (2026-11-27, late)
+Current cut: renders/group-project-v8.mp4 (53.9 s, 24 fps, 1080 x 1080), -v8-nomusic, -v8-web. v1 to v7 are kept.
+  Not approved by Elaine. In completed/: the titled file is now v8.
+Checks on v8: build checks PASS (least room 0.26 s); every take passes audio/check_takes.py; the no-music cut reads back
+  as the script word for word. The changed shots were looked at frame by frame at the changed moments; no second full
+  independent review.
+Tracker sheet unchanged; not uploaded. STILL OPEN FOR ELAINE: the course name / last line; whether "1:1" meant square.
+

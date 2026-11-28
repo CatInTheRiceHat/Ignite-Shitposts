@@ -28,7 +28,10 @@
 "6 v5": "8ccfa5a8-34aa-4d8d-bd82-f6f211590110",
 "7 v7": "809446b6-c0bd-4534-ac44-55072245ce1e",
 "8 v4": "ef458e92-28d4-4b72-baa1-a71ecce9fdc0",
-"6 v6": "064ffccc-c289-4a8f-bb7c-f1fd74b68cf1"
+"6 v6": "064ffccc-c289-4a8f-bb7c-f1fd74b68cf1",
+"2 v5": "92ed62f6-a17b-4fa6-8d6b-7fe6dabfeb4d",
+"7 v8": "9b3e89c0-f22c-4f27-aa28-ad0a70c9437a",
+"8 v5": "85a2989b-10fc-473a-ac92-b5c5f691e907"
 },
 "paint_jobs": {
 "1 v1": "5b120391-50d4-4d3b-94d0-e22b669f2459",
@@ -59,7 +62,13 @@
 "6 v5 (used)": "5be671ff-1b1b-485d-841e-d17c7c9b8786",
 "6 v6": "58347f77-a06b-4d34-9811-773bd2c24c01",
 "7 v7 (rejected)": "3a3e8510-184c-429c-ad88-419d03c8e0a3",
-"7 v8 (rejected)": "a91b0de9-d7a7-4a68-ad23-6b378a68c923"
+"7 v8 (rejected)": "a91b0de9-d7a7-4a68-ad23-6b378a68c923",
+"2 v4": "e4ab13a8-238d-4645-a3bb-16d46feeaf22",
+"2 v5": "04b05774-a369-492f-97ba-7cac181bd952",
+"7 v9": "61786390-9bdc-4738-9e27-1e0ad5920a59",
+"7 v10": "648f8177-68d0-4753-99a3-157b5bb9718c",
+"8 v3": "5851612c-88b0-4518-8921-e1585fafe70e",
+"8 v4": "ccdbb5b5-e225-4198-8f1e-7b0e9b3e07c5"
 },
 "narrator_jobs": {
 "01a": "6c839dc7-82d3-430e-8b93-ef7f477c2929",
@@ -83,5 +92,20 @@
 "note": "2026-11-27. About 97 s of paint in all at 720p (about 218 credits) plus the ten narrator takes. The balance cannot be used to check: the plan changed during the session (1028.8 on 'plus' at the start, 3831.4 on 'ultra' later).",
 "style_frame_clip04b_ring (the approved low ring)": "60e4aa4f-4605-4a2c-a2a2-e39471686b48",
 "prompts_json_v5": "556bd089-7a9e-416f-a1f9-0630fd5f825c",
-"note_v6": "2026-11-27, cuts v6 and v7 after Elaine's notes on v5: 13 paint jobs (about 85 s at 720p, about 190 credits) and seven narrator takes. Used: 1 v2, 2 v2 + v3 spliced, 3 v1, 4 v3, 4b v2, 5 v4, 6 v5, 7 v6 (mouth painted out), 8 v2."
+"note_v6": "2026-11-27, cuts v6 and v7 after Elaine's notes on v5: 13 paint jobs (about 85 s at 720p, about 190 credits) and seven narrator takes. Used: 1 v2, 2 v2 + v3 spliced, 3 v1, 4 v3, 4b v2, 5 v4, 6 v5, 7 v6 (mouth painted out), 8 v2.",
+"prompts_json_v7": "bbee850b-49e7-4f59-a6c2-531b3fbd66d8",
+"narrator_jobs_eleven_v4 (cut v8)": {
+"01a take 1 (Sol unclear)": "a85e93b1-c0da-459f-b6c2-4b5a5db5c6ff",
+"01a take 2 (used)": "2cca8d23-deaf-4db2-b141-50a55f6329e2",
+"01a take 3 (spare)": "b2324770-5e14-48d9-a8c5-4f25bd7a24db",
+"01b": "a92d8015-7075-4abf-a333-cadc496cbcb1",
+"02a": "228f7d99-4de6-4a04-a68c-83721af68754",
+"02b": "fc9a6776-c61e-4c9d-a570-46ebd508a42d",
+"03": "45b58c3e-aa12-4d48-8fba-4246fd021de5",
+"04": "2963117d-acc5-4efc-bbfb-c6e095000f1b",
+"05": "70ed5bd0-ede2-4e41-b7c4-6805d72add03",
+"06": "cc23bda3-524b-46c2-b76c-af152c99d5d9",
+"07": "4eed9aae-87cc-4b55-87bf-a0c23c84e344",
+"08": "67416aef-01e0-4e15-b4ac-5a18c371c813"
+}
 }

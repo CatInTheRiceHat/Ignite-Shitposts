@@ -13,7 +13,7 @@
       "playback_rate": 1
     },
     "Narrator": {
-      "provider": "Higgsfield",
+      "provider": "Higgsfield (ElevenLabs Eleven v4)",
       "voice": "Arthur",
       "voice_type": "preset",
       "role": "off-screen Narrator",
@@ -21,8 +21,13 @@
       "playback_rate": 1,
       "voice_id": "30fc8796-ceb6-4a66-b3a7-4a145ef7f346",
       "voice_id_status": "Verified in Higgsfield list_voices on 2026-11-13",
-      "model": "seed_audio",
-      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3"
+      "model": "elevenlabs_v4",
+      "preview_url": "https://d1xarpci4ikg0w.cloudfront.net/audio_voice_preset/preview/080fcbab-8be3-4d60-8156-3c3040421e0f.mp3",
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "request_shape": "generate_audio: model elevenlabs_v4, prompt = the line, dialogue = [{text, voice_type: preset, voice_id}], stability 0.5, similarity_boost 0.75; returns mp3 (44.1 kHz mono)",
+      "model_decision": "Elaine, 2026-11-27: \"i changed the voice so in higgsfield u can now see we use eleven labs but i kept arthur\". Her own Higgsfield tests that evening used Eleven v4 with Arthur at stability 0.5 and similarity 0.75. Before this the Narrator was seed_audio; episodes recorded with it keep their takes and metadata.",
+      "pace_note": "Arthur reads about 10 to 45% slower on Eleven v4 than on seed_audio: time shots to the real takes."
     }
   },
   "sol_voice_reference": "workflow/episodes/sol_kling_test/audio-test.json",

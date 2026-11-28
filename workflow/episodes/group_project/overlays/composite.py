@@ -2,7 +2,7 @@
 """Lay the lettering (and the end card) over a painted clip and cut out the SQUARE: painted 16:9 clip in, 1080 x 1080 out.
 
 Usage (workflow/.venv/bin/python):
-  composite.py <clip number> <painted.mp4> <out.mp4> [--shift seconds] [--card art.png] [--frame t out.png] [--wide]
+  composite.py <clip number> <painted.mp4> <out.mp4> [--shift seconds] [--card art.png] [--no-badge] [--frame t out.png] [--wide]
 
 The painter cannot write words and only returns 16:9. So: every word is drawn once (make_art.py), sits on a plane in
 the Blender scene (skeleton/clips.py, OVL_ planes) and is rendered as its own pass for EVERY frame, at 1920 x 1080 with
@@ -152,6 +152,9 @@ def main():
         i = args.index("--shift")
         shift = float(args[i + 1])
         del args[i:i + 2]
+    if "--no-badge" in args:                 # the "1st" is in the skeleton, so painted in: nothing is laid on the ribbon
+        args.remove("--no-badge")
+        PLAN["8"].pop("badge", None)
     if "--card" in args:
         i = args.index("--card")
         PLAN["8"]["card"]["art"] = args[i + 1]
