@@ -41,7 +41,10 @@ PLAN = {
     # 5: the first board is there from the start and shudders with the clock; the second drops onto the post under it.
     "5": {"no_seq": True, "layers": [{"dir": "seq_judging", "track": STILL},
                                      {"dir": "seq_doneby", "track": {"side": 60, "up": 70, "down": 50, "appear": True}}]},
-    "7": {"no_seq": True},                               # no lettering in the square
+    # 7: no lettering in the square. The painter put our Sol right on the square's left edge after the camera slides to
+    #    him and the other two (the review of cut v6: he was cut by the frame). The square itself slides 52 px to the left
+    #    with that camera move, which leaves sand on both sides of the three of them.
+    "7": {"no_seq": True, "crop_pan": [3.4, 4.3, -52]},
     # 8: "1st" is placed on the painted rosette itself, found in each frame by its blue and centred on its cream middle,
     #    from the moment it has landed until the end card covers it.
     "8": {"no_seq": True, "badge": {"art": "first.png", "t0": 0.75, "t1": 2.3}, "card": {"art": "end_card.png", "t0": 1.6, "d": 0.5}},
@@ -247,11 +250,20 @@ def main():
                 size = max(12, int(round(w * 0.62)))                 # w is the width the art is sized against
                 over(frame, cv2.resize(badge, (size, size), interpolation=cv2.INTER_AREA), int(round(cx - size / 2)), int(round(cy - size / 2)), 0.95)
         if not wide:
-            frame = np.ascontiguousarray(frame[:, X0:X0 + H])
+            x_sq = X0
+            if "crop_pan" in plan:                                   # the square slides sideways between two times
+                a_, b_, dx = plan["crop_pan"]
+                u = min(1.0, max(0.0, (ts - a_) / (b_ - a_)))
+                x_sq = X0 + int(round(dx * u * u * (3 - 2 * u)))
+            frame = np.ascontiguousarray(frame[:, x_sq:x_sq + H])
         if card is not None:                                     # the end card: in from the right, then it holds
             k = ease_out_back((ts - plan["card"]["t0"]) / plan["card"]["d"]) if ts > plan["card"]["t0"] else 0.0
             if k > 0:
-                over(frame, card, int(round((1 - k) * 700)) + (X0 if wide else 0), 0)
+                cx_ = int(round((1 - k) * 700)) + (X0 if wide else 0)
+                over(frame, card, cx_, 0)
+                if cx_ < (X0 if wide else 0):                        # the card bounces past its place: its orange runs on to
+                    edge = np.repeat(card[:, -1:, :], (X0 if wide else 0) - cx_ + 2, axis=1)   # the frame edge, so no gap opens
+                    over(frame, edge, cx_ + card.shape[1] - 1, 0)
         out8 = (np.clip(frame, 0, 1) * 255 + 0.5).astype(np.uint8)
         if single is not None:
             cv2.imwrite(single[1], out8)

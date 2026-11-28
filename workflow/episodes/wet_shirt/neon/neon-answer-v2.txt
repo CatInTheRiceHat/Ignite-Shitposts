@@ -1,0 +1,251 @@
+WHY DOES A WET PATCH LOOK DARKER ON A GRAY SHIRT? — SCRIPT V2 (NARRATOR ONLY, INTERACTIVE)
+
+About 40 seconds, 6 shots, 72 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  (no words yet) The camera flies in from high over a sunny backyard garden, swooping under colorful cloth
+      bunting and down to a low wooden drying rack holding a plain light-gray T-shirt. Sol stands beside it,
+      bouncing proudly (CONTENT). From the stationary lawn sprinkler on the right, one arc of water drops flies
+      across onto the shirt's chest, leaving a crisp dark-gray circular wet patch. Sol jolts, STARTLED (!), then
+      does a big cartoon double take: whips away, snaps right back leaning far in at the spot, SHOCKED (indigo
+      shade, side lines, O O eyes).
+    Narrator: "Whoa Sol, water didn't stain your shirt!"
+      On "didn't stain", he bounces out of SHOCKED into CONFUSED (?), glancing from the dark spot up to the voice.
+02    His answer: he tries to scrub it off. Turning DETERMINED, he waddles briskly beside the shirt with feet
+      planted, tucks both arm nubs tight at his sides, squeezes his eyes shut (SQUEEZE), and frantically shimmies
+      his plump side back and forth against the wet patch.
+    Narrator: "Scrubbing won't erase a trick of light."
+      Sol shuffles back to his spot (feet planted) and checks the shirt (NERVOUS, sweat drop): the dark patch
+      hasn't budged. He slumps, SAD, then on "trick of light" bounces upright (NORMAL), looks up at the voice,
+      and tilts curiously toward the sunlit shirt.
+03  Narrator: "Light bounces straight back out whenever it crosses between air and dry cotton fibers."
+      CLOSE-UP, steep three-quarter macro looking down on the dry light-gray weave of the shirt (upper half of
+      frame). Bright golden-yellow light arrows stream down onto the top fibers and air gaps and bounce sharply
+      right back out at full brightness. Sol is not here.
+04  Narrator: "Water's more like fiber than air, so light goes deeper before the surface sends it back."
+      CLOSE-UP, low side-on cross-section sliding into the wet weave (upper half of frame). Clear glossy water
+      fills the gaps between the same light-gray fibers and forms a smooth top layer. Golden arrows glide straight
+      through the water deep into the cloth, then strike the underside of the smooth water surface and bounce back
+      down into the fibers again and again, shrinking and dimming from bright gold to faint bronze. Sol is not here.
+05  Narrator: "Each bounce lets your shirt's fibers absorb more light, so the wet patch looks darker."
+      Opens straight-on at the hanging shirt comparing dry cloth beside the dark wet patch (upper half of frame):
+      four bright golden arrows bounce boldly off the dry side while only one thin faint bronze arrow trickles out
+      of the wet patch. The camera sweeps down to Sol in a deep squat-squash (about half height, feet planted),
+      peering closely at the patch (THINKING, dots) with the dark wet patch staying clearly in frame beside him.
+      On "so the wet patch looks darker", he springs tall like an accordion into AWE (sparkle eyes, yellow
+      four-point stars).
+06  Narrator: "Your gray shirt never changed color because wet fabric just traps more light."
+      Camera orbits cleanly around the outside of the drying rack down to face Sol at eye level with the shirt
+      beside him. He stands tall (NORMAL), tilts his body gently upward, and listens through the entire line with
+      one quick clean blink. Once the line ends, he gives one big bouncy nod, then bounces into HAPPY (upward arc
+      eyes, short arm nubs lifted cheerfully). Video ends on that happy face, no black.
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Set: a lively, sunlit backyard garden on laundry day (new for this episode). Lush green lawn, warm flagstone
+  patio path in the foreground, cream-painted wooden picket fence, terracotta pots bursting with bright yellow
+  sunflowers and blue hydrangeas, leafy trees behind the fence, and blank triangular cloth bunting (red, yellow,
+  teal — zero letters, logos, or numbers anywhere in the set) strung high across the yard. A tiny terracotta
+  garden turtle statue rests on the stone border, and a one-piece woven laundry basket filled with folded pastel
+  towels sits back-left on the flagstones; neither ever moves.
+Fixed places: the one-piece wooden A-frame drying rack sits center-left on the flagstones; a plain light-gray
+  cotton T-shirt (#B8BCC4, completely blank with no logos, pockets, letters, or numbers) is draped smoothly and
+  permanently over its top bar; Sol stands on the flagstones to the left-front of the rack; a one-piece green
+  and brass lawn sprinkler sits completely stationary on the right lawn (no rotating or moving parts), connected
+  to a stationary coiled green garden hose. In clip 01, one clean arc of water drops flies from the stationary
+  sprinkler nozzle onto the shirt's chest from 1.60 to 2.30 s and then stops; every drop lands on the shirt's
+  chest, and both the grass and the flagstones stay completely dry in every frame.
+How the invisible thing (light) is shown: smooth 2D animated arrows laid over the painted clips along 3D paths
+  exported from the gray scene camera (`arrows2.py` / `draw_arrows.py`), with soft edges and clean fade-ins and
+  fade-outs. Incoming and brightly reflected rays are warm golden-yellow (#FFD447); rays losing energy as they
+  bounce inside the wet fibers step down in thickness and color from bright gold (#FFD447) to muted amber
+  (#C98A2E) to faint bronze (#7A5524) and pale amber (#8A6633).
+What stays identical from clip to clip: the painted gouache style (one style reference frame from clip 01 plus
+  Sol's turnaround sheet), the approved 3D separate-eyes Sol model (`assets/sol-3d/eyes/sol-eyes.blend`,
+  mouthless, short blunt legs, short stubby arms, no particles, no eyebrows, cartoony blinks kept), the wooden
+  drying rack, the plain light-gray T-shirt (#B8BCC4), and the dark-gray circular wet patch (#555860, fixed
+  center on the shirt chest and fixed radius R from 2.30 s of clip 01 onward). The shirt, wet patch, macro
+  cotton fibers (#B8BCC4 yarns), and clear pale-sky water layer are all modelled in their real colors in the
+  skeleton so the demonstration matches from clip to clip. The shirt moves only by swaying slightly while Sol's
+  side pushes against it in clip 02. Close-up science subjects (clips 03 and 04, and the start of clip 05) sit
+  strictly in the upper half of the frame, leaving the lower half clear for captions.
+Camera: every clip has a different angle and a travelling move at its start or end; no two neighbouring clips
+  share a framing, and the camera always goes around objects (under the bunting in clip 01, around the outside
+  of the rack in clip 06), never through them. Only two science close-ups omit Sol (clips 03 and 04), with two
+  distinct viewpoints (steep three-quarter overhead vs. low side-on cross-section) and a slow, steady camera
+  while the light arrows are read.
+Sol's faces and acting: 12 expressions from `assets/sol-3d/eyes` (CAPITALS above), every swap riding a squash-
+  and-spring bounce via `emotion_at`. Floating marks (`!`, `?`, `dots`, `stars`) are timed only when the camera
+  faces Sol's front; the indigo distress shade is on only during SHOCKED in clip 01 and comes off immediately on
+  the next bounce. Sol never reaches with an arm: his short arm nubs stay tucked at his sides (lifting only in a
+  small cheer on the final HAPPY pose). His feet stay planted on the flagstones and touching his shadow in every
+  clip (no hops: he waddles and shuffles in clip 02 with squash-and-spring steps, and performs a deep
+  squat-squash to about half height — still clearly Sol — in clip 05).
+Gags (each used once): the proud puff-up and cartoon double take (01), the frantic side-wiggle scrub (02), and
+  the deep squat-squash into an accordion spring-up (05).
+Sound and edit: Arthur's takes timed at ~2.3 words/second plus ~0.3 s per internal comma or stop, recorded first
+  and checked word-for-word with `check_narration.py`; about 0.85 to 0.90 s of quiet after every line; every
+  line starts only after what it refers to is on screen; at most one emotion sound from `assets/emotion sounds/`
+  for every other face (level-matched, never stacked with a squeak or boing); every voice line and sound effect
+  ends at least 0.30 s before its clip cut; no black at the end.
+Skeleton: `skeleton/clips.py` with `rig.py`, rendered headless at 24 fps, 720x1280.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p (upscaled to 1080x1920 in edit). Clip 01 painted first as the
+  style reference for clips 02 to 06, passing cropped expression sheets for the faces each clip uses.
+Checks: gray frames before paint; `check_faces.py` on every painted clip; `check_narration.py` on every take
+  and on the finished cut; `frame_review.py` on every frame of the final cut.
+
+CLIP 01 — fly in, the splash, the double take — 6.0s
+  Camera: 0.00-1.55 starts high above the far corner of the sunny garden looking down on the yard, flies smoothly
+    downward and cleanly under the overhead bunting (never through it), levelling out low in front three-quarter
+    on Sol and the drying rack. 2.20-2.50 snap push-in on Sol's SHOCKED double take. 2.50-6.00 slow steady creep.
+  Action: 0.00-1.95 Sol bounces proudly beside the spotless light-gray shirt (feet planted). 1.60-2.30 the
+    completely stationary lawn sprinkler on the right shoots one clean arc of water drops onto the shirt's chest
+    and then stops (every drop lands on the shirt's chest; grass and flagstones stay completely dry in every
+    frame). 1.95-2.30 the water forms one crisp dark-gray circular wet patch (radius R, locked from 2.30 onward).
+    2.00-2.20 Sol jolts in place (feet planted). 2.20-2.45 cartoon double take: whips his face away, snaps right
+    back leaning far forward at the dark patch. 4.40-5.40 bounces upright, glancing from the wet patch up toward
+    the Narrator's voice.
+  Eyes: CONTENT 0.00-2.00 / STARTLED 2.00-2.20 (bounce, `!`) / SHOCKED 2.20-4.40 (bounce, indigo shade, side
+    lines) / CONFUSED 4.40-6.00 (bounce, `?`, indigo shade off).
+  Narrator: 2.30-5.65 ("Whoa Sol, water didn't stain your shirt!" — 7 words, 1 comma, 3.35 s). Starts right as
+    the water arc finishes with the wet patch and SHOCKED reaction already on screen; 0.35 s quiet tail.
+  Arrows/overlays: None.
+  Sound: `exclamation` 2.00-2.35 (on STARTLED); `curiosity` 4.40-4.85 (on CONFUSED). CONTENT and SHOCKED silent.
+  Props in frame: Dry flagstones under Sol, wooden A-frame drying rack, plain light-gray cotton T-shirt (with
+    dark-gray circular wet patch from 1.95), stationary lawn sprinkler and coiled green hose on dry right lawn,
+    woven laundry basket with pastel towels back-left, terracotta turtle statue on stone border, potted
+    sunflowers and hydrangeas, picket fence, blank colorful bunting overhead.
+
+CLIP 02 — the frantic scrub — 4.05s
+  Camera: 0.00-1.85 opens tight eye-level profile alongside the front of the shirt looking at Sol, tracking
+    briskly sideways as he waddles in, shimmies, and shuffles back. 1.85-2.65 swings smoothly around to a high
+    three-quarter angle over the shirt looking down at Sol. 2.65-4.05 holds steady with a gentle settle.
+  Action: 0.00-0.30 bounces into DETERMINED and waddles briskly over beside the shirt using squash-and-spring
+    steps with his feet planted on the flagstones (no hops), both short arm nubs tucked tight at his sides.
+    0.30-1.50 frantic side-wiggle scrub: presses his plump side into the wet patch and shimmies rapidly back and
+    forth six times (the hanging shirt sways slightly only while his side pushes it, then settles flat).
+    1.50-1.85 shuffles cleanly back to his starting spot with feet planted on his shadow and checks the shirt:
+    the dark patch is unchanged. 1.85-2.40 slumps down disappointed. 2.40-3.60 bounces upright, looks up at the
+    Narrator, then tilts curiously toward the sunlit shirt.
+  Eyes: DETERMINED 0.00-0.30 / SQUEEZE 0.30-1.50 (bounce) / NERVOUS 1.50-1.90 (bounce, sweat drop) /
+    SAD 1.90-2.40 (bounce) / NORMAL 2.40-4.05 (bounce).
+  Narrator: 0.55-3.60 ("Scrubbing won't erase a trick of light." — 7 words, 0 internal stops, 3.05 s). Starts
+    while Sol is visibly mid-scrub (0.90 s quiet after clip 01's line); 0.45 s quiet tail before cut.
+  Arrows/overlays: None.
+  Sound: Three small action `squeak`s at 0.45, 0.85, 1.25 (during SQUEEZE scrub); `sadness` 1.90-2.25 (on SAD).
+    DETERMINED, NERVOUS, and NORMAL have no emotion sound.
+  Props in frame: Dry flagstones under Sol, wooden A-frame drying rack, plain light-gray cotton T-shirt with its
+    fixed dark-gray circular wet patch, dry green lawn, picket fence, and potted flowers.
+
+CLIP 03 — close-up 1: dry fibers bounce sunlight out — 7.0s
+  Camera: 0.00-0.45 opens medium-close on the dry light-gray upper chest of the shirt (wet patch edge barely
+    visible at lower right for continuity) and pushes smoothly in to a steep three-quarter macro looking down on
+    the dry woven fibers in the upper half of the frame. 0.45-7.00 slow, steady drift right (lower half softly
+    defocused gray cloth clear for captions).
+  Action: Crisscrossed light-gray cotton yarns with bright empty air gaps between them sit steady in frame.
+  Eyes: None (Sol not in frame).
+  Narrator: 0.45-6.55 ("Light bounces straight back out whenever it crosses between air and dry cotton fibers."
+    — 14 words, 0 internal stops, 6.10 s). Starts after macro dry fibers, air gaps, and incoming golden rays are
+    visible (0.90 s quiet after clip 02's line); 0.45 s quiet tail before cut.
+  Arrows/overlays: 0.35-6.50 four smooth bright golden-yellow 2D light arrows (#FFD447) stream diagonally down
+    from upper-left onto the dry top fibers and air gaps (0.35-2.55), then bounce sharply at each air-to-fiber
+    crossing straight back up and out toward upper-right at full brightness (2.55-6.50), fading cleanly out by
+    6.65.
+  Sound: One soft action `twinkle` at 2.60-3.00 as the golden rays bounce cleanly back out.
+  Props in frame: Dry light-gray cotton shirt weave and its air pockets (upper half of frame).
+
+CLIP 04 — close-up 2: wet cross-section traps and dims light — 8.0s
+  Camera: 0.00-0.45 low side-on cross-section macro view of the exact same light-gray fibers in the upper half of
+    the frame, sliding briskly sideways from dry fibers at left across the wet boundary onto water-filled fibers.
+    0.45-8.00 holds slow and steady on the wet fiber cross-section (lower half softly blurred for captions).
+  Action: Clear, glossy, pale-sky-tinted water fills every gap between the light-gray cotton fibers and forms a
+    smooth curved liquid layer across the top. Fibers and water stay steady while the light rays travel and dim.
+  Eyes: None (Sol not in frame).
+  Narrator: 0.45-7.70 ("Water's more like fiber than air, so light goes deeper before the surface sends it back."
+    — 16 words, 1 comma, 7.25 s). Starts as the camera lands on the water-filled gaps and golden arrows enter
+    the water (0.90 s quiet after clip 03's line); 0.30 s quiet tail before cut.
+  Arrows/overlays: 0.40-7.60 three bright golden-yellow 2D light arrows (#FFD447) stream down from upper-left
+    into the smooth water layer (0.40-1.90), pass straight through without bouncing off the top, and glide deep
+    down between the submerged gray fibers (1.90-3.40). From 3.40-7.55, rays rise back toward the underside of
+    the smooth top water surface, strike it at shallow angles, and reflect sharply back down into the wet fibers
+    again and again; on each bounce off a fiber, the arrows shrink thinner and dim step by step from bright gold
+    (#FFD447) to muted amber (#C98A2E) to faint bronze (#7A5524), fading cleanly out by 7.65.
+  Sound: Two quiet action `boing`s at 4.05 and 5.30 (0.20 s each) on the water-surface reflection and deep fiber
+    bounce.
+  Props in frame: Light-gray cotton fibers filled and coated with a smooth clear glossy water layer (upper half
+    of frame).
+
+CLIP 05 — comparison and Sol's eureka spring-up — 7.75s
+  Camera: 0.00-2.80 straight-on medium-tight shot of the hanging gray shirt comparing the dry cloth beside the
+    dark-gray circular wet patch (upper half of frame), slow steady hold. 2.80-3.80 sweeps smoothly down and
+    arcs into a playful low Dutch-tilted front three-quarter view on Sol beside the rack, keeping the hanging
+    gray shirt and its dark wet patch clearly in frame right beside Sol on the right through the end of the clip.
+    5.30-5.70 small snap push-in as Sol springs tall (shirt and wet patch still clearly visible beside him), then
+    steady.
+  Action: 0.00-2.80 shirt hangs still while dry-vs-wet escaping arrows compare side by side. 3.60-5.30 Sol is
+    revealed in a deep squat-squash (about half his normal height, still clearly Sol, feet planted on the dry
+    flagstones, short arm nubs tucked), peering intently at the dark wet patch beside him. 5.30-6.05 accordion
+    spring-up: he springs smoothly tall past normal height and settles buoyantly on his feet (feet staying
+    planted on the flagstones throughout, short arm nubs lifted slightly).
+  Eyes: Not seen 0.00-3.60 / THINKING 3.60-5.30 (dots) / AWE 5.30-7.75 (bounce, sparkle eyes, yellow four-point
+    stars).
+  Narrator: 0.60-7.40 ("Each bounce lets your shirt's fibers absorb more light, so the wet patch looks darker."
+    — 15 words, 1 comma, 6.80 s). Starts after the dry-vs-wet escaping arrows appear on the shirt (0.90 s quiet
+    after clip 04's line); "so the wet patch looks darker" (~4.90-7.40) plays while the dark wet patch sits
+    clearly in frame beside Sol; 0.35 s quiet tail before cut.
+  Arrows/overlays: 0.30-2.75 over the hanging shirt: four bright golden-yellow 2D arrows (#FFD447) bounce boldly
+    outward from the dry light-gray cloth while only one thin faint pale-amber arrow (#8A6633) trickles weakly
+    out of the dark-gray wet patch. Fades cleanly out by 2.80 as the camera sweeps down to Sol.
+  Sound: Soft action `squeak` at 3.85-4.05 (on deep squat-squash THINKING Sol); `amazed` 5.30-6.05 (on AWE,
+    finishes 1.70 s before cut).
+  Props in frame: Dry flagstones under Sol, wooden A-frame drying rack, plain light-gray cotton T-shirt with its
+    fixed dark-gray circular wet patch (staying in frame beside Sol after the sweep down), background picket
+    fence, and sunlit foliage.
+
+CLIP 06 — Sol gets it — 7.2s
+  Camera: 0.00-0.90 opens from a high three-quarter angle slightly behind and left of the drying rack, looking
+    past the shirt's wet patch down at Sol. 0.90-1.80 orbits smoothly around the outside of the wooden rack
+    (going clearly around it, never through it) down to an eye-level medium close-up facing Sol with the gray
+    shirt and its wet patch beside him. 1.80-7.20 holds steady.
+  Action: 0.00-0.45 Sol stands tall and calm (feet planted on the dry flagstones, arms relaxed at his sides, no
+    leftover marks) and tilts his compact body slightly upward to look up at the Narrator above the camera.
+    0.50-6.15 listens attentively through the entire last line with gentle listening idle and one quick clean
+    cartoony blink at 3.10. 6.15-6.55 after the line finishes, gives one big bouncy, satisfied nod. 6.55-7.20
+    bounces once into his happy face, short arm nubs raised cheerfully a little at his sides, settled on his
+    feet. Cuts cleanly at 7.20 on that happy face, no black.
+  Eyes: NORMAL 0.00-6.55 (quick clean blink at 3.10) / HAPPY 6.55-7.20 (bounce at 6.55).
+  Narrator: 0.50-6.15 ("Your gray shirt never changed color because wet fabric just traps more light." — 13
+    words, 0 internal stops, 5.65 s). Starts after Sol is looking up at the Narrator (0.85 s quiet after clip
+    05's line); 1.05 s visual payoff after line ends.
+  Arrows/overlays: None.
+  Sound: `pleased` 6.55-6.90 (on HAPPY, ends 0.30 s before the 7.20 cut; zero audio past the final frame). NORMAL
+    is silent.
+  Props in frame: Dry flagstones under Sol, wooden A-frame drying rack, plain light-gray cotton T-shirt with its
+    fixed dark-gray circular wet patch, background picket fence, potted sunflowers, and sunlit garden yard.
+
+Accuracy: wet porous materials darken through optical index matching and internal trapping (Lekner & Dorf,
+  Applied Optics 1988). Dry cotton fibers (refractive index ~1.53) sit surrounded by air (n ~ 1.00), so the large
+  index jump causes strong Fresnel reflection and diffuse scattering right off the outer fibers back to the eye.
+  When water (n ~ 1.33) fills those inter-fiber air spaces, water's refractive index is much closer to cotton's
+  than air's is, reducing immediate surface reflection so light refracts deeper into the cloth; scattered light
+  heading back outward then strikes the smooth water-to-air boundary and, beyond the critical angle (~49
+  degrees), undergoes total internal reflection back into the weave. More internal bounces mean more encounters
+  with the dyed gray fibers, so more light is absorbed and less escapes to your eyes. Simplified here: we omit
+  refractive-index numbers and the terms Fresnel reflection and total internal reflection, show a handful of
+  animated rays instead of dense diffuse scattering, and skip how deeper absorption also boosts color saturation
+  on brightly dyed fabrics (neutral gray simply dims). Still variable across real fabrics: the relative share of
+  reduced surface scattering versus total internal reflection depends on fiber type, weave density, and wetness
+  level, and a thick mirror-like water film can add bright specular glare at grazing viewing angles.
+
+------------------------------------------------------------------------------
+EXTRAS
+------------------------------------------------------------------------------
+TITLE: Why Does A Wet Patch Look Darker On A Gray Shirt?
+
+DESCRIPTION: Why does a wet patch look darker on a gray shirt? Sol and the Narrator find out: light bounces straight back out whenever it crosses between air and dry cotton fibers. Water is much more like fiber than air, so when it fills the gaps, light slips deeper into the cloth and gets bounced back inside by the smooth water surface. Each extra bounce lets the fibers absorb more light before it can escape. The shirt never changed color at all, because wet fabric just traps more of the light.
+
+HASHTAGS: #wetclothes #laundryday #light #howthingswork #funscience

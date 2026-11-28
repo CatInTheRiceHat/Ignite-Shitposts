@@ -39,14 +39,19 @@ while True:
             # The window is the patch of face BETWEEN the eyes and just under them, and nothing else. His face is turned, so
             # its orange rim comes close on one side; a wider or deeper window took that in and smeared his chin.
             lx, rx = min(ax, bx), max(ax, bx)
-            ex0, ex1 = int(lx + 0.1 * gap), int(rx - 0.05 * gap)
-            ey0, ey1 = int(max(ay, by) + 0.08 * gap), int(max(ay, by) + 0.85 * gap)
+            ex0, ex1 = int(lx - 0.1 * gap), int(rx - 0.05 * gap)
+            ey0, ey1 = int(max(ay, by) + 0.08 * gap), int(max(ay, by) + 0.95 * gap)
             win = np.zeros(navy.shape, np.uint8)
             win[max(0, ey0):ey1, max(0, ex0):ex1] = 1
-            # the inside of the opening is dark (r under 172, g under 110) or pink (b high for its g); cream has g over 150
-            mouth = (win == 1) & (((r < 172) & (g < 112)) | ((g < 140) & (b > 0.62 * g) & (r > g + 40))) & (navy == 0)
+            # The inside of the opening is dark maroon or pink, and it leaves a greyish smear where it meets the cream. His
+            # own orange and red have far less blue for their green (b under half of g), which is how they are told apart.
+            dark = (r < 172) & (g < 112) & ((b > 0.55 * g) | (r < 110))
+            pink = (g < 140) & (b > 0.62 * g) & (r > g + 40)
+            smear = (g < 172) & (b > 0.78 * g) & (r > g + 15)
+            mouth = (win == 1) & (dark | pink | smear) & (navy == 0)
             if mouth.sum() > 12:
-                m = cv2.dilate(mouth.astype(np.uint8), np.ones((5, 5), np.uint8)) & cv2.dilate(win, np.ones((7, 7), np.uint8)) & (1 - cv2.erode(cv2.dilate(navy, np.ones((3, 3), np.uint8)), np.ones((3, 3), np.uint8)))
+                keep_eyes = 1 - cv2.erode(cv2.dilate(navy, np.ones((3, 3), np.uint8)), np.ones((3, 3), np.uint8))
+                m = cv2.dilate(mouth.astype(np.uint8), np.ones((5, 5), np.uint8)) & cv2.dilate(win, np.ones((7, 7), np.uint8)) & keep_eyes
                 fr[y0:y1, x0:x1] = cv2.inpaint(roi, m, 4, cv2.INPAINT_TELEA)
                 fixed.append(n)
     out.stdin.write(fr.tobytes())

@@ -1,0 +1,1431 @@
+You are writing the script and the animation plan for one episode of Ignite's short science videos
+(vertical 9:16, about 30 to 40 seconds). Do not use any tools and do not ask questions: answer in ONE message
+with the finished document. Everything you need is pasted below.
+
+TOPIC (from Elaine's tracker sheet): "Why does a wet patch look darker on a gray shirt?"
+
+WHAT TO RETURN
+One plain-text episode document in exactly the format of EXAMPLE A below (the shower-curtain script), from its
+title line down to its "Accuracy" paragraph. It must hold everything an animator needs to build the video
+without asking you anything:
+1. Title line, then a short header: runtime, number of shots, spoken word count, voice (Narrator = Arthur; Sol
+   has no voice and no mouth).
+2. "DIALOGUE AND WHAT SOL DOES": every clip in order with the Narrator's exact final words and what Sol does in
+   answer. Expression names in CAPITALS, taken only from the 38 names in the expression list below.
+3. "HOW IT IS FILMED": the set (a NEW, lively place that suits the topic; not a bathroom, cafe, kitchen, desk or
+   beach, which earlier videos used), fixed places of Sol and each prop, how the invisible thing (light) is shown
+   (animated arrows or rays laid over the picture, and what colour they are), the camera idea, the list of gags
+   (each used once), and what must stay identical from clip to clip.
+4. One "CLIP NN — name — seconds" block per clip with: Camera (start view, the move with times, end view; the
+   first clip opens with a fly-in from high over the whole set), Action (timed beats in seconds), Eyes (the
+   expression timeline with times, each swap rides a bounce), Narrator (start and end time of the line inside
+   the clip, starting only AFTER the thing the line is about is on screen), Arrows/overlays (what is drawn over
+   the picture and when), Sound (at most one emotion sound from the list for every other face, plus any squeak
+   or boing), and Props in frame (only what this clip shows).
+5. "Accuracy": the real physics in a few sentences, what is simplified, and what is still uncertain.
+6. After the document, three short extras: TITLE (a YouTube headline in title case), DESCRIPTION (blurb in the
+   style of the tracker rows quoted in the rules: opens with the question, names Sol and the Narrator, gives the
+   answer plainly, ends on the twist), HASHTAGS (five, specific to this video).
+
+HARD RULES (all from the pasted guidelines; where two guidelines disagree, "current-rules.md" wins and its
+"Superseded" table lists what no longer applies: no on-twos, no paired stills, no Sol voice)
+- Narrator only. Sol is silent and mouthless and answers by acting. The Narrator talks TO Sol and reacts to what
+  he does. No "Got it?"-style check-in at the end.
+- Ending order: Sol looks up and listens through the last line, nods once when it is over, then makes one happy
+  face. The video ends on that, no black.
+- About 75 to 90 spoken words in total, 6 to 8 clips, each clip 4 to 8 seconds, leaving about a second of quiet
+  after every line. A line is said only when its subject is already on screen.
+- Sol never reaches for a prop with an arm; he hops beside it, bumps it with his side or leans. His feet stay
+  on the ground. Props are simple one-piece objects that keep every part, never morph, never appear or vanish
+  inside a shot, and move only when something visibly moves them.
+- The thing being explained gets its own close-up science shots with a slow, steady camera, and it is the same
+  object, size and colour in every clip. Keep the close-up's subject in the upper half of the frame (captions
+  sit low).
+- Every clip has a different angle and a travelling camera move at its start or end; no two neighbouring clips
+  share a framing; the camera goes round things, never through them.
+- No words, letters or numbers anywhere in the picture (no signs, labels or logos on the shirt).
+- Sol is a cute cartoon goober: plan a face for nearly every beat, and use a different cartoon gag each time
+  (never the catfight, the slip, the slap, singing in the shower or the dizzy spin again: those were used).
+  A fall must not look like he dies (no X eyes, no lying still).
+- Explain every link of the cause and effect in plain words for a curious middle-school student, and keep it
+  physically correct. Do not write the explanation as slogans or clipped fragments.
+
+THE PASTED CONTEXT
+
+
+<<<<< BEGIN GUIDELINE 1 (wins every disagreement): guidelines/current-rules.md >>>>>
+# Elaine's current rules: read this first
+
+Updated 2026-11-27, with Elaine's notes on the shower-curtain script and on its first cut (camera and emotions, section 4); before that 2026-11-26, after the coffee-ring episode; first written after the candle episode ("Why does a flame always point up?").
+
+This page collects everything Elaine has asked for into one place, sorted by topic, so a new episode can
+start from here. Where this page and an older guide disagree, **this page wins**; the
+[superseded list](#superseded-do-not-follow) names the old rules that no longer apply.
+
+Lines in quotes are Elaine's own words. Lines marked *(working practice)* are things learned while
+making the candle episode, not preferences she stated. The dated history behind each rule is in the
+[critique checklist](checklist.md).
+
+## 1. Sol
+
+- **Use the approved 3D Sol model for every clip.** "can we just make a sol 3d model or smth so we can
+  always have the right reference". Approved 2026-11-25: "YES ... that is what i want, lets save that".
+  See [sol-3d-model.md](sol-3d-model.md). Do not rebuild Sol by hand or from a description.
+- **Sol is round and plump**, "a gumdrop shape", like the mascot images in
+  `~/Documents/Ignite Website/public/mascots/`. Not wide, and no twisted flame tip: "rn this sol is kind
+  of wide ... and theres a twisted flame tip but sol doesnt have that".
+- **How the model is made:** "trace over the mascot outline and then u just inflate the thing", applied
+  to `Logo.png`, "except the legs".
+- **Legs and arms:** legs are Mascot.png's own leg shape, "tapered at the ends", with a blunt rounded
+  tip: "not too pointy look at the reference". Arms are "the same shape", longer. Both stay short stubs.
+- **Sol is mouthless, always.** "sol is a mouthless charcter it must only express emotions through
+  motion so no random mouths popping up". Happiness is arms up, a bounce, a tilt, a nod. Never a smile.
+- **Face:** plain cream with two navy (#1C2447) oval eyes close together and low on the face, and
+  nothing else. Eyes that are "so far apart" are wrong. This is his resting face. Planned anime expressions
+  (section 4) may change the eyes or add a small mark for a beat; anything unplanned is still a glitch.
+- **Cartoony blinks are wanted.** "i like the cartoony blinks" (2026-11-25). Leave the painter's short
+  closed-eye blinks in. Do not repair them out with `fix_blinks.py`. They are quick flat closed-eye lines
+  and still read as blinks, not a mouth. Eyes must be back to the open navy ovals right after, and still
+  nothing else on the face.
+- **A blink closes fully or it is a glitch.** She sent back "a weird flash" (2026-11-26): three frames where
+  his eyes were half shut and striped. A clean blink (open, flat closed line, open) stays. Eyes that are
+  striped, split or half drawn for a few frames get repaired in the edit: lay the eye area of the last good
+  frame over them. No repaint needed.
+- **No particles** come off Sol, ever: "scrap the fire particles".
+- **A logo version exists** (body only, no arms or legs), saved at her request beside the full model.
+
+## 2. Script and voice
+
+- **Sol is silent.** "we will cut the sol voice entirely so like sol will just be a silent character and
+  it will just be the narrator just educating us". Narrator only (Arthur, `config/voices.json`).
+- **Scripts are interactive.** The Narrator talks to Sol and reacts to what he does; Sol answers by
+  acting. Her example: "what are you doing sol?", Sol wiggles the candle and looks up "as if hes trying
+  to signal the narrator", "ohhh, you must be wondering why its standing up still", "and then sol nods".
+- **A line is said when the thing it is about is on screen.** Elaine, 2026-11-27, on the shower-curtain opening: "when
+  sol has the furious eyes thats when narrator says sol why are u mad its these kinds of logic that you need to know
+  when making the videos so they're more accurate". The Narrator was asking why Sol was glaring almost a second
+  before the glare was on his face. The Narrator can only react to what he, and the viewer, can already see: a face,
+  an action, an arrow, a prop. So for every line, ask what on screen it refers to, and start the line after that is
+  showing, not before. *(working practice)* Time lines from the PAINTED clip, not the gray one: the paint pass can
+  hold a face longer than planned. If the clip is then too short for the line, restage it longer; do not start the
+  line early to make it fit. Check every line this way before building, including the science lines (an arrow or a
+  motion should be visible when the words name it).
+- **Sol nods as an answer.** "we also need the nodding animation for sol too". The last clip of an
+  episode ends on Sol nodding: "make the last clip sol nodding its head".
+- **Each script also says how the clips are filmed** (set, camera, action, timing per clip), in one
+  document she can read through: "storyboarding and scripting ... that includes how the clips will be
+  filmed".
+- About 30 to 40 seconds, vertical 9:16.
+- **The narration must say exactly what the captions say.** "make sure the audio s [legible] becase the first
+  one i saw it said authur smth smth and that clearly doesnt match with the captions" (2026-11-26). The voice
+  model sometimes adds or changes words. Transcribe every take and the finished cut with
+  `scripts/check_narration.py` and compare with the script. Regenerate a take that differs; do not cut around it.
+
+## 3. Look
+
+- **Painted gouache, not Arcane.** "lets just keep this painted gouache painting ... arcane style is a
+  bit too hard to perfect". Matte brushwork, layered colour, paper texture, no inked outlines.
+- **One paint style across the whole episode.** "the paint styles are a bit off depending on the
+  scenes". Give every paint pass the same style reference frame, including scenes set somewhere else.
+- **A different backdrop for every video.** "we should try to change the scene up every video cuz then it will
+  get boring so see for each video u can set up a different backdrop" (2026-11-26). Pick a place that suits the
+  topic and build that set in the skeleton; do not reuse the last episode's room. Inside one episode the room
+  and the paint style still stay the same from clip to clip.
+- **Be adventurous with the place, and make it the lively version.** "please experiment with more backgrounds.
+  for example since we tlaking about coffee we can set this at a cafe instead of a kitchen which would liven
+  up the video" (2026-11-26). Ask where the topic would naturally happen and pick the place with the most life
+  in it: a café over a kitchen, a skate park over a pavement, a concert stage over a bedroom.
+- **Not bland.** She called an early flat render "so bland". Shots need lively staging, depth and
+  lighting.
+- **"make it stimulating ... and cute".** Add small delightful extras where they fit the scene. Her
+  example: "floating sols in the background with space helmets ... during the space sequence".
+- **Space helmets leave his legs out.** Floating Sols "need to have their legs hanging out so theyre
+  not like trapped in bubbles", like `Ignite Website/public/courses/Introductory Physics and
+  Astronomy.jpg`: a clear bubble over the body that stops at a collar ring, legs dangling below.
+
+## 4. Motion and camera
+
+- **Smooth motion. No on-twos.** "lets just remove the 2 frame choppy step". Smooth skeleton keys,
+  smooth painted motion, no stepping conform.
+- **Dynamic camera.** "can these camera angles be dynamic". Plan one purposeful move per shot (push,
+  arc, crane, slide) and animate it in the Blender skeleton so the paint pass follows it.
+- **A different angle for each shot.** "I rly love dynamic angles so see if u can make the video more lively and
+  cool with like different angle shots" (2026-11-26). Vary the viewpoint from clip to clip, not only the move:
+  low and looking up, high and looking down, over Sol's shoulder, a tight close-up, a wide establishing shot,
+  a tilted angle for a surprise. The coffee episode stayed near eye level for most shots; do not repeat that.
+  The close-up science shots still keep a slow, steady camera so the demonstration is easy to read.
+- **Way more dynamic, and open with a fly-in.** "i wish the camera angles were way more dynamic for example when u
+  introduce the scene fly the camera in from the top of the bathroom and into the shot where its aimed at sol in
+  the bathrub" (2026-11-27, on shower-curtain script v1, where each shot had one slow push, slide or crane). The
+  first clip introduces the place with a travelling camera: start high over the whole set and fly down into the
+  shot on Sol. The later clips travel too: a whip to the prop, riding along with the thing being explained, a
+  crane over a wall, an orbit round Sol. *(my reading)* Do the travelling at the start or end of a clip and
+  settle while the science has to be read, so the steady close-up rule above still holds for those seconds.
+- **No cut between two shots with the same framing.** On the stress ad: "the cut from first clip to 2nd clip is a bit
+  unusual ... starting the camera from a close up of sol's face and zooming out instead ... removes the uneessesary
+  choppyness" (2026-11-26). Clip 2 had opened on clip 1's own wide framing. *(working practice)* When two clips share a
+  set, change the shot size at the cut: open the second one close and pull back, or the other way round.
+- **Anime-style expression for Sol.** "I also like to take inspo of like anime and what kind of expressions
+  their characters do so lets see if we can apply that onto sol the next time" (2026-11-26). Borrow anime's
+  acting: big clear poses, a sharp anticipation before a move, a jolt of surprise, a slump, a proud puff-up, a
+  curious tilt, a held beat, a snap zoom on a reaction. He still has no mouth.
+- **Expressive eyes and small anime marks are welcome.** Asked whether his eyes may change shape and whether
+  marks may be added, she said "yeah that would be cute", then gave her own list (2026-11-26): "some examples of
+  eye shapes include like this >< and then like the OO eyes when sol is surprised and then the inners are white
+  and then like u can do sparkles and then like the ||| lines for worried". So:
+
+  | Feeling | What it looks like |
+  | --- | --- |
+  | Squeezed shut: effort, a flinch, glee | `> <` eyes with rounded tips ("like rounded tips") |
+  | Surprised | `O O` eyes: round navy rings with white inside |
+  | Delighted, amazed | sparkles |
+  | Worried, dread | a dark blue-purple shade that "starts from the top of sol to bottom": deep indigo at his flame tip, fading as it goes down ("i think i like B but lets make the purple like bluer and darker"), with thin lines hanging "on the side" of his face above one eye |
+  | Shocked | the worried shade and lines with the `O O` eyes, as in her anime references |
+
+  These are her examples, not the whole list; others in the same spirit are fine. Each is used for a beat, then
+  his normal navy ovals return. Still no mouth. Marks are drawn on or near him for a moment; they are not fire
+  particles coming off his body, which stay banned.
+- **Cartoony Sol, using the whole emotion set.** "sol should also be more cartoony and utilize the many spirtes of
+  emotions we have. this will make the video more appealling to audiences and make sol very cute and marketable"
+  (2026-11-27; shower-curtain script v1 used three faces in 38 seconds). Plan a face from the 38 in
+  `assets/sol-3d/eyes/` for nearly every beat (singing, startled, angry, determined, dizzy, idea, smug and so
+  on), each with its bounce, and give him cartoon business to go with them (singing in the shower, going dizzy
+  from following something round). *(my reading)* This is her go-ahead to use the 32 newer faces and marks in
+  episodes; no frozen approved copy of that set exists yet. *(working practice)* Floating marks sit on a flat
+  plane in front of him, so time them for when the camera is roughly in front of him.
+- **A goober who fights back.** "when the shower curtain comes to sol can u lwk make him try to catfight it away
+  lol we wanna make sol this super cute animated goober" (2026-11-27). When something bothers Sol he reacts with
+  silly physical comedy: eyes squeezed shut, leaning away, both little arm nubs slapping at it as fast as they
+  go. *(my reading)* "Super cute animated goober" is the target for his acting in every episode, not only this
+  one. *(working practice)* A catfight is not a reach: his nubs keep their
+  short length and flap in place, so stage the thing against his side or let him slap the air (see the rule
+  on reaching arms below).
+- **Never repeat a gag; use a different cartoon trope each time.** "lets try to not repeeat the catfight multiple
+  times instaed we should utilize different cartoony troupes so like catfight is one but another one is like if
+  the floor is slippery they just slip and fall dramatically like they run in place for a while and then they slip
+  back and flop" (2026-11-27, when script v2.1 used the catfight in two clips). Each gag appears once in a video.
+  Her two so far: the catfight, and the slip (legs run in place, going nowhere, then he slips backward and flops).
+  *(my reading)* Others from the same family are fair game: a freeze before a fall, a double take, spinning dizzy,
+  a puffed-up strut, being flattened and popping back. Pick ones the place suggests (a wet floor, a swinging
+  door). *(working practice)* A fall ends with him lying on the surface, touching it and his shadow; that is the
+  one time his feet may leave the ground.
+- **Every change of emotion gets a bounce.** "everytime u swap emotions make sure theres a bounce that acts as a
+  trnasition between one emotion to the other" (2026-11-26). Never swap his expression on a still body. He dips
+  into a squash, the face changes at the bottom of the dip, he springs up past his normal height and settles,
+  and the new eyes pop slightly big and settle with him. `assets/sol-3d/eyes/eyes_rig.py` does this
+  (`emotion_at`); use it for every swap.
+- **Bouncy, dynamic animation.** "i also love bouncy animation and like dynamic animations" (2026-11-26).
+  Squash and stretch on every hop and landing, a wind-up before a move, overshoot and a springy settle after
+  it. Props he moves get the same treatment as long as they stay physically believable.
+- **Emotion comes from movement**, since he has no mouth: tilts, bounces, arm raises, nods.
+- **He stands on the ground.** "sol is floating which goes against nature" (2026-11-26). His feet touch the surface
+  and his shadow in every frame; after a hop he comes back down. *(working practice)* The painter can leave him in
+  the air after a hop: prefer a squash-and-spring with his feet planted, and measure his feet after any hop
+  (`episodes/due_in_5_minutes/fix_float.py --measure`; the same script lands him).
+- **He faces what he is reacting to.** "sol is also looking the wrong way" (2026-11-26). *(working practice)* A Sol
+  standing at the side of the frame and facing straight ahead reads as looking out of frame: turn him toward the
+  camera or the prop.
+- **Distress is for the moment of distress only.** "during the tip sequences sol still has the purple gradient
+  distressed emotion even though he should be calm during thes parts" (2026-11-26). The indigo shade and worry lines
+  come off as soon as the scene moves on; do not let them linger or fade across later shots.
+
+- **A fall must not look like he dies.** Elaine on the shower-curtain cut, 2026-11-27: "just remove the sol
+  slipping cuz it just looks like he dies lol". The slip ended with X eyes and Sol lying still on his back.
+  *(my reading)* A pratfall may happen, but no X eyes and no lying motionless; he bounces straight back up.
+- **Make the hit obvious and the reaction big.** "lets make it more obvioust that the shower curtain hits sol
+  lol maybe u can have it comededitely slap sol in the face thats why he gets mad like very dramatically"
+  (2026-11-27). When something happens to Sol that sets up his mood, show it as a clear, exaggerated beat,
+  then a dramatic reaction. A gentle touch on his side did not read.
+- **No sudden gag tacked on the end of a shot.** "the dizzy animation is very sudden so just remove that"
+  (2026-11-27; the snap zoom to spiral eyes at the end of the whirlwind shot).
+- **Animated arrows for things you cannot see.** "can we annimate arrows to further demonstrate the flow and
+  how air moves?" (2026-11-27). Air, pressure, heat and forces get moving arrows on screen. *(working
+  practice)* They are rendered from the gray scene's own camera with everything else held out, then laid over
+  the painted clip, so they cost no credits and track the camera.
+  Her note on the first try: "the arrows look svery choppy ... theres random stuff poking out of them". Those were
+  flat 3D arrows rendered in the scene: edge-on parts stuck out and walls cut pieces off. Now only each arrow's path
+  is taken from the scene (`skeleton/arrows2.py`, `export_arrows.py`) and the arrow is drawn in 2D along it
+  (`overlays/draw_arrows.py`): one smooth shape that bends with the flow, soft edges, fading in and out.
+- **Nothing pops into a shot.** "can we get rid of the water puddle appearing lol redo the clip" (2026-11-27; a puddle
+  faded in under Sol near the end of the whirlwind shot). Whatever is on the floor or in the room at the first frame
+  of a shot is what is there at the last. *(working practice)* The puddle came from a style frame that had one and a
+  prompt that named it; for a shot without it, use a style frame without it and state a rule ("the floor under him
+  is dry in every frame").
+- **No jump inside a shot.** "theres a weird cut from 32 to 33" (2026-11-27). The paint pass had drawn the first second
+  of the last clip from a different camera angle and then snapped to the right one. *(working practice)* On the frame
+  sheets, compare where the walls and the curtain sit at the start of each painted clip with a second later; the
+  jump detector missed this one. Cut the clip to start after the jump, or repaint.
+- **End on the payoff, not on a string of faces.** "can we remove the thinking emotion and just cut to the happy star
+  shit" (2026-11-27). The last clip went thinking dots, light bulb, bump, smug star, happy; she kept only the star
+  and the happy nods. *(my reading)* One or two faces for the ending, straight to the pleased one.
+  She then found that version "kind of chopped": "instead of having sol like react immediately can we have him look
+  up and nod before mkaing happy face" (2026-11-27). So the ending has an order: Sol looks up at the Narrator and
+  listens through the last line, nods when it is over, and only then makes the happy face. A reaction that is
+  already on his face when the shot starts reads as a cut, not as an ending.
+- **No "Got it?" endings.** "in the future lets get rid of like the 'got its.'" (2026-11-27). From the next
+  script on, the Narrator does not end by checking in with Sol ("Got it?", "See?", "Make sense?"). End on the
+  last piece of the answer and Sol's reaction to it.
+
+## 5. Props and physics
+
+Props must behave like real objects. Each rule below came from a clip she sent back.
+
+- **Props do not morph or change sides.** "the handle like morphs to the other side which isnt
+  realistic".
+- **Props do not drift toward a character.** "the spiral kind of shifts towards sols hand which is
+  unrealistic". A prop moves only because someone visibly moves it.
+- **Show Sol moving the prop, in its own shot.** "in the candle scene we dont see the spiral in the
+  background and in the 2nd scene we see sol pull it to it ... or push the paper spiral". Do not tease a
+  prop in the background of a close-up it is not part of.
+- **Nothing morphs and everything makes sense.** "a problem i seee all the time is clips that morph or dont
+  make sense for example sol is supposed to use the dropper but the cap magically disappears and he just like
+  gets the bottle" (2026-11-26). A prop keeps every part it started with, in the same place, for the whole
+  video. If the story says Sol uses a thing, he visibly uses that thing the way it works.
+- **Show the science close up, and keep it looking the same.** "the demonstration of the coffee is inconsistent.
+  lets maybe do like close up scientific shots of whats happening" (2026-11-26). The thing being explained
+  fills the frame in its own close-up shots, and it is the same object, size, colour and shape in every clip.
+- **Nothing stays off-balance by itself.** "dont make the lamp stand up automatically sol should tilt
+  it with his hand and when he raises his hand up it should topple down". A tilted prop stays tilted
+  only while his hand is on it, and falls back when he lets go.
+
+## 6. Sound and edit
+
+- **A pause after every narrator line, and whole takes.** Elaine, 2026-11-27: "after every time arthur says smth there
+  needs to be a pause ... be really aware of like the pauses make sure that the video flows nicely", and "the 'second'
+  from arthur is cut off. make sure that you put full audio for each thing". About a second of quiet between lines; no
+  take that starts or ends mid-sound. How: "Several Sols, square films and a bare set" in section 8.
+- **Cute sound effects.** "can we add like cute sound effects like squeaks". Small squeaks, boings and
+  twinkles on Sol's actions. The candle set is in `episodes/candle_flame_up/audio/sfx/`.
+- **Emotion sounds for Sol's faces.** Elaine, 2026-11-27: "i also put smth in assets called emotion sounds there
+  are so many sound effects that can correspond with the emotions sol is using try using these in the video".
+  `assets/emotion sounds/` holds 28 short emote sounds, one per mood (amazed, bewilderment, curiosity, fearful,
+  glee, inspiration, joy, pleased, pride, shocked, smirking, surprise, thought, worry and more). Play the one
+  that matches each face Sol makes, at the moment the face changes. *(working practice)* Their loudness differs
+  a lot, so make level-matched copies in the episode's `audio/sfx/` (peak -3 dB, leading silence trimmed) and
+  play them at about 0.3. There is no angry sound in the set; squeaks and boings still cover actions (a stomp,
+  a slap, a nod).
+- **Not a sound on every face.** Elaine on the shower-curtain cut with the emotion sounds, 2026-11-27: "theres a bit
+  too much going on i feel like near the end like maybe when theres like chains of emotion phasess we can do like oh
+  sound effect for one no sound effect for thte other and then sound effect for the other one". When Sol goes through
+  several faces in a row, give a sound to one, leave the next silent, give a sound to the one after. *(working
+  practice)* Pick the beats that matter most (the hit, the idea, the big reaction) and leave the in-between ones bare;
+  do not stack a squeak or boing on a face that already has its emotion sound.
+- **No sound across a cut, and room before it.** Elaine, 2026-11-27: "make sure that when a sound efffect is still
+  playing that we dont cut to the next clip" and "the cuts between the clips are sometimes abrupt so leave some room for
+  sound to end before u switch". Every sound effect and every narrator line finishes inside its own clip, with a
+  beat of quiet before the picture changes. *(working practice)* `episode_edit.py` now fails the build if a take or a
+  sound effect ends less than `min_tail` (0.25 s) before its clip does. Make room by starting the line earlier,
+  using more of the clip, or picking a shorter sound; never by letting it run over.
+- **Music:** use the songs she puts in `assets/music/`.
+- **No black at the end.** "when the clip ends cut the black"; she confirmed "yes no black at last clip".
+  The video stops the moment the last clip stops, with no fade or cut to black. Picture and sound end on
+  the same frame; trim the audio to the video length.
+- **Captions:** Rammetto One, 105 px at 1080p, white with a 12 px orange (#F07B2A) outline.
+
+## 7. How she wants the work done
+
+- **Pipeline:** gray Blender skeleton clip, then a Higgsfield paint pass (Gemini Omni Flash 1.2, mode
+  `edit`) with the skeleton as the video reference. No intermediate stills unless she asks.
+- **Keep credit use down.** "to cut down on credits". Repaint only the clips that need it, and ask before
+  a big spend.
+- **720p is the final quality.** "i lwk couldnt tell it was low quality lets just keep it like this"
+  (2026-11-25). Paint at 720p and deliver that, upscaled to 1080 by 1920 in the edit. No separate 1080p
+  pass, so no 1080p paint cost.
+- **When she sends a clip back, regenerate that clip** with the fix in the skeleton and the prompt:
+  "regenerate the clip but without the mouth in the prompt and the 3d preview".
+- **Keep everything.** Version new files; never overwrite earlier takes, cuts or the approved Sol.
+- **Never record an approval she did not give.** Two things are approved: the 3D Sol model (2026-11-25) and the
+  separate-eyes version of it with its expressions and emotion bounce (2026-11-26). No clip or cut is. About candle cut v6
+  she said "the rest is good" after asking for one last change; no clip or cut is formally approved.
+- **Write her feedback down** in the [checklist](checklist.md) as it comes, in her words, separate from
+  technical findings, and fold lasting rules into this page.
+
+## 8. Making an episode, step by step *(working practice)*
+
+The candle episode folder (`episodes/candle_flame_up/`) is the worked example; copy its scripts.
+
+1. **Script** in the interactive format, with the filming plan per clip. Get her read on it.
+2. **Narrator takes** first. **Transcribe each take and compare it with its line** (`check_narration.py`);
+   regenerate any take that differs. Trim dead air; clip lengths and caption times come from the real takes.
+   *(working practice, 2026-11-27)* Also run it on the finished cut (`--video`): a take can open with a
+   garbled sound that the per-take check skips (shower-curtain take 05), and the cut check hears it.
+3. **Skeleton** per clip with `skeleton/rig.py` and `skeleton/clips.py`: gray room and props, the real
+   coloured 3D Sol, camera move keyed in. Render 720 by 1280 at 30 fps.
+4. **Check the gray frames before paying for paint.** Is his hand actually on the prop? Is anything
+   leaning or floating with nothing holding it? Is every prop the painter might invent (a handle, a
+   strap) modelled in one fixed place?
+5. **Paint** each clip at 720p with the same two image references every time: the episode's style frame
+   and Sol's turnaround sheet.
+6. **Check every painted frame**, not a sample: run `check_faces.py`, then look at the frames around
+   each action. Look at every span it flags frame by frame at full size; a contact sheet is too small to
+   judge an eye.
+7. **Repair small slips** in post (`remove_mouth.py`; `fix_flame_ball.py` for the space flame); repaint
+   anything bigger. Leave the cartoony blinks alone.
+8. **Assemble** with `build_edit.py`: takes, captions, music, sound effects. Time sound effects to the
+   painted clip, which can drift from the skeleton by half a second or more.
+9. **Check the ending** for black frames and for sound running past the picture.
+10. **Post-check the final cut, every frame.** "as a post check [procedure] be sure to analyze all the frames of
+    the final clip" (2026-11-26). Run `scripts/frame_review.py` on the cut: it lays out every frame, in order
+    and with its time, on contact sheets. Look at all of them, and transcribe the cut's audio. Look for a prop
+    that changes, loses a part, moves by itself or appears from nowhere; Sol off-model (a mouth, wide eyes,
+    long limbs, particles); the demonstration looking different from clip to clip; an action that does not
+    read; captions that do not match the voice. Anything found is fixed or repainted before delivery, and the
+    post-check is run again on the new cut.
+11. **Deliver** (section 9).
+12. **Log** her notes and the new file names in the episode's `script.txt` and the checklist.
+
+### Avoiding morphs and mismatched demonstrations *(working practice)*
+
+- Give Sol simple one-piece props and simple actions (tap, nudge, point, lean in, hop, nod). A prop with a part
+  that comes off or opens (a dropper and its cap, a lid, a pen and its cap) is where the painter loses track.
+- Model the thing being explained in its real colours in the skeleton, the way Sol is, and reuse that same
+  object in every clip. A gray stand-in gets a new look in every paint pass.
+- Keep the camera still or slow in the close-up science shots, so a change that should not happen is easy to see.
+- Pause-based caption timing is a guess. Take word times from the transcript instead.
+- In each paint prompt describe only what that clip shows. A prop that is named but out of frame gets painted in.
+- When one clip's version of the demonstration comes back a different colour, repaint it with a frame of the
+  neighbouring clip as the image reference.
+- Keep the subject of a close-up in the upper half of the frame; the captions sit at 82% of its height.
+- The coffee episode is the worked example for all of this: `episodes/coffee_ring/skeleton/clips_v2.py`,
+  `prompts/build_v2.py`, `edit.json`.
+
+- **More emotions (Elaine, 2026-11-26, later).** "can you make an angry and sad emotion for sol 3d ... and all other
+  emotions that one could need". Her directions: angry is "the OO circle eyes but like they're cut so like its two
+  semicircles that rotate down into the middle", with "the red gradient instead of purple"; the anger mark is
+  "thin"; sad, crying, gloomy and heartbroken use "the same [eyes] as bashful"; smug is the half eye turned 180; every mark has a dark outline and is drawn large; the stars are inflated solids, not flat; awe uses yellow four-point stars around him, "just the stars", no lines. All built into the eyes model:
+  38 expressions with marks that move, sheet `assets/sol-3d/eyes/sol-eyes-expressions-v9.png`, list in that
+  folder's README. **She has not approved the new set yet**; the approved six are unchanged. On 2026-11-27 she
+  asked for the set to be used in episodes ("utilize the many spirtes of emotions we have", section 4).
+
+### Planned expressions *(working practice)*
+
+- Write each expression into the script with its clip and time, so the review knows what is meant to be there.
+- Use the separate-eyes model for this (`assets/sol-3d/eyes/`, her idea: "rigg the eyes like seperately like
+  attach a 3d polygon on top"). `pose_eyes()` sets the expression, the blink and where he is looking, per
+  frame. Do not leave an expression to the painter to invent. She approved this model on 2026-11-26 ("OH ITS
+  PERFECT."); the frozen copy is `assets/sol-3d/eyes/approved-2026-11-26/`.
+- Name it in that clip's prompt ("from 2.0 to 2.6 seconds his eyes are two happy upward arcs, then they return
+  to navy ovals") and keep the plain-face wording for every other moment.
+- `check_faces.py` will flag these moments. A flag at a planned time is expected; a flag anywhere else is not.
+
+### Words on screen, reaching arms, and ads *(working practice, from the "Due in 5 Minutes" ad, 2026-11-26)*
+
+- **Never let the painter write words.** Draw each piece of lettering once as a PNG, put it on a plane in the
+  Blender scene, render that plane alone in the shot's perspective, and lay it over the painted clip. The skeleton
+  and the prompt keep every board, card and page blank. Lock the camera off in any shot with lettering, and keep
+  lettering behind Sol with his silhouette from the skeleton. Worked example:
+  `episodes/due_in_5_minutes/overlays/` (`make_art.py`, `composite.py`) and `skeleton/render_clip.py` (`MODE=ovl`,
+  `MODE=mask`).
+- **Do not have Sol reach for anything with an arm.** Three paints in a row gave him a long arm or a detached arm
+  nub when he reached for a prop, even with the prop within reach and "never stretch" in the prompt. Stage the
+  action with his body instead: a hop beside the thing, a bump with his side, a lean. Say in the prompt that both
+  arm nubs stay tucked at his sides.
+- **Check for eyebrows.** The painter adds brow strokes to worried and upward-looking faces. He has none.
+  `episodes/due_in_5_minutes/fix_brows.py` paints them out, and with `--redraw` lays clean navy ovals back where a
+  brow has fused with the eye.
+- **Render the skeleton at 24 fps** (`SKEL_FPS=24` with the ad's `rig.py`). The painter returns 24 fps; a 30 fps
+  skeleton dropped to 24 makes a camera move hitch six times a second.
+- **Check handwriting fonts letter by letter.** Gochi Hand's "lt" read as a capital H ("saH", "meH"); Patrick
+  Hand does not. An independent frame-by-frame reviewer caught that, two one-frame caption faults and a label drawn
+  over Sol, so run one on the cut before delivering.
+- **Leave a tint out if it should be barely there.** A faint indigo tip in the skeleton came back as the full
+  worried look. State a tint that must hold as a rule of its own ("from the first frame to the last").
+- **A long shot needs a camera move.** Elaine on the 9-second locked-off payoff: "kind of scuffed ... for this long
+  duration can we just replace this clip with like a 3d like motion that looks through his poster and then pivot to
+  him" (2026-11-26). For a moving camera, render the lettering for every frame (`MODE=ovlseq`); it tracked the painted
+  cards exactly. Keep Sol clear of all lettering so nothing has to be cut out around him.
+- **Do not redraw his eyes frame by frame.** She saw them "jitter and move position". Prefer a repaint; if a repair is
+  unavoidable, smooth the eye positions over time and watch it at speed.
+- **Check where the painter put Sol against the caption band.** It can draw him smaller and lower than the skeleton;
+  `composite.py`'s `reframe` pushes in on him.
+- **Ads:** captions go in a band centred at 70% of the height, at most 840 px wide (`caption_y`, `caption_max_width`
+  in `edit.json`), to stay clear of the bottom fifth and the right edge where the platform's buttons sit. An ad has
+  no tracker row, no description and no upload unless she asks. The songs in `assets/music/` are game soundtracks:
+  for a paid ad, build a cut without music as well (`"music": null`) and tell her.
+
+### Landscape ads and end cards *(from the "All Due This Week" ad, 2026-11-26)*
+
+- **Her landscape layout** (her script): "SOL ON THE LEFT THIRD. THE STRESS ON THE RIGHT TWO THIRDS", captions in the
+  "lower third, centered", "Nothing important in the bottom 10% of the frame". *(working practice)* Put his feet about
+  70% of the way down the frame so the captions have the surface under him; captions Rammetto One 72 px with a 9 px
+  outline, centred at y = 895 of 1080 (`width`, `height`, `caption_size`, `caption_stroke` in `edit.json`).
+- **Her end card** (her reusable prompt, `episodes/all_due_this_week/end-card-prompt-elaine.txt`): a rounded card in the
+  site orange; the course's ORIGINAL card art on top, uncropped; the course name "exactly as written on the course
+  card"; big "Join Ignite today!"; small "Link in description" (YouTube) or the sign-up address without "https://"
+  (website, presentations); never "?gclid=..."; "Same fonts as the Ignite course cards. No em dashes, no extra slogans,
+  no emojis"; 16:9 on the right two thirds, 9:16 on the top two thirds; a transparent PNG at full frame size; it slides
+  in over about half a second and holds. `overlays/make_end_card.py` builds it. *(working practice)* Stop the card above
+  the caption band while the narrator is still talking under it.
+- *(working practice)* **Check the course before the ad says "teaches all of this".** Course outlines are in Drive
+  (search the course name); the Resilience outline is Emma Zhou's doc.
+- *(working practice)* **Lettering as a per-frame holdout pass** (`render_clip.py MODE=ovlseq` in that episode): every
+  lettering plane is rendered for every frame with everything in front of it cut out, so words follow a moving camera or
+  prop and hide behind whatever passes. It tracked the painted props to within a frame; where the painter moves a prop a
+  frame or two early, remap those frames (`seq_map` in `composite.py`).
+- *(working practice)* **A thing that goes into a box must stay in sight**, or the painter forgets it and paints the box
+  empty. Keep boxes low. Do not squash a box to make it bounce: the painter drew flaps opening. Turn a lettered prop's
+  blank back to the camera before it flies.
+- *(working practice)* **The style frame sets how a clip STARTS.** A clip that must open on purple Sol, or on a changed
+  prop, needs a reference frame that shows that (the last frame of the clip before). A clip that must hold sparkle eyes
+  to its end painted right once a sparkle-eyes frame of the same shot was the reference.
+- *(working practice)* **Never give a frame of an earlier take of the same shot as the style reference when the layout
+  changed**: the painter brought the old props back and doubled them. To carry a room's paint across, give a SWATCH: two
+  strips of wall and floor cut from the good take, with "paint only, no objects".
+- *(working practice)* **A missing colour shade can be laid on in the edit** (`composite.py` "tint": Sol-coloured pixels
+  inside his skeleton silhouette, fading from his tip). Cheaper than a repaint and it matched the painted purple.
+
+### Several Sols, square films and a bare set *(working practice, from the "Whole Group Project" ad, 2026-11-27)*
+
+- **Square films are painted wide and cropped.** The painter returns only 16:9 or 9:16. Render and paint 16:9 at 720p,
+  frame every shot for the middle square, and cut the square out in the compositor
+  (`episodes/group_project/overlays/composite.py`). Her "can we make them 1:1" was read as the square format; she has
+  not confirmed that reading.
+- **A flat blockout comes back flat.** The first beach (bare sand, three bands of sky) was returned unpainted. Dress the
+  set in the skeleton (bunting, palms, dunes, ripples, clouds, a sun glint) and open the prompt with a paragraph that
+  says the source is an untextured blockout and names how each surface is painted. Give a painted frame of an earlier
+  film as the reference for how Sol himself is painted.
+- **Ring eyes are for our Sol alone, in a simple shot.** On a teammate, in a shot with three or four Sols, "round rings
+  with white centres" came back with pupils five times, whatever the wording. Teammates show surprise with plain eyes,
+  a hop and an exclamation mark (`act(..., marks=("exclaim",))`).
+- **No travelling shot past several Sols with things landing beside them.** Two paints of it added a Sol, doubled one
+  and drew an open laughing face. Give each beat its own simple shot: two Sols, both in frame from the first frame to
+  the last.
+- **Keep a gap between two Sols.** When our Sol landed touching Ring Sol the painter merged them and he was gone for two
+  seconds.
+- **A happy face tempts the painter to add a smile.** Check every pleased, smug or cheering beat for one.
+  `episodes/group_project/fix_mouth.py` fills it from the cream around it.
+- **Floating marks must not cut lettering.** In the lettering pass his marks are no longer holdouts (a star cut the T
+  out of "Towers"). Hold lettering back until the painted thing it sits on has landed (`seq_from` in `composite.py`).
+- **A thing that drops in never lands on the skeleton's frame.** The painter's sign, board or ribbon arrives a few frames
+  early or late, so words that ride it hang in the air. Render each lettered thing as its own pass
+  (`render_clip.py MODE=ovlseq OVLONLY=<plane> SEQNAME=<name>`) and start it once the painted thing is down (`layers` in
+  `composite.py`); for something that moves with a crane, find the painted thing by its colour and put the words on it
+  (`find_rosette`). During a fast fly-in letter only what is big and square to the camera.
+- **Keep an accessory off his face.** The swim ring sat across Ring Sol's eyes and one paint left him eyeless; it now
+  sits low. Straight overhead a Sol does not read as a Sol: use a high three-quarter angle.
+- **A low camera loses the sea.** Two shots came back with a plain orange sky. Keep the camera about 0.85 high or more
+  so the sea band shows and the look matches the shots around it.
+- **Long prompts go by reference.** Put them in one JSON file, upload it as a file, fetch it in the Higgsfield sandbox
+  and pass `{"ref": "sandbox:~/gp/prompts.json#/p1"}` as the prompt. Change a prompt with a small patch script run in
+  both places and compare the hashes.
+- **A pause after every line** (Elaine on cut v5: "after every time arthur says smth there needs to be a pause ... make
+  sure that the video flows nicely"). Leave about a second of quiet between two narrator lines, more when Sol is doing
+  something in between; a question is followed by Sol's answer in action before the narrator speaks again. The edit
+  script of an episode prints every pause and stops below its minimum (`MIN_PAUSE` in `group_project/make_edit.py`). If a
+  line does not fit with its pause, make the clip longer; never squeeze the lines together.
+- **A take must be whole** (Elaine: "the 'second' from arthur is cut off"). Run `group_project/audio/check_takes.py` on
+  the raw and the trimmed takes: a take that is not quiet in its first and last 20 ms begins or ends mid-sound and is
+  re-recorded. Trim loosely (0.07 s before the first sound, 0.14 s after the last) and never cut a tail off to make room.
+- **Words ride on the painted sign** (Elaine: "the text must move when the signs are moving"). A sign the painter moves
+  is followed in the painted frames themselves (`"track"` layers in `group_project/overlays/composite.py`): the sign is
+  found in the last frame, where it stands still, and followed backwards, so its words fall, land and shake with it.
+  This replaces holding the words back until it has landed.
+- **Lettering is centred and on one baseline.** In a row of words centre the CAPITAL height, not each word's own ink
+  (`centre()` in `overlays/make_art.py`), or "Moat" and "Flag" sit at different heights. Words on a ribbon or badge go
+  on its plain middle, not the middle of its whole outline.
+- **Nothing comes and goes inside a shot** (Elaine: "sand appears in somehow"). A half-hidden prop behind a row of Sols
+  (a heap of sand, a castle, a bucket) is what the painter redraws or drops. If a prop is not needed in a shot, leave it
+  out of the skeleton and say in the prompt that the sand is open; no Sol walks off to do something at a prop the shot
+  does not show. A Sol who leaves, leaves by hopping out of the frame.
+- **An accessory sits clear of the face from every camera height** (Elaine: "HE CANT EVEN SEE ... CAN WE LIKE MAKE IT
+  LOWER"; "this si what floaty sol should look like"). The swim ring is at his feet (`mate()` in `skeleton/clips.py`);
+  check it at eye level and while he nods, not only from above. Use a painted frame she has approved as the style frame.
+- **Every Sol in a group shot is whole and in view** (Elaine: "poor guy in floaty"). No Sol half behind another or cut by
+  the edge of the square or the end card; pull the camera back until they stand side by side with sand between them.
+- **The camera goes round things, never through them** (Elaine: "it just fazes through the flag"). A fly-in passes under
+  a banner or over a wall, and the prompt says so.
+- **No expression she did not ask for at the end of a beat** (Elaine, of smug half-shut eyes: "why is he doing this can
+  we just keep it like this"). Pleased is plain eyes and a tall stance unless the script names a face.
+- **One re-roll can fix a paint, two can give two new faults.** A paint that comes back flat, or redraws the set, is
+  re-submitted as it is; but check every re-roll against the accessories (a hat appeared on our Sol in two re-rolls of
+  one shot). A mouth on a turned face: `group_project/fix_mouth_below_eyes.py` (it finds the eyes and fills the patch
+  between and under them).
+
+### Paint prompt rules *(working practice)*
+
+- Never write the word "mouth", not even "no mouth", and no mood words such as "happily". Say what his
+  face is: "plain smooth cream with exactly two navy oval eyes on it and nothing else".
+- Say "paint only what each source frame shows", or the painter adds characters and objects.
+- Say "VERTICAL 9:16 ... frame for frame", or a clip can come back landscape.
+- State physics as a rule and number the beats: "the candle leans ONLY while Sol's arm is holding the
+  handle".
+- Name each prop's place: "exactly ONE ring handle, on its left edge, in every frame".
+- Say "short stubby arms, two short blunt bare red legs", or limbs grow long.
+- The painter slips in short blinks. She likes them, so they stay. Still check that the eyes come back open
+  and that no mouth appears.
+
+## 9. Delivering a finished video
+
+When a video is done, always do both of these without being asked (Elaine, 2026-11-25):
+
+1. **Think of a good title.** It is the YouTube headline: a plain question or hook a viewer would click,
+   in title case, like "Why Does A Flame Always Point Up?". Tell her the title.
+2. **Put the finished video in `completed/` at the top of the repository** (`Ignite Shitposts/completed/`, beside
+   `workflow/`, not inside it: Elaine moved the folder there on 2026-11-26, "im gonna move the completed clips folder out
+   and put it outside workspace"), **named exactly as the title** with `.mp4` after it,
+   for example `completed/Why Does A Flame Always Point Up?.mp4`. That folder already holds her earlier
+   finished videos. The file is the final cut, with voice, captions, music and sound effects, ending on the
+   last frame with no black.
+
+Do not overwrite or delete anything already in `completed/`. If a file with a similar name is there, leave
+it and tell her. Keep the working versions in the episode's `renders/` folder.
+
+Candle episode: she chose the title **Why Does A Flame Always Point Up?** (2026-11-25). The finished cut is
+not in `completed/` under that name yet; see the note at the end of this page.
+
+## 10. Topics, the tracker sheet and working unattended
+
+Elaine, 2026-11-26.
+
+- **Topics come from her sheet**, "Ignite Shitposts Tracker", tab **"General"** (it was called "Cofounder
+  Reimbursement" until 2026-11-26): columns Topic, Music, Description, Status. Take the first row whose Status is
+  "Not Done".
+- **Ads go on the "Advertisements" tab**, same four columns (Elaine, 2026-11-26: "do the advertisement tabs and then
+  like name the advertisement something and then put a description with the link to the webiste ... and the link to
+  the form"). For each ad fill the next row: **Topic** = a name for the ad; **Music** = the song used;
+  **Description** = the blurb, then `Website: https://ignitefindyourfire.org/` and
+  `Sign up: https://forms.ignitefindyourfire.org/t/oqB8WMKbJ6us` each on its own line, then the five hashtags on the
+  last line; **Status** as for episodes. *(working practice)* Her form link came with `?gclid=xxxxx` on the end, a
+  placeholder for Google's click id; the sheet has the link without it. An ad is not a topic: never take the next
+  episode from this tab. Worked example: row 2, "Due in 5 Minutes".
+- **Scripts need no review.** "i dont think i need any supervision for scripts now". Write the script in the
+  interactive format and go on; `episodes/coffee_ring/script.txt` is the one she read and liked.
+- **Fix and continue.** "fix all changes and trust urself". When the gray frames show a problem, fix it and
+  carry on without asking. Still stop for anything that is not about the episode itself.
+- **When the video is in `completed/`, fill in its row:** Music (the song used), Description, and Status
+  **"In Progress"** ("mark it in progress cuz i need to upload it").
+- **Mark it "Done" yourself after uploading** (Elaine, 2026-11-26: "once ur done with uploading it looks
+  great please mark done by urself ok"). Only when the video is public on YouTube and Instagram and both
+  posts read back right. If an upload fails or looks wrong, leave "In Progress" and tell her.
+- **Description format** (her candle row is the model): a short blurb that opens with the question, names Sol
+  and the Narrator and gives the answer in plain sentences, then a line break inside the cell, then the
+  hashtags on their own line.
+- **Different hashtags for each video** (Elaine, 2026-11-26: "put different hashtags on the video
+  description"). Do not reuse the candle row's `#science #physics #education #animation #cool`. Pick five
+  that fit that video's topic, e.g. coffee: `#coffee #coffeering #fluiddynamics #sciencefacts #didyouknow`.
+  *(working practice)* Five, because the same description is used as the Instagram caption.
+- *(working practice)* **Uploading.** YouTube ("Ignite Education") and Instagram (`ignitefindyourfire`) are
+  connected through Composio. Check what is already posted first (`YOUTUBE_LIST_CHANNEL_VIDEOS` with
+  `mine`, `INSTAGRAM_GET_IG_USER_MEDIA`) so nothing is posted twice. YouTube:
+  `YOUTUBE_MULTIPART_UPLOAD_VIDEO` with `--file`, run from inside `completed/`, title = the file's title,
+  description = the sheet's Description cell. **YouTube is always "not made for kids"** (Elaine,
+  2026-11-26: "for the youtube always rembmer to put not for kids"): the upload tool has no field for it,
+  so after every upload read the video back (`YOUTUBE_GET_VIDEO_DETAILS_BATCH`, part `status`) and confirm
+  `selfDeclaredMadeForKids` is false; if it is not, set it with `composio proxy` (videos.update, part
+  `status`) before making the video public. Instagram: `INSTAGRAM_POST_IG_USER_MEDIA` (`video_file`,
+  `media_type` REELS, caption = the same description) then `INSTAGRAM_POST_IG_USER_MEDIA_PUBLISH`. Build the
+  payload in Python so the caption is not wrapped in quotes. Instagram captions cannot be changed through
+  the connector after posting. Posting publicly needs her go-ahead. Then set Status "Done" (rule above).
+- **Show her the caption before posting.** "wait before u post ... can i take a look at caption" (Elaine, 2026-11-26,
+  the ad's Instagram Reel). Write the caption, show it to her, and post only after she says so. The sheet's
+  Description cell is the caption.
+- **Use her Music cell if it is filled in**; otherwise pick a song from `assets/music/` and write it back.
+- **Do not reuse a song.** "can we change the music as well thats why the spreadsheet exists" (2026-11-26, when the
+  stress ad came with the coffee episode's song). *(my reading of it)* Before picking, read the Music column of both
+  tabs and choose a song that is not in either.
+- **Credits:** keep to a cap per night and skip the night if the balance is too low. A full episode's paint
+  pass is about 83 credits at 720p (about 37 s at 2.25 credits a second), plus about 2 for the narrator.
+  The coffee episode cost about 102 for its first version and about 114 for the redo.
+- *(working practice)* Sheet edits go through Composio (`GOOGLESHEETS_VALUES_UPDATE`); the Drive connector
+  can only read. Skeleton clips render headless with `episodes/<name>/skeleton/render_clip.py`. Cuts are
+  built with `scripts/episode_edit.py <episode>` from the episode's `edit.json`. Paint one clip first and
+  pass one of its frames as the style reference for the rest, so the room matches.
+
+## Still to do on the candle episode
+
+Elaine said these changes apply "in the future", and told me not to build the video again for now. So:
+
+- The newest cut, `renders/candle-v7-draft.mp4`, still has the painter's blinks painted out of clips 3, 4
+  and 5. The versions with the blinks left in exist (`clips/03-paint-v4.mp4`,
+  `clips/04-paint-v6-ball.mp4`, `clips/05-paint-v8-raw.mp4`) and are not in a cut yet.
+- `completed/Why Does a Flame Always Point Up.mp4` is a copy of that v7 cut that she put there. Her chosen
+  title, with a capital A and a question mark, is not saved yet. Ask before replacing her file.
+
+## Superseded: do not follow
+
+These still appear in older guides and in `CLAUDE.md` / `AGENTS.md`. They no longer apply.
+
+| Old rule | Replaced by |
+| --- | --- |
+| Animate on twos (each pose held 2 frames at 30 fps) | Smooth motion (section 4) |
+| Sol has a voice (two-voice skits) | Sol is silent (section 2) |
+| Make first and last stills and get the pair approved before each clip | Blender skeleton, then paint; no stills (section 7) |
+| Fixed camera by default | Dynamic camera (section 4) |
+| Keep Sol flat; avoid inflated anatomy | Round, plump Sol from the 3D model (section 1) |
+| Arcane / ink linework trial | Painted gouache (section 3) |
+| Mascot.png as the image reference for paint passes | Style frame plus Sol's turnaround sheet (section 8) |
+| Repair every painter blink | Keep the cartoony blinks (section 1) |
+| Draft at 720p, then a 1080p final pass | 720p is final (section 7) |
+| "Sol looks up for the whole Narrator turn" as a blanket rule | He looks up when addressed or answering and at the prop while demonstrating (a reading of her clip 1 example, not her words) |
+
+<<<<< END >>>>>
+
+<<<<< BEGIN GUIDELINE 2 (older; follow it only where current-rules.md does not say otherwise): guidelines/video-script-guide.md >>>>>
+# Ignite video script guide
+
+Current production order: prepare first and last stills (generate or reuse) -> show BOTH to the user ->
+explicit approval of that exact pair -> Gemini Omni Flash 1.2 clip ->
+independent actual-footage review. Shared settings: `../config/generation.json`.
+Paired-frame clips support 3–10 seconds; declare continuing subscenes and update
+the script/prompt counts before generation when a scene needs more time.
+
+Use this to write short educational skits for Ignite. Develop the dialogue and scene descriptions together, using [shot-integration-and-sol.md](shot-integration-and-sol.md) for clip planning and [video-style-guide.md](video-style-guide.md) for performance and visual review.
+
+## Write one answer viewers can see
+
+1. **Hook.** Open on Sol noticing, doing, or questioning something visible. His question should come from what is happening in the scene.
+2. **Setup.** Let the narrator respond to Sol and direct attention to the part that will explain the answer. Give enough context for someone seeing the mechanism for the first time.
+3. **Reveal.** Explain the cause and effect while the viewer sees the relevant parts move. Sol can ask a follow-up when a reasonable viewer would have the same question.
+4. **Payoff.** Let Sol use or recognize what he has learned. Resolve the opening question through the action and conversation. An ending does not need a joke.
+
+Write for a curious middle or high school student. Make the exchange sound like people responding to each other. Use contractions, connected sentences, and varied sentence lengths. A speaker can explain an idea across two or more sentences while one scene continues.
+
+Avoid a string of clipped clauses, slogan endings, forced jokes, and artificial punchlines. Humor should come from Sol's situation, behavior, or a natural response in the conversation.
+
+Explain each necessary connection: which part moves, what moves it, where it goes, and why the visible result follows. Identify an unfamiliar part by its appearance or function before relying on its name. Replace vague mechanism descriptions with a concrete cause and effect. Check pronouns when several objects could be “it” or “they.” Keep wording precise when a shortcut would imply the wrong mechanism.
+
+## Distinct visual beats
+
+Give each shot one clear teaching purpose and one main visible action. Closely connected stages may form that action. State what the viewer learns or recognizes from the beat, and make each shot contribute something distinct rather than repeating a small lean, upward look and hold. Multiple spoken lines can share a clip when they support the same action.
+
+Make every shot visually stimulating and attractive, with plenty of purposeful
+action that sparks curiosity about what is happening. Write the eye-catching
+situation, the developing action and its visible payoff into the storyboard,
+following [visual interest and curiosity](shot-integration-and-sol.md#visual-interest-and-curiosity).
+
+Choose shot size, composition and camera behavior to reveal the explanation. A close-up can clarify a contact, a controlled push can reveal a detail, and quieter staging can serve listening, anticipation or a readable payoff. State whether a camera move belongs in generation or editing. Sol can ask, demonstrate or react when that role helps the beat; he may be absent from a mechanism-focused cutaway. Follow the [shot guide](shot-integration-and-sol.md#plan-the-edit) for detailed staging and [purposeful performance](shot-integration-and-sol.md#purposeful-performance-and-prop-contact).
+
+## Speakers and script format
+
+- Deliver one complete episode document that combines the full dialogue and shot directions in reading order. Each clip must be understandable from that document alone. Keep dialogue, timestamps, reference assets and technical choices specific to the subject in the episode folder.
+- Deliver a separate reviewable prompt text file with exactly **two image endpoint entries and one video prompt per scene**. Describe the first and last still states, labeling exact asset reuse instead of requiring a duplicate generation; the video prompt connects the endpoints. Match scene IDs, speaker lines, original eye design, scripted acknowledgment, camera and continuity. Keep dialogue for timing context outside visual-generation blocks, following the [prompt document standard](shot-integration-and-sol.md#prompt-document-standard).
+- Write each scene so its full explanation and action can appear in one generated clip, including technical cutaways. Plan generated stills and clips followed by simple editing; do not require separate SVG illustrations, diagram construction or custom mechanism animation.
+- Label every spoken turn **Sol:** or **Narrator:**. Keep the narrator off-screen. Sol remains mouthless and performs through purposeful gestures and small action-driven bouncy flame-like body motion, with facial markings anchored to his body.
+- For new two-voice skits, use **Narrator / Arthur** and **Sol / the user's Higgsfield custom voice named Sol**. Read the exact custom voice ID and `voice_type: element` from [the shared voice cast](../config/voices.json); do not substitute Cub for Sol. Preserve explicit episode voice overrides and existing single-voice Cub episodes.
+- Arthur is the built-in Higgsfield preset, delivered warmly like a nature documentary, with space for the visual reveal. Use his saved verified ID from the shared cast; keep Sol on a separate dialogue track. The custom Sol voice is an explicit project decision saved in the shared cast; Cub references belong to preserved legacy episodes. Record any intentional episode override, its exact provider/voice identity, and the supporting decision in that episode's shot plan. If evidence conflicts and no explicit decision resolves it, flag the mismatch and retain the documented shared default.
+- The review script must include the setting, characters' positions, visible action and dialogue for every clip. Describe the mechanism during explanation scenes, camera height and angle, shot size, subject placement and scale, and the intended camera behavior. For Sol, record the original eye design, gaze target, body poses and cue for each performance change using the [identity and acting rules](shot-integration-and-sol.md#sol-identity). Use the [style guide](video-style-guide.md#motion-style) for painted movement; preserve the normal original oval eye design. A brief natural blink may support a beat and return promptly to those ovals; it is optional, not a repeated default gesture.
+- Keep dialogue, scene direction, and captions in separate fields. Do not send speaker labels or production directions to text-to-speech as spoken words. Export separate clean text for each voice when audio is requested.
+- Whenever the Narrator speaks with Sol visible, cue Sol's upward glance to the fixed above-camera voice BEFORE the first word, maintained through the whole turn with gentle body/flame listening idle. Record the gaze-ready cue, Narrator window and next speaker change. Sol's own lines can use a different gaze; transition up before Arthur's reply. A short silent lead-in can preserve an exact reused starting image. Follow the [Narrator attention owner](shot-integration-and-sol.md#narrator-attention-and-listening-idle).
+- Review the actual generated footage side by side with this complete script and the per-scene speaker cues, not the visual prompt alone. Use recorded normal-rate voices for final alignment; planned timings remain explicitly provisional until then.
+
+Use this review format for each clip:
+
+```text
+Clip ID — estimated edit duration
+Teaching purpose: what this beat contributes to the explanation.
+Setting and framing: location, shot size, camera height/angle, subject placement/scale, crop, and camera move.
+Camera responsibility: generated movement or editing-only crop, with starting and ending views.
+First frame: original eye design, gaze target, body pose, object positions, and mechanism state; name an exact reused asset when applicable.
+Action: one main visible action, its connected stages in physical order and dialogue/visual cue; specify the gesture, bouncy follow-through and ending pose.
+Speaker attention: Narrator turn, gaze-ready cue before the first word, above-camera gaze and gentle idle through the turn; label timing planned or grounded in actual recordings.
+Motion: on twos at final 30 fps, each source pose/state held unchanged for two consecutive frames, normal-speed action; exact cadence enforced and verified during editing.
+Sol: "Spoken line, when Sol speaks."
+Narrator: "Spoken line, when the narrator speaks."
+Last frame: original eye design, ending gaze target, body pose, object positions, mechanism state, and camera crop.
+Next cut: what carries into the next view or what deliberately changes.
+```
+
+Include only the speakers who speak in that clip. A clip may contain multiple turns or several sentences from one speaker when the same action supports them.
+
+## Dialogue density and timing
+
+- Follow the [on-twos editing policy](video-style-guide.md#motion-style): 30 fps delivery, 15 pose updates per second, unchanged two-frame source states and longer holds in complete pairs. Align source-state trims to pairs, preserve normal-speed action and 1x voice playback, and verify actual footage. Smooth editorial camera moves can be applied afterward and need crop checks throughout.
+- Remove unnecessary leading/trailing silence from the recorded voice files and shorten excessive silent gaps without changing speech speed. Then trim unused visual tails to the finished dialogue and action, preserving a brief readable payoff. Keep original recordings and clips; save trimmed derivatives and update real cue/caption times.
+
+- Open with a readable visual beat in the first second. Let a clip's one main action support several spoken beats when they belong together, rather than inventing a new gesture for every line. Keep quieter listening or payoff poses when purposeful, and simplify competing reactions that obscure the explanation.
+- Work voice-first: record or import the separate takes, mark real phrase boundaries and speaker changes, then lock scene lengths, editable caption cues, reveal holds and final reactions. Until takes are available, label timing and caption cues **provisional**. Preserve natural delivery and **1× playback**. Trim unnecessary holds, repeated reactions and optional accents while keeping reveals readable. If necessary, extend the edit or plan a continuation; never accelerate speech to fit a slot.
+- New shorts start with a **30-second target**; the existing calculus pilot stays at its intentional 15 seconds. Allow a longer draft when the mechanism needs more explanation and state the estimated runtime. Do not remove necessary explanation just to hit a number.
+- Write enough connected dialogue to explain the mechanism at a conversational pace. Do not assume viewers need a long silent pause after every short sentence. As a planning estimate, 30 seconds can accommodate roughly **80–95 spoken words** with a brisk delivery; speaker changes, reactions, and visual reveals use some of that time. Check the actual performance rather than treating this range as a quota.
+- Vary clip lengths according to the action. A quick question may take 3–5 seconds, an exchange 6–8 seconds, and a mechanism explanation 9–12 seconds. These are examples, not fixed slots. Keep multiple lines in one clip when they belong to the same scene.
+- Treat draft timings as estimates. Time the final edit to the downloaded voices at their normal generated rate and **1× playback**. Never accelerate speech to force it into a slot. Revise the script or extend a clip when the recording needs more time.
+- Distinguish the duration used in the edit from a provider's generated clip duration. Plan longer scenes as continuing segments when necessary, as described in the shot guide.
+
+| Beat | What to write | What to plan |
+| --- | --- | --- |
+| Hook | Sol's question prompted by what he sees | The visible situation and Sol's action |
+| Setup | A narrator response and any useful follow-up | The part or movement the viewer should track |
+| Reveal | A complete explanation in connected sentences | The detail that demonstrates each cause and effect |
+| Payoff | Sol responding to what he now understands | An action or image that resolves his original question |
+
+Preserve an existing episode's approved script and recordings unless a rewrite is requested. When dialogue changes, synchronize the main document, separate voice scripts, shot plan, prompt context and caption plan, then recalculate the spoken word count.
+
+## Review before generating shots
+
+- [ ] The opening and ending address the same question.
+- [ ] Every spoken turn is labeled Sol or Narrator, and the conversation responds to the visible situation.
+- [ ] Sentences sound natural read aloud, with no forced slogan ending or unnecessary fragments.
+- [ ] The explanation identifies the parts and connects their movement to the result without vague shortcuts.
+- [ ] Each clip describes its scene, first frame, action, and last frame clearly enough to plan generation.
+- [ ] Each shot has a distinct teaching purpose, main visible action and intentional camera choice; any visible Sol has named gaze targets, expressive body poses and cues with his original eye design.
+- [ ] Clip lengths vary with the action; several lines share a clip where appropriate.
+- [ ] The explanation is correct and the reveal lands with the matching line.
+- [ ] The spoken word count and estimated runtime are stated; final timing remains tied to the real recordings.
+
+Run the shared [final prompt review](checklist.md#final-prompt-review) after translating the storyboard into prompts. It also checks reference roles, lighting, endpoint reuse and editable captions/precise graphics.
+
+## References
+
+- *Automate Ignite Videos* chat, Nov. 8, 2026. Off-screen Cub (Female) narration, the 15-second calculus pilot, and timing to the downloaded take.
+- *Remotion setup* discussion, Nov. 10, 2026. Question first, visual reveal, and episode-specific captions and voiceover.
+- *Escalator script feedback*, Nov. 13, 2026. Natural connected dialogue, fuller explanations, Sol/Narrator labels, skit staging, explicit first and last frames, and varied clip lengths.
+
+<<<<< END >>>>>
+
+<<<<< BEGIN GUIDELINE 3 (older; the script guide links to it for shot planning and Sol's acting): guidelines/shot-integration-and-sol.md >>>>>
+# Ignite shot integration and Sol generation
+
+Current model: Gemini Omni Flash 1.2 (`gemini_omni_flash_1_2`), image-to-video,
+with both user-approved endpoint stills. Read `../config/generation.json`.
+FIRST prepare both endpoint stills (generate or reuse as specified), THEN show
+both to the user and wait for explicit approval of that pair, THEN submit the
+Higgsfield clip. The model's paired-frame
+limit is 3–10 seconds; split longer scenes into declared continuing subscenes.
+Follow `clip-review-guide.txt` for independent review and production gates.
+
+Develop the shot plan alongside the skit script. When Sol appears, generate him **inside the painted keyframes**, then animate those full scenes. The existing Sol image supplies the character design. A production shot should show him interacting with the same space, props, and lighting as everything else.
+
+## Sol identity
+
+Use the original mascot artwork and relevant examples in [sol-references.json](../config/sol-references.json) for the complete design. Preserve compact height-to-width proportions and reference volume, the asymmetric flame silhouette and side lobes, nested red/orange/cream contours and layer widths, original colors, and tiny rounded arms and stubby feet at their original lengths and attachment points. Preserve the broad cream inner flame and softly tapering wispy tip. Allow small coordinated action-driven flex while retaining that recognizable design and settled endpoint form. Paint it using the [style treatment](video-style-guide.md#painterly-surface-treatment).
+
+Keep both eye ovals uniformly navy #1C2447, preserving their reference shape, size, low placement and close spacing. A brief natural blink may close and reopen both eyes, returning promptly to the original open ovals. No highlights, whites, extra pupils, winks, prolonged squinting, unrelated expressive reshaping or facial-feature drift. His face is part of his body: allow only intentional coherent paired eye-gaze shifts inside the face; do not detach/rotate the face as a separate head, introduce a neck, or permit accidental feature drift. Small bouncy body motion and flame-tip/lobe follow-through are allowed under the current [motion style](video-style-guide.md#motion-style), with the eye ovals unchanged and attached to the coherent face. A face turn remains a separate scripted choice. Sol is completely mouthless, with the area beneath the eyes blank. Exclude noses, eyebrows, other added facial features, fingers, elongated limbs, ankles, shoes and a separate humanoid torso. The filled flame body remains intact; do not apply realistic fire effects to it. Bouncy motion keeps the primary tips, lobes and nested layers connected. Follow the [particle-free movement rule](video-style-guide.md#particle-free-sol-movement): no detached flicks, sparks, droplets, holes or floating pieces; use attached body/tip wiggle.
+
+Keep these identity constraints separate from the shot's performance direction.
+
+Check the space between the eyes relative to their width against the original mascot, allowing coherent perspective. Do not spread them toward the edges of the cream face. An eye-spacing correction moves the existing ovals horizontally inward while preserving their size, shape, dark fill, height and the accepted scene treatment.
+
+Include concise identity wording in each independently usable prompt where Sol appears:
+
+```text
+Match the original Sol artwork exactly: compact reference proportions and volume, asymmetric flame silhouette, original red/orange/cream contours and layer widths, short rounded arms and tiny stubby feet. Keep both original eye ovals uniformly navy #1C2447 and unchanged in shape, size, spacing and low placement. A brief natural blink is allowed, returning promptly to the original open ovals. No highlights, whites, extra pupils, winks or drift. His face is part of his body: allow only scripted coherent paired gaze shifts; do not detach the face, add a neck or permit unmotivated feature drift. Keep him completely mouthless and blank beneath the eyes. No nose, eyebrows, added facial features, fingers, elongated limbs or separate humanoid torso. Preserve the softly tapering tip and coherent filled flame layers; allow a small action-driven bouncy wobble that settles back to reference proportions, without inflating the character or lengthening limbs.
+```
+
+## Purposeful performance and prop contact
+
+Choose a readable action that explains why Sol is in this shot. Anatomy preservation allows expressive gestures, body orientation, weight shifts, steps and purposeful interactions within his actual limb range. Do not make "feet planted, arms at sides, small lean, look upward, hold" the default for every scene. A quiet listening or payoff pose is useful when it contributes to the explanation; it should be a deliberate choice.
+
+Name the initial pose, gaze target, main action, ending pose and spoken or visual cue. Closely connected stages can form one action. Examples include a small direct single-arm lift, lowering a presenting arm once to listen, or opening both arms once into a low gesture of understanding; these are options rather than a required sequence. Preserve original arm lengths and attachment points. Move the specified limb directly between clear positions. Let the movement create a gentle connected body/tip wiggle, then settle; keep feet supported and emit no particles. Preserve the face and all nested layers coherently. Do not add unrelated anticipation, windup, repeated nodding, perpetual swaying, extra steps or camera movement. Follow the exact [on-twos motion policy](video-style-guide.md#motion-style).
+
+### Narrator attention and listening idle
+
+This is mandatory for all educational scenes: **whenever the Narrator speaks and Sol is visible, Sol looks UP toward a fixed point just above the camera and maintains gentle listening idle for the whole spoken turn.** Establish the gaze before the first word; do not wait until the last frame. If exact frame continuity starts with Sol looking at the mechanism, use a short silent gaze transition before the Narrator's audio begins.
+
+Move the original navy eye ovals coherently as a pair for a readable upward glance, retaining their normal shapes, sizes, close spacing and low resting placement. A slight coherent body/face angle can support the gaze; Sol has no separate head or neck. Scripted gaze movement is allowed, while accidental facial sliding or eye redesign is not. A brief natural blink returns to the same listening gaze.
+
+For a gaze-only change with the body's facing direction unchanged, translate the original oval pair; preserve each oval's contour, height-to-width ratio and long-axis orientation. Do not tilt, skew, shorten or round the eyes to indicate looking up. Their opaque navy fill stays dark and consistent between endpoints: lighting and the painted treatment must not introduce lighter blue/gray interiors, gradients, sheen or pale rims. Compare enlarged first/last eye crops as well as the full scene. A separately scripted body turn may use coherent perspective; an upward glance alone does not call for one.
+
+**Latest direction:** Elaine rejected the vertical eye-squish trial and asked
+for Sol to tilt his body up a little instead. Use a small coherent upward pitch
+of the entire compact flame body: outer silhouette, nested layers and attached
+face move together, keeping the tiny feet supported. Preserve the normal tall
+navy eye ovals; do not squash them or move the face as a separate head. Choose
+the modest angle for the shot, with no body rise, stretch or exaggerated lean.
+Elaine approved the displayed Fire Scene 02/05 first/last pairs and asked to
+animate them. Bounce fluidly into every new pose, with overlapping tip/lobe
+follow-through and a brief controlled rebound, then maintain quiet listening
+idle. The still reviewer found the UP direction ambiguous because the pose
+also rolls sideways; establish clear above-camera attention in motion and
+verify it against the script. The rejected eye-squish previews remain history,
+not a reusable expression rule.
+
+Use low-amplitude connected flame-tip/lobe/body motion while listening. The hands can remain in the required pose after one main gesture; avoid repeated pointing, nodding or large bounces. Keep all colored layers connected and feet supported. During Sol's own lines he can look at the mechanism as scripted, then lift his gaze before Arthur's reply.
+
+Record the gaze-ready cue, Narrator turn, idle state and next speaker change in the storyboard. Set final windows from actual normal-rate voice tracks at 1x. Until recordings exist, mark those windows provisional rather than claiming exact speech alignment. A Sol-off-screen cutaway has no invisible gaze requirement; its mechanism still follows the script.
+
+
+
+Describe prop support and contact explicitly: what is held, where contact occurs, what stays rigid, when release happens and what supports the object afterward. For placement, keep the grip stable during lowering, establish support before release, then keep the released prop stationary as the hand withdraws along one clear path. Placement, release and withdrawal must be sequential. A planted foot stays supported until a planned step; a weight shift or step needs coherent ground contact and shadows. A hand gesture must fit Sol's short rounded limbs without fingers or extra reach. Keep props distinct from his anatomy, including any actual fire shown beside the flame-shaped mascot. Example accessories appear only when the shot calls for them.
+
+## Plan the edit
+
+### Visual interest and curiosity
+
+Elaine's direction for every shot: make it stimulating and nice to look at,
+with plenty of action that makes viewers think, “omg thats cool whats happening
+there.” Build that curiosity into the visible scene and let the action and
+explanation answer it.
+
+Plan an eye-catching situation, a readable progression of physical action and
+a satisfying visible result. Use expressive performances, prop interactions,
+moving mechanisms and reveals as appropriate to the subject. One main action
+can contain several connected stages; it is not a limit of one tiny gesture
+followed by a long hold. Keep the composition attractive and the focal action
+clear at phone size, with enough time to understand each change. Vary the
+action and framing across shots so each gives viewers something new to watch.
+
+Record what catches the eye, what makes the viewer curious and how the action
+develops in each storyboard entry. Preserve Sol's identity, the painted finish
+and the exact motion cadence. During Narrator turns, keep Sol's required upward
+attention and listening idle; the demonstrated subject or a planned cutaway
+can carry the larger action.
+
+### Shot planning details
+
+For each clip, record its ID, teaching purpose, provisional edit duration, setting, framing, source asset or intended generation method, speaker-labeled dialogue, first frame, one main visible action and last frame. State what will be visible rather than using a vague instruction such as “show how it works.” Choose Sol's role per clip: asking, demonstrating or responding. A mechanism view can omit him when that improves the explanation.
+
+Make framing specific: shot size; camera height relative to Sol or the mechanism; viewing angle and camera side; subject placement; approximate subject size within the vertical frame; foreground, background, and crop boundaries; and the exact starting and ending view for any camera move. Identify the feature that should attract attention first. Keep expression shots large enough for Sol's eye shapes to read, and reserve a stated caption area that does not cover his face or the mechanism.
+
+Choose an intentional camera for each teaching purpose. Vary shot size and composition when it improves clarity; use a close-up or controlled push to reveal a detail, and quieter framing for listening or payoff. Record whether each camera move belongs in generation or editing, including its starting and ending crop, so it is not performed twice. Follow the [video prompt camera guidance](video-prompt.md#motion-and-continuity).
+
+For every visible Sol, record the original eye design, gaze target and body states at both endpoints using the identity and performance sections above. Keep the face and relevant contacts readable; do not replace his eyes to create an expression. State explicitly when he is off-screen.
+
+Plan different clip lengths around the dialogue and physical action. A single clip can carry two lines, several sentences, or a short exchange. Cut when the viewpoint or action needs to change; a sentence ending alone does not require a new clip.
+
+For adjacent clips, note what carries across the cut: Sol's pose and location, the tracked object's position, direction of travel, camera side, and lighting. If the next view changes scale, shows a diagram, or skips time, state that explicitly. Keep screen direction consistent unless the transition clearly establishes a new view.
+
+Use the existing calculus pilot as the continuity example. Its painted A → B → C → D progression is **crouch beside the board → land on it → lean into the curve as it wobbles → recover balance**. Reuse the end of one beat as the next starting point when the camera and framing carry through. For a cut to a new angle, match the action and position across the two views.
+
+## Complete generated clips and continuity
+
+Enforce the [two-frame source-pose cadence](video-style-guide.md#motion-style) at 30 fps during editing, preserving normal-speed action. Inspect source pairs before any smooth editorial camera move, then check final playback, crops, facial anchoring and prop contact. This is required editing and review work, not a claim that prompt wording implements it.
+
+Use generated stills and complete Higgsfield clips for the visual production. A cutaway is a painted cartoon scene generated and animated like any other scene. Keep the explanation inside the clip. Do not create SVGs, custom diagrams, geometry tools or separately animated mechanism layers unless the user explicitly asks for them.
+
+Use the approved character/style artwork and previous generated frames as visual references. Carry the same design, direction and identifiable object across cuts. Record continuity in plain scene directions, including where an object goes while off-screen; no mathematical route model is required. A distinctive painted edge or color can identify a recurring object inside the generated footage.
+
+Check generated clips for correct contacts, connections, proportions and clear action. If a scene fails, simplify its framing or action, revise that scene's prompts and regenerate only that scene. Do not automatically replace it with a separate animation pipeline.
+
+## Specify the first and last frames
+
+The **first frame** is a still composition: name the camera angle and crop, Sol's exact pose, original eye design, gaze target and location when present, the important objects, their positions and the mechanism's starting state. Do not put a sequence of actions into the first-frame description.
+
+The **action** describes how that starting state becomes the ending state. Specify one main physical action, a camera instruction if needed, and the spoken words that cue a reveal. Describe secondary performance only when it supports that action.
+
+The **last frame** is another still composition: state what has moved, where it ended, Sol's unchanged eye design and ending gaze target when present, the resulting body pose or mechanism state, and what the viewer must still be able to see. “Sol reacts” or “finish explaining” is not a usable end frame. If the camera moves, specify its ending crop.
+
+For exact continuity, reuse the approved last image as the next starting asset unchanged, with no duplicate generation. Keep the next scene's first-endpoint entry and existing output path, label it REUSE, and record the source scene/frame/path and destination path. Supply the same approved asset, or an identical-byte copy at the required slot, and check its identity when preparing the request. A reused start does not approve the new scene's end or bypass approval of that exact pair.
+
+For a cut to another angle or crop, use the earlier endpoint as a continuity reference and describe what changes; it is not an exact source-image reuse. Match the relevant object state and say which spatial details and lighting stay consistent. The [image guide](image-prompt.md#end-frame-template) owns matching-endpoint prompt construction. Plan editorial reveals, overlays and cutaways separately from physical movement so generation does not invent a mechanism changing shape.
+
+For a technical explanation, describe which parts stay rigid and which rotate or slide directly in the generated scene. Keep its camera and main action simple enough to read. Review the resulting clip before assembly and revise that scene if the motion is inaccurate.
+
+## Edit duration and generation duration
+
+Record the desired **edit duration** before choosing a provider. Check supported generation lengths when generation is requested. A planned 11-second scene may use two continuing generated segments; it does not imply that a provider accepts an 11-second request. Name each segment's first frame, last frame, and continuity requirements before submitting it.
+
+Use the finished speech at 1× playback to set final clip lengths, following the [recorded-dialogue timing rules](video-script-guide.md#dialogue-density-and-timing). Keep estimates provisional until then. Trim unnecessary holds or repeated reactions, or extend a scene with a planned continuation when necessary. Do not stretch footage containing mechanical motion or speed up speech to hide a timing mismatch. Request the exact two-frame cadence in generation, then enforce and verify it during editing under the [motion style](video-style-guide.md#motion-style); it remains unconfirmed until actual footage passes.
+
+## Prompt document standard
+
+Save a separate plain-text prompt document alongside the complete episode script. For **N scenes**, include exactly **2N image endpoint entries** and **N video prompts**. Give each scene one labeled first-frame entry, one last-frame entry and one continuous first-to-last video prompt. Label an exactly reused endpoint instead of submitting another image generation; the entry count stays 2N while unique still generations can be fewer. Use the same scene IDs in both documents. If a scene needs separate generated segments, declare them as subscenes and update the count explicitly before generation.
+
+Make every copyable image prompt self-contained: painted cartoon style, applicable character identity, precise framing, static pose, mechanism state and clean composition. For a new last image, use its approved first frame as the composition reference; specify what changes and what stays spatially consistent. Describe one still in each image prompt, not an action sequence or a contact sheet.
+
+Make every video prompt self-contained: lead with the main visible action and result, then its start/end states, connected stages, gaze targets, camera, movement quality, concise style and identity, and essential constraints. Use a hold only when useful. Put actual first/end media roles, reference inputs, model settings, duration fields, paths, dialogue and Remotion edit notes outside copyable blocks. Verify the [reference roles and supplied assets](image-prompt.md#reference-roles-and-supplied-assets), use supported silent-video controls only, and keep exact captions and precise graphics in editable overlays. A prompt draft is not a submitted generation.
+
+For example, a six-scene episode needs **12 image endpoint entries and 6 video prompts**; reused endpoints remain labeled entries. Last-frame composition and pose must be reachable from the first frame without a hidden cut, an unrequested new camera angle, or incompatible character placement. Choose one camera instruction that the generated clip can carry clearly. Reference lists distinguish existing character/style art from planned generated frames; do not require separate schematic assets. Test the opening action first before extending the run to later scenes.
+
+## Generate Sol as part of the scene
+
+1. **Choose references by role.** Supply original Sol artwork for identity and approved Ignite artwork for paint treatment, plus composition or continuity inputs when needed. Apply the identity rules above; prior generated anatomy does not override original assets. Preserve explicitly locked designs in older approved shots unless a revision is requested.
+2. **Prepare the whole keyframe.** Generate or exactly reuse the planned still. Describe the location, camera and Sol's pose relative to the prop, with shared brushwork, perspective, light and contact shadows. Inspect it at phone size and show both endpoints for explicit user approval. A flat Sol PNG over a painted scene is a draft placeholder.
+3. **Generate the motion after approval.** Use both approved endpoint images with the configured Higgsfield paired-frame model and production gate. Follow the [video prompt guide](video-prompt.md), including one main action and intentional camera behavior. For a turn or move, plan compatible endpoint poses; revise only the affected shot if it fails, preserving surrounding approved clips and rejected takes. Do not replace current settings with older Flow/UseAPI examples.
+4. **Assemble in Remotion.** Import the complete generated MP4 as the primary footage; add separate voices, editable captions, sound and basic transitions. Enforce the exact two-frame source cadence first, then apply any declared smooth editorial crop and verify source frames and final playback. Keep existing shot IDs and episode paths so clips can be replaced. Historical episode integrations retain their own settings.
+
+## Prompt examples for the calculus pilot
+
+The hop and board response below belong to that pilot. They do not authorize unrequested preparation, extra hops or prop movement in other shots. Sol’s current bouncy follow-through is defined by the shared motion owner, not by that pilot’s board action.
+
+**Painted still**
+
+> Create a full vertical painted 2D scene using the approved Ignite scene reference for texture and lighting and the approved Sol artwork for character identity. Sol crouches beside the board at the left side of the curve, facing right. Keep his original flame silhouette, eyes, mouthless face, proportions, and tiny limbs. Paint Sol, the board, and the ground together with the same brushwork and light. Give Sol and the board shadows where they meet the ground. Leave clear space for captions.
+
+**Animate the approved A → B frames**
+
+> Match the approved painted start and landing frames. Sol crouches, makes one short hop onto the board, and lands with a small bend. The board dips slightly under his weight. Hold the camera steady and keep the original painted texture, light, and character design through the whole shot. End on the landing pose so the next shot can continue the motion. Animate on twos: each source pose/state held unchanged for two consecutive frames at final 30 fps, at normal speed; enforce and verify cadence during editing. Let the off-screen narration carry the explanation.
+
+## Check each shot in the edit
+
+- [ ] When visible, Sol is painted into the scene with lighting, scale and perspective that match the props.
+- [ ] The action reads in silhouette and shows or reinforces the narrated idea.
+- [ ] The first and last frames each specify a visible state; the action connects them without an unexplained change.
+- [ ] The framing specifies shot size, camera height and angle, subject placement and scale, crop, focus, and the start and end of any camera move.
+- [ ] Every visible Sol has a purposeful action, original eye design, named gaze targets and body poses, with cues that read at phone size.
+- [ ] Dialogue is labeled Sol or Narrator, and each line matches what is visible at that point in the clip.
+- [ ] Clip lengths vary with the scene; longer continuous scenes have a feasible segment plan if needed.
+- [ ] Sol’s face, colors, and proportions match the approved reference at the beginning, middle, and end.
+- [ ] The board or prop makes believable contact, and direction, pose, and object position make sense across the cut.
+- [ ] The generated MP4 occupies the planned shot and the caption sits clear of the action.
+
+Use the shared [final prompt review](checklist.md#final-prompt-review) before generation. The [revised fire episode](../episodes/fire_discovery/higgsfield-prompts.txt) illustrates distinct gestures, close-up contact, declared camera roles and endpoint reuse; its setting, actions, crop percentages and durations are episode-specific examples.
+
+## References
+
+- *Automate Ignite Videos* chat, Nov. 8, 2026. The painted calculus pilot, Sol’s A → B → C → D action, and mouthless performance with off-screen narration.
+- *Code Flow Integration* chat, Nov. 9, 2026. Existing Flow A → B test, first hop-on clip, and the VS Code workflow.
+- *Ignite video workflow guides* discussion, Nov. 10, 2026. Generate Sol in the painted scene so he can act within it.
+- *Escalator script feedback*, Nov. 13, 2026. Write the scene alongside the dialogue; specify both endpoint frames and allow several lines within clips of varied lengths.
+- *Escalator cartoon direction*, Nov. 13, 2026. Historical camera and acting discussion; current identity rules supersede its eye morphs and anatomy-changing squash/stretch suggestions.
+- [Ignite_Moodle_Codex_Prompts.txt](https://chatgpt.com/library?file_id=libfile_41e7912a74808191b7964651794becc4&account_id=personal) for the approved mascot design constraints.
+
+<<<<< END >>>>>
+
+<<<<< BEGIN CHARACTER REFERENCE: guidelines/sol-3d-model.md >>>>>
+# Sol 3D model: the reference for every clip
+
+Approved by Elaine on 2026-11-25: "YES ... that is what i want, lets save that". Use this Sol, not a
+hand-built stand-in and not a description from memory. Read this before blocking a skeleton or writing a
+paint prompt that has Sol in it.
+
+![Sol turnaround](sol-3d/sol-turnaround.png)
+
+## The two models
+
+| Model | Picture | File | Use it for |
+| --- | --- | --- | --- |
+| **Sol** (arms and legs) | [sol-turnaround.png](sol-3d/sol-turnaround.png) | `../assets/sol-3d/sol.blend`, collection `SOL` | The character in clips. |
+| **Sol logo** (body only) | [sol-logo-turnaround.png](sol-3d/sol-logo-turnaround.png) | `../assets/sol-3d/sol-logo.blend`, collection `SOL_LOGO` | The logo mark: the same body with no arms or legs. Saved at Elaine's request the same day. |
+
+The frozen copies are in `../assets/sol-3d/approved-2026-11-25/`. Do not overwrite that folder.
+In each `.blend`, the root empty (`RIG_Sol` or `RIG_Sol_logo`) sits on the ground and he is 1.0 tall with legs.
+Arms pivot on `RIG_Sol_arm_L` and `RIG_Sol_arm_R`. The legs hang off the root so they stay planted when
+the body (`RIG_Sol_body`) leans.
+
+## How he is made (Elaine's method)
+
+1. **Body:** the real outline of `Logo.png` (Sol with no legs) is traced and inflated like a balloon. The
+   logo art itself is wrapped on the front, so the layers, colours and eyes are exactly his. The back is
+   plain body red.
+2. **Legs:** not inflated. Their outline is read off `Mascot.png` row by row and spun into a round limb
+   with no reshaping: wide where it joins the body, sides closing in, a blunt rounded tip. They sit exactly
+   where the mascot has them. [The check image](sol-3d/sol-legs-check.png) shows the mascot's outline
+   drawn over the model's legs.
+3. **Arms:** that same leg shape, 1.9 times as long, pointing out and down from his sides.
+
+## Rules that came out of building him
+
+- He is **round**: a plump inflated body, a teardrop from the side and back, like the website's 360
+  (`Ignite Website/public/backgrounds/Loading.gif`).
+- **Legs are the mascot's own shape.** Narrowed legs and tapered ovals were both rejected as too pointy:
+  "not too pointy look at the reference".
+- **Arms are the same shape as the legs**, only longer.
+- **One simple flame tip**, the one in the art. No curl, twist or swirl.
+- Eyes, layers and colours come from the art on his front. Do not redraw them.
+- No brown streak along his sides: near the outline, colour comes only from clean interior red.
+
+## Separate eyes (approved 2026-11-26)
+
+Elaine asked for eyes rigged separately so Sol can make anime-style expressions: "rigg the eyes like seperately
+like attach a 3d polygon on top". `../assets/sol-3d/eyes/sol-eyes.blend` is the approved Sol with his eyes
+painted out of the front art and rebuilt as separate pieces that hug his face. She approved it on 2026-11-26
+after the third sheet and the bounce test clip: "OH ITS PERFECT." The frozen copy is
+`../assets/sol-3d/eyes/approved-2026-11-26/`.
+
+![expression sheet](../assets/sol-3d/eyes/sol-eyes-expressions.png)
+
+- Expressions: normal (the exact eyes of the art), blink, glances, `> <` with round tips, `O O` with white
+  inside, sparkles, worried (a deep indigo shade from his flame tip down, thin lines at the side of his face),
+  shocked (worried plus `O O`).
+- Every change of expression goes through a bounce. `eyes_rig.py` has `emotion_at()` for that; the test clip
+  is `../assets/sol-3d/eyes/sol-eyes-emotion-bounce-test.mp4`.
+- Use this file for new skeletons. The original `sol.blend` stays as the plain reference and for the logo.
+- Give the painter the expression sheet as an image reference when a clip uses an expression, along with the
+  turnaround sheet.
+
+## Using him
+
+- **Skeleton clips:** append the `SOL` collection instead of building a gray stand-in. Whether a coloured
+  Sol in an otherwise gray skeleton is what Elaine wants is still her call; ask before the first clip.
+- **Paint passes:** pass `sol-3d/sol-turnaround.png` as an image reference alongside `Mascot.png`.
+- **Rebuilding:** see `../assets/sol-3d/README.md`. `compare.py` checks the result against `Mascot.png`.
+
+[Sol beside Mascot.png](sol-3d/sol-vs-mascot.png)
+
+<<<<< END >>>>>
+
+<<<<< BEGIN CHARACTER REFERENCE, the expression set (38 names) and its marks: assets/sol-3d/eyes/README.md >>>>>
+# Sol with separate eyes
+
+Elaine's idea, 2026-11-26: "do u think u can rigg the eyes like seperately like attach a 3d polygon on top when u
+do the blender thing". Built the same day. **Approved by Elaine on 2026-11-26**: after seeing sheet version 3 and the bounce test clip
+she said "OH ITS PERFECT." The approved copy is frozen in `approved-2026-11-26/`; do not overwrite that folder.
+The original model (`../sol.blend`, frozen in `../approved-2026-11-25/`) is untouched; this is a second file
+beside it, and it is the one to use from now on whenever Sol shows an expression, blinks or glances.
+
+![expression sheet](sol-eyes-expressions.png)
+
+| File | What it is |
+| --- | --- |
+| `sol-eyes.blend` | The working file: the approved model plus the new eye shapes and marks (see "More emotions"). The approved Sol with the eyes painted out of his front art and rebuilt as separate pieces. Collection `SOL`, same object names as the approved model plus the eye rig, so a skeleton only has to load this file instead. |
+| `sol-eyes-expressions.png` | The sheet, version 3 (v2 with only the tip-down shade, bluer and darker). Version 2 showed: normal, blink, two glances, `> <` with round tips, `O O`, sparkles, worried and shocked (each with the purple shade two ways), side views, one mid-bounce. `sol-eyes-expressions-v1.png` is the first sheet. |
+| `eyes_rig.py` | `find_eyes()`, `pose_eyes(eyes, expr, blink, look, size, shade, gloom, marks, t)`, `key_eyes()`, `emotion_at()`. Approved expressions: `normal`, `squeeze`, `surprised`, `sparkle`, `worried`, `shocked`; 32 more below, not approved yet. |
+| `build_sol_eyes.py` | Rebuilds `sol-eyes.blend` from `../sol.blend`. `Blender -b ../sol.blend --python build_sol_eyes.py` |
+| `render_expressions.py` | Renders the poses for the sheet. |
+| `sol-front-texture-noeyes.png`, `eye-outlines.json`, `eye-metrics.json` | His front art with the eyes painted out; the eye outlines traced from the art; where the eyes sit on the model. |
+| `sol-gloom-mask-face.png`, `sol-gloom-mask-top.png`, `gloom.json` | Where the worried shade falls (his face only, or from his flame tip down) and where the side lines hang. |
+
+How it works: his normal eye is the exact outline traced from the art, in the art's navy (27, 36, 71), so the
+resting face matches the approved model. Each piece is a thin shape pressed onto the front of his body by a
+Shrinkwrap modifier, so it follows the curve of his face wherever it slides, and everything hangs off
+`RIG_Sol_body`, so the eyes lean, squash and bounce with him. A piece is hidden by scaling it to nothing.
+
+What it allows: planned expressions keyed per frame, blinks timed by us instead of by the painter, and glances
+(the eyes slide a little left, right, up or down). The painter still has the last word on each frame, so every
+painted frame is still checked.
+
+Changes she asked for after the first sheet (2026-11-26): "can we make the squeezed shut things like rounded
+tips"; "for the anime worried try making a pruple gradient that starts from the top of sol to bottom"; "and then
+the dashed lines go on the side like this" (her reference: thin lines hanging at the upper side of the face,
+above one eye). All three are in version 2. The purple shade is built two ways, on his face only (A) and from
+his flame tip down (B), because "the top of sol" could mean either; she has not picked one. Both of her
+references pair the worried look with round white eyes, so `shocked` (worried plus `O O`) was added.
+
+Her picks after version 2 (2026-11-26): "i think i like B but lets make the purple like bluer and darker", and
+"everytime u swap emotions make sure theres a bounce that acts as a trnasition between one emotion to the other".
+Version 3: the shade runs from his flame tip down by default (`shade="top"`), in a deep indigo blue, on the back
+of his body as well. `eyes_rig.py` has `emotion_at(t, timeline)`, which gives the bounce for every swap;
+`sol-eyes-emotion-bounce-test.mp4` shows it (`render_demo.py` makes it). Sheets v1 and v2 are kept.
+
+## More emotions (2026-11-26, later) — NOT approved yet
+
+Elaine: "can you make an angry and sad emotion for sol 3d ... just like u did before ... and all other emotions that
+one could need". Her directions, all built:
+
+- **Angry:** "make the angry face like the OO circle eyes but like they're cut so like its two semicircles that
+  rotate down into the middle", and "make sol like have the red gradient instead of purple". So: the ring eye cut to
+  its lower half, the flat edge tilted down toward the middle of his face, and the top-down shade in deep red
+  (material dial `shade_red`).
+- **Sad:** first built as the same cut ring tilted down to the outside (sheet v4). She then asked "can the sad and
+  crying just be the black eyes without the white inners", "and same with gloomy", then "wait how about this we do
+  two U's like uu" (sheet v5), and last "can the sad and crying eyes be the same as bashful and also heartbroken
+  and gloomy". So sad, crying, gloomy and heartbroken use the closed eyes of `bashful` (shape `closed`). The
+  shapes `sad` and `u` stay in the file, unused. Sheet v6.
+- **Smug:** "turn the eyes around 180 so its like upsidedown gumdrops": the half eye turned half a turn, flat edge
+  at the bottom, round on top (shape `dome`). Sleepy keeps the flat-topped `half`.
+- **Awe stars, second pass:** "the awe stars look weird". They were stubby straight-sided stars with a lumpy edge
+  that tilted as they twinkled. Slim flat sparkles came next (sheet v6); her answer: "the stars are still kind of
+  fucked lets see if we can make the star shape and then inflate them". So each star is now a solid: a soft
+  rounded four-point star outline puffed out front and back like his own body (`puffy_star`, `puff_into`), with
+  the dark edge as a flat plate behind it. Always upright; it only swells and shrinks. Sheet v8.
+- **Outlines:** "for all of the elements like tear drops and music notes and like laughin and stuff can we have
+  outlines". `mark()` gives every coloured part a thin navy edge (the same shapes a little bigger, behind the
+  colour). Not edged: the blush (a soft flush) and marks that are navy already (`?`, `!`, dots, Zs). The second
+  music note went from navy to blue so it could have one.
+- **Yellow dashes** (excited, laughing, amazed): "can these be like tapered out like the tip of an exclamation
+  mark yk also put it closer to sol's body". Each dash is a wedge, thin near him and widening to a round fat end,
+  and the two sets sit just above the tips of his side lobes. Sheet v9; `sol-eyes-burst-test-v9.mp4` shows them
+  flashing in turn.
+- **Light bulb (idea):** "the lightbulb is rly weird ... can we make the metal part like a octagon like rectangle
+  octagon". The grey base was a plain square; it is now a rectangle with its four corners cut.
+  `sol-eyes-idea-bulb-v10.png` shows it. Then: "lets make it a trapezoid the longer side is toucing the circle and
+  then move the lightbulb closer to ignite". The base is now a trapezoid, wide where it meets the glass, and the
+  bulb sits nearer his body: `sol-eyes-idea-bulb-v11.png`. Her answer: "good!", then "ok i think the sprites are done":
+  she is finished changing the set. It has not been frozen into an approved folder. Sheet v9 still shows the old square base, far from him.
+- **Size:** "can you make all particle effects larger". `MARK_SIZE = 1.4` in the build script scales every mark
+  (the anger mark 1.25, the blush not at all).
+- **Anger mark:** "have that like angry marking thin like this" (her picture: four thin red curves with a dark
+  edge). Mark `vein`, on his temple, used by `furious`.
+- **Awe:** "use these stars for like awe stricken ... dont use the lines just the stars". Yellow four-point stars
+  with a dark edge around him, with the sparkle eyes. Expression `awe`.
+- **The rest:** she pointed at a game's list of reaction emotes as the range she means. The marks here are the
+  ordinary comic ones (sweat drop, tears, sparkles, light bulb, notes, Zs, "!" and "?"), drawn as our own shapes,
+  not copies of that game's icons.
+
+![expression sheet v9](sol-eyes-expressions-v9.png)
+
+38 expressions, listed in `EXPR` in `eyes_rig.py`: the approved six, then angry, furious, determined, sad, crying,
+gloomy, heartbroken, happy, joy, excited, laughing, singing, awe, love, wink, content, shy, bashful, idea, thinking,
+confused, startled, amazed, nervous, panic, scared, sleepy, asleep, smug, sigh, dizzy, ko.
+
+- New eye shapes per eye: `angry` (with a white inside), `half`, `dome`, `arc` (^), `closed` (u), `spiral`,
+  `cross`, `heart`. The approved six shapes and the indigo shade are built by the same code as before.
+- Marks, `SOL_mark_<name>_<n>`: on his body `blush`, `tear`, `sweat`, `vein`; floating on a flat plane just in front
+  of him `stars`, `burst`, `flowers`, `exclaim`, `question`, `bulb`, `dots`, `notes`, `zzz`, `brokenheart`, `shiver`,
+  `puff`, `spray`. From a three-quarter view the floating ones sit in front of him, not around him.
+- `pose_eyes(..., marks=(...), t=seconds)`: `marks` puts any marks on any face; `t` makes them move (stars twinkle,
+  tears drip, the vein throbs, the Zs rise). Marks pop with the eyes on the emotion bounce.
+- `sol-eyes-emotions-test-v8.mp4` (v4 to v6 are the same run with the earlier sad eyes, stars and mark sizes): 15.6 s, thirteen swaps with the bounce and the moving marks
+  (`render_demo.py -- <dir> v4`). `make_sheet.py` lays out the sheet. Sheets v4 to v8 are kept (v7: outlines added, before the bigger marks and inflated stars). Sheet v3 (`sol-eyes-expressions.png`) and the
+  approved folder are unchanged; `eyes_rig.py` still drives the approved file.
+- Not looked up: the game's own animations. A web search gave no usable descriptions, so the mark motions are from
+  her two clips (dashes flashing in turn above the head; flowers drifting around) and ordinary practice.
+
+Still to do when the next episode starts: the painter has not been tried on any of the new faces or marks, and the expression sheet it is given
+(the "Due in 5 Minutes" ad used the approved six) shows only those six: upload sheet v4, or a crop of the faces a clip uses.
+
+<<<<< END >>>>>
+
+<<<<< BEGIN EMOTION SOUNDS available (one per mood): amazed, bewilderment, cold-chill, confident, curiosity, daydreaming, exclamation, fearful, glee, greetings, heartbreak, inspiration, joy, laughter, love, pleased, pride, sadness, shocked, showmanship, shyness, sighing, sleepy, smirking, surprise, thought, worry, complete. Plus squeaks, boings and twinkles for actions. >>>>>
+
+<<<<< END >>>>>
+
+<<<<< BEGIN EXAMPLE A, the format to copy (latest episode; its header and build logs are history, your document needs only the script parts): episodes/shower_curtain/script.txt, first 170 lines >>>>>
+WHY DOES YOUR SHOWER CURTAIN CREEP TOWARD YOU? — SCRIPT V2.2 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-27: DRAFT V2.2, sent to Elaine for her read. Not approved.
+Tracker row: "Why does your shower curtain move toward you when the water turns on?" (General tab, Not Done).
+Why v2, in her words on v1 (script-v1.txt): "i wish the camera angles were way more dynamic for example when u
+introduce the scene fly the camera in from the top of the bathroom and into the shot where its aimed at sol in
+the bathrub. additionally sol should also be more cartoony and utilize the many spirtes of emotions we have. this
+will make the video more appealling to audiences and make sol very cute and marketable".
+Then, on v2 the same day: "when the shower curtain comes to sol can u lwk make him try to catfight it away lol
+we wanna make sol this super cute animated goober". v2.1 put a catfight in clips 02 and 06. Her answer: "lets
+try to not repeeat the catfight multiple times instaed we should utilize different cartoony troupes so like
+catfight is one but another one is like if the floor is slippery they just slip and fall dramatically like they
+run in place for a while and then they slip back and flop". So v2.2 (this file): the catfight once, in clip 02;
+clip 06 has the run-in-place, slip and flop instead. Each gag in the video is a different one.
+What v2 changed: every clip has a travelling camera (fly-in, whip, falling with the water, riding the air,
+corkscrew, crane over the curtain, orbit); Sol goes through 15 faces from the 38-expression set instead of 3; a
+new opening gag (he is singing in the shower when the curtain boops him); the old clip 1 is split in two, so 7
+clips. The narrator's words are unchanged, so the seven takes recorded 2026-11-26 (audio/edit/) still fit.
+What exists: the takes; the bathroom set in skeleton/clips.py. The clip 1 skeleton (01-skeleton-v1.mp4) is the
+v1 staging and has to be rebuilt. Nothing is painted.
+
+Build log, 2026-11-27 (Elaine: "yes lets do tis"):
+  Skeletons: skeleton/01..07-skeleton-v2.mp4 (clips.py, 24 fps, SOL_EYES=working). clips_v1.py and
+    01-skeleton-v1.mp4 are the first day's staging, kept.
+  Changes from the plan below, made while checking the gray frames:
+    - Clip 05 is a three-quarter view from the shower end with Sol small at the left, not a head-on close-up
+      without him: head-on, the cloth moving toward the camera could not be seen.
+    - Clip 04 ends with a snap in on dizzy Sol (4.2 s); in the wide view his face was too small to read.
+    - The steam wheel sits between Sol and the far wall (about 2 m across) so it fits a vertical frame, and the
+      steam appears only in clips 03 to 05.
+    - Clip 07's camera swings across his front (about a quarter turn), not half an orbit: the tub is too narrow.
+    - The tub-floor duck moved toward the near left corner; it was blocking the camera in clips 02 and 07.
+  Paint: clip 01 painted as the test of the newer faces, clips/01-paint-v1.mp4 (13.5 credits, job 4ab9aa80).
+    Singing, startled and angry all came back right. Seen in it: the painter put a shallow puddle under Sol;
+    one pink music note lingers about half a second into the startled beat; it is 5.38 s against 5.21 s.
+    Clips 02 to 07 are NOT painted yet: prompts/build.py and edit.json are ready, clip 02's request is in
+    prompts/batch-b.json. About 86 credits to go (whole seconds at 2.25); balance 168.3.
+
+About 40 seconds, 7 shots, 81 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+Music (suggested, not used on either tab yet): Layer Cake.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  (no words yet) The camera flies in from the ceiling of the bathroom, down over the curtain rod and into the
+      tub. Sol is in the shower, swaying, SINGING (music notes). The curtain's hem creeps in and boops his side.
+      He jolts, STARTLED (!). Then he turns on the curtain, ANGRY (red shade), with two huffy bounces.
+    Narrator: "Sol, why are you glaring at the shower curtain?"
+      Still glaring, he glances up at the voice.
+02    His answer: he CATFIGHTS it. Eyes squeezed shut (> <), leaning away, both little arm nubs slapping at
+      the curtain as fast as they go. It flutters back under the pats, then swings straight in and boops him
+      anyway. He freezes, eyes wide (O O).
+    Narrator: "Oh, it creeps toward you when the water's on."
+      Sol looks up. On "creeps toward you" he gives the curtain a NERVOUS sideways look (sweat drop). He nods once.
+03  Narrator: "Watch the spray. Falling water drags air down with it."
+      Over Sol's shoulder: he tilts, curious. The camera rushes past him up to the shower head, then falls
+      with the water. Pale steam puffs beside the drops get dragged down with them to the tub floor.
+04  Narrator: "That air loops back around like a little sideways whirlwind."
+      The camera rides along the floor with the puffs to Sol. They sweep up past his face (AMAZED) and back
+      along the top. The camera peels away to the side and the whole thing shows: one big slow wheel of steam.
+      Sol follows a puff round with his whole body, one circle, and ends DIZZY (spiral eyes), wobbling.
+05  Narrator: "The middle of a whirlwind is low pressure, so it pushes on the curtain a little less."
+      CLOSE-UP. The camera corkscrews into the middle of the wheel, right against the curtain, and holds
+      still. The puffs circle; the calm middle is empty. The cloth behind it eases toward us. Sol is not here.
+06  Narrator: "The room outside pushes like normal, so the room wins and shoves the curtain in."
+      The camera starts outside the shower, low on the bathroom rug: calm, a rubber duck on the tub rim. It
+      glides to the curtain, cranes up and over the rod and looks down into the tub. Sol is watching the hem
+      creep toward him, NERVOUS. He tries to run for it (PANIC), but the tub floor is wet: his legs run in
+      place, going nowhere, then shoot out from under him. He slips backward and flops flat on his back at the
+      curtain's hem. On "shoves" the hem swings in and boops him where he lies. Knocked out (X X eyes).
+07  Narrator: "It's not creeping up on you. It's getting pushed. Got it?"
+      Sol pops back up onto his feet with a wobble, the hem resting against him. THINKING (dots). On
+      "getting pushed": IDEA (light bulb). He
+      bumps the curtain away with his side; it swings out and settles back on him, and this time he lets it,
+      SMUG, puffed up. The camera swings round to face him. He looks up, EXCITED, and nods twice (HAPPY eyes).
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Set: a small sunny bathroom, new for this episode. A white tub alcove with pale tiles, the shower head on the
+  far wall, a pleated curtain along the left side on a steel rod with rings, a round window, a shelf with two
+  bottles and a rubber duck. Beyond the curtain: cream wall, rug, sink with a round mirror, towel, potted
+  plant. Two more ducks (tub rim, tub floor) and a bar of soap. The ducks and soap never move.
+Fixed places: Sol stands mid-tub near the camera end; the spray lands at the far end; the curtain's hem bows
+  in the most just beyond Sol, where it can touch his side.
+The air is shown with steam puffs: the same 40 pale puffs in every clip (same seed), modelled in the skeleton
+  in their real colour so the painter cannot restyle them. The curtain is one sheet, same colour and pleats
+  in every clip; it moves only by bowing in, by Sol's shove, and with a small ripple while the water runs.
+Camera: every clip travels. The big move happens at the start or end of the clip and settles while the science
+  has to be read (clip 05 holds still for its last four seconds). No two neighbouring clips share a framing.
+Sol's faces: all from assets/sol-3d/eyes (EXPR names in capitals above). Every swap goes through emotion_at, so
+  it comes with the bounce. Floating marks (notes, !, dots, bulb, dashes) sit on a flat plane in front of him,
+  so each one is timed for when the camera is roughly in front of him. The red shade is on only while he is
+  ANGRY. Each paint pass gets a crop of the expression sheet showing just the faces that clip uses; the painter
+  has not been tried on the newer faces, so clip 01 is painted first as the test.
+Sol never reaches with an arm. The catfight is not a reach: his nubs stay their own short length and flap up
+  and down in place, alternating, about six slaps a second. The curtain is already against his side, so the
+  nubs pat it where they are. Every other touch is a bump or lean with his side, nubs tucked.
+The gags, each used once: singing in the shower (01), the catfight (02), going dizzy from following the air
+  round (04), running in place then slipping and flopping (06).
+His feet stay on the tub floor, and jolts are a planted squash-and-spring, not a hop. The one exception is the
+  slip in clip 06: his feet fly up as he goes over, and he lands flat on the tub floor, in contact with it and
+  his shadow, and stays there to the end of the clip.
+Skeleton: skeleton/clips.py with rig.py, rendered headless by render_clip.py at 24 fps.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p. One frame of clip 01 is the style reference for the other six,
+  with Sol's turnaround sheet. About 40.3 s, so about 91 credits.
+Edit: edit.json with scripts/episode_edit.py; caption times from the transcript's word times.
+Checks: gray frames before paint; check_faces.py on each painted clip (planned faces will be flagged at their
+  planned times); check_narration.py on the cut; frame_review.py on the final cut, every frame looked at.
+
+CLIP 01 — fly in, singing, the boop, the glare — 5.2s
+  Camera: 0.0-2.2 starts at the ceiling in the far corner of the room, looking down on the whole bathroom
+    with steam rising over the curtain; flies down across the room, over the rod and into the tub, levelling
+    out low in front of Sol. 2.5-2.8 snap push-in on his glare. Then a slow creep.
+  Action: 0.0-1.9 sways side to side. 1.5-1.95 the hem creeps in. 1.95 boop. 1.95-2.5 jolt.
+    2.5 turns on the curtain, leaning at it. 2.9-3.8 two huffy bounces. 4.4-5.0 glances up at the voice.
+  Eyes: SINGING 0.0-1.95 (notes from 1.0) / STARTLED 1.95-2.5 / ANGRY 2.5-5.2.
+  Narrator 2.70-5.00.
+CLIP 02 — the catfight — 5.2s
+  Camera: opens beside the curtain, looking along it at Sol in profile. Whips out and back with the curtain's
+    swing, jolts on the boop, then swings round to Sol's front and pushes in as he looks up.
+  Action: 0.2-0.4 leans away from the curtain. 0.4-1.4 catfight: six alternating nub slaps; the hem flutters
+    back a little with each pat. 1.4-1.5 the curtain swings in. 1.5 boop. 1.5-2.1 frozen, nubs still up.
+    2.1 nubs drop, looks up. 3.2-4.1 sideways look at the curtain. 4.7-5.15 one nod.
+  Eyes: ANGRY to 0.2 / SQUEEZE 0.2-1.5 / SURPRISED 1.5-2.1 / NORMAL / NERVOUS 3.2-4.2 / NORMAL.
+  Narrator 2.05-4.78.
+CLIP 03 — the spray drags air down — 4.8s
+  Camera: 0.0-0.8 over Sol's shoulder toward the spray. 0.8-1.5 rushes forward past him and up to the shower
+    head. 1.6-4.2 falls beside the drops from the head to the tub floor and lands there.
+  Action: 0.2-0.8 Sol tilts. 1.6-4.6 puffs beside the spray are pulled down with the drops and spread out
+    along the floor toward the camera.
+  Eyes: not seen (he is seen from behind).
+  Narrator 0.30-4.38.
+CLIP 04 — the loop — 5.2s
+  Camera: 0.0-1.4 rides low along the tub floor with the puffs toward Sol and rises past his face with them.
+    1.4-2.6 peels out sideways through the cut-away tiled wall. 2.6-5.2 wide and side-on, a slow push: the
+    curtain is the backdrop, shower head on the right, Sol on the left, the whole wheel in view.
+  Action: the puffs circle the tub: down the spray, along the floor, up at Sol's end, back along the top.
+    1.0-1.8 Sol watches them pass. 1.8-4.2 he leans round one slow circle after a puff. 4.2-5.2 wobble.
+  Eyes: NORMAL / AMAZED 1.0-1.8 / NORMAL, tracking the puff / DIZZY 4.2-5.2.
+  Narrator 0.30-4.17.
+CLIP 05 — close-up: the low-pressure middle — 6.6s
+  Camera: 0.0-2.5 corkscrews in on the middle of the wheel (a push with a quarter turn of roll, the way the
+    wheel turns). 2.5-6.6 holds still, tight on the calm middle and the cloth behind it.
+  Action: puffs circle the edge of the frame; the middle stays clear. 3.2-6.2 the cloth behind the middle
+    eases toward the camera (bow 0.3 to 0.78). Nothing else in frame.
+  Narrator 0.30-6.12.
+CLIP 06 — the room wins — 7.5s
+  Camera: 0.0-2.8 low on the rug in the room, gliding toward the curtain past the duck on the tub rim; the
+    curtain's outside sinks away from us. 2.6-4.4 cranes up and over the rod. 4.4-7.5 high three-quarter view
+    down into the tub at Sol, a small jolt on the boop.
+  Action: the curtain ripples, a little bowed. 4.2-5.85 its hem creeps toward Sol. 4.4-4.8 he watches it
+    come. 4.8-5.5 turns away from it and runs in place: legs scrabbling fast, body leaning forward, not
+    moving an inch. 5.5-5.8 both feet shoot forward, he tips backward. 5.8 flops flat on his back at the hem,
+    one small bounce. 5.85 the hem swings in and boops him. 5.9-7.5 lies there, legs twitching once.
+  Eyes: NERVOUS 4.4-4.8 (sweat drop) / PANIC 4.8-5.8 / KO 5.8-7.5 (X X).
+  Narrator 0.40-6.99.
+CLIP 07 — Sol gets it — 5.8s
+  Camera: opens low and close on the hem against Sol's side. 2.0-3.6 half an orbit round him, rising to face
+    him. 3.6 a small snap push-in. Still for the nods.
+  Action: 0.0-0.4 pops upright from the flop, wobbles and settles. 0.4-1.9 looks down at the hem. 2.1-2.7 bumps it away with his side; it swings out and settles back
+    on him by 3.2. 2.8-3.5 puffs up. 3.5 looks up. 4.5-5.7 two nods. Ends on the second nod, no black.
+  Eyes: THINKING 0.4-1.9 / IDEA 1.9-2.8 / SMUG 2.8-3.5 / EXCITED 3.6-4.4 / HAPPY 4.5-5.8.
+  Narrator 0.20-3.57.
+
+Accuracy: the "shower-curtain effect". David Schmidt's 2001 computer simulation found that the spray drives a
+  vortex whose axis points at the curtain, with a low-pressure middle that draws the curtain in. It happens
+  with cold water too, so rising hot air is at most a helper. Physicists still argue about how much each cause
+  matters; the script states the vortex explanation as the answer.
+<<<<< END >>>>>
+
+<<<<< BEGIN EXAMPLE B, the script Elaine read and liked: episodes/coffee_ring/script.txt >>>>>
+WHY DOES COFFEE DRY INTO A RING? — SCRIPT V2 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-26: REDO delivered, then one fix. Elaine: "theres a weird flash but i think we can fix it easily
+without redoing the thing" (her screenshot: Sol's eyes striped, half shut). It was three frames of clip 01
+(6.38-6.46 s) where the painter drew a blink that never closed. clips/v2-01-paint-v1-noflicker.mp4 has the eye
+area of the frame before laid over those three frames; nothing else in the clip changed. Current cut:
+renders/coffee-v4.mp4, which is what completed/ holds now. v3 is kept. The lines below describe v3.
+renders/coffee-v3.mp4 (38.96 s, 24 fps, 1080x1920) was in
+completed/"Why Does Coffee Dry Into A Ring?.mp4", replacing the copy of cut v1 that was there (v1 is kept as
+renders/coffee-v1.mp4; its script is script-v1.txt and its edit is edit-v1.json). Not approved by Elaine yet.
+Why it was redone, in her words (guidelines/checklist.md): a different backdrop for every video; the narration
+must match the captions (v1 take 01b said "Arthur Artenberg"); the coffee demonstration was inconsistent, use
+close-up scientific shots; clips must not morph (the dropper's cap vanished); post-check every frame.
+What v2 changed: a sunny morning kitchen instead of the candle's night desk; a one-piece mug instead of the
+dropper bottle; the drop, its specks and the ring are one object in real coffee colours in every clip; three
+close-up shots carry the explanation; every take transcribed and checked before use.
+Clips used (edit.json):
+  01  clips/v2-01-paint-v1-noflicker.mp4   (v4; v3 used v2-01-paint-v1.mp4) first 8.0 s used. Painted first; frame 5.0 s is refs/style-ref-v2-kitchen.png
+  02  clips/v2-02-paint-v1.mp4
+  03  clips/v2-03-paint-v2.mp4          v1 kept, not used: its drop was dark brown, the neighbours' amber. v2 was
+                                        painted with a frame of clip 04 (refs/drop-ref-v2-from-clip04.png) as reference
+  04  clips/v2-04-paint-v1.mp4
+  05  clips/v2-05-paint-v1-rot180.mp4   the painted clip turned 180 degrees so the ring sits above the captions
+  06  clips/v2-06-paint-v1.mp4
+Skeletons: skeleton/v2-01-skeleton-v2, v2-02 to v2-04 -v1, v2-05-v2 (water fades gradually), v2-06-v1.
+Cuts: coffee-v2.mp4 (kept) had two captions wider than the frame and captions over the ring in clip 05;
+coffee-v3.mp4 fixes both in the edit. Music "A Little Lesson". Sound effects are the candle set.
+Post-check: all 935 frames of v2 looked at on contact sheets (renders/review-coffee-v2/); for v3 every frame
+outside clip 05 was proved identical above the caption band, and all of clip 05 and all 45 captions were looked
+at (renders/review-coffee-v3/). check_narration.py: the cut's audio matches the script word for word.
+Known and left in: Sol blinks often in clip 01 (six times) and nods three times, not two, at the end; the mug's
+blue differs a little from clip to clip; the moka pot slides into clip 06 from the left as the camera pulls
+back; vapour wisps in clip 03 drift in front of Sol.
+Credits: about 114 for the redo (narrator 2, six clips 90, clip 03 again 18); about 216 for both versions.
+Balance after: 625.
+
+About 39 seconds, 6 shots, 73 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+Takes: audio/v2/edit/ (trimmed). Each was transcribed with scripts/check_narration.py and matches its line.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  Narrator: "Sol, what are you staring at?"
+      Close on a dried coffee ring on a white kitchen counter. Sol leans over it and taps toward it twice,
+      then looks up.
+    Narrator: "Oh, you want to know why coffee dries into a ring, not a blob."
+      Sol nods.
+02  Narrator: "Watch a fresh drop."
+      Sol hops over and nudges his coffee mug. The mug rocks once and one drop hops out onto the counter.
+03  Narrator: "It dries fastest at its edge. But the edge is stuck to the counter, so it can't shrink inward."
+      CLOSE-UP. The drop fills the frame. Vapour rises from its rim only. Its outline stays put while its
+      top slowly sinks. Sol watches from behind.
+04  Narrator: "So water rushes out from the middle to refill it, and it carries every coffee speck with it."
+      CLOSE-UP, lower. The dark specks inside the drop drift outward toward the rim.
+05  Narrator: "Then the water dries away, and the specks stay, piled at the edge."
+      CLOSE-UP from straight above. The last specks reach the rim, the water thins away, the ring is left.
+06  Narrator: "So the ring isn't a mess. It's every speck, delivered to the edge. Got it?"
+      Close on the new ring, pull back to Sol. He points at it, looks up, nods twice.
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Set: a bright kitchen in the morning. White stone counter, sage-green tiled wall, a window with sunlight,
+  a moka pot back left, a potted herb back right, a pale blue mug (one piece, handle on its right).
+Fixed places on the counter: old ring A front-left, fresh drop B front-centre, Sol back-left, mug back-right.
+The drop's outline (radius R) never changes once it has landed; only its height does. The specks are the
+  same 64 specks in every clip (same seed). The ring is the same shape for A and B.
+Skeleton: skeleton/clips_v2.py with rig.py, rendered headless by render_clip.py (CLIPS=clips_v2.py).
+  Sol is the approved 3D model in colour; the coffee and the mug are in colour too; the room is gray.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p. Clip 01 first; one of its frames is the style reference for
+  the other five, with Sol's turnaround sheet.
+Edit: edit.json, built with scripts/episode_edit.py. Caption times come from the transcript's word times.
+Checks: check_faces.py on every painted clip; check_narration.py on every take and on the cut;
+  frame_review.py on the final cut, every frame looked at.
+
+CLIP 01 — the question — 8.6s
+  Camera: opens low and close on ring A with Sol looming behind it, pulls back and up to a medium shot.
+  Action: 0.5-1.6 two taps toward the ring. 2.3-3.0 looks up. Listens. 7.85-8.4 one nod.
+  Narrator 0.30-2.02 and 3.30-7.70.
+CLIP 02 — a fresh drop — 3.6s
+  Camera: medium on Sol and the mug, then pushes down to where the drop lands.
+  Action: 0.25-0.65 hop toward the mug. 0.45-1.05 his arm nudges it; it rocks to 10 degrees and settles.
+    0.82-1.45 one drop arcs from the rim to B. 1.45-1.75 it settles into a dome. Sol hops back and looks at it.
+  Narrator 0.20-1.34.
+CLIP 03 — close-up 1: dries at the edge, edge stuck — 8.0s
+  Camera: low and close, a slow slide. The drop is about two thirds of the frame width.
+  Action: vapour wisps rise from the rim only (0.2-6.3). The dome sinks from 0.14 to 0.085; outline fixed.
+  Narrator 0.25-7.25.
+CLIP 04 — close-up 2: the flow carries the specks — 6.8s
+  Camera: lower still, a slow slide the other way.
+  Action: specks drift outward, about three quarters of the way to the rim. Dome 0.085 to 0.06.
+  Narrator 0.25-6.11.
+CLIP 05 — close-up 3: the ring is left — 5.8s
+  Camera: straight above, a slow push in. Nothing else in frame.
+  Action: 0.2-2.9 the last specks reach the rim. 2.0-3.5 the ring builds. 0.4-3.9 the water thins away.
+  Narrator 0.25-4.81.
+CLIP 06 — Sol gets it — 6.7s
+  Camera: opens close on ring B with Sol and the mug behind, pulls back and up.
+  Action: 0.7-3.3 points at the ring. 3.4-4.2 looks up. 5.4-6.5 two nods. Ends on the second nod, no black.
+  Narrator 0.20-4.90.
+
+Accuracy: the coffee-ring effect (Deegan et al., Nature 1997). Evaporation is fastest at the pinned edge of
+  the drop, which drives an outward flow that carries suspended particles to the edge.
+
+<<<<< END >>>>>

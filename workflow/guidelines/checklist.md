@@ -720,3 +720,10 @@ Her words, in the order she sent them, each with what was done. These are Elaine
 - **"i wonder if thers a thing i can install that can make u view it"**: a question, answered in the session (nothing to
   install: frames are pulled out of the file and looked at, the sound is transcribed and measured).
 
+## Lettering in the skeleton: Elaine, 2026-11-27 (after seeing cut v7 of the "Whole Group Project" ad)
+
+- **"in the future when u put text on signs and 3d objects can we just put that in the skeleton directly so like with
+  blender do that"**. For future films the words on a sign, board, card, banner or other 3D object are part of the
+  Blender skeleton clip, not laid over the painted clip afterwards. (Not applied to the Whole Group Project ad, which
+  was finished with overlays; she said "in the future".)
+

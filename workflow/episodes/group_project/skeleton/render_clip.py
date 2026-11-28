@@ -148,6 +148,12 @@ elif FRAMES:
     print("STILLS", info)
 else:
     sc.render.resolution_x, sc.render.resolution_y, sc.render.resolution_percentage = 1280, 720, 100
+    # SHOWOVL=<plane names, comma separated> (or "all"): those lettering planes are IN the skeleton clip, on their signs
+    # (Elaine, 2026-11-27: "when u put text on signs and 3d objects can we just put that in the skeleton directly").
+    show = os.environ.get("SHOWOVL", "")
+    for o in sc.objects:
+        if o.name.startswith("OVL_") and show and (show in ("all", "1") or o.name[4:] in show.split(",")):
+            o.hide_render = False
     tmp = tempfile.mkdtemp(prefix="skel_")
     sc.render.filepath = os.path.join(tmp, "f_")
     bpy.ops.render.render(animation=True)

@@ -1,5 +1,5 @@
 {
- "out": "group-project-v6-nomusic.mp4",
+ "out": "group-project-v7-nomusic.mp4",
  "width": 1080,
  "height": 1080,
  "caption_size": 76,
@@ -17,7 +17,7 @@
   ],
   [
    "02-comp.mp4",
-   6.7917
+   6.5
   ],
   [
    "03-comp.mp4",
@@ -37,7 +37,7 @@
   ],
   [
    "06-comp.mp4",
-   4.4583
+   4.5
   ],
   [
    "07-comp.mp4",
@@ -118,7 +118,7 @@
   {
    "take": "02b.wav",
    "clip": 1,
-   "start": 3.45,
+   "start": 3.2,
    "phrases": [
     [
      0.0,
@@ -211,7 +211,7 @@
   {
    "take": "06.wav",
    "clip": 6,
-   "start": 0.6,
+   "start": 1.08,
    "phrases": [
     [
      0.0,
@@ -273,7 +273,7 @@
    "start": 0.9,
    "phrases": [
     [
-     0.0,
+     0.55,
      1.62,
      "Ignite's free Social"
     ],

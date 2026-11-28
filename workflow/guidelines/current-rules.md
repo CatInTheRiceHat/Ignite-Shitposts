@@ -40,6 +40,18 @@ making the candle episode, not preferences she stated. The dated history behind 
 
 ## 2. Script and voice
 
+- **Gemini 4 Neon writes the script and plans the animation.** Elaine, 2026-11-27: "Whenever I give you a video
+  topic, use Gemini 4 Neon to write the script and plan the animation." Her steps: pass Neon the topic and the
+  **full text** of the current script guidelines, with "any examples, templates, or character references the
+  guidelines rely on so Neon has the same context you do"; ask it "to follow our existing format and return
+  everything you need to animate the video, including the final narration, scene order, timing, on-screen
+  actions, and any visual cues"; send it with `agy --model gemini-4-neon-high -p`; "check Neon's output against
+  the guidelines. If something is missing or off-brand, send that specific feedback back to Neon for revision";
+  then "save it in the project and animate from it using our existing workflow". *(working practice)* What was
+  sent the first time (the wet-shirt episode): this page, `video-script-guide.md`, `shot-integration-and-sol.md`,
+  `sol-3d-model.md`, `assets/sol-3d/eyes/README.md`, the emotion sound list, the shower-curtain script as the
+  format and the coffee-ring script as the one she liked; the request builder is saved in that episode's
+  `neon/` folder. Neon's answers and each round of feedback are kept there too. `agy` needs a Google sign-in.
 - **Sol is silent.** "we will cut the sol voice entirely so like sol will just be a silent character and
   it will just be the narrator just educating us". Narrator only (Arthur, `config/voices.json`).
 - **Scripts are interactive.** The Narrator talks to Sol and reacts to what he does; Sol answers by
@@ -354,7 +366,15 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
 
 ### Words on screen, reaching arms, and ads *(working practice, from the "Due in 5 Minutes" ad, 2026-11-26)*
 
-- **Never let the painter write words.** Draw each piece of lettering once as a PNG, put it on a plane in the
+- **Lettering on signs and 3D objects goes in the Blender skeleton itself** (Elaine, 2026-11-27, after the "Whole Group
+  Project" ad: "in the future when u put text on signs and 3d objects can we just put that in the skeleton directly so
+  like with blender do that"). From the next film on, the words are on the sign in the skeleton clip the painter is
+  given (the lettering planes already exist: `render_clip.py` shows them with `SHOWOVL=1`), and the prompt tells the
+  painter to keep that lettering exactly as it is. This replaces laying the words on in the edit as the first choice.
+  *(working practice, mine)* The painter has garbled and re-spelled words before, which is why the bullet below was
+  written. So: check every lettered frame of the paint; if the words come back wrong, say so to Elaine and fall back to
+  the overlay method below for that shot only. Captions and the end card are not on 3D objects and stay in the edit.
+- **(Fallback) Never let the painter write words.** Draw each piece of lettering once as a PNG, put it on a plane in the
   Blender scene, render that plane alone in the shot's perspective, and lay it over the painted clip. The skeleton
   and the prompt keep every board, card and page blank. Lock the camera off in any shot with lettering, and keep
   lettering behind Sol with his silhouette from the skeleton. Worked example:
@@ -480,6 +500,13 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   a banner or over a wall, and the prompt says so.
 - **No expression she did not ask for at the end of a beat** (Elaine, of smug half-shut eyes: "why is he doing this can
   we just keep it like this"). Pleased is plain eyes and a tall stance unless the script names a face.
+- **Two paints of one skeleton can be joined inside a whip pan.** When one paint has the right teammates and another the
+  right close-up, take each part from the paint that got it right and cut in the middle of the whip
+  (`group_project/splice_clip2.py`). Line the two up by eye first: paints do not whip on the same frame.
+- **A caption may wait for the picture.** If the first words of a line would lie across a face or a lettered thing while
+  the camera moves, keep the voice where it is and start that caption a few tenths later (`CAPTION_FROM` in
+  `group_project/make_edit.py`). If the painter frames a Sol on the edge of the square, slide the square (`crop_pan` in
+  `overlays/composite.py`); the 16:9 paint has room on both sides.
 - **One re-roll can fix a paint, two can give two new faults.** A paint that comes back flat, or redraws the set, is
   re-submitted as it is; but check every re-roll against the accessories (a hat appeared on our Sol in two re-rolls of
   one shot). A mouth on a turned face: `group_project/fix_mouth_below_eyes.py` (it finds the eyes and fills the patch

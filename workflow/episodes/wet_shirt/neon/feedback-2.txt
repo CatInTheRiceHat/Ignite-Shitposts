@@ -1,0 +1,9 @@
+V2 fixes all five points: the timing is believable, only two close-ups are without Sol, the missing link is in, no hops. Three last things, then it is ready. Return the COMPLETE document again as V3 (same sections, then TITLE / DESCRIPTION / HASHTAGS), one message, no tools. Change nothing else.
+
+1. CLIP 01 LINE READS UNNATURALLY. "Whoa Sol, water didn't stain your shirt!" is not how a person talks (the guide: sound like people responding to each other, no clipped clauses). Go back to natural speech, for example "Whoa, Sol, relax! That water didn't stain your shirt." Re-time the window at the same rate.
+
+2. CLIP 02 CRAMS FIVE FACES INTO 4.05 s. NERVOUS for 0.4 s and SAD for 0.5 s cannot be read, and every swap rides a bounce that takes about 0.35 s. Give every face at least 0.8 s on screen: lengthen the clip to about 6 s, or drop one face. Also reorder it so the Narrator reacts to what Sol did: Sol scrubs with only the squeaks (no voice), steps back and checks, the patch is unchanged and he droops, and THEN the Narrator says his line, with Sol looking up during it. Right now the line starts at 0.55 s, before Sol has even seen that scrubbing failed.
+
+3. CLIP 06 HOLDS STILL FOR 5.4 s. The rule: a long shot needs a camera move. After the orbit, ease in slowly on Sol for the rest of the clip. Give Sol one small listening beat inside the line so he is not frozen: on "never changed color" he glances at the shirt beside him and then back up. Keep the ending order exactly (listens through the line, one nod after it, then HAPPY).
+
+Limits for V3: 80 spoken words or fewer, 42 s or less. If clip 02 gets longer, take the time from clip 04's or clip 06's hold rather than from the pauses. State the new word count and runtime in the header.

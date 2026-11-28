@@ -470,7 +470,7 @@ def clip2():
     The camera WHIPS right (0.9-1.25) to his three teammates and holds: Sleepy Sol asleep under the umbrella, Hat Sol
     with his back to us, staring at the sea, Ring Sol bobbing in his swim ring with his eyes shut.
     It WHIPS back (2.75-3.1): Sol faces the camera, perfectly still, with flat half-shut eyes (the deadpan). At 4.4 he
-    squares up, DETERMINED, and looks up."""
+    plants both nubs on his sides and stands tall, CONFIDENT (plain eyes), looking up."""
     n = 204
     stage("gp_2", n, castle="start", bucket="down", board="castle")
     M = (0.2, -0.1)
@@ -479,7 +479,10 @@ def clip2():
     hat = mate("hat", LOUNGE["hat"], 172)
     sleepy = mate("sleepy", LOUNGE["sleepy"], -14)
     cam = build_cam(24)
-    TL = [(0.0, "angry"), (2.0, "sleepy"), (4.4, "determined")]
+    # Elaine on cut v7, of the glare with his nubs out at "that'll fix this": "this doesnt make sense can we like make sol
+    # like hold his hands on his sides like hes confident after hearing the 5 tips". So from 4.4 he is CONFIDENT: plain
+    # eyes, both nubs planted on his sides, standing tall with his chest out, looking up. No glare.
+    TL = [(0.0, "angry"), (2.0, "sleepy"), (4.4, "normal")]
 
     def state(t, f):
         w1, w2 = smooth(t, 0.9, 1.25), smooth(t, 2.75, 3.1)
@@ -491,10 +494,11 @@ def clip2():
         point = smooth(t, 0.1, 0.35) * (1 - front)
         dead = smooth(t, 2.0, 2.3) * (1 - smooth(t, 4.3, 4.5))
         det = smooth(t, 4.35, 4.6)
-        act(sol, t, f, TL, look=(0.85 * (1 - front), 0.75 * det), loc=(M[0], M[1], 0),
-            yaw=18 * (1 - front), lean=9 * point, pitch=9 * det,
-            squash=idle(t) * (1 - dead) - 0.07 * det,
-            arm_l=(-40 + 28 * det, 0), arm_r=(-40 + 105 * point + 28 * det, 0))
+        plant = bump(t, 4.35, 4.75)                      # the little bounce as he plants his nubs
+        act(sol, t, f, TL, blinks=(5.6,), look=(0.85 * (1 - front), 0.75 * det), loc=(M[0], M[1], 0),
+            yaw=18 * (1 - front), lean=9 * point, pitch=10 * det,
+            squash=idle(t) * (1 - dead) - 0.08 * det + 0.05 * plant,
+            arm_l=(-40 + 34 * plant - 24 * det, 26 * det), arm_r=(-40 + 105 * point + 34 * plant - 24 * det, 26 * det))
         bob = math.sin(TAU * 0.9 * t)
         act(ring, t, f, [(0.0, "content")], loc=LOUNGE["ring"], yaw=12, lean=7 * bob, squash=0.035 * math.sin(TAU * 1.8 * t),
             arm_l=(-40 + 12 * bob, 0), arm_r=(-40 - 12 * bob, 0))
@@ -700,6 +704,46 @@ def clip6():
     return animate(n, state)
 
 
+def hash_marks(tag, side):
+    """Three short curved motion lines beside a flapping nub, like ))) : a rig of their own, in 3D, so the painter copies
+    them and does not make up his own. (Elaine, 2026-11-27, of the painter's smudged version: "can we try to rig this
+    in 3d instead? like make the hash marks vibrate and the arms move rly fast".) side = -1 for screen left, +1 for
+    screen right. They stand upright facing the camera; hash_at() shows, places and shakes them."""
+    r = empty("RIG_hash_" + tag, (0, 0, -5))
+    for i, R in enumerate((0.11, 0.185, 0.26)):
+        bm = bmesh.new()
+        half, w, d, N = math.radians(34 - 4 * i), 0.032, 0.02, 10
+        rings = []
+        for k in range(N + 1):
+            ang = (0.0 if side > 0 else math.pi) - half + 2 * half * k / N
+            taper = 0.35 + 0.65 * math.sin(math.pi * k / N)                # thin at both ends, like a brush stroke
+            ring = [bm.verts.new(((R + sr * w * taper / 2) * math.cos(ang), sy * d / 2, (R + sr * w * taper / 2) * math.sin(ang)))
+                    for sr, sy in ((-1, -1), (1, -1), (1, 1), (-1, 1))]
+            rings.append(ring)
+        for k in range(N):
+            for j in range(4):
+                bm.faces.new((rings[k][j], rings[k][(j + 1) % 4], rings[k + 1][(j + 1) % 4], rings[k + 1][j]))
+        bm.faces.new(rings[0])
+        bm.faces.new(rings[-1])
+        bmesh.ops.recalc_face_normals(bm, faces=bm.faces)
+        o = mesh_obj(f"FX_hash_{tag}_{i}", bm, (0.62, 0.33, 0.16), parent=r, smooth=False)
+        o.visible_shadow = False
+    track(r, "location", "rotation_euler", "scale")
+    return r
+
+
+def hash_at(r, t, on, at, phase=0.0):
+    """on: 0 hidden .. 1 full size. at: the nub's place (x, y, z). They shake fast: a quick tilt to and fro, a pulse."""
+    if on <= 0.01:
+        r.location, r.scale = (at[0], at[1], -5), (0, 0, 0)
+        return
+    q = math.sin(TAU * 8.0 * t + phase)                        # 8 shakes a second: three frames each at 24 fps
+    r.location = (at[0], at[1], at[2] + 0.018 * q)
+    r.rotation_euler = (0, D(13 * q), 0)
+    k = on * (1.0 + 0.14 * math.sin(TAU * 4.0 * t + phase))
+    r.scale = (k, k, k)
+
+
 # ================================================================ clip 7: tip 5, ask one person
 def clip7():
     """Narrator: "And fifth, [0.5] ask one specific person, [1.5-3.3] instead of saying, [3.7-4.6] can someone." [4.9-5.7].
@@ -712,7 +756,9 @@ def clip7():
     Sol hops up to Ring Sol (1.35-1.85) and holds one nub up at him. Ring Sol jolts (2.2, an exclamation mark), nods
     (3.0-3.4), turns and hops away to the left, out of the frame (3.45-4.3). The camera slides right (3.5-4.3) to our
     Sol, Hat Sol and Sleepy Sol. Sol turns round to the two of them (3.5-3.9) and flaps both nubs (4.2-4.8). At 4.85
-    both turn away, tip their faces up and whistle (music notes). Sol just stands there with a sweat drop (5.3)."""
+    both turn away, tip their faces up and whistle (music notes). Sol just stands there with a sweat drop (5.3).
+    Version 8: while he flaps, his nubs go really fast (six flaps a second) and three curved hash marks shake beside
+    each nub; the marks are their own 3D rig (hash_marks), not left to the painter."""
     n = 204
     stage("gp_7", n, castle=None, board=None, lounge=False)
     S0, S1 = (0.9, -0.2), (0.6, -0.15)          # a clear gap of sand to Ring Sol: paint v1 lost our Sol when they touched
@@ -720,6 +766,7 @@ def clip7():
     HP, SP = (2.5, 0.15), (3.3, -0.1)
     sol = build_sol2((S0[0], S0[1], 0), -40)
     ring, hat, sleepy = mate("ring", (R0[0], R0[1], 0), 40), mate("hat", (HP[0], HP[1], 0), -40), mate("sleepy", (SP[0], SP[1], 0), -40)
+    hl, hr = hash_marks("L", -1), hash_marks("R", 1)
     cam = build_cam(24)
 
     def state(t, f):
@@ -730,12 +777,14 @@ def clip7():
         ask = smooth(t, 1.9, 2.1) * (1 - smooth(t, 3.0, 3.3))
         to2 = smooth(t, 3.5, 3.9)
         wave = smooth(t, 4.15, 4.3) * (1 - smooth(t, 4.8, 5.0))
-        flap = math.sin(TAU * 3.2 * t)
+        flap = math.sin(TAU * 6.0 * t)                    # really fast: a full flap every four frames
         oh = smooth(t, 5.25, 5.5)
+        hash_at(hl, t, wave, (p[0] - 0.43, p[1] - 0.12, 0.47))
+        hash_at(hr, t, wave, (p[0] + 0.43, p[1] - 0.12, 0.47), phase=2.1)
         act(sol, t, f, [(0.0, "normal"), (5.3, "nervous")], blinks=(0.7, 3.2), look=(lerp(-0.85, 0.85, to2) - 0.5 * oh, 0.05),
             loc=p, yaw=lerp(-40, 44, to2) - 18 * oh, lean=-6 * ask + 4 * wave * flap,
             squash=idle(t) + 0.06 * bump(t, 1.2, 1.38) + 0.05 * wobble(t, 1.85, decay=5) + 0.04 * oh + 0.05 * bump(t, 3.5, 3.9),
-            arm_l=(-40 + 95 * ask + wave * (55 - 45 * flap), 0), arm_r=(-40 + wave * (55 + 45 * flap), 0))
+            arm_l=(-40 + 95 * ask + wave * (62 - 58 * flap), 0), arm_r=(-40 + wave * (62 + 58 * flap), 0))
         jolt = smooth(t, 2.17, 2.25) * (1 - smooth(t, 2.8, 3.0))
         nod = bump(t, 3.0, 3.4)
         q = hops(t, 3.45, 4.3, R0, R1, n=4, h=0.18)
@@ -776,7 +825,9 @@ def clip8():
     cone("PRP_ribbon_middle", "cream", (0, -0.03, 0), 0.115, 0.115, 0.012, parent=rb, rot=(D(90), 0, 0))
     for s in (-1, 1):
         box(f"PRP_ribbon_tail{s}", "blue", (s * 0.07, -0.01, -0.25), (0.085, 0.02, 0.26), parent=rb, rot=(0, D(s * 14), 0))
-    overlay_plane("first", "first.png", (0, -0.05, 0), (0.2, 0.2), parent=rb)
+    # Elaine, 2026-11-27: "same with this please just put the text in blender". The "1st" is part of the skeleton clip the
+    # painter gets (render with SHOWOVL=first); nothing is laid over the ribbon in the edit any more.
+    overlay_plane("first", "first.png", (0, -0.05, 0), (0.17, 0.17), parent=rb)
     track(rb, "location", "rotation_euler")
     RX, RY, RZ = CAS[0], CAS[1] + 0.28 - 0.42, 0.62
     cam = build_cam(24)
@@ -794,7 +845,10 @@ def clip8():
         nod = bump(t, 9.3, 9.8)
         yay = smooth(t, 9.88, 10.0)
         bounce = bump(t, 9.9, 10.25) - 0.6 * bump(t, 10.2, 10.5)
-        act(sol, t, f, TL, blinks=(3.4, 5.9, 7.7), look=(0.9 * (1 - front) + 0.8 * card, lerp(0.4, 0.85, front) - 0.5 * card - 0.5 * nod),
+        # Elaine on cut v7, of the last frames: "noooooooouuu wheres the flowers and the sparkles". The cheer has flowers AND
+        # sparkles floating round every Sol, our Sol included.
+        act(sol, t, f, TL, marks=("flowers", "stars") if t >= 9.9 else None,
+            blinks=(3.4, 5.9, 7.7), look=(0.9 * (1 - front) + 0.8 * card, lerp(0.4, 0.85, front) - 0.5 * card - 0.5 * nod),
             loc=(SP_[0], SP_[1], hop(t, 0.46, 0.8, 0.2)), yaw=34 * (1 - front) + 14 * card, lean=1.5 * math.sin(t * 2.0) * (1 - nod),
             pitch=lerp(4, 10, front) - 22 * nod + 4 * yay,
             squash=idle(t) + 0.05 * wobble(t, 0.8, decay=5) + 0.06 * nod + 0.09 * bounce,
@@ -805,6 +859,7 @@ def clip8():
             y2 = smooth(t, 9.88 + ph, 10.0 + ph)
             f2 = smooth(t, 1.3 + ph, 1.7 + ph)
             act(who, t, f, [(0.0, "happy"), (1.5 + ph, "normal"), (9.9 + ph, "joy")], blinks=(4.1 + i, 6.6 + 0.4 * i),
+                marks=("flowers", "stars") if t >= 9.9 + ph else None,
                 look=(0.0, 0.8 * f2), loc=(pos[0], pos[1], hop(t, 0.5 + ph, 0.82 + ph, 0.16)), yaw=base * (1 - 0.6 * f2),
                 pitch=9 * f2 + 4 * y2, squash=idle(t + i) + 0.05 * wobble(t, 0.82 + ph, decay=5) + 0.09 * b2,
                 arm_l=(-40 + 55 * bump(t, 0.45, 1.1) + 85 * y2, 0), arm_r=(-40 + 55 * bump(t, 0.45, 1.1) + 85 * y2, 0))

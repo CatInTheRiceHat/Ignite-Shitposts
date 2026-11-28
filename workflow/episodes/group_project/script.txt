@@ -491,3 +491,35 @@ Known and left in v6: a faint smudge under Sol's left eye for about half a secon
   (clip 7, 4.7 to 5.3 s of the clip); the sky in clip 7 turns from pale gold to rose as the camera slides; the rightmost
   Sol in the board shot is cut by the edge of the square, as in v5; the "Flag: Me" card is cut by the left edge (4b).
 
+CUT v7 (2026-11-27): THE INDEPENDENT REVIEW OF v6 (technical findings, not Elaine's notes) AND WHAT WAS DONE
+An independent reviewer read every frame of v6 (renders/review-group-project-v6/). v6 was never shown to Elaine.
+  fixed   clip 2: in paint v3 the set redrew itself behind Sol in the second close-up (a shovel, the castle turning into
+          a ball, a second string of flags). splice_clip2.py: Sol's close-ups from paint v2, the teammates from paint v3
+          (ring low), joined inside the two whip pans -> clips/02-paint-v2v3.mp4. The clip is 6.5 s; "Okay, ..." at 3.2 s.
+  fixed   "Fourth," across Sol's face as the camera pulls back (clip 6): the line starts at 1.08 s (clip 4.5 s long)
+  fixed   "Ignite's free Social" over the ribbon as it lands and over Sol's face in the crane (clip 8): the voice still
+          starts at 0.9 s, the first caption waits until 1.45 s (CAPTION_FROM in make_edit.py)
+  fixed   a sliver of a Sol in the gap beside the end card while it bounces: the card's orange runs on to the frame edge
+  fixed   our Sol cut by the left edge at the end of clip 7: the square slides 52 px left with the camera (crop_pan)
+  better  the marks left under Sol's eyes by the mouth repair (clip 7): the repair now also fills the grey smear
+Left in (reviewer's findings not acted on): the far-off rival team's blue bucket pops in and out (clip 5, far left);
+  the second board passes in front of the clock for three frames as it drops (clip 5); the sky in clip 7 turns from gold
+  to rose as the camera slides, our Sol is a tall thin shape for about half a second as he turns round there, and Hat
+  Sol and Sleepy Sol go narrow when they turn away; a blue ball sits at the foot of a pole above Sleepy Sol's head in the
+  opening of clip 7; one-frame eye smudges (26.0, 38.5, 39.7, 44.0, 51.5 s); the "Flag: Me" card is cut by the left edge
+  (clip 4b); Sleepy Sol is cut by the right edge at the end of the board shot; our Sol and Ring Sol swap sides between
+  the board shot and the "ask one person" shot; the castle is drawn differently in clips 1 and 2. The reviewer also
+  read the ring in clip 4b as too high: that is the frame Elaine called "what floaty sol should look like", so it stays.
+
+STATUS (2026-11-27, later)
+Current cut: renders/group-project-v7.mp4 (52.4 s, 24 fps, 1080 x 1080), -v7-nomusic, -v7-web. v1 to v6 are kept.
+  Not approved by Elaine.
+In completed/: "Doing The Whole Group Project? Do These 5 Things.mp4" is now v7 (v5 is still in renders/).
+Checks on v7: build checks PASS (no sound across a cut, least room 0.28 s, length, ending, no black); pauses between
+  lines 0.94 to 4.32 s (least allowed 0.75); every take passes audio/check_takes.py; the no-music cut reads back as the
+  script word for word ("doc" as "dock"). Every frame of v6 was reviewed independently; on v7 the changed spots were
+  looked at (clip 2 joins and close-up, the two captions, the end of clip 7, the end card), not every frame again.
+Tracker sheet: unchanged (row 4 of Advertisements, "In Progress"). Not uploaded anywhere.
+STILL OPEN FOR ELAINE: the course name / last line, and whether "1:1" meant square (see above).
+Credits: about 190 more on paint for v6 and v7 (13 jobs) plus seven narrator takes.
+

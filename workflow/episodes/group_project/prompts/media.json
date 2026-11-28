@@ -27,7 +27,8 @@
 "5 v3": "9d1561d8-5df4-4d7c-a4c5-f8430e531127",
 "6 v5": "8ccfa5a8-34aa-4d8d-bd82-f6f211590110",
 "7 v7": "809446b6-c0bd-4534-ac44-55072245ce1e",
-"8 v4": "ef458e92-28d4-4b72-baa1-a71ecce9fdc0"
+"8 v4": "ef458e92-28d4-4b72-baa1-a71ecce9fdc0",
+"6 v6": "064ffccc-c289-4a8f-bb7c-f1fd74b68cf1"
 },
 "paint_jobs": {
 "1 v1": "5b120391-50d4-4d3b-94d0-e22b669f2459",
@@ -52,7 +53,13 @@
 "5 v2": "4751c3d1-dca8-4e49-9a40-fb9571d912c3",
 "6 v4": "54a72382-68a0-45b3-9c58-f3b221ae9c0b",
 "7 v6": "08c375fa-d88b-469c-91ff-71ad75106a3d",
-"8 v2": "d888d8d7-5467-4bed-989a-fedf4b5fee28"
+"8 v2": "d888d8d7-5467-4bed-989a-fedf4b5fee28",
+"5 v3": "82817ffb-e19f-43a6-8187-4622433d556d",
+"5 v4 (used)": "7f71ae15-d3cd-4edb-b08b-d376f5700ae1",
+"6 v5 (used)": "5be671ff-1b1b-485d-841e-d17c7c9b8786",
+"6 v6": "58347f77-a06b-4d34-9811-773bd2c24c01",
+"7 v7 (rejected)": "3a3e8510-184c-429c-ad88-419d03c8e0a3",
+"7 v8 (rejected)": "a91b0de9-d7a7-4a68-ad23-6b378a68c923"
 },
 "narrator_jobs": {
 "01a": "6c839dc7-82d3-430e-8b93-ef7f477c2929",
@@ -76,5 +83,5 @@
 "note": "2026-11-27. About 97 s of paint in all at 720p (about 218 credits) plus the ten narrator takes. The balance cannot be used to check: the plan changed during the session (1028.8 on 'plus' at the start, 3831.4 on 'ultra' later).",
 "style_frame_clip04b_ring (the approved low ring)": "60e4aa4f-4605-4a2c-a2a2-e39471686b48",
 "prompts_json_v5": "556bd089-7a9e-416f-a1f9-0630fd5f825c",
-"note_v6": "2026-11-27, cut v6 after Elaine's notes: seven clips repainted (about 46.6 s at 720p, about 105 credits) and seven narrator takes."
+"note_v6": "2026-11-27, cuts v6 and v7 after Elaine's notes on v5: 13 paint jobs (about 85 s at 720p, about 190 credits) and seven narrator takes. Used: 1 v2, 2 v2 + v3 spliced, 3 v1, 4 v3, 4b v2, 5 v4, 6 v5, 7 v6 (mouth painted out), 8 v2."
 }

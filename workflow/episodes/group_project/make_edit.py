@@ -24,7 +24,7 @@ FONT = ImageFont.truetype(str(WF / "assets" / "fonts" / "RammettoOne-Regular.ttf
 MAXW, MAXC = 980, 22
 NOMUSIC = "--no-music" in sys.argv
 WEB = "--web" in sys.argv
-VERSION = "v6"
+VERSION = "v7"      # v6 was built and reviewed, not shown; v7 is v6 with the review's faults fixed
 # Elaine on cut v5 (2026-11-27): "after every time arthur says smth there needs to be a pause ... be really aware of like
 # the pauses make sure that the video flows nicely". In v5 "…challenge going?" and "Wait, are you…" were 0.19 s apart.
 # Every line now has at least MIN_PAUSE of quiet before the next one starts, and the build stops if one does not.
@@ -32,21 +32,24 @@ MIN_PAUSE = 0.75
 
 # clip file (in clips/), seconds used (whole frames at 24 fps). Cut v6: clips 1, 2, 4, 5, 6, 7 and 8 are re-shot and
 # repainted (see script.txt); clips 1, 2, 7 and 8 are longer so that the lines have room for their pauses.
-CLIPS = [["01-comp.mp4", 8.5], ["02-comp.mp4", 6.7917], ["03-comp.mp4", 4.0], ["04-comp.mp4", 3.2083], ["04b-comp.mp4", 2.9167],
-         ["05-comp.mp4", 5.0], ["06-comp.mp4", 4.4583], ["07-comp.mp4", 6.7917], ["08-comp-web.mp4" if WEB else "08-comp.mp4", 11.0]]
+CLIPS = [["01-comp.mp4", 8.5], ["02-comp.mp4", 6.5], ["03-comp.mp4", 4.0], ["04-comp.mp4", 3.2083], ["04b-comp.mp4", 2.9167],
+         ["05-comp.mp4", 5.0], ["06-comp.mp4", 4.5], ["07-comp.mp4", 6.7917], ["08-comp-web.mp4" if WEB else "08-comp.mp4", 11.0]]
 # take, clip index, start in that clip, the script's words for it (the caption text)
 TAKES = [
     ("01a.wav", 0, 0.50, "Sol, how's the sandcastle challenge going?"),                # over Sol rushing about; then a second of just him
     ("01b.wav", 0, 4.60, "Wait, are you building the whole thing by yourself?"),       # as he stops and sags (4.75)
     ("02a.wav", 1, 1.40, "And that's your team?"),
-    ("02b.wav", 1, 3.45, "Okay, here are five things that'll fix this."),
+    ("02b.wav", 1, 3.20, "Okay, here are five things that'll fix this."),
     ("03.wav", 2, 0.50, "First, split the project into small pieces."),
     ("04.wav", 3, 0.45, "Second, put one name on each piece."),                        # the whole take: v5 used a take that began mid-word
     ("05.wav", 5, 0.70, "Third, set a deadline before the real deadline."),
-    ("06.wav", 6, 0.60, "Fourth, keep everything in one doc the whole team can see."),
+    ("06.wav", 6, 1.08, "Fourth, keep everything in one doc the whole team can see."),          # after Sol has risen past the caption band
     ("07.wav", 7, 0.50, "And fifth, ask one specific person, instead of saying, can someone."),
     ("08.wav", 8, 0.90, "Ignite's free Social Impact and Project Development course teaches you how to take an idea and actually make it happen."),
 ]
+# A first caption that waits (seconds into its take) although the voice has begun: in clip 8 "Ignite's free Social" would
+# lie across the ribbon as it lands and across Sol's face as the camera cranes back past him (review of cut v6).
+CAPTION_FROM = {"08.wav": 0.55}
 # what Whisper may write for a script word (same sound)
 SAME = {("thatll", "thatwill"), ("doc", "dock"), ("sol", "saul"), ("sol", "soul")}
 S, B, T = "squeaks-tiny.mp3", "boing.mp3", "twinkle.mp3"
@@ -134,6 +137,7 @@ for take, clip, start, line in TAKES:
             phrases[i][1] = phrases[i + 1][0]
     nxt = min([s_ for t_, c_, s_, _ in TAKES if c_ == clip and s_ > start] + [CLIPS[clip][1]])      # the next take in this clip, or the cut
     phrases[-1][1] = round(min(phrases[-1][1] + 0.3, nxt - start - 0.05), 2)
+    phrases[0][0] = max(phrases[0][0], CAPTION_FROM.get(take, 0.0))
     assert " ".join(p[2] for p in phrases) == line
     voice.append({"take": take, "clip": clip, "start": start, "phrases": phrases})
 
