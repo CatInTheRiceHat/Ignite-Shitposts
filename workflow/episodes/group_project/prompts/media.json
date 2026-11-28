@@ -31,7 +31,18 @@
 "6 v6": "064ffccc-c289-4a8f-bb7c-f1fd74b68cf1",
 "2 v5": "92ed62f6-a17b-4fa6-8d6b-7fe6dabfeb4d",
 "7 v8": "9b3e89c0-f22c-4f27-aa28-ad0a70c9437a",
-"8 v5": "85a2989b-10fc-473a-ac92-b5c5f691e907"
+"8 v5": "85a2989b-10fc-473a-ac92-b5c5f691e907",
+"4 v4 (words on the signs)": "0dd0eac4-af37-4571-a533-14adbd5a822b",
+"8 v6 (smirk ending)": "713df03e-5938-4cdc-b526-6315e6fb9183",
+"2 v6 (hands on hips)": "3ef7a1fe-64be-4681-a378-53cae4606890",
+"8 v7 (slow pull-back, hands-on-hips smirk)": "dbda6e21-bdc0-452c-9466-e3c03fa2ff3c",
+"2 v7 (level pointing nub, hands on hips)": "46c482c6-ac98-46b4-a2a0-d852e7961714",
+"2 v8 (small hugging arms)": "5054ea56-5413-486f-b667-3faccf282606",
+"4b v3 (words on the signs)": "666e5221-1b90-456d-9a7c-6241e06ff8f1",
+"5 v4 (words on the boards)": "6cb36729-14bd-4b65-ae03-f593fa9035e9",
+"8 v8 (small hugging arms)": "75df051a-5538-4e95-abdc-81e2ab9e0a36",
+"8 v9 (smirk with the approved tucked nubs)": "51bd0a30-c31c-4fd1-8d26-ddbaa48f12c9",
+"8 v10 (nubs straight down on the smirk)": "86ae2af7-9468-4aa7-a375-8e7406853f8f"
 },
 "paint_jobs": {
 "1 v1": "5b120391-50d4-4d3b-94d0-e22b669f2459",
@@ -68,7 +79,30 @@
 "7 v9": "61786390-9bdc-4738-9e27-1e0ad5920a59",
 "7 v10": "648f8177-68d0-4753-99a3-157b5bb9718c",
 "8 v3": "5851612c-88b0-4518-8921-e1585fafe70e",
-"8 v4": "ccdbb5b5-e225-4198-8f1e-7b0e9b3e07c5"
+"8 v4": "ccdbb5b5-e225-4198-8f1e-7b0e9b3e07c5",
+"4 v4 (used)": "4826875b-aef9-49b7-8968-3455cad86803",
+"4 v5 (rejected: cream Sleepy Sol)": "59f79d42-3a56-4ff7-a585-64e14172a31b",
+"8 v5 (used, eyes repaired)": "0e68f7e3-9eda-4a47-9b55-7a24c97def69",
+"8 v6": "0eb3e502-8881-41e5-8cc0-6f8a2eebfb38",
+"2 v6": "8396a85a-19b5-4509-acc9-bbda6fc44366",
+"2 v7": "ed2bf5c2-7984-41cd-ac91-07614f8847b6",
+"8 v7": "d7dc5516-1eb2-4efd-81bf-20c92c4da693",
+"8 v8": "3ec8d3b7-9dc8-4615-b33d-854000a7d6e2",
+"2 v8": "191ab65f-d881-4849-9266-2d40333dd79d",
+"2 v9": "9611e4ce-c64b-4747-9f4e-84c33730086e",
+"2 v10": "dadd85dd-9d19-4fa9-a88d-1b98d3a64a45",
+"2 v11": "0e46561c-e65f-4bcc-8897-86431d8681bd",
+"4b v3": "ce088190-2f34-4c7b-b1d3-35d12e29084e",
+"4b v4": "2a34b992-d3ff-49d5-8104-56f4edbf1375",
+"5 v5": "d99c426f-fa4c-4ebb-b260-bd8032de400a",
+"5 v6": "aab99517-4e10-4672-8829-9fb28f1ae967",
+"8 v9": "5b8548ff-efc2-4fe3-b9f4-f4753f4e340d",
+"8 v10": "a899c092-e992-470b-90e1-4445ed176747",
+"8 v11": "48a7ddb3-ad11-4527-8386-39f945fecb4d",
+"8 v12": "b00dd086-31d8-48da-8440-b6ae39d94f42",
+"8 v13": "9e19c483-047f-4373-9072-9e676a495d8f",
+"8 v14": "be2d81b7-0c89-4721-9053-c5a3506b0383",
+"8 v15": "ff12fcec-7847-4277-963d-bcca13bd2d23"
 },
 "narrator_jobs": {
 "01a": "6c839dc7-82d3-430e-8b93-ef7f477c2929",
@@ -107,5 +141,12 @@
 "06": "cc23bda3-524b-46c2-b76c-af152c99d5d9",
 "07": "4eed9aae-87cc-4b55-87bf-a0c23c84e344",
 "08": "67416aef-01e0-4e15-b4ac-5a18c371c813"
-}
+},
+"prompts_json_v8": "cbe27749-a2c6-424d-b8f5-820eef1a3f23",
+"prompts_json_v9": "f8a0759b-e0fe-40d9-9bb3-b21214c01994",
+"prompts_json_v10": "c666e1ff-fb93-410c-a598-1a74ad84e623",
+"prompts_json_v11": "d00a11aa-c4e2-4b16-ad76-5db99faf5313",
+"prompts_json_v12": "8fc4b70a-be4c-44cf-a534-a22b841dd06f",
+"pose_hands_on_hips_approved (image reference)": "8e1e3dfe-9e43-408d-b924-1575d84901b2",
+"prompts_json_v13": "a9fb9cd6-3037-487d-bbc6-e78f6ba2da24"
 }

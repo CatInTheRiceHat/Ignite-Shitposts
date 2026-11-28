@@ -463,6 +463,64 @@ def clip1():
     return animate(n, state)
 
 
+def akimbo(sol):
+    """HANDS ON HIPS arms for a Sol: each arm is ONE plain bend, a < on screen left and a > on screen right: out from
+    the shoulder to an elbow, then back in to rest on his side. Elaine, 2026-11-27: "can we not have the las segment of
+    the hands be like pointed out so just an angle like this <>". His ordinary nubs are straight and cannot bend, and
+    the painter, left to invent the pose, drew a bend and then flared the tip outward again. So the bend is built here.
+    Returns the two bent arms; akimbo_at() swaps them in for the straight nubs."""
+    import mathutils
+    out = []
+    body = sol["body"]
+    for vl in S["sc"].view_layers:                      # the model has only just been linked: let Blender place it first
+        vl.update()
+    for key in ("arm_l", "arm_r"):
+        piv = sol[key]
+        mesh = [c for c in piv.children_recursive if c.type == 'MESH'][0]
+        sh = body.matrix_world.inverted() @ piv.matrix_world.translation
+        sx = -1.0 if sh.x < 0 else 1.0
+        r = empty("RIG_akimbo_" + key, tuple(sh), parent=body)
+        # SMALL, like his own nubs, hugging his side: a stubby upper piece out to a little elbow and a stubby lower piece
+        # back in to his body. Elaine on cut v11, of a bigger version that read as long bent arms: "wtf are these arms i
+        # meant like the ones before but u remove the tips at the end ... so it doesnt have that stick out portion".
+        pts = [mathutils.Vector((0, 0, 0.02)), mathutils.Vector((sx * 0.082, -0.02, -0.05)), mathutils.Vector((sx * 0.012, -0.03, -0.125))]
+        rad = [0.056, 0.053, 0.048]
+        for j in range(2):
+            p0, p1 = pts[j], pts[j + 1]
+            L = (p1 - p0).length
+            bm = bmesh.new()
+            bmesh.ops.create_cone(bm, cap_ends=False, segments=24, radius1=rad[j], radius2=rad[j + 1], depth=L)
+            bmesh.ops.translate(bm, verts=bm.verts, vec=(0, 0, L / 2))
+            for z, rr in ((0.0, rad[j]), (L, rad[j + 1])):
+                ball = bmesh.ops.create_icosphere(bm, subdivisions=3, radius=rr)
+                bmesh.ops.translate(bm, verts=ball["verts"], vec=(0, 0, z))
+            me = bpy.data.meshes.new(f"FX_akimbo_{key}_{j}")
+            bm.to_mesh(me)
+            bm.free()
+            for poly in me.polygons:
+                poly.use_smooth = True
+            for m in mesh.data.materials:
+                me.materials.append(m)
+            o = bpy.data.objects.new(f"SOL_akimbo_{key}_{j}", me)
+            o.location = p0
+            o.rotation_euler = (p1 - p0).to_track_quat('Z', 'Y').to_euler()
+            link(o, r)
+        r.scale = (0, 0, 0)
+        track(r, "scale")
+        track(piv, "scale")
+        out.append(r)
+    sol["akimbo"] = out
+    return out
+
+
+def akimbo_at(sol, k):
+    """k = 0: his ordinary nubs. k = 1: hands on hips. In between the nubs shrink away as the bent arms grow."""
+    k = min(1.0, max(0.0, k))
+    for r, key in zip(sol["akimbo"], ("arm_l", "arm_r")):
+        r.scale = (k, k, k)
+        sol[key].scale = (1 - k, 1 - k, 1 - k)
+
+
 # ================================================================ clip 2: "and that's your team?"
 def clip2():
     """Narrator: "And that's your team?" [1.4-2.5] "Okay, here are five things that'll fix this." [3.45-6.45].
@@ -475,6 +533,7 @@ def clip2():
     stage("gp_2", n, castle="start", bucket="down", board="castle")
     M = (0.2, -0.1)
     sol = build_sol2((M[0], M[1], 0), 18)
+    akimbo(sol)
     ring = mate("ring", LOUNGE["ring"], 12)
     hat = mate("hat", LOUNGE["hat"], 172)
     sleepy = mate("sleepy", LOUNGE["sleepy"], -14)
@@ -495,10 +554,13 @@ def clip2():
         dead = smooth(t, 2.0, 2.3) * (1 - smooth(t, 4.3, 4.5))
         det = smooth(t, 4.35, 4.6)
         plant = bump(t, 4.35, 4.75)                      # the little bounce as he plants his nubs
+        akimbo_at(sol, 0.0)       # the built < > arms are not used: Elaine asked for the first hands-on-hips look back (v12)
         act(sol, t, f, TL, blinks=(5.6,), look=(0.85 * (1 - front), 0.75 * det), loc=(M[0], M[1], 0),
             yaw=18 * (1 - front), lean=9 * point, pitch=10 * det,
             squash=idle(t) * (1 - dead) - 0.08 * det + 0.05 * plant,
-            arm_l=(-40 + 34 * plant - 24 * det, 26 * det), arm_r=(-40 + 105 * point + 34 * plant - 24 * det, 26 * det))
+            # the pointing nub is LEVEL: straight out to the side at his team (Elaine on cut v10, of a nub raised 65 degrees:
+            # "hand points up like this but it should look like this", the second picture being a nub sticking straight out)
+            arm_l=(-40 + 34 * plant - 24 * det, 26 * det), arm_r=(-40 + 46 * point + 34 * plant - 24 * det, 26 * det))
         bob = math.sin(TAU * 0.9 * t)
         act(ring, t, f, [(0.0, "content")], loc=LOUNGE["ring"], yaw=12, lean=7 * bob, squash=0.035 * math.sin(TAU * 1.8 * t),
             arm_l=(-40 + 12 * bob, 0), arm_r=(-40 - 12 * bob, 0))
@@ -605,14 +667,18 @@ def clip4b():
     sol = build_sol2((SP_[0], SP_[1], 0), 0)
     ring = mate("ring", (RP[0], RP[1], 0), 10)
     s_ring = sign("towers", "sign_towers.png", 2.92, 0.5, "cardA")
-    s_me = sign("flag", "sign_flag.png", 1.5, 0.35, "cardD")
+    # Version 3 (2026-11-27): the words are ON the two signs in the skeleton (SHOWOVL=sign_towers,sign_flag) and painted
+    # with them (Elaine: "the judging text glitches and also the Me task text"). The Flag card stands nearer our Sol and
+    # the camera sits a little to the left, so the whole card is inside the square; and our Sol's smug face has no star
+    # here, because the star sat on the T of "Towers".
+    s_me = sign("flag", "sign_flag.png", 1.62, 0.35, "cardD")
     cam = build_cam(24)
 
     def state(t, f):
         k = smooth(t, 0.0, 3.0)
-        cam(lerp3((2.6, -3.1, 0.9), (2.6, -2.85, 0.9), k), (2.6, 0.8, 0.5))
+        cam(lerp3((2.5, -3.1, 0.9), (2.5, -2.85, 0.9), k), (2.5, 0.8, 0.5))
         drop(s_ring, t, 0.35, 2.92, 0.5)
-        drop(s_me, t, 1.4, 1.5, 0.35)
+        drop(s_me, t, 1.4, 1.62, 0.35)
         jolt = smooth(t, 0.37, 0.45)
         take = jolt * (-32 + 52 * smooth(t, 0.66, 0.78) - 56 * smooth(t, 0.92, 1.04))        # at the sign, away, back at it
         bob = math.sin(TAU * 0.9 * t) * (1 - jolt)
@@ -623,7 +689,7 @@ def clip4b():
             arm_l=(-40 + 12 * bob + 60 * jolt * (1 - smooth(t, 1.05, 1.4)), 0), arm_r=(-40 - 12 * bob + 60 * jolt * (1 - smooth(t, 1.05, 1.4)), 0))
         see = smooth(t, 1.38, 1.55)
         smug = smooth(t, 1.68, 1.9)
-        act(sol, t, f, [(0.0, "normal"), (1.72, "smug")], blinks=(0.9,), look=(0.5 * (1 - see) * smooth(t, 0.4, 0.6) - 0.9 * see * (1 - smug), 0.1),
+        act(sol, t, f, [(0.0, "normal"), (1.72, "smug")], marks=(), blinks=(0.9,), look=(0.5 * (1 - see) * smooth(t, 0.4, 0.6) - 0.9 * see * (1 - smug), 0.1),
             loc=(SP_[0], SP_[1], 0), yaw=-22 * see * (1 - 0.6 * smug), pitch=9 * smug, lean=-3 * smug,
             squash=idle(t) - 0.07 * smug, arm_l=(-40 + 22 * smug, 0), arm_r=(-40 + 22 * smug, 0))
     return animate(n, state)
@@ -818,10 +884,11 @@ def clip8():
     Sol hops as the ribbon lands, SPARKLE eyes on the castle. At 1.3 he turns to the camera, looks UP and listens,
     with a small idle, to the end of the line (a glance at the card, 1.9-2.7). He nods (9.3-9.8). Then (9.9) he SMIRKS:
     the smug face with one star, standing tall. The other three cheer, nubs up, with flowers round them. Hold."""
-    n = 330
+    n = 348
     st = stage("gp_8", n, castle="done", bucket="up", board=None, lounge=False)
     SP_, RP, HP, ZP = (-0.6, -0.1), (-1.5, 0.55), (2.4, 0.25), (1.62, 1.85)
     sol = build_sol2((SP_[0], SP_[1], 0), 34)
+    akimbo(sol)
     ring, hat, sleepy = mate("ring", (RP[0], RP[1], 0), 30), mate("hat", (HP[0], HP[1], 0), -30), mate("sleepy", (ZP[0], ZP[1], 0), -14)
     rb = empty("RIG_ribbon", (0, 0, 5))
     cone("PRP_ribbon", "blue", (0, 0, 0), 0.19, 0.19, 0.03, parent=rb, rot=(D(90), 0, 0))
@@ -837,33 +904,43 @@ def clip8():
     # Elaine on cut v9, of flowers and sparkles round both: "i meant just the floaty has the flowers and i think the sol in
     # front does the smirk animation". So on the last beat Ring Sol (and the two behind the end card) cheer with flowers,
     # and OUR Sol smirks: the smug face (half-moon eyes, one twinkling star), standing tall, nubs only a little raised.
-    TL = [(0.0, "sparkle"), (1.3, "normal"), (9.9, "smug")]
+    # Elaine on cut v10: "theres a weird cut with the medal ... it zooms out and then it snaps": the pull-back took 1.35 s and
+    # the painter fell behind it and dissolved to the wide view. It now takes 2 s (0.7 to 2.7), so everything after it is
+    # 0.6 s later and the clip is 11.6 s. And of our Sol's raised nubs on the smirk: "can we do another hands on hips
+    # smirk confident looking": he ends with the < > arms on his sides.
+    TL = [(0.0, "sparkle"), (2.1, "normal"), (10.5, "smug")]
 
     def state(t, f):
-        k = smooth(t, 0.55, 1.9)
+        k = smooth(t, 0.7, 2.7)
         # the wide view is far enough back that Ring Sol and our Sol stand side by side, whole, left of the end card
         cam(lerp3((0.5, -1.35, 1.58), (0.39, -5.7, 1.0), k), lerp3((0.5, 1.45, 1.28), (0.39, 0.5, 0.66), k))
         kd = smooth(t, 0.2, 0.45)
         rb.location = (RX, RY, RZ + 2.2 * (1 - kd) ** 1.6 if t < 0.45 else RZ)
         rb.rotation_euler = (0, D(9 * wobble(t, 0.45, freq=15, decay=6)), 0)
-        front = smooth(t, 1.15, 1.5)
-        card = bump(t, 1.9, 2.7)
-        nod = bump(t, 9.3, 9.8)
-        yay = smooth(t, 9.88, 10.0)
-        bounce = bump(t, 9.9, 10.25) - 0.6 * bump(t, 10.2, 10.5)
+        front = smooth(t, 2.0, 2.4)
+        card = bump(t, 2.9, 3.6)
+        nod = bump(t, 9.9, 10.4)
+        yay = smooth(t, 10.48, 10.6)
+        bounce = bump(t, 10.5, 10.85) - 0.6 * bump(t, 10.8, 11.1)
+        # Elaine on cut v12: "can we bring back the old hands on hips thing like the first one u did before". The first one was
+        # his own straight nubs tucked down against his sides (clip 2, skeleton v5), which the painter drew as hands on hips.
+        # The built akimbo() arms are not used; the same tucked nubs are used here on the smirk.
+        akimbo_at(sol, 0.0)
         # Elaine on cut v7, of the last frames: "noooooooouuu wheres the flowers and the sparkles". The cheer has flowers AND
         # sparkles floating round every Sol, our Sol included.
-        act(sol, t, f, TL, blinks=(3.4, 5.9, 7.7), look=(0.9 * (1 - front) + 0.8 * card, lerp(0.4, 0.85, front) - 0.5 * card - 0.5 * nod),
+        act(sol, t, f, TL, blinks=(4.0, 6.5, 8.6), look=(0.9 * (1 - front) + 0.8 * card, lerp(0.4, 0.85, front) - 0.5 * card - 0.5 * nod),
             loc=(SP_[0], SP_[1], hop(t, 0.46, 0.8, 0.2)), yaw=34 * (1 - front) + 14 * card, lean=1.5 * math.sin(t * 2.0) * (1 - nod),
             pitch=lerp(4, 10, front) - 22 * nod + 5 * yay,
             squash=idle(t) + 0.05 * wobble(t, 0.8, decay=5) + 0.06 * nod + 0.05 * bounce - 0.07 * yay,
-            arm_l=(-40 + 60 * bump(t, 0.4, 1.0) + 22 * yay, 0), arm_r=(-40 + 60 * bump(t, 0.4, 1.0) + 22 * yay, 0))
+            # In this wide view he is small: nubs swung forward (26) vanish against his body and the painter then invents a raised
+            # nub. So here they hang straight DOWN along his sides (-72, a little forward), where both show in his outline.
+            arm_l=(-40 + 60 * bump(t, 0.4, 1.0) - 32 * yay, 7 * yay), arm_r=(-40 + 60 * bump(t, 0.4, 1.0) - 32 * yay, 7 * yay))
         for i, (who, pos, base) in enumerate(((ring, RP, 30), (hat, HP, -30), (sleepy, ZP, -14))):
             ph = 0.07 * (i + 1)
-            b2 = bump(t, 9.9 + ph, 10.25 + ph) - 0.6 * bump(t, 10.2 + ph, 10.5 + ph)
-            y2 = smooth(t, 9.88 + ph, 10.0 + ph)
-            f2 = smooth(t, 1.3 + ph, 1.7 + ph)
-            act(who, t, f, [(0.0, "happy"), (1.5 + ph, "normal"), (9.9 + ph, "joy")], blinks=(4.1 + i, 6.6 + 0.4 * i),
+            b2 = bump(t, 10.5 + ph, 10.85 + ph) - 0.6 * bump(t, 10.8 + ph, 11.1 + ph)
+            y2 = smooth(t, 10.48 + ph, 10.6 + ph)
+            f2 = smooth(t, 2.1 + ph, 2.5 + ph)
+            act(who, t, f, [(0.0, "happy"), (2.3 + ph, "normal"), (10.5 + ph, "joy")], blinks=(4.7 + i, 7.2 + 0.4 * i),
                 look=(0.0, 0.8 * f2), loc=(pos[0], pos[1], hop(t, 0.5 + ph, 0.82 + ph, 0.16)), yaw=base * (1 - 0.6 * f2),
                 pitch=9 * f2 + 4 * y2, squash=idle(t + i) + 0.05 * wobble(t, 0.82 + ph, decay=5) + 0.09 * b2,
                 arm_l=(-40 + 55 * bump(t, 0.45, 1.1) + 85 * y2, 0), arm_r=(-40 + 55 * bump(t, 0.45, 1.1) + 85 * y2, 0))

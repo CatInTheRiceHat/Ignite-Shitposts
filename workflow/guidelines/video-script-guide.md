@@ -7,11 +7,19 @@
 >   guidelines; the draft is checked against them and sent back with specific notes until it passes.
 > - **Be more scientific.** Name the real process in real words (scatter, reflect, refract, absorb), each explained
 >   in passing, and say why the result follows. A real term replaces a vague phrase such as "bounces" or "traps".
-> - **End on a definite conclusion.** The last line states the answer to the title question outright, as a fact.
->   No recap, no question, no slogan, no "Got it?".
+> - **End on a definite conclusion, then a closure scene.** One line states the answer to the title question
+>   outright, as a fact (no recap, no question, no slogan, no "Got it?"). Then one more short scene brings it back to
+>   real life with a "next time you..." line and a last gag on Sol.
+> - **No AI slop.** One natural spoken sentence per thought, joined with "because" and "so"; no pairs of short flat
+>   sentences set against each other, no clipped clauses, no term stuck on after a colon. Read each line aloud.
+> - **The Narrator is a funny old man.** His big reactions are PG, old-fashioned exclamations in caps ("OH MY
+>   GOODNESS!", "HOLY CHEESE AND CRACKERS!"), never youth slang.
+> - **Funny, not corny.** The picture is the joke and the Narrator plays it straight: no quip that describes what is
+>   on screen, one big outburst per film, a beat of silence after something happens to Sol, and the last gag is set
+>   up by the line and paid off by the picture, never explained.
 > - **Make it funny.** The Narrator teases or quips about what Sol does and Sol gets comic beats; a joke never
 >   replaces a step of the explanation. (This overrides "avoid forced jokes" below: jokes are wanted.)
-> - **Write the delivery into the Narrator's words.** He is a loud, funny friend to Sol. ALL CAPS = a shouted or
+> - **Write the delivery into the Narrator's words.** He is Sol's fond, funny old friend. ALL CAPS = a shouted or
 >   punched word, a stretched word (NOOOOOOOO) = drawn out; one or two per line where the moment is big. The voice
 >   model performs them, so the text goes to it exactly as written.
 > - **The opening can be a friendly remark to Sol** before the thing that needs explaining happens to him.

@@ -47,7 +47,7 @@ PLAN = {
     "7": {"no_seq": True, "crop_pan": [3.4, 4.3, -52]},
     # 8: "1st" is placed on the painted rosette itself, found in each frame by its blue and centred on its cream middle,
     #    from the moment it has landed until the end card covers it.
-    "8": {"no_seq": True, "badge": {"art": "first.png", "t0": 0.75, "t1": 2.3}, "card": {"art": "end_card.png", "t0": 1.6, "d": 0.5}},
+    "8": {"no_seq": True, "badge": {"art": "first.png", "t0": 0.75, "t1": 2.3}, "card": {"art": "end_card.png", "t0": 2.3, "d": 0.5}}       # in as the slow pull-back ends (2.7 s),
 }
 
 

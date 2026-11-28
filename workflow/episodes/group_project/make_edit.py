@@ -24,7 +24,7 @@ FONT = ImageFont.truetype(str(WF / "assets" / "fonts" / "RammettoOne-Regular.ttf
 MAXW, MAXC = 980, 22
 NOMUSIC = "--no-music" in sys.argv
 WEB = "--web" in sys.argv
-VERSION = "v10"     # Elaine on v9: sign words painted from the skeleton (clip 4, re-shot longer), Ring Sol flowers + our Sol smirks (clip 8)
+VERSION = "v14"     # Elaine on v13: the approved hands-on-hips look on the smirk at the end too (clip 8 repainted)
 # Elaine on cut v5 (2026-11-27): "after every time arthur says smth there needs to be a pause ... be really aware of like
 # the pauses make sure that the video flows nicely". In v5 "…challenge going?" and "Wait, are you…" were 0.19 s apart.
 # Every line now has at least MIN_PAUSE of quiet before the next one starts, and the build stops if one does not.
@@ -38,7 +38,7 @@ MIN_PAUSE = 0.75
 # frames play back and forth instead (extend_tail.py), so the idle sway goes on. clips/04-comp-nohold.mp4 and
 # 06-comp-nohold.mp4 are the clips before they are lengthened.
 CLIPS = [["01-comp.mp4", 8.5], ["02-comp.mp4", 6.7917], ["03-comp.mp4", 4.0], ["04-comp.mp4", 3.7917], ["04b-comp.mp4", 2.9167],
-         ["05-comp.mp4", 5.0], ["06-comp.mp4", 5.2917], ["07-comp.mp4", 6.7917], ["08-comp-web.mp4" if WEB else "08-comp.mp4", 11.0]]
+         ["05-comp.mp4", 5.0], ["06-comp.mp4", 5.2917], ["07-comp.mp4", 6.7917], ["08-comp-web.mp4" if WEB else "08-comp.mp4", 11.5833]]
 # take, clip index, start in that clip, the script's words for it (the caption text)
 TAKES = [
     ("01a.wav", 0, 0.50, "Sol, how's the sandcastle challenge going?"),                # over Sol rushing about; then a second of just him
@@ -50,11 +50,11 @@ TAKES = [
     ("05.wav", 5, 0.70, "Third, set a deadline before the real deadline."),
     ("06.wav", 6, 0.40, "Fourth, keep everything in one doc the whole team can see."),  # "Fourth," is off again before Sol rises past the caption band (0.96)
     ("07.wav", 7, 0.50, "And fifth, ask one specific person, instead of saying, can someone."),
-    ("08.wav", 8, 1.40, "Ignite's free Social Impact and Project Development course teaches you how to take an idea and actually make it happen."),
+    ("08.wav", 8, 1.70, "Ignite's free Social Impact and Project Development course teaches you how to take an idea and actually make it happen."),
 ]
 # A first caption that waits (seconds into its take) although the voice has begun: in clip 8 "Ignite's free Social" would
 # lie across the ribbon as it lands and across Sol's face as the camera cranes back past him (review of cut v6).
-CAPTION_FROM = {"08.wav": 0.40}        # with the line at 1.4 s its first caption appears at 1.8 s, when the crane has passed Sol's face
+CAPTION_FROM = {"08.wav": 0.55}        # the line starts at 1.7 s; its first caption appears at 2.25 s, when the slow pull-back has passed Sol's face
 # what Whisper may write for a script word (same sound)
 SAME = {("thatll", "thatwill"), ("doc", "dock"), ("sol", "saul"), ("sol", "soul"), ("ignites", "ignites")}
 S, B, T = "squeaks-tiny.mp3", "boing.mp3", "twinkle.mp3"
@@ -87,7 +87,7 @@ SFX = [
     sq(0, 6, 1.3), sq(1, 6, 1.8), sq(2, 6, 2.3), emo("exclamation", 0.81, 6, 3.1),                                   # 6: three arrive, the jolt awake
     boing(7, 1.35, 0.2), emo("exclamation", 0.81, 7, 2.2), sq(2, 7, 3.0), sq(0, 7, 3.55, 0.22), sq(1, 7, 3.95, 0.22),  # 7: the hop, "me?", the nod, off he hops
     emo("laughter", 0.9, 7, 4.9, 0.22),                                                                              #    the whistlers
-    twinkle(8, 0.45, 0.2), sq(2, 8, 9.3), emo("pleased", 0.72, 8, 9.9),                                              # 8: the ribbon, the nod, the cheer
+    twinkle(8, 0.45, 0.2), sq(2, 8, 9.9), emo("pleased", 0.72, 8, 10.5),                                              # 8: the ribbon, the nod, the cheer
 ]
 
 

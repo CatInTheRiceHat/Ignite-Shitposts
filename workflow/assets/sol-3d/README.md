@@ -33,3 +33,10 @@ lets save that"). The approved copy is frozen in `approved-2026-11-25/`; do not 
 Rebuild: `python3 prepare_sol.py`, then run `build_sol_model.py` in Blender (once as is for Sol, once with
 `LIMBS = False` for the logo), then `python3 compare.py`. The guideline that tells people to use him is
 `../../guidelines/sol-3d-model.md`.
+
+## poses/
+
+Painted reference frames of poses Elaine has approved for Sol. `hands-on-hips-approved-2026-11-28.png`: his nubs tucked
+against his sides ("yyayyyyy looks good! lets keep that for the sol model"). How to pose and prompt it:
+`guidelines/sol-3d-model.md`, "Poses Elaine has approved".
+

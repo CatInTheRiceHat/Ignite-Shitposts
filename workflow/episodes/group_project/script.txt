@@ -556,3 +556,99 @@ CUT v9 (2026-11-27): Elaine on v8: "somehow its just frozen". The file was check
   Build checks PASS. If she meant something else by frozen (the player, or the quiet listening stretch beside the end
   card), that is still open.
 
+CUT v10 (2026-11-27): ELAINE'S NOTES ON v9
+  clip 4  "the letters are still fucked up" (the Moat card's words hung off the card while the camera slid). The words
+          are now ON the two cards in the skeleton (SHOWOVL=sign_moat,sign_walls) and painted with them; the shot is 3.8 s
+          so the Eleven v4 "Second, ..." fits with no lengthening. 04-skeleton-v4 -> 04-paint-v4 (used; composite.py
+          --painted-text) and 04-paint-v5 (rejected: Sleepy Sol came back cream-coloured). The painted words are clean
+          apart from one or two frames while the first card is falling.
+  clip 8  "i meant just the floaty has the flowers and i think the sol in front does the smirk animation". Ring Sol
+          cheers with flowers; our Sol is SMUG (half-moon eyes, one star). 08-skeleton-v6 -> 08-paint-v5 (used) and -v6.
+          Both paints thinned the half-moons into happy arcs after a quarter of a second; fix_dome_eyes.py fills them
+          back for the last second -> 08-paint-v5-smirk.mp4. The last line starts at 1.4 s (its first caption at 1.8 s),
+          after the crane has passed Sol's face.
+  Her note for FUTURE films, not applied here: hands on his sides are a plain < > angle, no flared last segment.
+Still laid on in the edit (not yet moved into the skeleton): the banner (clip 1), the task cards (clip 3), the two name
+  signs of clip 4b, JUDGING / DONE BY (clip 5), the TEAM SOL table (clip 6). They sit right in v10; moving them into the
+  skeleton means repainting those five shots.
+
+STATUS (2026-11-27, night)
+Current cut: renders/group-project-v10.mp4 (54.1 s, 24 fps, 1080 x 1080), -v10-nomusic, -v10-web. v1 to v9 are kept.
+  Not approved by Elaine. completed/ holds v10.
+Checks on v10: build checks PASS (least room 0.26 s); pauses 0.82 to 4.26 s; the no-music cut reads back word for word;
+  no stretch frozen for 0.3 s or more (ffmpeg freezedetect). The changed shots were looked at; no full independent review
+  since v6.
+Tracker sheet unchanged; not uploaded. STILL OPEN FOR ELAINE: the course name / last line; whether "1:1" meant square.
+
+CUT v11 (2026-11-27): ELAINE'S NOTES ON v10
+  clip 8  "theres a weird cut with the medal ... it zooms out and then it snaps": the 1.35 s pull-back was too fast for the
+          painter (it lagged, then dissolved to the wide view at frame 32). The pull-back now takes 2 s (0.7 to 2.7) and the
+          clip is 11.6 s; the paint follows the skeleton frame for frame. "another hands on hips smirk confident looking":
+          our Sol ends with the < > arms on his hips and the smug eyes; Ring Sol has the flowers. 08-skeleton-v7 ->
+          08-paint-v7 (used; its half-moon eyes held, so fix_dome_eyes.py was not needed) and -v8 (not downloaded).
+          End card in at 2.3 s; the last line at 1.7 s with its first caption at 2.25 s.
+  clip 2  "apply the <> arm thing right now": akimbo() arms from 4.4 s. "hand points up ... it should look like this": the
+          pointing nub at the start is level (46 degrees up from rest, not 105). 02-skeleton-v7 -> 02-paint-v8 (used whole,
+          no splice) and -v9 (rejected: a long arm on the wrong side). 02-skeleton-v6 -> 02-paint-v6 / -v7 were the first
+          hands-on-hips try (pointing nub still raised); 02-paint-v6v4.mp4 is their splice, never shown.
+
+STATUS (2026-11-27, late night)
+Current cut: renders/group-project-v11.mp4 (54.7 s, 24 fps, 1080 x 1080), -v11-nomusic, -v11-web. v1 to v10 are kept.
+  Not approved by Elaine. completed/ holds v11.
+Checks on v11: build checks PASS (least room 0.26 s); pauses 0.82 to 4.26 s; the no-music cut reads back word for word;
+  no stretch frozen for 0.3 s or more. The changed shots were looked at; no full independent review since v6.
+Still laid on in the edit, not painted from the skeleton: the banner (clip 1), the task cards (clip 3), the name signs of
+  clip 4b, JUDGING / DONE BY (clip 5), the TEAM SOL table (clip 6).
+Tracker sheet unchanged; not uploaded. STILL OPEN FOR ELAINE: the course name / last line; whether "1:1" meant square.
+
+CUT v12 (2026-11-27/28): ELAINE'S NOTES ON v11
+  "it frzoen": QuickTime was still holding the previous cut on its last frame (the new file had been copied over the open
+          one). The old window is now closed before a new cut is saved.
+  clip 2  "wtf are these arms i meant like the ones before but u remove the tips": akimbo() is now SMALL (the size of his
+          nubs: elbow 0.08 out, tip 0.125 down). "the beach glitched in": paint v8 redrew the background for three frames
+          after the whip back; the prompt now has a WHIP RULE and the new paint was measured: no redraw.
+          02-skeleton-v8 -> 02-paint-v11 (used whole) and -v10 (rejected: half-shut eyes come back at the end).
+  clip 4b "the Me task text": the words are on the two cards in the skeleton (SHOWOVL=sign_towers,sign_flag); the Flag card
+          stands whole inside the square; no star over "Towers". 04b-skeleton-v3 -> 04b-paint-v3 (used) and -v4.
+  clip 5  "the judging text glitches": the words are on the two boards in the skeleton (SHOWOVL=judging,doneby).
+          05-skeleton-v4 -> 05-paint-v5 (used) and -v6.
+  clip 8  the small akimbo arms on the smirk. 08-skeleton-v8 -> 08-paint-v9 (used) and -v10 (rejected: smiles).
+  Clips 4b, 5 and 8 are composited with --painted-text / --no-badge: nothing is laid over painted lettering.
+Still laid on in the edit (not from the skeleton): the banner (clip 1), the task cards (clip 3), the TEAM SOL table (clip 6).
+
+STATUS (2026-11-28)
+Current cut: renders/group-project-v12.mp4 (54.7 s, 24 fps, 1080 x 1080), -v12-nomusic, -v12-web. v1 to v11 are kept.
+  Not approved by Elaine. completed/ holds v12.
+Checks on v12: build checks PASS (least room 0.26 s); the no-music cut reads back word for word; no stretch frozen for
+  0.3 s or more. The changed shots were looked at; no full independent review since v6.
+Tracker sheet unchanged; not uploaded. STILL OPEN FOR ELAINE: the course name / last line; whether "1:1" meant square.
+
+CUTS v13 AND v14 (2026-11-28): THE APPROVED HANDS-ON-HIPS POSE
+  Elaine on v12 (small built bent arms): "can we bring back the old hands on hips thing like the first one u did before".
+  v13  clip 2: splice_clip2.py joins paint v11 (frames 0-71: glare with the level pointing nub, teammates) to paint v5
+       (frames 72-163: the first hands-on-hips look) inside the whip back -> 02-paint-v11v5.mp4. No repaint.
+       Elaine on v13: "yyayyyyy looks good! lets keep that for the sol model". APPROVED POSE, saved as
+       assets/sol-3d/poses/hands-on-hips-approved-2026-11-28.png (guidelines/sol-3d-model.md). Her approval is of the pose.
+  v14  clip 8: "remove the cross hands and replace it with that good one". The smirk at the end uses his own nubs down at
+       his sides. 08-skeleton-v9 (nubs swung forward: they vanished against his body) -> 08-paint-v11 (rejected: a third
+       Sol, an extra sand heap, open mouths) and -v12 (a nub stuck out sideways). 08-skeleton-v10 (nubs straight down,
+       -72) -> 08-paint-v13 (used), -v14 (rejected: Ring Sol's mouth open), -v15 (rejected: the sky changes).
+       fix_dome_eyes.py fills our Sol's arc eyes back into the smug half-moons from frame 254 -> 08-paint-v13-smirk.mp4.
+       The approved pose frame is passed to the painter as an image reference.
+  akimbo() (the built bent arms) is kept in skeleton/clips.py but used nowhere.
+
+STATUS (2026-11-28)
+Current cut: renders/group-project-v14.mp4 (54.7 s, 24 fps, 1080 x 1080), -v14-nomusic, -v14-web. v1 to v13 are kept.
+  The CUT is not approved by Elaine; the hands-on-hips POSE is. completed/ holds v14.
+Checks on v14: build checks PASS (least room 0.26 s); the no-music cut reads back word for word; no stretch frozen for
+  0.3 s or more. The changed shots were looked at; no full independent review since v6.
+Still laid on in the edit (not from the skeleton): the banner (clip 1), the task cards (clip 3), the TEAM SOL table (clip 6).
+Tracker sheet unchanged; not uploaded. STILL OPEN FOR ELAINE: the course name / last line; whether "1:1" meant square.
+
+
+POSTED (2026-11-28)
+Instagram: cut v14 posted as a Reel on Elaine's go-ahead ("its good", "yeah just post as a reel"), after she read the
+  caption. https://www.instagram.com/reel/DgR2OCwBYEz/ ; caption read back identical to sheet-row.json's Description.
+  Payload: instagram-payload.json. Posting is her go-ahead to post, not a recorded approval of the cut.
+YouTube: not uploaded by me. Tracker sheet: not touched (she asked for a sheet update, then said "nvm"); row 4 of
+  "Advertisements" still reads "In Progress".

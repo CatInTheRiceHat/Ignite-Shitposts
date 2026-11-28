@@ -52,6 +52,9 @@ making the candle episode, not preferences she stated. The dated history behind 
   `sol-3d-model.md`, `assets/sol-3d/eyes/README.md`, the emotion sound list, the shower-curtain script as the
   format and the coffee-ring script as the one she liked; the request builder is saved in that episode's
   `neon/` folder. Neon's answers and each round of feedback are kept there too. `agy` needs a Google sign-in.
+  **Show her the script and wait for her go before any take, skeleton clip or paint** ("wait can i see the script",
+  2026-11-27). **A small change she dictates word for word is edited straight into the script**, with a note in its
+  header, not sent round Neon again (asked on 2026-11-28 whether that was fine: "yeah obviously").
 - **Be more scientific.** Elaine, 2026-11-27, on the first wet-shirt script: "also be more scientific". That script
   said light "bounces" and "goes deeper" and "wet fabric traps more light" without ever naming what happens.
   *(my reading)* Name the real process and use its real words, each explained in passing the first time: light
@@ -82,6 +85,37 @@ making the candle episode, not preferences she stated. The dated history behind 
   *(working practice)* Send the line to the voice exactly as written, caps and all. Captions show the same words.
   `check_narration.py` hears "NOOOOOOOO" as "no", so read its transcript for those takes instead of trusting FAIL,
   and plan about a second for a stretched word.
+- **No AI slop in the lines.** Elaine, 2026-11-27, on draft V6's last line ("The cloth never changed color. Less light
+  reaches your eyes because more is absorbed."): "come on bruh stop with the ai slop like just combine the cloth never
+  changed colr because les light raches your eyes because more is absorbed". *(my reading)* The slop is the pattern, not
+  the facts: two short flat sentences set against each other ("It never X. Less Y."), clipped clauses with the joining
+  words taken out ("sending light deeper with less scattering"), a term stuck on after a colon. Say the thought as ONE
+  sentence the way a person would say it out loud, joined with "because", "so", "and". Read every line aloud before
+  it goes to her.
+- **A closure scene after the conclusion.** The same message: "can we add one more last scene as like a closure ...
+  and then say smth like the next time you get a water stain on your grey clothing just make sure it doesnt land
+  anywhere embarassing lol and sol is wearing like gray pants and he slips in a puddle and it looks like he pissed
+  himself". So the film does not stop on the conclusion: one more short scene brings the science back to real life
+  with a "next time you..." line and a last gag on Sol. *(my reading)* This is the shape of an ending from now on:
+  the definite conclusion (Sol listens and nods), then the closure scene with the joke, ending on Sol's reaction to
+  it. It replaces "no joke after the last line" in the two rules above. The gag itself is that episode's.
+- **The Narrator is a funny old man, and he exclaims like one.** Arthur's voice is an old man's. Elaine, 2026-11-27,
+  on the hyped lines she had suggested a few minutes earlier: "wait but the guy is an old man....", then "i think the
+  guy should be like OH MY GOODNESS", "or like say some shit like HOLY CHEESE AND CRACKERS", "or like pg shit". So his
+  big reactions are wholesome, PG, old-fashioned exclamations in ALL CAPS ("OH MY GOODNESS!", "HOLY CHEESE AND
+  CRACKERS!"), not youth slang: no "dude", no "sick". *(my reading)* This replaces "NOOOOOOOO dude!" from her earlier
+  message; the rest of that message stands (caps and stretched words for the voice to perform, the compliment, "let's
+  fix this shirt up"). He is fond of Sol, a bit cheeky, and easily astonished. Other exclamations in the same family
+  are fine (good heavens, great Scott, well I never); each is used once in a film.
+- **Funny, not corny.** Elaine, 2026-11-27, on draft V8: "hmm how do we make it funny but not corny". Claude's answer,
+  which she took ("i think thats good for the last scene lets just say 'make sure that you dont stain anywhere
+  ssuspicious looking'"): the Narrator does less. (1) The picture is the joke and the old man plays it straight; a
+  quip that describes what we are already watching is the corny part. (2) One big outburst in a film, saved for the
+  best moment, so it lands. (3) Silence is a beat: after something happens to Sol, hold a second or two of nothing
+  before any words. (4) Never explain the last gag: the line sets it up, the picture pays it off, and the Narrator
+  does not mention it afterwards. *(my reading)* Her "that's good" was said about the last scene, with the rest of
+  the answer not objected to; the other three points are applied on that footing and are hers to overrule. This
+  narrows the two rules above: caps and exclamations stay available, but one outburst per film.
 - **A friendly opening before the trouble.** Her opening for the wet-shirt episode: "woah sol nice shirt and then
   he gets sprayed with water by a car and then we do like the explanation thing". *(my reading)* The Narrator can
   open by greeting Sol or remarking on what he has or is doing, a calm beat, and then the thing that needs
@@ -544,6 +578,14 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   the edge of the square or the end card; pull the camera back until they stand side by side with sand between them.
 - **The camera goes round things, never through them** (Elaine: "it just fazes through the flag"). A fly-in passes under
   a banner or over a wall, and the prompt says so.
+- **A camera move the painter can follow** (Elaine on cut v10: "it zooms out and then it snaps"). A pull-back from a
+  close-up to a wide view in under 1.5 s made the painter lag and then dissolve to the wide view. Give such a move 2 s or
+  more, say in the prompt that it is one slow continuous move with no cut or dissolve, and compare frame-to-frame change
+  in the paint against the skeleton: a spike in the paint that the skeleton does not have is a snap.
+- **After a whip pan the set must not settle in** (Elaine on cut v11: "the beach glitched in"). For about three frames
+  after a whip lands the painter may redraw the background behind Sol. Measure the background's frame-to-frame change
+  after every whip; if it spikes, say in the prompt that the beach is complete in the first frame he is in view, and if
+  it still happens drop those frames (the cut then sits inside the whip) and lengthen the tail with `extend_tail.py`.
 - **No expression she did not ask for at the end of a beat** (Elaine, of smug half-shut eyes: "why is he doing this can
   we just keep it like this"). Pleased is plain eyes and a tall stance unless the script names a face.
 - **Two paints of one skeleton can be joined inside a whip pan.** When one paint has the right teammates and another the
@@ -565,11 +607,16 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
 - **When the narrator offers help, Sol looks confident, not cross** (Elaine, of a glare at "here are five things that'll
   fix this": "this doesnt make sense ... hold his hands on his sides like hes confident"). Nubs on his sides, tall,
   plain eyes.
-- **Hands on his sides are a plain < > angle** (Elaine, 2026-11-27: "can we not have the las segment of the hands be like
-  pointed out so just an angle like this <>"). Each arm is one bend, elbow out, tip resting back on his body; the tip
-  never flares outward. *(working practice)* The rig's nubs are straight, so the painter invented the bend and the flared
-  tip. For this pose give the skeleton a two-piece arm (out to the elbow, back in to the body) so the painter copies the
-  angle, and say in the prompt that each arm is one simple bend whose tip touches his side.
+- **A pointing nub is level** (Elaine on cut v10: "hand points up like this but it should look like this", the second
+  picture being a nub sticking straight out). In the skeleton a pointing arm is raised to about level
+  (`arm = (-40 + 46 * point, 0)`), never 60 degrees up, and the prompt says it is one straight stub held out sideways whose
+  end does not tip or curl up.
+- **Hands on hips: the approved pose** (Elaine, 2026-11-28, cut v13: "yyayyyyy looks good! lets keep that for the sol
+  model"). His own two nubs tucked down against his sides, small and close to the body, standing tall. Reference frame
+  `assets/sol-3d/poses/hands-on-hips-approved-2026-11-28.png`; skeleton pose, prompt wording and what NOT to do are in
+  `guidelines/sol-3d-model.md` ("Poses Elaine has approved"). History, so it is not tried again: she first asked for the
+  tips not to flare ("just an angle like this <>"), two built bent-arm versions were rejected, and she chose the first
+  painted look after all.
 - **Never hold a frame to make a shot longer** (Elaine on cut v8: "somehow its just frozen"). If a line outgrows its shot,
   lengthen a shot that ends on a standing pose by playing its last frames back and forth (`group_project/extend_tail.py`),
   or re-shoot it longer. Scan the finished cut with `ffmpeg -vf freezedetect=n=0.0005:d=0.2`; nothing should be frozen
@@ -593,6 +640,10 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   and that no mouth appears.
 
 ## 9. Delivering a finished video
+
+*(working practice, 2026-11-27)* **Showing a new cut of a video she already has open:** close the old QuickTime document
+before copying the new file over it, then open it and start it playing. Copying over a file QuickTime still has open
+leaves her looking at the previous cut stuck on its last frame (Elaine, twice: "its just frozen").
 
 When a video is done, always do both of these without being asked (Elaine, 2026-11-25):
 

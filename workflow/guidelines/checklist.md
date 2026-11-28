@@ -760,8 +760,43 @@ After reading draft V5 (opening "Woah, Sol, nice shirt!", the car, then "It WAS 
 
 - [ ] Does the Narrator sound like a loud, funny friend ("dude", big reactions), with the delivery written into the
   text: ALL CAPS for a shouted word, a stretched word for a drawn-out one?
-- [ ] For this episode: does it open close to "WOAH Sol, nice shirt. The girls are gonna like this one.", and after
-  the splash "NOOOOOOOO dude! That wasn't so nice. Let's fix this shirt up."?
+- [ ] For this episode: the opening line is "WOAH Sol, nice shirt." She later took out the rest of it ("wait can we
+  remove the 'this will get the girls good'", 2026-11-28) and replaced "NOOOOOOOO dude!" (see the next notes).
+
+After reading draft V6 (her two opening lines in; last line "The cloth never changed color. Less light reaches your
+eyes because more is absorbed."):
+
+> "wait but the guy is an old man.... hmm can we add one more last scene as like a closure also come on bruh stop
+> with the ai slop like just combine the cloth never changed colr because les light raches your eyes because more is
+> absorbed. and then say smth like the next time you get a water stain on your grey clothing just make sure it doesnt
+> land anywhere embarassing lol and sol is wearing like gray pants and he slips in a puddle and it looks like he
+> pissed himself LFMAO"
+
+- [ ] No AI slop: is each thought one natural spoken sentence, with no pair of short flat sentences set against each
+  other, no clipped clauses, no term stuck on after a colon?
+- [ ] Is there a closure scene after the conclusion, with a "next time you..." line and a last gag?
+- [ ] For this episode: Sol in little gray pants slips in a puddle, and the wet patch lands somewhere embarrassing.
+- [ ] Do the lines suit Arthur, who sounds like an old man? (Open: keep Arthur, or a younger voice.)
+
+While that was with Neon, three more messages answered her own question about the old man:
+
+> "hmm i think the guy should be like OH MY GOODNESS" / "or like say some shit like HOLY CHEESE AND CRACKERS" /
+> "or like pg shit"
+
+- [ ] Are the Narrator's big reactions PG old-man exclamations in caps ("OH MY GOODNESS!", "HOLY CHEESE AND
+  CRACKERS!"), with no youth slang ("dude", "sick")?
+
+After reading draft V8 she asked "hmm how do we make it funny but not corny". Claude proposed: the Narrator plays
+it straight and stops describing the gags, one big outburst per film, silence after the splash, and a closure where
+the advice comes first and the slip is the punchline, never mentioned afterwards. Her answer:
+
+> "i think thats good for the last scene lets just say 'make sure that you dont stain anywhere ssuspicious looking'"
+
+- [ ] Funny, not corny: does the Narrator play it straight, with no quip that describes what is on screen, one big
+  outburst in the whole film, and a beat of silence after something happens to Sol?
+- [ ] For this episode's closure: the Narrator says, straight, "make sure that you don't stain anywhere suspicious
+  looking" while Sol struts in his gray pants; then the slip, the one outburst, silence, the patch, the scoot. He
+  does not mention the patch.
 
 Technical notes from checking Neon's drafts (mine, not hers): windows timed too short for Arthur's real pace; three
 close-ups in a row without Sol; a missing reason in the explanation; hops; five faces in four seconds. All were sent
@@ -802,4 +837,40 @@ Her words, each with what was done. Elaine's notes, not reviewer findings.
 - **"ouh uh i meant just the floaty has the flowers and i think the sol in front does the smirk animation"** (v8 had
   flowers and sparkles round both). On the last beat Ring Sol has the flowers; our Sol in front smirks (the smug face:
   half-moon eyes and one star).
+
+## "Whole Group Project" ad, cut v10: Elaine's notes (2026-11-27)
+
+- **"theres a weird cut with the medal ... like it zooms out and then it snaps"** (the ribbon shot). The skeleton's
+  pull-back took 1.35 s; the painter fell behind it and then dissolved to the wide view. A camera move must be slow enough
+  for the painter to follow: the pull-back now takes 2 s.
+- **"also can you apply the <> arm thing right now"** and, of our Sol on the last beat, **"instead of front sol having
+  arms up can we do another hands on hips smirk confident looking"**. The hands-on-hips arms are built in the skeleton
+  (one bend per arm, elbow out, tip on his side) and used at "here are five things" and on the smirk at the end.
+- **"also hand points up like this but it should look like this"** (two pictures of Sol pointing at his team at the start
+  of the second shot: in the first the pointing nub tips upward, in the second it sticks straight out to the side). When
+  Sol points, the nub is level, straight out sideways; its end does not tip or curl up.
+
+## "Whole Group Project" ad, cut v11: Elaine's notes (2026-11-27, late)
+
+- **"it frzoen"**: not the video. QuickTime was still showing the previous cut on its last frame because the new file
+  had been copied over the open one. Close the old window before saving a new cut.
+- **"the beach glitched in"** (Sol's close-up after the whip back from his team): for three frames after the whip the
+  painter redrew the sea and sand behind him. Nothing behind Sol may change once the camera has landed.
+- **"also wtf are these arms i meant like the ones before but u remove the tips at the end you know so it doesnt have
+  that stick out portion"** (the bent hands-on-hips arms built for v11 came out as long bent arms). She wants the SMALL
+  arms the painter drew before, hugging his sides, only without the tip that flared outward. The built arms are now the
+  size of his ordinary nubs: a stubby piece out to a little elbow and a stubby piece back in.
+- **"the judging text glitches and also the Me task text"** (JUDGING 6:00 laid over its board, and the "Flag: Me" card).
+  Both were still overlays following the painted sign. Their words are now on the boards and cards in the Blender
+  skeleton and painted with them, like the "Moat" and "Walls" signs and "1st".
+
+## Hands-on-hips pose approved for the Sol model: Elaine, 2026-11-28
+
+- **"uh... can we bring back the old hands on hips thing like the first one u did before"** (cut v12 had small built bent
+  arms), then, of cut v13 with the first look back, **"yyayyyyy looks good! lets keep that for the sol model"**.
+  APPROVED: the hands-on-hips pose is Sol's own nubs tucked against his sides, as in
+  `assets/sol-3d/poses/hands-on-hips-approved-2026-11-28.png`. Use it whenever Sol puts his hands on his hips; details in
+  `guidelines/sol-3d-model.md`. Her approval is of this pose, not of the whole cut.
+- **"remove the cross hands and replace it with that good one"** (a picture of our Sol on the last beat, with the small
+  built bent arms). The smirk at the end uses the approved hands-on-hips pose too; the built arms are gone from the film.
 

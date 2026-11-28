@@ -1,0 +1,24 @@
+V7 has the closure scene and it works. Two things, then return the COMPLETE document again as V8 (same sections, then TITLE / DESCRIPTION / HASHTAGS), one message, no tools.
+
+1. NEW FROM ELAINE, answering her own remark that the voice is an old man's. Her messages, word for word:
+     "hmm i think the guy should be like OH MY GOODNESS"
+     "or like say some shit like HOLY CHEESE AND CRACKERS"
+     "or like pg shit"
+   So the Narrator's big reactions are wholesome, PG, old-fashioned old-man exclamations in ALL CAPS, not youth slang. This REPLACES "NOOOOOOOO dude!" (and overrides my note to keep clip 02's line as it was). No "dude" anywhere.
+   - Clip 02, after the splash and Sol's stunned beat: "OH MY GOODNESS! That wasn't so nice. Let's fix this shirt up."
+   - Use "HOLY CHEESE AND CRACKERS!" once, at the other biggest moment of the film (the obvious place is the instant Sol sits down in the puddle in the closure scene, before or inside the "next time" line; choose where it lands best).
+   - Clip 01 stays: "WOAH Sol, nice shirt. The girls are gonna like this one."
+   - Each exclamation is used once. He is a fond, cheeky, easily astonished old gentleman.
+
+2. THE SCIENCE LINES ARE STILL COMPRESSED. V7 used 107 of the 135 words allowed and the lines still read like captions: "Light scatters more where materials differ, so air and cotton scatter sunlight back.", "Extra trips let dyed fibers absorb more light.", "Water's underside reflects light back, which is total internal reflection." Stop saving words. The limit is now 155 spoken words and 72 seconds, 10 or 11 clips, no line over 26 words, no clip over 10 s (same real pace as before). Below is the level of naturalness wanted: full sentences an old man would say aloud to a friend. Use these or better ones of the same length and plainness; do NOT shorten them back into fragments, and keep the science exactly this correct:
+   - clip 03, after the failed shimmy: "Good effort, Sol, but that's not a stain."
+   - clip 04, dry weave: "Light scatters wherever two different materials meet, and air and cotton are very different, so dry cloth scatters sunlight right back at you."
+   - clip 05, wet slice: "Water bends light almost as much as cotton does, so now the light scatters far less and sinks in deeper."
+   - clip 06, the stare: "Staring at it won't dry it, Sol."
+   - clip 07, underside of the water: "When that light tries to get back out, the water's surface reflects it back in, which is called total internal reflection."
+   - clip 08, comparison on the shirt: "So it passes the dyed fibers again and again, and each time they absorb a little more."
+   - clip 09, the conclusion, ONE sentence close to Elaine's own wording: "The cloth never changed color, it just looks darker because less light reaches your eyes, since more of it gets absorbed."
+   - clip 10, closure, close to her wording: "And the next time you get a water stain on your gray clothing, just make sure it doesn't land anywhere embarrassing."
+   Re-time every clip for the longer lines. A close-up that carries a 24-word line needs about 11 s of speech, so split it across two beats of the same shot or let that clip run to 10 s with the arrows developing in step with the words (name which arrows appear on which words: a line is said when its subject is on screen).
+
+Everything else in V7 stays: sets, props, Sol's actions and faces, the closure scene's staging and rules, the ending on his mortified scoot.

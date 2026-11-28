@@ -67,3 +67,23 @@ after the third sheet and the bounce test clip: "OH ITS PERFECT." The frozen cop
 - **Rebuilding:** see `../assets/sol-3d/README.md`. `compare.py` checks the result against `Mascot.png`.
 
 [Sol beside Mascot.png](sol-3d/sol-vs-mascot.png)
+
+## Poses Elaine has approved
+
+### Hands on hips (approved 2026-11-28)
+
+Elaine, on the "Whole Group Project" ad, cut v13: **"yyayyyyy looks good! lets keep that for the sol model"**. This is
+Sol's hands-on-hips pose from now on: confident, sure of himself.
+
+- **Reference frame:** `assets/sol-3d/poses/hands-on-hips-approved-2026-11-28.png` (painted; from
+  `episodes/group_project/clips/02-paint-v5.mp4`, frame 140). His two ordinary nubs are tucked down against his sides,
+  small, close to the body; he stands tall with plain eyes.
+- **In the skeleton:** his own straight nubs, lowered and swung a little forward: `arm_l = arm_r = (-64, 26)` in
+  `pose_sol` (rest is `(-40, 0)`), with a small dip-and-plant bounce as they go down, the body stretched a little tall
+  (`squash` about -0.08) and tilted back to look up (`pitch` about 10). `clip2()` in
+  `episodes/group_project/skeleton/clips.py` is the worked example.
+- **In the prompt:** "he plants BOTH nubs on his sides, tucked against his body like hands on hips, puffs up a little
+  and tilts back to look up." Give the reference frame as an image reference.
+- **Do not build bent arms for it.** Two builds of a two-piece bent arm (`akimbo()` in the same file) were rejected: the
+  large one ("wtf are these arms") and the small one (she asked for the first look back). The code is kept but not used.
+
