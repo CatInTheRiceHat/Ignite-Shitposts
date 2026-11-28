@@ -1,6 +1,6 @@
 # Elaine's current rules: read this first
 
-Updated 2026-11-26, after the coffee-ring episode; first written after the candle episode ("Why does a flame always point up?").
+Updated 2026-11-27, with Elaine's notes on the shower-curtain script and on its first cut (camera and emotions, section 4); before that 2026-11-26, after the coffee-ring episode; first written after the candle episode ("Why does a flame always point up?").
 
 This page collects everything Elaine has asked for into one place, sorted by topic, so a new episode can
 start from here. Where this page and an older guide disagree, **this page wins**; the
@@ -45,6 +45,15 @@ making the candle episode, not preferences she stated. The dated history behind 
 - **Scripts are interactive.** The Narrator talks to Sol and reacts to what he does; Sol answers by
   acting. Her example: "what are you doing sol?", Sol wiggles the candle and looks up "as if hes trying
   to signal the narrator", "ohhh, you must be wondering why its standing up still", "and then sol nods".
+- **A line is said when the thing it is about is on screen.** Elaine, 2026-11-27, on the shower-curtain opening: "when
+  sol has the furious eyes thats when narrator says sol why are u mad its these kinds of logic that you need to know
+  when making the videos so they're more accurate". The Narrator was asking why Sol was glaring almost a second
+  before the glare was on his face. The Narrator can only react to what he, and the viewer, can already see: a face,
+  an action, an arrow, a prop. So for every line, ask what on screen it refers to, and start the line after that is
+  showing, not before. *(working practice)* Time lines from the PAINTED clip, not the gray one: the paint pass can
+  hold a face longer than planned. If the clip is then too short for the line, restage it longer; do not start the
+  line early to make it fit. Check every line this way before building, including the science lines (an arrow or a
+  motion should be visible when the words name it).
 - **Sol nods as an answer.** "we also need the nodding animation for sol too". The last clip of an
   episode ends on Sol nodding: "make the last clip sol nodding its head".
 - **Each script also says how the clips are filmed** (set, camera, action, timing per clip), in one
@@ -89,6 +98,13 @@ making the candle episode, not preferences she stated. The dated history behind 
   low and looking up, high and looking down, over Sol's shoulder, a tight close-up, a wide establishing shot,
   a tilted angle for a surprise. The coffee episode stayed near eye level for most shots; do not repeat that.
   The close-up science shots still keep a slow, steady camera so the demonstration is easy to read.
+- **Way more dynamic, and open with a fly-in.** "i wish the camera angles were way more dynamic for example when u
+  introduce the scene fly the camera in from the top of the bathroom and into the shot where its aimed at sol in
+  the bathrub" (2026-11-27, on shower-curtain script v1, where each shot had one slow push, slide or crane). The
+  first clip introduces the place with a travelling camera: start high over the whole set and fly down into the
+  shot on Sol. The later clips travel too: a whip to the prop, riding along with the thing being explained, a
+  crane over a wall, an orbit round Sol. *(my reading)* Do the travelling at the start or end of a clip and
+  settle while the science has to be read, so the steady close-up rule above still holds for those seconds.
 - **No cut between two shots with the same framing.** On the stress ad: "the cut from first clip to 2nd clip is a bit
   unusual ... starting the camera from a close up of sol's face and zooming out instead ... removes the uneessesary
   choppyness" (2026-11-26). Clip 2 had opened on clip 1's own wide framing. *(working practice)* When two clips share a
@@ -113,6 +129,30 @@ making the candle episode, not preferences she stated. The dated history behind 
   These are her examples, not the whole list; others in the same spirit are fine. Each is used for a beat, then
   his normal navy ovals return. Still no mouth. Marks are drawn on or near him for a moment; they are not fire
   particles coming off his body, which stay banned.
+- **Cartoony Sol, using the whole emotion set.** "sol should also be more cartoony and utilize the many spirtes of
+  emotions we have. this will make the video more appealling to audiences and make sol very cute and marketable"
+  (2026-11-27; shower-curtain script v1 used three faces in 38 seconds). Plan a face from the 38 in
+  `assets/sol-3d/eyes/` for nearly every beat (singing, startled, angry, determined, dizzy, idea, smug and so
+  on), each with its bounce, and give him cartoon business to go with them (singing in the shower, going dizzy
+  from following something round). *(my reading)* This is her go-ahead to use the 32 newer faces and marks in
+  episodes; no frozen approved copy of that set exists yet. *(working practice)* Floating marks sit on a flat
+  plane in front of him, so time them for when the camera is roughly in front of him.
+- **A goober who fights back.** "when the shower curtain comes to sol can u lwk make him try to catfight it away
+  lol we wanna make sol this super cute animated goober" (2026-11-27). When something bothers Sol he reacts with
+  silly physical comedy: eyes squeezed shut, leaning away, both little arm nubs slapping at it as fast as they
+  go. *(my reading)* "Super cute animated goober" is the target for his acting in every episode, not only this
+  one. *(working practice)* A catfight is not a reach: his nubs keep their
+  short length and flap in place, so stage the thing against his side or let him slap the air (see the rule
+  on reaching arms below).
+- **Never repeat a gag; use a different cartoon trope each time.** "lets try to not repeeat the catfight multiple
+  times instaed we should utilize different cartoony troupes so like catfight is one but another one is like if
+  the floor is slippery they just slip and fall dramatically like they run in place for a while and then they slip
+  back and flop" (2026-11-27, when script v2.1 used the catfight in two clips). Each gag appears once in a video.
+  Her two so far: the catfight, and the slip (legs run in place, going nowhere, then he slips backward and flops).
+  *(my reading)* Others from the same family are fair game: a freeze before a fall, a double take, spinning dizzy,
+  a puffed-up strut, being flattened and popping back. Pick ones the place suggests (a wet floor, a swinging
+  door). *(working practice)* A fall ends with him lying on the surface, touching it and his shadow; that is the
+  one time his feet may leave the ground.
 - **Every change of emotion gets a bounce.** "everytime u swap emotions make sure theres a bounce that acts as a
   trnasition between one emotion to the other" (2026-11-26). Never swap his expression on a still body. He dips
   into a squash, the face changes at the bottom of the dip, he springs up past his normal height and settles,
@@ -132,6 +172,43 @@ making the candle episode, not preferences she stated. The dated history behind 
 - **Distress is for the moment of distress only.** "during the tip sequences sol still has the purple gradient
   distressed emotion even though he should be calm during thes parts" (2026-11-26). The indigo shade and worry lines
   come off as soon as the scene moves on; do not let them linger or fade across later shots.
+
+- **A fall must not look like he dies.** Elaine on the shower-curtain cut, 2026-11-27: "just remove the sol
+  slipping cuz it just looks like he dies lol". The slip ended with X eyes and Sol lying still on his back.
+  *(my reading)* A pratfall may happen, but no X eyes and no lying motionless; he bounces straight back up.
+- **Make the hit obvious and the reaction big.** "lets make it more obvioust that the shower curtain hits sol
+  lol maybe u can have it comededitely slap sol in the face thats why he gets mad like very dramatically"
+  (2026-11-27). When something happens to Sol that sets up his mood, show it as a clear, exaggerated beat,
+  then a dramatic reaction. A gentle touch on his side did not read.
+- **No sudden gag tacked on the end of a shot.** "the dizzy animation is very sudden so just remove that"
+  (2026-11-27; the snap zoom to spiral eyes at the end of the whirlwind shot).
+- **Animated arrows for things you cannot see.** "can we annimate arrows to further demonstrate the flow and
+  how air moves?" (2026-11-27). Air, pressure, heat and forces get moving arrows on screen. *(working
+  practice)* They are rendered from the gray scene's own camera with everything else held out, then laid over
+  the painted clip, so they cost no credits and track the camera.
+  Her note on the first try: "the arrows look svery choppy ... theres random stuff poking out of them". Those were
+  flat 3D arrows rendered in the scene: edge-on parts stuck out and walls cut pieces off. Now only each arrow's path
+  is taken from the scene (`skeleton/arrows2.py`, `export_arrows.py`) and the arrow is drawn in 2D along it
+  (`overlays/draw_arrows.py`): one smooth shape that bends with the flow, soft edges, fading in and out.
+- **Nothing pops into a shot.** "can we get rid of the water puddle appearing lol redo the clip" (2026-11-27; a puddle
+  faded in under Sol near the end of the whirlwind shot). Whatever is on the floor or in the room at the first frame
+  of a shot is what is there at the last. *(working practice)* The puddle came from a style frame that had one and a
+  prompt that named it; for a shot without it, use a style frame without it and state a rule ("the floor under him
+  is dry in every frame").
+- **No jump inside a shot.** "theres a weird cut from 32 to 33" (2026-11-27). The paint pass had drawn the first second
+  of the last clip from a different camera angle and then snapped to the right one. *(working practice)* On the frame
+  sheets, compare where the walls and the curtain sit at the start of each painted clip with a second later; the
+  jump detector missed this one. Cut the clip to start after the jump, or repaint.
+- **End on the payoff, not on a string of faces.** "can we remove the thinking emotion and just cut to the happy star
+  shit" (2026-11-27). The last clip went thinking dots, light bulb, bump, smug star, happy; she kept only the star
+  and the happy nods. *(my reading)* One or two faces for the ending, straight to the pleased one.
+  She then found that version "kind of chopped": "instead of having sol like react immediately can we have him look
+  up and nod before mkaing happy face" (2026-11-27). So the ending has an order: Sol looks up at the Narrator and
+  listens through the last line, nods when it is over, and only then makes the happy face. A reaction that is
+  already on his face when the shot starts reads as a cut, not as an ending.
+- **No "Got it?" endings.** "in the future lets get rid of like the 'got its.'" (2026-11-27). From the next
+  script on, the Narrator does not end by checking in with Sol ("Got it?", "See?", "Make sense?"). End on the
+  last piece of the answer and Sol's reaction to it.
 
 ## 5. Props and physics
 
@@ -159,6 +236,26 @@ Props must behave like real objects. Each rule below came from a clip she sent b
 
 - **Cute sound effects.** "can we add like cute sound effects like squeaks". Small squeaks, boings and
   twinkles on Sol's actions. The candle set is in `episodes/candle_flame_up/audio/sfx/`.
+- **Emotion sounds for Sol's faces.** Elaine, 2026-11-27: "i also put smth in assets called emotion sounds there
+  are so many sound effects that can correspond with the emotions sol is using try using these in the video".
+  `assets/emotion sounds/` holds 28 short emote sounds, one per mood (amazed, bewilderment, curiosity, fearful,
+  glee, inspiration, joy, pleased, pride, shocked, smirking, surprise, thought, worry and more). Play the one
+  that matches each face Sol makes, at the moment the face changes. *(working practice)* Their loudness differs
+  a lot, so make level-matched copies in the episode's `audio/sfx/` (peak -3 dB, leading silence trimmed) and
+  play them at about 0.3. There is no angry sound in the set; squeaks and boings still cover actions (a stomp,
+  a slap, a nod).
+- **Not a sound on every face.** Elaine on the shower-curtain cut with the emotion sounds, 2026-11-27: "theres a bit
+  too much going on i feel like near the end like maybe when theres like chains of emotion phasess we can do like oh
+  sound effect for one no sound effect for thte other and then sound effect for the other one". When Sol goes through
+  several faces in a row, give a sound to one, leave the next silent, give a sound to the one after. *(working
+  practice)* Pick the beats that matter most (the hit, the idea, the big reaction) and leave the in-between ones bare;
+  do not stack a squeak or boing on a face that already has its emotion sound.
+- **No sound across a cut, and room before it.** Elaine, 2026-11-27: "make sure that when a sound efffect is still
+  playing that we dont cut to the next clip" and "the cuts between the clips are sometimes abrupt so leave some room for
+  sound to end before u switch". Every sound effect and every narrator line finishes inside its own clip, with a
+  beat of quiet before the picture changes. *(working practice)* `episode_edit.py` now fails the build if a take or a
+  sound effect ends less than `min_tail` (0.25 s) before its clip does. Make room by starting the line earlier,
+  using more of the clip, or picking a shorter sound; never by letting it run over.
 - **Music:** use the songs she puts in `assets/music/`.
 - **No black at the end.** "when the clip ends cut the black"; she confirmed "yes no black at last clip".
   The video stops the moment the last clip stops, with no fade or cut to black. Picture and sound end on
@@ -190,6 +287,8 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
 1. **Script** in the interactive format, with the filming plan per clip. Get her read on it.
 2. **Narrator takes** first. **Transcribe each take and compare it with its line** (`check_narration.py`);
    regenerate any take that differs. Trim dead air; clip lengths and caption times come from the real takes.
+   *(working practice, 2026-11-27)* Also run it on the finished cut (`--video`): a take can open with a
+   garbled sound that the per-take check skips (shower-curtain take 05), and the cut check hears it.
 3. **Skeleton** per clip with `skeleton/rig.py` and `skeleton/clips.py`: gray room and props, the real
    coloured 3D Sol, camera move keyed in. Render 720 by 1280 at 30 fps.
 4. **Check the gray frames before paying for paint.** Is his hand actually on the prop? Is anything
@@ -235,7 +334,8 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   semicircles that rotate down into the middle", with "the red gradient instead of purple"; the anger mark is
   "thin"; sad, crying, gloomy and heartbroken use "the same [eyes] as bashful"; smug is the half eye turned 180; every mark has a dark outline and is drawn large; the stars are inflated solids, not flat; awe uses yellow four-point stars around him, "just the stars", no lines. All built into the eyes model:
   38 expressions with marks that move, sheet `assets/sol-3d/eyes/sol-eyes-expressions-v9.png`, list in that
-  folder's README. **She has not approved the new set yet**; the approved six are unchanged.
+  folder's README. **She has not approved the new set yet**; the approved six are unchanged. On 2026-11-27 she
+  asked for the set to be used in episodes ("utilize the many spirtes of emotions we have", section 4).
 
 ### Planned expressions *(working practice)*
 

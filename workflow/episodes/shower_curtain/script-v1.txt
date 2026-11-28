@@ -1,0 +1,108 @@
+WHY DOES YOUR SHOWER CURTAIN CREEP TOWARD YOU? — SCRIPT V1 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-27: DRAFT, sent to Elaine for her read. Not reviewed, not approved.
+Tracker row: "Why does your shower curtain move toward you when the water turns on?" (General tab, Not Done).
+What exists already (2026-11-26): the seven narrator takes in audio/raw and audio/edit, transcribed again on
+2026-11-27 and matching the lines below word for word; the bathroom set and clip 1 in skeleton/clips.py;
+skeleton/01-skeleton-v1.mp4. Nothing is painted. Clips 2 to 6 are planned here and not built.
+This file was missing until 2026-11-27: the dialogue was recovered from the takes, and the filming plan for
+clips 2 to 6 was written new.
+
+About 38 seconds, 6 shots, 81 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+Music (suggested, not used on either tab yet): Layer Cake.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  Narrator: "Sol, why are you glaring at the shower curtain?"
+      Sol stands in the tub with the shower running. The curtain is bowed in beside him. He leans toward it
+      with two huffy little bounces, then glances up at the voice.
+      His answer: he shoves the curtain away with his side. It swings out, swings straight back and boops him.
+      He jolts (O O eyes) and hops away from it.
+    Narrator: "Oh, it creeps toward you when the water's on."
+      Sol looks up, glances back at the curtain, and nods once.
+02  Narrator: "Watch the spray. Falling water drags air down with it."
+      Sol turns to the shower and tilts, curious. CLOSE on the spray: pale steam puffs beside the falling drops
+      get pulled down with them, all the way to the tub floor.
+03  Narrator: "That air loops back around like a little sideways whirlwind."
+      Seen from the side: the puffs run along the tub floor, rise at Sol's end, drift back along the top and
+      get pulled down by the spray again. One big slow wheel of steam. Sol follows a puff round with his whole
+      body, one slow circle, and wobbles.
+04  Narrator: "The middle of a whirlwind is low pressure, so it pushes on the curtain a little less."
+      CLOSE-UP. The middle of the steam wheel, right against the curtain. The puffs circle; the calm middle
+      is empty. The cloth behind the middle eases toward us. Sol is not in this shot.
+05  Narrator: "The room outside pushes like normal, so the room wins and shoves the curtain in."
+      From high above the curtain rod: the quiet bathroom on one side, the tub with Sol on the other, the
+      curtain between them. On "shoves" the hem swings in and boops Sol's side. He jolts (O O eyes).
+06  Narrator: "It's not creeping up on you. It's getting pushed. Got it?"
+      Close on the hem resting against Sol. On "pushed" he bumps it away with his side; it swings out and
+      settles back against him, and this time he lets it and puffs up proudly. He looks up (sparkle eyes for
+      a beat) and nods twice.
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Set: a small sunny bathroom, new for this episode. A white tub alcove with pale tiles, the shower head on the
+  far wall, a pleated curtain along the left side on a steel rod with rings, a round window, a shelf with two
+  bottles and a rubber duck. Beyond the curtain: cream wall, rug, sink with a round mirror, towel, potted
+  plant. Two more ducks (tub rim, tub floor) and a bar of soap. The ducks and soap never move.
+Fixed places: Sol stands mid-tub near the camera end; the spray lands at the far end; the curtain's hem bows
+  in the most just beyond Sol, where it can touch his side.
+The air is shown with steam puffs: the same 40 pale puffs in every clip (same seed), modelled in the skeleton
+  in their real colour so the painter cannot restyle them. The curtain is one sheet, same colour and pleats
+  in every clip; it moves only by bowing in, by Sol's shove, and with a small ripple while the water runs.
+Sol never reaches with an arm: every touch is a bump or lean with his side, arm nubs tucked.
+His feet stay on the tub floor except the one hop in clip 1.
+Skeleton: skeleton/clips.py with rig.py, rendered headless by render_clip.py. Sol is the approved 3D model
+  with the separate-eyes rig; every expression change goes through emotion_at (the bounce).
+Paint: Gemini Omni Flash 1.2, mode edit, 720p. Clip 01 first; one of its frames is the style reference for
+  the other five, with Sol's turnaround sheet.
+Edit: edit.json with scripts/episode_edit.py; caption times from the transcript's word times.
+Checks: gray frames before paint; check_faces.py on each painted clip; check_narration.py on the cut;
+  frame_review.py on the final cut, every frame looked at.
+
+CLIP 01 — the question — 8.75s  (built: skeleton/01-skeleton-v1.mp4)
+  Camera: low and wide, looking up the tub; at the boop it snaps in on Sol, then creeps closer.
+  Action: 0.4-1.3 two huffy bounces, leaning at the curtain. 1.8-2.7 glance up. 2.70-3.02 wind-up.
+    2.96-3.4 shoves the curtain with his side; it swings out and back. 3.88 boop. 3.9-4.26 hop away, arms up.
+    4.65 turns and looks up. 6.2-7.1 glances back at the curtain. 7.95-8.5 one nod.
+  Eyes: normal; O O surprised 3.9-5.5; normal.
+  Narrator 0.30-2.60 and 5.10-7.83.
+CLIP 02 — the spray drags air down — 5.0s
+  Camera: opens high beside the shower head looking down the spray at Sol far below, then cranes down with
+    the falling drops to the tub floor.
+  Action: 0.2-0.8 Sol turns to the spray and tilts. 1.2-4.6 puffs beside the spray are pulled down with the
+    drops and spread out along the floor.
+  Eyes: normal.
+  Narrator 0.30-4.34.
+CLIP 03 — the loop — 5.2s
+  Camera: wide and side-on from the tiled-wall side (wall cut away), level with Sol, a slow push in. The
+    curtain is the backdrop; shower head on the right, Sol on the left.
+  Action: 0.0-5.2 the puffs circle the whole tub once: down the spray, along the floor to Sol, up, back along
+    the top. 0.8-3.8 Sol's body leans round one slow circle after a puff. 3.9-4.6 a small wobble.
+  Eyes: normal, looking where the puff is.
+  Narrator 0.30-3.82.
+CLIP 04 — close-up: the low-pressure middle — 6.6s
+  Camera: tight on the middle of the wheel against the curtain, low and tilted up a little, a slow steady push.
+  Action: puffs circle the edge of the frame; the middle stays clear. 3.2-6.0 the cloth behind the middle
+    eases toward the camera (bow 0.3 to 0.78). Nothing else in frame.
+  Narrator 0.30-5.86.
+CLIP 05 — the room wins — 7.4s
+  Camera: high three-quarter view from above the rod at the near end, looking along the curtain: room on the
+    left, tub and Sol on the right. A slow slide toward the tub side.
+  Action: 0.0-5.4 the curtain hangs a little bowed and ripples. 5.4-5.9 its hem swings in. 5.9 it boops Sol's
+    side. 5.9-6.9 he jolts with a planted squash-and-spring (no hop).
+  Eyes: normal; O O surprised 5.9-7.0; normal on the last frames.
+  Narrator 0.40-6.50.
+CLIP 06 — Sol gets it — 5.6s
+  Camera: opens low and close on the hem against Sol's side, pulls back and rises to face him.
+  Action: 0.3-1.5 he looks down at the hem. 2.0-2.6 bumps it away with his side; it swings out and settles
+    back on him by 3.2. 2.8-3.4 proud puff-up. 3.5 looks up. 4.5-5.5 two nods. Ends on the second nod, no black.
+  Eyes: normal; sparkle 3.6-4.4; normal for the nods.
+  Narrator 0.20-3.57.
+
+Accuracy: the "shower-curtain effect". David Schmidt's 2001 computer simulation found that the spray drives a
+  vortex whose axis points at the curtain, with a low-pressure middle that draws the curtain in. It happens
+  with cold water too, so rising hot air is at most a helper. Physicists still argue about how much each cause
+  matters; the script states the vortex explanation as the answer.

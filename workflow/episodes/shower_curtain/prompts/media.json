@@ -1,0 +1,45 @@
+{
+ "turnaround": "3818cc1f-d8bd-4361-b6c0-219e18340cc7",
+ "style_coffee_kitchen": "5f210279-4b80-4077-b7f1-c856bad2186e",
+ "style_frame_clip01_end_angry": "5cc39589-ade4-4ff0-ba55-235b930b2254",
+ "skeleton_v2": {
+  "1": "ab50825c-568b-42c1-ace2-5ef7b7d3a44c",
+  "2": "236dc872-53c3-43df-9a54-e95c4de254bd",
+  "3": "a1264b15-08b0-4b47-aef9-725de741ccbb",
+  "4": "e4b57924-0c74-4337-b303-374a3cb9b33e",
+  "5": "1c48a782-5f4f-4f0c-8f9f-88b6c138dbba",
+  "6": "dcb3acec-3ed6-4819-b887-1246a18f6192",
+  "7": "4f826063-303a-44f1-a025-dddc0070d8ea"
+ },
+ "expr_strips": {
+  "1": "483faede-e0ab-424c-9f22-0d7774f28cf9",
+  "2": "1b800556-5904-419a-81a2-4be686498434",
+  "4": "9db887f9-3388-4d6a-8a6e-bfadfebcefb1",
+  "6": "395341d4-7c70-429e-822f-9ec108375b59",
+  "7": "331bd71d-6db1-4850-80a0-c619ee04e29f"
+ },
+ "paint_jobs": {
+  "1": "4ab9aa80-6360-47c0-81fc-ffb179412290",
+  "2": "4f80d8c1-20ff-4017-b7dd-f7c7fef001a2",
+  "3": "9f6fadf5-19ff-47db-87a9-8ff4835ed874",
+  "4": "28cbeed9-6101-4767-a4c0-bbc78042fd96",
+  "5": "ab6ff665-afe9-4f99-a6fc-918575bb4c29",
+  "6": "61a5e7dd-9ef7-4e24-a696-0992315d1a11",
+  "7": "f4678243-e21e-4293-8c03-bbc6ba5fa831",
+  "1-v2": "870d2cc3-0bff-4507-bc12-dd0befb01250",
+  "4-v2": "8965d012-e707-4b55-ad45-3709a092ace8",
+  "7-v2": "24e1e4c5-690b-49c1-bbb6-4ffac3a279c8",
+  "1-v3": "069429a5-276e-41e1-b942-54e46ebd1cd9"
+ },
+ "note": "2026-11-27: Elaine said 'dud just bild the entire episode' after the clip 1 test; clips 2-7 painted after that. All seven v1 paints are used in renders/shower-v3.mp4 (clip 5 through 05-paint-v1-push2.mp4). No repaints. Balance after: 82.8. Later the same day: clip 1 restaged (the slap) and repainted as 01-paint-v2.mp4 (job 1-v2); final cut renders/shower-v5.mp4.",
+ "style_frame_clip02_end_normal": "6ac17737-640d-4866-9d76-e22190e09e40",
+ "skeleton_v3": {
+  "1": "9a01a5ef-cdb7-443f-9add-f2d855c510eb",
+  "4": "5b1e8723-cd1d-4ac5-83b6-6bbeb937374c",
+  "7": "abe640a5-022e-4201-8bb5-ff77188d48f6"
+ },
+ "style_frame_clip04_wide": "1205bf44-41cb-4e4c-9323-52b196465160",
+ "skeleton_v4": {
+  "1": "be063282-cd46-42f6-9a07-b64646b74c9e"
+ }
+}

@@ -37,3 +37,7 @@ _to-delete/
 # skeleton/render_clip.py with MODE=ovlseq, so they stay local like renders/ and clips/.
 workflow/episodes/all_due_this_week/overlays/*/seq/
 workflow/episodes/all_due_this_week/overlays/*/seq-v1/
+
+# Shower-curtain episode: first-try arrow renders (175 MB of PNG frames, superseded by overlays/arrows2-*.json) and render logs
+workflow/episodes/shower_curtain/overlays/arrows-*/
+workflow/episodes/**/skeleton/logs/

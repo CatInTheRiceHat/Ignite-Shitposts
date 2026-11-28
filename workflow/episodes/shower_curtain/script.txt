@@ -1,0 +1,321 @@
+WHY DOES YOUR SHOWER CURTAIN CREEP TOWARD YOU? — SCRIPT V2.2 (NARRATOR ONLY, INTERACTIVE)
+
+Status 2026-11-27: DRAFT V2.2, sent to Elaine for her read. Not approved.
+Tracker row: "Why does your shower curtain move toward you when the water turns on?" (General tab, Not Done).
+Why v2, in her words on v1 (script-v1.txt): "i wish the camera angles were way more dynamic for example when u
+introduce the scene fly the camera in from the top of the bathroom and into the shot where its aimed at sol in
+the bathrub. additionally sol should also be more cartoony and utilize the many spirtes of emotions we have. this
+will make the video more appealling to audiences and make sol very cute and marketable".
+Then, on v2 the same day: "when the shower curtain comes to sol can u lwk make him try to catfight it away lol
+we wanna make sol this super cute animated goober". v2.1 put a catfight in clips 02 and 06. Her answer: "lets
+try to not repeeat the catfight multiple times instaed we should utilize different cartoony troupes so like
+catfight is one but another one is like if the floor is slippery they just slip and fall dramatically like they
+run in place for a while and then they slip back and flop". So v2.2 (this file): the catfight once, in clip 02;
+clip 06 has the run-in-place, slip and flop instead. Each gag in the video is a different one.
+What v2 changed: every clip has a travelling camera (fly-in, whip, falling with the water, riding the air,
+corkscrew, crane over the curtain, orbit); Sol goes through 15 faces from the 38-expression set instead of 3; a
+new opening gag (he is singing in the shower when the curtain boops him); the old clip 1 is split in two, so 7
+clips. The narrator's words are unchanged, so the seven takes recorded 2026-11-26 (audio/edit/) still fit.
+What exists: the takes; the bathroom set in skeleton/clips.py. The clip 1 skeleton (01-skeleton-v1.mp4) is the
+v1 staging and has to be rebuilt. Nothing is painted.
+
+Build log, 2026-11-27 (Elaine: "yes lets do tis"):
+  Skeletons: skeleton/01..07-skeleton-v2.mp4 (clips.py, 24 fps, SOL_EYES=working). clips_v1.py and
+    01-skeleton-v1.mp4 are the first day's staging, kept.
+  Changes from the plan below, made while checking the gray frames:
+    - Clip 05 is a three-quarter view from the shower end with Sol small at the left, not a head-on close-up
+      without him: head-on, the cloth moving toward the camera could not be seen.
+    - Clip 04 ends with a snap in on dizzy Sol (4.2 s); in the wide view his face was too small to read.
+    - The steam wheel sits between Sol and the far wall (about 2 m across) so it fits a vertical frame, and the
+      steam appears only in clips 03 to 05.
+    - Clip 07's camera swings across his front (about a quarter turn), not half an orbit: the tub is too narrow.
+    - The tub-floor duck moved toward the near left corner; it was blocking the camera in clips 02 and 07.
+  Paint: clip 01 painted as the test of the newer faces, clips/01-paint-v1.mp4 (13.5 credits, job 4ab9aa80).
+    Singing, startled and angry all came back right. Seen in it: the painter put a shallow puddle under Sol;
+    one pink music note lingers about half a second into the startled beat; it is 5.38 s against 5.21 s.
+    Clips 02 to 07 are NOT painted yet: prompts/build.py and edit.json are ready, clip 02's request is in
+    prompts/batch-b.json. About 86 credits to go (whole seconds at 2.25); balance 168.3.
+
+About 40 seconds, 7 shots, 81 spoken words.
+Voice: Narrator = Arthur (config/voices.json). Sol has no voice and no mouth.
+Music (suggested, not used on either tab yet): Layer Cake.
+
+------------------------------------------------------------------------------
+DIALOGUE AND WHAT SOL DOES (read this first)
+------------------------------------------------------------------------------
+01  (no words yet) The camera flies in from the ceiling of the bathroom, down over the curtain rod and into the
+      tub. Sol is in the shower, swaying, SINGING (music notes). The curtain's hem creeps in and boops his side.
+      He jolts, STARTLED (!). Then he turns on the curtain, ANGRY (red shade), with two huffy bounces.
+    Narrator: "Sol, why are you glaring at the shower curtain?"
+      Still glaring, he glances up at the voice.
+02    His answer: he CATFIGHTS it. Eyes squeezed shut (> <), leaning away, both little arm nubs slapping at
+      the curtain as fast as they go. It flutters back under the pats, then swings straight in and boops him
+      anyway. He freezes, eyes wide (O O).
+    Narrator: "Oh, it creeps toward you when the water's on."
+      Sol looks up. On "creeps toward you" he gives the curtain a NERVOUS sideways look (sweat drop). He nods once.
+03  Narrator: "Watch the spray. Falling water drags air down with it."
+      Over Sol's shoulder: he tilts, curious. The camera rushes past him up to the shower head, then falls
+      with the water. Pale steam puffs beside the drops get dragged down with them to the tub floor.
+04  Narrator: "That air loops back around like a little sideways whirlwind."
+      The camera rides along the floor with the puffs to Sol. They sweep up past his face (AMAZED) and back
+      along the top. The camera peels away to the side and the whole thing shows: one big slow wheel of steam.
+      Sol follows a puff round with his whole body, one circle, and ends DIZZY (spiral eyes), wobbling.
+05  Narrator: "The middle of a whirlwind is low pressure, so it pushes on the curtain a little less."
+      CLOSE-UP. The camera corkscrews into the middle of the wheel, right against the curtain, and holds
+      still. The puffs circle; the calm middle is empty. The cloth behind it eases toward us. Sol is not here.
+06  Narrator: "The room outside pushes like normal, so the room wins and shoves the curtain in."
+      The camera starts outside the shower, low on the bathroom rug: calm, a rubber duck on the tub rim. It
+      glides to the curtain, cranes up and over the rod and looks down into the tub. Sol is watching the hem
+      creep toward him, NERVOUS. He tries to run for it (PANIC), but the tub floor is wet: his legs run in
+      place, going nowhere, then shoot out from under him. He slips backward and flops flat on his back at the
+      curtain's hem. On "shoves" the hem swings in and boops him where he lies. Knocked out (X X eyes).
+07  Narrator: "It's not creeping up on you. It's getting pushed. Got it?"
+      Sol pops back up onto his feet with a wobble, the hem resting against him. THINKING (dots). On
+      "getting pushed": IDEA (light bulb). He
+      bumps the curtain away with his side; it swings out and settles back on him, and this time he lets it,
+      SMUG, puffed up. The camera swings round to face him. He looks up, EXCITED, and nods twice (HAPPY eyes).
+
+------------------------------------------------------------------------------
+HOW IT IS FILMED
+------------------------------------------------------------------------------
+Set: a small sunny bathroom, new for this episode. A white tub alcove with pale tiles, the shower head on the
+  far wall, a pleated curtain along the left side on a steel rod with rings, a round window, a shelf with two
+  bottles and a rubber duck. Beyond the curtain: cream wall, rug, sink with a round mirror, towel, potted
+  plant. Two more ducks (tub rim, tub floor) and a bar of soap. The ducks and soap never move.
+Fixed places: Sol stands mid-tub near the camera end; the spray lands at the far end; the curtain's hem bows
+  in the most just beyond Sol, where it can touch his side.
+The air is shown with steam puffs: the same 40 pale puffs in every clip (same seed), modelled in the skeleton
+  in their real colour so the painter cannot restyle them. The curtain is one sheet, same colour and pleats
+  in every clip; it moves only by bowing in, by Sol's shove, and with a small ripple while the water runs.
+Camera: every clip travels. The big move happens at the start or end of the clip and settles while the science
+  has to be read (clip 05 holds still for its last four seconds). No two neighbouring clips share a framing.
+Sol's faces: all from assets/sol-3d/eyes (EXPR names in capitals above). Every swap goes through emotion_at, so
+  it comes with the bounce. Floating marks (notes, !, dots, bulb, dashes) sit on a flat plane in front of him,
+  so each one is timed for when the camera is roughly in front of him. The red shade is on only while he is
+  ANGRY. Each paint pass gets a crop of the expression sheet showing just the faces that clip uses; the painter
+  has not been tried on the newer faces, so clip 01 is painted first as the test.
+Sol never reaches with an arm. The catfight is not a reach: his nubs stay their own short length and flap up
+  and down in place, alternating, about six slaps a second. The curtain is already against his side, so the
+  nubs pat it where they are. Every other touch is a bump or lean with his side, nubs tucked.
+The gags, each used once: singing in the shower (01), the catfight (02), going dizzy from following the air
+  round (04), running in place then slipping and flopping (06).
+His feet stay on the tub floor, and jolts are a planted squash-and-spring, not a hop. The one exception is the
+  slip in clip 06: his feet fly up as he goes over, and he lands flat on the tub floor, in contact with it and
+  his shadow, and stays there to the end of the clip.
+Skeleton: skeleton/clips.py with rig.py, rendered headless by render_clip.py at 24 fps.
+Paint: Gemini Omni Flash 1.2, mode edit, 720p. One frame of clip 01 is the style reference for the other six,
+  with Sol's turnaround sheet. About 40.3 s, so about 91 credits.
+Edit: edit.json with scripts/episode_edit.py; caption times from the transcript's word times.
+Checks: gray frames before paint; check_faces.py on each painted clip (planned faces will be flagged at their
+  planned times); check_narration.py on the cut; frame_review.py on the final cut, every frame looked at.
+
+CLIP 01 — fly in, singing, the boop, the glare — 5.2s
+  Camera: 0.0-2.2 starts at the ceiling in the far corner of the room, looking down on the whole bathroom
+    with steam rising over the curtain; flies down across the room, over the rod and into the tub, levelling
+    out low in front of Sol. 2.5-2.8 snap push-in on his glare. Then a slow creep.
+  Action: 0.0-1.9 sways side to side. 1.5-1.95 the hem creeps in. 1.95 boop. 1.95-2.5 jolt.
+    2.5 turns on the curtain, leaning at it. 2.9-3.8 two huffy bounces. 4.4-5.0 glances up at the voice.
+  Eyes: SINGING 0.0-1.95 (notes from 1.0) / STARTLED 1.95-2.5 / ANGRY 2.5-5.2.
+  Narrator 2.70-5.00.
+CLIP 02 — the catfight — 5.2s
+  Camera: opens beside the curtain, looking along it at Sol in profile. Whips out and back with the curtain's
+    swing, jolts on the boop, then swings round to Sol's front and pushes in as he looks up.
+  Action: 0.2-0.4 leans away from the curtain. 0.4-1.4 catfight: six alternating nub slaps; the hem flutters
+    back a little with each pat. 1.4-1.5 the curtain swings in. 1.5 boop. 1.5-2.1 frozen, nubs still up.
+    2.1 nubs drop, looks up. 3.2-4.1 sideways look at the curtain. 4.7-5.15 one nod.
+  Eyes: ANGRY to 0.2 / SQUEEZE 0.2-1.5 / SURPRISED 1.5-2.1 / NORMAL / NERVOUS 3.2-4.2 / NORMAL.
+  Narrator 2.05-4.78.
+CLIP 03 — the spray drags air down — 4.8s
+  Camera: 0.0-0.8 over Sol's shoulder toward the spray. 0.8-1.5 rushes forward past him and up to the shower
+    head. 1.6-4.2 falls beside the drops from the head to the tub floor and lands there.
+  Action: 0.2-0.8 Sol tilts. 1.6-4.6 puffs beside the spray are pulled down with the drops and spread out
+    along the floor toward the camera.
+  Eyes: not seen (he is seen from behind).
+  Narrator 0.30-4.38.
+CLIP 04 — the loop — 5.2s
+  Camera: 0.0-1.4 rides low along the tub floor with the puffs toward Sol and rises past his face with them.
+    1.4-2.6 peels out sideways through the cut-away tiled wall. 2.6-5.2 wide and side-on, a slow push: the
+    curtain is the backdrop, shower head on the right, Sol on the left, the whole wheel in view.
+  Action: the puffs circle the tub: down the spray, along the floor, up at Sol's end, back along the top.
+    1.0-1.8 Sol watches them pass. 1.8-4.2 he leans round one slow circle after a puff. 4.2-5.2 wobble.
+  Eyes: NORMAL / AMAZED 1.0-1.8 / NORMAL, tracking the puff / DIZZY 4.2-5.2.
+  Narrator 0.30-4.17.
+CLIP 05 — close-up: the low-pressure middle — 6.6s
+  Camera: 0.0-2.5 corkscrews in on the middle of the wheel (a push with a quarter turn of roll, the way the
+    wheel turns). 2.5-6.6 holds still, tight on the calm middle and the cloth behind it.
+  Action: puffs circle the edge of the frame; the middle stays clear. 3.2-6.2 the cloth behind the middle
+    eases toward the camera (bow 0.3 to 0.78). Nothing else in frame.
+  Narrator 0.30-6.12.
+CLIP 06 — the room wins — 7.5s
+  Camera: 0.0-2.8 low on the rug in the room, gliding toward the curtain past the duck on the tub rim; the
+    curtain's outside sinks away from us. 2.6-4.4 cranes up and over the rod. 4.4-7.5 high three-quarter view
+    down into the tub at Sol, a small jolt on the boop.
+  Action: the curtain ripples, a little bowed. 4.2-5.85 its hem creeps toward Sol. 4.4-4.8 he watches it
+    come. 4.8-5.5 turns away from it and runs in place: legs scrabbling fast, body leaning forward, not
+    moving an inch. 5.5-5.8 both feet shoot forward, he tips backward. 5.8 flops flat on his back at the hem,
+    one small bounce. 5.85 the hem swings in and boops him. 5.9-7.5 lies there, legs twitching once.
+  Eyes: NERVOUS 4.4-4.8 (sweat drop) / PANIC 4.8-5.8 / KO 5.8-7.5 (X X).
+  Narrator 0.40-6.99.
+CLIP 07 — Sol gets it — 5.8s
+  Camera: opens low and close on the hem against Sol's side. 2.0-3.6 half an orbit round him, rising to face
+    him. 3.6 a small snap push-in. Still for the nods.
+  Action: 0.0-0.4 pops upright from the flop, wobbles and settles. 0.4-1.9 looks down at the hem. 2.1-2.7 bumps it away with his side; it swings out and settles back
+    on him by 3.2. 2.8-3.5 puffs up. 3.5 looks up. 4.5-5.7 two nods. Ends on the second nod, no black.
+  Eyes: THINKING 0.4-1.9 / IDEA 1.9-2.8 / SMUG 2.8-3.5 / EXCITED 3.6-4.4 / HAPPY 4.5-5.8.
+  Narrator 0.20-3.57.
+
+Accuracy: the "shower-curtain effect". David Schmidt's 2001 computer simulation found that the spray drives a
+  vortex whose axis points at the curtain, with a low-pressure middle that draws the curtain in. It happens
+  with cold water too, so rising hot air is at most a helper. Physicists still argue about how much each cause
+  matters; the script states the vortex explanation as the answer.
+
+Build log, 2026-11-27 (later): painted and delivered
+- Elaine, after the clip 01 paint test: "dud just bild the entire episode". Clips 02 to 07 painted after that
+  (jobs in prompts/media.json). Clip 02 used clip 01's last frame as its style frame; clips 03 to 07 used
+  refs/style-frame-clip02-end-normal.png. Paint cost 99 credits in all (181.8 before, 82.8 after). No repaints.
+- Final cut: renders/shower-v3.mp4, copied to completed/Why Does Your Shower Curtain Creep Toward You?.mp4.
+  Music: Layer Cake. v1 and v2 are kept in renders/.
+- Narrator take 05 had about 1.2 s of garbled sound before "The room outside". The per-take check passed it;
+  the full-cut check heard three extra words. audio/edit/05-clean.wav is the take with that head cut off
+  (05.wav is untouched), and its caption times were taken again from the clean file.
+- Clip 05 is used as clips/05-paint-v1-push2.mp4: the painted clip with a slow push-in (1.0 to 1.35) from
+  2.3 s, because the painted camera stands still for the last 4 s and Sol is small. Nothing was repainted.
+- Voice starts changed from the draft: clip 03 at 0.6 s (at 0.3 the caption sat on Sol's face while he
+  turned), clip 06 at 0.9 s with the clean take.
+- What the painter changed from the gray clips (not fixed, told Elaine):
+  clip 02  his eyes squeeze shut (> <) for four frames at the bottom of the nod
+  clip 04  the wide view has a narrower curtain with a tiled back wall, the steam reads as a loose loop
+           more than a wheel, and a puddle appears under Sol just before the snap zoom
+  clip 05  the curtain covers two thirds of the back with a tiled wall and the shower head at the right,
+           the curtain barely eases in, and the clip looks closer to the gray render than the others
+  clip 06  he runs on the spot facing the camera (the gray clip turns him away); one smeared frame at 5.5 s
+  clip 07  he lies flat as a pancake for half a second, then pops up with a short hop off the floor;
+           the smug half-oval eyes came back as plain ovals
+- Elaine has not reviewed the cut yet. Nothing here is an approval.
+
+Rework after Elaine's notes on cut v3, 2026-11-27 (her message is quoted in guidelines/checklist.md)
+- "remove the sol slipping cuz it just looks like he dies": clip 06 now ends at 5.35 s, on the panic run, before
+  the slip. Clip 07 starts 0.92 s in (clips/07-paint-v1-from09.mp4), after the flop and the pop-up. No X eyes
+  are left in the cut. Nothing was repainted for this.
+- "the dizzy animation is very sudden so just remove that": clip 04 ends at 4.15 s, before the snap zoom.
+- "have it comededitely slap sol in the face thats why he gets mad like very dramatically": clip 01 restaged
+  (skeleton/01-skeleton-v3.mp4, clips.py clip1 version 3; the old code is clips_v2.py) and repainted
+  (clips/01-paint-v2.mp4, prompts/01-paint-v2.txt). The curtain draws back, whips in at 2.2 s and knocks him
+  sideways; he comes up red with an anger mark and glares. The painter kept his eyes squeezed (> <) through
+  the stunned beat where the gray clip has ring eyes. Narrator now starts at 3.4 s.
+- "can we annimate arrows to further demonstrate the flow and how air moves?": arrows are rendered from each
+  gray clip's own camera (skeleton/arrows.py, render_arrows.py -> overlays/arrows-N/) and laid over the painted
+  clip (overlays/composite_arrows.py -> clips/0N-paint-v1-arrows.mp4). White with a navy outline for the air:
+  down beside the spray (03), round the loop (04, 05), small ones from the loop's middle toward the curtain
+  (05, from 3.4 s). Orange for the room pushing on the outside of the curtain (06, 0.2-2.6 s).
+- "emotion sounds": assets/emotion sounds/, level-matched copies in audio/sfx/emo-*.mp3, one per face
+  (glee, shocked, bewilderment, surprise, worry, curiosity, amazed, fearful, thought, inspiration, smirking, joy).
+- "in the future lets get rid of like the 'got its.'": a rule for the next scripts. This cut keeps the recorded
+  "Got it?" because she said "in the future"; it can be cut from take 06 if she wants it gone here too.
+- The gags in the cut are now: singing in the shower, the slap, the catfight, the panic run. The slip and the
+  dizzy spin are out.
+- Result: renders/shower-v5.mp4 (36.7 s), copied to completed/ as
+  "Why Does Your Shower Curtain Creep Toward You? (v2).mp4". The first cut is still there under the plain title;
+  nothing in completed/ was overwritten. edit-v3.json is the edit of the first delivered cut. v4 has the same
+  picture as v5 with the sounds timed to the gray clips instead of the painted action.
+- Cost of the rework: one repaint (clip 01, 13.5 credits). The arrows, trims and sounds cost nothing.
+- Known flaws, told to Elaine: clip 05's small arrows point along the curtain as much as at it (the view is
+  three-quarter); one loop arrow crosses Sol's side in clip 05; clip 05 is still the least painted-looking shot.
+- Elaine has not reviewed this cut yet. Nothing here is an approval.
+
+Second rework, 2026-11-27, after Elaine's notes on cut v5 (quoted in guidelines/checklist.md)
+- "the arrows look svery choppy ... theres random stuff poking out of them": the arrows are redrawn. Version 1 were
+  flat 3D arrows rendered in the scene (two crossed planes, cut by walls and by Sol). Version 2 takes only each
+  arrow's path from the scene (skeleton/arrows2.py, export_arrows.py -> overlays/arrows2-N.json) and draws it in 2D
+  along that path (overlays/draw_arrows.py -> clips/0N-paint-v1-arrows-v3.mp4): one smooth shape that bends with
+  the flow, soft edges, a navy outline, fading in and out. The loop now has six curved arrows.
+- "theres a bit too much going on ... sound effect for one no sound effect for thte other and then sound effect for
+  the other one": 18 sounds instead of 31. Kept: glee (singing), the slap (boing + shocked), one squeak on the furious
+  turn, the catfight squeaks, a soft boing on the boop, worry, curiosity, amazed, a twinkle in clip 05, fearful,
+  inspiration, joy. Dropped: bewilderment, the stomp squeaks, surprise, both nod squeaks in clip 02 and 07, the
+  second worry, thought, the bump boing, smirking. The last clip went from seven sounds to two.
+- Result: renders/shower-v6.mp4 (36.7 s, same picture as v5 except the arrows), copied to completed/ as
+  "Why Does Your Shower Curtain Creep Toward You? (v3).mp4". edit-v5.json is the edit of the cut before this.
+  No credits spent.
+- Elaine has not reviewed this cut yet. Nothing here is an approval.
+
+Third rework, 2026-11-27, after Elaine's notes on cut v6 (quoted in guidelines/checklist.md)
+- "can we get rid of the water puddle appearing lol redo the clip": clip 04 repainted (clips/04-paint-v2.mp4,
+  prompts/04-paint-v2.txt, gray clip skeleton/04-skeleton-v3.mp4 with the dizzy ending taken out of clips.py;
+  clips_v3.py is the code before). Style frame: the wide view of the first paint before the puddle came in
+  (refs/style-frame-clip04-wide.png). The floor under Sol is dry in every frame. Arrows redrawn for it
+  (overlays/arrows3-4.json -> clips/04-paint-v2-arrows.mp4).
+- "theres a weird cut from 32 to 33": the paint pass drew the first 1.3 s of clip 07 from a different camera
+  view and snapped to the right one. That stretch is no longer in the cut (next point).
+- "can we remove the thinking emotion and just cut to the happy star shit": clip 07 now starts 3.08 s in
+  (clips/07-paint-v1-from308.mp4): the star, then the happy face and the two nods, 2.75 s. The thinking dots, the
+  light bulb and the bump on the curtain are out.
+- The Narrator's last line no longer fits with "Got it?" on the end, so the cut uses audio/edit/06-nogotit.wav
+  (06.wav cut at 2.72 s; 06.wav is untouched). The spoken script is now 79 words and ends
+  "It's not creeping up on you. It's getting pushed."
+- Result: renders/shower-v8.mp4 (34.6 s), copied to completed/ as
+  "Why Does Your Shower Curtain Creep Toward You? (v4).mp4". v7 is the same cut with the last clip starting two
+  frames earlier, on a blink. edit-v6.json is the edit of the cut before this. Cost: one repaint, 13.5 credits.
+- Elaine has not reviewed this cut yet. Nothing here is an approval.
+
+Fourth rework, 2026-11-27: sounds and cuts (Elaine's two messages are quoted in guidelines/checklist.md)
+- "when a sound efffect is still playing ... we dont cut to the next clip ... between teh 2nd to last and the last clip":
+  the "fearful" sound started 4.82 s into clip 06 and ran 0.48 s past the cut. It was the only sound across a cut.
+  It is replaced by "worry" on the sweat drop (3.8 s, over by 4.33 s).
+- "the cuts between the clips are sometimes abrupt so leave some room for sound to end": the narrator's lines used to
+  end 0.03 to 0.12 s before the cut in clips 01, 03, 04, 06 and 07. Now every line and every sound effect ends at
+  least 0.27 s before its cut: clip 01 line starts 3.15 s, clip 03 line 0.42 s, clip 04 runs to 4.5 s (the repaint
+  has no dizzy ending to avoid), clip 06 line starts at 0.0 and the clip runs two frames longer (5.4 s), clip 07 uses
+  audio/edit/06-nogotit2.wav (the silent head cut off and the pause shortened from 0.3 to 0.2 s).
+- scripts/episode_edit.py now checks this on every build ("no sound runs across a cut", "room before each cut",
+  min_tail 0.25 s) and fails the build otherwise.
+- Result: renders/shower-v10.mp4 (35.0 s), copied to completed/ as
+  "Why Does Your Shower Curtain Creep Toward You? (v5).mp4". v9 is the same picture with the older last take and
+  failed the room check. edit-v8.json is the edit of the cut before this. No credits spent.
+- Elaine has not reviewed this cut yet. Nothing here is an approval.
+
+Fifth rework, 2026-11-27: the ending (Elaine's message is quoted in guidelines/checklist.md)
+- "i stil feel like the ending is kind of chopped so instead of having sol like react immediately can we have him look
+  up and nod before mkaing happy face": the last clip is restaged and repainted. Gray clip skeleton/07-skeleton-v3.mp4
+  (clips.py clip8), paint clips/07-paint-v2.mp4 (prompts/07-paint-v2.txt), 4.8 s, one steady shot easing in.
+  0-0.35 s he still eyes the curtain's hem; 0.35-0.7 he turns and looks up; he listens through the line (0.45-2.86,
+  "It's not creeping up on you. It's getting pushed."); 2.95-3.45 one nod; 3.75 the happy face with the burst marks,
+  held to the end. Sounds in the clip: one, "pleased", on the happy face.
+- Result: renders/shower-v11.mp4 (37.1 s), copied to completed/ as
+  "Why Does Your Shower Curtain Creep Toward You? (v6).mp4". edit-v10.json is the edit of the cut before this.
+  Cost: one repaint, 11.25 credits.
+- Elaine has not reviewed this cut yet. Nothing here is an approval.
+
+Sixth rework, 2026-11-27: a line is said when its subject is on screen (Elaine's message is quoted in
+guidelines/checklist.md and the rule is in guidelines/current-rules.md, section 2)
+- "when sol has the furious eyes thats when narrator says sol why are u mad": in the cut before this the line started
+  at 3.15 s and the glare was not painted until about 4.0 s. Clip 01 is restaged longer and repainted
+  (skeleton/01-skeleton-v4.mp4, clips.py clip1 version 4, clips_v4.py is the code before; clips/01-paint-v3.mp4,
+  prompts/01-paint-v3.txt; 6.67 s). The stunned beat is gone: slap, squeezed eyes, then the glare. In the PAINTED
+  clip the glare is on his face from 3.83 s to the end, so the line now starts at 3.95 s and ends at 6.25 s; the
+  clip is cut at 6.6 s. The paint pass again held the squeezed eyes about 0.8 s longer than the gray clip, which is
+  why the start is taken from the painted clip.
+- The other lines, checked the same way:
+    clip 02  "Oh, it creeps toward you..." starts 0.55 s after the hem bumps him. Fine.
+    clip 03  "Watch the spray." as he turns to it; "Falling water drags air down" as the down arrows come in. Fine.
+    clip 04  "That air loops back around" used to be said over his face, before the loop was on screen. The line now
+             starts at 1.0 s (was 0.2): he sees it first (amazed), "loops back around" lands as the camera swings out
+             and the loop arrows come in. The clip runs to 5.2 s.
+    clip 05  "The middle of a whirlwind..." over the loop; "pushes on the curtain a little less" as the small arrows
+             come in. Fine.
+    clip 06  "The room outside pushes like normal" over the orange arrows; "shoves the curtain in" as it reaches him. Fine.
+    clip 07  he listens, nods after the line, then the pleased face. Fine.
+- Result: renders/shower-v13.mp4 (38.6 s), copied to completed/ as
+  "Why Does Your Shower Curtain Creep Toward You? (v7).mp4". v12 is the same cut with the clip 04 line still early.
+  edit-v11.json is the edit of the cut before this. Cost: one repaint, 15.75 credits.
+- Elaine has not reviewed this cut yet. Nothing here is an approval.
+
+Posting, 2026-11-27
+- Elaine: "yaaaayyyy we can upload this one now. can we upload to youtube and insta for me", then, shown the caption
+  again, "the caption is good post the reel!!!". She had already cleared completed/ down to one file under the plain
+  title; it is byte-for-byte renders/shower-v13.mp4.
+- Instagram: posted as a Reel, https://www.instagram.com/reel/DgRFldHMMaD/ (cover frame at 6.4 s). Read back: the
+  caption matches description.txt exactly.
+- YouTube: NOT uploaded. Every request through the connector returns "quotaExceeded" (its daily API quota; resets at
+  midnight Pacific). Still to do: upload as private, confirm selfDeclaredMadeForKids is false, make it public.
+- Tracker row: still "In Progress". It becomes "Done" only when YouTube is up as well.

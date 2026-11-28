@@ -569,3 +569,109 @@ prompts and storyboard when an authorized change is ready to apply.
     can resolve this by starting the camera from a close up of sol's face and zooming out instead yk so it removes the
     uneessesary choppyness yk", then "after that its good". Clip 2 reshot: it opens close on Sol's face and pulls back
     (cut v2). "After that its good" is her view of the rest of the cut; it is not recorded as an approval.
+
+## Shower-curtain script v1: Elaine's notes (2026-11-27)
+
+She asked to read the full script before any work ("please send me the full script so i can review give u
+commentary and then we can put this commentary into guidelines"). Her notes on v1:
+
+- Camera: "i wish the camera angles were way more dynamic for example when u introduce the scene fly the camera in
+  from the top of the bathroom and into the shot where its aimed at sol in the bathrub".
+- Sol: "sol should also be more cartoony and utilize the many spirtes of emotions we have. this will make the video
+  more appealling to audiences and make sol very cute and marketable".
+- She did not comment on the narrator's words, the set or the science.
+- What was done: script v2 (`episodes/shower_curtain/script.txt`; v1 kept as `script-v1.txt`). Every clip has a
+  travelling camera, starting with a fly-in from the ceiling; Sol uses 13 faces from the 38-expression set; a new
+  opening gag (singing in the shower); 7 clips, same narration. Lasting rules are in current-rules.md section 4.
+- *(technical, not her words)* v1's narrator end times were taken from word ends and ran short; v2 uses the take
+  lengths. The painter has not been tried on the 32 newer faces. The clip 1 skeleton from 2026-11-26 is the v1
+  staging and needs rebuilding.
+- On v2, later the same day: "when the shower curtain comes to sol can u lwk make him try to catfight it away lol
+  we wanna make sol this super cute animated goober". Script v2.1: he catfights the curtain in clip 02 (it boops
+  him anyway) and slaps the air at it in clip 06. Rule in current-rules.md section 4 ("A goober who fights back").
+  *(technical)* Three earlier paints grew a long arm when he reached for a prop; the catfight keeps his nubs short
+  and flapping in place, and has not been tried in paint yet.
+- On v2.1: "lets try to not repeeat the catfight multiple times instaed we should utilize different cartoony troupes
+  so like catfight is one but another one is like if the floor is slippery they just slip and fall dramatically like
+  they run in place for a while and then they slip back and flop". Script v2.2: the catfight only in clip 02; clip
+  06 has the run-in-place, slip and flop on the wet tub floor. Rule in current-rules.md section 4 ("Never repeat a
+  gag"). *(technical)* Sol lying on his back and his legs running have not been tried in paint.
+
+## Shower-curtain build: technical findings (2026-11-27, not Elaine's notes)
+
+- **Run the narration check on the finished cut, not only on each take.** Take 05 opened with about 1.2 s of
+  garbled sound. `check_narration.py --episode` passed it (the model skipped the noise and gave wrong word
+  times); `--video` on the cut heard three extra words. When the cut check fails, look at the take's loudness
+  from 0 s (`ffmpeg -af silencedetect`) and cut the head off into a new file.
+- **The painter redraws a cut-away view.** In the two shots where the camera stands outside the tub (clips 04
+  and 05) it replaced part of the curtain with a tiled wall and added the shower head, and the two shots do
+  not match each other. Shots from inside the tub (01, 02, 03, 06, 07) came back true to the gray clip. Prefer
+  views a real camera could have, or accept that a cut-away set will be reinvented.
+- **A slow move in the gray clip can come back still.** The curtain easing in over 3 s in clip 05 barely
+  moves in the paint. Make the science beat a big, fast, readable move, as in clips 02 and 06.
+- **A style frame with a puddle spreads the puddle.** The painter added a puddle under Sol in clip 01; naming
+  it in the later prompts kept it in every clip, but in clip 04 it fades in mid-shot.
+- **A push-in can be added after painting** when a painted shot sits still: `zoompan` on a 3x upscaled copy,
+  saved as a new clip file (clip 05, `05-paint-v1-push2.mp4`). Keep Sol clear of the caption band when
+  choosing the point it pushes toward.
+
+## Shower-curtain cut v3: Elaine's notes (2026-11-27)
+
+Her message, in full: "so just remove the sol slipping cuz it just looks like he dies lol / also can we annimate
+arrows to further demonstrate the flow and how air moves? also in the future lets get rid of like the 'got its.'
+lets make it more obvioust that the shower curtain hits sol lol maybe u can have it comededitely slap sol in the
+face thats why he gets mad like very dramatically also the dizzy animation is very sudden so just remove that.
+lets just focus on the arrows and everything i said"
+
+- [ ] The slip and the X-eyed flop are gone (clip 06 ends before it; clip 07 starts after he is back on his feet).
+- [ ] Moving arrows show the air: down beside the spray, round the loop, small pushes inside, big pushes from the room.
+- [ ] The curtain slaps Sol in the face, clearly and for laughs, and that is why he gets mad, dramatically.
+- [ ] The dizzy snap zoom is gone.
+- [ ] Future scripts: no "Got it?" ending. (This episode keeps its recorded line; she said "in the future".)
+
+## Shower-curtain cut v5: Elaine's notes (2026-11-27)
+
+Her message: "hmm theres a bit too much going on i feel like near the end like maybe when theres like chains of emotion
+phasess we can do like oh sound effect for one no sound effect for thte other and then sound effect for the other one.
+also the arrows look svery choppy. is there a way we can fix that? like theres random stuff poking out of them."
+
+- [ ] In a chain of faces, sounds alternate: one with, the next without. No squeak stacked on an emotion sound.
+- [ ] Arrows are single clean shapes with nothing sticking out, moving smoothly and fading in and out.
+
+## Shower-curtain cut v6: Elaine's notes (2026-11-27)
+
+Her three messages: "can we get rid of the water puddle appearing lol redo the clip" (with a screenshot of Sol in the
+whirlwind shot, a puddle under him); "theres a weird cut from 32 to 33"; "also can we remove the thinking emotion and
+just cut to the happy star shit".
+
+- [ ] No puddle appears under Sol in clip 04 (repainted with a dry floor under him from first frame to last).
+- [ ] No framing jump inside any clip; the last clip no longer contains the stretch where the view snapped.
+- [ ] The last clip starts on the star and goes to the happy nods. No thinking dots, no light bulb.
+- [ ] The narrator's last line still fits: "Got it?" is cut from a copy of the take (06-nogotit.wav).
+
+
+## Shower-curtain cut v8: Elaine's notes (2026-11-27)
+
+"make sure that when a sound efffect is still playing that we dont cut to the next clip okay this happens between teh
+2nd to last and the last clip okay and lets look through the video again to see where that happens so we can prevent
+that." Then: "the cuts between the clips are sometimes abrupt so leave some room for sound to end before u switch".
+
+- [ ] No sound effect or narrator line is still playing at a cut (the build checks this).
+- [ ] Each one ends at least a quarter of a second before the cut after it.
+
+## Shower-curtain cut v10: Elaine's note on the ending (2026-11-27)
+
+"errr i stil feel like the ending is kind of chopped so instead of having sol like react immediately can we have him
+look up and nod before mkaing happy face ok"
+
+- [ ] Last clip: Sol looks up and listens while the Narrator speaks, nods after the line, then the happy face.
+- [ ] The happy face is not already there when the clip starts.
+
+## Shower-curtain cut v11: Elaine's note on line logic (2026-11-27)
+
+"ok one more thing for the beginning clip when sol has the furious eyes thats when narrator says sol why are u mad its
+these kinds of logic that you need to know when making the videos so they're more accurate"
+
+- [ ] Clip 01: "Sol, why are you glaring at the shower curtain?" starts only after the glare is on his face.
+- [ ] Every other line: the thing it names (a face, an action, an arrow) is already on screen when the words come.
+      Found on the pass: clip 04, "loops back around" was said before the loop arrows appeared.

@@ -1,0 +1,67 @@
+{
+ "shower-01-skeleton-v2.mp4": {
+  "media_id": "ab50825c-568b-42c1-ace2-5ef7b7d3a44c",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "shower-02-skeleton-v2.mp4": {
+  "media_id": "236dc872-53c3-43df-9a54-e95c4de254bd",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "shower-03-skeleton-v2.mp4": {
+  "media_id": "a1264b15-08b0-4b47-aef9-725de741ccbb",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "shower-04-skeleton-v2.mp4": {
+  "media_id": "e4b57924-0c74-4337-b303-374a3cb9b33e",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "shower-05-skeleton-v2.mp4": {
+  "media_id": "1c48a782-5f4f-4f0c-8f9f-88b6c138dbba",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "shower-06-skeleton-v2.mp4": {
+  "media_id": "dcb3acec-3ed6-4819-b887-1246a18f6192",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "shower-07-skeleton-v2.mp4": {
+  "media_id": "4f826063-303a-44f1-a025-dddc0070d8ea",
+  "http": "200",
+  "type": "video/mp4"
+ },
+ "style-ref-coffee-kitchen.png": {
+  "media_id": "5f210279-4b80-4077-b7f1-c856bad2186e",
+  "http": "200",
+  "type": "image/png"
+ },
+ "expr-clip01.png": {
+  "media_id": "483faede-e0ab-424c-9f22-0d7774f28cf9",
+  "http": "200",
+  "type": "image/png"
+ },
+ "expr-clip02.png": {
+  "media_id": "1b800556-5904-419a-81a2-4be686498434",
+  "http": "200",
+  "type": "image/png"
+ },
+ "expr-clip04.png": {
+  "media_id": "9db887f9-3388-4d6a-8a6e-bfadfebcefb1",
+  "http": "200",
+  "type": "image/png"
+ },
+ "expr-clip06.png": {
+  "media_id": "395341d4-7c70-429e-822f-9ec108375b59",
+  "http": "200",
+  "type": "image/png"
+ },
+ "expr-clip07.png": {
+  "media_id": "331bd71d-6db1-4850-80a0-c619ee04e29f",
+  "http": "200",
+  "type": "image/png"
+ }
+}

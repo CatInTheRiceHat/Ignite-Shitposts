@@ -27,7 +27,10 @@ Optional (added for the landscape "All Due This Week" ad, 2026-11-26; the defaul
   "width", "height":   frame size, default 1080 x 1920.   "caption_size": font size in px, default 105.
   "caption_stroke":    outline width in px, default 12.
 
-After building it checks the result and prints PASS/FAIL lines: length, picture and sound ending together, and no
+  "min_tail":          seconds of room every narrator take and sound effect must leave before its clip ends, default 0.25
+                       (Elaine, 2026-11-27: no sound still playing at a cut, and room for it to end before the switch).
+
+After building it checks the result and prints PASS/FAIL lines: no sound across a cut, room before each cut, length, picture and sound ending together, and no
 black at the end. It exits 1 if a check fails.
 """
 import json, pathlib, subprocess, sys
@@ -162,7 +165,25 @@ vd, ad = probe(OUT, "v:0"), probe(OUT, "a:0")
 r = subprocess.run(["ffmpeg", "-v", "info", "-sseof", "-1.5", "-i", str(OUT), "-vf", "blackdetect=d=0.04:pix_th=0.10",
                     "-an", "-f", "null", "-"], capture_output=True, text=True)
 black = [l for l in r.stderr.splitlines() if "black_start" in l]
+# Elaine, 2026-11-27: "make sure that when a sound efffect is still playing that we dont cut to the next clip" and
+# "the cuts between the clips are sometimes abrupt so leave some room for sound to end before u switch".
+# Every narrator take and sound effect must END at least "min_tail" seconds (default 0.25) before its clip ends.
+MIN_TAIL = CFG.get("min_tail", 0.25)
+
+
+def flen(path):
+    r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
+                       capture_output=True, text=True)
+    return float(r.stdout.strip())
+
+
+tails = [(f"{take} in clip {ci + 1}", CLIPS[ci][1] - (start + flen(VOICE_DIR / take))) for take, ci, start, _ in VOICE]
+tails += [(f"{f} at {t_}s in clip {ci + 1}", CLIPS[ci][1] - (t_ + min(b_, flen(SFX_DIR / f)) - a_)) for f, a_, b_, ci, t_, _ in SFX]
+across = [f"{n} runs {-r:.2f}s past the cut" for n, r in tails if r < 0]
+tight = [f"{n} leaves {r:.2f}s" for n, r in tails if 0 <= r < MIN_TAIL - 1e-6]
 checks = [
+    ("no sound runs across a cut", not across, "; ".join(across) or "every take and sound effect ends inside its clip"),
+    (f"room before each cut ({MIN_TAIL}s)", not tight, "; ".join(tight) or f"least room {min(r for _, r in tails):.2f}s"),
     ("length matches the clips", abs(vd - total) < 0.1, f"video {vd:.2f}s, planned {total:.2f}s"),
     ("picture and sound end together", abs(vd - ad) < 0.08, f"video {vd:.2f}s, audio {ad:.2f}s"),
     ("no black at the end", not black, black[0].split("]")[-1].strip() if black else "last 1.5s clean"),
