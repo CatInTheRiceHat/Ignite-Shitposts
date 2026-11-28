@@ -43,6 +43,16 @@ workflow/episodes/**/*.mp3
 workflow/episodes/**/*.m4a
 workflow/episodes/**/*.aiff
 
+# Frames pulled out of exported footage for review are exports too (any episode, any revision).
+workflow/episodes/**/reviews/**/*.jpg
+workflow/episodes/**/reviews/**/*.jpeg
+workflow/episodes/**/reviews/**/*.png
+workflow/episodes/**/reviews/**/*.webp
+workflow/episodes/**/review/**/*.jpg
+workflow/episodes/**/review/**/*.jpeg
+workflow/episodes/**/review/**/*.png
+workflow/episodes/**/review/**/*.webp
+
 # Per-frame lettering passes (600 MB to 1 GB of PNGs per episode). Rebuilt exactly by
 # skeleton/render_clip.py with MODE=ovlseq, so they stay local like renders/ and clips/.
 # Covers every episode and every variant folder: seq/, seq-v1/, seq_banner/, seq_moat/ ...
