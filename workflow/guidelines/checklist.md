@@ -752,6 +752,17 @@ A few minutes later, while Neon was rewriting: "wait yo can u tell neon to add s
 - [ ] Is it funny: does the Narrator tease or quip about what Sol does, and does Sol get a comic beat, without a
   joke replacing or bending the science?
 
+After reading draft V5 (opening "Woah, Sol, nice shirt!", the car, then "It WAS a nice shirt."):
+
+> "wait ok so the voice to text can do smth rly funny so like you can use all caps ike WOAH sol nice shirt. the
+> girls are gonna like this one or smth like that and then like NOOOOOOOO dude! that wasn't so nice. lets fix this
+> shirt up and stuff"
+
+- [ ] Does the Narrator sound like a loud, funny friend ("dude", big reactions), with the delivery written into the
+  text: ALL CAPS for a shouted word, a stretched word for a drawn-out one?
+- [ ] For this episode: does it open close to "WOAH Sol, nice shirt. The girls are gonna like this one.", and after
+  the splash "NOOOOOOOO dude! That wasn't so nice. Let's fix this shirt up."?
+
 Technical notes from checking Neon's drafts (mine, not hers): windows timed too short for Arthur's real pace; three
 close-ups in a row without Sol; a missing reason in the explanation; hops; five faces in four seconds. All were sent
 back to Neon and fixed; the notes are in `episodes/wet_shirt/neon/`.
@@ -775,4 +786,20 @@ Her words, each with what was done. Elaine's notes, not reviewer findings.
 - **"yo i changed the voice so in higgsfield u can now see we use eleven labs but i kept arthur. can we redo the voice
   lines for those"** (same evening). The Narrator is still Arthur, now on Eleven v4 (stability 0.5, similarity 0.75, as
   in her own Higgsfield tests). All ten lines of this ad were re-recorded. `config/voices.json` carries the setting.
+
+## Hands on his sides: Elaine, 2026-11-27 (on cut v9 of the "Whole Group Project" ad)
+
+- **"in the future can we not have the las segment of the hands be like pointed out so just an angle like this <>"**
+  (the confident pose at "here are five things": the painted nubs bent out at the elbow and then their tips flared
+  outward again). When Sol puts his hands on his sides, each arm is ONE simple bend: elbow out, tip back on his body, so
+  the two arms read as < and >. No last segment pointing outward. For future films; this ad was not repainted for it.
+
+## "Whole Group Project" ad, cut v9: Elaine's notes (2026-11-27)
+
+- **"the letters are still fucked up"** (the "Moat: Sleepy Sol" card, with its words hanging off the right edge of the
+  card while the camera slid). Words laid on afterwards cannot be trusted on a sign in a moving shot. This shot's words
+  are now on the cards in the Blender skeleton and painted with them (as she asked: "just put the text in blender").
+- **"ouh uh i meant just the floaty has the flowers and i think the sol in front does the smirk animation"** (v8 had
+  flowers and sparkles round both). On the last beat Ring Sol has the flowers; our Sol in front smirks (the smug face:
+  half-moon eyes and one star).
 

@@ -549,3 +549,10 @@ Checks on v8: build checks PASS (least room 0.26 s); every take passes audio/che
   independent review.
 Tracker sheet unchanged; not uploaded. STILL OPEN FOR ELAINE: the course name / last line; whether "1:1" meant square.
 
+CUT v9 (2026-11-27): Elaine on v8: "somehow its just frozen". The file was checked (1,293 frames, motion throughout); the
+  only frozen frames were the two held last frames added for the slower Eleven v4 takes (clip 4, 0.27 s; clip 6, 0.80 s).
+  extend_tail.py replaces each hold with the last frames played back and forth, so the idle sway carries on. No stretch of
+  v9 is frozen for more than 0.25 s. Current cut: renders/group-project-v9.mp4 (+ -nomusic, -web); completed/ holds v9.
+  Build checks PASS. If she meant something else by frozen (the player, or the quiet listening stretch beside the end
+  card), that is still open.
+

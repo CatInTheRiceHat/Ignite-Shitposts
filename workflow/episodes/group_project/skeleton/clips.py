@@ -566,8 +566,11 @@ def clip4():
     (the long slide past all four fell apart in two paints, and Ring Sol and our Sol get their signs in clip 4b).
     A name sign drops into the sand beside each of them (0.6 and 1.7; the words are laid on in the edit).
     Sleepy Sol sleeps straight through it. Hat Sol turns round from the sea (1.8-2.15) and tilts, a question mark
-    over him (2.2)."""
-    n = 96
+    over him (2.2).
+    Version 4: 3.8 s long (the Eleven v4 "Second, ..." take is 3.3 s), and the words are ON the two signs in the skeleton
+    (render with SHOWOVL=sign_moat,sign_walls). Elaine on cut v9, of words laid on afterwards that slid off the card while
+    the camera moved: "the letters are still fucked up"."""
+    n = 114
     stage("gp_4", n, castle=None, board="cards")
     hat = mate("hat", LOUNGE["hat"], 172)
     sleepy = mate("sleepy", LOUNGE["sleepy"], -14)
@@ -813,8 +816,8 @@ def clip8():
     behind him, the castle in the middle, Hat Sol and Sleepy Sol on the right. (The end card slides in over the right
     60% at 1.6 in the edit and covers the right-hand two.)
     Sol hops as the ribbon lands, SPARKLE eyes on the castle. At 1.3 he turns to the camera, looks UP and listens,
-    with a small idle, to the end of the line (a glance at the card, 1.9-2.7). He nods (9.3-9.8). Then HAPPY (9.9):
-    both nubs up, a bounce with his feet planted; the other three do the same with flowers round them. Hold."""
+    with a small idle, to the end of the line (a glance at the card, 1.9-2.7). He nods (9.3-9.8). Then (9.9) he SMIRKS:
+    the smug face with one star, standing tall. The other three cheer, nubs up, with flowers round them. Hold."""
     n = 330
     st = stage("gp_8", n, castle="done", bucket="up", board=None, lounge=False)
     SP_, RP, HP, ZP = (-0.6, -0.1), (-1.5, 0.55), (2.4, 0.25), (1.62, 1.85)
@@ -831,7 +834,10 @@ def clip8():
     track(rb, "location", "rotation_euler")
     RX, RY, RZ = CAS[0], CAS[1] + 0.28 - 0.42, 0.62
     cam = build_cam(24)
-    TL = [(0.0, "sparkle"), (1.3, "normal"), (9.9, "happy")]
+    # Elaine on cut v9, of flowers and sparkles round both: "i meant just the floaty has the flowers and i think the sol in
+    # front does the smirk animation". So on the last beat Ring Sol (and the two behind the end card) cheer with flowers,
+    # and OUR Sol smirks: the smug face (half-moon eyes, one twinkling star), standing tall, nubs only a little raised.
+    TL = [(0.0, "sparkle"), (1.3, "normal"), (9.9, "smug")]
 
     def state(t, f):
         k = smooth(t, 0.55, 1.9)
@@ -847,19 +853,17 @@ def clip8():
         bounce = bump(t, 9.9, 10.25) - 0.6 * bump(t, 10.2, 10.5)
         # Elaine on cut v7, of the last frames: "noooooooouuu wheres the flowers and the sparkles". The cheer has flowers AND
         # sparkles floating round every Sol, our Sol included.
-        act(sol, t, f, TL, marks=("flowers", "stars") if t >= 9.9 else None,
-            blinks=(3.4, 5.9, 7.7), look=(0.9 * (1 - front) + 0.8 * card, lerp(0.4, 0.85, front) - 0.5 * card - 0.5 * nod),
+        act(sol, t, f, TL, blinks=(3.4, 5.9, 7.7), look=(0.9 * (1 - front) + 0.8 * card, lerp(0.4, 0.85, front) - 0.5 * card - 0.5 * nod),
             loc=(SP_[0], SP_[1], hop(t, 0.46, 0.8, 0.2)), yaw=34 * (1 - front) + 14 * card, lean=1.5 * math.sin(t * 2.0) * (1 - nod),
-            pitch=lerp(4, 10, front) - 22 * nod + 4 * yay,
-            squash=idle(t) + 0.05 * wobble(t, 0.8, decay=5) + 0.06 * nod + 0.09 * bounce,
-            arm_l=(-40 + 60 * bump(t, 0.4, 1.0) + 85 * yay, 0), arm_r=(-40 + 60 * bump(t, 0.4, 1.0) + 85 * yay, 0))
+            pitch=lerp(4, 10, front) - 22 * nod + 5 * yay,
+            squash=idle(t) + 0.05 * wobble(t, 0.8, decay=5) + 0.06 * nod + 0.05 * bounce - 0.07 * yay,
+            arm_l=(-40 + 60 * bump(t, 0.4, 1.0) + 22 * yay, 0), arm_r=(-40 + 60 * bump(t, 0.4, 1.0) + 22 * yay, 0))
         for i, (who, pos, base) in enumerate(((ring, RP, 30), (hat, HP, -30), (sleepy, ZP, -14))):
             ph = 0.07 * (i + 1)
             b2 = bump(t, 9.9 + ph, 10.25 + ph) - 0.6 * bump(t, 10.2 + ph, 10.5 + ph)
             y2 = smooth(t, 9.88 + ph, 10.0 + ph)
             f2 = smooth(t, 1.3 + ph, 1.7 + ph)
             act(who, t, f, [(0.0, "happy"), (1.5 + ph, "normal"), (9.9 + ph, "joy")], blinks=(4.1 + i, 6.6 + 0.4 * i),
-                marks=("flowers", "stars") if t >= 9.9 + ph else None,
                 look=(0.0, 0.8 * f2), loc=(pos[0], pos[1], hop(t, 0.5 + ph, 0.82 + ph, 0.16)), yaw=base * (1 - 0.6 * f2),
                 pitch=9 * f2 + 4 * y2, squash=idle(t + i) + 0.05 * wobble(t, 0.82 + ph, decay=5) + 0.09 * b2,
                 arm_l=(-40 + 55 * bump(t, 0.45, 1.1) + 85 * y2, 0), arm_r=(-40 + 55 * bump(t, 0.45, 1.1) + 85 * y2, 0))

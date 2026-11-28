@@ -1,5 +1,5 @@
 {
- "out": "group-project-v8-nomusic.mp4",
+ "out": "group-project-v10-nomusic.mp4",
  "width": 1080,
  "height": 1080,
  "caption_size": 76,
@@ -25,7 +25,7 @@
   ],
   [
    "04-comp.mp4",
-   3.5833
+   3.7917
   ],
   [
    "04b-comp.mp4",
@@ -162,7 +162,7 @@
   {
    "take": "04.wav",
    "clip": 3,
-   "start": 0.05,
+   "start": 0.25,
    "phrases": [
     [
      0.0,

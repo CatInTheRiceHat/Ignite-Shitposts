@@ -11,6 +11,9 @@
 >   No recap, no question, no slogan, no "Got it?".
 > - **Make it funny.** The Narrator teases or quips about what Sol does and Sol gets comic beats; a joke never
 >   replaces a step of the explanation. (This overrides "avoid forced jokes" below: jokes are wanted.)
+> - **Write the delivery into the Narrator's words.** He is a loud, funny friend to Sol. ALL CAPS = a shouted or
+>   punched word, a stretched word (NOOOOOOOO) = drawn out; one or two per line where the moment is big. The voice
+>   model performs them, so the text goes to it exactly as written.
 > - **The opening can be a friendly remark to Sol** before the thing that needs explaining happens to him.
 > - **Show Elaine the script before building.** No takes, skeleton clips or paint until she says go.
 

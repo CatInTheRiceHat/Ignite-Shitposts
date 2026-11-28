@@ -1,0 +1,20 @@
+Elaine read V5 and likes where it is going. She wants the Narrator's voice changed. Her message, word for word:
+
+  "wait ok so the voice to text can do smth rly funny so like you can use all caps ike WOAH sol nice shirt. the girls are gonna like this one or smth like that and then like NOOOOOOOO dude! that wasn't so nice. lets fix this shirt up and stuff"
+
+What that means for V6 (return the COMPLETE document again as V6, same sections, then TITLE / DESCRIPTION / HASHTAGS, one message, no tools):
+
+1. THE NARRATOR IS A LOUD, FUNNY FRIEND, NOT A DRY DOCUMENTARY VOICE. He talks to Sol like a hyped mate: "dude", teasing, big reactions. The text-to-speech voice performs what is written, so write the delivery into the words: a word in ALL CAPS is shouted or punched, a stretched word like NOOOOOOOO is drawn out, "!" is excitement. Use them where the moment is big, one or two per line at most, not in every line.
+
+2. USE HER LINES, close to word for word, for the opening:
+   - before the car, with Sol proud in his shirt: "WOAH Sol, nice shirt. The girls are gonna like this one."
+   - right after the splash and his shocked beat: "NOOOOOOOO dude! That wasn't so nice. Let's fix this shirt up."
+   Replace "It WAS a nice shirt." with that second line. "Let's fix this shirt up" then sets up Sol's attempt to fix it (the wet-dog shimmy), which fails, and the Narrator works out with him that nothing is stained at all, which leads into the explanation. Keep that logic visible: each line reacts to what Sol just did.
+
+3. CARRY THE SAME VOICE THROUGH THE WHOLE FILM. The other quips and the science lines are said by the same guy. The science stays exactly as correct as in V5 and keeps its real words (scatter, bends light, total internal reflection, absorbed), but it should sound like a friend explaining something cool to Sol, with Sol addressed by name or "dude" a couple of times, not like a textbook caption. No caps inside a science term. The last line is still the straight, definite conclusion (keep its content: the cloth never changed color; less light reaches your eyes because more is absorbed); it can be in his voice but no joke after it.
+
+4. FIX LINE 04, which is still too compressed to follow: "Mismatched materials scatter more light, so air and cotton scatter sunlight back." Say the rule plainly first (light scatters wherever two different materials meet, and the more different they are, the more it scatters), then apply it (air and cotton are very different, so dry cloth scatters most of the sunlight straight back, which is why it looks pale). Two lines over two clips, or two sentences in one clip, is fine. Give lines 05 and 07 the same plain treatment if they need it.
+
+5. BUDGET: up to 120 spoken words and up to 55 seconds, 8 to 10 clips, no line over 20 words, no clip over 8.5 s. Real pace as before (2.3 words a second, 0.3 s at each comma or stop, about a second of quiet after each line), and allow about 1.0 s for a stretched word like NOOOOOOOO and 0.2 s extra for each ALL-CAPS word. Clip 01 needs at least 6 s now: the fly-in settles and the shirt is clearly on screen before "WOAH".
+
+Everything else in V5 stays: the street corner, the tee, the teal car in one clip only, the shimmy, the crouch-and-stare gag, three close-ups with the Sol beat between the second and third, Sol holding still under the arrows, the ending order.

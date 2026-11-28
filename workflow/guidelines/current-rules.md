@@ -71,6 +71,17 @@ making the candle episode, not preferences she stated. The dated history behind 
   goober gags of section 4. A joke never replaces a step of the explanation and never costs it accuracy, and the
   last line stays the definite conclusion. This replaces the older guide's "avoid forced jokes" as the default:
   jokes are wanted, as long as they come from the situation.
+- **The Narrator is a loud, funny friend, and the text is written for the voice to perform.** Elaine, 2026-11-27, on
+  Neon's draft V5 (whose quips were dry: "It WAS a nice shirt."): "the voice to text can do smth rly funny so like you
+  can use all caps ike WOAH sol nice shirt. the girls are gonna like this one or smth like that and then like
+  NOOOOOOOO dude! that wasn't so nice. lets fix this shirt up and stuff". So: the Narrator talks to Sol like a hyped
+  friend ("dude", teasing, big reactions), and the script writes the delivery into the words: a word in ALL CAPS is
+  shouted or punched, a stretched word (NOOOOOOOO) is drawn out, "!" is excitement. *(my reading)* Use them where the
+  moment is big (the compliment, the disaster, the reveal), one or two per line at most; the science sentences keep
+  the same friendly voice but stay clear and correct, and the last line is still the definite conclusion.
+  *(working practice)* Send the line to the voice exactly as written, caps and all. Captions show the same words.
+  `check_narration.py` hears "NOOOOOOOO" as "no", so read its transcript for those takes instead of trusting FAIL,
+  and plan about a second for a stretched word.
 - **A friendly opening before the trouble.** Her opening for the wet-shirt episode: "woah sol nice shirt and then
   he gets sprayed with water by a car and then we do like the explanation thing". *(my reading)* The Narrator can
   open by greeting Sol or remarking on what he has or is doing, a calm beat, and then the thing that needs
@@ -406,6 +417,9 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   *(working practice, mine)* The painter has garbled and re-spelled words before, which is why the bullet below was
   written. So: check every lettered frame of the paint; if the words come back wrong, say so to Elaine and fall back to
   the overlay method below for that shot only. Captions and the end card are not on 3D objects and stay in the edit.
+  Proof from this ad: words laid over a card in a sliding shot hung off its edge for half a second (Elaine on cut v9:
+  "the letters are still fucked up"), while "1st" painted from the skeleton stayed clean. Composite such a clip with
+  `composite.py --painted-text` so nothing is laid over the painted words.
 - **(Fallback) Never let the painter write words.** Draw each piece of lettering once as a PNG, put it on a plane in the
   Blender scene, render that plane alone in the shot's perspective, and lay it over the painted clip. The skeleton
   and the prompt keep every board, card and page blank. Lock the camera off in any shot with lettering, and keep
@@ -544,11 +558,22 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   skeleton that the painter copies (`hash_marks()` / `hash_at()` in `group_project/skeleton/clips.py`); a fast action is
   animated fast in the skeleton (six flaps a second), not asked for in words. When the painter makes up an effect it also
   makes up the face that goes with it (an open mouth).
-- **A happy ending has its flowers and sparkles** (Elaine: "wheres the flowers and the sparkles"). On the last cheer
-  every Sol in view, our Sol included, has `marks=("flowers", "stars")`, and the prompt says they stay to the last frame.
+- **The ending of a group film: the teammate has the flowers, our Sol smirks** (Elaine: "wheres the flowers and the
+  sparkles", then, of flowers and sparkles round both: "i meant just the floaty has the flowers and i think the sol in
+  front does the smirk animation"). The cheering teammate is `joy` (flowers); our Sol in front is `smug` (half-moon eyes,
+  one star), standing tall. Ask which Sol gets which mark before painting an ending with more than one Sol.
 - **When the narrator offers help, Sol looks confident, not cross** (Elaine, of a glare at "here are five things that'll
   fix this": "this doesnt make sense ... hold his hands on his sides like hes confident"). Nubs on his sides, tall,
   plain eyes.
+- **Hands on his sides are a plain < > angle** (Elaine, 2026-11-27: "can we not have the las segment of the hands be like
+  pointed out so just an angle like this <>"). Each arm is one bend, elbow out, tip resting back on his body; the tip
+  never flares outward. *(working practice)* The rig's nubs are straight, so the painter invented the bend and the flared
+  tip. For this pose give the skeleton a two-piece arm (out to the elbow, back in to the body) so the painter copies the
+  angle, and say in the prompt that each arm is one simple bend whose tip touches his side.
+- **Never hold a frame to make a shot longer** (Elaine on cut v8: "somehow its just frozen"). If a line outgrows its shot,
+  lengthen a shot that ends on a standing pose by playing its last frames back and forth (`group_project/extend_tail.py`),
+  or re-shoot it longer. Scan the finished cut with `ffmpeg -vf freezedetect=n=0.0005:d=0.2`; nothing should be frozen
+  for more than about a quarter of a second except a locked-off shot of a sign.
 - **One re-roll can fix a paint, two can give two new faults.** A paint that comes back flat, or redraws the set, is
   re-submitted as it is; but check every re-roll against the accessories (a hat appeared on our Sol in two re-rolls of
   one shot). A mouth on a turned face: `group_project/fix_mouth_below_eyes.py` (it finds the eyes and fills the patch

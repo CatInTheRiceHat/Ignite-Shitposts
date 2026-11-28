@@ -24,7 +24,7 @@ FONT = ImageFont.truetype(str(WF / "assets" / "fonts" / "RammettoOne-Regular.ttf
 MAXW, MAXC = 980, 22
 NOMUSIC = "--no-music" in sys.argv
 WEB = "--web" in sys.argv
-VERSION = "v8"      # Elaine's notes on v7: confident ending of clip 2, hash marks rigged in 3D (clip 7), "1st", flowers and sparkles in the skeleton (clip 8)
+VERSION = "v10"     # Elaine on v9: sign words painted from the skeleton (clip 4, re-shot longer), Ring Sol flowers + our Sol smirks (clip 8)
 # Elaine on cut v5 (2026-11-27): "after every time arthur says smth there needs to be a pause ... be really aware of like
 # the pauses make sure that the video flows nicely". In v5 "…challenge going?" and "Wait, are you…" were 0.19 s apart.
 # Every line now has at least MIN_PAUSE of quiet before the next one starts, and the build stops if one does not.
@@ -33,10 +33,11 @@ MIN_PAUSE = 0.75
 # clip file (in clips/), seconds used (whole frames at 24 fps).
 # Cut v8: the narration is re-recorded with Eleven v4 (Elaine, 2026-11-27: "i changed the voice so in higgsfield u can now
 # see we use eleven labs but i kept arthur. can we redo the voice lines"). Arthur reads slower there, so two lines are
-# longer than the shots painted for them. Nothing is sped up and none of his pauses are cut: the last frame of clip 4 is
-# held for 0.27 s and of clip 6 for 0.80 s (both end on a still pose; clips/04-comp-nohold.mp4 and 06-comp-nohold.mp4 are
-# the clips without the hold).
-CLIPS = [["01-comp.mp4", 8.5], ["02-comp.mp4", 6.7917], ["03-comp.mp4", 4.0], ["04-comp.mp4", 3.5833], ["04b-comp.mp4", 2.9167],
+# longer than the shots painted for them. Nothing is sped up and none of his pauses are cut: clip 6 runs 19 frames longer
+# (clip 4 did too, by 6 frames, until it was re-shot at 3.8 s for v10). In v8 that was a held last frame (Elaine: "somehow its just frozen"); from v9 the last
+# frames play back and forth instead (extend_tail.py), so the idle sway goes on. clips/04-comp-nohold.mp4 and
+# 06-comp-nohold.mp4 are the clips before they are lengthened.
+CLIPS = [["01-comp.mp4", 8.5], ["02-comp.mp4", 6.7917], ["03-comp.mp4", 4.0], ["04-comp.mp4", 3.7917], ["04b-comp.mp4", 2.9167],
          ["05-comp.mp4", 5.0], ["06-comp.mp4", 5.2917], ["07-comp.mp4", 6.7917], ["08-comp-web.mp4" if WEB else "08-comp.mp4", 11.0]]
 # take, clip index, start in that clip, the script's words for it (the caption text)
 TAKES = [
@@ -45,15 +46,15 @@ TAKES = [
     ("02a.wav", 1, 1.25, "And that's your team?"),                                     # as the whip lands on the three of them
     ("02b.wav", 1, 3.30, "Okay, here are five things that'll fix this."),              # he plants his nubs on his sides at "five things" (4.4)
     ("03.wav", 2, 0.25, "First, split the project into small pieces."),
-    ("04.wav", 3, 0.05, "Second, put one name on each piece."),
+    ("04.wav", 3, 0.25, "Second, put one name on each piece."),                        # clip 4 is re-shot 3.8 s long, words painted on its signs
     ("05.wav", 5, 0.70, "Third, set a deadline before the real deadline."),
     ("06.wav", 6, 0.40, "Fourth, keep everything in one doc the whole team can see."),  # "Fourth," is off again before Sol rises past the caption band (0.96)
     ("07.wav", 7, 0.50, "And fifth, ask one specific person, instead of saying, can someone."),
-    ("08.wav", 8, 0.90, "Ignite's free Social Impact and Project Development course teaches you how to take an idea and actually make it happen."),
+    ("08.wav", 8, 1.40, "Ignite's free Social Impact and Project Development course teaches you how to take an idea and actually make it happen."),
 ]
 # A first caption that waits (seconds into its take) although the voice has begun: in clip 8 "Ignite's free Social" would
 # lie across the ribbon as it lands and across Sol's face as the camera cranes back past him (review of cut v6).
-CAPTION_FROM = {"08.wav": 0.55}
+CAPTION_FROM = {"08.wav": 0.40}        # with the line at 1.4 s its first caption appears at 1.8 s, when the crane has passed Sol's face
 # what Whisper may write for a script word (same sound)
 SAME = {("thatll", "thatwill"), ("doc", "dock"), ("sol", "saul"), ("sol", "soul"), ("ignites", "ignites")}
 S, B, T = "squeaks-tiny.mp3", "boing.mp3", "twinkle.mp3"
