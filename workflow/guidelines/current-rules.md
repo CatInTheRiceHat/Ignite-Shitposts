@@ -234,6 +234,10 @@ Props must behave like real objects. Each rule below came from a clip she sent b
 
 ## 6. Sound and edit
 
+- **A pause after every narrator line, and whole takes.** Elaine, 2026-11-27: "after every time arthur says smth there
+  needs to be a pause ... be really aware of like the pauses make sure that the video flows nicely", and "the 'second'
+  from arthur is cut off. make sure that you put full audio for each thing". About a second of quiet between lines; no
+  take that starts or ends mid-sound. How: "Several Sols, square films and a bare set" in section 8.
 - **Cute sound effects.** "can we add like cute sound effects like squeaks". Small squeaks, boings and
   twinkles on Sol's actions. The candle set is in `episodes/candle_flame_up/audio/sfx/`.
 - **Emotion sounds for Sol's faces.** Elaine, 2026-11-27: "i also put smth in assets called emotion sounds there
@@ -413,6 +417,73 @@ The candle episode folder (`episodes/candle_flame_up/`) is the worked example; c
   strips of wall and floor cut from the good take, with "paint only, no objects".
 - *(working practice)* **A missing colour shade can be laid on in the edit** (`composite.py` "tint": Sol-coloured pixels
   inside his skeleton silhouette, fading from his tip). Cheaper than a repaint and it matched the painted purple.
+
+### Several Sols, square films and a bare set *(working practice, from the "Whole Group Project" ad, 2026-11-27)*
+
+- **Square films are painted wide and cropped.** The painter returns only 16:9 or 9:16. Render and paint 16:9 at 720p,
+  frame every shot for the middle square, and cut the square out in the compositor
+  (`episodes/group_project/overlays/composite.py`). Her "can we make them 1:1" was read as the square format; she has
+  not confirmed that reading.
+- **A flat blockout comes back flat.** The first beach (bare sand, three bands of sky) was returned unpainted. Dress the
+  set in the skeleton (bunting, palms, dunes, ripples, clouds, a sun glint) and open the prompt with a paragraph that
+  says the source is an untextured blockout and names how each surface is painted. Give a painted frame of an earlier
+  film as the reference for how Sol himself is painted.
+- **Ring eyes are for our Sol alone, in a simple shot.** On a teammate, in a shot with three or four Sols, "round rings
+  with white centres" came back with pupils five times, whatever the wording. Teammates show surprise with plain eyes,
+  a hop and an exclamation mark (`act(..., marks=("exclaim",))`).
+- **No travelling shot past several Sols with things landing beside them.** Two paints of it added a Sol, doubled one
+  and drew an open laughing face. Give each beat its own simple shot: two Sols, both in frame from the first frame to
+  the last.
+- **Keep a gap between two Sols.** When our Sol landed touching Ring Sol the painter merged them and he was gone for two
+  seconds.
+- **A happy face tempts the painter to add a smile.** Check every pleased, smug or cheering beat for one.
+  `episodes/group_project/fix_mouth.py` fills it from the cream around it.
+- **Floating marks must not cut lettering.** In the lettering pass his marks are no longer holdouts (a star cut the T
+  out of "Towers"). Hold lettering back until the painted thing it sits on has landed (`seq_from` in `composite.py`).
+- **A thing that drops in never lands on the skeleton's frame.** The painter's sign, board or ribbon arrives a few frames
+  early or late, so words that ride it hang in the air. Render each lettered thing as its own pass
+  (`render_clip.py MODE=ovlseq OVLONLY=<plane> SEQNAME=<name>`) and start it once the painted thing is down (`layers` in
+  `composite.py`); for something that moves with a crane, find the painted thing by its colour and put the words on it
+  (`find_rosette`). During a fast fly-in letter only what is big and square to the camera.
+- **Keep an accessory off his face.** The swim ring sat across Ring Sol's eyes and one paint left him eyeless; it now
+  sits low. Straight overhead a Sol does not read as a Sol: use a high three-quarter angle.
+- **A low camera loses the sea.** Two shots came back with a plain orange sky. Keep the camera about 0.85 high or more
+  so the sea band shows and the look matches the shots around it.
+- **Long prompts go by reference.** Put them in one JSON file, upload it as a file, fetch it in the Higgsfield sandbox
+  and pass `{"ref": "sandbox:~/gp/prompts.json#/p1"}` as the prompt. Change a prompt with a small patch script run in
+  both places and compare the hashes.
+- **A pause after every line** (Elaine on cut v5: "after every time arthur says smth there needs to be a pause ... make
+  sure that the video flows nicely"). Leave about a second of quiet between two narrator lines, more when Sol is doing
+  something in between; a question is followed by Sol's answer in action before the narrator speaks again. The edit
+  script of an episode prints every pause and stops below its minimum (`MIN_PAUSE` in `group_project/make_edit.py`). If a
+  line does not fit with its pause, make the clip longer; never squeeze the lines together.
+- **A take must be whole** (Elaine: "the 'second' from arthur is cut off"). Run `group_project/audio/check_takes.py` on
+  the raw and the trimmed takes: a take that is not quiet in its first and last 20 ms begins or ends mid-sound and is
+  re-recorded. Trim loosely (0.07 s before the first sound, 0.14 s after the last) and never cut a tail off to make room.
+- **Words ride on the painted sign** (Elaine: "the text must move when the signs are moving"). A sign the painter moves
+  is followed in the painted frames themselves (`"track"` layers in `group_project/overlays/composite.py`): the sign is
+  found in the last frame, where it stands still, and followed backwards, so its words fall, land and shake with it.
+  This replaces holding the words back until it has landed.
+- **Lettering is centred and on one baseline.** In a row of words centre the CAPITAL height, not each word's own ink
+  (`centre()` in `overlays/make_art.py`), or "Moat" and "Flag" sit at different heights. Words on a ribbon or badge go
+  on its plain middle, not the middle of its whole outline.
+- **Nothing comes and goes inside a shot** (Elaine: "sand appears in somehow"). A half-hidden prop behind a row of Sols
+  (a heap of sand, a castle, a bucket) is what the painter redraws or drops. If a prop is not needed in a shot, leave it
+  out of the skeleton and say in the prompt that the sand is open; no Sol walks off to do something at a prop the shot
+  does not show. A Sol who leaves, leaves by hopping out of the frame.
+- **An accessory sits clear of the face from every camera height** (Elaine: "HE CANT EVEN SEE ... CAN WE LIKE MAKE IT
+  LOWER"; "this si what floaty sol should look like"). The swim ring is at his feet (`mate()` in `skeleton/clips.py`);
+  check it at eye level and while he nods, not only from above. Use a painted frame she has approved as the style frame.
+- **Every Sol in a group shot is whole and in view** (Elaine: "poor guy in floaty"). No Sol half behind another or cut by
+  the edge of the square or the end card; pull the camera back until they stand side by side with sand between them.
+- **The camera goes round things, never through them** (Elaine: "it just fazes through the flag"). A fly-in passes under
+  a banner or over a wall, and the prompt says so.
+- **No expression she did not ask for at the end of a beat** (Elaine, of smug half-shut eyes: "why is he doing this can
+  we just keep it like this"). Pleased is plain eyes and a tall stance unless the script names a face.
+- **One re-roll can fix a paint, two can give two new faults.** A paint that comes back flat, or redraws the set, is
+  re-submitted as it is; but check every re-roll against the accessories (a hat appeared on our Sol in two re-rolls of
+  one shot). A mouth on a turned face: `group_project/fix_mouth_below_eyes.py` (it finds the eyes and fills the patch
+  between and under them).
 
 ### Paint prompt rules *(working practice)*
 

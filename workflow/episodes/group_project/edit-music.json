@@ -1,0 +1,607 @@
+{
+ "out": "group-project-v6.mp4",
+ "width": 1080,
+ "height": 1080,
+ "caption_size": 76,
+ "caption_stroke": 10,
+ "music": {
+  "file": "So Happy World 4.mp3",
+  "start": 0.0,
+  "gain": 0.1
+ },
+ "voice_dir": "audio/edit",
+ "sfx_dir": "../shower_curtain/audio/sfx",
+ "caption_y": 730,
+ "caption_max_width": 980,
+ "caption_max_chars": 22,
+ "clips": [
+  [
+   "01-comp.mp4",
+   8.5
+  ],
+  [
+   "02-comp.mp4",
+   6.7917
+  ],
+  [
+   "03-comp.mp4",
+   4.0
+  ],
+  [
+   "04-comp.mp4",
+   3.2083
+  ],
+  [
+   "04b-comp.mp4",
+   2.9167
+  ],
+  [
+   "05-comp.mp4",
+   5.0
+  ],
+  [
+   "06-comp.mp4",
+   4.4583
+  ],
+  [
+   "07-comp.mp4",
+   6.7917
+  ],
+  [
+   "08-comp.mp4",
+   11.0
+  ]
+ ],
+ "voice": [
+  {
+   "take": "01a.wav",
+   "clip": 0,
+   "start": 0.5,
+   "phrases": [
+    [
+     0.0,
+     1.24,
+     "Sol, how's"
+    ],
+    [
+     1.24,
+     1.94,
+     "the sandcastle"
+    ],
+    [
+     1.94,
+     3.12,
+     "challenge going?"
+    ]
+   ]
+  },
+  {
+   "take": "01b.wav",
+   "clip": 0,
+   "start": 4.6,
+   "phrases": [
+    [
+     0.0,
+     0.28,
+     "Wait,"
+    ],
+    [
+     0.78,
+     1.38,
+     "are you building"
+    ],
+    [
+     1.38,
+     2.06,
+     "the whole thing"
+    ],
+    [
+     2.06,
+     2.96,
+     "by yourself?"
+    ]
+   ]
+  },
+  {
+   "take": "02a.wav",
+   "clip": 1,
+   "start": 1.4,
+   "phrases": [
+    [
+     0.0,
+     0.44,
+     "And that's"
+    ],
+    [
+     0.44,
+     1.16,
+     "your team?"
+    ]
+   ]
+  },
+  {
+   "take": "02b.wav",
+   "clip": 1,
+   "start": 3.45,
+   "phrases": [
+    [
+     0.0,
+     0.46,
+     "Okay,"
+    ],
+    [
+     0.94,
+     1.92,
+     "here are five things"
+    ],
+    [
+     1.92,
+     3.08,
+     "that'll fix this."
+    ]
+   ]
+  },
+  {
+   "take": "03.wav",
+   "clip": 2,
+   "start": 0.5,
+   "phrases": [
+    [
+     0.0,
+     0.78,
+     "First,"
+    ],
+    [
+     0.78,
+     1.6,
+     "split the project"
+    ],
+    [
+     1.6,
+     3.08,
+     "into small pieces."
+    ]
+   ]
+  },
+  {
+   "take": "04.wav",
+   "clip": 3,
+   "start": 0.45,
+   "phrases": [
+    [
+     0.0,
+     0.74,
+     "Second,"
+    ],
+    [
+     0.74,
+     1.52,
+     "put one name on"
+    ],
+    [
+     1.52,
+     2.36,
+     "each piece."
+    ]
+   ]
+  },
+  {
+   "take": "05.wav",
+   "clip": 5,
+   "start": 0.7,
+   "phrases": [
+    [
+     0.0,
+     0.44,
+     "Third,"
+    ],
+    [
+     0.98,
+     1.8,
+     "set a deadline"
+    ],
+    [
+     1.8,
+     2.78,
+     "before the"
+    ],
+    [
+     2.78,
+     3.88,
+     "real deadline."
+    ]
+   ]
+  },
+  {
+   "take": "06.wav",
+   "clip": 6,
+   "start": 0.6,
+   "phrases": [
+    [
+     0.0,
+     0.66,
+     "Fourth,"
+    ],
+    [
+     0.66,
+     1.4,
+     "keep everything in"
+    ],
+    [
+     1.4,
+     2.2,
+     "one doc the whole"
+    ],
+    [
+     2.2,
+     3.24,
+     "team can see."
+    ]
+   ]
+  },
+  {
+   "take": "07.wav",
+   "clip": 7,
+   "start": 0.5,
+   "phrases": [
+    [
+     0.0,
+     0.44,
+     "And fifth,"
+    ],
+    [
+     1.04,
+     1.62,
+     "ask one"
+    ],
+    [
+     1.62,
+     2.7,
+     "specific person,"
+    ],
+    [
+     2.7,
+     4.02,
+     "instead of saying,"
+    ],
+    [
+     4.48,
+     5.26,
+     "can someone."
+    ]
+   ]
+  },
+  {
+   "take": "08.wav",
+   "clip": 8,
+   "start": 0.9,
+   "phrases": [
+    [
+     0.0,
+     1.62,
+     "Ignite's free Social"
+    ],
+    [
+     1.62,
+     2.88,
+     "Impact and Project"
+    ],
+    [
+     2.88,
+     3.96,
+     "Development course"
+    ],
+    [
+     3.96,
+     5.22,
+     "teaches you how to"
+    ],
+    [
+     5.22,
+     6.22,
+     "take an idea and"
+    ],
+    [
+     6.22,
+     7.42,
+     "actually make"
+    ],
+    [
+     7.42,
+     8.2,
+     "it happen."
+    ]
+   ]
+  }
+ ],
+ "sfx": [
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   0,
+   0.3,
+   0.32
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.64,
+   1.76,
+   0,
+   0.8,
+   0.32
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   0,
+   2.1,
+   0.26
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   0,
+   2.95,
+   0.32
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.81,
+   2.91,
+   0,
+   3.62,
+   0.32
+  ],
+  [
+   "emo-sighing.mp3",
+   0.0,
+   0.86,
+   0,
+   4.82,
+   0.3
+  ],
+  [
+   "emo-bewilderment.mp3",
+   0.0,
+   0.55,
+   1,
+   0.12,
+   0.3
+  ],
+  [
+   "emo-sleepy.mp3",
+   0.0,
+   1.3,
+   1,
+   1.35,
+   0.2
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   1,
+   4.4,
+   0.2
+  ],
+  [
+   "emo-inspiration.mp3",
+   0.0,
+   1.52,
+   2,
+   0.8,
+   0.3
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.64,
+   1.76,
+   2,
+   1.7,
+   0.22
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   2,
+   2.1,
+   0.22
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.81,
+   2.91,
+   2,
+   2.5,
+   0.22
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   3,
+   0.6,
+   0.2
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   3,
+   1.7,
+   0.2
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   3,
+   2.2,
+   0.32
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   4,
+   0.35,
+   0.2
+  ],
+  [
+   "emo-exclamation.mp3",
+   0.0,
+   0.81,
+   4,
+   0.42,
+   0.3
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   4,
+   1.4,
+   0.2
+  ],
+  [
+   "emo-pleased.mp3",
+   0.0,
+   0.72,
+   4,
+   1.78,
+   0.3
+  ],
+  [
+   "emo-surprise.mp3",
+   0.0,
+   1.13,
+   5,
+   0.5,
+   0.3
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   5,
+   2.75,
+   0.24
+  ],
+  [
+   "emo-pride.mp3",
+   0.0,
+   1.03,
+   5,
+   3.5,
+   0.3
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   6,
+   1.3,
+   0.32
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.64,
+   1.76,
+   6,
+   1.8,
+   0.32
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   6,
+   2.3,
+   0.32
+  ],
+  [
+   "emo-exclamation.mp3",
+   0.0,
+   0.81,
+   6,
+   3.1,
+   0.3
+  ],
+  [
+   "boing.mp3",
+   0.0,
+   0.24,
+   7,
+   1.35,
+   0.2
+  ],
+  [
+   "emo-exclamation.mp3",
+   0.0,
+   0.81,
+   7,
+   2.2,
+   0.3
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   7,
+   3.0,
+   0.32
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.08,
+   1.19,
+   7,
+   3.55,
+   0.22
+  ],
+  [
+   "squeaks-tiny.mp3",
+   1.64,
+   1.76,
+   7,
+   3.95,
+   0.22
+  ],
+  [
+   "emo-laughter.mp3",
+   0.0,
+   0.9,
+   7,
+   4.9,
+   0.22
+  ],
+  [
+   "twinkle.mp3",
+   0.0,
+   1.24,
+   8,
+   0.45,
+   0.2
+  ],
+  [
+   "squeaks-tiny.mp3",
+   2.48,
+   2.56,
+   8,
+   9.3,
+   0.32
+  ],
+  [
+   "emo-pleased.mp3",
+   0.0,
+   0.72,
+   8,
+   9.9,
+   0.3
+  ]
+ ]
+}

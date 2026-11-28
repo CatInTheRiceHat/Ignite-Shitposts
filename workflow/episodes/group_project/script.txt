@@ -1,0 +1,493 @@
+IGNITE x SOL: "POV: YOU'RE DOING THE WHOLE GROUP PROJECT"
+Course ad, script v2 (shooting script)
+
+(Written by Claude on 2026-11-27 from Elaine's topic and description. v1 is kept in script-v1.txt.
+v2 follows her note on v1: "lets do a challenge can we do like oh sols are compeeting in a sandcastle challenge
+and then like theres the [lazy ones] btw can we make them 1:1". Read as: the beach is a sandcastle contest
+between teams of Sols, our Sol's teammates are the slackers, and the video is SQUARE.
+Script only: nothing has been recorded, rendered or painted. Not approved by Elaine.)
+
+====================================================================
+SPECS
+====================================================================
+Format:      SQUARE 1:1 (1080 x 1080). Built square, not cropped.
+Length:      About 45 seconds (91 words, about 33 seconds of speech)
+Narrator:    Arthur (only voice). Every Sol is silent and acts.
+Course:      See "Check before generating": the name and the last line
+             depend on which course this ad is for.
+Ending:      No question at the end. Sol looks up and listens through
+             the last line, nods, and only then makes the happy face.
+Captions:    Must match the narration below word for word. Any take that
+             differs gets regenerated, not cut around.
+Pacing:      Narration is never sped up. If a take runs long, extend the
+             clip.
+
+
+====================================================================
+THE STORY IN ONE LINE
+====================================================================
+It is the Sandcastle Challenge: teams of Sols on a beach, judging at
+six. The team next door builds together like a machine. Our Sol is
+building his team's whole castle alone while his three teammates lie
+around. Arthur gives him five tips, each one pulls a teammate in, and
+the four of them finish the castle and take the blue ribbon.
+
+The beach and the finished castle are the course card's own art (Sol on
+a sandcastle at sunset), so the last shot turns into the end card.
+
+
+====================================================================
+THE SQUARE LAYOUT (use in every clip)
+====================================================================
+- The action sits in the middle and upper two thirds of the square.
+- Captions: lower third, centred. Nothing important in the bottom 10%.
+- Keep faces and signs above the caption band.
+- End card (Clip 8): on the right 60% of the frame, stopping above the
+  captions. Sol and the castle stay on the left.
+
+
+====================================================================
+THE SOLS (lock this first)
+====================================================================
+Every Sol is the same approved 3D model, 1 to 1. One simple one-piece
+thing tells each teammate apart, and it never comes off:
+
+  OUR SOL      nothing extra. The only one working.
+  SLEEPY SOL   asleep on a striped towel under a beach umbrella (Zzz).
+  RING SOL     wears a pink swim ring round his middle.
+  HAT SOL      a small straw hat on his flame tip, staring at the sea.
+
+  THE OTHER TEAM   three plain Sols in the background, one plot over,
+                   passing buckets in a line. Their castle is already
+                   tall and has a BLUE flag. They are never close up.
+
+The names above are the names written on the signs. Lettering is never
+painted: every sign is drawn once and laid over the painted clip.
+
+
+====================================================================
+THE SET (use in every clip)
+====================================================================
+- A wide beach at sunset: peach sky, pale sand, slow waves.
+- A banner on two poles over the sand: "SANDCASTLE CHALLENGE".
+- A contest clock on a post beside it, and a board under it:
+  "JUDGING 6:00".
+- Two plots marked out with rope. The far one: the other team and their
+  tall castle. The near one: ours, with one finished tower, a half-built
+  wall, a red bucket and a shovel. Ours grows from clip to clip and is
+  finished in Clip 8, matching the card art (three towers, a flag,
+  shells, the red bucket and shovel).
+- Our three teammates are off to the right of our plot, well away from
+  the castle.
+
+
+====================================================================
+CHARACTER NOTES
+====================================================================
+- Sol: no mouth, no eyebrows. Emotion comes from the eyes, the marks,
+  the body (hops, leans, nods) and a bounce on every change of face.
+- Faces are from the 38-expression set, by exact name. This script
+  uses: normal, determined, panic, sigh, angry, thinking, idea, smug,
+  startled, confused, asleep, scared, singing, surprised, happy, joy,
+  sparkle, content.
+- One cartoon gag per clip, never the same one twice:
+    1 the frantic zip between jobs      5 the flinch, then smug
+    2 the deadpan look into the camera  6 heads popping into frame
+    3 the light bulb                    7 the innocent whistling
+    4 the double take                   8 the group cheer
+- Annoyed and tired belong to Clips 1 and 2 only. From Tip 1 on he is
+  calm and busy.
+- Nobody reaches for anything with an arm. Actions are hop, bump, lean,
+  nub up, nod. Props are one piece each.
+- Emotion sounds on the big beats only, not on every face.
+
+
+====================================================================
+CLIP BY CLIP
+====================================================================
+
+--------------------------------------------------------------------
+CLIP 1: HOOK                                          0:00 to 0:07
+--------------------------------------------------------------------
+SET:     The whole contest: the banner, the clock, both plots.
+CAMERA:  Fly-in. Starts high over the water, sweeps under the banner,
+         past the other team passing buckets in a line, and lands low on
+         our Sol, alone at his half-built castle. Settled by 0:02.
+ACTION:  Sol zips between three jobs by himself: pats the tower, bumps
+         the bucket over, hops to the wall, back to the tower, faster
+         each time. He stops, sags, looks up and nods.
+EXPRESSIONS:
+  0:00  determined (working)
+  0:03  panic (the zip speeds up)
+  0:05  sigh (he stops and sags)
+  0:06  Looking up, one tired nod
+NARRATION:
+  0:02  "Sol, how's the sandcastle challenge going?"
+        (starts once the banner has gone by and Sol is in frame)
+  0:04  "Wait, are you building the whole thing by yourself?"
+        (starts after he has done three jobs alone)
+
+--------------------------------------------------------------------
+CLIP 2: SETUP                                         0:07 to 0:12
+--------------------------------------------------------------------
+SET:     Our plot.
+CAMERA:  Opens CLOSE on Sol's face. He turns and holds a nub up to the
+         right; the camera whips right to his three teammates, holds,
+         then whips back to Sol.
+ACTION:  The three: Sleepy Sol snoring under the umbrella, Ring Sol
+         bobbing in his swim ring, Hat Sol staring at the sea. Back on
+         Sol: he turns slowly and stares straight into the camera.
+         Then he looks up and squares himself.
+EXPRESSIONS:
+  0:07  angry (red top), nub up
+  0:08  (the three: asleep, content, normal)
+  0:10  sigh, deadpan into the camera
+  0:11  Looking up, determined
+NARRATION:
+  0:08  "And that's your team?"
+        (starts once all three are in frame)
+  0:10  "Okay, here are five things that'll fix this."
+
+--------------------------------------------------------------------
+CLIP 3: TIP 1, SMALL PIECES                           0:12 to 0:16
+--------------------------------------------------------------------
+SET:     A plan board staked in the sand beside our castle. A drawing
+         of the whole castle on it.
+CAMERA:  Low angle looking up at the board, Sol beside it. Cranes down
+         into place in the first half second, then holds still.
+ACTION:  Sol looks from the castle to the board. Light bulb. He hop-taps
+         the board and the drawing splits into four cards that pop out
+         one at a time: "Towers", "Walls", "Moat", "Flag".
+EXPRESSIONS:
+  0:12  thinking
+  0:13  idea (light bulb)
+  0:15  normal
+NARRATION:
+  "First, split the project into small pieces."
+  (the cards start popping on "split")
+
+--------------------------------------------------------------------
+CLIP 4: TIP 2, ONE NAME EACH                          0:16 to 0:21
+--------------------------------------------------------------------
+SET:     The row of lazy teammates, then our Sol at the end of it.
+CAMERA:  A slide along the row, right to left, past each Sol in turn,
+         ending on our Sol.
+ACTION:  A little sign on a stick drops into the sand beside each one
+         as the camera passes:
+           Ring Sol    "Towers: Ring Sol"   he does a double take
+           Hat Sol     "Walls: Hat Sol"     he tilts, question mark
+           Sleepy Sol  "Moat: Sleepy Sol"   he sleeps straight through it
+           Our Sol     "Flag: Me"           he puffs up, pleased with
+                                            himself (he kept the easy one)
+EXPRESSIONS:
+  0:17  Ring Sol: startled
+  0:18  Hat Sol: confused
+  0:19  Sleepy Sol: asleep
+  0:20  Our Sol: smug
+NARRATION:
+  "Second, put one name on each piece."
+  (starts as the first sign lands)
+
+--------------------------------------------------------------------
+CLIP 5: TIP 3, AN EARLY DEADLINE                      0:21 to 0:26
+--------------------------------------------------------------------
+SET:     The contest clock on its post, close, with the board under it:
+         "JUDGING 6:00". Behind it, out of focus, the other team's tall
+         castle.
+CAMERA:  Tilted low angle looking up at the clock, Sol small beneath
+         it. Slow and steady so both boards read.
+ACTION:  The clock's hand jumps forward with a loud tick. Sol flinches.
+         He hops, and a second board drops onto the post just under the
+         first: "DONE BY 5:00". He straightens up.
+EXPRESSIONS:
+  0:21  normal, looking up at the clock
+  0:22  scared (the tick)
+  0:25  smug
+NARRATION:
+  "Third, set a deadline before the real deadline."
+  ("before" lands as the second board does)
+
+--------------------------------------------------------------------
+CLIP 6: TIP 4, ONE DOC                                0:26 to 0:31
+--------------------------------------------------------------------
+SET:     The plan board again, now a full page: "TEAM SOL" with three
+         columns, Task / Who / Done by, filled in from Clips 3 to 5.
+CAMERA:  From BEHIND the Sols, over their shoulders, looking up at the
+         board. Starts tight on the page and pulls back and up.
+ACTION:  Our Sol stands under the board. The others pop into the frame
+         one at a time: Ring Sol from the right, Hat Sol from the left,
+         then Sleepy Sol's umbrella slides in with him still under it.
+         He wakes with a jolt. All four look up at the page.
+EXPRESSIONS:
+  0:26  Our Sol: normal
+  0:28  Ring Sol, Hat Sol: surprised (reading)
+  0:29  Sleepy Sol: asleep, then startled
+NARRATION:
+  "Fourth, keep everything in one doc the whole team can see."
+  ("the whole team" lands as the last one pops in)
+
+--------------------------------------------------------------------
+CLIP 7: TIP 5, ASK ONE PERSON                         0:31 to 0:36
+--------------------------------------------------------------------
+SET:     Our plot. Our Sol facing his three teammates.
+CAMERA:  High angle looking down on all four, then drops to eye level
+         beside our Sol and Ring Sol.
+ACTION:  Our Sol waves both nubs at the group. All three turn away at
+         the same moment and whistle at the sky. Our Sol hops right up
+         to Ring Sol and holds a nub up at him. Ring Sol jolts, nods
+         hard, and bounces off toward the towers.
+EXPRESSIONS:
+  0:31  Our Sol: normal
+  0:32  the three: singing (music notes: the whistle)
+  0:34  Ring Sol: startled, then determined
+  0:35  Our Sol: happy
+NARRATION:
+  "And fifth, ask one specific person, instead of saying, can someone."
+  (caption: And fifth, ask one specific person instead of "can someone.")
+  ("one specific person" lands as he reaches Ring Sol)
+
+--------------------------------------------------------------------
+CLIP 8: PAYOFF                                        0:36 to 0:45
+--------------------------------------------------------------------
+SET:     Our finished castle at sunset, the card art come to life: three
+         towers, the flag on top, shells, the red bucket and shovel.
+         All four Sols around it.
+CAMERA:  Opens close on the flag as a blue "1st" ribbon drops onto the
+         castle beside it, then cranes back and across until Sol and the
+         castle sit on the left of the square.
+ON SCREEN: The orange end card slides in from the right at 0:38, covers
+         the right 60% and stops above the captions. Course art on top,
+         the course name, "Join Ignite today!", "Link in description".
+         Card text is on screen only, not spoken.
+ACTION:  Our Sol hops as the ribbon lands. The other three bounce behind
+         the castle. He looks up at the Narrator and listens to the end
+         of the line. He nods. Then the happy face, and all four cheer
+         with their nubs up. Hold. No black.
+EXPRESSIONS:
+  0:36  sparkle (the ribbon)
+  0:38  Looking up, normal, listening
+  0:43  Nod
+  0:44  happy; the other three: joy
+NARRATION:
+  0:37  "Ignite's free Social Impact and Project Development course
+        teaches you how to take an idea and actually make it happen."
+
+
+====================================================================
+FULL NARRATION / CAPTION TEXT (word for word)
+====================================================================
+Sol, how's the sandcastle challenge going? Wait, are you building the
+whole thing by yourself?
+
+And that's your team? Okay, here are five things that'll fix this.
+
+First, split the project into small pieces.
+
+Second, put one name on each piece.
+
+Third, set a deadline before the real deadline.
+
+Fourth, keep everything in one doc the whole team can see.
+
+And fifth, ask one specific person, instead of saying, can someone.
+
+Ignite's free Social Impact and Project Development course teaches you
+how to take an idea and actually make it happen.
+
+Word count: 91 (about 33 seconds of speech at a natural pace)
+
+
+====================================================================
+WHERE EACH TIP COMES FROM
+====================================================================
+The Summer 2026 live course "Project and Nonprofit Building", Day 2
+("Planning & Execution"), slide "Build your game plan":
+Tip 1  Small pieces      -> "Break the big goal into smaller tasks",
+                            "1 List Tasks"
+Tip 2  One name each     -> "2 Assign Roles: who's doing each one?"
+Tip 3  Early deadline    -> "3 Set Deadlines: one deadline per task"
+                            (the "before the real deadline" part is ours)
+Tip 4  One doc           -> "4 Team Document" (the Team Workspace doc
+                            with its Task / Team Member / Due table)
+Tip 5  Ask one person    -> not in the slides; it is ours
+
+
+====================================================================
+CHECK BEFORE GENERATING
+====================================================================
+[ ] WHICH COURSE. The website no longer lists "Project & Nonprofit
+    Building". Its card art now belongs to "Social Impact & Project
+    Development" (Anisa Doshi Chandra, independent, six weeks). That
+    course's outline is about starting a nonprofit: picking a cause, a
+    website, Instagram, a first event, fundraising, growing. It does not
+    teach running a team, so the description's line "teaches how to
+    actually run a team" would not be true of it. This script uses the
+    site's name and a last line that fits that course.
+    If the ad is for the live "Project and Nonprofit Building" course
+    (its Day 2 does teach tasks, roles, deadlines and a team doc), swap
+    the last line back to:
+      "Ignite's free Project and Nonprofit Building course teaches how
+      to actually run a team, from the first idea to the finished
+      project."
+[ ] The end card writes the course name exactly as on the course card:
+    "Social Impact & Project Development" (or the other, per above).
+[ ] "Free": the narration and the card both say it, as in the first two
+    ads.
+[ ] SQUARE: not yet checked that the painter returns 1:1. If it does
+    not, paint wider and crop, and frame every shot for the middle
+    square.
+[ ] "1:1" was read as the square format. If it meant something else
+    (for example the teammates being exact copies of Sol, which they
+    already are), the format goes back to vertical.
+[ ] The sign names (Sleepy Sol, Ring Sol, Hat Sol, Me), "JUDGING 6:00"
+    and "DONE BY 5:00" locked.
+[ ] The tracker row and description say "group project", "Project &
+    Nonprofit Building" and "run a team"; they change with the course
+    decision. The title "POV: You're Doing the Whole Group Project"
+    still fits.
+
+
+====================================================================
+HOW IT WAS MADE (production notes, 2026-11-27)
+====================================================================
+Elaine after reading script v2: "okkkayyy lets goo make video". Not approved by her yet; nothing here records an approval.
+
+WHERE THE FILM DIFFERS FROM THE SCRIPT ABOVE
+- Clip 4 is two shots (04 and 04b). The slide past all four Sols fell apart in two paints once Ring Sol and our Sol
+  came into frame (a fifth Sol, two Ring Sols, pupils, an open laughing face). 04 is the slide past Sleepy Sol and Hat
+  Sol, used to 2.8 s; 04b is a locked-off two-shot of our Sol and Ring Sol getting their signs.
+- Clip 2: the deadpan face is plain oval eyes, not half-shut ones (the painter ignored the half-shut eyes; he still
+  stares into the camera without moving).
+- No ring-shaped "startled" eyes on the teammates. Every paint gave them pupils, so Ring Sol, Hat Sol and Sleepy Sol
+  keep plain eyes and show surprise with a hop and an exclamation mark. Our Sol still gets ring eyes (clips 1, 3, 5).
+- Clip 5: the flinch is ring eyes without the indigo shade (the shade has come back too strong before).
+- Clip 7 follows the narration's order: he asks Ring Sol first ("ask one specific person"), then flaps at the other
+  two, who whistle ("instead of saying, can someone").
+- The bucket is never knocked over (lying on its side it hid Sol in two shots). He bumps it and it rocks.
+- 04b: our Sol's last face is happy arcs with the star, not the dome "smug" eyes (the painter's choice; it reads).
+- Length 50.0 s, not 45: the takes hold 34.9 s of speech and nothing is sped up.
+- Caption for line 7 is the spoken line, word for word: "And fifth, ask one specific person, instead of saying, can
+  someone."
+
+SQUARE
+The painter (Gemini Omni Flash 1.2) only returns 16:9 or 9:16. Every clip is rendered and painted 16:9 at 720p and
+the middle square is cut out in overlays/composite.py (1080 x 1080). Each shot is framed for the middle square.
+
+VOICE
+Arthur, ten takes, audio/raw -> audio/edit (trim_takes.py). Every take transcribed; the no-music cut reads back as the
+script word for word (Whisper writes "doc" as "dock").
+
+SKELETON
+skeleton/rig.py + clips.py, rendered by render_clip.py (render_all.sh), 1280 x 720 at 24 fps. Sol is the working
+38-expression model. The other three are the same model with one thing each (clips.py mate()): a pink swim ring, a
+straw hat, nothing. v1 of the beach was bare sand and three flat bands of sky, and the first paint of clip 2 came back
+as flat as the blockout; v2 dresses it (bunting, palms, dunes with grass, sand ripples, two-tone clouds, far hills, the
+sun's glint on the water) and the prompts open with a PAINT TREATMENT paragraph.
+
+LETTERING
+Never painted. overlays/make_art.py draws every piece once; each sits on an OVL_ plane and is rendered for every
+frame with whatever is in front of it cut out (MODE=ovlseq). Floating marks (a star, a "!") no longer cut holes in
+lettering. The four task cards and the end card are whole overlays; boards, signs and the ribbon are painted blank.
+End card: overlays/make_end_card.py (square: the card on the right 60%, above the captions). art/end_card_web.png has
+the sign-up address; art/end_card_pnb.png says "Project & Nonprofit Building" in case that name is wanted.
+
+PAINT
+720p, 16:9, mode edit. Image references: a style frame of this film, Sol's turnaround sheet, the course card art.
+Clip 2 was painted first (references: the card art and a painted frame of the shower-curtain film for how Sol is
+painted); refs/style-frame-clip02-team.png and -sol.png are the style frames for the rest. Prompts: prompts/build.py,
+then patch_p4.py and patch_v3.py; the texts sent are prompts/0N-paint*.txt and prompts.json. Media ids: prompts/media.json.
+
+TAKES OF EACH CLIP (nothing is deleted)
+01 skeleton v2 -> 01-paint-v1 (used)
+02 skeleton v1 (bare beach) -> 02-paint-v1: REJECTED, returned the flat blockout unpainted.
+   skeleton v2 -> 02-paint-v2 (used)
+03 skeleton v2 -> 03-paint-v1 (used)
+04 skeleton v2 -> 04-paint-v1 (used to 2.8 s; after that a fifth Sol, our Sol's back, pupils on Ring Sol)
+   skeleton v2 -> 04-paint-v2: REJECTED, two Ring Sols and an open laughing face on our Sol.
+04b skeleton v1 -> 04b-paint-v1: the painter drew an open smile on our Sol from 1.6 s. 04b-paint-v1-nomouth (used):
+   fix_mouth.py fills it in from the cream around it, frames 38 to 72.
+05 skeleton v2 -> 05-paint-v1 (used)
+06 skeleton v2 -> 06-paint-v1: REJECTED, pupils on Ring Sol and Hat Sol. -> 06-paint-v2 (ring-eye wording changed):
+   REJECTED, pupils on Ring Sol again and the board painted as planks.
+   skeleton v3 (no ring eyes on the teammates) -> 06-paint-v3 (used)
+07 skeleton v2 -> 07-paint-v1: REJECTED, our Sol vanished for two seconds after landing against Ring Sol; pupils.
+   skeleton v3 (a clear gap between them, no ring eyes) -> 07-paint-v3 (used)
+08 skeleton v2 -> 08-paint-v1 (used)
+clips/0N-comp.mp4 are the painted clips with the lettering laid on and the square cut out; they are what the cut uses.
+
+EDIT
+make_edit.py writes edit.json (captions are the script's words, timed from Whisper's word times), built with
+scripts/episode_edit.py. Captions Rammetto One 76 px, centred at y = 880. Music: "So Happy World" (no earlier video
+used it). Sound effects: the shower-curtain episode's level-matched emotion sounds, one on the beats that matter.
+
+THE INDEPENDENT FRAME REVIEW OF CUT V2 AND WHAT CHANGED BY V5
+A fresh reviewer read all 1200 frames of cut v2. Clean: no mouths, eyebrows or pupils, every word spelled right, no
+black frames, no caption faults. What it found, and what was done:
+  fixed   words hanging in the air before their painted sign or board landed (clips 1, 4, 4b, 5): each piece of lettering
+          is its own pass and starts once the painted thing is down; during the fly-in only the banner is lettered
+  fixed   "1st" sliding off the ribbon during the crane (clip 8): it is placed on the painted rosette, found by its blue
+  fixed   one stray frame with a light bulb half a second early (clip 3): the frame before it is held
+  fixed   Ring Sol reading as a red vase from overhead and having no eyes under his ring (clip 7): re-shot from a
+          high three-quarter angle with the ring low on his body -> 07-skeleton-v4 -> 07-paint-v4 (used)
+  fixed   clips 4b and 7 had an orange sky and no sea (the low camera hid it): both re-shot from a higher camera;
+          04b-skeleton-v2 -> 04b-paint-v2 (used; no mouth this time)
+  fixed   the third sign dropping at the end of clip 4 and again in 4b: clip 4 now ends at 2.58 s, before it enters
+  fixed   "Fourth," over Sol's face as the camera pulls back (clip 6): the line starts at 1.1 s
+  fixed   the caption over the ribbon as it lands (clip 8): the line starts at 0.9 s
+  fixed   Hat Sol's hat showing in a sliver beside the end card: the card's orange runs off the right edge
+  fixed   the TEAM SOL table blinking off on the last frames of clip 6 (found on the next pass): the last lettering
+          frame is held
+Known and left in: the rival team in the far background is two or three Sols with a bucket that floats between them;
+  Hat Sol and Sleepy Sol are thin for about three frames as they turn away (clip 7); the deadpan in clip 2 is plain
+  eyes; a frame or two of lettering lag on a landing sign.
+
+STATUS (2026-11-27)
+Current cut: renders/group-project-v5.mp4 (49.9 s, 24 fps, 1080 x 1080), -v5-nomusic and -v5-web (the end card shows
+  the sign-up address). Cuts v1 to v4 are kept. Not approved by Elaine.
+In completed/: "Doing The Whole Group Project? Do These 5 Things.mp4" (v5, music "So Happy World").
+Checks on v5: build checks PASS (no sound across a cut, 0.27 s least room, length, ending, no black); the no-music cut
+  reads back as the script word for word (Whisper writes "doc" as "dock"); every frame laid out in
+  renders/review-group-project-v5/. The full independent review was done on v2; v5 was checked at the shots that changed.
+Tracker sheet: "Advertisements" row 4 filled in (topic, "So Happy World", description with both links and five
+  hashtags), Status "In Progress". Not uploaded anywhere.
+STILL OPEN FOR ELAINE: the course name. The film and the card say "Social Impact & Project Development" (the website's
+  name for this card art) with the line "teaches you how to take an idea and actually make it happen". If she wants
+  "Project & Nonprofit Building" and "how to actually run a team", it is one narrator take and art/end_card_pnb.png.
+  Also her "1:1" was read as the square format.
+Credits: about 97 s of paint at 720p (about 218) plus ten narrator takes. Paints: 16 jobs for 9 shots (clip 2 twice,
+  4 twice, 4b twice, 6 three times, 7 three times).
+
+
+CUT v6 (2026-11-27): ELAINE'S NOTES ON v5 AND WHAT WAS DONE
+Her words are in guidelines/checklist.md ("Whole Group Project" ad, cut v5). Per shot:
+  clip 1  "fly through the bottom ... it just fazes through the flag": the camera comes straight in and passes UNDER the
+          banner (the banner hangs higher); no plan board in this shot (it flew past blank). 8.5 s, so the first line is
+          followed by a second of Sol still rushing about before "Wait, are you...". 01-skeleton-v4 -> 01-paint-v2.
+  clip 2  the ring at Ring Sol's feet; 6.8 s for the pause before "Okay, here are five things". 02-skeleton-v4 -> 02-paint-v3.
+  clip 3  unchanged (03-paint-v1); lettering re-rendered with the re-aligned art.
+  clip 4  re-shot as the short slide past Sleepy Sol and Hat Sol only (3.2 s), with the whole "Second, ..." take.
+          04-skeleton-v3 -> 04-paint-v3.
+  clip 4b unchanged paint (04b-paint-v2: the frame she called "what floaty sol should look like"); the words now ride
+          down on the cards.
+  clip 5  "why is he doing this can we just keep it like this": no smug face, plain eyes to the end. 05-skeleton-v3 ->
+          05-paint-v2 came back unpainted (rejected), -v3 and -v4 are both good; v4 is used (the second board lands on
+          the skeleton's beat). JUDGING 6:00 and DONE BY 5:00 follow their painted boards.
+  clip 6  ring low. 06-paint-v4 (skeleton v5) redrew the half-built castle in a new place at 3.8 s (rejected). The shot
+          is now on open sand: 06-skeleton-v6 -> 06-paint-v5 (used) and -v6 (spare; Sleepy Sol does not wake in it).
+  clip 7  "sand appears in somehow": open sand, no castle, heap or bucket. Ring Sol now stands at the LEFT; he is asked,
+          nods and hops out of the frame, then Sol turns to the other two. 07-skeleton-v7 -> 07-paint-v6 (used, with the
+          open mouth of frames 108 to 128 painted out by fix_mouth_below_eyes.py -> 07-paint-v6-nomouth). Two re-rolls
+          (07-paint-v7, -v8) put a straw hat on our Sol and are rejected. 07-skeleton-v5 and -v6 (in skeleton/old/) were
+          never painted.
+  clip 8  "poor guy in floaty": Ring Sol and our Sol stand side by side, whole, left of the end card (the wide view is
+          further back); no plan board; 11 s. "1st" is centred on the ribbon's cream middle. 08-skeleton-v4 -> 08-paint-v2.
+Narration: takes 01b, 03, 04 and 07 re-recorded (their first or last sound was clipped: audio/check_takes.py; the old
+  ones are in audio/rejected/). The trim is looser (audio/trim_takes.py); the v5 trims are in audio/edit-v1/.
+Pauses between lines in v6 (make_edit.py prints them and stops under 0.75 s): 1.28, 2.64, 1.19, 1.06, 1.17, 4.32 (the
+  silent clip 4b), 1.32, 1.42, 2.23 s.
+Lettering: the table and cards sit on one baseline (overlays/make_art.py); signs that move are followed in the painted
+  frames (overlays/composite.py, "track").
+Known and left in v6: a faint smudge under Sol's left eye for about half a second where the mouth was painted out
+  (clip 7, 4.7 to 5.3 s of the clip); the sky in clip 7 turns from pale gold to rose as the camera slides; the rightmost
+  Sol in the board shot is cut by the edge of the square, as in v5; the "Flag: Me" card is cut by the left edge (4b).
+

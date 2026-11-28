@@ -1,0 +1,320 @@
+IGNITE x SOL: "POV: YOU'RE DOING THE WHOLE GROUP PROJECT"
+Course ad, script v1 (shooting script)
+
+(Written by Claude on 2026-11-27 from Elaine's topic and description. Script only: nothing has been recorded,
+rendered or painted. Not read or approved by Elaine yet.)
+
+====================================================================
+SPECS
+====================================================================
+Format:      VERTICAL 9:16 (1080 x 1920). Say so if this one should be
+             landscape like "All Due This Week"; the layout changes.
+Length:      About 45 seconds (91 words, about 33 seconds of speech)
+Narrator:    Arthur (only voice). Sol is silent and answers by acting.
+Course:      See "Check before generating": the name and the last line
+             depend on which course this ad is for.
+Ending:      No question at the end. Sol looks up and listens through
+             the last line, nods, and only then makes the happy face.
+Captions:    Must match the narration below word for word. Any take that
+             differs gets regenerated, not cut around.
+Pacing:      Narration is never sped up. If a take runs long, extend the
+             clip.
+
+
+====================================================================
+THE STORY IN ONE LINE
+====================================================================
+The group project is a sandcastle, due before the tide comes in. Sol is
+building all of it while his group, three other Sols, lies around on the
+beach. Arthur gives him five tips, and each one pulls the group in, until
+all four Sols finish the castle together.
+
+The beach and the castle are the course card's own art (Sol on a
+sandcastle at sunset), so the last shot turns into the end card.
+
+
+====================================================================
+THE FOUR SOLS (lock this first)
+====================================================================
+All four are the same approved 3D Sol. One simple one-piece thing tells
+each one apart, and it never comes off:
+
+  OUR SOL      nothing extra. The only one working.
+  SLEEPY SOL   asleep on a striped towel under a beach umbrella (Zzz).
+  RING SOL     wears a pink swim ring round his middle.
+  HAT SOL      a small straw hat on his flame tip, staring at the sea.
+
+The names above are the names written on the signs. Lettering is never
+painted: every sign is drawn once and laid over the painted clip.
+
+
+====================================================================
+THE SET (use in every clip)
+====================================================================
+- A wide beach at sunset: peach sky, pale sand, slow waves on the left.
+- The castle site in the middle: one finished tower, a half-built wall,
+  a bucket and a shovel. It grows from clip to clip and is finished in
+  Clip 8, matching the card art (three towers, a flag, shells, the red
+  bucket and shovel).
+- A small sign staked in the sand beside it: "GROUP PROJECT".
+- The three other Sols are off to the right, well away from the castle.
+- Captions sit in the ad band (70% of the way down). Keep faces and
+  signs above it.
+
+
+====================================================================
+CHARACTER NOTES
+====================================================================
+- Sol: no mouth, no eyebrows. Emotion comes from the eyes, the marks,
+  the body (hops, leans, nods) and a bounce on every change of face.
+- Faces are from the 38-expression set, by exact name. This script
+  uses: normal, determined, panic, sigh, angry, idea, smug, startled,
+  confused, asleep, scared, singing, surprised, happy, joy, sparkle.
+- One cartoon gag per clip, never the same one twice:
+    1 the frantic zip between jobs      5 the flinch, then smug
+    2 the deadpan look into the camera  6 heads popping into frame
+    3 the light bulb                    7 the innocent whistling
+    4 the double take                   8 the group cheer
+- Annoyed and tired belong to Clips 1 and 2 only. From Tip 1 on he is
+  calm and busy.
+- Nobody reaches for anything with an arm. Actions are hop, bump, lean,
+  nub up, nod. Props are one piece each.
+- Emotion sounds on the big beats only, not on every face.
+
+
+====================================================================
+CLIP BY CLIP
+====================================================================
+
+--------------------------------------------------------------------
+CLIP 1: HOOK                                          0:00 to 0:07
+--------------------------------------------------------------------
+SET:     The beach. Sol alone at the half-built castle, the "GROUP
+         PROJECT" sign beside it.
+CAMERA:  Fly-in. Starts high over the water, sweeps down across the
+         beach and lands low on Sol and the castle. Settled by 0:02.
+ACTION:  Sol zips between three jobs by himself: pats the tower, bumps
+         the bucket over, hops to the wall, back to the tower, faster
+         each time. He stops, sags, looks up and nods.
+EXPRESSIONS:
+  0:00  determined (working)
+  0:03  panic (the zip speeds up)
+  0:05  sigh (he stops and sags)
+  0:06  Looking up, one tired nod
+NARRATION:
+  0:02  "Sol, is that your group project?"
+        (starts once the sign and the castle are in frame)
+  0:04  "Wait, are you building the whole thing by yourself?"
+        (starts after he has done three jobs alone)
+
+--------------------------------------------------------------------
+CLIP 2: SETUP                                         0:07 to 0:12
+--------------------------------------------------------------------
+SET:     Same beach.
+CAMERA:  Opens CLOSE on Sol's face. He turns and holds a nub up to the
+         right; the camera whips right to the three other Sols, holds,
+         then whips back to Sol.
+ACTION:  The three: Sleepy Sol snoring under the umbrella, Ring Sol
+         bobbing in his swim ring, Hat Sol staring at the sea. Back on
+         Sol: he turns slowly and stares straight into the camera.
+         Then he looks up and squares himself.
+EXPRESSIONS:
+  0:07  angry (red top), nub up
+  0:08  (the three Sols: asleep, content, normal)
+  0:10  sigh, deadpan into the camera
+  0:11  Looking up, determined
+NARRATION:
+  0:08  "And that's your group?"
+        (starts once all three are in frame)
+  0:10  "Okay, here are five things that'll fix this."
+
+--------------------------------------------------------------------
+CLIP 3: TIP 1, SMALL PIECES                           0:12 to 0:16
+--------------------------------------------------------------------
+SET:     A plan board staked in the sand beside the castle. A drawing
+         of the whole castle on it.
+CAMERA:  Low angle looking up at the board, Sol beside it. Cranes down
+         into place in the first half second, then holds still.
+ACTION:  Sol looks from the castle to the board. Light bulb. He hop-taps
+         the board and the drawing splits into four cards that pop out
+         one at a time: "Towers", "Walls", "Moat", "Flag".
+EXPRESSIONS:
+  0:12  thinking
+  0:13  idea (light bulb)
+  0:15  normal
+NARRATION:
+  "First, split the project into small pieces."
+  (the cards start popping on "split")
+
+--------------------------------------------------------------------
+CLIP 4: TIP 2, ONE NAME EACH                          0:16 to 0:21
+--------------------------------------------------------------------
+SET:     The row of lazy Sols, then our Sol at the end of it.
+CAMERA:  A slide along the row, right to left, past each Sol in turn,
+         ending on our Sol.
+ACTION:  A little sign on a stick drops into the sand beside each one
+         as the camera passes:
+           Ring Sol    "Towers: Ring Sol"   he does a double take
+           Hat Sol     "Walls: Hat Sol"     he tilts, question mark
+           Sleepy Sol  "Moat: Sleepy Sol"   he sleeps straight through it
+           Our Sol     "Flag: Me"           he puffs up, pleased with
+                                            himself (he kept the easy one)
+EXPRESSIONS:
+  0:17  Ring Sol: startled
+  0:18  Hat Sol: confused
+  0:19  Sleepy Sol: asleep
+  0:20  Our Sol: smug
+NARRATION:
+  "Second, put one name on each piece."
+  (starts as the first sign lands)
+
+--------------------------------------------------------------------
+CLIP 5: TIP 3, AN EARLY DEADLINE                      0:21 to 0:26
+--------------------------------------------------------------------
+SET:     The wet sand between the sea and the castle, close. A flag
+         already standing near the castle: "HIGH TIDE 6:00".
+CAMERA:  Close and low along the sand, the sea on the left, the castle
+         on the right. Slow and steady so the two flags read.
+ACTION:  Sol hops and a second flag drops into the sand in front of the
+         first: "DONE BY 5:00". A wave runs up the beach at him. He
+         flinches. It stops well short of both flags and slides back.
+         He straightens up.
+EXPRESSIONS:
+  0:21  normal
+  0:23  scared (the wave)
+  0:25  smug
+NARRATION:
+  "Third, set a deadline before the real deadline."
+  ("before" lands as the second flag does, in front of the first)
+
+--------------------------------------------------------------------
+CLIP 6: TIP 4, ONE DOC                                0:26 to 0:31
+--------------------------------------------------------------------
+SET:     The plan board again, now a full page: "TEAM SANDCASTLE" with
+         three columns, Task / Who / Done by, filled in from Clips 3
+         to 5.
+CAMERA:  From BEHIND the Sols, over their shoulders, looking up at the
+         board. Starts tight on the page and pulls back and up.
+ACTION:  Our Sol stands under the board. The others pop into the frame
+         one at a time: Ring Sol from the right, Hat Sol from the left,
+         then Sleepy Sol's umbrella slides in with him still under it.
+         He wakes with a jolt. All four look up at the page.
+EXPRESSIONS:
+  0:26  Our Sol: normal
+  0:28  Ring Sol, Hat Sol: surprised (reading)
+  0:29  Sleepy Sol: asleep, then startled
+NARRATION:
+  "Fourth, keep everything in one doc the whole team can see."
+  ("the whole team" lands as the last one pops in)
+
+--------------------------------------------------------------------
+CLIP 7: TIP 5, ASK ONE PERSON                         0:31 to 0:36
+--------------------------------------------------------------------
+SET:     The castle site. Our Sol facing the three others.
+CAMERA:  High angle looking down on all four, then drops to eye level
+         beside our Sol and Ring Sol.
+ACTION:  Our Sol waves both nubs at the group. All three turn away at
+         the same moment and whistle at the sky. Our Sol hops right up
+         to Ring Sol and holds a nub up at him. Ring Sol jolts, nods
+         hard, and bounces off toward the towers.
+EXPRESSIONS:
+  0:31  Our Sol: normal
+  0:32  the three: singing (music notes: the whistle)
+  0:34  Ring Sol: startled, then determined
+  0:35  Our Sol: happy
+NARRATION:
+  "And fifth, ask one specific person, instead of saying, can someone."
+  (caption: And fifth, ask one specific person instead of "can someone.")
+  ("one specific person" lands as he reaches Ring Sol)
+
+--------------------------------------------------------------------
+CLIP 8: PAYOFF                                        0:36 to 0:45
+--------------------------------------------------------------------
+SET:     The finished castle at sunset, the card art come to life: three
+         towers, the flag on top, shells, the red bucket and shovel.
+         All four Sols around it.
+CAMERA:  Opens close on the flag and cranes back and down until the
+         castle and the four Sols sit in the lower third of the frame.
+ON SCREEN: The orange end card slides in over the top two thirds at
+         0:38 and stops above the captions. Course art on top, the
+         course name, "Join Ignite today!", "Link in description".
+         Card text is on screen only, not spoken.
+ACTION:  Our Sol hops as the flag settles. The other three bounce
+         behind him. He looks up at the Narrator and listens to the end
+         of the line. He nods. Then the happy face, and all four cheer
+         with their nubs up. Hold. No black.
+EXPRESSIONS:
+  0:36  sparkle (the finished castle)
+  0:38  Looking up, normal, listening
+  0:43  Nod
+  0:44  happy; the other three: joy
+NARRATION:
+  0:37  "Ignite's free Social Impact and Project Development course
+        teaches you how to take an idea and actually make it happen."
+
+
+====================================================================
+FULL NARRATION / CAPTION TEXT (word for word)
+====================================================================
+Sol, is that your group project? Wait, are you building the whole thing
+by yourself?
+
+And that's your group? Okay, here are five things that'll fix this.
+
+First, split the project into small pieces.
+
+Second, put one name on each piece.
+
+Third, set a deadline before the real deadline.
+
+Fourth, keep everything in one doc the whole team can see.
+
+And fifth, ask one specific person, instead of saying, can someone.
+
+Ignite's free Social Impact and Project Development course teaches you
+how to take an idea and actually make it happen.
+
+Word count: 91 (about 33 seconds of speech at a natural pace)
+
+
+====================================================================
+WHERE EACH TIP COMES FROM
+====================================================================
+The Summer 2026 live course "Project and Nonprofit Building", Day 2
+("Planning & Execution"), slide "Build your game plan":
+Tip 1  Small pieces      -> "Break the big goal into smaller tasks",
+                            "1 List Tasks"
+Tip 2  One name each     -> "2 Assign Roles: who's doing each one?"
+Tip 3  Early deadline    -> "3 Set Deadlines: one deadline per task"
+                            (the "before the real deadline" part is ours)
+Tip 4  One doc           -> "4 Team Document" (the Team Workspace doc
+                            with its Task / Team Member / Due table)
+Tip 5  Ask one person    -> not in the slides; it is ours
+
+
+====================================================================
+CHECK BEFORE GENERATING
+====================================================================
+[ ] WHICH COURSE. The website no longer lists "Project & Nonprofit
+    Building". Its card art now belongs to "Social Impact & Project
+    Development" (Anisa Doshi Chandra, independent, six weeks). That
+    course's outline is about starting a nonprofit: picking a cause, a
+    website, Instagram, a first event, fundraising, growing. It does not
+    teach running a team, so the description's line "teaches how to
+    actually run a team" would not be true of it. This script uses the
+    site's name and a last line that fits that course.
+    If the ad is for the live "Project and Nonprofit Building" course
+    (its Day 2 does teach tasks, roles, deadlines and a team doc), swap
+    the last line back to:
+      "Ignite's free Project and Nonprofit Building course teaches how
+      to actually run a team, from the first idea to the finished
+      project."
+[ ] The end card writes the course name exactly as on the course card:
+    "Social Impact & Project Development" (or the other, per above).
+[ ] "Free": the narration and the card both say it, as in the first two
+    ads.
+[ ] Vertical or landscape.
+[ ] The sign names (Sleepy Sol, Ring Sol, Hat Sol, Me) and the two tide
+    times (6:00 and 5:00) locked.
+[ ] The tracker row and description say "Project & Nonprofit Building"
+    and "run a team"; they change with the first box.

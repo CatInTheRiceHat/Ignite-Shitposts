@@ -675,3 +675,48 @@ these kinds of logic that you need to know when making the videos so they're mor
 - [ ] Clip 01: "Sol, why are you glaring at the shower curtain?" starts only after the glare is on his face.
 - [ ] Every other line: the thing it names (a face, an action, an arrow) is already on screen when the words come.
       Found on the pass: clip 04, "loops back around" was said before the loop arrows appeared.
+
+
+## "Whole Group Project" ad: Elaine's notes on the script (2026-11-27)
+
+She pasted a topic and description and wrote "lets make the course", then stopped the build: "NOT THE COURSE JUST THE
+SCIRPT OOPSIES". On script v1 (a beach, Sol building a sandcastle while three other Sols lie about): "lets do a challenge
+can we do like oh sols are compeeting in a sandcastle challenge and then like theres the [lazy ones] btw can we make
+them 1:1". Then: "okkkayyy lets goo make video".
+
+- [ ] The beach is a sandcastle contest between teams of Sols (banner, clock, a rival team); our Sol's teammates are the
+      lazy ones.
+- [ ] "1:1" was read as a SQUARE film (my reading; she has not confirmed it). 1080 x 1080.
+- [ ] When she pastes a new topic, write the script first and show it; build only when she says to.
+
+Technical findings on this ad (not her words) are in current-rules.md, section 8.
+
+## "Whole Group Project" ad, cut v5: Elaine's notes (2026-11-27)
+
+Her words, in the order she sent them, each with what was done. These are Elaine's notes, not reviewer findings.
+
+- **"sand appears in somehow"** (two frames of the "ask one person" shot: a heap of sand behind the Sols in one, gone in
+  the other; a bucket beside Ring Sol). Nothing may come and go inside a shot. That shot, and the board shot, are now on
+  open sand with no castle, heap or bucket behind the Sols.
+- **"after every time arthur says smth there needs to be a pause so after 'hows sand castle challenge going' he has to
+  pause becuase its awkward like that. in fact be really aware of like the pauses make sure that the video flows
+  nicely ok"**. Every narrator line is followed by a real pause before the next one (the edit build now refuses a cut
+  where two lines are less than 0.75 s apart; v6 has at least 1.06 s everywhere).
+- **"also the text must move when the signs are moving for example judging 6 pm"**. Words on a sign ride on the painted
+  sign: they fall with it, shake with it, and never sit still while it moves.
+- **"make sure that the names are aligned correctly because some are spaced middle some up etc"** (the TEAM SOL table).
+  Every word in a row sits on one baseline.
+- **"like this isnt centered"** ("1st" low on the ribbon). Lettering is centred on the thing it is on.
+- **"poor guy in floaty lol"** (Ring Sol half hidden behind our Sol in the last shot) and **"HE CANT EVEN SEE LMFAOO
+  CAN WE LIKE MAKE IT LOWER"** (the ring across his face), then, of a frame with the ring at the very bottom of his
+  body, **"this si what floaty sol should look like ok"**. The ring sits at his feet with his whole face clear, and he
+  stands in full view, never behind another Sol.
+- **"also the 'second' from arthur is cut off. make sure that you put full audio for each thing ok"**. Every take is
+  checked for a clipped first or last sound before it is used.
+- **"LMFAO why is he doing this can we just keep it like this"** (the half-shut smug eyes at the end of the clock shot;
+  "like this" was the frame with plain eyes). No smug face there: plain eyes.
+- **"feel like when u fly in u should fly through the bottom cuz rn it just fazes through the flag"**. The opening
+  camera passes UNDER the banner; a camera never passes through a thing.
+- **"i wonder if thers a thing i can install that can make u view it"**: a question, answered in the session (nothing to
+  install: frames are pulled out of the file and looked at, the sound is transcribed and measured).
+
